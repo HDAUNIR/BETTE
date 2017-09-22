@@ -95,7 +95,7 @@ Esta fase del proyecto ha sido liderada por Concepción María Jiménez. Teresa 
 ## Cómo citar BETTE
 
 Para citar la colección como tal:
-* María Jiménez, Concepción, y Santa María Fernández, Teresa:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, Unir: 2017. \<\>
+* María Jiménez, Concepción, y Santa María Fernández, Teresa:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, Unir: 2017. \<https://github.com/GHEDI/BETTE\>
 
 Para citar la presentación del corpus en su versión 1.0:
 * María Jiménez, Concepción, Martínez Carro, Elena, Santa María Fernández, Teresa, Calvo Tello, José, Simón Parra, María, Martínez Nieto, Roxana Beatriz, García Sánchez, María, *BETTE: Biblioteca Electrónica Textual del Teatro en Español de la Edad de Plata*, Málaga, Congreso HDH: 2017 \<\>
