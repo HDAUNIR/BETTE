@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short">La venganza de Atahualpa</title>
+				<title type="full">La venganza de Atahualpa. Leyenda dramática</title>
+				<title type="idno">
+					<idno type="viaf"></idno>
+					<idno type="bne"></idno>
+				</title>
+				<author>
+					<name type="full">Juan Valera</name>
+					<name type="short">Valera</name>
+					<idno type="viaf">46770556</idno>
+					<idno type="bne">XX918093</idno>
+				</author>
+				<principal xml:id="tsm">Teresa Santa María</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2016</date>
+				<idno>028</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="print-source">
+					<date>1908</date>
+					<publisher>Imprenta Alemana</publisher>
+					<pubPlace>Madrid</pubPlace> 
+				</bibl>
+				<bibl type="electronic-source">
+					<date>1999</date>
+					<publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+					<pubPlace>Alicante</pubPlace>
+					<ref target="http://www.cervantesvirtual.com/portales/juan_valera/obra-visor-din/la-venganza-de-atahualpa-1878--0/html/" />
+				</bibl>
+				<bibl type="first-published">
+					<date>1878</date>
+					<publisher>Revista de España</publisher>
+					<pubPlace>Madrid</pubPlace>
+				</bibl>
+				<bibl type="first-performance">
+					<date/>
+					<pubPlace/> 
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>En la Jornada I Laura no quiere al pretendiente, Francisco de Cuéllar, amigo de su hermano4 Bartolomé de Rivera-  y prefiere retirarse a un convento. Ambos jóvenes eran estudiantes en Salamanca, estuvieron al servicio de Pizarro y han regresado recientemente enriquecidos de América.  Rivera intenta sonsacar al padre Antonio y a su tía Brianda si hay un razón para que Laura no quiera casarse.  Rivera le da dos horas a doña Brianda para que le diga de quién se trata. La tía revela solo al confesor de su sobrina que hace varios años un hombre - del que desconoce el nombre – entró en la casa y la sedujo.</p>
+				<p>En la Jornada II se nos presenta a doña Irene, en cuya casa se aloja ahora Laura y quien confiesa al padre Antonio que fue su hijo don Fernando, un antiguo comunero proscrito, el seductor y amante de Laura hace tres años. Los antiguos amantes se reencuentran y reafirman su amor, con la bendición de doña Irene.</p>
+				<p>En la Jornada III Cuéllar quiere tender una emboscada y vengarse de don Fernando. Doña Brianda confiesa a Cuéllar que Rivera no solo es su sobrino sino que fue su amante y pide que la vengue. También Cuéllar informa a Rivera que pretende matar a don Fernando y casarse con su viuda tras raptarla. Don Fernando le interrumpe en medio de su intento de rapto. El padre Antonio interrumpe el duelo y les comunica que Cuéllar ha matado a Rivera y doña Brianda se ha suicidado. Siguen los duelistas y cae muerto Cuéllar, de ahí el nombre que da título a la pieza. </p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2015-08-03" who="#tsm" status="draft">Versión XML-TEI</change>
+			<change when="2016-06-06" who="#jct" status="draft">Versión inicital TEI.</change>
+			<change when="2016-12-07" who="#tsm" status="approved">Versión inicital TEI.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<p>A la Excma. Señora Marquesa de Heredia</p>
+				<p>Hace años, cuando yo no había compuesto más que poesía lírica, me aseguraba cierto ilustre amigo mío, que ya murió, que mis versos eran de tal calidad, que jamás gustarían a las mujeres, ni habría una siquiera que se aprendiese de memoria media docena de ellos. Esto me afligió de suerte, que dejé de escribir versos y me dediqué a la vil prosa.</p>
+				<p>Por desgracia, según opinión de algunos críticos discretos, con la prosa me sucede exactamente lo mismo. Los mencionados críticos declaran que han dado a leer mis novelas a sus novias respectivas, y que todas las han devuelto sin leerlas, a pesar de la buena voluntad y de los esfuerzos que por leerlas han hecho.</p>
+				<p>Esto me ha desconsolado más aún. Si las mujeres no leen ni mis versos ni mi prosa, ¿quién los leerá? Yo disto mucho de ser un sabio. Yo no aspiro a enseñar nada. Yo no he descubierto ninguna útil o encumbrada verdad. Yo no trato de abrir nuevos senderos al errante género humano. ¿Para qué escribo entonces? Por este pícaro prurito de escribir, de que no puedo libertarme.</p> 
+				<p>Así cavilaba yo, y seguía escribiendo sin poder remediarlo; porque, si yo hubiera podido remediarlo, no hubiera escrito. Yo seguía escribiendo sin fe y sin esperanza.</p>
+				<p>Imagine usted, pues, señora, qué consolación tan inesperada y grande fue la mía cuando averigüé que usted y su hermana se sabían de memoria no pocos versos míos. Vamos, estuve para perder el juicio de gusto y de satisfacción. Aquello fue como ver el cielo abierto.</p>
+				<p>Verdad es que la memoria de usted es un tesoro de poesía castellana, y que, si se perdiesen todos los libros en que dicha poesía se conserva, usted podría dictar una colección selecta de lo mejor; pero esto, en vez de atenuar mi alegría y mi vanidad, las acrecentaba. El buen gusto de usted era evidente. No era extravagancia gustar también de lo que yo había escrito.</p>
+				<p>A fin de no ensoberbecerme demasiado, atribuí entonces la rara estimación de usted por mis obras a algo como efecto hereditario. Yo viví tres años en Nápoles en compañía del Duque, su padre de usted. El Duque me quería, y miraba mis obrillas con singular benevolencia. Usted, sin duda, hace lo mismo, por imitar al Duque; impulsada y engañada quizá por el favorable concepto que la generosidad y el cariño como de padre, que el Duque me tuvo, le habían hecho formar de mí.</p>
+				<p>Sea como sea, yo estoy a usted agradecido con toda el alma. Mientras más viejo me voy poniendo, más ganas de escribir me van entrando. Yo no bailo. Yo apenas juego, porque casi siempre pierdo. Otras diversiones cuestan caras. Como soy corto de vista y algo torpe, no pesco ni cazo. ¿En qué me he de entretener como no sea en escribir? Al fin, aunque lo escrito valga poco y produzca menos, es entretenimiento barato, porque el papel de costeras de que saco mis cuartillas vale poquísimo; y no es cara aquella substancia que encomió el poeta cordobés, mi paisano, diciendo que la eternidad tenía ilustre asiento en ella y más firme que los mármoles y los bronces.</p>
+				<p>Así, animado en gran parte por usted, y persuadido ya de que hay alguna mujer que me lee, he trabajado en estos últimos tiempos, y he logrado más de lo que en mis sueños de gloria pude imaginar nunca. No me atrevo a creer que tengo un público, pero creo tener ya cierto número de lectores y aun de lectoras, si bien entre todos acaso no pasen de tres mil, esparcidos por la extensa superficie del globo que habitamos.</p>
+				<p>La facilidad de comunicaciones, de que se goza en el día, hace que hasta la producción más baladí recorra los países, atraviese las fronteras y traspase los mares, por donde yo, sin acertar en la vida a hacerme popular, me lisonjeo de haber acumulado dicho número de lectores.</p>
+				<p>Esto me basta para seguir escribiendo, sin aspirar a más. Ya creo contar con alguien que me lea y que pague, a la larga al menos, el coste de la impresión de mis librillos.</p>
+				<p>La codicia, no obstante, rompe el saco, como dice muy bien el refrán.</p>
+				<p>Alentado yo por mi buen éxito relativo, me propuse, no hace mucho, convertirme en escritor popular y buscar aplauso y ganancia en el teatro. Escribí, pues, una zarzuela, tomando asunto de un cuento de las <hi rend="italic">Mil y una noches</hi>; adornándole y bordándole con todos aquellos perfiles que más a propósito me parecieron, e imitando, a mi manera, los dramas fantásticos de Carlos Gozzi, que él llamó <hi rend="italic">fiabe</hi>, como <hi rend="italic">La dama serpiente</hi>, <hi rend="italic">El Rey de los espíritus</hi> y <hi rend="italic">Turandot, princesa de la China</hi>, que obtuvo la honra de que Schiller la tradujese en lengua alemana.</p>
+				<p>Hablando con franqueza, cuando mi zarzuela estuvo terminada, yo me las prometí felices. ¡Qué ironía jocosa se me antojaba notar en toda ella! ¡Qué bien concertados disparates! ¡Qué versos tan lindos! ¡Qué novedad en todo! ¡Cuánto chiste ático y claro sin chocarrería! Lleno, pues, de confianza se la leí a varios peritos y a dos o tres empresarios de los más famosos, atinados y previsores. Ninguno vio los chistes ni las lindezas que yo había creído ver. Poner en escena mi obra costaba, además, unos cuantos miles de duros. Era casi evidente que las gracias que los empresarios no veían ni descubrían, estaban muy hondas, dado que existieran, y el público no había de ser bastante zahorí para desentrañarlas. Cruel golpe hubiera sido, pues, para mí el que por mi culpa se arruinase un empresario, gastando su dinero en decoraciones y trajes, y el que, en la noche del estreno, se anegase la máquina de mis ilusiones en un diluvio de silbidos.</p>
+				<p>Me llené de terror. Al maestro que me había prometido poner en música mi obra, le relevé de la promesa, y yo desistí para siempre de mi fugitiva pretensión de ser poeta dramático.</p>
+				<p>No resolví esto ni por excesiva soberbia, ni por modestia y humildad tampoco. No lo resolví por modestia, porque mi zarzuela no me parece mala. Si me pareciese mala, no la publicaría. Y no lo resolví tampoco por desdén y orgullo, aplicándome el precepto evangélico que dice: <hi rend="italic">no eches tus margaritas a los cerdos</hi>, porque sé muy bien que el público tiene un instinto infalible para adivinar lo bueno, y nada, por elevado que sea, deja de estar a su alcance. Noble testimonio de ello dan, por ejemplo, <hi rend="italic">Los Amantes de Teruel</hi>, de Hartzenbusch, y el inmortal y glorioso hermano de usted, <hi rend="italic">Don Álvaro</hi>.</p>
+				<p>Mi resolución nació del pleno convencimiento de que, con toda independencia del valor literario de un drama, se requiere para ser aplaudido una condición de que yo carezco sin duda; se requiere cierta virtud magnética, por la cual el poeta comprende el sentir y el pensar del público, en un momento dado, y se pone en consonancia simpática con dicho pensar y dicho sentir. Repito que carezco de esta virtud como de otras muchas, y esta virtud es el más esencial requisito para ser autor dramático.</p>
+				<p>Harto siento yo no serlo, porque siempre he creído que la flor más bella de toda literatura, el último y más espléndido brote del árbol del arte, es el teatro. En él la poesía vuelve a ser objetiva por reflexión, como en la epopeya lo fue por instinto. En él caben todos los géneros, el lírico, el didáctico, el satírico y el narrativo, concurriendo a hacerle cifra de la poesía. La acción prevalece y da ser a todo. El poeta oculta su personalidad y hace hablar a sus héroes. El pueblo escucha y aplaude. Y no sólo aparece en el teatro la poesía en todos sus géneros y formas, produciendo una hechicera, ideal y fantástica representación de la vida humana, sitio que, a fin de rodear y formar séquito pomposo a la poesía, acuden solícitas las demás artes, como siervas ágiles que se esmeran en engalanarla. La pintura, la escultura y la arquitectura levantan para ella palacios aéreos, erigen estatuas o monumentos o fingen jardines amenos y bosques frondosos; la arqueología y la indumentaria le prodigan trajes, alhajas y muebles antiguos o peregrinos; la música le da ricas melodías, y la danza le presta sus rítmicos movimientos, y aquella singular belleza, por quien la docta antigüedad la tuvo en tanta estimación, haciéndola como centro entre los ejercicios del cuerpo y las tareas y disciplinas del alma; poniéndola como mediadora y participante de cuanto crea la mente, que es la <hi rend="italic">música</hi>, en su acepción más lata, y de cuanto el cuerpo bien educado y robusto es capaz de hacer para mostrar su enérgica gallardía, que es la <hi rend="italic">gimnástica</hi>. Y como todo esto se somete a la poesía, resulta que en el teatro es donde da y debe dar un pueblo adulto, fecundo y brioso, amplia muestra de su ingenio, y donde hace y debe hacer alarde brillantísimo de toda su cultura.</p>
+				<p>Siempre me ha repugnado la idea de que el teatro sea una escuela de moral. Y no por tenerle en menos, sino porque me parece poco. ¿Cómo subordinar la poesía, que en ella misma tiene su fin, a un fin extraño, por sublime que sea? Además que, mirado el teatro como la más cumplida manifestación de toda la cultura de un pueblo, la moral entra, como lo restante, en la manifestación; y ésta no es sólo a manera de espejo clarísimo, donde dicha cultura se refleja, sino espejo de aumento y de mágico poder, en el cual no se refleja ella tal como es, aunque magnificada, sino limpia asimismo de manchas e impurezas, y hermoseada y radiante de luz divina, en donde ya se columbra algo de los futuros ideales, si es que los hay.</p>
+				<p>Siendo tal mi concepto del teatro, imagine usted, lo que me pesará de no poder escribir para el teatro; pero, ¿qué le hemos de hacer? Dios no me llama por ese camino.</p>
+				<p>Esto no obsta para que yo, sin pensar ya en el teatro, haya querido escribir y haya escrito, además de la zarzuela, otros dos como cuentos dialogados, que doy, juntos a la zarzuela, en un tomito, bajo el título común, y no me negará usted que modesto, de <hi rend="italic">Tentativas dramáticas</hi>.</p>
+				<p>Una de estas <hi rend="italic">tentativas</hi> se titula <hi rend="italic">La venganza de Atahualpa</hi>, la otra, <hi rend="italic">Asclepigenia</hi>. Ninguna de las dos, cada una por su estilo, es representable; pero ambas, y principalmente la segunda, son de lo menos malo que he escrito yo en mi vida. La necesidad de encerrarlo todo en breve cuadro, y de callarme y dejar hablar a los personajes, me ha obligado a ser sobrio, a no divagar y a ir al grano siempre, como vulgarmente se dice.</p>
+				<p>A no pocos comentarios se prestan ambas composiciones; algunas notas también debieran ponerse al fin para la mejor inteligencia del texto; pero la desidia se ha apoderado de mí, y todo va sin comentarios y sin notas. Que cada cual lo entienda como se le antoje. Sólo me atreveré a indicar aquí que en <hi rend="italic">Asclepigenia</hi> hay mucho de alusivo que le da un interés de actualidad. El panteísmo místico de los alemanes, como Schelling, Hegel y Krause, se asemeja no poco al de los alejandrinos, cuyo último representante de valía fue Proclo; y la caída entonces de la filosofía también se puede comparar algo a la caída de la filosofía en estos últimos tiempos, en que los adelantamientos de las ciencias físicas y experimentales y la afición y el entusiasmo por el bienestar material han convertido la ciencia en positivismo. Sólo falta ahora una religión nueva que se levante sobre tanta ruina y traiga en germen en su seno una nueva y más poderosa civilización. El pesimismo ateo de Hartmann y de Schopenhauer, y las melancolías de Renán, y los temores de Strauss, no prometen darnos la religión del porvenir ni nada que se le parezca. Estos señores son unos Budhas cómicos y sin caridad, que por único consuelo a nuestros males nos ofrecen la muerte, y por único freno de crímenes y pecados el progreso futuro, que ya entrevén, el cual ha de llegar a tanta perfección, que habilite a los sabios para destruir el universo y acabar así con nuestras maldades y miserias. Dios quiera que tarden en conseguirlo, pues lo que es a mí no me parece todo tan pésimo.</p>
+				<p>Ya que estoy con la pluma en la mano, diré también, por si alguien no lo sabe, que en <hi rend="italic">Asclepigenia</hi> todos los personajes son históricos, salvo Eumorfo y Crematurgo, y que a todos he procurado conservarles el carácter que en la historia tienen. Si a <hi rend="italic">Asclepigenia</hi> la hago un si es no es desaforada, sin que conste, como ya no queda nadie de su familia, no perjudico a nadie. Y si a Atenais la llevo a vivir con Asclepigenia, no la ofendo, pites eran paisanas e hijas ambas de filósofos, por lo cual es natural que viviesen juntas en Constantinopla, habiéndose antes conocido en Atenas.</p>
+				<p>Sólo me queda un escrúpulo; pero el escrúpulo ha acudido tarde, estando ya impresa la obra, y no se puede corregir el pasaje que le suscita: la desvergüenza con que Asclepigenia y Atenais murmuran de la santa emperatriz Pulqueria. Yo creo, sin embargo, que bien entenderá quien me leyere que Asclepigenia era una bribona, que el ladrón piensa que todos son de su condición, y que no es extraño que ella se hiciese eco de las hablillas calumniosas de los nestorianos y de otros herejes, a quienes la santa Emperatriz había perseguido.</p>
+				<p>Ningún autor es responsable de cuanta tunantería diga o haga cada uno de los personajes que saca a la escena, y yo no debo responder de las murmuraciones de aquellas mozas insolentes. No es menester acudir a la vida que el Padre jesuita Contucci escribió de la Emperatriz para respetar su limpia fama. Gibbon, con ser impío, la respeta, y en este punto no he de ser yo menos que Gibbon.</p>
+				<p>En cuanto a la bella Atenais, todos convienen en que fue algo ligera de cascos: hasta el P. Contucci, a pesar de su circunspección. Lo que le hago decir del bello Paulino está, pues, en su lugar, tanto más que por culpa de la manzana, que ella le regaló, vino a sospecharlo todo el emperador Teodosio II, y al bello Paulino le costó la vida, según refieren las historias.</p>
+				<p>En suma, lo que importa más es que estas tres, que he puesto yo en diálogo, diviertan a quien las lea, ya que para el teatro no sirven.</p>
+				<p>Yo se las dedico a usted por mil razones, largas de poner aquí. Se las dedico a usted, por ejemplo, porque usted tiene mucho entendimiento, y como le tiene, trata con indulgencia mis obras, y porque deseo dar una prueba de mi gratitud al favor que usted me hizo, dejando por falso profeta a mi ilustre amigo difunto; aprendiéndose de memoria bastante más de media docena de versos míos, y desautorizando también a los críticos discretos, cuyas novias no pueden sufrir mis novelas.</p>
+				<p>Acepte usted mi presente, estimándole y tasándole, no por el valor que tiene en sí, el cual es mezquino, sino por la respetuosa y sana intención con que lo hago, y con la cual estoy y estaré siempre deseoso de servir y complacer a usted como su amigo constante y agradecido Q. B. S. P.</p>
+				<p>Juan Valera</p>
+				<p>Madrid 1879.</p> <!--TSM: Toda esta dedicatoria no aparece en la primera edición de la obra, Revista de España (núm. 61 (1878): marzo y abril, pp. 5-25;  pp. 353-383. Tal y como puede consultarse en la Hemeroteca Digital, http://hemerotecadigital.bne.es/issue.vm?id=0002896845&page=353&search=Juan+valera+la+venganza+de+atahualpa&lang=es .-->
+			</div>
+			<div>
+				<castList>
+					<head>Personajes</head>
+					<castItem>
+						<role xml:id="juan">Juanilla</role>
+						<roleDesc>Criada de Laura </roleDesc>  
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="laur">Laura</role>
+						<roleDesc> </roleDesc>  
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="cuel">Francisco de Cuéllar</role>
+						<roleDesc>Amigo de Rivera y pretendiente de Laura</roleDesc>
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="rive">Bartolomé Rivera</role> 
+						<roleDesc> Hermano de Laura</roleDesc>
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="padr">El Padre Antonio</role>
+						<roleDesc>Conferor de Laura</roleDesc>
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="cipr">Cipriano</role>
+						<roleDesc>Criado indio de Rivera</roleDesc>  
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="bria">Doña Brianda</role>
+						<roleDesc>Tía de los dos hermanos y amante, además, de su sobrino Rivera</roleDesc>
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="iren">Doña Irene</role>
+						<roleDesc>Madre de don Fernando</roleDesc>
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="escu">Escudero</role>
+						<roleDesc> </roleDesc>
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="fern">Don Fernando</role>
+						<roleDesc>Comunero poscrito, seductor misterioso de Laura </roleDesc>
+						<actor/>
+					</castItem>
+					<castItem>
+						<role xml:id="pere">Pérez</role>
+						<roleDesc>Escudero de don Fernando</roleDesc>
+						<actor/>	
+					</castItem>
+					<castItem>
+						<role xml:id="garc">Garcés</role>
+						<roleDesc>Criado de Cuéllar</roleDesc>
+						<actor/>
+					</castItem>
+				</castList>
+			</div>
+			<div>
+				<stage>No hay que reprender a los que le mataron, pues el tiempo y sus pecados los castigaron después, ca todos ellos acabaron mal. (GÓMARA, <hi rend="italic">Historia de las Indias</hi>.) </stage>
+				<stage>La escena pasa en un lugar de Extremadura, por los años de 1542.</stage>
+			</div>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Jornada I</head>
+				<stage>Sala en casa de doña <rs key="#bria">Brianda</rs>.</stage>
+				<div  type="scene" n="1">
+					<head>Escena I</head>
+					<stage> <rs key="#laur">Laura</rs>, <rs key="#juan">Juanilla</rs>.</stage>
+					<sp who="#juan">
+						<speaker>Juanilla</speaker>
+						<p> Ya que tan poco cuidas del adorno de tu persona, deja que te coloque bien el manto. <stage> (Procura arreglársele bien.) </stage>¡Qué flojera! ¡Si se te cae! ¿Por qué quieres ir tan desgarbada? Es un contra Dios que, siendo tan linda, no hagas valer la belleza que Dios te ha dado. ¡En toda Extremadura no hay más gallarda moza que tú! ¡Pertinaz melancolía es la tuya! Pues no... ahora no tienes motivo. Nos faltaba dinero. Hoy nadamos en oro. Tu hermano ha traído de Indias el rescate de Atahualpa y el botín de Caxamalca, Jauja y el Cuzco. ¿Qué, más quieres?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Si yo no quiero nada.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juanilla</speaker>
+						<p> Y luego, para que la ventura sea cumplida, no contento tu hermano con traerte tantas riquezas, te trae la fama de su nombre, el brillo de sus hazañas, y te trae, por último, lo que más anhelan las niñas de nuestra edad... un marido que ni mandado hacer de encargo... con treinta años apenas, recio, brioso, bello como Adonis, y con mucha hacienda, ganada también en ese imperio que acaba de conquistar Pizarro. No comprendo tus penas; debieras estar alegre como unas sonajas.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Y lo estoy: ¿Por qué supones que no estoy alegre?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juanilla</speaker>
+						<p> No lo supongo; lo veo. Tu hermano lo ve también. Y lo ve y lo lamenta el Sr. Francisco de <rs key="#cuel">Cuéllar</rs>, a cuyo amor no correspondes.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¡Ay, <rs key="#juan">Juana</rs>! Yo no puedo mandar en mi corazón. <rs key="#cuel">Cuéllar</rs> es digno, por mil razones, de ser amado. Su gentil apostura, su valor, la misma vehemencia del afecto que me muestra, y sobre todo, el imperio y la osadía con que su ánimo se impone y señorea a los otros, son prendas que deben avasallar y rendir el corazón de una mujer; pero el mío está muerto para los amores del mundo. Apenas ha latido y ya está fatigado. Sólo ansío el reposo. La inesperada vuelta de mi hermano, y este repentino cambio de nuestra fortuna, de adversa en próspera, no bastan a hacerme variar de resolución. Sigo en mi propósito de cuando estaba pobre y desvalida. Quiero retirarme a un convento.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juanilla</speaker>
+						<p> ¿Qué motivos hay para tomar esa resolución, cuando todo debiera sonreírte? Tú me ocultas algo. Secreto dolor contrista tu espíritu. ¿Por qué no amas a <rs key="#cuel"><rs key="#cuel">Cuéllar</rs></rs>? ¿Amas quizá a otro hombre?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> No es menester acudir a la suposición de otro amor, ni es menester imaginar pena muy honda y misteriosa para explicar mi inclinación al claustro y mi despego de las cosas mundanales. Aunque sea yo indigna, ¿no puedo sentir la vocación?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juanilla</speaker>
+						<p> Puedes... pero ya te apartará de ella tu hermano. Tu hermano ama a <rs key="#cuel">Cuéllar</rs> y le debe mucho; <rs key="#cuel">Cuéllar</rs> te idolatra; su dicha pende de que le des un sí; y tu hermano, que anhela hacer la dicha de su amigo, te persuadirá al fin a que no le dejes desairado.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> No me hables más en eso,  <rs key="#juan">Juana</rs>. Me aflige y cansa el oírte. ¿Lo ves? Hasta es material mi cansancio. Casi no puedo tenerme en pie.</p>
+					</sp>
+
+					<stage>(<rs key="#laur">Laura</rs> se deja caer como desfallecida en un sillón de brazos.)</stage>
+
+					<sp who="#juan">
+						<speaker>Juanilla</speaker>
+						<p> Descansa un momento, y prepárate a recibir al Sr. Francisco de <rs key="#cuel">Cuéllar</rs>.
+							<stage> (Mirando por un balcón que hay en el fondo.) </stage>Asómate con disimulo. Ahora aparece por el extremo de la calle. Aunque no sea más que por curiosidad, asómate. Verás qué galán viene a visitarte. Fulgura sobre su frente, cual penacho de fuego, la esmeralda que trae en la gorra, y que, según dice el <rs key="#cipr">indio</rs> <rs key="#cipr">Cipriano</rs>, adornaba la cabeza de la principal o superiora de las vírgenes consagradas a ese mismo sol que en este instante ilumina la joya con sus rayos. La cadena de oro que pende de su cuello, debe de pesar unas cuantas libras. Y el vestido ¡qué pulcro y qué lujoso!, de raso, y velludo todo él... ¡Si parece tu novio un emperador! El jubón y los gregüescos son morados, con pespuntes de oro; los puños y la gorguera de primorosas randas; las calzas ceñidas, de punto, dejan lucir la bien formada pierna; y el lindo gabán, con mangas perdidas, está aforrado de marta. Vamos, señora, no seas de cal y canto. Mírale... ¡qué airoso viene! ¡Qué barba negra tan bien peinada y lustrosa! ¡Qué bonitos rizos! Pero... ya entra en el zaguán... Ya entró. Voy a abrirle.</p>
+					</sp>
+
+					<stage>(Sale <rs key="#juan">Juanilla</rs>. <rs key="#laur">Laura</rs>, al verse sola, exhala un hondo suspiro y exclama):</stage>
+
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¡Madre Santísima de los Dolores! ¡Jesús mío de mi alma! ¡Tened piedad de mí!</p>
+					</sp>
+				</div>
+				<div  type="scene" n="2">
+					<head>Escena II</head>
+					<stage>Entra <rs key="#juan">Juanilla</rs> acompañando a Francisco <rs key="#cuel">Cuéllar</rs>. <rs key="#juan">Juanilla</rs> se va, y deja al hidalgo con su señora.</stage>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Vengo, hermosa <rs key="#laur">Laura</rs>, a despedirme de vos para una ausencia, que espero sea corta. Vuestro hermano y yo tenemos negocios en Sevilla, y hemos convenido en que yo sea quien vaya a ponerlos en orden. Mucho me cuesta separarme de vuestro lado: os amo más cada día; pero conozco que esta separación es conveniente. Libre así del asiduo ahínco con que os visito, sirvo y pretendo, podréis meditar mejor en lo que os está bien hacer; y luego no seréis acaso tan dura conmigo.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Creedme, Sr. Francisco de <rs key="#cuel">Cuéllar</rs>, yo no puedo ser dura con vos, porque no soy ingrata. Grande es la honra que me hacéis en ofrecerme vuestra mano: yo os la agradezco...</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Pero no lo aceptáis. ¿Amáis a otro, <rs key="#laur">Laura</rs>?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> No, <rs key="#cuel">Cuéllar</rs>. Si mi alma fuese capaz de amar, os amaría.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Las mujeres tenéis mil melindres y os forjáis mil dificultades fantásticas que los hombres no entendemos. ¿Por qué no ha de ser capaz de amar vuestra alma? Yo he oído decir que el ángel de las tinieblas es el único ser incapaz de amar. Vos, que sois lo contrario, vos, que sois un ángel de luz, antes que al desamor, debéis sentiros propensa a enamoraros. Y la gratitud, <rs key="#laur">Laura</rs>, que confesáis deberme, es excelente preparación de amor. Poco os falta ya para amarme, si es que me estáis agradecida. Poned buen talante y me amaréis al cabo. ¿Calláis? ¿Nada me respondéis?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¿Qué he de responderos que os plazca? Sois discreto y valiente, estáis rico, volvéis de Indias cubierto de laureles; mi hermano quiere que yo sea vuestra; si yo me sintiera inclinada a amar, a nadie amaría mejor que a vos; pero ¿qué queréis? Me duele decíroslo. Os pediré perdón de rodillas si os agravio diciéndooslo. No os amo.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Repito que amáis a otro hombre. Tenéis miedo por él, y por eso no me lo confesáis. Yo sabré quién es mi rival. Yo me vengaré de quien me roba vuestro afecto.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Sosegaos, <rs key="#cuel">Cuéllar</rs>. No dudéis de mi sinceridad. No amo a criatura alguna con ese amor exclusivo. No tenéis rival de quien vengaros.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿Cómo, por qué destruir entonces todas mis esperanzas, por tantos años y en medio de tantos peligros alimentadas y acariciadas? Erais muy niña, apenas erais mujer, cuando os vi por vez primera y os amé ciegamente. ¿No me recordáis de entonces? ¿Ni siquiera me recordáis?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Sí, <rs key="#cuel">Cuéllar</rs>; recuerdo cuando vinisteis con mi hermano desde Salamanca. Estuvisteis aquí cuatro días y os fuisteis a Sanlúcar a embarcaros para las Indias. ¿Cómo no recordar aquellos tan amargos instantes en que mi hermano me abandonaba, quizá para siempre, yendo a través de los mares a tierras desconocidas y remotas, entre gentiles, a buscar fortuna y a hallar acaso la muerte?</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Pues bien, <rs key="#laur">Laura</rs>: ya que recordáis aquellos instantes, sabed que desde entonces os amo. Mi vida había sido hasta allí, como la de vuestro hermano, un delirio sin tregua, una bacanal espantosa. Estudiantes ambos en Salamanca, nos hicimos amigos, no para estudiar juntos, sino para ser juntos más que traviesos y bulliciosos. Fuimos el escándalo de la ciudad. La poca hacienda que ambos teníamos se consumió en deportes. No tuvieron número nuestras pendencias. La suerte siempre nos fue propicia en las armas, pero en el juego nos fue contraria. Perseguidos entonces por usureros, sin recursos y sin ganas de estudiar, nos llenamos de codicia y de férvido deseo de gloria al oír contar los descubrimientos y conquistas que andaban haciendo los españoles en las Indias de Occidente, y determinamos irnos por allá en busca de los bienes que por acá nos negaba el destino. Yo no quise despedirme de nadie. Estaba mal con mi padre, que vivía aún, y no fui a verle por mil motivos: entre ellos, a fin de que no estorbase mi atrevida determinación. Vuestro hermano, huérfano de padre y madre, quiso venir por aquí y veros antes de partir, a despedirse de su tía, Doña <rs key="#bria">Brianda</rs>, a quien os dejó confiada, y a allegar algunos mezquinos recursos. Tal fue la ocasión de que nos viéramos. Vuestra vista fue una revelación para mí. El amor brotó de repente en mi alma y echó en ella profundas raíces. Yo no había tratado sino con aventureras infames, y en vos vi a la mujer que imaginan, si no logran verla, los corazones enamorados: inocente, pura, hermosa, discreta aunque tan niña...</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¡Ah! ¡Callad por piedad, y no me atormentéis! No merezco tanta estimación de vuestra parte...</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Desde entonces, sin declarároslo, porque no me atreví ni era aquella ocasión de declarároslo, me consideré como vuestro Amadís y fuisteis mi Oriana. Para vos ambicionaba la nombradía; para vos codiciaba las riquezas. En las tempestades de la mar os veía cual estrella solitaria que me guiaba desde la bóveda celeste entre las rotas nubes. En la isla infernal me alimentaba vuestro recuerdo, y me daba fuerza para resistir la sed, el hambre y la inclemencia de los elementos. Por los desfiladeros horribles de la sierra, por las sendas escabrosas donde sólo la hendida pezuña del llama y el pie desnudo del indio se diría que podían sostenerse sin resbalar, iba yo tranquilo, a caballo, abrumado con el peso de mis armas, porque vos erais el ángel que me sostenía para no hundirme en el hondo precipicio. En las crestas nevadas, donde hace su nido el cóndor, donde no había árboles con que encender una hoguera, donde muchos infelices compañeros y hasta los indios que nos guiaban morían de frío, la sangre se agitaba en mis venas, porque el fuego de vuestro amor ardía en mi corazón, y por ellas se difundía. En los trances de mayor peligro, en las fatigas más rudas, después de encomendarme a Dios, a vos me encomendaba, como si fueseis mi ángel custodio o el santo de mi devoción, abogado mío en el cielo.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p>
+							<stage> (Aparte.) </stage>¡Dios mío! ¿Por qué no arrancáis este amor del corazón de <rs key="#cuel">Cuéllar</rs>? Harto sabéis que no debo pagar este amor.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Ya veis, <rs key="#laur">Laura</rs>, cuánto os he amado. Pues ahora os amo más aún. Vuestro desvío irrita, enciende mi pasión. No hay obstáculo que me arredre. O he de conquistar vuestro corazón o he de morir en la demanda.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> No sé qué contestaros, señor. Vuestras palabras me lisonjean y me asustan.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Aquí viene vuestro hermano.</p>
+					</sp>
+				</div>
+				<div  type="scene" n="3">
+					<head>Escena III</head>
+					<stage>Dichos, <rs key="#rive">Rivera</rs>.</stage>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Veo que siguen los melindres de <rs key="#laur">Laura</rs>. Merecería que la olvidases y despreciases.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> No ofendas a tu hermana, <rs key="#rive">Rivera</rs>. El amor no se impone. Me basta con la certidumbre que ya tengo de que ella no ama a otro. Sin más rival que Dios, el mismo Dios me ayudará con el tiempo, a conseguir su amor. Aguardaré con resignación y firmeza. Adiós, <rs key="#laur">Laura</rs>. Dentro de media hora saldré para Sevilla. Pensad en mi amor, y, si por mí no me amáis, amadme por el amor que os tengo.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Estimo tanto, noble <rs key="#cuel">Cuéllar</rs>, vuestra persona como vuestro amor. Mi mayor infortunio es no poder deciros, con el corazón, que os amo y que soy vuestra.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Adiós, <rs key="#laur">Laura</rs>. Adiós, <rs key="#rive">Bartolomé.</rs> <stage> (<rs key="#cuel">Cuéllar</rs> va a salir.) </stage>
+						</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Voy a despedirte.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> No te molestes. Todo está preparado y parto enseguida. No tengo más que ponerme en traje de camino. Adiós. Te ruego que no vengas.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Adiós, pues. <stage> (Vase <rs key="#cuel">Cuéllar</rs>.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="4">
+					<head>Escena IV</head>
+					<stage><rs key="#laur">Laura</rs>, <rs key="#rive">Rivera</rs>.</stage>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Tu desdén, hermana, me tiene más disgustado cada día. Hay en la causa de que nace un misterio que quiero y temo descubrir. Pero no hablemos de esto ahora; tienes puesto el manto para salir con <rs key="#juan">Juanilla</rs>. Tus ropas están en casa de Doña <rs key="#iren">Irene</rs>: vete al punto allí. Como ya te dije, no quiero que permanezcas más en esta casa. Doña <rs key="#iren">Irene</rs>, que es persona de toda mi confianza y de mucha autoridad, te dará albergue y te hará compañía hasta que te cases, si es que te casas. ¡Hola! ¡Juanilla! <stage> (Aparece <rs key="#juan">Juanilla</rs>.) </stage>
+						</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juanilla</speaker>
+						<p> ¡Señor! ¿Qué mandas?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Vete con <rs key="#laur">Laura</rs>. Doña <rs key="#iren">Irene</rs> os espera. <stage> (A <rs key="#laur">Laura</rs>.) </stage>¿Y tu tía?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Fue a sus devociones. En casa de Doña <rs key="#iren">Irene</rs> me aguardará ya también.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Pues anda con Dios.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Adiós, hermano.</p>
+					</sp>
+					<stage>(Vanse <rs key="#laur">Laura</rs> y <rs key="#juan">Juanilla</rs>.)</stage>
+				</div>
+				<div  type="scene" n="5">
+					<head>Escena V</head>
+					<stage><rs key="#rive">Rivera</rs>, solo.</stage>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Me devoraba la impaciencia de quedar solo para recibir y hablar al <rs key="#padr">Padre</rs> Antonio, que debe llegar al punto. <stage> (Pasea agitado por la estancia.) </stage><rs key="#cipr">Cipriano</rs> está a la mira; le abrirá y le hará entrar. El <rs key="#padr">Padre</rs> Antonio, si quiere, puede revelármelo todo. Si no quiere, le obligaré a ello. Ni el <rs key="#padr">Padre</rs> ni nadie se ha de burlar de mí. Un compañero del marqués Pizarro debe inspirar respeto, debe infundir terror. Me sobra derecho: tengo motivo justo... Ya llega el fraile... Siento sus pasos en el corredor. Calma. Serenémonos.</p>
+					</sp>
+				</div>
+				<div  type="scene" n="6">
+					<head>Escena VI</head>
+					<stage><rs key="#rive">Rivera</rs>, el <rs key="#padr">Padre</rs> Antonio.</stage>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¡Ave María Purísima! La santa paz de Dios sea en esta casa. ¿Qué me quieres, hijo?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Antes de todo, besar la mano de vuestra reverencia, por quien es y por la merced y la honra que me hace en venir a verme, cediendo a mi súplica.</p>
+					</sp>
+					<stage>(<rs key="#rive">Rivera</rs> besa la mano al fraile y ambos se sientan en sendos sillones.)</stage>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Di lo que gustes.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Sé que mi hermana es vuestra hija de confesión.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Desde hace tres años.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Quereisla bien?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Cómo no quererla? Sus excelentes prendas le granjean estimación y cariño.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Conoceréis sus pensamientos y su vida.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Su alma es un libro abierto para mí. Los ojos de mi espíritu penetran en el fondo de su corazón, como si fuera su pecho de cristal limpio y claro.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Ya que tan bien la conocéis, ¿podréis declararme por qué repugna casarse con el hombre que he elegido para ella?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Qué necesidad tienes de que yo lo declare? Sabido es que tu hermana desea tomar el velo.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Y vos ¿cómo no le aconsejáis que me obedezca?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Porque no debo contrariar su vocación; porque no puedo apartarla del camino por donde Dios la lleva.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Bien está, <rs key="#padr">Padre</rs>. Pero yo tengo una duda. ¿La vocación es espontánea o motivada por algún suceso infausto? Sacadme de esta duda.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No puedo.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Voto a una legión de demonios. ¿Pretendéis probar mi paciencia? Sacadme de esta duda.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Bartolomé de <rs key="#rivel">Rivera</rs>, tú no estás en tu juicio.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Qué pretendéis significar?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Nada pretendo significar; afirmo que te olvidas de quien soy, y que me faltas al respeto. Si hubiese alguna razón oculta, algo de misterioso en el motivo de la vocación de tu hermana, y si yo conociese esa razón y ese motivo, sería bajo el sigilo del Santo Sacramento. ¿Cómo había yo de romper el sigilo para satisfacer tu sacrílega curiosidad? ¿Por quién me tomas?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Y por quién me tomáis vos a mí? No me conocéis. No lo extraño. Me fui de aquí muy mozo. Si me conocierais, sabríais que soy tenaz. Estábamos en una peña estéril, rodeada de mar desconocido, sin esperanza apenas de que llegasen gentes de refresco con barcos, víveres y armas para proseguir una empresa que parecía locura; estábamos ya postrados de fatiga, sed y hambre, cuando vino Tafur el cordobés a llevarnos a Panamá por orden del gobernador. Los más cedían y se iban con Tafur. Pizarro, entonces, con notable aliento, desenvainó su puñal e hizo con él en la arena una raya que iba de Poniente a Levante: «Quien quiera volver a Panamá a ser pobre, dijo, que no pase esta raya; y quien quiera ir al Perú a ser rico, que la pase y me siga. Escoja el que fuere buen castellano lo que mejor le estuviere.» Así habló y pasó la raya. Le seguimos trece, y yo fui uno de ellos. Desde entonces nos apellidan los trece de la fama. ¿Y sabéis por qué? Porque viéndonos cercados de los mayores trabajos que pudo el mundo ofrecer a hombres, y más para esperar la muerte que las riquezas que se nos prometían, todo lo pospusimos a la honra. Considerad, pues, si yo cejaré en casos de honra, cuando hice allí lo que hice. Siete meses aguardamos en aquel infierno con la vaga esperanza de que viniese un barco que nos llevara a descubrir un imperio tal vez soñado. ¡Qué no haré yo ahora por descubrir algo que me importa no menos que el imperio!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No veo, hijo, los trabajos que ahora tienes que pasar, ni mucho menos los peligros que tienes que arrostrar. Permite que no vea tampoco ni amenazas ni desacato impío en tu razonamiento.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Dejémonos de rodeos y de equívocos, <rs key="#padr">Padre</rs>. No es mi intención ofenderos; pero hay una causa oculta de la resistencia de mi hermana a casarse con <rs key="#cuel">Cuéllar</rs>. Tengo indicios de que la hay. Decídmela, pues. El ser yo cabeza de familia me da derecho a ello.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Me asombra tu ignorancia. Ni el Rey puede obligar al sacerdote a que revele un secreto de confesión, aunque de él penda la salud de la República. Cabeza de familia y Emperador era Wenceslao, y el santo mártir Juan Nepomuceno sufrió la muerte antes que declarar lo que le había confiado la Emperatriz. Su lengua, que supo callarse, se conserva aún en Praga, incorrupta y esparciendo suave fragancia.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> No temáis...</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Nada temo.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> No temáis, digo, que imite yo al Emperador, y haga experimento cruel de la no corrupción de vuestra lengua. No cedáis por miedo ruin; pero ceded a la prudente consideración de evitar males mayores. Sin acudir a vos, tengo medios de averiguarlo todo, exponiéndome a ser tremendo y hasta feroz con alguna persona. Evitad que lo sea.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Dios lo evitará, si conviene. Yo no debo faltar a mi obligación para evitar que tú faltes a la tuya: yo no debo pecar, para que tú no peques. Deber mío, no obstante, es darte sanos consejos y apartarte de toda airada determinación, y más aún si no tienes fundamento para tomarla. Tu hermana quiere retirarse del siglo. ¿Qué mal hay en esto? ¿Por qué no ha de ser espontánea su vocación? Y cuando no lo sea, cuando haya algún oculto motivo, ¿ha de ser malo el motivo que a tan buen fin conduce?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> <rs key="#padr">Padre</rs> Antonio, inútil es ya el disimulo. Yo sospecho algo de la condición infame de ese motivo, y tengo que poner en claro mi sospecha. <rs key="#juan">Juanilla</rs>, que se ha criado con mi hermana, es tan picotera como simple. En los cinco días que hace que llegué a este lugar, he hablado con ella varias veces y he procurado averiguar la vida que <rs key="#laur">Laura</rs> y mi tía Doña <rs key="#bria">Brianda</rs> han hecho durante mi larga ausencia.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Y qué has averiguado por <rs key="#juan">Juanilla</rs>?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Poco para lo que me importa; demasiado para que mis recelos se confirmen. En estos tres últimos años sé que esta casa ha sido como un monasterio. Mi tía y mi hermana no han salido sino para ir a la iglesia. Aquí sólo vos habéis entrado.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Y antes de los tres últimos años?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Antes ha pasado siempre o casi siempre lo mismo. Oíd, no obstante, cómo mis sospechas han ido confirmándose. Mi hermana acaba de cumplir diez y nueve años. Tenía catorce cuando yo la dejé y me fui a las Indias. Hace tres, poco antes de que empezase a confesarse con vos, estaba mi hermana entre los quince y los diez y seis. Hasta entonces gozó de buena salud y de excelente y muy alegre humor. Sus mejillas parecían rosas; sus labios claveles. <rs key="#laur">Laura</rs> brincaba como un cervatillo y cantaba como un jilguero. Hoy ni brinca, ni canta, ni da señal de regocijo. Hoy gime, suspira y desfallece. Está hermosa, pero la encendida color de sus mejillas ha desaparecido. Su palidez, sus ojeras y su melancolía la hacen acaso más interesante: ponen algo de extraño y misterioso en su hermosura; pero me dan mucho en qué pensar. De los mil pormenores que inocentemente me ha descubierto <rs key="#juan">Juanilla</rs>, resulta que esta mudanza de <rs key="#laur">Laura</rs> empezó poco antes de que ella fuese vuestra hija de confesión. ¿Qué sucedió, pues, poco antes? Claro está que yo, como quien une pedacillos de papel para leer un escrito que se ha roto, he ido enlazando y uniendo lo que me ha dicho <rs key="#juan">Juanilla</rs> en varias ocasiones. Por ella sé también que, hace más de tres años, entró varias veces en esta casa un hombre que no erais vos. Entró con tanto recato, que nadie de fuera logró verle. <rs key="#juan">Juanilla</rs> misma no le vio jamás la cara. ¿Quién era este hombre? ¿A qué venía? ¿Por qué no ha vuelto? Doña <rs key="#bria">Brianda</rs> no es vieja ni fea. Ahora apenas tiene cuarenta años. El hombre pudo venir por ella; pero tengo mis razones para dudar de que por ella viniese.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Por quién crees que vino?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Por mi hermana. Doña <rs key="#bria">Brianda</rs> habrá de confesármelo todo.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No bastan esas apariencias engañosas. No te precipites a algún acto violento.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> No me precipito. Voy con pies de plomo. He continuado en mis pesquisas, y algo más he descubierto. He forzado la cerradura del arca de mi tía; he registrado toda el arca, y en el fondo, en otra arquilla pequeña que he abierto asimismo con violencia, si bien no he hallado escrito alguno, he hallado una bolsa llena de monedas de oro y varios dijes de valor. ¿De dónde proviene esto? Mi tía estaba en la mayor pobreza. ¿Cómo lo ha ganado? Vos lo sabéis todo. Decídmelo y evitaréis acaso una explicación penosísima. A fin de quedarme solo y libre; a fin de que nadie más que yo se entere de lo que deseo enterarme, y sea testigo, quien sabe si de mi deshonra, he excitado a <rs key="#cuel">Cuéllar</rs> a que vaya a Sevilla a terminar nuestros negocios, y he enviado a <rs key="#laur">Laura</rs> con <rs key="#juan">Juanilla</rs> en casa de Doña <rs key="#iren">Irene</rs>. Aquí sólo quedamos el indio <rs key="#cipr">Cipriano</rs> y yo. Mi tía volverá pronto, y entonces yo me entenderé con ella en esta soledad.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Pretendes acaso atormentar a tu tía?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Por qué no, si lo merece?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No lo consentiré jamás.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Qué medio tenéis para oponeros? ¿Con qué razón os opondréis? En casos de honra no hay tribunal que valga. Es necesario que el mismo agraviado descubra el delito y le castigue. Vos, que sois tan sigiloso para lo que en confesión os dicen, no seréis mi delator, infamándome y descubriendo mi propósito. En esta confianza, aunque pudiera deteneros y aun encerraros, os dejaré ir libre.
+							<stage> (Suenan dos aldabonazos a la puerta.) </stage>Ahí está ya Doña <rs key="#bria">Brianda</rs>. <stage> (Prestando oído a los pasos, que se supone que oye en el corredor.) </stage>Mi tía se va derecha a su cuarto. <rs key="#padr">Padre</rs>, podéis iros. Cuenta con lo que hacéis. Si me delatáis, si enviáis a alguien en socorro de Doña <rs key="#bria">Brianda</rs>, estoy determinado a todo; no temo ni a la horca; mato a Doña <rs key="#bria">Brianda</rs> a puñaladas. ¡Cipriano! <stage> (Aparece el <rs key="#cipr">indio</rs>.) </stage>
+						</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> ¡Señor!</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Acompaña al <rs key="#padr">Padre</rs> Antonio hasta la puerta de la calle, Adiós, <rs key="#padr">Padre</rs> Antonio. <stage> (Vase <rs key="#rive">Rivera</rs>.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="7">
+					<head>Escena VII</head>
+					<stage>El <rs key="#padr">Padre</rs> Antonio, <rs key="#cipr">Cipriano</rs>.</stage>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p>
+							<stage> (Aparte.) </stage>No debo irme. Sólo quedándome puedo evitar una gran desgracia, aunque sea exponiéndome a morir a manos de este energúmeno. <stage> (Al <rs key="#cipr">indio</rs> con firmeza.) </stage>Me quedo aquí.</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> El amo manda que se vaya vuestra reverencia. Fuerza es obedecerle.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Y por qué le obedeces?</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> Por temor y por cariño.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Temor... no le tengas. Aquí no estamos en el Perú, donde era omnipotente tu amo. Cariño... la mayor prueba que de tu cariño puedes darle, es dejarme aquí y callar. Quedándome, salvaré a tu amo.</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> <rs key="#padr">Padre</rs>, yo no puedo entrar en estas honduras. Sólo me toca obedecer. Venid, salid de casa.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Te digo que no saldré. ¿Eres cristiano?</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> Sí, <rs key="#padr">Padre</rs>, a Dios gracias.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Respeta, pues, en mí a un ministro del Altísimo. Dios me manda que aquí me quede. Concurre a que se cumplan sus designios inescrutables. Cállate y déjame tranquilo. Si por obedecer a tu amo me desobedeces y desobedeces a Dios, caerá sobre tu cabeza la maldición del cielo.</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> ¿Qué decís? ¡Jesús mío!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Lo que oyes: la maldición del cielo.</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> ¡Qué horror!...
+							<stage> (Volviendo de su asombro.) </stage>Vete, señor. Tiemblo por ti y por mí. Mi amo va a volver.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Sal tú. Yo me ocultaré en aquella estancia. Desde allí estaré a la mira.
+							<stage> (Se oye dentro ruido.) </stage>
+						</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p>
+							<stage> (Desde dentro y lejos aún.) </stage> ¡Déjame en paz! ¿Te has vuelto loco? <stage>EL <rs key="#padr">Padre</rs> se oculta.) </stage>
+						</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> ¡Qué apuro! Si callo soy infiel a mi amo. Si delato al <rs key="#padr">Padre</rs>, ¿qué hará de él este terrible amo mío? Además, Dios me castigaría. El <rs key="#padr">Padre</rs> parece un santo. Sin duda se esconde por nuestro bien. <stage> (Vase <rs key="#cipr">Cipriano</rs>.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="8">
+					<head>Escena VIII</head>
+					<stage><rs key="#rive">Rivera</rs>, doña <rs key="#bria">Brianda</rs>.</stage>
+					<stage>Aparece Doña <rs key="#bria">Brianda</rs> huyendo de <rs key="#rive">Rivera</rs> y como buscando medio de irse a la calle. <rs key="#rive">Rivera</rs> le ataja el paso, cierra la puerta que da a lo exterior de la casa y guarda la llave. Cierra igualmente los vidrios del balcón.</stage>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Déjame en paz, <rs key="#rive">Bartolomé</rs>. Tus sospechas son tan absurdas como ofensivas.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Ya es inútil que corras. Ya no puedes irte. Cerré la puerta de tu cuarto que da al corredor. Ahora he cerrado esta otra. He cerrado el balcón para que no te oigan si gritas. Resígnate y dame cuenta de todo.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> <rs key="#rive">Bartolomé</rs>, tú deliras. Me pones miedo. Gritaré y me oirán.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> De sobra me conoces. Ya sabes que no entiendo de burlas. Estoy determinado. Si gritas, te ahogo. Calma, pues. Vamos... siéntate.</p>
+					</sp>
+					<stage>(Agarra de un brazo a Doña <rs key="#bria">Brianda</rs> y la hace sentarse.)</stage>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Eres el mismo de siempre. Tan cruel, más cruel que hace años. Pero entonces eras infeliz. Tenían disculpa tu mal humor y tu violencia. Hoy no la tienen. Entonces... ¿te acuerdas?... acudías a mí en casos desesperados... perseguido por tus acreedores... yo te daba cuanto tenía. Por ti vendí las finquillas que me dejó mi difunto marido. Por ti y para ti desaparecieron las alhajas que autorizaban mi estrado: brasero de plata con tarima de ébano incrustado de marfil, alcatifas de Levante, tapices flamencos, escaparates y escritorcillos, sillones de vaqueta de Moscovia y almohadas de Damasco. Mis dijes fueron empeñados, y al cabo vendidos para acudir a tus compromisos. Pero, ¿qué mucho? ¿No te llevaste en ocasiones hasta lo que hilaba yo en la rueca y lo que afanaba en la almohadilla? Hoy estoy pobre y tú muy rico. Nada puedo darte ya. ¿Por qué me amenazas? ¿Por qué me intimidas?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Porque no es verdad lo que dices; porque no estás pobre. He registrado tu arca. Mira lo que he encontrado... <stage> (Mostrándole los objetos.) </stage> Esta bolsa llena de oro; estas ricas joyas... ¿De dónde ha venido todo esto?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> ¿Estás celoso, mi bien? Si estás celoso, mayor es la dulzura con que tus celos me lisonjean que el temor que me causa tu ira. Mi bien, yo no te he faltado.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Fuego del cielo te confunda. Con razón lo sospechaba. ¿Qué oficio abominable hiciste entonces para satisfacer tu codicia? No seas necia. Yo no tengo celos. Yo no te amo. Yo me avergüenzo de haberte amado. Te pagaré con usura lo que gastaste por culpa mía. Otra causa me mueve a averiguar de dónde han venido estas riquezas. Confiesa tu maldad. ¿De dónde han venido?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> El furor te ciega. <rs key="#rive">Bartolomé</rs>, escúchame con reposo.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Me presto a escucharte con paciencia que raye en lo inverosímil, aunque preveo que vas a mentir. Di lo que quieras.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> No tengas de mí tan mala opinión: tú mismo te agravias teniéndola. Considera, <rs key="#rive">Bartolomé</rs>, que esa opinión mala la debías tener ya cuando te fuiste a Indias. Y si la tenías, ¿por qué dejaste a tu hermana en mi poder? ¿Qué caso hacías entonces de tu honra cuando la dejabas a la merced de quien tan vil concepto te debe? No: yo no soy tan perversa como imaginas. He sido culpada, débil contigo; pero amarte fue mi pecado: tú, menos que nadie, debieras acusarme. Yo te perdono el mal que me has hecho con tus durísimas palabras. Perdóname tú el engaño que te hice, ocultándote, cuando te fuistes a Indias, que aún me quedaba ese pequeño tesoro. Por no vivir en la miseria te le oculté. Te dije que ya te había dado cuanto tenía, y aún guardaba eso que hoy has descubierto y bastante más con que hemos vivido. Dime tú, imprevisor, loco: ¿cómo hubiéramos vivido tu hermana y yo, si no tengo el tino y la precaución de engañarte?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Cómo hubierais vivido? Como vive toda mujer honrada y pobre: con el trabajo de vuestras manos. Debió, además, alentaros la esperanza de verme volver rico, ilustre, glorioso, como al fin he vuelto. Pero vosotras no tuvisteis ni esperanza ni fe.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Considera que no pocas veces te lloramos por muerto; que no recibíamos cartas ni noticias tuyas. Ciego de ambición, luchando a brazo partido con la fortuna, sin duda te olvidaste de mí y de tu hermana, y no nos escribías; tal vez no tenías medios de escribirnos.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> No los he tenido casi nunca. Y, además, ¿para qué escribiros? ¿Hubieran sido mis cartas cual benéfico talismán, que te hubiera impedido ser mala? Tus embustes groseros no me deslumbran. Veo ya claro el abismo en que ha caído mi honra. No sufro más disculpas vanas. Dime el nombre del seductor. Pronto, o mueres. <stage> (Amenaza darle muerte con la daga desnuda.) </stage>
+						</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Mátame... Yo no puedo suponer lo que no es.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p>
+							<stage> (Aparte.) </stage> Es tan terca, que se dejará matar, y no descubriré nada. Apelaré a la astucia. <stage> (A Doña <rs key="#bria">Brianda</rs>.) </stage>En balde finges..., en balde te callas... Aunque no lo confieses..., tengo pleno convencimiento de tu delito. <rs key="#laur">Laura</rs> me lo ha confesado todo.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> <rs key="#laur">Laura</rs> soñaba... <rs key="#laur">Laura</rs> no ha podido mentir... Tú eres quien inventa todo eso pensando que así confesaré. No..., no está mal ideado el ardid. Si yo fuese culpada, ya me hubieras hecho caer en el lazo. Gracias a Dios..., no lo soy.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Lo que tú eres es la astucia..., la impudencia en persona; pero no te valdrá. No tendré compasión contigo. Te haré dar tormento para que confieses. <stage> (Se dirige a la puerta que da a lo exterior de la casa; la abre con la llave y llama.) </stage> ¡Cipriano! <stage> (Aparece el <rs key="#cipr">indio</rs>.) </stage>
+						</p>
+					</sp>
+					<sp who="#cipr">
+						<speaker>Cipriano</speaker>
+						<p> Señor, ¿qué ordenas?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p>
+						<stage> (Aparte.) </stage> ¡Qué vergüenza! ¿Qué voy a hacer, Dios mío? <stage> (A <rs key="#rive">Bartolomé</rs>.) </stage> Nada. Aguarda ahí mis órdenes. <stage> (Cierra la puerta otra vez, aunque no con llave. Luego, en voz baja, para que no le oiga el <rs key="#cipr">indio</rs>.) (A Doña Brianda.) </stage> No seas terca. ¡Evita un escándalo! Mira que estoy decidido a todo. Sálvame y sálvate. Ese <rs key="#cipr">indio</rs> es más que un esclavo: es un mero instrumento mío. No me obligues a que le mande que haga contigo el oficio de verdugo. Ten piedad de ti y de mí. Confiesa.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Mátame, descuartízame, atorméntame. Nunca me declararé culpada... No..., no lo soy.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Lo eres, <rs key="#bria">Brianda</rs>, lo eres; pero yo te perdonaré con tal de que confieses y me des el nombre del seductor, a fin de vengar el agravio. ¿Quieres que jure? Juraré... Juro por lo más sagrado que te perdono. Confiesa ahora.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Te compadezco, pobre <rs key="#rive">Bartolomé</rs>. ¿Que pesadilla es la tuya? Si no hay delito, bien mío, ¿cómo quieres que le confiese?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p>
+							<stage> (Meditando entre sí.) </stage> ¿Tendrá razón, cielos santos? ¿Será una pesadilla la mía? ¿Por qué no ha de ser posible que la vocación de <rs key="#laur">Laura</rs> sea espontánea? Pero..., ¿y el hombre que entraba aquí de oculto? ¿Y este dinero? ¿Y estas joyas?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p>
+							<stage> (Advirtiendo que <rs key="#rive">Rivera</rs> duda y vacila.) </stage>¿Lo ves? Los santos del cielo te inspiran ideas mejores. Lo recapacitas y te convences de que tu diabólico ensueño no tiene ser real.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Escucha, <rs key="#bria">Brianda</rs>. La agitación de mi espíritu no puede durar. Necesito salir hoy mismo de la duda en que estoy. Me repugnaba interrogar a mi hermana, y tú me obligas a ello. Si conviene la traeré a careo contigo. Mira que soy firme y no cejo. Aún no he agotado mis recursos de averiguarlo todo. Sólo una franca y humilde confesión puede salvarte. Medítalo bien. Te dejaré a solas con tu conciencia. Te doy dos horas de término. Hasta muy pronto.</p>
+					</sp>
+					<stage>(<rs key="#rive">Rivera</rs> toma su sombrero y va a salir. Al abrir la puerta aparece <rs key="#cipr">Cipriano</rs>.)</stage>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p>
+							<stage> (Al <rs key="#cipr">indio</rs>.) </stage> Ten cuidado con esa mujer, vigílala... y no consientas que salga de casa. Me respondes con tu vida. <stage> (Vase <rs key="#rive">Rivera</rs>.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="9">
+					<head>Escena IX</head>
+					<stage>Doña <rs key="#bria">Brianda</rs>, El <rs key="#padr">Padre</rs> Antonio.</stage>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> ¡Gracias por esta tregua, Dios mío! <stage> (Viendo al <rs key="#padr">Padre</rs>, que aparece.) </stage> ¿Vos aquí?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Me había ocultado para ampararte, si hubiera sido indispensable. Todo lo he oído. Te conocía, pero no te juzgaba tan mala. En vez de ser tu defensor y tu escudo, he estado a punto de salir a acusarte. Duras entrañas tienes. <rs key="#rivel">Rivera</rs> te prometía con juramento su perdón con tal de que confesaras. ¿Por qué no has confesado?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> ¿Y qué había yo de confesar, <rs key="#padr">Padre</rs> Antonio?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Intentas proseguir conmigo en tus embustes?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Además, <rs key="#padr">Padre</rs>, ¿quién fía en juramentos ni en promesas de éstos que vuelven de Indias? Avezados a tratar con gentiles, a prometer y no cumplir, tal vez se figuren que también somos indios y no cristianos, y no cumplan lo que prometen. Prometida tuvo la libertad el inca Atahualpa, comprándola con casi todo el oro que poseía: entregó el oro, y en vez de cumplirle la promesa, le guardaron cautivo y le dieron afrentosa muerte.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> El inca fue juzgado y sentenciado. Los jueces darán cuenta a Dios de la sentencia. No te entrometas en censurar a los otros. Piensa en ti misma. Mira que todo se descubre. Confiesa tu culpa a <rs key="#rivel">Rivera</rs> en cuanto vuelva a interrogarte.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Aunque sois duro y acerbo conmigo, quiero ser con vos franca y leal. Demos por supuesto que yo soy culpada. ¿Qué ventaja sacará <rs key="#rivel">Rivera</rs> de que yo le confiese mi culpa? Vos, que sois sacerdote de un Dios de paz, ¿queréis que <rs key="#rivel">Rivera</rs> lave con sangre su agravio?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No; pero quiero que tenga la debida reparación.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Esa reparación es imposible. Si no fuera imposible, sería funesta.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Por qué es imposible?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> ¿Sabéis vos quién fue el seductor?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> <rs key="#laur">Laura</rs> lo ignora. Si lo supiese, os lo hubiera revelado.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> <rs key="#laur">Laura</rs> no sabe su nombre; pero le reconocería al punto si le viese.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Jamás le volverá a ver.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿No dirás tú quién es?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Nunca, <rs key="#padr">Padre</rs>; no me preguntéis más: no puedo responderos.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Tú misma me has dado pie para hacerte otra pregunta.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Hacedla, si es sobre otro punto.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Por qué sería funesta la reparación, dado que fuese posible?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Por varias razones. Convendréis en que <rs key="#laur">Laura</rs> tendría que dar mano de esposa a su seductor.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Es evidente.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Sería, pues, la esposa de un hombre a quien aborrece.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Ya le amaría.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Además, aun suponiendo que Bartolomé de <rs key="#rivel">Rivera</rs> fuese tan pacífico, tan manso y tan fácil de contentar que se aquietase con ese casamiento forzoso, y aun suponiendo que el seductor se aviniese al casamiento, ¿creéis vos que todo terminaría así dichosamente?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Y por qué no?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> No terminaría dichosamente porque Francisco de <rs key="#cuel">Cuéllar</rs> es un hombre de hierro; porque adora a <rs key="#laur">Laura</rs>; porque no sufre rivales; porque aun ahora que imagina que Laura va a ser de Dios, quiere disputársela a Dios; porque <rs key="#laur">Laura</rs> es el sueño de <rs key="#cuel">Cuéllar</rs> desde hace años, y <rs key="#cuel">Cuéllar</rs> no consentiría que su sueño se desvaneciese, <rs key="#cuel">Cuéllar</rs> es más feroz, más cruel, más violento que <rs key="#rivel">Rivera</rs>. <rs key="#cuel">Cuéllar</rs>, al ver sus esperanzas frustradas, nos mataría a todos.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Más te valdría, desventurada mujer, que en vez de tener tanto miedo a <rs key="#cuel">Cuéllar</rs>, tuvieses ahora y hubieses tenido siempre el santo temor de Dios.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> No me insultéis vos también.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Yo no te insulto, pero necesito decir la verdad. Veo que la voz de la verdad no penetra en tu alma, y me retiro. Queda con Dios, y que Él te ilumine.
+							<stage> (Vase.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="10">
+					<head>Escena X</head>
+					<stage>Doña <rs key="#bria">Brianda</rs>, sola.</stage>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> ¡Ay, Jesús mío! ¡Qué hombres! ¡Vaya si son difíciles y peligrosos! <rs key="#rive">Bartolomé</rs> era mi cómplice. Se aprovechó de que soy débil y pecadora para arruinarme y perderme. Perdido él entonces, holgazán y lleno de vicios, no acordándose para nada de su honra, me dejó abandonada a su hermana. Hoy, que vuelve rico, merced a sus robos y atrocidades, quiere ser honrado también. Hoy me pide cuenta del tesoro que me confió. Si hubiera vuelto pobre, como yo me temía, hubiera vuelto, según su costumbre, a pedirme dinero con amenazas y malos tratos. Como vuelve rico, a fin de que los malos tratos y las amenazas no acaben nunca, me pide honra... Y a pesar de todo... ¿seré necia? Le quiero todavía. Confieso, no obstante, que para sacudir este yugo, para librarme de este maldito amor... siento a veces tentaciones de dar jicarazo a <rs key="#rivel">Rivera</rs>. ¡Ay! ¡Ay! ¡Qué desdichada soy! ¡Ay! ¡Ay!</p>
+					</sp>
+					<stage>(Llora y se arroja en un sillón, ocultando el rostro con las manos).</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Jornada II</head>
+				<stage>Rico estrado en casa de Doña <rs key="#iren">Irene</rs>.</stage>
+				<div  type="scene" n="1">
+					<head>Escena I</head>
+					<stage>Doña <rs key="#iren">Irene</rs>, <rs key="#laur">Laura</rs>.</stage>
+					<stage>Doña <rs key="#iren">Irene</rs>, vestida de negro, con toca de lana blanca en la cabeza, aparece sentada en un sillón, junto a un bufete con recado de escribir. Doña <rs key="#iren">Irene</rs> es una dama de más de sesenta años, muy venerable. Su traje, aunque sencillo, ha de ser señoril y severo. En vez de joyas, penden de su cuello devotas medallas, relicarios y cruces. Un rosario de gruesas cuentas debe ir ceñido a su brazo. <rs key="#laur">Laura</rs>, destocada está de pie.</stage>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Ven acá, hija mía. Ven a mi lado sin zozobra. Siéntate; tenemos que hablar.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Mandad, señora. <stage> (Se sienta.) </stage>
+						</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Previo tu consentimiento, y con fines que no puedo explicarte, el <rs key="#padr">Padre</rs> Antonio me confió, tiempo ha, como sabes, la causa de tus penas. No te sonrojes, pues, si te hablo de esa causa. No me movió a saberla, ni ahora me mueve a consultar tu corazón, una curiosidad frívola. Me mueven intereses muy altos y tu propia ventura.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Así lo creo. Preguntad lo que gustéis. Me avergüenzo de mis culpas, no de que tengáis conocimiento de ellas.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¿Sabes el nombre de la persona?...</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Lo ignoro. Yo le llamaba con nombre que después supe que era fingido.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Sin duda le amabas entonces.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¡Ah, señora! Mi alma iba extraviada en la obscura noche de su ignorancia. Él me deslumbró, me fascinó, me atrajo como dicen que atraen los abismos. ¿Por qué me preguntáis si le amaba? El atractivo diabólico no merece nombre de amor. ¿Ama el pajarillo a la serpiente? Caí sin comprender la gravedad de mi culpa. Sobrado tarde la conciencia se despertó en mí... terrible aunque confusa. Me pesaba mi maldad. Acudí al confesonario. El <rs key="#padr">Padre</rs> Antonio, al descubrirme toda la belleza de la virtud, me dejó ver la fealdad del vicio; al pintarme la inmaculada inocencia, me hizo patente mi desconocimiento del bien. Con mano firme arrancó la venda que cubría mis ojos. Y yo, al oírle hablar del amor santo, advertí al punto con qué perverso simulacro de amor había sido contaminada.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Conozco tu vida ejemplar, tu ruda penitencia desde entonces. Dios te ha perdonado.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Dios es infinitamente misericordioso; pero el mundo no puede perdonar. Yo, además, ni debo declararme culpada y pedirle perdón, porque la honra está de por medio, ni mucho menos debo engañar al mundo. Quiero, pues, huir de él; encerrarme en el claustro.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Digna de quien tiene corazón generoso y rostro vergonzoso es la determinación que tomas. Pero dime, hija mía, fuesen los que fuesen los sentimientos que el hombre desconocido te inspiró, durante tu desvarío, ¿en qué se trocaron, luego que comprendistes la magnitud de tu culpa?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Confieso que empecé a odiarle; pero el <rs key="#padr">Padre</rs> Antonio extirpó el odio de mis entrañas.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Aquel bienaventurado siervo de Dios fue como labrador cuidadoso que arranca la mala hierba del campo que ha sembrado, a fin de que nazca y prospere la buena semilla... ¿Qué sientes ahora por el hombre que te hizo caer en el precipicio?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Terror... repugnancia... odio no... le compadecería, si mi propia desventura no agotase toda mi compasión.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¿Jamás has vuelto a verle?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Jamás. Su vida era un misterio. No se recataba ni se ocultaba por mí, sino por todos. Desapareció como vino, sin dejar huella de sí.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> La desgraciada mujer a quien tan torpemente te dejó tu hermano encomendada, y de cuya condición no podía aguardarse otra cosa que lo que hizo, ¿crees tú que tenía más noticia de quién era ese hombre? ¿Sabía de dónde vino? ¿Sabía a dónde se fue?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Lo más duro de mi penitencia ha consistido en seguir viviendo con Doña <rs key="#bria">Brianda</rs> a fin de evitar el escándalo. Con ella me dejó mi hermano, y con ella debió hallarme a su vuelta; pero ambas hemos evitado toda conversación sobre el desconocido. ¿Cómo he de saber yo las noticias que tendrá ella acerca de ese hombre?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Y él, cuando se fue, ¿nada te dijo?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Me dijo que una imperiosa necesidad le obligaba a ausentarse; que se iba muy lejos, quizá para nunca volver.</p>
+					</sp>
+				</div>
+				<div  type="scene" n="2">
+					<head>Escena II</head>
+					<stage>Dichos, el <rs key="#padr">Padre</rs> Antonio.</stage>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No extrañéis, mi señora Doña <rs key="#iren">Irene</rs>, que entre aquí sin anunciarme y tan precipitadamente. <rs key="#laur">Laura</rs> tiene entereza para oír y sufrir lo que me urge deciros. Nadie sabe nuestro secreto, salvo Doña <rs key="#bria">Brianda</rs> y el seductor misterioso; pero <rs key="#rivel">Rivera</rs>, al ver la resistencia de su hermana a casarse con <rs key="#cuel">Cuéllar</rs>, por mil indicios que ha ido recogiendo, y tal vez por el grito de su misma conciencia, que le acusa de haber dejado a <rs key="#laur">Laura</rs> en poder de Doña <rs key="#bria">Brianda</rs>, lo sospecha todo; anhela averiguar el nombre del seductor, a fin de vengarse; está furioso; ha querido, hasta con amenazas, que yo le revele lo que esta infeliz me ha confiado en el tribunal de la Penitencia; y ha estado más violento aún con su pecadora tía. Nada, hasta el momento presente, ha podido averiguar. Dos horas de término ha dado a Doña <rs key="#bria">Brianda</rs> para que confiese. Doña <rs key="#bria">Brianda</rs> no confesará. Y <rs key="#rivel">Rivera</rs>, que repugna interrogar y amenazar a su hermana, al cabo vendrá a llevársela para interrogarla, amenazarla y quizá castigarla.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Hágase la voluntad de Dios.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> No, hija mía. Esa no será su voluntad soberana. Yo no te dejaré ir: yo me interpondré entre la cólera de tu hermano y tu desventura. <rs key="#rivel">Rivera</rs> respetará mis canas y no osará atropellarme. <stage> (Entra un <rs key="#escu">Escudero</rs>.) </stage>
+						</p>
+					</sp>
+					<sp who="#escu">
+						<speaker>Escudero</speaker>
+						<p>
+							<stage> (A Doña <rs key="#iren">Irene</rs>.) </stage> El Sr. Bartolomé de <rs key="#rivel">Rivera</rs> pide licencia para hablaros.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p>
+							<stage> (Al <rs key="#padr">Padre</rs>.) </stage> Idos con <rs key="#laur">Laura</rs>.
+							<stage> (A <rs key="#laur">Laura</rs>.) </stage> Retírate, hija, y ten confianza en Dios y en mí.
+							<stage> (Al <rs key="#escu">Escudero</rs>.) </stage> Decid a ese hidalgo que entre. <stage> (Vanse <rs key="#laur">Laura</rs>, El <rs key="#padr">Padre</rs> y el <rs key="#escu">Escudero</rs>.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Escena III</head>
+					<stage>Doña <rs key="#iren">Irene</rs>, <rs key="#rive">Rivera</rs>.</stage>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Perdonad, señora; vengo por mi hermana.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¿Qué mudanza es ésta? Apenas ha tomado <rs key="#laur">Laura</rs> posesión de mi casa, y ya queréis llevárosla.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Me importa hacerlo.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Bien sé yo por qué.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Cómo lo sabéis? ¿Qué es lo que sabéis?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Ya no es tiempo de disimular. Lo sé todo por <rs key="#laur">Laura</rs> misma.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¡Así despedaza mi honra! ¡Así publica mi infamia!</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Reportaos, señor de <rs key="#rivel">Rivera</rs>. Sólo su confesor y yo sabemos el secreto de <rs key="#laur">Laura</rs>.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Reveladme el indigno secreto. ¿Es <rs key="#laur">Laura</rs> culpada?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> <rs key="#laur">Laura</rs> ha expiado su culpa. Dios la perdonó ya. Perdonadla vos también y dejadla que siga su vocación y que se retire a un convento</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¡Ira de Dios, señora! Eso es imposible. <rs key="#cuel">Cuéllar</rs> ama a mi hermana. Yo, creyéndola digna de este amor, le he alimentado con esperanzas y promesas en el alma de mi amigo. ¿Cómo no cumplírselas hoy? ¿Qué pretexto le daré si no le confío mi afrenta? ¿Y cómo confiársela sin saber antes el nombre del seductor, y buscarle y matarle? Decidme quién es; decidme dónde está, para que yo le busque y le mate.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> El seductor se envuelve en misterio profundo. Ni vuestra hermana, ni el <rs key="#padr">Padre</rs> Antonio, ni tal vez Doña <rs key="#bria">Brianda</rs>, saben quién es.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Aunque se esconda en el centro de la tierra, he de sacarle de allí para que me pague con su sangre.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Y si os pagase con una reparación, ¿la aceptaríais?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Toda reparación es ya tardía. Pues qué, ¿he de dar la mano de <rs key="#laur">Laura</rs>, para remediar su honra, a quien tal vez ceda al miedo o a la codicia al casarse con ella? Si ahora la toma por mujer, dará a sospechar que lo hace porque yo he vuelto rico, y sobre todo, porque yo he vuelto a pedirle cuenta de su villanía. Si se allana... si se resigna a ser esposo de <rs key="#laur">Laura</rs>, no será porque la ama, sino porque prefiere mi oro a mi acero.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¿Y si el desconocido os diese pruebas de que ni codicia vuestro oro ni teme vuestro acero, y de que por amor recibe por mujer legítima a vuestra hermana?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Aun así, no consentiría yo en el casamiento. ¿Y <rs key="#cuel">Cuéllar</rs>? ¿Y mi promesa? <rs key="#cuel">Cuéllar</rs> no se dejará arrebatar a <rs key="#laur">Laura</rs> sino por Dios. No hay más sino que mi hermana entre en el convento y que yo mate a su amante. Hubiérala él honradamente enamorado y yo cedería, aunque me doliese el faltar a <rs key="#cuel">Cuéllar</rs>. Pero faltar a <rs key="#cuel">Cuéllar</rs> y consentir en que un malvado en premio de una traición, jactándose tal vez de que me favorece devolviéndome la honra, me llame su hermano y hiera a mi verdadero hermano de armas en el centro del corazón... eso nunca.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Sentiré enojaros; pero no es esa mi intención. Disculpen mis canas la franqueza con que os hablo. Se aviene mal vuestra severidad de ahora con vuestro descuido y abandono de hace algunos años.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> No me enojo con vos. Si vuestras palabras son crueles, también son justas. No acierto a disculparme. Es verdad. Yo era un mozo sin freno, dechado de liviandades, entregado en cuerpo y alma a Satanás. No sabía de honra ni de virtud. Estaba ciego. Dejé a <rs key="#laur">Laura</rs>, sin reflexionarlo, en poder de una mujer cuya viciosa condición no ignoraba. Pero ¿disculpa esto al hombre que la perdió? ¿Tiene perdón por esto el hombre que le ha dado el tormento de verse abandonada, dehonrada y humillada, durante tres años? Pues qué, ¿pensáis que yo no amo a mi hermana? La amo; y porque la amo he querido casarla con <rs key="#cuel">Cuéllar</rs>, que hubiera sido un noble marido; y porque la amo quiero vengarla del que ha sido su verdugo y no desposarla con él. ¿Creéis que ese hombre, casándose ahora, transmutará en alegría juvenil y en risueñas e inocentes esperanzas, volviéndolas al puro manantial de que salieron, las lágrimas de vergüenza y de remordimiento que ha hecho verter durante tres años mortales a mi hermana? ¿Hará con su tardío y forzado amor que florezcan de nuevo las rosas sobre la palidez de sus marchitas mejillas? ¿Refrescará el ardor de sus ojos, fatigados por el insomnio? Además, es imposible que mi hermana vuelva a amar a ese hombre, si es que le amó; si es que no fue víctima de algún filtro, de algún bebedizo impuro, de alguna hechicería nefanda. Me hierve la sangre en pensar que pudiera yo bajarme a llamar hermano a quien ha atormentado a mi hermana... a quien nos ha despreciado y humillado. Y si es un vil... y si es un cobarde... (y ha de serlo sin duda... si el corazón me lo dice...) ¿por qué queréis que le premie? Para mi hermana será mayor deshonra casarse con él que no casarse. No puede ser de <rs key="#cuel">Cuéllar</rs>... pues bien... que entre en religión... pero repito que antes es menester que yo conozca a quien me ha agraviado, y es menester que muera.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Tenía yo cierta esperanza de poder deciros quién es el hombre que tanto enojo os da; mas, al ver que no refrenáis el enojo, pierdo la esperanza... y hasta el deseo. Le desecho como un mal pecado. ¿Procedería yo como católica cristiana en designar a un hombre para dar ocasión a un duelo, a un homicidio?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¡Ah, señora! Averiguad quién es: decídmelo.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Hoy menos que nunca.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Basta, pues. Llamad a mi hermana para que se venga conmigo.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> No la atormentéis; dejadla a mi lado.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Decid a mi hermana que venga.
+							<stage> (Gritando.) </stage> ¡Laura! ¡Laura!</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Dejadla en paz. La he cobrado amor. Concededme un breve plazo. Quédese aquí hasta mañana.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿Y por qué aguardar hasta mañana?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Porque mi esperanza de deciros el nombre del seductor puede realizarse en ese breve plazo. ¡Ah, <rs key="#rivel">Rivera</rs>! Vos sois bueno de condición... no seáis empedernido. Si os dijese yo quién es; si fuese digno, a pesar de su falta; si tuviese, además, razones que le justificasen o le excusasen... espero de vuestra bondad que le perdonaréis.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Os dejo a mi hermana sólo por un día. Veremos si algo me reveláis; pero no aguardéis mi perdón para el seductor. Adiós, señora.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> El cielo os guarde.
+							<stage> (Vase <rs key="#rive">Rivera</rs>.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="4">
+					<head>Escena IV</head>
+					<stage> Doña <rs key="#iren">Irene</rs>, el <rs key="#padr">Padre</rs> Antonio.</stage>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p>
+							<stage> (Dando rienda suelta a una emoción comprimida hasta entonces.) </stage> ¡<rs key="#padr">Padre</rs> ! ¡<rs key="#padr">Padre</rs>  Antonio!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Aquí me tenéis.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¿Dónde queda <rs key="#laur">Laura</rs>?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Queda con <rs key="#juan">Juanilla</rs>.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p>
+							<stage> (Cierra la puerta del estrado.) </stage> Bien está. Os tengo que hablar a solas. No quiero que nadie nos escuche. No quiero que nadie nos interrumpa. Siento un peso que me aprieta el corazón. Por mi soberbia desmedida... por mi orgullo... he pecado. Padre... he pecado, y hoy me arrepiento cuando quizá sea estéril el arrepentimiento, cuando quizá nada pueda remediarse. Oídme. Yo debí revelároslo antes. Perdonadme, aconsejadme, si aún es tiempo.</p>
+					</sp>
+					<stage>(Doña <rs key="#iren">Irene</rs> hace demostración de querer arrodillarse delante del <rs key="#padr">Padre</rs>; le toma la mano y se la besa.)</stage>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Qué hacéis, señora? ¿Qué agitación es la vuestra? Sosegaos, y hablad con serenidad.</p>
+					</sp>
+					<stage>(Lleva a Doña <rs key="#iren">Irene</rs> a un sillón y hace que se siente, sentándose luego a su lado.)</stage>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¿Sabéis quién es el seductor de <rs key="#laur">Laura</rs>? Yo lo sé y lo he callado. Yo lo sé y no os lo he dicho. Es mi hijo.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Habláis verdad, señora? ¿No es efecto de una alucinación lo que decís? ¿Vuestro hijo no anda errante, proscrito, hace muchos años?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Es cierto. Allá en su temprana mocedad fue uno de los más ardientes comuneros. Peleó como valeroso soldado, cuando apenas le apuntaba el bozo, en la toma de Torrelobatón, y en mil encuentros y escaramuzas; se halló en Villalar, donde se salvó por milagro; y apenas reposado de aquella infeliz jornada, acudió a la frontera a defender a España de la invasión francesa. En Pamplona fue amigo y compañero de armas de un hombre extraordinario, el cual, herido al lado de mi hijo, empieza a dar a la cristiandad, y le dará aún, Dios mediante, muchos días de gloria, convertido de héroe en santo.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> El ilustre Ignacio de Loyola, fundador de la Compañía de Jesús. ¿Y cómo vuestro hijo no se acogió a indulto, después de combatir por su Rey y por su patria en Navarra?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Mi hijo es inflexible en sus ideas y soberbio además. Por otra parte, siempre ha sido propenso a apasionarse profundamente, y entonces más, porque era muy mozo. En 1521 tenía diez y ocho años. Supo en Navarra que la viuda de Juan de Padilla seguía defendiéndose en Toledo, y acudió a Toledo a ofrecerle su espada. Al lado de aquella denodada mujer estuvo hasta lo último, y con ella se refugió en Portugal. Mi hijo no pudo después acogerse al perdón general que dio el César. Su Majestad le honró poniéndole en el número de los exceptuados. Desde entonces anda errante por tierras extrañas.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Ha osado, con todo, venir hasta aquí?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Ha osado, exponiéndose a morir de una sangría suelta, en duro e inmundo calabozo, como el conde de Salvatierra. Sí, <rs key="#padr">Padre</rs>, mi hijo Don <rs key="#fern">Fernando</rs> ha estado dos veces aquí. La segunda vez vio a <rs key="#laur">Laura</rs>, y se prendó de ella con la vehemencia propia de su condición. El desamparo en que vivía la gallarda moza, su pobreza y la mala compañía de Doña <rs key="#bria">Brianda</rs> dieron ser y aliento a los propósitos livianos de mi hijo. Merced a Doña Brianda, pronto se le lograron. Pero, ¡caso singular!, lo que antes de logrado sólo excitaba en él un sentimiento ruin, despertó después sentimientos generosos. Movido Don <rs key="#fern">Fernando</rs> a compasión, realmente enamorado del candor, de la sencillez y hasta del afecto de <rs key="#laur">Laura</rs>, quiso consagrar su amor y legitimarle. Entonces me lo reveló todo. Y éste es mi pecado, <rs key="#padr">Padre</rs>; éste es mi pecado, de que tarde me arrepiento. Yo tomé la noble resolución de mi hijo por rapto de locura. Yo supuse que su amada era una vil aventurera. Yo le representé, mil y mil veces, que hasta el pensamiento momentáneo de enlazar su ilustre casa con la de aquella mujer dándole su nombre, era un oprobio para nosotros. Don <rs key="#fern">Fernando</rs> no desistió, sin embargo: aplazó su resolución. Le pedí tiempo, un largo plazo de prueba, y tuvo que otorgármele. Llegaron en esto varios avisos temerosos de que se sospechaba la presencia de mi hijo en Castilla, y de que le podían prender. No tuvo más recurso que irse precipitadamente. Yo le prometí observar si <rs key="#laur">Laura</rs> era tal como él la había soñado, o como yo la suponía. En esta prueba, en este estudio he estado años con rudo sigilo y con frialdad cruelísima. Os lo confieso: he tenido el mal deseo de que mi suposición hubiese salido cierta; pero Don <rs key="#fern">Fernando</rs> había adivinado: no le había cegado la pasión: <rs key="#laur">Laura</rs> es un ángel. El orgullo de mi heredada nobleza se abate, aunque tarde, y reconoce la razón.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Habéis participado a vuestro hijo el buen concepto que al fin tenéis de su infeliz amiga.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Sí, <rs key="#padr">Padre</rs>.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Y él la ama aún?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> La ama.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Ninguna otra pasión ha borrado la impresión de la primera?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Ninguna. No conocéis a mi hijo y su extraña pertinacia.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Es cierto. Sólo hace seis años que estoy aquí, y cuando vuestro hijo ha estado de oculto, hasta de mí le habéis recatado.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Dígoos, pues, que mi hijo no ha tenido, desde que vio a <rs key="#laur">Laura</rs>, sino otro amor, del que triunfó por amor de ella. Fue este amor dos años ha. Viendo que su antiguo amigo Ignacio de Loyola fundaba una Compañía para combatir la pravedad herética, bajo la bandera de Jesús, quiso alistarse en ella. El amor de <rs key="#laur">Laura</rs> le retuvo. No ha escrito a <rs key="#laur">Laura</rs>, porque la más dura condición exigida por mí para mi severa prueba, era que no le escribiese. A mí me ha escrito, y yo le he escrito siempre que hemos hallado conducto seguro. Por sus cartas conozco esa faz de su vida. Pensando en que <rs key="#laur">Laura</rs> entrase en religión, anheló él seguir a Ignacio. La rebeldía de ese malvado fraile sajón, Martín Lutero, llenaba a Don <rs key="#fern">Fernando</rs> de presentimientos sombríos. Temía que, por una serie de fatales circunstancias, pasase a los pueblos del Septentrión el predominio del mundo; que Dios tal vez lo permitiría para castigo de nuestros pecados; y, a fin de contribuir a evitarlo, soñaba en consagrar su vida a la ciencia, a la predicación y a la virtud más rígida. El recuerdo de <rs key="#laur">Laura</rs> no le dejó seguir por esta pendiente.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Y cómo es que vuestro hijo no ha procurado jamás volver a la gracia y al servicio del César?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Mi hijo es zahareño hasta no poder más. Su esquivez no tiene ejemplo. Él condena casi todas las empresas y guerras del Emperador. No ve en ellas designio razonable, ni plan, ni concierto. Imagina que sólo conducen a que se arruine, se empobrezca y se despueble Castilla. Sin embargo, su generosa sangre y su amor a la tierra donde ha nacido le llevaron ya en dos ocasiones a pelear bajo las enseñas de Carlos V. Una vez en la Goleta y en Túnez, a donde acudió como capitán de estradiotes, con gente que allegó en Calabria, entre los descendientes de aquellos bravos albaneses y epirotas, que se refugiaron allí cuando murió su glorioso Príncipe Scanderbeg. Mandados por mi hijo, se creían mandados por Jorge Castrioto, y pelearon contra Barba-roja, como sus heroicos antepasados contra el sultán Amurates. La segunda vez fue en la expedición a Argel. Allí ha estado mi hijo, sin dar tampoco su nombre. Después de grandes desastres, el Emperador decidió abandonar la empresa. Hernán Cortés, famoso por haber conquistado todo el reino de Nueva España, pedía que le dejasen allí, prometiendo tomar a Argel; mi hijo, que estaba con él, le hubiera seguido; pero ni el César, ni los de su consejo, quisieron poner al Marqués del Valle en ocasión de tanto peligro y tal vez de tanta gloria.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Y qué es ahora de vuestro hijo?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Cansado de su vida aventurera, domado su carácter por el infortunio, ansioso de paz y retiro, ha venido a Valladolid, donde estaba desde hace quince días negociando su perdón. Llegaron aquí <rs key="#cuel">Cuéllar</rs> y <rs key="#rivel">Rivera</rs>, supe el propósito que traían del casamiento de <rs key="#laur">Laura</rs>, y avisé al punto a mi hijo. Por su contestación y por noticias posteriores, sé que mi hijo debe llegar de un instante a otro.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Todavía como proscrito?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Todavía. Así es que viene con sigilo y extraordinarias precauciones, aquí donde le conocen todos. Ya estará en la quinta que tengo a un tiro de arcabuz de esta población. Desde allí vendrá a pie; entrará por la puerta falsa que da al campo. Le espero con impaciencia. Él tiene llave de la puerta, y sin que nadie le abra llegará a mis brazos dentro de poco, si Dios misericordioso lo permite.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Comprendo vuestra agitación. Dios tendrá piedad y os proporcionará esa ventura.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¡Ay, <rs key="#padr">Padre</rs>! ¡Cuán acibarada va a ser! El amor de <rs key="#laur">Laura</rs> se ha convertido en terror y en repugnancia hacia mi hijo. Mi hijo hallará, en cambio del amor que desea, a dos hombres ofendidos que han de procurar su muerte.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No temáis. No será nada de eso. No consentiremos que nadie se mate. Y en cuanto al terror y repugnancia, creedme, yo llevo muchos años de confesonario y conozco la condición humana. No me ciega el amor propio de confesor. La repugnancia y el terror que yo he inspirado a <rs key="#laur">Laura</rs>, para inducirla a que entre en religión, se desvanecerán no bien vea a vuestro hijo; se convertirán, a pesar suyo, nuevamente en amor. Por esto repugna, por esto se aterra; porque presiente su debilidad ante el hombre de quien se juzga olvidada. Apenas le vuelva a ver, apenas reconozca que él no la olvida, caerá en sus brazos, cediendo a una atracción irresistible. Lo que importa ahora es legitimar, purificar, santificar este vínculo de amor. ¿Consentís en ello?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Sí, <rs key="#padr">Padre</rs>. Veo que Dios lo quiere.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Dios os ha inspirado que retengáis a <rs key="#laur">Laura</rs> en vuestra casa. Es menester que no salga de aquí sino esposa de D. <rs key="#fern">Fernando</rs>. Ya amansaremos después la cólera de <rs key="#rivel">Rivera</rs> y de <rs key="#cuel">Cuéllar</rs>.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p>
+							<stage> (Aplicando el oído hacia un lado del foro, donde habrá una puerta.) </stage> Siento ruido de pasos. Bien me lo decía mi corazón. Él es. Ya llega. ¡Jesús mío, dadme fuerzas para no morir de alegría!</p>
+					</sp>
+				</div>
+				<div  type="scene" n="5">
+					<head>Escena V</head>
+					<stage>Don <rs key="#fern">Fernando</rs>, dichos.</stage>
+					<stage>Aparece Don <rs key="#fern">Fernando</rs> por la puerta lateral; viene embozado y al entrar se desemboza. Doña <rs key="#iren">Irene</rs> corre hacia él y le abraza.</stage>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¡Hijo de mis entrañas!</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Madre querida.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p>
+							<stage> (Señalando al <rs key="#padr">Padre</rs>.) </stage> El <rs key="#padr">Padre</rs> Antonio, mi más íntimo amigo.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p>
+							<stage> (Se acerca al <rs key="#padr">Padre</rs> y le besa la mano.) </stage> Sé cuánto os debo. Vos habéis santificado lo que yo profané. Vuestra virtud y santidad han realzado lo que mis vicios y mi orgullo humillaron y postraron. ¡Dios os lo premie, <rs key="#padr">Padre</rs> mío!</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> ¿Te ha visto alguien?</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> <rs key="#pere">Pérez</rs> sólo sabe mi llegada. No temáis, madre. Además, espero mi perdón de un momento a otro. ¡He pedido perdón al César, como si fuera yo delincuente!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> El César, hijo mío, es tu Rey y señor natural.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Así será, <rs key="#padr">Padre</rs>; pero yo no delinquí defendiendo las libertades de Castilla. Nunca fui contra el poder legítimo. Nunca quise hacer de las ciudades de mi patria señorías independientes como las de las ciudades italianas. Aún persisto en creer en la justicia y razón de lo que entonces hice, y, sin embargo, pido perdón a quien ha dado muerte a los amigos que yo seguí: a Padilla, a Bravo, al obispo Acuña y a tantos otros. Abatido estoy cuando lo hago, y razones poderosas me llevan a hacerlo; pero me duele la humillación. Por eso pido a Dios que acepte dicha humillación en descuento de mis culpas. ¿Y <rs key="#laur">Laura</rs>? A <rs key="#laur">Laura</rs> sí que debo pedir perdón. ¡Cuán cruel he sido!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Pronto la verás, y espero que has de lograr que te perdone. Os dejo. Voy a ver de nuevo a <rs key="#rivel">Rivera</rs>, a aquietarle y a evitar que haga algún acto de violencia con Doña <rs key="#bria">Brianda</rs>. Nada le descubriré; pero le daré esperanza de que vos, Doña <rs key="#iren">Irene</rs>, habéis de descubrírselo todo en el día de mañana. Entre tanto, importa precipitar las cosas a fin de que lleguen a un término contra el cual <rs key="#rivel">Rivera</rs> no pueda rebelarse y tenga al fin que someterse. Adiós. Pronto volveré.
+							<stage> (Vase.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="6">
+					<head>Escena VI</head>
+					<stage>Doña <rs key="#iren">Irene</rs>, Don <rs key="#fern">Fernando</rs>.</stage>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> El deber y la religión han triunfado de mi orgullo. Lo reconozco. Aunque no la amases, deberías una reparación a <rs key="#laur">Laura</rs>. Es mujer digna de ti. Pura y limpia como el oro ha salido del ardiente crisol en que mi suspicacia la ha tenido.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> ¡Ah, señora! Temo que el fuego de penitencia, en que habéis abrasado su alma, haya evaporado el amor que allí se guardaba para mí; que mi abandono y que mi olvido aparente me hayan hecho aborrecible a sus ojos.</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> No lo permita el cielo si de eso depende tu dicha.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> De eso depende. Mi amor ha crecido con la ausencia; con las pruebas que por cartas me habéis transmitido de su virtud y de su infortunio. ¿Cuándo podré ver a <rs key="#laur">Laura</rs>, madre? ¿Cuándo podré verla?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña <rs key="#iren">Irene</rs></speaker>
+						<p> En el instante. <rs key="#laur">Laura</rs> se abriga bajo este mismo techo desde hace poco. Vendrá en cuanto la llame. <stage> (Doña <rs key="#iren">Irene</rs> se asoma a la puerta y llama.) </stage> ¡<rs key="#laur">Laura</rs>! ¡<rs key="#laur">Laura</rs>!</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> ¿No os burláis de mí? ¿Va a acudir a vuestra voz?</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p> Sí; va a acudir. Ya viene. Es menester que la veas y hables a solas. Yo me retiro.</p>
+					</sp>
+					<stage>(Vase Doña <rs key="#iren">Irene</rs> con precipitación por una puerta lateral.)</stage>
+				</div>
+				<div  type="scene" n="7">
+					<head>Escena VII</head>
+					<stage><rs key="#laur">Laura</rs>, Don <rs key="#fern">Fernando</rs>.</stage>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p>
+							<stage> (Entrando rápidamente y sin reparar en Don <rs key="#fern">Fernando</rs>.) </stage> ¿Qué mandáis, señora?</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> ¡Cuán bella está!</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p>
+							<stage> (Advirtiendo la presencia de Don <rs key="#fern">Fernando</rs>.) </stage> ¡Jesús me valga! ¿No es ilusión de mis sentidos? ¿No es el infierno que desea engañarme otra vez? ¿Ha tomado cuerpo algún ensueño impuro de mi fantasía? ¡Salvadme, Virgen Santísima!
+							<stage> (<rs key="#laur">Laura</rs> quiere huir. Don <rs key="#fern">Fernando</rs> la detiene, asiéndola de la mano.) </stage>
+						</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> No soy sombra vana, <rs key="#laur">Laura</rs>. Soy tu amigo, tu duro perseguidor. Vuelvo arrepentido a tus pies. ¡Perdóname! No lo merezco; pero tú eres buena... tú eres santa... ¡Perdóname!
+							<stage> (Cae de rodillas a los pies de <rs key="#laur">Laura</rs>.) </stage>
+						</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¿Qué hacéis? Alzaos. Yo no tengo poder ni autoridad para perdonar a nadie. Mis culpas son gravísimas. Yo también necesito perdón. Dejadme. No distraigáis mi alma del camino de la penitencia que sigue hace tiempo.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Harto seguiste ya, <rs key="#laur">Laura</rs> mía, ese áspero camino. Justo es que se trueque en felicidad tu congoja. Yo te amo. Perdóname. Ámame. Así serás mía y seré tuyo para siempre.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Deliráis, señor. ¿Venís a conturbar mi espíritu con tardías ilusiones? Yo no puedo ser ya sino de Dios. Huid. Que no sepan que estáis aquí. No hay ya reparación posible. Mi hermano os matará; y si él muere a vuestras manos, os matará <rs key="#cuel">Cuéllar</rs>.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Tu hermano me perdonará no bien tú me perdones. Ámame; perdóname, y no temas.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Vuestro abandono, vuestro olvido hubieran trocado mi amor en odio, si el odio pudiera albergarse en un corazón cristiano. Cuando estabais lejos de mí, temblaba yo de odiaros, porque mi odio era falta de caridad, hoy tiemblo de no odiaros, hoy quisiera odiaros, porque, sin la defensa del odio, temo volver al amor. Tened compasión de mí. Dejadme. Ya me he dado a Dios. No me robéis a Dios con mano sacrílega.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> <rs key="#laur">Laura</rs> mía; sí, tú me amas, a pesar de mis maldades. No me lo ocultes. No trates de sofocar por más tiempo una pasión que se purificará ante el altar de Dios vivo.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¿Qué os he hecho para que así os burléis de esta mujer desgraciada? Mi resignación era grande; mi resolución firme; mi vocación me parecía completa. ¿Por qué venís a destruir todo esto? ¿Por qué derribar de un soplo el edificio levantado trabajosa y lentamente? ¿Por qué romper con el conjuro de una palabra mágica el simulacro de bienandanza que de mi dolor ha nacido? Con el riego de mis lágrimas han brotado, como ramo de flores, las esperanzas celestiales, que deben perfumar con su aroma mi religioso retiro. No arranquéis esas flores de mi lastimado pecho.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Lo que yo quiero, dueño mío, es que tus celestiales esperanzas se logren ya en la tierra, y se lograrán si me amas. Ya no me apartaré nunca de tu lado. Ámame.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Eres cruel. Me robas la paz del alma. Dios me había recibido por suya y tú me obligas a que le deje. Me fascinas: no acierto a resistirte. La poderosa fuerza con que penetra de nuevo tu amor en todo mi ser, es tal vez para mi perdición; pero es inútil luchar contra ti. Los ángeles me abandonan. Te amo.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p>
+							<stage> (Abrazando a <rs key="#laur">Laura</rs>.) </stage> ¡Encanto mío!</p>
+					</sp>
+					<sp who="#iren">
+						<speaker>Doña Irene</speaker>
+						<p>
+							<stage> (Entrando y estrechando a <rs key="#laur">Laura</rs> y a Don <rs key="#fern">Fernando</rs>.) </stage> ¡Hijos! El cielo os bendiga.</p>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Jornada III</head>
+				<stage>Cuarto de una posada. Es de noche.</stage>
+				<div  type="scene" n="1">
+					<head>Escena I</head>
+					<stage><rs key="#cuel">Cuéllar</rs>, <rs key="#garc">Garcés</rs>.</stage>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¡Haberme burlado de esta suerte! No debo sufrirlo. Me vengaré. Francisco de <rs key="#cuel">Cuéllar</rs> no ha de ser el juguete de una muchacha embustera y de un amigo débil o desleal. ¿Hiciste el concierto con el <rs key="#pere">escudero</rs>?</p>
+					</sp>
+					<sp who="#garc">
+						<speaker>Garcés</speaker>
+						<p> Le hice. Le di, como señal, todo el oro que me entregaste. Si cumple bien lo que ha prometido, le he asegurado que tendrá diez veces más. Podrá irse donde guste y vivir a lo Príncipe. Su codicia nos responde de él. No nos faltará. Esta noche D. <rs key="#fern">Fernando</rs> saldrá a las diez de su casa de campo, a fin de estar al rayar el alba en el castillo del Conde, donde le aguardan para una gran montería. Todos sus criados van con él, menos el <rs key="#pere">escudero</rs>. D. <rs key="#fern">Fernando</rs> quiere llevar séquito y lucirse.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Se lucirá. Ya se está luciendo. Hoy, en medio de la plaza, puesto yo en el centro de un corro de hidalgos, me he desatado en injurias y en amenazas contra él y contra su mujer. D. <rs key="#fern">Fernando</rs> y <rs key="#laur">Laura</rs> han de conocer quien yo soy. Nadie sospecha, con todo, que mi venganza va a ser tan pronta. Nadie calcula qué medios voy a emplear. ¿Buscaste ya a los cuatro hombres determinados y de toda tu confianza?</p>
+					</sp>
+					<sp who="#garc">
+						<speaker>Garcés</speaker>
+						<p> Cuento ya con ellos.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> A las diez estaréis todos, con caballos, aguardándome a unos treinta pasos de las tapias del lugar, en la cruz del egido. Conviene que no me vean salir con gente. Allí nos reuniremos. Vete ahora.</p>
+					</sp>
+					<stage>(Vase <rs key="#garc">Garcés</rs>. <rs key="#cuel">Cuéllar</rs> pasea por el cuarto con alguna agitación.)</stage>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p>
+							<stage> (Solo.) </stage> <rs key="#rivel">Rivera</rs> retarda el darme una explicación satisfactoria de su singular conducta. Con promesas y dilaciones me entretiene tres días ha: desde que volví de Sevilla. Veremos si cumple al cabo y viene esta noche, como me prometió.</p>
+					</sp>
+					<stage>(Vuelve a entrar <rs key="#garc">Garcés</rs>.)</stage>
+					<sp who="#garc">
+						<speaker>Garcés</speaker>
+						<p> ¡Señor! Una dama desea verte.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿Quién es?</p>
+					</sp>
+					<sp who="#garc">
+						<speaker>Garcés</speaker>
+						<p> Se tapa con el manto y no he podido conocerla.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> No importa. Dile que entre.</p>
+					</sp>
+				</div>
+				<div  type="scene" n="2">
+					<head>Escena II</head>
+					<stage>
+						<rs key="#cuel">Cuéllar</rs>, Doña <rs key="#bria">Brianda</rs>, tapada.</stage>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Guárdeos Dios, <rs key="#cuel">Cuéllar</rs>.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿No os descubrís, señora? Hablad. ¿En qué puedo serviros? ¿Qué pretendéis?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Venganza. Y no la pretendería de vos, si no estuvieseis tan agraviado como yo de la persona que me agravia.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿Quién es esa persona?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Bartolomé de <rs key="#rivel">Rivera</rs>.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Y vos ¿quién sois?</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p>
+							<stage> (Se descubre.) </stage>Miradme.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¡Su tía!</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Su tía, y, por mi desgracia, su enamorada también, desde que andaba desvalido y menesteroso. Hoy, que ha vuelto rico y colmado de honores, me desdeña: dice que se avergüenza de mí; no sale de su boca, cuando a mí se dirige, palabra alguna con que no me afrente. Me pisotea el corazón, como quien pisa una víbora; no os pasméis de que me revuelva furiosa contra él. <rs key="#rivel">Rivera</rs> no cuidó, ni pensó siquiera en el honor de su casa y de su familia, ni en la virtud, hasta que ha vuelto de Indias con dinero. Os ha estado engañando como a mí me engañaba. La culpa del desaire ridículo de que ahora sois víctima, la tiene <rs key="#rivel">Rivera</rs>. Os hablaba de su hermana, excitándoos a que la amaseis, y halagándoos con que la guardaba para vos en Castilla, y con que la criaba con el recogimiento más severo, cuando me la había dejado confiada. Yo estoy en la última desesperación, y de nada me atemorizo. No hay ya confesión horrible que traiga rubor a mi rostro. Dejar a su hermana en mi poder, <rs key="#rivel">Rivera</rs> lo sabía, era como dejar al cordero en poder del lobo... y del lobo hambriento. <rs key="#rivel">Rivera</rs>, antes de irse, había acabado de despojarme de cuanto yo tenía. ¿Comprendéis ahora su doblez y su infamia? Es además un cobarde. Más valía que me matase de una vez por mi pecado, y no que de continuo me martirizase, como lo está haciendo. Yo no hice más sino lo que de mí debió él prever. Pero <rs key="#rivel">Rivera</rs> es duro con los débiles, y con los fuertes es débil. A mí no me perdona, y perdona a D. <rs key="#fern">Fernando</rs>, que abandonó y despreció a <rs key="#laur">Laura</rs>, que durante tres años la ha tenido humillada, y que aun ahora se hubiera resistido a tomarla por mujer, si <rs key="#rivel">Rivera</rs> hubiese vuelto de Indias tan miserable y tan obscuro como se fue. D. <rs key="#fern">Fernando</rs> no hubiera consentido en llamar hermano al mozo sin nombre, tablajero indigno, mantenido por mujeres. Consintió en llamar hermano a uno de los ilustres conquistadores del opulento imperio de los Incas.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> No debiera sorprenderme lo que me referís, y me sorprende, sin embargo. La ligereza de <rs key="#rivel">Rivera</rs> en dejar en vuestro poder a su hermana, sabiendo quién sois vos; el disimulo con que me ocultó siempre las relaciones que con vos tenía; la jactancia con que me hacía creer que eran bienes suyos aquellos de que os había despojado, todo esto es vil; pero yo se lo perdonaría todo si no hubiese incurrido en mayor vileza y flaqueza: la de dar nombre de hermano, estrechar la diestra y perdonar, y tal vez hasta agradecer su longanimidad, al que casó con <rs key="#laur">Laura</rs> después de haberla despreciado y martirizado por tanto tiempo. Si D. <rs key="#fern">Fernando</rs> hubiese vuelto arrepentido, Dios, la que fue presa de su seducción, todo cuanto hay en la tierra y en el cielo podía haberle perdonado, menos Bartolomé de <rs key="#rivel">Rivera</rs>. Bartolomé de <rs key="#rivel">Rivera</rs> no cumplía como bueno, sino matándole.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Matarle... Vaya... no es tan fácil matar a D. <rs key="#fern">Fernando</rs>. A mí me matará <rs key="#rivel">Rivera</rs> a desdenes y a injurias..., pero a él..., ¿y para qué? Más cómodo es convertirle en pariente. Emparentado <rs key="#rivel">Rivera</rs> con tan egregio caballero, te despreciará a ti, <rs key="#cuel">Cuéllar</rs>, como me desprecia a mí. Si se avergüenza de sí mismo, en lo pasado, ¿cómo no ha de avergonzarse de los otros? ¿Qué apostamos a que no te declara la verdad? ¿A que no te dice por qué ha consentido en la boda de <rs key="#laur">Laura</rs>? ¿A que no te confiesa con humildad su agravio y la tardía reparación que tan ruinmente acepta?</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Lo creo: nada de eso me confesará. Querrá engañarme de nuevo.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Pues bien; para que no te engañe he venido yo a abrirte los ojos. ¿Has amado a <rs key="#laur">Laura</rs>?</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> La amo todavía, y la odio.</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> Mátame entonces; pero véngame de <rs key="#rivel">Rivera</rs>. Mátame; merezco la muerte. Estoy harta de vivir.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Déjame en paz. Huye. Yo no satisfago mi enojo en flacas mujeres, por culpadas que sean.</p>
+					</sp>
+					<stage>(Entra <rs key="#garc">Garcés</rs>, y Doña <rs key="#bria">Brianda</rs> se tapa con el manto.)</stage>
+					<sp who="#garc">
+						<speaker>Garcés</speaker>
+						<p> <rs key="#rivel">Rivera</rs> viene a verte.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Que venga. <stage> (Se va <rs key="#garc">Garcés</rs>.) </stage>
+						</p>
+					</sp>
+					<sp who="#bria">
+						<speaker>Doña Brianda</speaker>
+						<p> No quiero que me halle aquí.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Por esa puerta te pondrás al punto en la calle sin que te vea.</p>
+					</sp>
+					<stage>(Vase Doña <rs key="#bria">Brianda</rs> por una puerta lateral. Un instante después entra <rs key="#rive">Rivera</rs> por la puerta del fondo.)</stage>
+				</div>
+				<div  type="scene" n="3">
+					<head>Escena III</head>
+					<stage>
+						<rs key="#rive">Rivera</rs>, <rs key="#cuel">Cuéllar</rs>.</stage>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿Te decides, al cabo, a darme la explicación satisfactoria? ¿Podrás dármela con verdad?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Quiero y puedo dártela.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿Por qué me impulsaste a ir a Sevilla?</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Porque tenía sospechas que tocaban a mi honra, y ansiaba ponerlas en claro sin que nadie más que yo entendiese en ello.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Y las pusiste en claro y supiste que tu honra estaba mancillada.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> No, <rs key="#cuel">Cuéllar</rs>. Supe al mismo tiempo la reparación y el agravio, si es que agravio hubo. D. <rs key="#fern">Fernando</rs>, aunque desposado con <rs key="#laur">Laura</rs>, tuvo que huir de nuevo a lejanas tierras; hoy, perdonado ya por el César, es esposo de <rs key="#laur">Laura</rs> a la faz del mundo.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿Ves cómo me quieres engañar? Es inútil. Lo sé todo. D. <rs key="#fern">Fernando</rs> ni se desposó ni prometió nada a <rs key="#laur">Laura</rs>. La abandonó con desprecio. Tan distante estaba <rs key="#laur">Laura</rs> de creerse amada, que me aseguró que no amaba a nadie. Afrentada y culpada, iba a entrar en un convento. Por dicha había en su alma cierta honradez, de que otras almas son incapaces, y no consintió, callando, en casarse conmigo.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> ¿De dónde infieres todo eso? ¿Quién te ha informado tan mal?</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Tu cómplice. Te repito que lo sé todo. ¿Pretendes acaso que se manche mi lengua contando tus delitos? Pero más que tu villanía en dejar a <rs key="#laur">Laura</rs> en poder de una mujer como Doña <rs key="#bria">Brianda</rs>; más que tu falta de aprensión en despojarla antes de todos sus recursos, más me indigna tu carencia total... de entereza, tu ejemplar mansedumbre en perdonar el desprecio, el martirio de años, el abandono en que tu hermana ha gemido.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Por el Dios que está en el cielo, <rs key="#cuel">Cuéllar</rs>, no te obstines en apurar mi paciencia. Ya que lo sabes todo, ya que esa maldita hembra me ha vendido, me someto a tu furia; la merezco por mi imprevisión; no la merezco por haber cedido ahora.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Más la mereces por eso que por nada. La reparación se la debes a tu fortuna, a tus triunfos en Indias. Hubieras vuelto obscuro y pobre y no hubiera sido desagraviada tu hermana. Bien es verdad que tú, pobre y obscuro, no te hubieras preocupado con semejantes niñerías. En ti la honra tiene algo de artificial y de sobrepuesto al dinero.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Aquí, donde nadie te oye, quiero sufrírtelo todo. Te ciega y enloquece la pasión; mas no he de reñir con mi compañero de armas. Respeto tu ira, por más áspero que seas en el reprender, y por más violento que te muestres en el zaherir.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¡Qué manso y qué sufrido te has vuelto en estos últimos días! Ya que no sientes el prurito de vengarte, me dejarás en libertad para que te vengue y me vengue. Yo no soy ni sufrido ni manso. Todavía amo a tu hermana. No atino a aguantar el desaire. Tú, que tanto has sabido sufrir de un desconocido como D. <rs key="#fern">Fernando</rs>, más sufrirás de mí, que soy tu compañero de armas. Esta noche misma voy a robar a <rs key="#laur">Laura</rs>. Amigareme con ella. Luego mataré a D. <rs key="#fern">Fernando</rs>. Tal vez, por último, me case con la honrada viuda. Tú lo llevarás todo con paciencia y me darás una absolución tan generosa como la que a D. <rs key="#fern">Fernando</rs> has dado.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Te he oído con calma impasible, porque veo que no vale mi prudencia ni mi paciencia. Estás demente, frenético. Anhelas reñir y prefiero que riñas conmigo. O desistes de todo plan de ofender a mi hermana, o atajará tus pasos mi acero.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Por cima de ti y de tu acero, he de ir a donde me llevan mi amor, mi deseo y mi encono. Mataré a D. <rs key="#fern">Fernando</rs>. <rs key="#laur">Laura</rs> será mi daifa.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Voto al infierno que no será. Sal a la calle.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Detrás de los muros del convento.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Vamos.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Luego que te mate, iré donde me aguardan a pocos pasos los que han de secundar mi propósito.</p>
+					</sp>
+					<sp who="#rive">
+						<speaker>Rivera</speaker>
+						<p> Tu propósito es morir y vas a lograrle.</p>
+					</sp>
+					<stage>(Vanse.)</stage>
+				</div>
+				<div  type="scene" n="4">
+					<head>Escena IV</head>
+					<stage>Sala en la quinta de Don <rs key="#fern">Fernando</rs>. Armas y trofeos de caza. Algunos retratos. Los muebles entre rústicos y señoriles. Dos puertas laterales y una al fondo.</stage>
+					<stage>
+						Don <rs key="#fern">Fernando</rs>, <rs key="#pere">Pérez</rs> el <rs key="#pere">escudero</rs>.</stage>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> A fe mía que me duele en el alma la resolución que tengo que adoptar, pero no hay más remedio. El tal indiano está delirante. La soberbia le embriaga. Es brutal y zafio, y no hay modo de poner freno a su lengua, ni coto ni límite a sus pretensiones audaces. En la plaza, a gritos, ha dicho que ha de matarme, que ha de robarme la mujer, y hasta que ha de hacerse amar de ella en cuanto le hable a solas. Buena maña te has dado, amigo Pérez, para inspirar confianza completa a ese bandido. En cuanto llegue, introdúcele hasta aquí, y déjale que vea a la señora, si ella no se ha retirado a su estancia. A <rs key="#juan">Juanilla</rs> detenla con habilidad. ¿Cuántos son los rufianes que acompañan a <rs key="#cuel">Cuéllar</rs>?</p>
+					</sp>
+					<sp who="#pere">
+						<speaker>Pérez</speaker>
+						<p> Cinco.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Me alegro de que sean tan pocos. No quiero que haya escándalo, ni lucha, ni sangre. Distráelos tú, y haz de suerte que los míos caigan de improviso sobre ellos, los aten de pies y manos, y los tengan en el patio. Si chillan, ponedles con suavidad sendas mordazas.</p>
+					</sp>
+					<sp who="#pere">
+						<speaker>Pérez</speaker>
+						<p> Se hará como lo decís, mi amo.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Yo voy a salir metiendo mucho ruido; haciendo resonar las trompas de caza. A la vuelta del cerro, en el encinar, nos pararemos. Allí quedarán los perros y los caballos. Mi gente y yo volveremos a pie, con silencio grandísimo, y por la puerta del corral, de que llevo la llave, entraremos sin ser sentidos.</p>
+					</sp>
+					<sp who="#pere">
+						<speaker>Pérez</speaker>
+						<p> <rs key="#cuel">Cuéllar</rs>, que debe llegar pronto, porque se acerca la hora, te verá partir con toda la gente. Esta noche hace una luna muy clara. Como, no bien te vayas, he de hacerle entrar, no podrá ver tu vuelta, ni recelará lo más mínimo.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Todo está preparado con primor y esmero. Sólo me aflige el susto que <rs key="#laur">Laura</rs> va a pasar; pero es menester acabar de una vez. Después viviremos como pastores de Arcadia.</p>
+					</sp>
+					<sp who="#pere">
+						<speaker>Pérez</speaker>
+						<p> ¿No tienes nada más que mandarme?</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Nada. ¡Ah, sí! El dinero que <rs key="#cuel">Cuéllar</rs> te ha dado, repártelo entre los cinco rufianes cuando todo esté terminado. Quiero que me queden agradecidos. Yo te daré el doble.</p>
+					</sp>
+					<sp who="#pere">
+						<speaker>Pérez</speaker>
+						<p> Bien está, señor.
+							<stage> (Vase <rs key="#pere">Pérez</rs>.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="5">
+					<head>Escena V</head>
+					<stage>Don <rs key="#fern">Fernando</rs>, <rs key="#laur">Laura</rs>.</stage>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p>¡<rs key="#fern">Fernando</rs> mío! ¿Te vas y me dejas? No puedes figurarte lo que esto me apesadumbra. Mal haya el Conde con su importuno convite. Si vieras qué miedo tengo de quedarme sola. A tu lado soy valiente; a tu lado nada me asusta. Lejos de ti soy tímida como niña de pocos años.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> No receles nada. Aunque yo me vaya, mi espíritu queda contigo, velando por tu bien. Ya comprendes que no debo desairar al Conde. Dentro de cuatro días estaré de vuelta.</p>
+					</sp>
+					<stage>(Se oyen fuera las trompas de caza que dan la señal de la partida.)</stage>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¡Qué pronto! ¿Has adelantado la hora?</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> No, amor mío. Son ya las diez. No puedo detenerme.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p>
+							<stage> (Abrazándole.) </stage> Adiós. No te rías de mí. Tengo miedo.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> ¿Me amas?</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Con todo mi corazón.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Nada temas entonces. En tu amor se encierra un conjuro poderoso. Con él me evocarás si por acaso sobreviniese algún peligro. Adiós. Quédate: no vengas a despedirme hasta abajo.
+							<stage> (Don <rs key="#fern">Fernando</rs> se va.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="6">
+					<head>Escena VI</head>
+					<stage><rs key="#laur">Laura</rs>, sola.</stage>
+					<stage>Asomada a un balcón, mira partir a Don <rs key="#fern">Fernando</rs> y a su elegante comitiva. Suenan otra vez las trompas de caza.</stage>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Bañado por los rayos de la luna parece más bello y más dulce su rostro varonil, cual si estuviese envuelto en velo luminoso de transparente plata. ¡Cuánto le quiero! ¡Cuánto le he querido siempre, aun cuando imaginaba que iba a odiarle! Ya toma de la brida al brioso alazán: pone el pie en el estribo y monta. ¡Cómo se alegra y ensoberbece el caballo de llevar tan noble jinete! Con impaciencia tasca el freno ansiando pasear a su gentil señor y mostrarle con orgullo por todas partes. Ahora hace piernas y corvetas para mi lisonja y agrado. Adiós, <rs key="#fern">Fernando</rs>, adiós. Ya emprende la marcha. Quisiera yo que las sinuosidades del camino y lo quebrado del terreno no le robasen a mi vista. Le seguiría leguas, y se me antoja que por un esfuerzo de voluntad había yo de estar viéndole distintamente, cual si él estuviera cerca de mí. Vuelve la cara para mirarme. Me saluda. <stage> (Agita <rs key="#laur">Laura</rs> el lienzo que tiene en la mano.) </stage> Adiós, mi bien, adiós
+							<stage> (Pausa.) </stage><rs key="#fern">Fernando</rs> me dobla la edad; pero su alma es más joven que la mía. Toda su persona conserva, además, la lozanía y la gracia de los primeros años, en raro maridaje con la gravedad majestuosa de la edad madura, ¡Dios mío! ¡Qué de priesa van! Ya se acercan a aquella revuelta. Pronto dejaré de verlos. Quiera el cielo que vuelvan cuanto antes. Ya torció <rs key="#fern">Fernando</rs> hacia el encinar. Ya se perdió, detrás del cerrillo, cabalgando por la vereda.</p>
+					</sp>
+					<stage>(<rs key="#laur">Laura</rs> se retira del balcón, y viene lentamente a sentarse en un sillón de brazos.)</stage>
+					<stage>(Nuevo momento de silencio.)</stage>
+					<p>Mi temor es inmotivado, pueril. <rs key="#cuel">Cuéllar</rs> me decía que no había de sufrir a otro rival sino a Dios; que había de conquistar mi corazón o perecer en la demanda; que había de matar a quien me enamorase; pero éstos eran, sin duda, encarecimientos de pretendiente y bizarrías vanas de soldado jactancioso. Yo le contestaba con sinceridad algo que hoy debe parecerle disimulo, engaño y mentira. Yo le contestaba que yo no amaba a nadie sino a Dios y que deseaba retirarme a un convento. Grande ha de ser su rabia contra mí al saber que estoy casada, a los pocos días de haberle asegurado mi desamor a todo hombre. Pero yo no le engañé. Tú, Dios mío, Tú, que penetras en el fondo de los corazones, sabes que no le engañé. Yo me engañaba a mí misma. Yo aborrecía el recuerdo de mi pecado, y por eso creía que no amaba a aquél por quien pequé. Volvió a presentarse ante mis ojos: vi de nuevo a <rs key="#fern">Fernando</rs>, y el amor, escondido en lo más íntimo de mi ser, donde ni yo misma le columbraba, brotó con ímpetu, surgió de repente más poderoso que nunca. <rs key="#cuel">Cuéllar</rs> tendrá que resignarse. Dicen que es tremendo; pero respetará a mi marido. No es igual tratar con indios punto menos que inermes, con hombres sencillos y de casta tan inferior a la nuestra, que competir con quien en todo se le aventaja. Sin embargo, yo he mentido sin querer. Yo he prometido a <rs key="#cuel">Cuéllar</rs> ser de él si no era de Dios. Sí, casi se lo he prometido sin saber lo que decía. <stage> (Larga pausa.) </stage> ¡Ay! ¡Qué horror! ¡Qué espantosa idea se ofrece a mi espíritu! ¿Y si <rs key="#cuel">Cuéllar</rs> fuese tan audaz como aseguran? ¿Y si acudiese a exigirme el cumplimiento de la promesa? Tengo miedo. Estoy temblando como una azogada. ¡Socorro! ¡Valedme, Virgen Santa! ¡Qué soledad! Me parece que oigo un extraño rumor. ¿Por qué me has dejado, <rs key="#fern">Fernando</rs> mío? No voy a dormir esta noche. Llamaré a Juana para que se quede conmigo. ¡Juana! ¡Juana! No me responde. ¡Juana! No viene. Tengamos valor. Amo a <rs key="#fern">Fernando</rs>. En este amor, él me lo ha dicho, se encierra un poderoso conjuro. Evocaré a <rs key="#fern">Fernando</rs> a fin de que me dé aliento. ¡Fernando!</p>
+				</div>
+				<div  type="scene" n="7">
+					<head>Escena VII</head>
+					<stage><rs key="#cuel">Cuéllar</rs>, <rs key="#laur">Laura</rs>.</stage>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p>
+							<stage> (Mostrándose de repente.) </stage> <rs key="#fern">Fernando</rs> está muy lejos y no te oirá. Aquí me tienes en lugar suyo. ¿No me dijiste que no serías sino mía o de Dios? ¿Por qué me engañaste? Yo te amaba con toda mi alma. Tu falsía debió matar mi amor; pero mi amor sobrevive al desengaño.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p>
+							<stage> (Al ver a <rs key="#cuel">Cuéllar</rs> y al oír sus primeras palabras se asusta más, y cae en un sillón, cubriendo su rostro con las manos. Luego se recobra y dice aparte:) </stage> ¡Valor, cielos, valor! <stage> (A <rs key="#cuel">Cuéllar</rs>.) </stage> ¿Cómo os atrevéis a entrar aquí? ¿Qué audacia es la vuestra? Idos o daré voces.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¿Y quién ha de oírlas que te socorra? Tu marido se llevó a todos los criados.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> Escuchad, <rs key="#cuel">Cuéllar</rs>: os lo confieso. El terror se apoderó de mí antes de veros, pensando en una falta involuntaria que contra vos he cometido. Ahora veo que era mi conciencia quien me aterraba con harto sutiles escrúpulos. Vuestra insolente aparición disipa los escrúpulos sutiles. La serenidad y el brío vuelven a mi ánimo. Me mostraré digna de mi noble esposo. Sola como estoy me basto. Idos de aquí. Salid de esta casa. Pronto. No me insultéis. Esta es la morada de un caballero principal de Castilla: no es la choza o el bárbaro palacio de los débiles indios que tan a mansalva solíais ofender.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Ya comprenderás, <rs key="#laur">Laura</rs>, que el que se atrevió a entrar aquí se atreve a todo. Tus injurias ni me hieren ni me lastiman: me enamoran más y me inducen a hacerte mía. Esas palabras llenas de cólera, que brotan de tus frescos labios, me excitan a que las ahogue a besos. Será delirio, será aviesa condición; pero te amo más mientras más me desdeñas. Necesito vengarte del seductor, ya que no supo vengarte tu hermano. Sígueme. Todo está pronto para el rapto. No pienses que me ocultaré después de tu marido. Ya le buscaré, si él no me busca, y responderé de todo con mi espada. Vamos. Síguenle.
+							<stage> (Agarra <rs key="#cuel">Cuéllar</rs> del brazo a <rs key="#laur">Laura</rs>.) </stage>
+						</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¡Suelta, bandido! ¡<rs key="#fern">Fernando</rs>, socórreme!</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p>
+							<stage> (Riendo.) </stage> ¡Socórrela, <rs key="#fern">Fernando</rs>!</p>
+					</sp>
+				</div>
+				<div  type="scene" n="8">
+					<head>Escena VIII</head>
+					<stage> Dichos y Don <rs key="#fern">Fernando</rs>, acompañado de sus criados y pajes, en número de veinte a lo más, con trajes y armas de cazadores y con antorchas. Todos entran con ímpetu y rodean el grupo principal, dejando ancho espacio vacío en el centro. <rs key="#juan">Juanilla</rs> entra enseguida con otras dos mujeres de la servidumbre.</stage>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Aquí me tienes, pronto a socorrerla.</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p>
+							<stage> (Sorprendido, pero sin aturdirse ni inmutarse.) </stage> No sois pocos los que venís en su socorro. Bien urdida traición, pero cobarde. Más de veinte contra uno. ¡Hola, <rs key="#garc">Garcés</rs>! ¡Aquí de los míos!</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Es inútil que los llames. Los que te acompañaban están maniatados en el patio y con mordazas a fin de que no alboroten. Yo pudiera matarte como quien mata a un ladrón, como quien mata a un perro rabioso, valiéndome para ello de mis criados. Me has ofendido sin razón y en público; me has amenazado de mil modos; has vomitado por esa boca desaforada todo linaje de agravios contra esta bella mujer a quien dices que amas; te has vanagloriado en todas partes de que me la quitarías y de que me matarías, y has venido, por último, a mi casa, espiando la ocasión en que me creías ausente, a fin de robármela y ultrajármela. Pues bien, a pesar de todo, me allano a tratarte como a caballero. Acepto el desafío a que me estás provocando tres días ha. Para que sea más solemne, traigo por testigos a todos los de mi casa. Me obedecen ciegamente y verán inmóviles cómo reñimos. Si me matas, te dejarán franco el paso. Nada receles. No he de pelear con otra ventaja que la que me da la justicia. Si quieres cerciorarte, mira: bajo mi coleto de ante, sólo el delgado cambray cubre y resguarda mi pecho. Saca la espada y clávala en él si puedes. <stage> (Don <rs key="#fern">Fernando</rs> saca la espada. <rs key="#cuel">Cuéllar</rs> hace la misma acción.) </stage>
+						</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p>
+							<stage> (Acude a interponerse.) </stage>¡Ah! ¡Por piedad! ¡Cese vuestro furor!</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> No, <rs key="#laur">Laura</rs>. El cielo exige que yo te vengue a pesar tuyo. No tardará en morir tu seductor, como ya ha muerto el hermano sin honra que te dejó abandonada. Su sangre humedece aún mi acero.</p>
+					</sp>
+					<sp who="#laur">
+						<speaker>Laura</speaker>
+						<p> ¡Qué horror! <stage> (Cae desmayada en brazos de <rs key="#juan">Juanilla</rs>, y las otras dos mujeres se acercan a cuidarla.) </stage>
+						</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Defiéndete sin tardanza o te mato, antes que envenenes a cuanto más quiero con esa lengua ponzoñosa. <stage> (Don <rs key="#fern">Fernando</rs> y <rs key="#cuel">Cuéllar</rs> cruzan las espadas.) </stage>
+						</p>
+					</sp>
+				</div>
+				<div  type="scene" n="9">
+					<head>Escena IX</head>
+					<stage>Dichos. EL <rs key="#padr">Padre</rs> Antonio.</stage>
+					<stage>(EL <rs key="#padr">Padre</rs> sale apresurado y se coloca en medio de los dos combatientes, separándolos.)</stage>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Deteneos. Ya basta de sangre. Vengo corriendo a caballo, en medio de la noche, a fin de evitar mayor mal. El indio <rs key="#cipr">Cipriano</rs> extrañó la salida de <rs key="#rivel">Rivera</rs>, y receló una desgracia. Le buscó, y a pesar de su instinto prodigioso, llegó tarde donde se hallaba. Oyó sus gemidos y le llevó moribundo a su casa. Antes de morir, <rs key="#rivel">Rivera</rs> tuvo fuerzas para decirme que Cuéllar había venido aquí a cometer nuevos crímenes. Aquí estoy para impedirlos en el nombre de Dios Todopoderoso. Aplacaos. Que la misma catástrofe que acabo de presenciar sirva para conteneros. La desventurada mujer que excitó a <rs key="#cuel">Cuéllar</rs> contra <rs key="#rivel">Rivera</rs>, al verle morir por culpa suya cayó llorando sobre su cadáver. Su amor mundanal por aquel hombre adquirió un grado de violencia diabólicamente sublime. La desesperación de Judas se apoderó de su alma. Corrió a la azotea. Asió una cuerda, atada por un extremo a los hierros de la barandilla; hizo un fuerte lazo corredizo y puso fin a su atropellada existencia. La he visto muerta, aterradora. Aun traigo erizadas de espanto estas canas que cubren mi cabeza. ¡Dios mío! ¡Dios mío! ¡Basta ya de delitos y de muertes!</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> <rs key="#padr">Padre</rs>, es inútil lo que hacéis. Os respeto, os amo; pero tengo que desoír vuestras amonestaciones. Apartaos. Dejad que peleemos. Creedme; este duelo tiene algo de religioso: es el juicio de Dios.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> No blasfemes, hijo. Dios no pronuncia sus fallos por medio de un empleo bárbaro de la fuerza. No combatiréis si antes no me matáis.</p>
+					</sp>
+					<stage>(<rs key="#cuel">Cuéllar</rs> y Don <rs key="#fern">Fernando</rs> cruzan las espadas por segunda vez, y el <rs key="#padr">Padre</rs> Antonio se pone en medio.)</stage>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> Mirad, hijos míos: en Roma, aun después del Cristianismo, seguían combatiendo en el Circo los gladiadores. Un santo monje, llamado Telémaco, quiso acabar con aquella costumbre feroz. El monje Telémaco regó el Circo con su generosa sangre; pero el combate de los gladiadores terminó para siempre. ¿Queréis vosotros, cubriéndoos de perpetuo baldón, proporcionarme, aunque indigno, una gloria y un triunfo semejantes?</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> Ea, <rs key="#padr">Padre</rs>, idos al diablo con vuestras pedanterías. Aquí no queremos proporcionaros nada.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Ya he dicho que os respeto. Después, si vivo, os pediré perdón de rodillas. Ahora ni puedo obedeceros ni puedo consentir que me estorbéis en mi firme e inevitable resolución.
+							<stage> (Dirigiéndose a los criados que tiene más cerca.) </stage> Asegurad al <rs key="#padr">Padre</rs> hasta que terminemos.
+							<stage> (Los criados se apoderan del <rs key="#padr">Padre</rs> Antonio, que lucha por desasirse, mientras le apartan a un lado.) </stage>
+						</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p> ¿Cómo osáis poner vuestras sacrílegas manos en el ungido del Señor?</p>
+					</sp>
+					<stage>(Don <rs key="#fern">Fernando</rs> y <rs key="#cuel">Cuéllar</rs> riñen.)</stage>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> He de vengarme al cabo de tu seducción, origen de tantos males.</p>
+					</sp>
+					<sp who="#fern">
+						<speaker>Don Fernando</speaker>
+						<p> Yo no peleo por venganza, sino por necesidad, por seguridad y por justicia. Vénguense de ti, por mi mano, los indios del Perú y el inca Atahualpa. <stage> (Don <rs key="#fern">Fernando</rs> hiere a <rs key="#cuél">Cuéllar</rs>, y éste cae a tierra.) </stage>
+						</p>
+					</sp>
+					<sp who="#cuel">
+						<speaker>Cuéllar</speaker>
+						<p> ¡Ah!
+							<stage> (Muere.) </stage>
+						</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>El Padre</speaker>
+						<p>
+							<stage> (De rodillas y alzando al cielo las manos.) </stage>¡Misericordia, Señor, misericordia!</p>
+					</sp>
+				</div>
+			</div>			
+		</body>
+		<back>
+			<head>Madrid, 1878.</head>
+		</back>
+	</text>
+</TEI>

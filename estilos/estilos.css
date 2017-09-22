@@ -1,0 +1,222 @@
+
+TEI
+	{
+		margin:0 auto;
+		width: 50%;
+		font-size:120%;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+
+/*******	teiHeader **********/
+teiHeader
+	{
+				display:block;
+		background-color:#339933;
+		color:white;
+		padding:2rem;
+		font-family: Georgia, serif;
+	}
+teiHeader *
+	{
+		display:block;
+	}
+
+title, author
+	{
+		font-variant:small-caps;
+		text-align:center;
+		letter-spacing: 0.2rem;
+		word-spacing: 0.4rem;
+		margin:1rem;
+	}
+title
+	{
+		font-size:2rem;
+	}
+author,
+publicationStmt>publisher
+	{
+		font-size:1.5rem;
+	}
+sourceDesc bibl 
+	{
+		margin: 1rem 1rem;
+	}
+principal:before
+	{
+		content:"Editor: "
+	}
+publisher:before
+	{
+		content:"Institución: ";
+	}
+availability p:before
+	{
+		content:"Propiedad intelectual: ";
+	}
+publicationStmt date:before
+	{
+		content:"Texto TEI producido en: ";
+	}
+	idno:before
+	{
+		content:"Identificador: "
+	}
+sourceDesc bibl[type="first-published"]:before
+	{
+		content:"Primera edición del texto: ";
+		font-weight:bold;
+	}
+sourceDesc bibl[type="electronic"]:before
+	{
+		content:"Edición electrónica: ";
+		font-weight:bold;
+	}
+sourceDesc bibl[type="authorised"]:before
+	{
+		content:"Edición autorizada: ";
+		font-weight:bold;
+	}
+abstract:before
+	{
+		content:"Resumen de la obra: ";
+		font-weight:bold;
+	}
+date:before
+	{
+		content:"Fecha: ";
+	}
+pubPlace:before
+	{
+		content:"Ciudad: ";
+	}
+ref:before
+	{
+		content:"URL: ";
+	}
+
+listPerson:before
+	{
+		content:"Lista de personajes, cert: " attr(cert);;
+		color:white;
+	}
+person {
+		margin:1rem;
+	}
+person:before
+	{
+		content:"Sexo: " attr(sex) " Role: " attr(role);
+		color:white;
+	}
+
+persName:before
+	{
+		content:"Nombre: ";
+		color:white;
+	}
+
+affiliation:before
+	{
+		content:"Affiliation " attr(type) ": ";
+		color:white;
+	}
+
+/************* Text ********************/
+text,front,body,back,head,castList,div1,div2,div3,div4,sp,p,stage
+	{
+		margin:0.2rem 0;
+		display:block;
+	}
+
+div1>*,
+div2>*
+	{
+}
+
+/*****	heads	******/
+
+text head
+	{
+		color: #006600;
+		font-variant:small-caps;
+		text-align:center;
+		font-family:Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2rem;
+		word-spacing: 0.4rem;
+	}
+text>*>head,
+text>*>*>head
+	{
+		font-size:2rem;
+		margin:2rem 0rem;
+	}
+text>*>*>*>head
+	{
+		font-size:1.5rem;
+		margin:1rem 0rem;
+	}
+
+/******** paratexts ********/
+	/***	Cast	****/
+	castList
+		{
+			padding:2rem;
+			border:solid 0.5rem #006600;
+		}
+	castItem
+		{
+			display:list-item;
+			list-style-type: circle;
+		}
+	role
+		{
+			font-weight:bold;
+			font-variant:small-caps;
+			color:#006600;
+		}
+	roleDesc
+		{
+			color:#000000;
+		}
+
+stage
+	{
+		padding:0.2rem;
+		color:#339933;
+		font-style: italic;
+	}
+
+speaker:after
+	{
+		content:".—";
+	}
+speaker
+	{
+		font-variant:small-caps;
+	}
+/****** prose text *********/
+p *
+	{
+		padding:0;
+		display:inline;
+	}
+
+sp p
+	{
+		text-indent:1rem;
+		text-align:justify;
+	}
+hi
+	{
+		font-style: italic;
+	}
+rs
+	{
+		font-variant: small-caps;	
+}
+rs:after
+	{
+		content:attr(key);
+		color:grey;
+}

@@ -1,0 +1,2932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short">Fedra</title>
+				<title type="full">Fedra: Tragedia en tres actos</title>
+				<title type="idno">
+					<idno type="viaf">210973096</idno>
+					<idno type="bne">bimo0000328509</idno>
+				</title>
+				<author>
+					<name type="full">Miguel de Unamuno</name>
+					<name type="short">Unamuno</name>
+					<idno type="viaf">88844103</idno>
+					<idno type="bne">XX1139151</idno>
+				</author>
+				<principal xml:id="jct">José Calvo Tello</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2016</date>
+				<idno>012</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="print-source">
+					<date>1987</date>
+					<publisher>Editorial Castalia</publisher>
+					<pubPlace>Madrid</pubPlace> 
+				</bibl>
+				<bibl type="electronic-source">
+					<date>2016</date>
+					<publisher>Ghedi</publisher>
+					<pubPlace>Madrid</pubPlace>
+				</bibl>
+				<bibl type="first-published">
+					<date>1924</date><!--Según la edición de Castalia no confirmado; la siguiente es en 1954-->
+					<publisher></publisher>
+					<pubPlace>Madrid</pubPlace>
+				</bibl>
+				<bibl type="first-performance">
+					<date when="1918">1918</date>
+					<pubPlace>Madrid</pubPlace> 
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Acto 1: se presentan los personajes y sus relaciones. Pedro, marido de Fedra, quiere que su hijo Hipólito se case y tenga hijos y pide a Fedra que indague si el hijo piensa en ello. Fedra lo hace, a lo que Hipólito responde que no piensa todavía en casarse ni hay ninguna mujer. En la conversación, Fedra pero descubre a su hijo político (es decir, no es su hijo biológico) que está enamorada de él y él la rechaza. Pedro se entera que Hipólito no piensa en casarse y se enfada con ambos. También se presentan los personajes secundarios: la nodriza de Fedra, Eustaquia, quien sabe su amor por Hipólito; la criada Rosa, a quien Fedra ofrece ser su madrina de boda; y Marcelo, médico amigo de Pedro.</p>
+<p>Acto 2: ha pasado algún tiempo (probablemente días o semanas), Fedra amenaza a Hipólito con acusarle a él de pretenderle ante Pedro, amenaza que Hipólito ignora. Fedra lo hace y Pedro habla con su hijo. Hipólito no le descubre la verdad a su padre y este le pide que se vaya. Marcelo alude a Pedro que Hipólito es el único sano en esa casa. Fedra refiere su futura muerte.</p>
+<p>Acto 3: el acto comienza con Fedra muriéndose en la cama tras haber tomado algunas pastillas para suicidarse y todas las escenas tienen lugar en su cuarto o en el cuarto adyacente, desde el cual van pasando para despedirse. Fedra escribe una carta explicando la verdad y se la entrega a Eustaquia. Marcelo y Eustaquia refieren que otras mujeres de la familia de Fedra tuvieron situaciones o muertes similares. Hipólito se despide de ella, se perdonan, se besan y poco después ella muere ante los ojos de Pedro. Eustaquia le da la carta de Fedra y padre e hijo se disponen a perdonarse y seugir viviendo, achacando lo ocurrido al destino.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2016-08-08" who="#jct">Versión inicial de TEI.</change>
+			<change when="2016-08-08" who="#jct">Terminada versión procesada. Por hacer la colación del texto.</change>
+			<change when="2017-05-09" who="#jct" status="approved">Revisión terminada.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<head>EXORDIO </head>
+				<p>Señoras y señores, Amigos míos del Ateneo:</p>
+				<p>Esta mi tragedia <hi rend="italic">Fedra</hi> no me ha sido posible que me la acepten para representarla en un teatro de Madrid. La misma suerte han corrido otros dramas que tengo compuestos y presentados.</p>
+				<p>Ha habido para ello razones externas al arte y otras internas a él.</p>
+				<p>Las externas son que ni formo parte del cotarro de lo que se llama por antonomasia los <hi rend="italic">autores,</hi> ni hago nada por entrar en él mediante los procedimientos ya clásicos, y que tampoco me puedo ni debo reducir a perder el tiempo en saloncillos y otros lugares análogos solicitando, siquiera con una silenciosa asiduidad a tales tertulias teatrales, un turno para que den al público a conocer mis obras dramáticas.</p>
+				<p>Agréguese que ni sé ni quiero saber escribir papeles, y menos cortados a la medida de tal actor o actriz, y más desconociendo, como desconozco, las respectivas aptitudes de los hoy en boga, desconocimiento que no me han de perdonar. Y como procuro, en vez de cortar papeles, crear personajes —o más bien, personas, caracteres—, tampoco puedo ni debo estar dispuesto a modificar y estropear a éstos para acomodarlos, como a un potro, a las condiciones de quien los haya de representar. Son éstos, los actores y actrices, los que en buena ley de arte deben doblegarse al carácter dramático.</p>
+				<p>Hay un perenne conflicto entre el arte dramático y el arte teatral, entre la literatura y la escénica, y de ese conflicto resulta que unas veces se impone al público dramas literariamente detestables, estragando su gusto, y otras veces se ahoga excelentes dramas.</p>
+				<p>Y me parece en la mayoría de los casos un desatino eso de decir de un drama que es excelente para leído, pero poco teatral. Lo que leído produce efecto dramático, cómico o trágico, ha de producirlo si se sabe representarlo.</p>
+				<p>Y hay que educar al público para que guste del desnudo trágico.</p>
+				<p>Llamo desnudo en la tragedia o desnudez trágica al efecto que se obtiene presentando la tragedia en toda su augusta y solemne majestad.</p>
+				<p>Libre primero de todos los perifollos de la ornamentación escénica.</p>
+				<p>Así, esta mi <hi rend="italic">Fedra,</hi> que no es sino una modernización de la de Eurípides, o mejor dicho, el mismo argumento de ella, sólo que con personajes de hoy en día, y cristianos por tanto —lo que la hace muy otra—; esta mi <hi rend="italic">Fedra</hi> puede representarse con la misma escena para los tres actos, consistiendo en una limpia sábana blanca de fondo —que simboliza un cuarto—, una mesa de respeto y tres sillas para que puedan sentarse, si lo creen alguna vez de efecto, los actores, y vestidos éstos con su traje ordinario de calle. No quiere necesitar esta tragedia del concurso de pintor escenógrafo, ni de sastre y modisto, ni de peluquero. Aspiro a que cuanto diga y exprese Fedra, por ejemplo, sea de tal intensidad trágica, que los espectadores —y sobre todo las espectadoras— no tengan que distraerse mirando cómo va vestida la actriz que la representa. Y que ésta tenga que atender más a la expresión del carácter que simboliza que a sus propios encantos personales —por grandes que éstos sean— o a su elegancia en el vestir.</p>
+				<p>El éxito del cinematógrafo creo que acabará por influir favorablemente en el arte dramático, haciéndole volver a éste a su primitiva severidad de desnudez clásica y dejando para aquel otro todo lo que es ornamentación escénica. El que vaya a ver y oír un drama ha de ir a verlo y a oírlo, y no a ver decoraciones, mobiliarios, indumentaria y acaso tramoya y a oír algo externo al drama mismo.</p>
+				<p>Y aun dentro de la tragedia como obra poética he tendido, acaso por mi profesional familiaridad con los trágicos griegos, a la mayor desnudez posible, suprimiendo todo episodio de pura diversión, todo personaje de mero adorno, toda escena de mera transición o de divertimiento. Los personajes están reducidos, con una economía que quiere ser artística, al mínimo posible, y el desarrollo de la acción, resultado del choque de pasiones, va por la línea más corta posible. El diálogo mismo tiende a ser lo menos oratorio posible. Y si hay monólogos, como en el antiguo arte clásico los había, es porque ahorran largos rodeos y son de una verdad íntima mucho mayor que la de éstos.</p>
+				<p>La acción, el drama de esta tragedia quiere aparecer aquí desnuda, sin prolijo ropaje que la desfigure. Es poesía y no oratoria dramática lo que he pretendido hacer. Y esto me parece que es tender al teatro poético y no ensartar rimas y más rimas, que a las veces no son sino elocuencia rimada, y de ordinario ni aun eso.</p>
+				<p>Teatro poético no es el que se nos presenta en largas tiradas de versos para que los recite, declame o canturree cualquier actor o actriz de voz agradable y de tonillo cos-quilleador o adormecedor de oídos; teatro poético será el que cree caracteres, ponga en pie almas agitadas por las pasiones eternas y nos las meta al alma, purificándonosla, sin necesidad de ayuda, sino la precisa, de las artes auxiliares.</p>
+				<p>Y así indicado lo que quiero decir con lo de desnudez poética de la tragedia, he de pasar a decir dos palabras respecto al final de esta tragedia: a la muerte de Fedra.</p>
+				<p>Hay quien me ha dicho que Fedra debía morir en escena, mas yo, después de bien pensado, sentí —sentí, no pensé— que la muerte tiene mucho más efecto poético y más grande pesando invisible sobre la escena que presentándose crudamente en ella. Ha de haber un mayor misterio y una mayor angustia trágica en ver a Pedro, el marido de Fedra, pendiente de una muerte que se siente cernerse allí junto, y sentir que la pobre, presa del amor trágico, y su víctima, su hijastro, se miran a los ojos bajo los ojos de la Esfinge.</p>
+				<p>Una muerte en escena sólo convendría a una actriz de esas que tienen una colección de muertes para mostrar sus habilidades escénicas. Pero siempre que he visto a algún actor especialista en muertes expirar en escena, me ha parecido aquello más cinematográfico que dramático y casi siempre repulsivo. Es ello de un arte inferior y con ello se consigue efectos que ningún dramaturgo debe procurar a los que han de representar sus obras.</p>
+				<p>También algunos técnicos —técnicos en arte teatral, no en dramaturgia— me han advertido la escueta desnudez de ciertas expresiones. He tratado, en efecto, de poner al desnudo el alma y el amor de Fedra, pero por creerlo más poético. Un amor así, fatídico, siempre es hermoso aunque terrible —hermosísimo era Luzbel mismo— y debe aparecer al desnudo. Desnudez, que es siempre más casta que el desvestido.</p>
+				<p>Los oídos más castos deben y pueden oír los rugidos de una fatídica pasión irresistible; lo que no deben oír son las picardigüelas de la sensualidad hipócrita o los desahogos del vicio. Sólo una gazmoñería farisaica puede fingir escandalizarse de la castísima desnudez con que aquí se os presenta un alma dominada por el amor fatal.</p>
+				<p>No sé el resultado que pueda obtener este ensayo de un renovado arte dramático clásico, escueto, desnudo, puro, sin perifollos, arrequives, postizos y pegotes teatrales u oratorios; pero hace tiempo que creo que a nuestra actual dramaturgia española le falta pasión, sobre todo pasión, le falta tragedia, le falta drama, le falta intensidad.</p>
+				<p>He querido presentaros unas almas humanas arrastradas por el torbellino del amor trágico y he arrojado de mi obra todo lo que podía haber encubierto la pobreza de la acción, si ella es pobre. Mas si es rica en sí, dentro de sí, poéticamente rica, rica en intensidad trágica, y si son ricos en humanidad los personajes, no podrán sino ganar con esa escueta desnudez.</p>
+				<p>Vosotros lo diréis, que yo ya os he dicho mi intención. Si bien en arte la intención no salva.</p>
+				<p>Decidid, pues.</p>
+			</div>
+			<div>
+				<head>Personajes</head>
+				<castList>
+					<castItem><role xml:id="fedr">Fedra</role></castItem>
+					<castItem><role xml:id="pedr">Pedro</role><roleDesc>, su marido </roleDesc></castItem>
+					<castItem><role xml:id="hipo">Hipólito</role><roleDesc>, hijo de Pedro y alnado de Fedra</roleDesc></castItem>
+					<castItem><role xml:id="eust">Eustaquia</role><roleDesc>, nodriza de Fedra </roleDesc></castItem>
+					<castItem><role xml:id="marc">Marcelo</role><roleDesc>, médico, amigo de Pedro </roleDesc></castItem>
+					<castItem><role xml:id="rosa">Rosa</role><roleDesc>, <hi rend="italic">la criada</hi></roleDesc></castItem>
+				</castList>
+			</div>
+			<div>
+				<p>El argumento generador de esta tragedia es el mismo del <hi rend="italic">Hipólito</hi> de Eurípides y de la <hi rend="italic">Fedra</hi> de Racine. El desarrollo es completamente distinto del de ambas tragedias.</p>
+				<p>De los personajes de aquéllas sólo he conservado con sus propios nombres tradicionales a Fedra e Hipólito, la nodriza (τροφοδ) de Eurípides, Oenone en Racine, ha cambiado en mi Eustaquia. En Eurípides figuran además Venus, Diana, Teseo, dos nuncios, criados y un coro de mujeres trezenias, y en Racine, Teseo, Aricia, Teramenes, Ismena, Panope y guardias.</p>
+			</div>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Acto primero</head>
+				<div type="scene" n="1">
+					<head>Escena I</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#eust">Eustaquia</rs></stage>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pero qué, ¿no se te quita eso de la cabeza, <rs key="#fedr">Fedra</rs>?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Ay, <rs key="#eust">Eustaquia</rs>! si hubiese de ser de la cabeza sólo, ya se me habría quitado, pero...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>El corazón es más rebelde, lo sé.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Y ahora es cuando más me acuerdo de mi madre...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Acordarte? No puede ser...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, aunque te parezca mentira me acuerdo de esa madre de la que perdí toda memoria... ¿toda...? de esa madre a la que apenas conocí. Paréceme sentir sobre mis labios su beso, un beso de fuego en lágrimas, cuando tenía yo... no sé... dos años, uno y medio, uno, acaso menos... Como algo vislumbrado entre brumas.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Sueños.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Tal vez...! Y dime, ama, tú que tanto conociste a mi madre...</p>
+					</sp>
+
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><hi rend="italic">(Tristemente.) Sí</hi>...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Cómo era?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Te he dicho más de cien veces que dejemos eso.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No, no podemos dejarlo y menos ahora; necesito de estos recuerdos.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>(<hi rend="italic">A parte.)</hi> Si lo supiera todo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Nunca has querido hablarme de mi madre.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿No lo he sido, no lo soy para ti yo?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Pero la otra, la que me llevó en sus entrañas...! ¿Qué fatídica niebla vela su memoria? ¿Por qué me lo callas, <rs key="#eust">Eustaquia</rs>? <stage>(Abrazándola.)</stage> Vamos, háblame de ella...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><stage>(Acariciándola.)</stage> Ten juicio, hija, ten juicio. ¿A qué viene ahora esto?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Y me lo preguntas tú, tú, <rs key="#eust">Eustaquia</rs>, tú? Ahora, en estos días de lucha, es cuando más necesito de su memoria. Dime, ¿luchó ella?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Déjalo, <rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es decir que sí, que luchó. Y dime, ¿venció acaso?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Y qué es vencer?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Eso me digo también yo: ¿qué es vencer? Acaso vencer es lo que dicen ser vencida...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡<rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>En fin, murió. Luego, aquella infancia que se me borra como un sueño de madrugada... Después el convento en que me educaron las madres... ¡Ojalá hubiese entrado para siempre en él! A punto de ello estuve, ¡quería tanto a la madre Visitación! Pero pudiste más tú, <rs key="#eust">Eustaquia</rs>, y no sé si te lo agradezco...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Ni yo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Y vino mi matrimonio con <rs key="#pedr">Pedro</rs>, tú sabes mejor que nadie cómo. Fui vencida por su generosidad y entré en esta casa, la de <rs key="#hipo">Hipólito</rs>... Empezó llamándome “madre”. ¡Madre! ¡Qué nombre tan sabroso! ¡Cómo remeje las entrañas! Pero... ¡la fatalidad! ¡la fatalidad!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Hablar de fatalidad es querer ser vencida, <rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Y era él, su padre, mi marido, el que al principio, viéndole tan encogido y tímido, le decía para animarle: “anda, hijo, da un beso a tu nueva madre... ¡a tu madre!” ¡Aquellos besos...! ¿No ves aquí, ama, la mano de la fatalidad o de la Providencia?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Te veo en mal camino.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Eso es lo malo, ama, el camino, pero una vez que se llega...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿A dónde?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Adonde sea, qué sé yo..., al destino!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>No digas eso, por la Virgen Santísima.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>A ella pido ayuda y consuelo en mi aflicción... Pero no puedo más, ama, no puedo. Cada vez que llamándome madre me besa al despedirse, una ola de fuego me labra la carne toda, se me aprieta el corazón y se me anuda la garganta. Y debo de ponerme blanca, ¿no? blanca como una muerta...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Te he dicho que le esquives. Esas cosas salen a la cara.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Lo habrá echado de ver él, <rs key="#hipo">Hipólito</rs>, ama? ¿Lo habrá advertido su padre, mi marido?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>No lo creo, pero más tarde o más temprano... ¡Hay que acabar con eso!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, tienes razón, voy a acabar con ello; pero ¿sabes cómo, ama?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡No quiero saberlo!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es que lo sabes ya.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><rs key="#fedr">Fedra</rs>, <rs key="#fedr">Fedra</rs>, este amor culpable...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Culpable? ¿Qué es eso de amor culpable? Si es amor no es culpable, y si es culpable...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Claro, no es amor!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Ojalá no lo fuese!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Ay, hija, la más grande de las culpas es el amor!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No puede ser, ama, no puede ser! He querido resistir..., ¡imposible! Pido consuelo y luces a la Virgen de los Dolores, y parece me empuja...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Por Dios, no desbarres!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Es que no soy yo, ama, no soy yo!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Pues quién?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No lo sé; alguna otra que llevo dentro y me domina y arrastra...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><stage>(Aparte.)</stage> ¡Como su madre!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Y tú te empeñas en no darme el consuelo y sostén de decirme cómo luchó y venció mi madre...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Hablemos de otra cosa!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Esto es providencial. <rs key="#pedr">Pedro</rs>...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Piensa en él, tan bueno, tan noble...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Pensar... pensar... ¿de qué sirve pensar sólo? ¡Con pensar no se hace nada...! Muy bueno, muy noble, muy amante, pero es el medio de que para traerme a su hijo, a convivir con <rs key="#hipo">Hipólito</rs>, se ha valido la Providencia...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Di el Demonio más bien...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Qué más da...! Pero no puedo más y voy a acabar. Viviendo con él, cada día a su lado en la mesa, viéndole cuando acaba de levantarse de la cama, con el sueño todavía en los ojos... ¡es como una llovizna continua, cala hasta el tuétano! Y luego, a los besos de costumbre heme hecho ya, pero cuando al pasar me roza... ¡qué cerco!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Resiste, hija, resiste.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No cabe resistencia. Esto así, contenido, me abrasa; revelado se curaría mejor. ¡Está escrito! ¡Es fatal! Y si al menos tuviese un hijo que me defendiera...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Haz cuenta...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, no, no! ¿Él? ¡No! Un hijo mío, de mis entrañas, uno a quien hubiese dado mi pecho. <stage>(Estremeciéndose.)</stage> ¡pero a <rs key="#hipo">Hipólito</rs>...!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><stage>(Cubriéndose la cara.)</stage> ¡Lo que se te ocurre! Estás poseída, embrujada; creería en un bebedizo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Y por qué no? Los que no sienten, los que no viven, los que no aman ni sufren llaman superstición a eso del bebedizo. ¿Qué más bebedizo, di, que su aliento esparcido por toda esta casa?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Piensa...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Otra vez piensa...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Piensa, sí, que es el hijo de tu marido, que es tu hijo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Y como a tal le quiero..., ¡no! ¡sí! ¿Cómo pueden juntarse los dos amores, o salir el uno del otro? Y luego a él, a <rs key="#pedr">Pedro</rs>, como a padre...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Respétale, pues, como a tal!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Respeto..., respeto..., ¡qué triste, qué frío es eso del respeto! Cuando tengo que abrazar a <rs key="#pedr">Pedro</rs> veo en él, en sus ojos sobre todo, los de mi <rs key="#hipo">Hipólito</rs>..., son los mismos, y me hago la ilusión...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Calla!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Eso quisiera yo, que se me callase lo que llevo dentro...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><stage>(Abrazándola.)</stage> ¡Pobre hija mía! No sé qué decirte que no te lo hayas dicho ya tú antes. No es esta dolencia de las que se curan con palabras ajenas. Y luego se me sube mi mocedad al pecho..., recuerdos..., sí, sí, es una fatalidad haber nacido mujer. Pero aquí viene tu marido y me retiro. <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Escena II</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#pedr">Pedro</rs>, su marido.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Entrando.)</stage> Buenos días, <rs key="#fedr">Fedra</rs>, ¿qué tal hoy?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Mejor, <rs key="#pedr">Pedro</rs>, algo mejor.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y esa jaqueca?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Bah! ¿quién hace caso de ella...?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Cuídate; no te levantes tan temprano y sobre todo no te preocupes demasiado por cosas no merecedoras de ello. Eres en demasía cavilosa, <rs key="#fedr">Fedra</rs>, le das sobradas vueltas a las cosas, y hay que tomarlas como vienen...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No siempre es posible.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Y vivir, vivir! ¿E <rs key="#hipo">Hipólito</rs>?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿No ha vuelto aún <rs key="#hipo">Hipólito</rs>?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No, todavía no ha vuelto.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Dichosa caza! Así se le van los días; hace tres que falta, y así se le van los años. Es bueno, honrado, trabajador, pero fuera de su trabajo parece no vivir sino para la caza. Corre el tiempo, nosotros solos con él, yo caminando a viejo y... ¡vamos!, te lo diré de una vez, <rs key="#fedr">Fedra</rs>, ¡sin perspectiva de nietos!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡<rs key="#pedr">Pedro</rs>!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>He hablado de esto varias veces con <rs key="#marc">Marcelo</rs>, que es quien me aconsejó cuando andaba tan delicadillo el chico lo de la caza, y <rs key="#marc">Marcelo</rs>...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Dale con <rs key="#marc">Marcelo</rs>...!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pero ¿por qué esa mala voluntad a mi mejor amigo? Dicen que es siempre así... ¿celos acaso?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Celos? ¿Yo? ¿De él? no... pero...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Caprichos, pues! Bien, ¡se va el tiempo que vuela! A sus años debía <rs key="#hipo">Hipólito</rs> pensar ya en casarse.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Qué dices?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Y no le he observado en camino de ello. Tú que por la edad tienes con él más confianza, tú que eres su confidente, su hermana más bien que su madre, ¿no le has oído nada de esto?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No, nada!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿No habéis nunca hablado de ello?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Nunca!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pues es preciso que le abordes, <rs key="#fedr">Fedra</rs>, que le sonsaques su ánimo, que le hagas ver que hay una edad en que se debe pensar tomar estado y no vivir como un hongo, que yo pues no tengo hijos de ti, quiero tener nietos de él...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Pero, <rs key="#pedr">Pedro</rs>, ¿cómo quieres que yo...?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Tú? ¡Pues claro! Cosa más fácil... Si a ti no te atiende, ¿a quién atenderá? Porque él, tan serióte, tan esquivo, ese oso cazador y cazador de osos, contigo se ablanda. Te adora...</p>
+					</sp>
+
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Lo crees, <rs key="#pedr">Pedro</rs>?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Que si lo creo? ¡Te adora! Él lo tapa, como sus sentimientos todos, pero adora en ti, no lo dudes. Y tú, tú le quieres como a un hijo propio, ¿no?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Le quiero, sí, le quiero con toda mi alma!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Ya sabía yo bien al tomarte por mujer que él recobraría madre! Es, pues, menester que abordes con él ese punto, y creo que le persuadirás. ¡Aquí viene!</p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Escena III</head>
+					<stage>Dichos e <rs key="#hipo">Hipólito</rs>, que entra en traje de caza, deja la escopeta a un lado, abraza a su padre y luego a <rs key="#fedr">Fedra</rs>, que le retiene un momento.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><hi rend="italic">(Aparte, al ver cómo <rs key="#fedr">Fedra</rs> retiene a <rs key="#hipo">Hipólito</rs>.) </hi>La convencí; hoy le aborda.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Qué ataque de ternura es éste? ¿Qué tramabais?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Que no nos abandones tanto, hijo...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Ya sabes, padre, que necesito de la caza. Debo al aire del campo la vida y aborrezco la ciudad. ¡O el hogar, esta nuestra casita, o el monte!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Pues el hogar!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Hay que salir de él para mejor quererle y apreciarle. Los hombres caseros, comineros, suelen serlo por egoísmo. El que se encierra en casa es para mejor molestar a los suyos, por falta de valor para luchar con los de fuera. Hay que salir de casa para gustar todo su encanto, ¿y adonde mejor que al monte? ¿Hay sociedad como la de los robles? La vida de campo, bajo el cielo libre, al aire libre, sobre la santa y libre tierra, mejora al hombre. Allí no hay odios ni envidias; los robles, los arroyos, las rocas no envidian, no odian...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Ni aman!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Que no aman...? ¡No, como nosotros no! Y por eso nos purifican y elevan. La naturaleza no sufre fiebres ni necesita luchar para querer. Por eso es el verdadero templo de Dios. Cuánto mejor, madre, que fueses más a él que no al otro...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Contigo? ¡Cuando quieras!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Sí, tengo algún día que llevarte conmigo de caza...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Sí, sí!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No me parece mal...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Conmigo de caza. Ya verás cuando te tumbes al pie de un roble, cara al cielo, cómo se te curan esas aprensiones y se te acaban esas palpitaciones de corazón. No hay como el campo, ¡allí se ve todo claro!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Pues quiero ir contigo a él para que lo veamos todo claro!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Y yo creo traeros del campo algo de su aliento, ¿no es así? ¿No oléis a tomillo, a mejorana cuando entro?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Husmeando.)</stage> Sólo huelo a ti.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>O queréis que sea como ésos...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No condeno tu afición, hijo. Es una de las más nobles y te libra de vicios. Pero entre esos libertinos que ensucian su hogar y tu braveza y despego rústicos...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Despego yo? ¿Yo braveza? ¿Por qué? ¿Porque no ando con arrumacos y lagoterías? El cariño no es babosería ni violencia...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Hombre, no cabe decir eso así, tan en redondo...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Pues sí, en redondo, el amor no es violencia.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es que hay amores que no se concibe sino violentos...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Te empeñas, madre, en no comprender la ternura, aun sintiéndola. Eres demasiado exaltada en tus sentimientos...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Demasiado? Cosas hay en que no cabe demasía, creo...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Cuando vayas conmigo al campo, madre, verás si se te curan las demasías...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Bueno, basta de metafísicas! Yo, <rs key="#hipo">Hipólito</rs>, no dudo de que nos quieres, ¡pero obras son amores y no buenas razones...!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Obras? ¿Qué quieres de mí, padre? ¿Qué queréis de mí? ¿Qué tramabais?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Ya te lo dirá tu madre!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Madre, ¿qué es esto? ¿Qué significan las palabras de padre?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Ya te lo diré...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Dímelo! ¡Ahora!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Bien, os dejo.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Para qué? ¡No! ¡Quédate!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Os explicaréis mejor a solas.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Si es conjura... ¡bueno! <stage>(Vase <rs key="#pedr">Pedro</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Escena IV</head>
+					<stage><rs key="#fedr">Fedra</rs> e <rs key="#hipo">Hipólito</rs>.</stage>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Y bien, ¿qué es ello, madre? ¿Callas? ¿Qué es? <stage>(Poniéndole una mano sobre el hombro, a lo que ella se estremece.)</stage> ¡Vamos, habla! Tu beso me pareció antes más largo, más apretado...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Y acaso más caliente...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Tal vez. Me diste miedo con él. Hace algún tiempo que me das miedo; noto en ti algo extraño que me sobresalta, y luego esas palabras de padre... vamos, ¿qué es ello?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Nada, un capricho...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Caprichos padre? lo dudo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Dice que se siente solo...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿No estamos nosotros con él?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, pero dice que a tu edad...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>No comprendo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Desea que vayas pensando ya...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Ah, acabáramos, en casarme!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Eso! ¿Y tú?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Yo?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, tú, tú no piensas en casarte, ¿no? </p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Por ahora, no! ¿Casarme? ¿Para qué? Y sobre todo no es ésa resolución que deba tomarse así, en principio y por principio; eso viene ello solo. Hay que dar al tiempo lo suyo. No es cosa de una vez resuelto casarse, echarse uno a buscar con quién. Y hoy por hoy, como no fuese con Diana... Ahora si, lo que dudo, llegase a enamorarme...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Quién sabe...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Claro, nadie puede decir “de este agua no beberé”.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Quién sabe si no lo estás ya...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Quién? ¿Yo?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Esas cosas no se confiesan y menos a los padres...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡A los padres tal vez no! Pero tú, en rigor de verdad, no eres mi madre...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No, no lo soy, no!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Aunque lo seas por ley y por cariño...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, por cariño! ¿Pero de veras no estás enamorado? Acaso tengas...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Te aseguro que no!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Bah, bah! Este despego, este salir tanto de casa, por dos, por tres, por ocho y hasta por quince días con achaque de la caza... ¡Ah, <rs key="#hipo">Hipólito</rs>, <rs key="#hipo">Hipólito</rs>! a una... a una mujer no se le engaña...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Engañarte? ¿Yo? ¿A ti? Te juro que si llegase a enamorarme serías tú quien primero lo supiese...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, gracias, gracias, <rs key="#hipo">Hipólito</rs>! Pero enamorarte... ¿de quién?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿De quién? ¡Vaya una pregunta! No te entiendo, madre.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Ya me entenderás, <rs key="#hipo">Hipólito</rs>, ya me entenderás. Y si tú te casaras, si te hicieses de otra...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Si me casara... ¿qué? <stage>(Silencio.)</stage> Vamos, di, ¿qué?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Que no podría yo vivir viéndote de otra!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p><stage>(Alarmado.)</stage> ¿Cómo? ¿Qué? ¡No te entiendo bien, madre!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Tú de otra? ¡Imposible!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p><stage>(Arredrándose.)</stage> ¡Madre!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Yendo hacia él.)</stage> No me llames madre, por Dios, <rs key="#hipo">Hipólito</rs>, ¡llámame <rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡<rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No, así no! ¡No! ¡No así, <rs key="#hipo">Hipólito</rs>! ¿Me entiendes ahora?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>No quisiera entenderte...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Lo ves claro ahora sin salir al campo?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Ah! ¿Y era esto, esto, el calor de tus besos?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, esto era, <rs key="#hipo">Hipólito</rs>, esto; ven, mira...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡No! ¡No!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es la fatalidad, <rs key="#hipo">Hipólito</rs>, a la que no se puede, a la que no se debe resistir...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Piensa en mi padre, <rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Tu padre es quien me empuja a ti!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Y era para esto, para esto para lo que te dejó ahora sola conmigo? ¿Para esto?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Pues bien, sí, me he aprovechado, ¿lo ves? Él, él mismo me ha hecho romper mi secreto para contigo, él ha provocado que me salga a la boca el secreto del corazón.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Y de la boca!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Sí, que brote en palabras el secreto de mis besos! Todo era hasta romper el nudo que ligaba mi lengua; ahora todo está claro y me siento libre, libre de un tremendo peso; ahora respiro...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Ahora empiezas a ahogarte, madre, y a ahogarme...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>De ti, sólo de ti depende, <rs key="#hipo">Hipólito</rs>. ¡Quiero ser tuya, toda tuya!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡No, lo que tú quieres es que sea tuyo yo!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Sí, mío, mío, mío y sólo mío!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Tu hijo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Pues bien, hijo, ¡ven a mis brazos!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡No, ya no! Me voy, y no volveremos a vernos a solas...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Que no? ¡Nos veremos, sí, y más que nos veremos! <rs key="#hipo">Hipólito</rs>, ven...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p><stage>(Arredrándose.)</stage> ¡Antes querría verme con una jabalina acorralada!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Tan mala..., tan fea te parezco?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Estás loca, madre, loca perdida, y tu locura es contagiosa...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Pues ven, ven que te la pegue, y locos los dos, <rs key="#hipo">Hipólito</rs>, los dos locos...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Y él, mi padre, imbécil, ¿no es eso? ¡No, adiós! Y no volveremos a vernos..., al menos a solas... ¡Adiós!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Espera, <rs key="#hipo">Hipólito</rs>, siquiera el de siempre, el de despedida, hijo...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Hijo? ¡Ya no! ¡Tuyo, no! ¡De él, de él siempre, de mi padre, de tu marido! Y... ¿el de siempre? no, sino el de nunca ya. ¡Adiós! ¡Pobre madre! <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Escena V</head>
+					<stage>[<rs key="#fedr">Fedra</rs>, sola.]</stage>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, yo le rendiré, yo! No puedo más. Esto es más fuerte que yo. No sé quién me empuja desde muy dentro... Aquel beso de fuego en lágrimas... ¿Y es el deber, es el amor filial o me desprecia? Sí, sí, me desprecia... Una jabalina acorralada... ¿tan fea soy? Quiere a otra, no me cabe duda, no es posible si no... Mas no, no, no, es leal, generoso, veraz. Sí, sí, es su padre. <stage>(Cubriéndose la cara.) </stage>¡Qué horror! ¡Soy una miserable! ¡Loca, sí, loca perdida! ¡Virgen mía de los Dolores, alúmbrame, ampárame! No puedo estar sola, llamaré con cualquier pretexto. La soledad me aterra. <stage>(Llama.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Escena VI</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#rosa">Rosa</rs>, la criada.</stage>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Anda, <rs key="#rosa">Rosa</rs>, recoge eso y llévalo. Espera, di, ¿tienes novio?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Sí, señorita.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Y te piensas casar con él?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¿Si no, para qué le tendría?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es claro. Y dime, ¿le quieres mucho?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Bastante...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Nada más que bastante?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Luego que nos casemos veremos...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Y va a ser pronto?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>En cuanto él consiga una colocación que busca.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Eres demasiado joven todavía.</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Pero si una no se casa joven, señorita...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Qué sé yo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es verdad. Mira, te hago estas preguntas, <rs key="#rosa">Rosa</rs>, porque quiero ser la madrina de tu boda.</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¡Señorita!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, sí, eso me dará acaso buena suerte.</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¡A nosotros más!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No sé, acaso... mas en fin yo os amadrinaré. Pero vete. <stage>(Aparte.)</stage> Siento pasos. <stage>(Vase <rs key="#rosa">Rosa</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Escena VII</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#marc">Marcelo</rs>.</stage>
+					<sp who="#marc">
+						<speaker>Marcelo.</speaker>
+						<p> <stage>(Entrando.)</stage> ¿Qué? ¿Cómo va la paciente?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Paciente? ¿Le he llamado yo acaso?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>El buen médico no debe esperar a que se le llame...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Médico? ¿Y bueno?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>A ver hoy el pulso.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No, es por tomarme la mano.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Bueno, ya sé bastante.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Qué es eso? ¿Qué dice usted? ¿Qué es lo que sabe? Y con qué derecho usted, el amigo íntimo y de la infancia de mi <rs key="#pedr">Pedro</rs>, el que entra aquí como en su propia casa...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿Y con qué derecho supone usted, <rs key="#fedr">Fedra</rs>, lo que calla?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, no se le escapan ciertas cosas a una mujer...!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¡Enamorada, lo sé!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Cómo? ¿Qué es eso de enamorada?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>De su marido, ¡claro está!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Basta, basta! <stage>(Aparte.)</stage> Hay secretos que revientan por los ojos.</p>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Escena VIII</head>
+					<stage>Dichos y <rs key="#pedr">Pedro</rs>. </stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Entrando.)</stage> ¡Hola, <rs key="#marc">Marcelo</rs>!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Bien, ¿y tú, <rs key="#pedr">Pedro</rs>?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro. Bien</speaker>
+						<p>Vi salir a <rs key="#hipo">Hipólito</rs>, <rs key="#fedr">Fedra</rs>, y me parece que iba preocupado, inquieto; no contestó acorde a lo que le hablé... ¿Le abordaste?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Y nada, no quiere oír hablar de eso...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Vaya, me voy, pues tenéis que hablar...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No, <rs key="#marc">Marcelo</rs>, no es nada. Y a ti podemos decírtelo todo. Es sólo que me parece es ya hora de que <rs key="#hipo">Hipólito</rs> vaya pensando en casarse, en traernos primero nuera, después... quién sabe... nietos, y encargué a <rs key="#fedr">Fedra</rs>, que de tanto ascendiente sobre él goza, le abordase ese punto...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Muy delicado...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y qué dice?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No quiere oír hablar de ello...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>En fin, ya me lo contarás, porque sacaba una cara...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p><stage>(Aparte.)</stage> ¡Pobre <rs key="#pedr">Pedro</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, ya te lo contaré, pero ahora... <stage>(Aparte.)</stage> No me voy, no le dejo con él.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Repito que me voy, pues tenéis que hablar...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No, tú eres como de casa.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Aparte.)</stage> ¡Qué ceguera!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Los que son <hi rend="italic">como</hi> de casa sin ser de ella estorban más. O se es o no se es; pero lo de <hi rend="italic">como</hi> si se fuese...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pues bien, ¡tú eres de casa!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿Uno más?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Aparte.)</stage> ¡Qué bruto! <stage>(Alto.)</stage> ¡Vaya, me voy!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>No, yo. ¡Adiós! <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Escena IX</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#pedr">Pedro</rs>.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Y bien, ¿qué dijo?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Dijo...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Que no piensa en eso; no está enamorado... ¿Para qué casarse?, dijo...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Luego no le convenciste?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No le convencí, ¡no!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Para cuándo, pues, tu persuasión? ¿tú, que siempre me persuades de cuanto se te antoja? ¡Ah, <rs key="#fedr">Fedra</rs>, es que no pusiste ni empeño ni calor en tu demanda...!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Que no?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No, no, porque tú eres de las que consiguen cuanto se proponen. Si hubieras sabido hablarle al corazón...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Calla, <rs key="#pedr">Pedro</rs>! ¡Calla, calla!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Lo ves? Tampoco tú quieres que se case, tampoco tú...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Yo?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Sí, tú; no quieres otra mujer en casa, no quieres nuera...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><rs key="#pedr">Pedro</rs>, ¿qué dices?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Sí, estoy harto de saber que las madres suelen tener celos de sus nueras, pero yo creía que tú, <rs key="#fedr">Fedra</rs>, tú, siquiera por mí...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Cubriéndose la cara.)</stage> ¡Calla, calla, calla!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Bien, egoístas todos... egoísta él, egoísta tú... al fin sois jóvenes y en tanto el pobre viejo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Yendo a él y abrazándole.)</stage> ¡<rs key="#pedr">Pedro</rs>!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Convéncele, <rs key="#fedr">Fedra</rs>, convéncele!</p>
+					</sp>
+					<stage>Fin del acto primero</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Acto segundo</head>
+				<div type="scene" n="1">
+					<head>Escena I</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#eust">Eustaquia</rs>.</stage>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pero, hija mía, te veo enflaquecer, ir...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Muriendo, ama, muriendo. Esto no es vivir. No sé qué hacer para defenderme.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Acude a la oración, hija, reza...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No me brotan las oraciones libremente. Alguna vez he intentado rezar, pero se me resiste, pienso en otra cosa, en él, y esto me parece sacrilegio... No es posible, no... me faltan ganas de rezar...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Aunque sea sin ganas... Además, eso te distraerá...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No, eso me enciende más... Mira, ama, en estos últimos tiempos, antes del día aquel, temiendo estallar al cabo si con él me encontrase a solas, cada vez que a punto de ello estaba santiguábame antes para que la santa señal de la cruz me defendiese y apretaba contra mi pecho esta santa medalla, la de mi madre, que me diste. Pero un día, buscando ese estallido, deseando salir de una vez de aquel infierno, dejé de santiguarme para tener valor de declararme, pero aquel día estuve más encogida, más azarada; a cada momento sentía ganas de ir a un rincón para santiguarme allí a hurtadillas...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Por qué no lo hiciste ante él?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Habría sido tanto como declararme. No, no podía, y echaba de menos la santa señal... ardíame la frente como pidiéndomela... me faltaba la cruz...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Y era esa cruz que no tomaste sobre la frente la que te protegía!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Mas ahora? Ahora nada sirve una vez roto el nudo de la lengua... Rezar... rezar... con estas cosas no sé ya si creo o no... Pero rezo, rezo a la Virgen Santísima de los Dolores...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Reza a su hijo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿A quién? ¿Al hijo? ¡No! ¡No! Desde que abrí mi pecho a él, a <rs key="#hipo">Hipólito</rs>, quémanme sus miradas. Y él me las hurta y me esquiva y ya no me besa. No le creí tan astuto como para encubrir a su padre que no me besa ya como antes me besaba.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Lo que yo me temo es que al cabo su padre se percate de ello...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Acaso sea lo mejor...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Qué dices?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Que así no se puede vivir, ama. O se me rinde o se va de casa; le echo de ella. Verás en cuanto le amenace. ¡Ahí va! <stage>(A <rs key="#hipo">Hipólito</rs>, que pasa por el fondo.)</stage> ¡<rs key="#hipo">Hipólito</rs>! <stage>(Yendo hacia él.)</stage> ¡<rs key="#hipo">Hipólito</rs>!</p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Escena II</head>
+					<stage>Dichas e <rs key="#hipo">Hipólito</rs>. </stage>
+					<sp who="#hipo">
+						<speaker>Hipólito.</speaker>
+						<p><stage>(Entrando.)</stage> ¿Qué me quieres? ¡Acaba!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Tengo que hablar contigo a solas.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p> Pues habla y acaba.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No, pero a solas contigo.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡A solas ya te he dicho que no!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Cogiéndole.)</stage> ¡Sí, vete, ama, vete!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pero, hija...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Vete, si no doy voces, llamo a <rs key="#pedr">Pedro</rs> y se lo digo todo, todo...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Serías capaz?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Ahora soy capaz de todo. O hablamos a solas una vez o me confieso a tu padre, <rs key="#hipo">Hipólito</rs>.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Pero ¿para acabar?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Para acabar, sí! Vete, ama.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Váyase!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Me quedaré aquí fuera...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Cómo? ¿Qué? ¿En mi casa? Es que se me trata como a una...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡<rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Vete, ama, vete o será peor!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Váyase, ama, sí, váyase. Me basto y me sobro yo solo. Y menos mal si así se acaba de una vez esto, porque no es ya vivir. <stage>(Vase <rs key="#eust">Eustaquia</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Escena III</head>
+					<stage><rs key="#fedr">Fedra</rs> e <rs key="#hipo">Hipólito</rs>.</stage>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Bien, acaba!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡<rs key="#hipo">Hipólito</rs>!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Qué, volvemos a empezar?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Sí, vuelvo! Mira que no como, que no duermo, que no vivo, que tus ojos me queman, que muero de la sed de tus besos, que esto es el suplicio de Tántalo... ¿Por qué no me besas como antes, <rs key="#hipo">Hipólito</rs>?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Y me lo preguntas, madre?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Así no puedo vivir...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Ni yo tampoco!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Lo ves? ¡Y tenemos que vivir, vivir ante todo! Para algo somos jóvenes...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Y él viejo, ¿no es así?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No le nombres, <rs key="#hipo">Hipólito</rs>!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Sí, le nombraré, pues que su nombre es todavía para ti, pobre madre, un conjuro. <rs key="#pedr">Pedro</rs>, tu marido, mi padre...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Calla, calla! No puedo vivir, no vivo así, viéndote a diario, sintiéndote cerca de mí, bajo el mismo techo, de día y de noche, respirando el aire mismo que respiras, tu aliento. Desde que...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Pero ¿cómo empezó esto, madre?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No empezó! Te quise siempre, desde antes de conocerte, y luego que una vez casada te vi por vez primera, estalló...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Los amores sanos no nacen sino como en el campo el amanecer, poco a poco...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No, poco a poco ya no! ¡de una vez!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Pues mira, me iré, pretextaré algo para un largo viaje y en tanto te curarás.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No, no te irás, no quiero que te vayas, y no me curaré, no quiero curarme! Pero... ¡resistamos, sí, resistamos... tienes razón! ¡Mas tus besos, <rs key="#hipo">Hipólito</rs>, tus besos! Siquiera los de antes...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Aquéllos no pueden volver, ¡les arrancaste su inocencia!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Con que no, eh? ¿Con que no? Pues bien, oye y fíjate, mis últimas palabras, las definitivas; óyelas y piensa bien en ello. Tu padre ha debido de notar ya que no me besas; tu padre ve mi demacración y mi desasosiego; tu padre aunque se calla ha de sospechar ya algo, lo sospecha, ¡y se lo he de decir yo... yo... yo!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Qué vas a decirle?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Que eres tú quien me solicita!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡<rs key="#fedr">Fedra</rs>! ¡<rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Arrogante.)</stage> Sí, le diré que eres tú y esta casa se os convertirá en un infierno, ya que no quieres sacarme de él... ¡se lo diré!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Maldita seas! <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Escena IV</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#pedr">Pedro</rs>.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Que ha oído las últimas palabras de su hijo, entrando.)</stage> ¿Qué es eso, <rs key="#fedr">Fedra</rs>? ¿Qué ha dicho? ¿Qué es lo que ha dicho nuestro hijo? ¿Callas? ¿He oído bien? ¿No te maldecía? ¡Vamos, <rs key="#fedr">Fedra</rs>, habla!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Querellas domésticas...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No, no, no, esas palabras en mi hijo tan comedido siempre, tan cariñoso, tan dueño de sí... Desde el día aquel en que le abordaste por lo de su casamiento observo entre vosotros dos yo no sé qué... parece rehuirte... ¿qué es ello? ¡Vamos, habla! ¿Qué ocurre en esta casa antes tan tranquila?</p>
+					</sp>
+					<stage>(<rs key="#fedr">Fedra</rs> apoya la cabeza en el pecho de su marido y rompe a sollozar.)</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Vamos, cálmate, hija mía...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Estremeciéndose.)</stage> ¿Hija?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Sí, podrías serlo... ¡Vamos, cálmate! Dime qué es ello. ¿Cómo él te maldecía así, él, mi <rs key="#hipo">Hipólito</rs>? ¿Y a ti que le quieres tanto...?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Le quería...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Le querías... ¿y ahora?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Ahora...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Vamos, ¿qué hay?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Lo que hay es que tu hijo</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Mío? ¡Y tuyo...!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Ojalá lo fuese!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pues...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Que no se siente ya hijo mío...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Qué? ¿Te ha faltado al respeto?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Al respeto...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Vamos, ¿qué? Acaba... me tienes en ascuas...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Que tu hijo es casi de mi edad misma... podría ser mi hermano... mi marido.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Qué? ¡Habla claro, <rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Más claro aún?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡No, más claro no, sobra! Ahora se me aclaran las nieblas de estos días. Hay cosas que no deben decirse. Pero, ¿es posible? ¡Vamos, di!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Déjame, déjame!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y tú, <rs key="#fedr">Fedra</rs>, tú?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Yo? Es que puedes creer...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No, no quiero creer... ¿y tú?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Figúrate lo que habré luchado... lo que lucho...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Oh, mi hijo, mi propio hijo! Pero él también ha luchado... lucha... sí, sí, ¿qué es si no esa manía de la caza? Busca en ella el olvido de su pasión... ¡pobrecillo! Pero dime, ¿qué te ha dicho?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Decirme... poca cosa... casi nada...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Oh no, no, no; son recelos tuyos, figuraciones, suspicacias... ¿quién sabe? ¡Vanidades de mujer!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡<rs key="#pedr">Pedro</rs>!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡No, no puede ser! ¡No es!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Desgraciadamente, sin poder ser es.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y tú, <rs key="#fedr">Fedra</rs>, tú?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No te dije que lucho...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Pero por qué?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es al fin tu hijo, mi hijo...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Voy a llamarle y que se explique aquí, los tres cara a cara...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, no hagas eso!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Cómo?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No, déjale!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Llamando.)</stage> ¿Eh, también tú?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Llámale, pues. <stage>(Aparte.)</stage> ¡Dame fuerzas, Virgen de los Dolores!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(A la criada que aparece.)</stage> ¡Que venga <rs key="#hipo">Hipólito</rs>! Ahora se pondrá todo en claro. ¡Esto es horrible... no puede ser!</p>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Escena V</head>
+					<stage>Dichos e <rs key="#hipo">Hipólito</rs>. </stage>
+					<stage>(Entra <rs key="#hipo">Hipólito</rs> cabizbajo; <rs key="#fedr">Fedra</rs> se cubre primero la vista con las manos, pero luego apoya la cara en las palmas y se le queda mirando fijamente.)</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Por qué maldecías a tu madre, hijo? ¿Callas? Vamos, habla, ¿por qué la maldecías?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Ella te lo dirá, no yo, padre.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Me lo ha dicho...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Entonces...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y qué, no te defiendes? ¿No lo niegas? ¿Confiesas, pues, tu infame pasión?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Yo, padre, ni niego nada ni nada confieso.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Ah, con que además hipócrita? Te creía todo menos eso; en mi familia no los ha habido nunca...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Y ella, ¿por qué no habla ella?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Yo, <rs key="#hipo">Hipólito</rs>, he hablado, he dicho cuanto tenía que decir, a ti primero, a tu padre después. ¿No he hablado claro?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Sí, muy claro!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿No te propuse la paz? Y tú te has empeñado en traer la guerra, tú. Es la fatalidad, bien lo sé, pero...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Esto es monstruoso, lo que aquí pasa. Debiste, hijo, lo primero confiarte a mí, abrirme tu pecho...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Perdón, padre, perdón!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Perdón? ¡Hay cosas imperdonables! ¡Y el perdón presupone arrepentimiento y penitencia!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Sufriré la que me impongas!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>No podemos ya vivir los tres bajo un mismo techo.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Me iré de casa.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Y qué dirá la gente?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Diga lo que quiera! Aunque la gente no sabrá nada, no debe saber nada; esto ha de quedarse aquí, enterrado, entre los tres... ¡si no, haría algo que no puede decirse!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, no, todo se arreglará...!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Cosas hay sin arreglo...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Cómo? ¿Luego insistes? ¡Vete, <rs key="#fedr">Fedra</rs>, déjanos solos!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡<rs key="#pedr">Pedro</rs>, <rs key="#pedr">Pedro</rs>!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Déjanos, he dicho.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Por Dios!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Déjanos! <stage>(Vase <rs key="#fedr">Fedra</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Escena VI</head>
+					<stage><rs key="#pedr">Pedro</rs> e <rs key="#hipo">Hipólito</rs>.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Tras un breve silencio.)</stage> Pero, hijo, <rs key="#hipo">Hipólito</rs>, ¿cómo te has atrevido a poner ojos... ojos, y labios en tu madre? ¿Cómo has osado revelarle nada? ¿Era ésa tu caza? ¿Callas? ¡Vamos, habla, ven acá, confíate a mí! ¡Sí, sí, es una desgracia, lo sé...! ¿Qué? ¿Callas? ¿No lo niegas? ¡Oh, esto es horrible! ¿Qué has hecho, hijo, qué has hecho de la tranquilidad de tu padre? y yo que la traje a casa sobre todo por ti, por ti, hijo, para que tuvieses madre...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Ojalá no la hubieses traído! ¡Pero te juro, padre, que soy inocente!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Inocente? ¿Inocente de qué? ¿Luego <rs key="#fedr">Fedra</rs> miente? ¡Habla! ¿Miente? luego... ¡ah! ¡eso es acusarla!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Nunca, padre, nunca, nunca!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Inocente? ¡Ah, sí, comprendo... inocente... claro! ¡Pues no faltaba más! ¡Pero la inocente es ella... ella!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Padre!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Vete y no volvamos a vernos; será lo mejor!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Padre... antes de irme...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Se adelanta a él y luego arredrándose.)</stage> ¡No, no, no, me quemarían la cara! ¡No, vete! <stage>(Cúbrese la cara con las manos y solloza. <rs key="#hipo">Hipólito</rs> se va lentamente.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Escena VII</head>
+					<stage>[<rs key="#pedr">Pedro</rs>.] </stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Imposible! ¡Él, él, mi hijo, mi hijo único! ¡Costó la vida a su madre, a su pobre y santa madre! Aquellos primeros años, cuando volvía yo a casa sobresaltado, imaginándome que le hubiese ocurrido algo y al llegar y encontrarle durmiendo tranquilamente en su cuna me inclinaba a pegar casi mi oído a su boca para sentirle respirar... ¡sí, estaba vivo! ¡Mi hijo, mi hijo único! ¿Será un castigo por haberle dado madrastra, por no haber respetado mejor la memoria de su santa madre...? ¡Pero... me sentía tan solo! ¡No me bastaba él! ¿Y por qué no le casé con ella? ¡Oh egoísta, egoísta! No tuve paciencia a que me diese nietos, quise tener más hijos... ¡y de <rs key="#fedr">Fedra</rs>! ¡No le quise solo! ¡Fue la carne, la carne maldita! ¿Será esto un castigo? ¡Mi hijo, mi propio hijo, mi hijo único!</p>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Escena VIII</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#pedr">Pedro</rs>.</stage>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Entrando.)</stage> ¿Qué, se fue?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Sí, se fue. ¡Y aún juraba su inocencia!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Cómo? Se atrevió...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿A negar su falta? ¿A acusarte? ¡No! ¡Aún no ha llegado a eso; aún es mi hijo! Pero ven, <rs key="#fedr">Fedra</rs>, mírame a los ojos, ¡así! ¿Es verdad eso?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Sí, eso es verdad!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y tú, <rs key="#fedr">Fedra</rs>, tú?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Te he dicho que lucho...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Pero por qué?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Por domar mi corazón de madre!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Y tú antes... vamos, antes de esa declaración, ¿no te habías percatado de nada?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Hace tiempo...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y cómo no me lo dijiste?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Esperaba que el tiempo... la lucha...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Y sabiendo eso consentías que te besase, le besabas... ¿No ves que era echar leña al fuego...?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, pero otra cosa habría sido provocar antes de tiempo...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Antes de tiempo? Estas cosas deben ahogarse antes de tiempo. ¡Mi hijo, mi propio hijo! ¡Mi hijo único! Esto, <rs key="#fedr">Fedra</rs>, debe ser un castigo...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Un castigo?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Un castigo, sí, por haberte traído a mi casa, por haber querido tener de ti otros hijos, por no haber guardado mejor la memoria de su madre, de su santa madre...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Sí, yo tengo la culpa, yo!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Cómo? ¿Tú? ¿Tú tienes la culpa?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, yo, por haber cedido a venir a tu hogar a cubrir el hueco que dejó otra mejor que yo; yo, por no haberos dejado solos a padre e hijo.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Quién tiene la culpa, <rs key="#fedr">Fedra</rs>, quién? ¿Él? ¿Tú? ¿Yo? ¿Quién sabe de culpas? ¿Qué quiere decir culpa? ¿Qué es culpa, di?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Mirando al suelo.)</stage> No sé...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿No sabes lo que es culpa? ¡Fue la mujer, la mujer la que introdujo la culpa en el mundo!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡<rs key="#pedr">Pedro</rs>!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Alguien llega...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><rs key="#marc">Marcelo</rs>, de seguro. Éste llega siempre a destiempo y no quiero verle ahora...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Por qué, <rs key="#fedr">Fedra</rs>? ¿Sabe algo? ¿Sospecha algo? <rs key="#fedr">Fedra</rs>. Me voy. Volveré así que se vaya. <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Escena IX</head>
+					<stage><rs key="#pedr">Pedro</rs> y <rs key="#marc">Marcelo</rs>.</stage>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿Qué? ¿Se ha salido <rs key="#fedr">Fedra</rs>?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Querías verla?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Como médico, a ver cómo sigue...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Agitada... ya ves... disgustos...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Sí, y en ella por constitución de herencia una neurocardíaca...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y qué, di, qué? Cuando te ha hablado de sus dolencias...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Yo no soy confesor, soy médico, <rs key="#pedr">Pedro</rs>.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pero dime, tú eres mi mejor amigo, tú... ¿no es verdad? Tú eres como mi hermano...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p><hi rend="italic">Como,</hi> otra vez <hi rend="italic">como...</hi> Repórtate, <rs key="#pedr">Pedro</rs>, que no estás bueno hoy...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡No, no lo estoy!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Se te conoce y estando así no se debe querer hablar de ciertas cosas...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿De qué cosas?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Qué sé yo... de cosas de familia... íntimas...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pero tú sabes, tú...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Yo sólo sé que estás, contra tu costumbre, fuera de ti, que tu mujer anda fuera de sí también hace algún tiempo y que tu hijo vive más dentro de sí que nunca; ¿te parece saber poco?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Pero no sabes más?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Ni debo. Y basta de esto. A otra cosa.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>A otra cosa... a otra... y entras y sales aquí como en tu casa... ¡Oh, esta intimidad a medias...!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Entonces me retiro...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Qué sé yo... pero no, ven, ven, te necesito, necesito dentro alguien de fuera, oye. ¡No estoy bueno, no! No sé lo que pasa en mi derredor. ¿Lo sabes tú? Pero cállalo, ¿eh? si lo sabes, ¡cállalo! ¡Que no lo sepa nadie, ni tú mismo! No, no sé lo que me digo. Hablemos de otra cosa.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Sí, es lo mejor. ¿E <rs key="#hipo">Hipólito</rs>?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡<rs key="#hipo">Hipólito</rs>, otra cosa! ¿Qué? ¿Qué sabes de <rs key="#hipo">Hipólito</rs>? Vamos, di, ¿qué sabes de él? </p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿De tu hijo? De tu hijo apenas puedo saber cosa. No necesita de mis servicios.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Lo crees?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿Pues no he de creerlo? Tu hijo está sano, enteramente sano; es el único sano de la casa. Gracias al campo.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y de la cabeza?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Perfectamente bien. Tu hijo es uno de los hombres más equilibrados, más dueños de sí, más serenos, más sanos que conozco. Pocos padres más afortunados que tú...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pues mira, <rs key="#marc">Marcelo</rs>, tengo motivos para sospechar que no anda bien de la cabeza.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Quien no anda bien de ella eres tú, y esa tu sospecha me lo confirma.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Es que no sabes...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Acaso quien no sepa eres tú...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Habla más claro, <rs key="#marc">Marcelo</rs>, sin enigmas!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Enigmas los tuyos, <rs key="#pedr">Pedro</rs>. Y te dejo. Donde hay enigmas sobre yo; soy incompatible con la Esfinge. Te dejo. He llegado en mal hora. Adiós.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡No, no, quédate!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>No me quedo; estorbo. Hasta pronto.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Y de esto, <rs key="#marc">Marcelo</rs>, sabes, de esto...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿De qué?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>De lo que no sabes, ni palabra, ¿eh? ¡Ni palabra!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¡<rs key="#pedr">Pedro</rs>!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Si no... si no... en fin, no sé, ¡vete! <stage>(Tomándole la mano.)</stage> No sabes nada, nada, nada...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Demasiado sé con no saber nada...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Del enigma... ¡ni palabra! Si no...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¡Adiós! <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>Escena X</head>
+					<stage>[<rs key="#pedr">Pedro</rs>] </stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Qué infierno! ¿Sabrá algo? ¿Sospechará algo? ¿Pero no soy yo, yo quien me delato? Habrá que negar a todo el mundo la entrada en esta casa. Una cárcel... un sepulcro... Que nadie lo sepa, que nadie lo sospeche ni barrunte, que nadie lo adivine. ¡El honor ante todo! <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>Escena XI</head>
+					<stage>[<rs key="#fedr">Fedra</rs>] </stage>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Entrando.)</stage> ¡Ah, se han ido los dos! ¿Qué es lo que he hecho? Estaba loca, loca, no sé lo que me hago...</p>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>Escena XII</head>
+					<stage><rs key="#fedr">Fedra</rs> y <rs key="#rosa">Rosa</rs></stage>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p><stage>(Desde la puerta.)</stage> Señorita...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Entra, <rs key="#rosa">Rosa</rs>, entra. <stage>(Aparte.)</stage> Así no estaré sola... conmigo.</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Querría decirle...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Habla sin miedo, ¿qué?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Como no ha vuelto a decirme nada de aquello...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿De qué? ¿De qué no te he dicho? ¡Vamos, habla!</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¿Pero no se acuerda, señorita?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿De qué es lo que no me acuerdo? ¡Anda, di!</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa. Pues..</speaker>
+						<p>de lo de amadrinar mi boda...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Aaah! Sí, sí, dispensa, <rs key="#rosa">Rosa</rs>, ¡es verdad! ¡No me acordaba ya de ello! Ya ves, con tantas cosas y con esta pobre cabeza... Y bien, ¿qué? ¿Persistís en ello, en que sea yo vuestra madrina?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¿Nosotros? Eso queremos saber, si sigue usted en ello...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Yo? Pues mira, <rs key="#rosa">Rosa</rs>, no es por volverme atrás, ¡no! ¡no! ¡no! Yo no soy de las que se vuelven atrás, ¡no! ¿lo entiendes? Yo cuando digo una cosa la sostengo, ¿sabes? Sí, la sostengo...</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¿Pero es que lo he puesto yo acaso en duda?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡No, no, tú no lo has puesto en duda, no, tú no! Pues bien, sí, seré si queréis la madrina de vuestra boda, pero me parece que no os conviene...</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¿A nosotros?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No, no os conviene. Yo llevaría la mala suerte a vuestro matrimonio; seríais infelices; yo tengo mala mano, muy mala mano...</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Aprensiones, señorita...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Desgraciadamente no!</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Como me lo prometió...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Es verdad, te lo prometí, pero desde entonces acá...</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Sí, ya he notado que la señorita se está volviendo otra...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra.</speaker>
+						<p>¿Cómo? ¿Qué? ¿Qué es lo que has notado? ¡Di!</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Nada... nada...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra.</speaker>
+						<p>Vamos, di, ¿qué has notado! ¡Dilo!</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¡Por Dios, que me da miedo...!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Miedo? ¿Yo? ¿De qué? ¡Vamos, habla!</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¡No, no, no se puede seguir más en esta casa!</p>
+					</sp>
+					<stage>(Huye.)</stage>
+				</div>
+				<div type="scene" n="13">
+					<head>Escena XIII</head>
+					<stage>[<rs key="#fedr">Fedra</rs> sola] </stage>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p><stage>(Que hace ademán de seguir a <rs key="#rosa">Rosa</rs>, pero se detiene.)</stage> ¡Bah! ¡Por una criada! Estoy loca, loca perdida. Yo misma me delato. No se puede seguir así; hay que acabar y acabar de una vez y del todo. Tengo que dejarles en paz y quedarme en paz también yo... en la única paz para mí ya posible... ¡en la última paz, en la que no acaba, en la paz eterna!</p>
+					</sp>
+					<stage>Fin del acto segundo</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Acto tercero</head>
+				<div type="scene" n="1">
+					<head>Escena I</head>
+					<stage><rs key="#fedr">Fedra</rs>, muy débil, casi moribunda, apoyándose en el brazo de <rs key="#eust">Eustaquia</rs>. </stage>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Por fin va a acabarse esta tortura! ¡Llega la hora del descanso!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pero, ¿qué has hecho, hija mía?</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No podía vivir más, no podía vivir en este infierno; padre e hijo enemistados por mí y sobre todo sin <rs key="#hipo">Hipólito</rs>, ¡sin mi <rs key="#hipo">Hipólito</rs>! Mas ahora vendrá ¿no? Ahora vendrá a verme morir, a darme el beso de viático... el último... ¡No! ¡El primero! Ahora vendrá a perdonarme, ¿no es así, <rs key="#eust">Eustaquia</rs>?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Sí, se le ha llamado, y <rs key="#pedr">Pedro</rs> en su fondo ansiando verle, y en vista de tu estado, dio su venia...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Vendrá... vendrá... Ahora siento lo hecho; ahora quiero vivir, vivir, vivir, pero con él, ¡sin él no! ¡Me moría... no podía más! Cada vez que iba a su cuarto, hoy ya de él vacío, a llorar allí y desesperarme, junto a la que fue su cama, se me rompía el corazón... Y luego ese <rs key="#marc">Marcelo</rs>, ese terrible <rs key="#marc">Marcelo</rs>... su mirada penetrábame hasta lo más hondo; era mi demonio de la guarda, mi acusador. Ha adivinado mi secreto, lo sé, tenía que adivinarlo.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>No es lo peor eso.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Y ahora, ante la muerte, podré decir la verdad, toda la verdad a <rs key="#pedr">Pedro</rs>. Y ellos, padre e hijo, vivirán en paz y sin mí, sobre mi muerte. ¿Se acordarán de este mi sacrificio? Un último favor, <rs key="#eust">Eustaquia</rs>, ¿me lo concedes?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Habla.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>No. ¿Me lo concedes?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Habla!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Otórgamelo!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Por otorgado...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Toma esta carta. Es mi última confesión, la de mi crimen; es la verdad entera. Sin ello la Virgen, mi Virgen de los Dolores, no me perdonaría. Cuando haya yo muerto, cerrados estos ojos y esta boca que llevará su último beso, entrega esta carta a <rs key="#pedr">Pedro</rs>, a su padre. ¿Se la entregarás?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Sí!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Me lo juras?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Te lo juro, pero...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, no, no! Quiero vivir pura en su memoria...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pues lo que es así...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Así; sólo la verdad purifica. No descansaría mi alma, iríase al infierno si <rs key="#hipo">Hipólito</rs> quedase bajo el peso de mi calumnia. No quiero usurpar después de muerta una honra que no me pertenece. Quiero que se abracen padre e hijo sobre mi recuerdo. Y ahora vuelvo a recordar a mi madre... ¿cómo murió?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Deja eso!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, murió pura, besándome. Y yo moriré pura también. Sólo la verdad purifica. Todo lo verdadero y lo verdadero solo es limpio. Si no me presento con la verdad, ¿cómo me admitirán en el cielo y me perdonarán lo mucho que he pecado en gracia a lo mucho que he amado? ¿No es verdad, ama, que Nuestra Señora de los Dolores, que su divino hijo me perdonarán?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Si crees, confiesas y te arrepientes...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Oh, sí, sí, ahora creo, ahora sí que creo y reconozco y confieso mi crimen... el último sobre todo, el de mi muerte. ¡Perdón, Jesús mío, perdón! Jesús mío, maestro del dolor, tú con el dolor me has dado la fe salvadora. Nunca hubiese creído que en vaso tan frágil como cuerpo de mujer cabría tanto dolor sin hacerlo pedazos.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Pero esto que has hecho, <rs key="#fedr">Fedra</rs>, esto es un pecado muy grande!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>Sí, lo sé, pero di, ¿no es un sacrificio?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>El sacrificio habría sido decir la verdad, toda la verdad.</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¿Sin la muerte? No, sin muerte no hay sacrificio.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pero la muerte es Dios quien...</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Dios me la manda!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡No blasfemes, <rs key="#fedr">Fedra</rs>!</p>
+					</sp>
+					<sp who="#fedr">
+						<speaker>Fedra</speaker>
+						<p>¡Oh, Jesús mío, sigo loca, loca; cúrame con la muerte tú que te dejaste matar en cruz para curarnos... ¡Perdóname! Y ahora vamos, entremos, quiero acostarme; no puedo ya tenerme en pie... ¡Vendrá, sí, vendrá! <stage>(Se retira apoyada en el brazo de <rs key="#eust">Eustaquia</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Escena II</head>
+					<stage><rs key="#pedr">Pedro</rs> y <rs key="#marc">Marcelo</rs></stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Entrando con <rs key="#marc">Marcelo</rs>.)</stage> De modo que...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Esto es cosa grave, gravísima. Ya ayer me temía... ¡Y esta mañana peor! Temo...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Hasta...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Sí, hasta eso. Ha sido terrible, fulminante... no me lo explico... alguna traidora dolencia... pesares...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Y grandes...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>El corazón está deshecho.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Sí, deshecho el corazón, pero, dime, por lo que más quieras, <rs key="#marc">Marcelo</rs>, dime, ¿sabes algo?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿De su enfermedad?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>De la de su alma.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>El alma no entra en mi profesión. Y si he de decirte la verdad no creo en ella ni en sus enfermedades.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pero...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Dejemos ahora eso. Lo urgente es tratar de curarla si es posible y me temo que no; alargarle la vida cuanto se pueda y será muy poco, y en todo caso y esto es lo más seguro, que no sufra. <stage>(En este momento sale del cuarto <rs key="#eust">Eustaquia</rs>.)</stage></p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Sí, sí, nada de sufrir! <stage>(A <rs key="#eust">Eustaquia</rs>.)</stage> ¿Cómo va?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Cada vez peor.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Entremos a verla. <stage>(Entran.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Escena III</head>
+					<stage>[<rs key="#eust">Eustaquia</rs>] </stage>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Esto se va... ¡Pobre <rs key="#fedr">Fedra</rs>! ¡A lo que llevan estas pasiones! Jamás la hubiese creído capaz de semejante cosa. Y no puedo quitarme de la cabeza a su madre y aquella muerte tremenda. Parece que con aquel beso, lo único que de ella recuerda ésta, le transmitió su alma y su sino. Y esa medalla, esa medalla, ¡qué cosas secretas ha oído! ¡Qué ardores la han calentado! Me pidió más agua <stage>(llama)</stage> y salí a respirar. Parece morirse de sed... está que abrasa. <stage>(A <rs key="#rosa">Rosa</rs> que aparece.)</stage> ¡Trae más agua, <rs key="#rosa">Rosa</rs>!</p>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Escena IV</head>
+					<stage><rs key="#eust">Eustaquia</rs> y <rs key="#rosa">Rosa</rs></stage>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¿Y cómo sigue?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Mal, muy mal, cosa perdida, <rs key="#rosa">Rosa</rs>.</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>¡Ay Dios mío! Morirse así, tan joven, tan de repente, tan sin sustancia... Y cuando iba a amadrinar mi boda...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Quién? ¿<rs key="#fedr">Fedra</rs>?</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Sí, me lo había prometido, aunque ya al último buscaba excusarse diciéndome tener mala mano y que llevaría la desgracia a mi matrimonio.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Es posible. Pero ya lo ves, no lo quiere el cielo...</p>
+					</sp>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p>Esto, esto sí que parece traer desgracia... mal agüero... ¡Pobre señorita <rs key="#fedr">Fedra</rs>! Voy por el agua. <stage>(Desde la puerta al ir a salir.)</stage> Aquí está...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Quién? <stage>(Vase <rs key="#rosa">Rosa</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Escena V</head>
+					<stage><rs key="#eust">Eustaquia</rs> e <rs key="#hipo">Hipólito</rs>.</stage>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p><stage>(Desde la puerta.)</stage> Yo.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Oh, <rs key="#hipo">Hipólito</rs>, adelante!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Y <rs key="#fedr">Fedra</rs>?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Mal, muy mal, se muere y de prisa. Por eso se te ha llamado.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Se muere? ¿De qué?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡De pasión!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Qué fatalidad! Jamás lo hubiese creído. Y yo, yo tengo la culpa. <stage>(Pasa <rs key="#rosa">Rosa</rs> hacia el cuarto llevando el agua.)</stage> Yo...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Por qué? ¿Por no haber cedido?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡<rs key="#eust">Eustaquia</rs>...!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Ah, vamos.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>No, eso nunca, nunca, nunca. Pero acaso pude yo poner remedio a tiempo. ¿Cómo viví tan ciego? ¿Cómo no lo adiviné antes? ¡Qué torpes, qué brutos somos los hombres!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Algo...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>No vemos la sima hasta que estamos a su borde. ¿Cómo pude vivir junto a ella tan ciego? ¿Cómo no entendí sus besos?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Es que hay cosas que vosotros los hombres creéis se os deben de juro y por eso no reparáis en ellas. Un hombre rara vez entiende de diferencia de amores; sois todos egoístas, libertinos por egoísmo y por egoísmo virtuosos...</p>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Escena VI</head>
+					<stage>Dichos y <rs key="#rosa">Rosa</rs>. </stage>
+					<sp who="#rosa">
+						<speaker>Rosa</speaker>
+						<p><stage>(Que sale llorando.)</stage> ¡Pobrecilla! ¡Da pena! Me llamó, me dio excusas por no poder ya amadrinar mi boda; “aunque te lo prometí” decía... como si fuese suya la culpa... ¡Y consejos! No tendré otra ama que más me quiera. <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Escena VII</head>
+					<stage><rs key="#eust">Eustaquia</rs> e <rs key="#hipo">Hipólito</rs>.</stage>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Sí, mi virtud, una virtud ciega, era egoísmo. Sintiéndome firme no sentí que se caía ella... Y luego aquella vida de campo en que busqué alimento a mi exceso de vitalidad... aquello me hizo torpe. ¡Y yo que recuerdo habérsela recomendado a ella invitándole a ir conmigo, solos los dos, al campo! Acaso habría sido mejor, acaso habría yo visto claro más a tiempo... No, no me lo perdono...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Es ya tarde...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Siempre es tarde. ¡Pobre madre! ¿Y quiere verme antes de morir? También yo. Para pedirle perdón de mi torpeza, de mi ceguera, de mi brutalidad de cazador que no advertí cómo se caía y no la sostuve a tiempo, antes que la cosa no tuviese ya remedio...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Y ahora este terrible paso... no ha sabido esperar... Ya le decía yo que esperase, que era aún joven, que erais jóvenes...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Calla, calla! ¡Un padre nunca muere!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Mira, tu padre está ahí dentro; en el cuarto, con <rs key="#marc">Marcelo</rs>, y no conviene que te pueda ver así, tan de súbito, si sale, y sin aviso. Ve ahí, al gabinete, y espera. Alguien sale. <stage>(Vase <rs key="#hipo">Hipólito</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Escena VIII</head>
+					<stage><rs key="#eust">Eustaquia</rs> y <rs key="#marc">Marcelo</rs>.</stage>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p><stage>(Saliendo.)</stage> Bueno, señora, ahora que estamos, al parecer, solos, usted tiene que saber la verdad. ¿Qué ha sido esto?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Disgustos...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Los disgustos no matan así. Necesito saber la verdad. ¿Qué ha sido?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pues... lo que usted supone.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Se tomó unas pastillas...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Tres o cuatro. ¡Pero, por Dios, don <rs key="#marc">Marcelo</rs>...!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>No tenga usted cuidado; sé cuál es mi deber en cada caso. Y no pregunto más, porque lo otro... lo adivino.</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Qué? ¿Qué es lo que adivina?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¿Para qué soy médico, señora? Además conocí a su madre, a la madre de <rs key="#fedr">Fedra</rs>, he conocido a su hermana, sé algo, por tradición de familia, de su abuela...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Dejemos viejas historias...</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Sí, dejémoslas; pero, señora, hay cosas que van con la sangre...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Don <rs key="#marc">Marcelo</rs>!</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>¡No, si no he dicho nada! Bien traté de disuadir al pobre <rs key="#pedr">Pedro</rs> y eso que de ella...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Sí, de ella, ¿qué tenía que decir? ¿Qué tiene ahora?</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Nada. ¡Es ella misma quien se ha juzgado!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>No la juzguemos, pues, nosotros.</p>
+					</sp>
+					<sp who="#marc">
+						<speaker>Marcelo</speaker>
+						<p>Verdad; se juzgó, se condenó, hay que respetar la santidad de la cosa juzgada. ¡Pobre <rs key="#pedr">Pedro</rs>! En fin, voy en tanto a ver cerca otro enfermo; aunque aquí ya no hago falta. <stage>(Vase.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Escena IX</head>
+					<stage><rs key="#eust">Eustaquia</rs> y <rs key="#pedr">Pedro</rs>.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Saliendo del cuarto.)</stage> Pregunta por usted y por...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Ahí, en el gabinete está.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Pues, sí, que venga... que la vea... <stage>(Va <rs key="#eust">Eustaquia</rs> a buscar a <rs key="#hipo">Hipólito</rs>.)</stage> ¡Dios mío, dame fuerzas para soportar esto! Mi debilidad me basta. Estoy acorchado. No sé si vivo...</p>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>Escena X</head>
+					<stage><rs key="#eust">Eustaquia</rs>, <rs key="#pedr">Pedro</rs> e <rs key="#hipo">Hipólito</rs>.</stage>
+					<stage>Entra <rs key="#hipo">Hipólito</rs> con <rs key="#eust">Eustaquia</rs> y se queda cabizbajo frente a su padre que le mide un momento en silencio con la mirada.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Estás otra vez aquí ya?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Me mandaste llamar...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Yo no! Ella... ¡ella a quien has matado! <stage>(Se cubre la cara.)</stage></p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Padre, padre, perdón!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Perdón? ¡Ve a pedírselo a ella! Y es ella, ella la que dice te llama para pedírtelo... ¡Pedirte ella perdón...! ¡Ve si su corazón es grande!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Sí, necesito su perdón, por haber vivido tan ciego, por no haber...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Es ya tarde! ¡Pero antes que sea más tarde aún, entra! ¡Entra a que te perdone, entra!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Contigo, padre...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Eh? ¿Cómo? ¡No! ¡Entra solo! ¿O has dejado acaso de ser mi hijo? Veos solos, cara a cara de la muerte... ¡Ve tu obra en todo su horror!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Padre!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Te he dicho que entres! <stage>(Entra <rs key="#hipo">Hipólito</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>Escena XI</head>
+					<stage><rs key="#pedr">Pedro</rs> y <rs key="#eust">Eustaquia</rs>.</stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Yo también quiero morirme, ama, y que muramos todos! ¿Para qué vivir? ¿Para qué haber nacido? Y luego...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Luego... ¿qué?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>Nada, cosas que oye uno por dentro, dichas por una vocecilla de demonio cuchicheándonos en lo oscuro, cuando se está a solas y no quiere uno oír, no debe oír...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>No, no debe oírlas...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿No oye usted? ¡Esos sollozos dentro! ¿Qué se dirán?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Entre usted a oírlo!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡No, eso es sagrado! Ahora llora... ahora silencio... ¡qué silencio!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><stage>(Aparte.)</stage> ¡El último beso... el primero!</p>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>Escena XII</head>
+					<stage>Dichos e <rs key="#hipo">Hipólito</rs>.</stage>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p><stage>(Saliendo descompuesto.)</stage> Se está acabando, padre, y quiere despedirse de ti.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Qué, te perdonó?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Sí, y Dios nos perdonará a todos!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Terrible penitencia la que te aguarda, terrible! <stage>(Entra al cuarto.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="13">
+					<head>Escena XIII</head>
+					<stage>[<rs key="#hipo">Hipólito</rs> y <rs key="#eust">Eustaquia</rs>.]</stage>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Esto es superior a mis fuerzas; vale más luchar a puñetazos con un oso enfurecido. Diga, ama, ¿qué ha sido esto?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Hijo mío!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Vamos, ¿qué ha sido?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Pues, lo que te figuras...</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Qué horror! ¡Sí, yo, yo la he matado con mi ceguera, yo! ¡Pobre madre! ¡Pobre padre!</p>
+					</sp>
+				</div>
+				<div type="scene" n="14">
+					<head>Escena XIV</head>
+					<stage>Dichos y <rs key="#pedr">Pedro</rs>. </stage>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Saliendo.)</stage> Descansó al fin. <stage>(Siéntase sollozando.)</stage> Cuando entré apenas si tenía fuerzas para mirarme... ese perdón acabó con las que le quedaban... ni pudo siquiera darme el beso de despedida... parecía no verme... miraba no sé a dónde... Sólo sacó un hilito de voz para hablarme de no sé qué última confesión escrita que usted, ama...</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>Eso para más adelante...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡No, ahora, ahora mismo!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Pero padre...</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Padre? ¿Eh? ¿Qué es eso? A ver, ¿qué es? ¿Aún hay más secreto? ¿Sabré al fin la verdad toda? <stage>(Va hacia el hijo.)</stage></p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p><stage>(Interponiéndose.)</stage> ¡No, no! ¡sea! <stage>(Entré gale la carta que <rs key="#pedr">Pedro</rs> se pone a leer.)</stage></p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p><stage>(A <rs key="#eust">Eustaquia</rs>.)</stage> ¿Y eso, qué es?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>La verdad.</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿La verdad? ¿Toda la verdad?</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Sí, la verdad toda!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Oh...! <stage>(Intenta ir al padre, pero se detiene.)</stage> ¡Pero, sí, sí! ¡Ahora hace falta la verdad, por él, por mí, por ella, por su mejor memoria y por la verdad misma sobre todo!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Yendo a <rs key="#hipo">Hipólito</rs> con la carta en la mano.)</stage> Y esto que dice aquí, hijo, ¿qué es?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡La verdad!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Toda la verdad?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>Sí, toda; la verdad desnuda, la verdad después de la muerte.</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¿Y por qué no me la revelaste antes, hijo mío?</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¿Quién? ¿Yo? ¿Contra ella? ¿Contra ti? ¿Contra tu paz, tu sosiego y tu honor? ¿Y para qué? ¿Sólo para defenderme?</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p>¡Sí, bien hecho! ¡Eres mi hijo, hijo mío, de mi sangre! Pero cómo has podido dejar así... ¡Oh, no, no, no, estoy como loco, no sé lo que me digo... no sé si estoy muerto o vivo...! ¡Hijo! ¡Hijo! ¡Hijo mío!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p><stage>(Yendo a sus brazos.)</stage> ¡Padre!</p>
+					</sp>
+					<sp who="#pedr">
+						<speaker>Pedro</speaker>
+						<p><stage>(Mientras le tiene abrazado.)</stage> ¡Después de todo ha sido una santa mártir! ¡Ha sabido morir!</p>
+					</sp>
+					<sp who="#hipo">
+						<speaker>Hipólito</speaker>
+						<p>¡Sepamos vivir, padre!</p>
+					</sp>
+					<sp who="#eust">
+						<speaker>Eustaquia</speaker>
+						<p>¡Tenía razón, es el sino!</p>
+					</sp>
+				</div>
+			</div>
+		</body>
+		<back>
+			<div>
+				<head>Fin</head>
+			</div>
+		</back>
+	</text>
+</TEI>

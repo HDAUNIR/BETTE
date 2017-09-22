@@ -1,0 +1,2525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short">Zapatera</title>
+				<title type="full">La zapatera prodigiosa</title>
+				<title type="idno">
+					<idno type="viaf">180243104</idno>
+					<idno type="bne">XX3383597</idno>
+				</title>
+				<author>
+					<name type="full">Federico García Lorca</name>
+					<name type="short">Lorca</name>
+					<idno type="viaf">34456883</idno>
+					<idno type="bne">XX841898</idno>
+				</author>
+				<principal xml:id="coj">Concepción Jiménez</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2016</date>
+				<idno>040</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="first-published">
+					<date>1938</date>
+					<publisher>Losada</publisher>
+					<pubPlace>Buenos Aires</pubPlace>
+				</bibl>
+				<bibl type="electronic-source">
+					<date>2013</date>
+					<publisher>ePub</publisher>
+					<pubPlace>Unknown</pubPlace>
+				</bibl>
+				<bibl type="print-source">
+					<date>1938</date>
+					<publisher>Losada</publisher>
+					<pubPlace>Buenos Aires</pubPlace>
+				</bibl>
+				<bibl type="first-performance">
+					<date></date>
+					<pubPlace></pubPlace> 
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Acto 1: la obra comienza con la protagonista, una joven zapatera de 18 años que, a partir de la conversación casual con un niño que acude a la zapatería, descubre que la critican en el pueblo porque no tiene hijos. Ella discute con su marido (de 53 años) y lo critica enérgicamente. El marido comienza a pensar si acertó casándose con ella o no. Mientras, a ella las cortejan dos hombres del pueblo, pero no hace caso a esos cortejos. El marido se va de casa.</p>
+				<p>Acto 2: tras la marcha del marizo, la zapatera monta una taberna para ganarse la vida. La siguen cortejando algunos hombres del pueblo pero ella continúa sin hacer caso a esos cortejos. Llega un trovador que canta una canción con la que ella se siente identificada por su situación, y entristece. En una conversación con ese trovador se muestra lo enamorado que está él de su mujer y la zapatera de su marido. El trovador se quita el disfraz que llevaba y se descubre que en realidad no era un trovador sino el marido de la zapatera. </p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc status="approved">
+			<change when="2016-07-27" who="#con" status="draft">Primera versión de TEI</change>
+			<change when="2017-05-09" who="#jct" status="draft">Corrección de errores, marcación de personajes mediante elemento rs y modificación de párrafos por stages.</change>
+			<change when="2017-05-15" who="#jct" status="approved">Añadido resumen.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<castList>
+					<head>Personajes</head>
+					<head>Actores</head>
+					<castItem>
+						<role xml:id="zapa">Zapatera</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="vecr">Vecina Roja</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="vecm">Vecina Morada</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="vecv">Vecina Verde</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="veca">Vecina Amarilla</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>	
+					<castItem>
+						<role xml:id="vecn">Vecina Negra</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="beap">Beata Primera</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>				
+					<castItem>
+						<role xml:id="beas">Beata Segunda</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>	
+					<castItem>
+						<role xml:id="sacr">Sacristana</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="elau">El Autor</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="zapo">Zapatero</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="elni">El Niño</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="alca">Alcalde</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="donm">Don Mirlo</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="mozf">Mozo de la Faja</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>		
+					<castItem>
+						<role xml:id="mozs">Mozo del Sombrero</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>				
+					<castItem>
+						<role xml:id="hija">Hijas de la Vecina Roja</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>			
+					<castItem>
+						<role xml:id="vbcp">Vecinas, Beatas, Curas y Pueblo</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+				</castList>
+			</div>
+			<div>
+				<stage>FARSA EN DOS ACTOS</stage>
+			</div>
+		</front>
+		<body>
+			<div type="act" n="1">	
+				<head>ACTO PRIMERO</head>
+				<stage>Casa del <rs key="#zapo">Zapatero</rs>. Banquillo y herramientas. Habitación completamente blanca. Gran ventana y puerta. El foro es una calle también blanca con algunas puertecitas y ventanas en gris. A derecha a izquierda, puertas. Toda la escena tendrá un aire de optimismo y alegría exaltada en los más pequeños detalles. Una suave luz naranja de media tarde invade la escena.</stage>
+				<stage>Al levantarse el telón la <rs key="#zapa">Zapatera</rs> viene de la calle toda furiosa y se detiene en la puerta. Viste un traje verde rabioso y lleva el pelo tirante, adornado con dos grandes rosas. Tiene un aire agreste y dulce al mismo tiempo.</stage>
+				<div type="scene" n="1">
+					<head>ESCENA I</head>
+					<stage>La <rs key="#zapa">Zapatera</rs> y luego un Niño.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Cállate, larga de lengua, penacho de catalineta, que si yo lo he hecho… si yo lo he hecho, ha sido por mi propio gusto… Si no te metes dentro de tu casa lo hubiera arrastrado, viborilla empolvada; y esto lo digo para que me oigan todas las que están detrás de las ventanas. Que más vale estar casada con un viejo, que con un tuerto, como tú estás. Y no quiero más conversación, ni contigo ni con nadie, ni con nadie, ni con nadie. <stage>(Entra dando un fuerte portazo.)</stage> Ya sabía yo que con esta clase de gente no se podía hablar ni un segundo… pero la culpa la tengo yo, yo y yo… que debí estarme en mi casa con… casi no quiero creerlo, con mi marido. Quién me hubiera dicho a mí, rubia con los ojos negros, que hay que ver el mérito que esto tiene, con este talle y estos colores tan hermosísimos, que me iba a ver casada con… me tiraría del pelo. <stage>(Llora. Llaman a la puerta.)</stage> ¿Quién es? <stage>(No responden y llaman otra vez.)</stage> ¿Quién es? <stage>(Enfurecida.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>ESCENA II</head>
+					<stage>La <rs key="#zapa">Zapatera</rs> y el Niño.</stage>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Temerosamente.)</stage> Gente de paz.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Abriendo.)</stage> ¿Eres tú? <stage>(Melosa y conmovida.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Sí, señora Zapaterita. ¿Estaba usted llorando?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>No, es que un mosco de esos que hacen piiiiii, me ha picado en este ojo.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Quiere usted que le sople?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>No, hijo mío, ya se me ha pasado… <stage>(Le acaricia.)</stage> ¿Y qué es lo que quieres?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Vengo con estos zapatos de charol, costaron cinco duros, para que los arregle su marido. Son de mi hermana la grande, la que tiene el cutis fino y se pone dos lazos, que tiene dos, un día uno y otro día otro, en la cintura.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Déjalos ahí, ya los arreglarán.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Dice mi madre que tenga cuidado de no darles muchos martillazos, que el charol es muy delicado, para que no se estropee el charol.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Dile a tu madre que ya sabe mi marido lo que tiene que hacer, y que así supiera ella aliñar con laurel y pimienta un buen guiso como mi marido componer zapatos.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Haciendo pucheros.)</stage> No se disguste usted conmigo, que yo no tengo la culpa y todos los días estudio muy bien la gramática.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Dulce.)</stage> ¡Hijo mío! ¡Prenda mía! ¡Si contigo no es nada! <stage>(Lo besa.)</stage> Toma este muñequito, ¿te gusta? Pues llévatelo.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Me lo llevaré, porque como yo sé que usted no tendrá nunca niños…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Quién te dijo eso?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Mi madre lo hablaba el otro día, diciendo: la <rs key="#zapa">Zapatera</rs> no tendrá hijos, y se reían mis hermanas y la comadre Rafaela.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Nerviosísima.)</stage> ¿Hijos? Puede que los tenga más hermosos que todas ellas y con más arranque y más honra, porque tu madre… es menester que sepas…</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Tome usted el muñequito, ¡no lo quiero!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Reaccionando.)</stage> No, no, guárdalo, hijo mío… ¡Si contigo no es nada!</p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>ESCENA III</head>
+					<stage>Aparece por la izquierda el <rs key="#zapo">Zapatero</rs>. Viste traje de terciopelo con botones de plata, pantalón corto y corbata roja. Se dirige al banquillo.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Válgate Dios!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Asustado.)</stage> ¡Ustedes se conserven bien! ¡Hasta la vista! ¡Que sea enhorabuena! ¡Deo gratias! (Sale corriendo por la calle.)</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Adiós, hijito. Si hubiera reventado antes de nacer, no estaría pasando estos trabajos y estas tribulaciones. ¡Ay dinero, dinero!, sin manos y sin ojos debería haberse quedado el que te inventó.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(En el banquillo.)</stage> Mujer, ¿qué estás diciendo…?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Lo que a ti no te importa!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>A mí no me importa nada de nada. Ya sé que tengo que aguantarme.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>También me aguanto yo… piensa que tengo dieciocho años.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Y yo… cincuenta y tres. Por eso me callo y no me disgusto contigo… ¡demasiado sé yo!… Trabajo para ti… y sea lo que Dios quiera…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Está de espaldas a su marido y se vuelve y avanza tierna y conmovida.)</stage> Eso no, hijo mío… ¡no digas…!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Pero, ¡ay, si tuviera cuarenta años o cuarenta y cinco, siquiera…! <stage>(Golpea furiosamente un zapato con el martillo.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Enardecida.)</stage> Entonces yo sería tu criada, ¿no es esto? Si una no puede ser buena… ¿Y yo?, ¿es que no valgo nada?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Mujer… repórtate.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Es que mi frescura y mi cara no valen todos los dineros de este mundo?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Mujer… ¡que te van a oír los vecinos!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Maldita hora, maldita hora, en que le hice caso a mi compadre Manuel.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatero</speaker>
+						<p>¿Quieres que te eche un refresquito de limón?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Ay, tonta, tonta, tonta! <stage>(Se golpea la frente.)</stage> Con tan buenos pretendientes como yo he tenido.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Queriendo suavizar.)</stage> Eso dice la gente.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿La gente? Por todas partes se sabe. Lo mejor de estas vegas. Pero el que más me gustaba a mí de todos era Emiliano… tú lo conociste… Emiliano, que venía montado en una jaca negra, llena de borlas y espejitos, con una varilla de mimbre en su mano y las espuelas de cobre reluciente. ¡Y qué capa traía por el invierno! ¡Qué vueltas de pana azul y qué agremanes de seda!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatero</speaker>
+						<p>Así tuve yo una también… son unas capas preciosísimas.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Tú? ¡Tú qué ibas a tener!… Pero, ¿por qué te haces ilusiones? Un <rs key="#zapo">Zapatero</rs> no se ha puesto en su vida una prenda de esa clase…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatero</speaker>
+						<p>Pero, mujer, ¿no estás viendo?…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Interrumpiéndole.)</stage> También tuve otro pretendiente… <stage>(El <rs key="#zapo">Zapatero</rs> golpea fuertemente el zapato.)</stage> Aquél era medio señorito… tendría dieciocho años, ¡se dice muy pronto! ¡Dieciocho años! <stage>(El <rs key="#zapo">Zapatero</rs> se revuelve inquieto.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>También los tuve yo.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Tú no has tenido en tu vida dieciocho años… Aquél sí que los tenía y me decía unas cosas… Verás…</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Golpeando furioso.)</stage> ¿Te quieres callar? Eres mi mujer, quieras o no quieras, y yo soy tu esposo. Estabas pereciendo, sin camisa, ni hogar. ¿Por qué me has querido? ¡Fantasiosa, fantasiosa, fantasiosa!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Levantándose.)</stage> ¡Cállate! No me hagas hablar más de lo prudente y ponte a tu obligación. ¡Parece mentira! <stage>(Dos Vecinas con mantilla cruzan la ventana sonriendo. )</stage> ¿Quién me lo iba a decir, viejo pellejo, que me ibas a dar tal pago? ¡Pégame, si te parece, anda, tírame el martillo!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Ay, mujer… no me des escándalos, ¡mira que viene la gente! ¡Ay, Dios mío! <stage>(Las dos Vecinas vuelven a cruzar.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Yo me he rebajado. ¡Tonta, tonta, tonta! Maldito sea mi compadre Manuel, malditos sean los vecinos, tonta, tonta, tonta. <stage>(Sale golpeándose la cabeza.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>ESCENA IV</head>
+					<stage><rs key="#zapo">Zapatero</rs>, <rs key="#vecr">Vecina Roja</rs> y Niño.</stage>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Mirándose en un espejo y contándose las arrugas.)</stage> Una, dos, tres, cuatro… y mil. <stage>(Guarda el espejo.)</stage> Pero me está muy bien empleado, sí señor. Porque vamos a ver: ¿por qué me habré casado? Yo debí haber comprendido, después de leer tantas novelas, que las mujeres les gustan a todos los hombres, pero todos los hombres no les gustan a todas las mujeres. ¡Con lo bien que yo estaba! Mi hermana, mi hermana tiene la culpa, mi hermana que se empeñó: ¡«que si te vas a quedar solo», que si qué sé yo! Y esto es mi ruina. ¡Mal rayo parta a mi hermana, que en paz descanse! <stage>(Fuera se oyen voces.)</stage> ¿Qué será?</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p><stage>(En la ventana y con gran brío. La acompañan sus Hijas vestidas del mismo color.)</stage> Buenas tardes.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Rascándose la cabeza.)</stage> Buenas tardes.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Dile a tu mujer que salga. Niñas, ¿queréis no llorar más? ¡Qué salga, a ver si por delante de mí casca tanto como por detrás!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Ay, vecina de mi alma, no me dé usted escándalos, por los clavitos de Nuestro Señor! ¿Qué quiere usted que yo le haga? Pero comprenda mi situación: toda la vida temiendo casarme… porque casarse es una cosa muy seria, y, a última hora, ya lo está usted viendo.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Qué lástima de hombre! ¡Cuánto mejor le hubiera ido a usted casado con gente de su clase!… estas niñas, pongo por caso, a otras del pueblo…</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Y mi casa no es casa. ¡Es un guirigay!</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Se arranca el alma! Tan buenísima sombra como ha tenido usted toda su vida.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Mira por si viene su Mujer.)</stage> Anteayer… despedazó el jamón que teníamos guardado para estas Pascuas y nos lo comimos entero. Ayer estuvimos todo el día con unas sopas de huevo y perejil: bueno, pues porque protesté de esto, me hizo beber tres vasos seguidos de leche sin hervir.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Qué fiera!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Así es, vecinita de mi corazón, que le agradecería en el alma que se retirase.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Ay, si viviera su hermana! Aquélla sí que era…</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Ya ves… y de camino llévate tus zapatos que están arreglados. <stage>(Por la puerta de la izquierda asoma la <rs key="#zapa">Zapatera</rs>, que detrás de la cortina espía la escena sin ser vista.)</stage></p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p><stage>(Mimosa.)</stage> ¿Cuánto me vas a llevar por ellos?… Los tiempos van cada vez peor.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Lo que tú quieras… Ni que tire por allí ni que tire por aquí…</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p><stage>(Dando en el codo a sus Hijas.)</stage> ¿Están bien en dos pesetas?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Tú dirás!</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Vaya… te daré una…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Saliendo furiosa.)</stage> ¡Ladrona! <stage>(Las Mujeres chillan y se asustan.)</stage> ¿Tienes valor de robar a este hombre de esa manera? <stage>(A su Marido.)</stage> Y tú, ¿dejarte robar? Vengan los zapatos. Mientras no des por ellos diez pesetas, aquí se quedan.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Lagarta, lagarta!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Mucho cuidado con lo que estás diciendo!</p>
+					</sp>
+					<sp who="#nina">
+						<speaker>Niñas</speaker>
+						<p>¡Ay, vámonos, vámonos, por Dios!</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Bien despachado vas de mujer, ¡que te aproveche! <stage>(Se van rápidamente. El <rs key="#zapo">Zapatero</rs> cierra la ventana y la puerta.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>ESCENA V</head>
+					<stage><rs key="#zapo">Zapatero</rs> y <rs key="#zapa">Zapatera</rs>.</stage>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Escúchame un momento…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Recordando.)</stage> Lagarta… lagarta… qué, qué, qué… ¿qué me vas a decir?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Mira, hija mía. Toda mi vida ha sido en mí una verdadera preocupación evitar el escándalo. <stage>(El <rs key="#zapo">Zapatero</rs> traga constantemente saliva.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Pero tienes el valor de llamarme escandalosa, cuando he salido a defender tu dinero?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Yo no te digo más, que he huido de los escándalos, como las salamanquesas del agua fría.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Rápida.)</stage> ¡Salamanquesas! ¡Huy, qué asco!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Armado de paciencia.)</stage> Me han provocado, me han, a veces, hasta insultado, y no teniendo ni tanto así de cobarde he quedado con mi alma en mi almario, por el miedo de verme rodeado de gentes y llevado y traído por comadres y desocupados. De modo que ya lo sabes. ¿He hablado bien? Ésta es mi última palabra.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pero vamos a ver: ¿a mí qué me importa todo eso? Me casé contigo, ¿no tienes la casa limpia? ¿No comes? ¿No te pones cuellos y puños que en tu vida te los habías puesto? ¿No llevas tu reloj, tan hermoso, con cadena de plata y venturinas, al que doy cuerda toda las noches? ¿Qué más quieres? Porque, yo, todo; menos esclava. Quiero hacer siempre mi santa voluntad.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>No me digas… tres meses llevamos casados, yo, queriéndote… y tú, poniéndome verde. ¿No ves que ya no estoy para bromas?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Seria y como soñando.)</stage> Queriéndome, queriéndome… Pero <stage>(Brusca.)</stage> ¿qué es eso de queriéndome? ¿Qué es queriéndome?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Tú te creerás que yo no tengo vista y tengo. Sé lo que haces y lo que no haces, y ya estoy colmado, ¡hasta aquí!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Fiera.)</stage> Pues lo mismo se me da a mí que estés colmado como que no estés, porque tú me importas tres pitos, ¡ya lo sabes! <stage>(Llora.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿No puedes hablarme un poquito más bajo?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Merecías, por tonto, que colgara la calle a gritos.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Afortunadamente creo que esto se acabará pronto; porque yo no sé cómo tengo paciencia.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Hoy no comemos… de manera que ya te puedes buscar la comida por otro sitio. <stage>(La <rs key="#zapa">Zapatera</rs> sale rápidamente hecha una furia.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Mañana <stage>(Sonriendo.)</stage> quizá la tengas que buscar tú también. <stage>(Se va al banquillo.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ESCENA VI</head>
+					<stage>Por la puerta central aparece el <rs key="#alca">Alcalde</rs>. Viste de azul oscuro, gran capa y larga vara de mando rematada con cabos de plata. Habla despacio y con gran sorna.</stage>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿En el trabajo?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>En el trabajo, señor <rs key="#alca">Alcalde</rs>.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿Mucho dinero?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>El suficiente. <stage>(El <rs key="#zapo">Zapatero</rs> sigue trabajando. El <rs key="#alca">Alcalde</rs> mira curiosamente a todos lados.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Tú no estás bueno.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Sin levantar la vista.)</stage> No.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿La mujer?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Asintiendo.)</stage> ¡La mujer!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Sentándose.)</stage> Eso tiene casarse a tu edad… A tu edad se debe ya estar viudo… de una, como mínimum… Yo estoy de cuatro: Rosa, Manuela, Visitación y Enriqueta Gómez, que ha sido la última: buenas mozas todas, aficionadas al baile y al agua limpia. Todas, sin excepción, han probado esta vara repetidas veces. En mi casa… en mi casa, coser y cantar.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Pues ya está usted viendo qué vida la mía. Mi mujer… no me quiere. Habla por la ventana con todos. Hasta con don <rs key="#donm">Mirlo</rs>, y a mí se me está encendiendo la sangre.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Riendo.)</stage> Es que ella es una chiquilla alegre, eso es natural.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Ca! Estoy convencido… yo creo que esto lo hace por atormentarme; porque, estoy seguro…, ella me odia. Al principio creí que la dominaría con mi carácter dulzón y mis regalillos: collares de coral, cintillos, peinetas de concha… ¡hasta unas ligas! Pero ella… ¡es siempre ella!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Y tú, siempre tú; ¡qué demonio! Vamos, lo estoy viendo y me parece mentira cómo un hombre, lo que se dice un hombre, no puede meter en cintura, no una, sino ochenta hembras. Si tu mujer habla por la ventana con todos, si tu mujer se pone agria contigo, es porque tú quieres, porque tú no tienes arranque. A las mujeres, buenos apretones en la cintura, pisadas fuertes y la voz siempre en alto, y si con esto se atreven a hacer quiquiriquí, la vara, no hay otro remedio. Rosa, Manuela, Visitación y Enriqueta Gómez, que ha sido la última, te lo pueden decir desde la otra vida, si es que por casualidad están allí.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Pero si el caso es que no me atrevo a decirle una cosa. <stage>(Mira con recelo.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Autoritario.)</stage> Dímela.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Comprendo que es una barbaridad… pero yo no estoy enamorado de mi mujer.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Demonio!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Sí, señor, ¡demonio!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Entonces, grandísimo tunante, ¿por qué te has casado?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Ahí lo tiene usted. Yo no me to explico tampoco. Mi hermana, mi hermana tiene la culpa. Que si te vas a quedar solo, que si qué sé yo, que si qué sé yo cuánto… Yo tenía dinerillos, salud, y dije: ¡allá voy! Pero, benditísima soledad antigua. ¡Mal rayo parta a mi hermana, que en paz descanse!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Pues te has lucido!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Sí, señor, me he lucido… Ahora, que yo no aguanto más. Yo no sabía lo que era una mujer. Digo, ¡usted, cuatro! Yo no tengo edad para resistir este jaleo.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Cantando dentro, fuerte.)</stage> ¡Ay, jaleo, jaleo,ya se acabó el alboroto y vamos al tiroteo!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Ya lo está usted oyendo.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿Y qué piensas hacer?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Cuca silvana. <stage>(Hace el ademán.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿Se te ha vuelto el juicio?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Excitado.)</stage> El <rs key="#zapo">Zapatero</rs> a tus zapatos se acabó para mí. Yo soy un hombre pacífico. Yo no estoy acostumbrado a estos voceríos y a estar en lenguas de todos.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Riéndose.)</stage> Recapacita lo que has dicho que vas a hacer; que tú eres capaz de hacerlo, y no seas tonto. Es una lástima que un hombre como tú no tenga el carácter que debías tener. <stage>(Por la puerta de la izquierda aparece la <rs key="#zapa">Zapatera</rs> echándose polvos con una polvera rosa y limpiándose las cejas.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ESCENA VII</head>
+					<stage>Dichos y <rs key="#zapa">Zapatera</rs>.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Buenas tardes.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Muy buenas. <stage>(Al <rs key="#zapo">Zapatero</rs>.)</stage> ¡Como guapa, es guapísima!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Usted cree?</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Qué rosas tan bien puestas lleva usted en el pelo y qué bien huelen!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Muchas que tiene usted en los balcones de su casa.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Efectivamente. ¿Le gustan a usted las flores?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿A mí…? ¡Ay, me encantan! Hasta en el tejado tendría yo macetas, en la puerta, por las paredes. Pero a éste… a ése… no le gustan. Claro, toda la vida haciendo botas, ¡qué quiere usted! <stage>(Se sienta en la ventana.)</stage> Y buenas tardes. <stage>(Mira a la calle y coquetea.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Lo ve usted?</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Un poco brusca… pero es una mujer guapísima. ¡Qué cintura tan ideal!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>No la conoce usted.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Psch! <stage>(Saliendo majestuosamente.)</stage> ¡Hasta mañana! Y a ver si se despeja esa cabeza. ¡A descansar, niña! ¡Qué lástima de talle! <stage>(Vase mirando a la <rs key="#zapa">Zapatera</rs>.)</stage> ¡Porque, vamos! ¡Y hay que ver qué ondas en el pelo! <stage>(Sale.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ESCENA VIII</head>
+					<stage><rs key="#zapo">Zapatero</rs> y <rs key="#zapa">Zapatera</rs>.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera:</speaker>
+						<p><stage>(Cantando.)</stage>Si tu madre tiene un rey,la baraja tiene cuatro: rey de oros, rey de copas, rey de espadas, rey de bastos.</p>
+						<p>(La <rs key="#zapa">Zapatera</rs> coge una silla y sentada en la ventana empieza a darle vueltas.)</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero:</speaker>
+						<p><stage>(Cogiendo otra silla y dándole vueltas en sentido contrario.)</stage> Si sabes que tengo esa superstición, y para mí esto es como si me dieras un tiro, ¿por qué lo haces?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Soltando la silla.)</stage> ¿Qué he hecho yo? ¿No te digo que no me dejas ni moverme?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Ya estoy harto de explicarte… pero es inútil. <stage>(Va a hacer mutis, pero la <rs key="#zapa">Zapatera</rs> empieza otra vez y el <rs key="#zapo">Zapatero</rs> viene corriendo desde la puerta y da vueltas a su silla.)</stage> ¿Por qué no me dejas marchar, mujer?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Jesús!, pero si lo que yo estoy deseando es que te vayas.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Pues déjame!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Enfurecida.)</stage> ¡Pues vete! <stage>(Fuera se oye una flauta acompañada de guitarra que toca una polquita antigua con el ritmo cómicamente acusado. La <rs key="#zapa">Zapatera</rs> empieza a llevar el compás con la cabeza y el <rs key="#zapo">Zapatero</rs> huye por la izquierda.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>ESCENA IX</head>
+					<stage><rs key="#zapa">Zapatera</rs>.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Cantando.)</stage> Larán… larán… A mí, es que la flauta me ha gustado siempre mucho… Yo siempre he tenido delirio por ella… Casi se me saltan las lágrimas… ¡Qué primor! Larán, larán… Oye… Me gustaría que él la oyera… <stage>(Se levanta y se pone a bailar como si lo hiciera con novios imaginarios.)</stage> ¡Ay, Emiliano! Qué cintillos tan preciosos llevas… No, no… me da vergüencilla… Pero, José María, ¿no ves que nos están viendo? Coge un pañuelo, que no quiero que me manches el vestido. A ti te quiero, a ti… ¡Ah, sí!… mañana que traigas la jaca blanca, la que a mí me gusta. <stage>(Ríe. Cesa la música.)</stage> ¡Qué mala sombra! Esto es dejar a una con la miel en los labios… Qué…</p>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>ESCENA X</head>
+					<stage>Aparece en la ventana don <rs key="#donm">Mirlo</rs>. Viste de negro, frac y pantalón corto. Le tiembla la voz y mueve la cabeza como un muñeco de alambre.</stage>
+					<sp who="#mirl">
+						<speaker>Mirlo</speaker>
+						<p>¡Chisssssss!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Sin mirar y vuelta de espalda a la ventana.)</stage> Pin, pin, pío, pío, pío.</p>
+					</sp>
+					<sp who="#mirl">
+						<speaker>Mirlo</speaker>
+						<p><stage>(Acercándose más.)</stage> ¡Chissss! Zapaterita blanca, como el corazón de las almendras, pero amargosilla también. Zapaterita… junco de oro encendido… Zapaterita, bella Otero de mi corazón.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Cuánta cosa, don <rs key="#donm">Mirlo</rs>; a mí me parecía imposible que los pajarracos hablaran. Pero si anda por ahí revoloteando un mirlo negro, negro y viejo… sepa que yo no puedo oírle cantar hasta más tarde… pin, pío, pío, pío.</p>
+					</sp>
+					<sp who="#mirl">
+						<speaker>Mirlo</speaker>
+						<p>Cuando las sombras crepusculares invadan con sus tenues velos el mundo y la vía pública se halle libre de transeuntes, volveré. <stage>(Toma rapé y estornuda sobre el cuello de la <rs key="#zapa">Zapatera</rs>.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Volviéndose airada y pegando a don <rs key="#donm">Mirlo</rs>, que tiembla.)</stage> ¡Aaaa! <stage>(Con cara de asco:)</stage> ¡Y aunque no vuelvas, indecente! <rs key="#donm">Mirlo</rs> de alambre, garabato de candil… Corre, corre… ¿Se habrá visto? ¡Mira que estornudar! ¡Vaya mucho con Dios! ¡Qué asco!</p>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>ESCENA XI</head>
+					<stage>En la ventana se para el <rs key="#mozf">Mozo</rs> de la Faja. Tiene el sombrero plano echado a la cara y da pruebas de gran pesadumbre.</stage>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>¿Se toma el fresco, zapaterita?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Exactamente igual que usted.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>Y siempre sola… ¡Qué lástima!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Agria.)</stage> ¿Y por qué, lástima?</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>Una mujer como usted, con ese pelo y esa pechera tan hermosísima…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Más agria.)</stage> Pero, ¿por qué lástima?</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>Porque usted es digna de estar pintada en las tarjetas postales y no aquí… este portalillo.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Sí?… A mí las tarjetas postales me gustan mucho, sobre todo las de novios que se van de viaje…</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>¡Ay, zapaterita, qué calentura tengo! <stage>(Siguen hablando.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Entrando y retrocediendo.)</stage> ¡Con todo el mundo y a estas horas! ¡Qué dirán los que vengan al rosario de la iglesia! ¡Qué dirán en el casino! ¡Me estarán poniendo!… En cada casa, un traje con ropa interior y todo. <stage>(<rs key="#zapa">Zapatera</rs> ríe.)</stage> ¡Ay, Dios mío! ¡Tengo razón para marcharme! Quisiera oír a la mujer del sacristán; pues ¿y los curas? ¿Qué dirán los curas? Eso será lo que habrá que oír. <stage>(Entra desesperado.)</stage></p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>¿Cómo quiere que se lo exprese…? Yo la quiero, te quiero como…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Verdaderamente eso de «la quiero», «te quiero», suena de un modo que parece que me están haciendo cosquillas con una pluma detrás de las orejas. Te quiero, la quiero…</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>¿Cuántas semillas tiene el girasol?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Yo qué sé!</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>Tantos suspiros doy cada minuto por usted; por ti…</p>
+						<p>(Muy cerca.)</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Brusca.)</stage> Estáte quieto. Yo puedo oírte hablar porque me gusta y es bonito, pero nada más, ¿lo oyes? ¡Estaría bueno!</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>Pero eso no puede ser. ¿Es que tienes otro compromiso?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Mira, vete.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo</speaker>
+						<p>No me muevo de este sitio sin el sí. ¡Ay, mi zapaterita, dame tu palabra! <stage>(Va a abrazarla.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Cerrando violentamente la ventana.)</stage> ¡Pero qué impertinente, qué loco!… ¡Si te he hecho daño te aguantas!… Como si yo no estuviera aquí más que paraaa, paraaaa… ¿Es que en este pueblo no puede una hablar con nadie? Por lo que veo, en este pueblo no hay más que dos extremos: o monja o trapo de fregar… ¡Era lo que me quedaba que ver! <stage>(Haciendo como que huele y echando a correr.)</stage> ¡Ay, mi comida que está en la lumbre! ¡Mujer ruin!</p>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>ESCENA XII</head>
+					<stage>La luz se va marchando. El <rs key="#zapo">Zapatero</rs> sale con una gran capa y un bulto de ropa en la mano.</stage>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡O soy otro hombre o no me conozco! ¡Ay, casita mía! ¡Ay, banquillo mío! Cerote, clavos, pieles de becerro… Bueno. <stage>(Se dirige hacia la puerta y retrocede, pues se topa con dos <rs key="#beap #beas">Beatas</rs> en el mismo quicio.)</stage></p>
+					</sp>
+					<sp who="#beap">
+						<speaker>Beata Primera</speaker>
+						<p>Descansando, ¿verdad?</p>
+					</sp>
+					<sp who="#beas">
+						<speaker>Beata Segunda</speaker>
+						<p>¡Hace usted bien en descansar!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Con mal humor.)</stage> ¡Buenas noches!</p>
+					</sp>
+					<sp who="#beap">
+						<speaker>Beata Primera</speaker>
+						<p>A descansar, maestro.</p>
+					</sp>
+					<sp who="#beas">
+						<speaker>Beata Segunda</speaker>
+						<p>¡A descansar, a descansar! <stage>(Se van.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Sí, descansando… ¡Pues no estaban mirando por el ojo de la llave! ¡Brujas, sayonas! ¡Cuidado con el retintín con que me lo han dicho! Claro… si en todo el pueblo no se hablará de otra cosa: ¡que si yo, que si ella, que si los mozos! ¡Ay! ¡Mal rayo parta a mi hermana que en paz descanse! ¡Pero primero solo que señalado por el dedo de los demás! <stage>(Sale rápidamente y deja la puerta abierta. Por la izquierda aparece la <rs key="#zapa">Zapatera</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="13">
+					<head>ESCENA XIII</head>
+					<stage>La <rs key="#zapa">Zapatera</rs>.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Ya está la comida… ¿me estás oyendo? <stage>(Avanza hacia la puerta de la derecha:)</stage> ¿Me estás oyendo? Pero, ¿habrá tenido el valor de marcharse al cafetín, dejando la puerta abierta… y sin haber terminado los borceguíes? Pues cuando vuelva, ¡me oirá! ¡Me tiene que oír! ¡Qué hombres son los hombres, qué abusivos y qué… qué… vaya!… <stage>(En un repeluzno.)</stage> ¡Ay, qué fresquito hace! <stage>(Se pone a encender el candil y de la calle llega el ruido de las esquilas de los rebaños que vuelven al pueblo. La <rs key="#zapa">Zapatera</rs> se asoma a la ventana.)</stage> ¡Qué primor de rebaños! Lo que es a mí, me chalan las ovejitas. Mira, mira… aquella blanca tan chiquita que casi no puede andar. ¡Ay!… Pero aquella grandota y antipática se empeña en pisarla y nada… <stage>(A voces.)</stage> Pastor, ¡asombrado! ¿No estás viendo que te pisotean la oveja recién nacida? <stage>(Pausa.)</stage> Pues claro que me importa… ¿No ha de importarme? ¡Brutísimo!… Y mucho… <stage>(Se quita de la ventana.)</stage> Pero, Señor, ¿adónde habrá ido este hombre desnortado? Pues si tarda siquiera dos minutos más, como yo sola, que me basto y me sobro… ¡Con la comida tan buena que he preparado…! Mi cocido, con sus patatas de la sierra, dos pimientos verdes, pan blanco, un poquito magro de tocino, y arrope con calabaza y cáscara de limón para encima, ¡porque lo que es cuidarlo, lo que es cuidarlo, te estoy cuidando a mano! <stage>(Durante todo este monólogo da muestras de gran actividad, moviéndose de un lado para otro, arreglando las sillas, despabilando el velón y quitándose motas del vestido.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="14">
+					<head>ESCENA XIV</head>
+					<stage>Niña, <rs key="#zapa">Zapatera</rs>, <rs key="#alca">Alcalde</rs>, <rs key="#sacr">Sacristana</rs>, Vecinos y <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs>.</stage>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(En la puerta.)</stage> ¿Estás disgustada, todavía?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Primorcito de su vecina, ¿dónde vas?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(En la puerta.)</stage> Tú no me regañarás, ¿verdad?, porque a mi madre que algunas veces me pega, la quiero veinte arrobas, pero a ti te quiero treinta y dos y media…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Por qué eres tan precioso? <stage>(Sienta al Niño en sus rodillas.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Yo venía a decirte una cosa que nadie quiere decirte. Ve tú, ve tú, ve tú, y nadie quería y entonces, «que vaya el niño», dijeron… porque era un notición que nadie quiere dar.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pero dímelo pronto, ¿qué ha pasado?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>No te asustes, que de muertos no es.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Anda!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Mira, zapaterita… <stage>(Por la ventana entra una mariposa y el Niño bajándose de las rodillas de la <rs key="#zapa">Zapatera</rs> echa a correr.)</stage> Una mariposa, una mariposa… ¿no tienes un sombrero…? Es amarilla, con pintas azules y rojas… y, ¡qué sé yo…!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pero, hijo mío… ¿quieres?…</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Enérgico.)</stage> Cállate y habla en voz baja, ¿no ves que se espanta si no? ¡Ay! ¡Dame tu pañuelo!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Intrigada ya en la caza.)</stage> Tómalo.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Chis…! No pises fuerte.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Lograrás que se escape.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño:</speaker>
+						<p><stage>(En voz baja y como encantando a la mariposa, canta.)</stage> Mariposa del aire, qué hermosa eres, mariposa del aire dorada y verde.</p>
+						<p>Luz de candil, mariposa del aire,¡quédate ahí, ahí, ahí! No te quieres parar, pararte no quieres.</p>
+						<p>Mariposa del aire dorada y verde.</p>
+						<p>Luz de candil, mariposa del aire, ¡quédate ahí, ahí, ahí!</p>
+						<p>¡Quédate ahí! Mariposa, ¿estás ahí?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera:</speaker>
+						<p><stage>(En broma.)</stage> Síííí.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>No, eso no vale. <stage>(La mariposa vuela.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Ahora! ¡Ahora!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Corriendo alegremente con el pañuelo.)</stage> ¿No te quieres parar? ¿No quieres dejar de volar?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Corriendo también por otro lado.)</stage> ¡Que se escapa, que se escapa! <stage>(El Niño sale corriendo por la puerta persiguiendo a la mariposa.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Enérgica.)</stage> ¿Dónde vas?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Suspenso.)</stage> ¡Es verdad! <stage>(Rápido.)</stage> ¡Pero yo no tengo la culpa!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Vamos! ¿Quieres decirme lo que pasa? ¡Pronto!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Ay! Pues, mira… tu marido, el <rs key="#zapo">Zapatero</rs>, se ha ido para no volver más.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Aterrada.)</stage> ¿Cómo?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Sí, sí, eso ha dicho en casa antes de montarse en la diligencia, que lo he visto yo… y nos encargó que te lo dijéramos y ya lo sabe todo el pueblo…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Sentándose desplomada.)</stage> ¡No es posible, esto no es posible! ¡Yo no lo creo!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Sí que es verdad, no me regañes!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Levantándose hecha una furia y dando fuertes pisotadas en el suelo.)</stage> ¿Y me da este pago? ¿Y me da este pago? <stage>(El Niño se refugia detrás de la mesa.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Que se caen las horquillas!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Qué va a ser de mí sola en esta vida? ¡Ay, ay, ay!</p>
+						<p>(El Niño sale corriendo. La ventana y las puertas están llenas de vecinos.) Sí, sí, venid a verme, cascantes, comadricas, por vuestra culpa ha sido…</p>
+					</sp>			
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Mira, ya te estás callando. Si tu marido te ha dejado ha sido porque no lo querías, porque no podía ser.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Pero lo van a saber ustedes mejor que yo? Sí, lo quería, vaya si lo quería, que pretendientes buenos y muy riquísimos he tenido y no les he dado el sí jamás. ¡Ay, pobrecito mío, qué cosas te habrán contado!</p>
+					</sp>
+					<sp who="#sacr">
+						<speaker>Sacristana</speaker>
+						<p><stage>(Entrando.)</stage> Mujer, repórtate.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>No me resigno. No me resigno. ¡Ay, ay! <stage>(Por la puerta empiezan a entrar <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs> vestidas con colores violentos y que llevan grandes vasos de refrescos. Giran, corren, entran y salen alrededor de la <rs key="#zapa">Zapatera</rs> que está sentada gritando, con la prontitud y ritmo de baile. Las grandes faldas se abren a las vueltas que dan. Todos adoptan una actitud cómica de pena.)</stage></p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>Un refresco.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Un refresquito.</p>
+					</sp>
+					<sp who="#vecv">
+						<speaker>Vecina Verde</speaker>
+						<p>Para la sangre.</p>
+					</sp>
+					<sp who="#vecn">
+						<speaker>Vecina Negra</speaker>
+						<p>De limón.</p>
+					</sp>
+					<sp who="#vecm">
+						<speaker>Vecina Morada</speaker>
+						<p>De zarzaparrilla.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>La menta es mejor.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina Morada</speaker>
+						<p>Vecina.</p>
+					</sp>
+					<sp who="#vecv">
+						<speaker>Vecina Verde</speaker>
+						<p>Vecinita.</p>
+					</sp>
+					<sp who="#vecn">
+						<speaker>Vecina Negra</speaker>
+						<p><rs key="#zapa">Zapatera</rs>.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Zapaterita.</p>
+						<p>(Las <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs> arman gran algazara. La <rs key="#zapa">Zapatera</rs> llora a gritos.)</p>
+						<p>TELÓN</p>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>ACTO SEGUNDO</head>
+				<stage>La misma decoración. A la izquierda, el banquillo arrumbado. A la derecha, un mostrador con botellas y un lebrillo con agua donde la <rs key="#zapa">Zapatera</rs> friega las copas. La <rs key="#zapa">Zapatera</rs> está detrás del mostrador. Viste un traje rojo encendido, con amplias faldas y los brazos al aire. En la escena, dos mesas. En una de ellas está sentado don <rs key="#donm">Mirlo</rs>, que toma un refresco y en la otra el <rs key="#mozs">Mozo</rs> del Sombrero en la cara.</stage>
+				<div type="scene" n="1">
+					<head>ESCENA I</head>
+					<stage>La <rs key="#zapa">Zapatera</rs> friega con gran ardor vasos y copas que va colocando en el mostrador. Aparece en la puerta el <rs key="#mozf">Mozo</rs> de la Faja y el Sombrero plano del primer acto. Está triste. Lleva los brazos caídos y mira de manera tierna a la <rs key="#zapa">Zapatera</rs>. Al actor que exagere lo más mínimo en este tipo, debe el Director de escena darle un bastonazo en la cabeza. Nadie debe exagerar. La farsa exige siempre naturalidad. El Autor ya se ha encargado de dibujar el tipo y el sastre de vestirlo. Sencillez. El <rs key="#mozf">Mozo</rs> se detiene en la puerta. Don <rs key="#donm">Mirlo</rs> y el otro <rs key="#mozf">Mozo</rs> vuelven la cabeza y lo miran. Ésta es casi una escena de cine. Las miradas y expresión del conjunto dan su expresión. La <rs key="#zapa">Zapatera</rs> deja de fregar y mira al <rs key="#mozf">Mozo</rs> fijamente. Silencio.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pase usted.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo De La Faja</speaker>
+						<p>Si usted lo quiere…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Asombrada.)</stage> ¿Yo? Me trae absolutamente sin cuidado, pero como te veo en la puerta…</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo De La Faja</speaker>
+						<p>Lo que usted quiera. <stage>(Se apoya en el mostrador.) (Entre dientes.)</stage> Éste es otro al que voy a tener que…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Qué va a tomar?</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo De La Faja</speaker>
+						<p>Seguiré sus indicaciones.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pues la puerta.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo De La Faja</speaker>
+						<p>¡Ay, Dios mío, cómo cambian los tiempos!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>No crea que me voy a echar a llorar. Vamos. Va usted a tomar copa, café, refresco, ¿diga?</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo De La Faja</speaker>
+						<p>Refresco.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>No me mire tanto que se me va a derramar el jarabe.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo De La Faja</speaker>
+						<p>Es que yo me estoy muriendo. ¡Ay! <stage>(Por la ventana pasan dos Majas con inmensos abanicos. Miran, se santiguan escandalizadas, se tapan los ojos con los pericones y a pasos menuditos cruzan.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>El refresco.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo De La Faja</speaker>
+						<p><stage>(Mirándola.)</stage> ¡Ay!</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo Del Sombrero</speaker>
+						<p><stage>(Mirando al suelo.)</stage> ¡Ay!</p>
+					</sp>
+					<sp who="#mirl">
+						<speaker>Mirlo</speaker>
+						<p><stage>(Mirando al techo.)</stage> ¡Ay! <stage>(La <rs key="#zapa">Zapatera</rs> dirige la cabeza hacia los tres ayes.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Requeteay! Pero esto ¿es una taberna o un hospital? ¡Abusivos! Si no fuera porque tengo que ganarme la vida con estos vinillos y este trapicheo, porque estoy sola desde que se fue por culpa de todos vosotros mi pobrecito marido de mi alma, ¿cómo es posible que yo aguantara esto? ¿Qué me dicen ustedes? Los voy a tener que plantar en lo ancho de la calle.</p>
+					</sp>
+					<sp who="#mirl">
+						<speaker>Mirlo</speaker>
+						<p>Muy bien, muy bien dicho.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo Del Sombrero</speaker>
+						<p>Has puesto taberna y podemos estar aquí dentro todo el tiempo que queramos.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Fiera.)</stage> ¿Cómo? ¿Cómo? <stage>(El <rs key="#mozf">Mozo</rs> de la Faja inicia el mutis y don <rs key="#donm">Mirlo</rs> se levanta sonriente y haciendo como que está en el secreto y que volverá.)</stage></p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo Del Sombrero</speaker>
+						<p>Lo que he dicho.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pues si dices tú, más digo yo y puedes enterarte, y todos los del pueblo, que hace cuatro meses que se fue mi marido y no cederé a nadie jamás, porque una mujer casada debe estarse en su sitio como Dios manda. Y que no me asusto de nadie, ¿lo oyes?, que yo tengo la sangre de mi abuelo, que esté en gloria, que fue desbravador de caballos y lo que se dice un hombre. Decente fui y decente lo seré. Me comprometí con mi marido. Pues hasta la muerte. <stage>(Don <rs key="#donm">Mirlo</rs> sale por la puerta rápidamente y haciendo señas que indican una relación entre él y la <rs key="#zapa">Zapatera</rs>.)</stage></p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo Del Sombrero</speaker>
+						<p><stage>(Levantándose.)</stage> Tengo tanto coraje que agarraría un toro de los cuernos, le haría hincar la cerviz en las arenas y después me comería sus sesos crudos con estos dientes míos, en la seguridad de no hartarme de morder. <stage>(Sale rápidamente y don <rs key="#donm">Mirlo</rs> huye hacia la izquierda.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Con las manos en la cabeza.)</stage> Jesús, Jesús, Jesús y Jesús. <stage>(Se sienta.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>ESCENA II</head>
+					<stage><rs key="#zapa">Zapatera</rs> y Niño.</stage>
+					<stage>Por la puerta entra el Niño, se dirige a la <rs key="#zapa">Zapatera</rs> y le tapa los ojos.</stage>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Quién soy yo?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Mi niño, pastorcillo de Belén.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Ya estoy aquí. <stage>(Se besan.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Vienes por la meriendita?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Si tú me la quieres dar…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Hoy tengo una onza de chocolate.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Sí? A mí me gusta mucho estar en tu casa.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Dándole la onza.)</stage> Porque eres interesadillo…</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Interesadillo? ¿Ves este cardenal que tengo en la rodilla?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿A ver? <stage>(Se sienta en una silla baja y toma al Niño en brazos.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Pues me lo ha hecho el Lunillo porque estaba cantando… las coplas que te han sacado y yo le pegué en la cara, y entonces él me tiró una piedra que, ¡plaff!, mira.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Te duele mucho?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Ahora no, pero he llorado.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>No hagas caso ninguno de lo que dicen.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Es que eran cosas muy indecentes. Cosas indecentes que yo sé decir, ¿sabes? pero que no quiero decir.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Riéndose.)</stage> Porque si las dices cojo un pimiento picante y lo pongo la lengua como un ascua. <stage>(Ríen.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Pero, ¿por qué te echarán a ti la culpa de que tu marido se haya marchado?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Ellos, ellos son los que la tienen y los que me hacen desgraciada.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Triste.)</stage> No digas, Zapaterita.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Yo me miraba en sus ojos. Cuando le veía venir montado en su jaca blanca…</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Interrumpiéndole.)</stage> ¡Ja, ja, ja! Me estás engañando. El señor <rs key="#zapo">Zapatero</rs> no tenía jaca.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Niño, sé más respetuoso. Tenía jaca, claro que la tuvo, pero es… es que tú no habías nacido.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Pasándole la mano por la cara.)</stage> ¡Ah! ¡Eso sería!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Ya ves tú… cuando lo conocí estaba yo lavando en el arroyo del pueblo. Medio metro de agua y las chinas del fondo se veían reír, reír con el temblorcillo. Él venía con un traje, negro entallado, corbata roja de seda buenísima y cuatro anillos de oro que relumbraban como cuatro soles.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Qué bonito!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Me miró y lo miré. Yo me recosté en la hierba. Todavía me parece sentir en la cara aquel aire tan fresquito que venía por los árboles. Él paró su caballo y la cola del caballo era blanca y tan larga que llegaba al agua del arroyo. <stage>(La <rs key="#zapa">Zapatera</rs> está casi llorando. Empieza a oírse un canto lejano.)</stage> Me puse tan azarada que se me fueron dos pañuelos preciosos, así de pequeñitos, en la corriente.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Qué risa!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Él, entonces, me dijo… <stage>(El canto se oye más cerca. Pausa.)</stage> ¡Chisss…!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Se levanta.)</stage> ¡Las coplas!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Las coplas! <stage>(Pausa. Los dos escuchan.)</stage> ¿Tú sabes lo que dicen?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Con la mano.)</stage> Medio, medio.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pues cántalas, que quiero enterarme.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Para qué?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Para que yo sepa de una vez lo que dicen.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Cantando y siguiendo el compás.)</stage> Verás:</p>
+						<p>La señora <rs key="#zapa">Zapatera</rs>,</p>
+						<p>al marcharse su marido,</p>
+						<p>ha montado una taberna</p>
+						<p>donde acude el señorío.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Me la pagarán!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>(El Niño lleva el compás con la mano en la mesa.)</p>
+						<p>Quién lo compra, <rs key="#zapa">Zapatera</rs>,</p>
+						<p>el paño de tus vestidos</p>
+						<p>y esas chambras de batista</p>
+						<p>con encajes de bolillos.</p>
+						<p>Ya la corteja el <rs key="#alca">Alcalde</rs>,</p>
+						<p>ya la corteja don <rs key="#donm">Mirlo</rs>.</p>
+						<p>¡<rs key="#zapa">Zapatera</rs>, <rs key="#zapa">Zapatera</rs>,</p>
+						<p><rs key="#zapa">Zapatera</rs>, te has lucido!</p>
+						<p>(Las voces se van distinguiendo cerca y claras con su acompañamiento de panderos. La <rs key="#zapa">Zapatera</rs> coge un mantoncillo de Manila y se lo echa sobre los hombros.)</p>
+						<p>¿Dónde vas? <stage>(Asustado.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Van a dar lugar a que compre un revólver! <stage>(El canto se aleja. La <rs key="#zapa">Zapatera</rs> corre a la puerta. Pero tropieza con el <rs key="#alca">Alcalde</rs> que viene majestuoso, dando golpes con la vara en el suelo.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿Quién despacha?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡El demonio!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Pero, ¿qué ocurre?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Lo que usted debía saber hace muchos días, lo que usted como alcalde no debía permitir. La gente me canta coplas, los vecinos se ríen en sus puertas y como no tengo marido que vele por mí, salgo yo a defenderme, ya que en este pueblo las autoridades son calabacines, ceros a la izquierda, estafermos.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Muy bien dicho.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>(Enérgico.) Niño, niño, basta de voces… ¿Sabes tú lo que he hecho ahora? Pues meter en la cárcel a dos o tres de los que venían cantando.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Quisiera yo ver eso!</p>
+					</sp>
+					<sp who="#voza">
+						<speaker>VOZ</speaker>
+						<p><stage>(Fuera.)</stage> ¡Niñoooo!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Mi madre me llama! (Corre a la ventana.) ¡Quéee! Adiós. Si quieres te puedo traer el espadón grande de mi abuelo, el que se fue a la guerra. Yo no puedo con él, ¿sabes?, pero tú, sí.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Sonriendo.)</stage> ¡Lo que quieras!</p>
+					</sp>
+					<sp who="#voza">
+						<speaker>Voz</speaker>
+						<p><stage>(Fuera.)</stage> ¡Niñoooo!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Ya en la calle.)</stage> ¿Quéeee?</p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>ESCENA III</head>
+					<stage><rs key="#zapa">Zapatera</rs> y <rs key="#alca">Alcalde</rs>.</stage>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Por lo que veo, este niño sabio y retorcido es la única persona a quien tratas bien en el pueblo.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>No pueden ustedes hablar una sola palabra sin ofender… ¿De qué se ríe su ilustrísima?</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡De verte tan hermosa y desperdiciada!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Antes un perro! <stage>(Le sirve un vaso de vino.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Qué desengaño de mundo! Muchas mujeres he conocido como amapolas, como rosas de olor… mujeres morenas con los ojos como tinta de fuego, mujeres que les huele el pelo a nardos y siempre tienen las manos con calentura, mujeres cuyo talle se puede abarcar con estos dos dedos, pero como tú, como tú no hay nadie. Anteayer estuve enfermo toda la mañana porque vi tendidas en el prado dos camisas tuyas con lazos celestes, que era como verte a ti, <rs key="#zapa">Zapatera</rs> de mi alma.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Estallando furiosa.)</stage> Calle usted, viejísimo, calle usted; con hijas mozuelas y lleno de familia no se debe cortejar de esta manera tan indecente y tan descarada.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Soy viudo.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Y yo casada.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Pero tu marido te ha dejado y no volverá, estoy seguro.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Yo viviré como si lo tuviera.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Pues a mí me consta, porque me lo dijo, que no te quería ni tanto así.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pues a mí me consta que sus cuatro señoras, mal rayo las parta, le aborrecían a muerte.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Dando en el suelo con la vara.)</stage> ¡Ya estamos!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Tirando un vaso.)</stage> ¡Ya estamos! <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Entre dientes.)</stage> Si yo te cogiera por mi cuenta, ¡vaya si te domaba!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Guasona.)</stage> ¿Qué está usted diciendo?</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Nada, pensaba… que si tú fueras como debías ser, te hubiera enterado que tengo voluntad y valentía para hacer escritura, delante del notario, de una casa muy hermosa.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Y qué?</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Con un estrado que costó cinco mil reales, con centros de mesa, con cortinas de brocatel, con espejos de cuerpo entero…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Y qué más?</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Tenoriesco.)</stage> Que la casa tiene una cama con coronación de pájaros y azucenas de cobre, un jardín con seis palmeras y una fuente saltadora, pero aguarda, para estar alegre, que una persona que sé yo se quiera aposentar en sus salas donde estaría… <stage>(Dirigiéndose a la <rs key="#zapa">Zapatera</rs>.)</stage> Mira, ¡estarías como una reina!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Guasona.)</stage> Yo no estoy acostumbrada a esos lujos. Siéntese usted en el estrado, métase usted en la cama, mírese usted en los espejos y póngase con la boca abierta debajo de las palmeras esperando que le caigan los dátiles, que yo de <rs key="#zapa">Zapatera</rs> no me muevo.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Ni yo de alcalde. Pero que te vayas enterando que no por mucho despreciar amanece más temprano. <stage>(Con retintín.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Y que no me gusta usted ni me gusta nadie del pueblo. ¡Que está usted muy viejo!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Indignado.)</stage> Acabaré metiéndote en la cárcel.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Atrévase usted! <stage>(Fuera se oye un toque de trompeta floreado y comiquísimo.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿Qué será eso?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Alegre y ojiabierta.)</stage> ¡Títeres! <stage>(Se golpea las rodillas. Por la ventana cruzan dos Mujeres.)</stage></p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Títeres!</p>
+					</sp>
+					<sp who="#vecm">
+						<speaker>Vecina Morada</speaker>
+						<p>¡Títeres!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(En la ventana.)</stage> ¿Traerán monos? ¡Vamos!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Al <rs key="#alca">Alcalde</rs>.)</stage> ¡Yo voy a cerrar la puerta!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Vienen a tu casa!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Sí? <stage>(Se acerca a la puerta.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Míralos!</p>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>ESCENA IV</head>
+					<stage>Por la puerta aparece el <rs key="#zapo">Zapatero</rs> disfrazado. Trae una trompeta y un cartelón enrollado a la espalda, lo rodea la gente. La <rs key="#zapa">Zapatera</rs> queda en actitud expectante y el Niño salta por la ventana y se coge a sus faldones.</stage>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Buenas tardes.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Buenas tardes tenga usted, señor titiritero.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Aquí se puede descansar?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Y beber, si usted gusta.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>Pase usted, buen hombre y tome lo que quiera, que yo pago. <stage>(A los Vecinos.)</stage> Y vosotros, ¿qué hacéis ahí?</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Como estamos en lo ancho de la calle no creo que le estorbemos. <stage>(El <rs key="#zapo">Zapatero</rs> mirándolo todo con disimulo deja el rollo sobre la mesa.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Déjelos, señor <rs key="#alca">Alcalde</rs>… supongo que es usted, que con ellos me gano la vida.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Dónde he oído yo hablar a este hombre? <stage>(En toda la escena el Niño mirará con gran extrañeza al <rs key="#zapo">Zapatero</rs>.)</stage> ¡Haz ya los títeres! <stage>(Los Vecinos ríen.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>En cuanto tome un vaso de vino.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Alegre.)</stage> ¿Pero los va usted a hacer en mi casa?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Si tú me lo permites.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Entonces, ¿podemos pasar?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Seria.)</stage> Podéis pasar. <stage>(Da un vaso al <rs key="#zapo">Zapatero</rs>.)</stage></p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p><stage>(Sentándose.)</stage> Disfrutaremos un poquito. <stage>(El <rs key="#alca">Alcalde</rs> se sienta.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿Viene usted de muy lejos?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>De muy lejísimos.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿De Sevilla?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Échele usted leguas.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿De Francia?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Échele usted leguas.</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿De Inglaterra?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>De las Islas Filipinas. <stage>(Las <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs> hacen rumores de admiración. La <rs key="#zapa">Zapatera</rs> está extasiada.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¿Habrá usted visto a los insurrectos?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Lo mismo que les estoy viendo a ustedes ahora.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Y cómo son?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Intratables. Figúrense ustedes que casi todos ellos son <rs key="#zapo">Zapatero</rs>s. <stage>(Los Vecinos miran a la <rs key="#zapa">Zapatera</rs>.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Quemada.)</stage> ¿Y no los hay de otros oficios?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Absolutamente. En las Islas Filipinas, <rs key="#zapo">Zapatero</rs>s.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Pues puede que en las Filipinas esos <rs key="#zapo">Zapatero</rs>s sean tontos, que aquí en estas tierras los hay listos y muy listos.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p><stage>(Adulona.)</stage> Muy bien hablado.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Brusca.)</stage> Nadie le ha preguntado su parecer.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Hija mía!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Enérgico, interrumpiendo.)</stage> ¡Qué rico Vino! <stage>(Más fuerte.)</stage> ¡Qué requeterrico vino! <stage>(Silencio.)</stage> Vino de uvas negras como el alma de algunas mujeres que yo conozco.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡De las que la tengan!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Chis! ¿Y en qué consiste el trabajo de usted?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Apura el vaso, chasca la lengua y mira a la <rs key="#zapa">Zapatera</rs>.)</stage> ¡Ah! Es un trabajo de poca apariencia y de mucha ciencia. Enseño la vida por dentro. Aleluyas son los hechos del <rs key="#zapo">Zapatero</rs> mansurrón y la Fierabrás de Alejandría, vida de don Diego Corrientes, aventuras del guapo Francisco Esteban y, sobre todo, arte de colocar el bocado a las mujeres parlanchinas y respondonas.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Todas esas cosas las sabía mi pobrecito esposo!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Dios lo haya perdonado!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Oiga usted… <stage>(Las <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs> se ríen.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Cállate!</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Autoritario.)</stage> ¡A callar! Enseñanzas son esas que convienen a todas las criaturas. Cuando usted guste. <stage>(El <rs key="#zapo">Zapatero</rs> desenrolla el cartelón en el que hay pintada una historia de ciego, dividida en pequeños cuadros, pintados con almazarrón y colores violentos. Los Vecinos inician un movimiento de aproximación y la <rs key="#zapa">Zapatera</rs> se sienta al Niño sobre sus rodillas.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Atención.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Ay, qué precioso! <stage>(Abraza a la <rs key="#zapa">Zapatera</rs>, murmullos.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Que te fijes bien por si acaso no me entero del todo.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Más difícil que la historia sagrada no será.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Respetable público: Oigan ustedes el romance verdadero y sustancioso de la mujer rubicunda y el hombrecito de la paciencia, para que sirva de escarmiento y ejemplaridad a todas las gentes de este mundo. <stage>(En tono lúgubre.)</stage> Aguzad vuestros oídos y entendimiento. <stage>(Los Vecinos alargan la cabeza y algunas Mujeres se agarran de las manos.)</stage></p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿No te parece el titiritero, hablando, a tu marido?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Él tenía la voz más dulce.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Estamos?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Me sube así un repeluzno.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Y a mí también!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>(Señalando con la varilla.)</p>
+						<p>En un cortijo de Córdoba,</p>
+						<p>entre jarales y adelfas,</p>
+						<p>vivía un talabartero</p>
+						<p>con una talabartera. <stage>(Expectación.)</stage></p>
+						<p>Ella era mujer arisca,</p>
+						<p>él hombre de gran paciencia,</p>
+						<p>ella giraba en los veinte</p>
+						<p>y él pasaba de cincuenta.</p>
+						<p>¡Santo Dios, cómo reñían!</p>
+						<p>Miren ustedes la fiera,</p>
+						<p>burlando al débil marido</p>
+						<p>con los ojos y la lengua.</p>
+						<p>(Está pintada en el cartel una mujer que mira de manera infantil y cómica.)</p>
+						<p><rs key="#zapa">Zapatera</rs></p>
+						<p>¡Qué mala mujer! <stage>(Murmullos.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Cabellos de emperadora</p>
+						<p>tiene la talabartera,</p>
+						<p>y una carne como el agua</p>
+						<p>cristalina de Lucena.</p>
+						<p>Cuando movía las faldas</p>
+						<p>en tiempos de primavera</p>
+						<p>olía toda su ropa</p>
+						<p>a limón y a yerbabuena.</p>
+						<p>¡Ay, qué limón, limón</p>
+						<p>de la limonera!</p>
+						<p>¡Qué apetitosa</p>
+						<p>talabartera! <stage>(Los Vecinos ríen.)</stage></p>
+						<p>Ved cómo la cortejaban</p>
+						<p>mocitos de gran presencia</p>
+						<p>en caballos relucientes</p>
+						<p>llenos de borlas de seda.</p>
+						<p>Gente cabal y garbosa</p>
+						<p>que pasaba por la puerta</p>
+						<p>haciendo brillar adrede</p>
+						<p>las onzas de sus cadenas.</p>
+						<p>La conversación a todos</p>
+						<p>daba la talabartera,</p>
+						<p>y ellos caracoleaban</p>
+						<p>sus jacas sobre las piedras.</p>
+						<p>Miradla hablando con uno</p>
+						<p>bien peinada y bien compuesta,</p>
+						<p>mientras el pobre marido</p>
+						<p>clava en el cuero la lezna.</p>
+						<p>(Muy dramático y cruzando las manos.)</p>
+						<p>Esposo viejo y decente</p>
+						<p>casado con joven tierna,</p>
+						<p>qué tunante caballista</p>
+						<p>roba tu amor en la puerta.</p>
+						<p>(La <rs key="#zapa">Zapatera</rs>, que ha estado dando suspiros, rompe a llorar.)</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Volviéndose.)</stage> ¿Qué os pasa?</p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Pero, niña! <stage>(Da con la vara.)</stage></p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Siempre llora quien tiene por qué callar!</p>
+					</sp>
+					<sp who="#vecm">
+						<speaker>Vecina Morada</speaker>
+						<p>¡Siga usted! <stage>(Los Vecinos murmuran y sisean.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Es que me da mucha lástima y no puedo contenerme, ¿lo ve usted?, no puedo contenerme. <stage>(Llora queriéndose contener, hipando de manera comiquísima.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p>¡Chitón!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¿Lo Ves?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Hagan el favor de no interrumpirme! ¡Cómo se conoce que no tienen que decirlo de memoria!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Suspirando.)</stage> ¡Es verdad!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatero</speaker>
+						<p>(Malhumorado.)</p>
+						<p>Un lunes por la mañana</p>
+						<p>a eso de las once y media,</p>
+						<p>cuando el sol deja sin sombra</p>
+						<p>los juncos y madreselvas,</p>
+						<p>cuando alegremente bailan</p>
+						<p>brisa y tomillo en la sierra</p>
+						<p>y van cayendo las verdes</p>
+						<p>hojas de las madroñeras,</p>
+						<p>regaba sus alhelíes</p>
+						<p>la arisca talabartera.</p>
+						<p>Llegó su amigo trotando</p>
+						<p>una jaca cordobesa</p>
+						<p>y le dijo entre suspiros:</p>
+						<p>Niña, si tú lo quisieras,</p>
+						<p>cenaríamos mañana</p>
+						<p>los dos solos, en tu mesa.</p>
+						<p>¿Y qué harás de mi marido?</p>
+						<p>Tu marido no se entera.</p>
+						<p>¿Qué piensas hacer? Matarlo.</p>
+						<p>Es ágil. Quizá no puedas.</p>
+						<p>¿Tienes revólver? ¡Mejor!,</p>
+						<p>¡tengo navaja barbera!</p>
+						<p>¿Corta mucho? Más que el frío.</p>
+						<p>(La <rs key="#zapa">Zapatera</rs> se tapa los ojos y aprieta al Niño. Todos los Vecinos tienen una expectación máxima que se notará en sus expresiones.)</p>
+						<p>Y no time ni una mella.</p>
+						<p>¿No has mentido? Le daré</p>
+						<p>diez puñaladas certeras</p>
+						<p>en esta disposición,</p>
+						<p>que me parece estupenda:</p>
+						<p>cuatro en la región lumbar,</p>
+						<p>una en la tetilla izquierda,</p>
+						<p>otra en semejante sitio</p>
+						<p>y dos en cada cadera.</p>
+						<p>¿Lo matarás en seguida?</p>
+						<p>Esta noche cuando vuelva</p>
+						<p>con el cuero y con las crines</p>
+						<p>por la curva de la acequia.</p>
+						<p>(En este último verso y con toda rapidez se oye fuera del escenario un grito angustiado y fortísimo; los Vecinos se levantan. Otro grito más cerca. Al <rs key="#zapo">Zapatero</rs> se le cae de las manos el cartelón y la varilla. Tiemblan todos cómicamente.)</p>
+					</sp>
+					<sp who="#vecn">
+						<speaker>Vecina negra</speaker>
+						<p><stage>(En la ventana.)</stage> ¡Ya han sacado las navajas!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Ay, Dios mio!</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>¡Virgen Santísima!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Qué escándalo!</p>
+					</sp>
+					<sp who="#vecn">
+						<speaker>Vecina Negra</speaker>
+						<p>¡Se están matando! ¡Se están cosiendo a puñaladas por culpa de esa mujer! <stage>(Señala a la <rs key="#zapa">Zapatera</rs>.)</stage></p>
+					</sp>
+					<sp who="#alca">
+						<speaker>Alcalde</speaker>
+						<p><stage>(Nervioso.)</stage> ¡Vamos a ver!</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Que me da mucho miedo!</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina Verde</speaker>
+						<p>¡Acudir, acudir! <stage>(Van saliendo.)</stage></p>
+					</sp>
+					<sp who="#voza">
+						<speaker>Voz</speaker>
+						<p><stage>(Fuera.)</stage> ¡Por esa mala mujer!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Yo no puedo tolerar esto; ¡no lo puedo tolerar! <stage>(Con las manos en la cabeza corre la escena. Van saliendo rapidísimamente todos entre ayes y miradas de odio a la <rs key="#zapa">Zapatera</rs>. Ésta cierra rápidamente la ventana y la puerta.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>ESCENA V</head>
+					<stage><rs key="#zapa">Zapatera</rs> y <rs key="#zapo">Zapatero</rs>.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Ha visto usted qué infamia? Yo le juro por la preciosísima sangre de nuestro padre Jesús, que soy inocente. ¡Ay! ¿Qué habrá pasado?… Mire, mire usted como tiemblo. <stage>(Le enseña las manos.)</stage> Parece que las manos se me quieren escapar ellas solas.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Calma, muchacha. ¿Es que su marido está en la calle?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Rompiendo a llorar.)</stage> ¿Mi marido? ¡Ay, señor mío!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Qué le pasa?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Mi marido me dejó por culpa de las gentes y ahora me encuentro sola sin calor de nadie.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Pobrecilla!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Con lo que yo lo quería! ¡Lo adoraba!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(En un arranque.)</stage> ¡Eso no es verdad!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Dejando rápidamente de llorar.)</stage> ¿Qué está usted diciendo?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Digo que es una cosa tan… incomprensible que… parece que no es verdad. <stage>(Turbado.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Tiene usted mucha razón, pero yo desde entonces no como, ni duermo, ni vivo; porque él era mi alegría, mi defensa.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Y queriéndolo tanto como lo quería, ¿la abandonó? Por lo que veo su marido de usted era un hombre de pocas luces.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Haga el favor de guardarse la lengua en el bolsillo. Nadie le ha dado permiso para que dé su opinión.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Usted perdone, no he querido…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Digo… ¡cuando era más listo!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Con guasa.)</stage> ¿Siiii?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Enérgica.)</stage> Sí. ¿Ve usted todos esos romances y chupaletrinas que canta y cuenta por los pueblos? Pues todo eso es un ochavo comparado con lo que él sabía… él sabía… ¡el triple!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Serio.)</stage> No puede ser.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Enérgica.)</stage> Y el cuádruple… Me los decía todos a mí cuando nos acostábamos. Historietas antiguas que usted no habrá oído mentar siquiera… <stage>(Gachona.)</stage> y a mí me daba un susto… pero él me decía: «¡Preciosa de mi alma, si esto ocurre de mentirijillas!».</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Indignado.)</stage> ¡Mentira!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Extrañadísima.)</stage> ¿Eh? ¿Se le ha vuelto el juicio?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Mentira!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Indignada.)</stage> Pero ¿qué es lo que está usted diciendo, titiritero del demonio?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Fuerte y de pie.)</stage> Que tenía mucha razón su marido de usted. Esas historietas son pura mentira, fantasía nada más. <stage>(Agrio.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Agria.)</stage> Naturalmente, señor mío. Parece que me toma por tonta de capirote… pero no me negará usted que dichas historietas impresionan.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Ah, eso ya es harina de otro costal! Impresionan a las almas impresionables.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Todo el mundo tiene sentimientos.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Según se mire. He conocido mucha gente sin sentimiento. Y en mi pueblo vivía una mujer… en cierta época, que tenía el suficiente mal corazón para hablar con sus amigos por la ventana mientras el marido hacía botas y zapatos de la mañana a la noche.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Levantándose y cogiendo una silla.)</stage> ¿Eso lo dice por mí?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Cómo?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Que si va con segunda, dígalo! ¡Sea valiente!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Humilde.)</stage> Señorita, ¿qué está usted diciendo? ¿Qué sé yo quién es usted? Yo no la he ofendido en nada; ¿por qué me falta de esa manera? ¡Pero es mi sino! <stage>(Casi lloroso.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Enérgica, pero conmovida.)</stage> Mire usted, buen hombre. Yo he hablado así porque estoy sobre ascuas; todo el mundo me asedia, todo el mundo me critica; ¿cómo quiere que no esté acechando la ocasión más pequeña para defenderme? Si estoy sola, si soy joven y vivo ya sólo de mis recuerdos. <stage>(Llora.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Lloroso.)</stage> Ya comprendo, preciosa joven. Lo comprendo mucho más de lo que pueda imaginarse, porque… ha de saber usted con toda clase de reservas que su situación es… sí, no cabe duda, idéntica a la mía.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Intrigada.)</stage> ¿Es posible?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Se deja caer sobre la mesa.)</stage> A mí… ¡me abandonó mi esposa!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡No pagaba con la muerte!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Ella soñaba con un mundo que no era el mío, era fantasiosa y dominanta, gustaba demasiado de la conversación y las golosinas que yo no podía costearle, y un día tormentoso de viento huracanado me abandonó para siempre.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Y qué hace usted ahora, corriendo mundo?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Voy en su busca para perdonarla y vivir con ella lo poco que me queda de vida. A mi edad ya se está malamente por esas posadas de Dios.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Rápida.)</stage> Tome un poquito de café caliente que después de toda esta tracamandana le servirá de salud. <stage>(Va al mostrador a echar el café y vuelve la espalda al <rs key="#zapo">Zapatero</rs>.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Persignándose exageradamente y abriendo los ojos. )</stage> Dios te lo premie, clavellinita encarnada.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Le ofrece la taza. Se queda con el plato en las manos y él bebe a sorbos.)</stage> ¿Está bueno?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Meloso.)</stage> ¡Como hecho por sus manos!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Sonriente.)</stage> ¡Muchas gracias!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(En el último trago.)</stage> ¡Ay, qué envidia me da su marido!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Por qué?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Galante.)</stage> ¡Porque se pudo casar con la mujer más preciosa de la tierra!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Derretida.)</stage> ¡Qué cosas tiene!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Y ahora casi me alegro de tenerme que marchar, porque usted sola, yo solo, usted tan guapa y yo con mi lengua en su sitio, me parece que se me escaparía cierta insinuación…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Reaccionando.)</stage> Por Dios, ¡quite de ahí! ¿Qué se figura? ¡Yo guardo mi corazón entero para el que está por esos mundos, para quien debo, para mi marido!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Contentísimo y tirando el sombrero al suelo.)</stage> ¡Eso está pero que muy bien! Así son las mujeres verdaderas, ¡así!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Un poco guasona y sorprendida.)</stage> Me parece a mí que usted está un poco… <stage>(Se lleva el dedo a la sien.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Lo que usted quiera. ¡Pero sepa y entienda que yo no estoy enamorado de nadie más que de mi mujer, mi esposa de legítimo matrimonio!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Y yo de mi marido y de nadie más que de mi marido. Cuántas veces lo he dicho para que lo oyeran hasta los sordos. <stage>(Con las manos cruzadas.)</stage> ¡Ay, qué zapaterillo de mi alma!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Aparte.)</stage> ¡Ay, qué zapaterilla de mi corazón! <stage>(Golpes en la puerta.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ESCENA VI</head>
+					<stage><rs key="#zapa">Zapatera</rs>, <rs key="#zapo">Zapatero</rs> y Niño.</stage>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Jesús! Está una en un continuo sobresalto. ¿Quién es?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Abre!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Pero es posible? ¿Cómo has venido?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>¡Ay, vengo corriendo para decírtelo!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Qué ha pasado?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Se han hecho heridas con las navajas dos o tres mozos y te echan a ti la culpa. Heridas que echan mucha sangre. Todas las mujeres han ido a ver al juez para que te vayas del pueblo, ¡ay! Y los hombres querían que el sacristán tocara las campanas para cantar tus coplas… <stage>(El Niño está jadeante y sudoroso.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Al <rs key="#zapo">Zapatero</rs>.)</stage> ¿Lo está usted viendo?</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Toda la plaza está llena de corrillos… parece la feria… ¡y todos contra ti!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Canallas! Intenciones me dan de salir a defenderla.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Para qué? Lo meterían en la cárcel. Yo soy la que va a tener que hacer algo gordo.</p>
+					</sp>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p>Desde la vent	de tu cuarto puedes ver el jaleo de la plaza.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Rápida.)</stage> Vamos, quiero cerciorarme de la maldad de las gentes. <stage>(Mutis rápido.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ESCENA VII</head>
+					<stage><rs key="#zapo">Zapatero</rs>.</stage>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Sí, sí, canallas… pero pronto ajustaré cuentas con todos y me las pagarán… ¡Ay, casilla mía, qué calor más agradable sale por tus puertas y ventanas!; ¡ay, qué terribles paradores, qué malas comidas, qué sábanas de lienzo moreno por esos caminos del mundo! ¡Y qué disparate no sospechar que mi mujer era de oro puro, del mejor oro de la tierra! ¡Casi me dan ganas de llorar!</p>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ESCENA VIII</head>
+					<stage><rs key="#zapo">Zapatero</rs> y <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs>.</stage>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p><stage>(Entrando rápida.)</stage> Buen hombre.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p><stage>(Rápida.)</stage> Buen hombre.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Salga en seguida de esta casa. Usted es persona decente y no debe estar aquí.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>Ésta es la casa de una leona, de una hiena.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>De una mal nacida, desengaño de los hombres.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>Pero o se va del pueblo o la echamos. Nos trae locas.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Muerta la quisiera ver.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>Amortajada, con su ramo en el pecho.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Angustiado.)</stage> ¡Basta!</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Ha corrido la sangre.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>No quedan pañuelos blancos.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Dos hombres como dos soles.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>Con las navajas clavadas.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Fuerte.)</stage> ¡Basta ya!</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Por culpa de ella.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>Ella, ella y ella.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Miramos por usted.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>¡Le avisamos con tiempo!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Grandísimas embusteras, mentirosas, mal nacidas. Os voy a arrastrar del pelo.</p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p><stage>(A la otra.)</stage> ¡También lo ha conquistado!</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>¡A fuerza de besos habrá sido!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Así os lleve el demonio! ¡Basiliscos, perjuras!</p>
+					</sp>
+					<sp who="#vecn">
+						<speaker>Vecina Negra</speaker>
+						<p><stage>(En la ventana.)</stage> ¡Comadre, corra usted! <stage>(Sale corriendo. Las dos <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs> hacen to mismo.)</stage></p>
+					</sp>
+					<sp who="#vecr">
+						<speaker>Vecina Roja</speaker>
+						<p>Otro en el garlito.</p>
+					</sp>
+					<sp who="#veca">
+						<speaker>Vecina Amarilla</speaker>
+						<p>¡Otro!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Sayonas, judías! ¡Os pondré navajillas barberas en los zapatos! Me vais a soñar.</p>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>ESCENA IX</head>
+					<stage><rs key="#zapo">Zapatero</rs>, <rs key="#zapa">Zapatera</rs> y Niño.</stage>
+					<sp who="#elni">
+						<speaker>Niño</speaker>
+						<p><stage>(Entra rápido.)</stage> Ahora entraba un grupo de hombres en casa del <rs key="#alca">Alcalde</rs>. Voy a ver lo que dicen. <stage>(Sale corriendo.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Valiente.)</stage> Pues aquí estoy, si se atreven a venir. Y con serenidad de familia de caballistas, que he cruzado muchas veces la sierra, sin hamugas, a pelo sobre los caballos.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Y no flaqueará algún día su fortaleza?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Nunca se rinde la que, como yo, está sostenida por el amor y la honradez. Soy capaz de seguir así hasta que se me vuelva cana toda mi mata de pelo.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Conmovido y avanzando hacia ella.)</stage> Ay…</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Qué le pasa?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Me emociono.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Mire usted, tengo a todo el pueblo encima, quieren venir a matarme, y sin embargo no tengo ningún miedo. La navaja se contesta con la navaja y el palo con el palo, pero cuando de noche cierro esa puerta y me voy sola a mi cama… me da una pena… ¡qué pena! ¡Y paso unas sofocaciones!… Que cruje la cómoda: ¡un susto! Que suenan con el aguacero los cristales del ventanillo, ¡otro susto! Que yo sola meneo sin querer las perinolas de la cama, ¡susto doble! Y todo esto no es más que el miedo a la soledad donde están los fantasmas, que yo no he visto porque no los he querido ver, pero que vieron mi madre y mi abuela y todas las mujeres de mi familia que han tenido ojos en la cara.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Y por qué no cambia de vida?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Pero usted está en su juicio? ¿Qué voy a hacer? ¿Dónde voy así? Aquí estoy y Dios dirá. <stage>(Fuera y muy lejanos se oyen murmullos y aplausos.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Yo lo siento mucho, pero tengo que emprender mi camino antes que la noche se me eche encima. ¿Cuánto debo? <stage>(Coge el cartelón.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Nada.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>No transijo.</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Lo comido por lo servido.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Muchas gracias. <stage>(Triste se carga el cartelón.)</stage> Entonces, adiós… para toda la vida, porque a mi edad… <stage>(Está conmovido.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p><stage>(Reaccionando.)</stage> Yo no quisiera despedirme así. Yo soy mucho más alegre. <stage>(En voz clara.)</stage> Buen hombre, Dios quiera que encuentre usted a su mujer, para que vuelva a vivir con el cuido y la decencia a que estaba acostumbrado. <stage>(Está conmovida.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Igualmente le digo de su esposo. Pero usted ya sabe que el mundo es reducido, ¿qué quiere que le diga si por casualidad me lo encuentro en mis caminatas?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Dígale usted que lo adoro.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Acercándose.)</stage> ¿Y qué más?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Que a pesar de sus cincuenta y tantos años, benditísimos cincuenta años, me resulta más juncal y torerillo que todos los hombres del mundo.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¡Niña, qué primor! ¡Le quiere usted tanto como yo a mi mujer!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Muchísimo más!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>No es posible. Yo soy como un perrillo y mi mujer manda en el castillo, ¡pero que mande! Tiene más sentimiento que yo. <stage>(Está cerca de ella y como adorándola.)</stage></p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Y no se le olvide decirle que lo espero, que el invierno tiene las noches largas.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>Entonces, ¿lo recibiría usted bien?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>Como si fuera el rey y la reina juntos.</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Temblando.)</stage> ¿Y si por casualidad llegara ahora mismo?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Me volvería loca de alegría!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Le perdonaría su locura?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Cuanto tiempo hace que se la perdoné!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p>¿Quiere usted que llegue ahora mismo?</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Ay, si viniera!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Gritando.)</stage> ¡Pues aquí está!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¿Qué está usted diciendo?</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Quitándose las gafas y el disfraz.)</stage> ¡Que ya no puedo más! ¡<rs key="#zapa">Zapatera</rs> de mi corazón! <stage>(La <rs key="#zapa">Zapatera</rs> está como loca, con los brazos separados del cuerpo. El <rs key="#zapo">Zapatero</rs> abraza a la <rs key="#zapa">Zapatera</rs> y ésta lo mira fijamente en medio de su crisis. Fuera se oye claramente un run-run de coplas.)</stage></p>
+					</sp>
+					<sp who="#voza">
+						<speaker>Voz</speaker>
+						<p>(Dentro.)</p>
+						<p>La señora <rs key="#zapa">Zapatera</rs></p>
+						<p>al marcharse su marido</p>
+						<p>ha montado una taberna</p>
+						<p>donde acude el señorío.</p>
+						<p><rs key="#zapa">Zapatera</rs></p>
+						<p><stage>(Reaccionando.)</stage> Pillo, granuja, tunante, canalla! ¿Lo oyes? ¡Por tu culpa! <stage>(Tira las sillas.)</stage></p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(Emocionado dirigiéndose al banquillo.)</stage> ¡Mujer de mi corazón!</p>
+					</sp>
+					<sp who="#zapa">
+						<speaker>Zapatera</speaker>
+						<p>¡Corremundos! ¡Ay, cómo me alegro de que hayas venido! ¡Qué vida te voy a dar! ¡Ni la Inquisición! ¡Ni los templarios de Roma!</p>
+					</sp>
+					<sp who="#zapo">
+						<speaker>Zapatero</speaker>
+						<p><stage>(En el banquillo.)</stage> ¡Casa de mi felicidad! <stage>(Las coplas se oyen cerquísima, los Vecinos aparecen en la ventana.)</stage></p>
+					</sp>
+					<sp who="#voce">
+						<speaker>VOCES</speaker>
+						<p>(Dentro.)</p>
+						<p>Quién te compra <rs key="#zapa">Zapatera</rs></p>
+						<p>el paño de tus vestidos</p>
+						<p>y esas chambras de batista</p>
+						<p>con encajes de bolillos.</p>
+						<p>Ya la corteja el alcalde,</p>
+						<p>ya la corteja don <rs key="#donm">Mirlo</rs>.</p>
+						<p><rs key="#zapa">Zapatera</rs>, <rs key="#zapa">Zapatera</rs>,</p>
+						<p>¡<rs key="#zapa">Zapatera</rs> te has lucido!</p>
+						<p><rs key="#zapa">Zapatera</rs></p>
+						<p>¡Qué desgraciada soy! ¡Con este hombre que Dios me ha dado! <stage>(Yendo a la puerta.)</stage> ¡Callarse largos de lengua, judíos colorados! Y venid, venid ahora, si queréis. Ya somos dos a defender mi casa, ¡dos! ¡dos! yo y mi marido. <stage>(Dirigiéndose al Marido.)</stage> ¡Con este pillo, con este granuja! <stage>(El ruido de las coplas llena la escena. Una campana rompe a tocar lejana y furiosamente.)</stage></p>
+						<p>TELÓN</p>
+					</sp>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

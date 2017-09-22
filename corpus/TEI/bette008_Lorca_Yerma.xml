@@ -1,0 +1,3119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short">Yerma</title>
+				<title type="full">Yerma. Poema trágico en tres actos y seis cuadros</title>
+				<title type="idno">
+					<idno type="viaf">3988147270463635700008</idno>
+					<idno type="bne">XX1987269</idno>
+				</title>
+				<author>
+					<name type="full">Federico García Lorca</name>
+					<name type="short">Lorca</name>
+					<idno type="viaf">34456883</idno>
+					<idno type="bne">XX841898</idno>
+				</author>
+				<principal xml:id="msp">María Simón</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2016</date>
+				<idno>008</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="first-published">
+					<date>1938</date>
+					<publisher>Losada</publisher>
+					<pubPlace>Buenos Aires</pubPlace>
+				</bibl>
+				<bibl type="electronic-source">
+					<date>2013</date>
+					<publisher>epublibre</publisher>
+					<pubPlace>Unknown</pubPlace>
+					<ref target="https://www.epublibre.org/libro/detalle/6141"></ref>
+				</bibl>
+				<bibl type="print-source">
+					<date>1938</date>
+					<publisher>Losada</publisher>
+					<pubPlace>Buenos Aires</pubPlace>
+				</bibl>
+				<bibl type="first-performance">
+					<date when="1934">29 de diciembre de 1934</date>
+					<pubPlace>Teatro Español de Madrid</pubPlace> 
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Yerma es una tragedia que se desarrolla en un ambiente rural.</p>
+				<p>En el primer acto, Yerma, protagonista de la obra, refleja constantemente sus ganas de tener un hijo. Dicha preocupación le lleva a pedir consejo a Vieja, pensando que la expriencia de esta, le ayudará a resolver su problema.</p>
+				<p>En el acto segundo, se ve que, después de un tiempo, la situacion de Yerma, no ha variado mucho. A esto, se le unen los rumores de la gente del pueblo, al ver a la protagonista, hablando con un hombre, Víctor, que no es su marido.</p>
+				<p>Para finalizar, el tercer acto comienza con la visita de Yerma a Dolores una conjuradora que le asegura tener un remedio que le ayudará a tener hijos. Ademas, de vuelta de una romería, Yerma se encuentra con su marido, el cual ha escuchado una conversación de esta en la que oye el lamento de su mujer por no tener un hijo. Esta situación lleva a los protagonistas a una discusión, en la que Yerma mata a Juan, su marido.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2016-08-01" who="msp">Versión inicital TEI.</change>
+			<change when="2015-07-07" who="msp" status="draft">Pequeños cambios en algunos datos del teiHeader.</change>
+			<change when="2017-05-09" who="jct" status="approved">Errores corregidos.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<castList>
+					<head>Personajes</head>
+					<castItem>
+						<role xml:id="cant">Canto de voces</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="juan">Juan</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="yerm">Yerma</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="mari">María</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="víct">Víctor</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="viej">Vieja</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="much">Muchacha</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="lava">Lavandera</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="cuna">Cuñada</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="dolo">Dolores</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="muje">Mujer</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="coro">Coro de mujeres</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="hemb">Hembra</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="homb">Hombre</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="nin">Niño</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+					<castItem>
+						<role xml:id="mach">Macho</role>
+						<roleDesc></roleDesc>
+						<actor> </actor>
+					</castItem>
+				</castList>
+			</div>
+		</front>
+		<body>					
+			<div type="act" n="1">
+				<head>ACTO PRIMERO</head>	
+				<div type="scene" n="1">
+					<head>Cuadro Primero</head>
+					<stage>(Al levantarse el telón está<rs key="yerm">Yerma</rs> dormida con un tabanque de costura a los pies. La escena tiene una extraña luz de sueño. Un pastor sale de puntillas mirando fijamente a <rs key="yerm">Yerma.</rs> Lleva de la mano a un niño vestido de blanco. Suena el reloj. Cuando sale el pastor, la luz se cambia por una alegre luz de mañana de primavera. <rs key="yerm">Yerma</rs> se despierta.)</stage>
+					<sp who="#cant">
+						<speaker>Canto voz dentro</speaker>
+						<lg>
+							<l>A la nana, nana, nana,</l>
+							<l>a la nanita le haremos</l>
+							<l>una chocita en el campo</l>
+							<l>y en ella nos meteremos.</l>
+						</lg>	
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><rs key="juan">Juan</rs>, ¿me oyes?<rs key="juan">Juan.</rs></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Voy.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Ya es la hora.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¿Pasaron las yuntas?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Ya pasaron.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Hasta luego. 
+							<stage>(Va a salir.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿No tomas un vaso de leche?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¿Para qué?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Trabajas mucho y no tienes tú cuerpo para resistir los trabajos.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Cuando los hombres se quedan enjutos se ponen fuertes como el acero.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Pero tú no. Cuando nos casamos eras otro. Ahora tienes la cara blanca como si no te diera en ella el sol. A mí me gustaría que fueras al río y nadaras y que te subieras al tejado cuando la lluvia cala nuestra vivienda. Veinticuatro meses llevamos casados, y tú cada vez más triste, más enjuto, como si crecieras al revés.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¿Has acabado?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Levantándose.)</stage> No lo tomes a mal. Si yo estuviera enferma me gustaría que tú me cuidases. «Mi mujer está enferma. Voy a matar ese cordero para hacerle un buen guiso de carne.» «Mi mujer está enferma. Voy a guardar esta enjundia de gallina para aliviar su pecho, voy a llevarle esta piel de oveja para guardar sus pies de la nieve.» Así soy yo. Por eso te cuido.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Y yo te lo agradezco.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Pero no te dejas cuidar.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Es que no tengo nada. Todas esas cosas son suposiciones tuyas. Trabajo mucho. Cada año seré más viejo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Cada año… Tú y yo seguiremos aquí cada año…</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(Sonriente.)</stage> Naturalmente. Y bien sosegados. Las cosas de la labor van bien, no tenemos hijos que gasten.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No tenemos hijos… <rs key="juan">¡Juan!</rs></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Dime.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Es que yo no te quiero a ti?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Me quieres.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo conozco muchachas que han temblado y que lloraban antes de entrar en la cama con sus maridos. ¿Lloré yo la primera vez que me acosté contigo? ¿No cantaba al levantar los embozos de Holanda? Y no te dije, ¡cómo huelen a manzanas estas ropas!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¡Eso dijiste!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Mi madre lloró porque no sentí separarme de ella. ¡Y era verdad! Nadie se casó con más alegría. Y, sin embargo…</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Calla. Demasiado trabajo tengo yo con oír en todo momento…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No. No me repitas lo que dicen. Yo veo por mis ojos que eso no puede ser… A fuerza de caer la lluvia sobre las piedras éstas se ablandan y hacen crecer jaramagos, que las gentes dicen que no sirven para nada. «Los jaramagos no sirven para nada», pero yo bien los veo mover sus flores amarillas en el aire.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¡Hay que esperar!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Sí; queriendo. <stage>(<rs key="yerm">Yerma</rs> abraza y besa al marido, tomando ella la iniciativa.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Si necesitas algo me lo dices y lo traeré. Ya sabes que no me gusta que salgas.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Nunca salgo.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Estás mejor aquí.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>La calle es para la gente desocupada.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Sombría)</stage> Claro.</p>
+						<stage>(El marido sale y<rs key="yerm">Yerma</rs> se dirige a la costura, se pasa la mano por el vientre, alza los brazos en un hermoso bostezo y se sienta a coser.)</stage>
+						<lg>
+							<l>¿De dónde vienes, amor, mi niño?</l>
+							<l>De la cresta del duro frío.</l>
+							<l>¿Qué necesitas, amor, mi niño?</l>
+							<l>La tibia tela de tu vestido.</l>
+							<stage>(Enhebra la aguja)</stage>
+							<l>¡Que se agiten las ramas al sol</l>
+							<l>y salten las fuentes alrededor!</l>
+							<stage>(Como si hablara con un niño.)</stage>
+							<l>En el patio ladra el perro,</l>
+							<l>en los árboles canta el viento.</l>
+							<l>Los bueyes mugen al boyero</l>
+							<l>y la luna me riza los cabellos.</l>
+							<l>¿Qué pides, niño, desde tan lejos?</l>
+							<stage>(Pausa.)</stage>
+							<l>Los blancos montes que hay en tu pecho.</l>
+							<l>¡Que se agiten las ramas al sol</l>
+							<l>y salten las fuentes alrededor!</l>
+							<stage>(Cosiendo.)</stage>
+							<l>Te diré, niño mío, que sí.</l>
+							<l>Tronchada y rota soy para ti.</l>
+							<l>¡Cómo me duele esta cintura</l>
+							<l>donde tendrás primera cuna!</l>
+							<l>Cuándo, mi niño, vas a venir.</l>
+							<stage>(Pausa.)</stage>
+							<l>Cuando tu carne huela a jazmín.</l>
+							<l>¡Que se agiten las ramas al sol</l>
+							<l>y salten las fuentes alrededor!</l>
+						</lg>
+						<stage>(<rs key="yerm">Yerma</rs> queda cantando. Por la puerta entra <rs key="mari">María</rs>, que viene con un lío de ropa.)</stage>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿De dónde vienes?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>De la tienda.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿De la tienda tan temprano?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Por mi gusto hubiera esperado en la puerta a que abrieran; y ¿a que no sabes lo que he comprado?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Habrás comprado café para el desayuno, azúcar, los panes.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No. He comprado encajes, tres varas de hilo, cintas y lanas de color para hacer madroños. El dinero lo tenía mi marido y me lo ha dado él mismo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Te vas a hacer una blusa.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No, es porque… ¿sabes?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Porque ¡ya ha llegado!</p>
+						<stage>(Queda con la cabeza baja. <rs key="yerm">Yerma</rs> se levanta y queda mirándola con admiración.)</stage>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡A los cinco meses!</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Te has dado cuenta de ello?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Naturalmente.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con curiosidad.)</stage> ¿Y qué sientes?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No sé. Angustia.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Angustia. <stage>(Agarrada a ella.)</stage> Pero… ¿cuándo llegó?… Dime. Tú estabas descuidada.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Sí, descuidada…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Estarías cantando, ¿verdad? Yo canto. Tú… dime…</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No me preguntes. ¿No has tenido nunca un pájaro vivo apretado en la mano?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Pues, lo mismo…, pero por dentro de la sangre.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Qué hermosura!</p>
+						<stage>(La mira extraviada.)</stage>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Estoy aturdida. No sé nada.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿De qué?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>De lo que tengo que hacer. Le preguntaré a mi madre.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Para qué? Ya está vieja y habrá olvidado estas cosas. No andes mucho y cuando respires respira tan suave como si tuvieras una rosa entre los dientes.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Oye, dicen que más adelante te empuja suavemente con las piernecitas.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Y entonces es cuando se le quiere más, cuando se dice ya: ¡mi hijo!</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>En medio de todo tengo vergüenza.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Qué ha dicho tu marido?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Nada.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Te quiere mucho?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No me lo dice, pero se pone junto a mí y sus ojos tiemblan como dos hojas verdes.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Sabía él que tú…?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y por qué lo sabía?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No sé. Pero la noche que nos casamos me lo decía constantemente con su boca puesta en mi mejilla, tanto que a mí me parece que mi niño es un palomo de lumbre que él me deslizó por la oreja.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Dichosa!</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Pero tú estás más enterada de esto que yo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿De qué me sirve?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>¡Es verdad! ¿Por qué será eso? De todas las novias de tu tiempo tú eres la única…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Es así. Claro que todavía es tiempo. Elena tardó tres años y otras antiguas del tiempo de mi madre mucho más, pero dos años y veinte días, como yo, es demasiada espera. Pienso que no es justo que yo me consuma así. Muchas noches salgo descalza al patio para pisar la tierra, no sé por qué. Si sigo así, acabaré volviéndome mala.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Pero ven acá, criatura; hablas como si fueras una vieja. ¡Qué digo! Nadie puede quejarse de estas cosas. Una hermana de mi madre lo tuvo a los catorce años, ¡y si vieras qué hermosura de niño!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con ansiedad.)</stage> ¿Qué hacía?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Lloraba como un torito, con la fuerza de mil cigarras cantando a la vez y nos orinaba y nos tiraba de las trenzas, y cuando tuvo cuatro meses nos llenaba la cara de arañazos.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Riendo.)</stage> Pero esas cosas no duelen.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Te diré…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Bah! Yo he visto a mi hermana dar de mamar a su niño con el pecho lleno de grietas y le producía un gran dolor, pero era un dolor fresco, bueno, necesario para la salud.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Dicen que con los hijos se sufre mucho.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Mentira. Eso lo dicen las madres débiles, las quejumbrosas. ¿Para qué los tienen? Tener un hijo no es tener un ramo de rosas. Hemos de sufrir para verlos crecer. Yo pienso que se nos va la mitad de nuestra sangre. Pero esto es bueno, sano, hermoso. Cada mujer tiene sangre para cuatro o cinco hijos y cuando no los tiene se le vuelve veneno, como me va a pasar a mí.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No sé lo que tengo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Siempre oí decir que las primerizas tienen susto.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p><stage>(Tímida.)</stage> Veremos… Como tú coses tan bien…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Cogiendo el lío.)</stage> Trae. Te cortaré dos trajecitos. ¿Y esto?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Son los pañales.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Bien.</p>
+						<stage>(Se sienta.)</stage>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Entonces… Hasta luego.</p>
+						<stage>(Se acerca y <rs key="yerm">Yerma</rs> le coge amorosamente el vientre con las manos.)</stage>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No corras por las piedras de la calle.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Adiós. <stage>(La besa y sale.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Vuelve pronto.<stage> (<rs key="yerm">Yerma</rs> queda en la misma actitud que al principio. Coge las tijeras y empieza a cortar. Sale <rs key="víct">Víctor</rs>.)</stage> Adiós, <rs key="víct">Víctor</rs>.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p><stage>(Es profundo y lleva firme gravedad.)</stage> ¿Y <rs key="juan">Juan</rs>?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>En el campo.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>¿Qué coses?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Corto unos pañales.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p><stage>(Sonriente.)</stage> ¡Vamos!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Ríe.)</stage> Los voy a rodear de encajes.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Si es niña le pondrás tu nombre.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Temblando.)</stage> ¿Cómo?…</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Me alegro por ti.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Casi ahogada.)</stage> No…, no son para mí. Son para el hijo de María.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Bueno, pues a ver si con el ejemplo te animas. En esta casa hace falta un niño.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con angustia.)</stage> ¡Hace falta!</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Pues adelante. Dile a tu marido que piense menos en el trabajo. Quiere juntar dinero y lo juntará, pero ¿a quién lo va a dejar cuando se muera? Yo me voy con las ovejas. Dile a <rs key="juan">Juan</rs> que recoja las dos que me compró, y en cuanto a lo otro, ¡que ahonde! <stage>(Se va sonriente.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con pasión.)</stage> ¡Eso! ¡Que ahonde!</p>
+						<lg>
+							<l>Te diré, niño mío, que sí,</l>
+							<l>tronchada y rota soy para ti.</l>
+							<l>¡Cómo me duele esta cintura,</l>
+							<l>donde tendrás primera cuna!</l>
+							<l>¿Cuándo, mi niño, vas a venir?</l>
+							<l>¡Cuando tu carne huela a jazmín!</l>
+						</lg>
+						<stage>(<rs key="yerm">Yerma</rs>, que en actitud pensativa se levanta y acude al sitio donde ha estado <rs key="víct">Víctor</rs> y respira fuertemente, como si aspirara aire de montaña, después va al otro lado de la habitación como buscando algo y de allí vuelve a sentarse y coge otra vez la costura. Comienza a coser y queda con los ojos fijos en un punto.)</stage>
+					</sp>
+					<p>Telón</p>
+				</div>				
+				<div type="scene" n="2">
+					<head>Cuadro Segundo</head>
+					<stage>(Campo. Sale <rs key="yerm">Yerma</rs>, Trae una cesta. Sale la <rs key="viej">Vieja 1ª</rs>.)</stage>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Buenos días.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Buenos los tenga la hermosa muchacha. ¿Dónde vas?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Vengo de llevar la comida a mi esposo, que trabaja en los olivos.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿Llevas mucho tiempo de casada?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Tres años.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿Tienes hijos?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¡Bah! ¡Ya tendrás!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con ansias.)</stage> ¿Usted lo cree?</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿Por qué no? <stage>(Se sienta.)</stage> También yo vengo de traer la comida a mi esposo. Es viejo. Todavía trabaja. Tengo nueve hijos como nueve soles, pero como ninguno es hembra, aquí me tienes a mí de un lado para otro.</p>					
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Usted vive al otro lado del río.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Sí. En los molinos. ¿De qué familia eres tú?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo soy hija de Enrique el pastor.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¡Ah! Enrique el Pastor. Lo conocí. Buena gente. Levantarse. Sudar, comer unos panes y morirse. Ni más juego, ni más nada. Las ferias para otros. Criaturas de silencio. Pude haberme casado con un tío tuyo. Pero ¡ca! Yo he sido una mujer de faldas en el aire, he ido flechada a la tajada de melón, a la fiesta, a la torta de azúcar. Muchas veces me he asomado de madrugada a la puerta creyendo oír música de bandurrias que iba, que venía, pero era el aire. <stage>(Ríe.)</stage> Te vas a reír de mí. He tenido dos maridos, catorce hijos, cinco murieron y, sin embargo, no estoy triste, y quisiera vivir mucho más. Es lo que digo yo. Las higueras, ¡cuánto duran! Las casas, ¡cuánto duran!, y sólo nosotras, las endemoniadas mujeres, nos hacemos polvo por cualquier cosa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo quisiera hacerle una pregunta.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿A ver? <stage>(La mira.)</stage> Ya sé lo que me vas a decir. De estas cosas no se puede decir palabra. <stage>(Se levanta.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Deteniéndola.)</stage> ¿Por qué no? Me ha dado confianza el oírla hablar. Hace tiempo estoy deseando tener conversación con mujer vieja. Porque yo quiero enterarme. Sí. Usted me dirá…</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Bajando la voz.)</stage> Lo que usted sabe. ¿Por qué estoy yo seca? ¿Me he de quedar en plena vida para cuidar aves o poner cortinitas planchadas en mi ventanillo? No. Usted me ha de decir lo que tengo que hacer, que yo haré lo que sea, aunque me mande clavarme agujas en el sitio más débil de mis ojos.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿Yo? Yo no sé nada. Yo me he puesto boca arriba y he comenzado a cantar. Los hijos llegan como el agua. ¡Ay! ¿Quién puede decir que este cuerpo que tienes no es hermoso? Pisas, y al fondo de la calle relincha el caballo. ¡Ay! Déjame, muchacha, no me hagas hablar. Pienso muchas ideas que no quiero decir.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Por qué? ¡Con mi marido no hablo de otra cosa!</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Oye. ¿A ti te gusta tu marido?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Cómo?</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Que si lo quieres. Si deseas estar con él…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No sé.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿No tiemblas cuando se acerca a ti? ¿No te da así como un sueño cuando acerca sus labios? Dime.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No. No lo he sentido nunca.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¿Nunca? ¿Ni cuando has bailado?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Recordando.)</stage> Quizá… Una vez… <rs key="víct">Víctor</rs>…</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Sigue.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Me cogió de la cintura y no pude decirle nada porque no podía hablar. Otra vez el mismo <rs key="víct">Víctor</rs>, teniendo yo catorce años (él era un zagalón), me cogió en sus brazos para saltar una acequia y me entró un temblor que me sonaron los dientes. Pero es que yo he sido vergonzosa.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Y con tu marido…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Mi marido es otra cosa. Me lo dio mi padre y yo lo acepté. Con alegría. Ésta es la pura verdad. Pues el primer día que me puse de novia con él ya pensé… en los hijos… Y me miraba en sus ojos. Sí, pero era para verme muy chica, muy manejable, como si yo misma fuera hija mía.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Todo lo contrario que yo. Quizá por eso no hayas parido a tiempo. Los hombres tienen que gustar, muchacha. Han de deshacernos las trenzas y darnos de beber agua en su misma boca. Así corre el mundo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>El tuyo, que el mío no. Yo pienso muchas cosas, muchas, y estoy segura que las cosas que pienso las ha de realizar mi hijo. Yo me entregué a mi marido por él, y me sigo entregando para ver si llega, pero nunca por divertirme.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¡Y resulta que estás vacía!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No, vacía no, porque me estoy llenando de odio. Dime: ¿tengo yo la culpa? ¿Es preciso buscar en el hombre al hombre nada más? Entonces, ¿qué vas a pensar cuando te deja en la cama con los ojos tristes mirando al techo y da media vuelta y se duerme? ¿He de quedarme pensando en él o en lo que puede salir relumbrando de mi pecho? Yo no sé, ¡pero dímelo tú, por caridad! <stage>(Se arrodilla.)</stage></p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¡Ay, qué flor abierta! Qué criatura tan hermosa eres. Déjame. No me hagas hablar más. No quiero hablarte más. Son asuntos de honra y yo no quemo la honra de nadie. Tú sabrás. De todos modos debías ser menos inocente.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Triste.)</stage> Las muchachas que se crían en el campo como yo, tienen cerradas todas las puertas. Todo se vuelve medias palabras, gestos, porque todas estas cosas dicen que no se pueden saber. Y tú también, tú también lo callas y te vas con aire de doctora, sabiéndolo todo, pero negándolo a la que se muere de sed.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>A otra mujer serena yo le hablaría. A ti no. Soy vieja, y sé lo que digo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Entonces, que Dios me ampare.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Dios, no. A mí no me ha gustado nunca Dios. ¿Cuándo os vais a dar cuenta de que no existe? Son los hombres los que te tienen que amparar.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Pero ¿por qué me dices eso, por qué?</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p><stage>(Yéndose.)</stage> Aunque debía haber Dios, aunque fuera pequeñito, para que mandara rayos contra los hombres de simiente podrida que encharcan la alegría de los campos.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No sé lo que me quieres decir.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Bueno, yo me entiendo. No pases tristeza. Espera en firme. Eres muy joven todavía. ¿Qué quieres que haga yo? <stage>(Se va. Aparecen dos muchachas.)</stage></p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>Por todas partes nos vamos encontrando gente.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Con las faenas, los hombres están en los olivos, hay que traerles de comer. No quedan en las casas más que los ancianos.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>¿Tú regresas al pueblo?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Hacia allá voy.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>Yo llevo mucha prisa. Me dejé al niño dormido y no hay nadie en casa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Pues aligera, mujer. Los niños no se pueden dejar solos. ¿Hay cerdos en tu casa?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>No. Pero tienes razón. Voy de prisa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Anda. Así pasan las cosas. Seguramente lo has dejado encerrado.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>Es natural.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Sí, pero es que no os dais cuenta lo que es un niño pequeño. La causa que nos parece más inofensiva puede acabar con él. Una agujita, un sorbo de agua.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>Tienes razón. Voy corriendo. Es que no me doy bien cuenta de las cosas.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Anda.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Si tuvieras cuatro o cinco no hablarías así.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Por qué? Aunque tuviera cuarenta.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>De todos modos, tú y yo, con no tenerlos, vivimos más tranquilas.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo, no.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Yo, sí ¿Qué afán! En cambio, mi madre no hace más que darme yerbajos para que los tenga, y en octubre iremos al Santo que dicen que los da a la que lo pide con ansia. Mi madre pedirá. Yo, no.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Por qué te has casado?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Porque me han casado. Se casan todas. Si seguimos así no va a haber solteras más que las niñas. Bueno, y además…, una se casa en realidad mucho antes de ir a la iglesia. Pero las viejas se empeñan en todas estas cosas. Yo tengo diecinueve años y no me gusta guisar, ni lavar. Bueno, pues todo el día he de estar haciendo lo que no me gusta. ¿Y para qué? ¿Qué necesidad tiene mi marido de ser mi marido? Porque lo mismo hacíamos de novios que ahora. Tonterías de los viejos.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Calla, no digas esas cosas.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>También tú me dirás loca, ¡la loca, la loca! <stage>(Ríe.)</stage> Yo te puedo decir lo único que he aprendido en la vida: toda la gente está metida dentro de sus casas haciendo lo que no les gusta. Cuánto mejor se está en medio de la calle. Ya voy al arroyo, ya subo a tocar las campanas, ya me tomo un refresco de anís.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Eres una niña.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Claro, pero no estoy loca. <stage>(Ríe.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Tu madre vive en la parte más alta del pueblo?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿En la última casa?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Cómo se llama?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p><rs key="dolo">Dolores</rs>. ¿Por qué preguntas?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Por nada.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>¿Por algo preguntarás?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No sé…, es un decir…</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Allá tú… Mira, me voy a dar la comida a mi marido. <stage>(Ríe.)</stage> Es lo que hay que ver. Qué lástima no poder decir mi novio, ¿verdad? <stage>(Ríe.)</stage> ¡Ya se va la loca! <stage>(Se va riendo alegremente.)</stage> ¡Adiós!</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<stage>(Cantando.)</stage>
+						<lg>
+							<l>¿Por qué duermes solo, pastor?</l>
+							<l>¿Por qué duermes solo, pastor?</l>
+							<l>En mi colcha de lana</l>
+							<l>dormirías mejor.</l>
+							<l>¿Por qué duermes solo, pastor?</l>
+						</lg>
+					</sp>
+					<sp who="#yerm">	
+						<speaker>Yerma</speaker>
+						<stage>(Escuchando.)</stage>
+						<lg>
+							<l>¿Por qué duermes solo, pastor?</l>
+							<l>En mi colcha de lana</l>
+							<l>dormirías mejor.</l>
+							<l>Tu colcha de oscura piedra,</l>
+							<l>pastor,</l>
+							<l>y tu camisa de escarcha,</l>
+							<l>pastor,</l>
+							<l>juncos grises del invierno</l>
+							<l>en la noche de tu cama.</l>
+							<l>Los robles ponen agujas,</l>
+							<l>pastor,</l>
+							<l>debajo de tu almohada,</l>
+							<l>pastor,</l>
+							<l>y si oyes voz de mujer</l>
+							<l>es la rota voz del agua.</l>
+							<l>Pastor, pastor.</l>
+							<l>¿Qué quiere el monte de ti pastor?</l>
+							<l>Monte de hierbas amargas,</l>
+							<l>¿qué niño te está matando?</l>
+							<l>¡La espina de la retama!</l>
+						</lg>
+						<stage>(Va a salir y se tropieza con <rs key="víct">Víctor</rs> que entra.)</stage>
+					</sp>
+					<sp who="#víct">	
+						<speaker>Víctor</speaker>
+						<p><stage>(Alegre.)</stage> ¿Dónde va lo hermoso?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Cantabas tú?</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Yo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Qué bien! Nunca te había sentido.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>¿No?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Y qué voz tan pujante. Parece un chorro de agua que te llena toda la boca.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Soy alegre.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Es verdad.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Como tú triste.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No soy triste, es que tengo motivos para estarlo.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Y tu marido más triste que tú.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Él, sí. Tiene un carácter seco.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Siempre fue igual. <stage>(Pausa. <rs key="yerm">Yerma</rs> está sentada.)</stage> ¿Viniste a traer la comida?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Sí. <stage>(Lo mira. Pausa.)</stage> ¿Qué tienes aquí? <stage>(Señala la cara.)</stage></p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>¿Dónde?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Se levanta y se acerca a <rs key="víct">Víctor</rs>.)</stage> Aquí…, en la mejilla; como una quemadura.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>No es nada.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Me ha parecido. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Debe ser el sol…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Quizá… <stage>(Pausa. El silencio se acentúa y sin el menor gesto, comienza una lucha entre los dos personajes.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Temblando.)</stage> ¿Oyes?</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿No sientes llorar?</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p><stage>(Escuchando.)</stage> No.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Me había parecido que lloraba un niño.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>¿Sí?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Muy cerca. Y lloraba como ahogado.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Por aquí hay siempre muchos niños que vienen a robar fruta.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No. Es la voz de un niño pequeño. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>No oigo nada.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Serán ilusiones mías. <stage>(Lo mira fijamente y <rs key="víct">Víctor</rs> la mira también y desvía la mirada lentamente como con miedo. Sale <rs key="juan">Juan</rs>.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¡Qué haces todavía aquí!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Hablaba.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Salud. <stage>(Sale.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Debías estar en casa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Me entretuve.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No comprendo en qué te has entretenido.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Oí cantar los pájaros.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Está bien. Así darás que hablar a las gentes.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Fuerte.)</stage> <rs key="juan">Juan</rs>, ¿qué piensas?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No lo digo por ti, lo digo por las gentes.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Puñalada que le den a las gentes!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No maldigas. Está feo en una mujer.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Ojalá fuera yo una mujer,</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Vamos a dejarnos de conversación. Vete a la casa. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Está bien. ¿Te espero?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No. Estaré toda la noche regando. Viene poca agua, es mía hasta la salida del sol y tengo que defenderla de los ladrones. Te acuestas y te duermes.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Dramática.)</stage> ¡Me dormiré! <stage>(Sale.)</stage></p>
+					</sp>
+					<p>Telón</p>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>ACTO SEGUNDO</head>
+				<div  type="scene" n="1">
+					<head>Cuadro Primero</head>
+					<stage>(Canto a telón corrido. Torrente donde lavan las mujeres del pueblo. Las lavanderas están situadas en varios pianos.)</stage>
+					<stage>CANTAN:</stage>
+					<lg>
+						<l>En el arroyo frío</l>
+						<l>lavo tu cinta,</l>
+						<l>como un jazmín caliente</l>
+						<l>tienes la risa.</l>
+					</lg>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>A mí no me gusta hablar.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>Pero aquí se habla.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Y no hay mal en ello.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>La que quiera honra que la gane.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<lg>
+							<l>Yo planté un tomillo,</l>
+							<l>yo lo vi crecer.</l>
+							<l>El que quiera honra,</l>
+							<l>que se porte bien.</l>
+						</lg>
+						<stage>(Ríen.)</stage>	
+					</sp>
+					<sp who="#lava">	
+						<speaker>Lavandera 5ª</speaker>
+						<p>Así se habla.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Pero es que nunca se sabe nada.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Lo cierto es que el marido se ha llevado a vivir con ellos a sus dos hermanas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>¿Las solteras?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Sí. Estaban encargadas de cuidar la iglesia y ahora cuidan de su cuñada. Yo no podría vivir con ellas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>¿Por qué?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Porque dan miedo. Son como esas hojas grandes que nacen de pronto sobre los sepulcros. Están untadas con cera. Son metidas hacia dentro. Se me figura que guisan su comida con el aceite de las lámparas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>¿Y están ya en la casa?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Desde ayer. El marido sale otra vez a sus tierras.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Pero ¿se puede saber lo que ha ocurrido?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>Anteanoche, ella la pasó sentada en el tranco, a pesar del frío.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Pero ¿por qué?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Le cuesta trabajo estar en su casa.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>Estas machorras son así: cuando podían estar haciendo encajes o confituras de manzanas, les gusta subirse al tejado y andar descalzas por esos ríos.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>¿Quién eres tú para decir estas cosas? Ella no tiene hijos, pero no es por culpa suya.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Tiene hijos la que quiere tenerlos. Es que las regalonas, las flojas, las endulzadas no son a propósito para llevar el vientre arrugado. <stage>(Ríen.)</stage></p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>Y se echan polvos de blancura y colorete y se prenden ramos de adelfa en busca de otro que no es su marido.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>¡No hay otra verdad!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Pero ¿vosotras la habéis visto con otro?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Nosotras no, pero las gentes sí.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>¡Siempre las gentes!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>Dicen que en dos ocasiones.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>¿Y qué hacían?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Hablaban.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Hablar no es pecado.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Hay una cosa en el mundo que es la mirada. Mi madre lo decía. No es lo mismo una mujer mirando unas rosas que una mujer mirando los muslos de un hombre. Ella lo mira.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Pero ¿a quién?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>A uno, ¿lo oyes? Entérate tú, ¿quieres que lo diga más alto? <stage>(Risas.)</stage> Y cuando no lo mira, porque está sola, porque no lo tiene delante, lo lleva retratado en los ojos.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>¡Eso es mentira! <stage>(Algazara.)</stage></p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>¿Y el marido?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>El marido está como sordo. Parado, como un lagarto puesto al sol. <stage>(Ríen.)</stage></p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Todo se arreglaría si tuvieran criaturas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>Todo esto son cuestiones de gente que no tiene conformidad con su sino.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Cada hora que transcurre aumenta el infierno en aquella casa. Ella y las cuñadas, sin despegar los labios, blanquean todo el día las paredes, friegan los cobres, limpian con vaho los cristales, dan aceite a la solería, pues cuanto más relumbra la vivienda más arde por dentro.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Él tiene la culpa; ¡él! Cuando un padre no da hijos debe cuidar de su mujer.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>La culpa es de ella que tiene por lengua un pedernal.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>¿Qué demonio se te ha metido entre los cabellos para que hables así?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>¿Y quién ha dado licencia a tu boca para que me des consejos?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>¡Callar!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Con una aguja de hacer calceta, ensartaría yo las lenguas murmuradoras.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>¡Calla!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Y yo la tapa del pecho de las fingidas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>Silencio. ¿No ves que por ahí vienen las cuñadas?</p>	
+						<stage>(Murmullos. Entran las dos cuñadas de <rs key="yerm">Yerma</rs>. Van vestidas de luto. Se ponen a lavar en medio de un silencio. Se oyen esquilas.)</stage>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>¿Se van ya los zagales?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>Sí, ahora salen todos los rebaños.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Me gusta el olor de las ovejas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>¿Sí?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>¿Y por qué no? Olor de lo que una tiene. Como me gusta el olor del fango rojo que trae el río por el invierno.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>Caprichos.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p><stage>(Mirando.)</stage> Van juntos todos los rebaños.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Es una inundación de lana. Arramblan con todo. Si los trigos verdes tuvieran cabeza, temblarían de verlos venir.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>¡Mire cómo corren!, ¡qué manada de enemigos!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Ya salieron todos, no falta uno.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>A ver…, no… Sí, sí, falta uno.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>¿Cuál …?</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>El de <rs key="víct">Víctor</rs>.</p>
+						<stage>(Las dos cuñadas se yerguen y miran.)</stage>
+						<lg>
+							<l>En el arroyo frío lavo tu cinta.</l>
+							<l>Como un jazmín caliente tienes la risa.</l>
+							<l>Quiero vivir en la nevada chica</l>
+							<l>de ese jazmín.</l>
+						</lg>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<lg>
+							<l>¡Ay de la casada seca!</l>
+							<l>¡Ay de la que tiene los pechos de arena!</l>
+						</lg>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<lg>
+							<l>Dime si tu marido</l>
+							<l>guarda semilla</l>
+							<l>para que el agua cante</l>
+							<l>por tu camisa.</l>
+						</lg>	
+					</sp>
+					<sp who="#lava">	
+						<speaker>Lavandera 4ª</speaker>
+						<lg>
+							<l>Es tu camisa</l>
+							<l>nave de plata y viento</l>
+							<l>por las orillas.</l>
+						</lg>
+					</sp>
+					<sp who="#lava">	
+						<speaker>Lavandera 1ª</speaker>
+						<lg>
+							<l>Las ropas de mi niño</l>
+							<l>vengo a lavar</l>
+							<l>para que tome el agua</l>
+							<l>lecciones de cristal.</l>
+						</lg>	
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<lg>
+							<l>Por el monte ya llega</l>
+							<l>mi marido a comer.</l>
+							<l>Él me trae una rosa</l>
+							<l>y yo le doy tres.</l>
+						</lg>	
+					</sp>
+					<sp who="#lava">		
+						<speaker>Lavandera 5ª</speaker>
+						<lg>
+							<l>Por el llano ya vino</l>
+							<l>mi marido a cenar.</l>
+							<l>Las brisas que me entrega</l>
+							<l>cubro con arrayán.</l>
+						</lg>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<lg>
+							<l>Por el aire ya viene</l>
+							<l>mi marido a dormir.</l>
+							<l>Yo, alhelíes rojos</l>
+							<l>y él, rojo alhelí.</l>
+						</lg>
+					</sp>
+					<sp who="#lava">	
+						<speaker>Lavandera 1ª</speaker>
+						<lg>
+							<l>Hay que juntar flor con flor</l>
+							<l>cuando el verano seca la sangre al segador.</l>
+						</lg>	
+					</sp>		
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<lg>
+							<l>Y abrir el vientre a pájaros sin sueño</l>
+							<l>cuando a la puerta llama temblando</l>
+							<l>el invierno.</l>
+						</lg>
+					</sp>
+					<sp who="#lava">	
+						<speaker>Lavandera 1ª</speaker>
+						<p>Hay que gemir en la sábana.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>¡Y hay que cantar!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<lg>
+							<l>Cuando el hombre nos trae</l>
+							<l>la corona y el pan.</l>
+						</lg>
+					</sp>	
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Porque los brazos se enlazan.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>Porque la luz se nos quiebra en la garganta.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Porque se endulza el tallo de las ramas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Y las tiendas del viento cubren a las montañas.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 6ª</speaker>
+						<stage>(Apareciendo en lo alto del torrente.)</stage>
+						<lg>
+							<l>Para que un niño funda</l>
+							<l>yertos vidrios del alba.</l>
+						</lg>
+					</sp>	
+					<sp who="#lava">	
+						<speaker>Lavandera 1ª</speaker>
+						<p>Y nuestro cuerpo tiene ramas furiosas de coral.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 6ª</speaker>
+						<p>Para que haya remeros en las aguas del mar.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Un niño pequeño, un niño.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>Y las palomas abren las alas y el pico.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>Un niño que gime, un hijo.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 4ª</speaker>
+						<p>Y los hombres avanzan como ciervos heridos.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>¡Alegría, alegría, alegría, del vientre redondo, bajo la camisa!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>¡Alegría, alegría, alegría, ombligo, cáliz tierno de maravilla!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<lg>
+							<l>¡Pero, ay de la casada seca!</l>
+							<l>¡Ay de la que tiene los pechos de arena!</l>
+						</lg>
+					</sp>	
+					<sp who="#lava">
+						<speaker>Lavandera 3ª</speaker>
+						<p>¡Que relumbre!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>¡Que coma!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 5ª</speaker>
+						<p>¡Que vuelva a relumbrar!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>¡Que cante!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<p>¡Que se esconda!</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 1ª</speaker>
+						<p>Y que vuelva a cantar.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 6ª</speaker>
+						<p>La aurora que mi niño lleva en el delantal.</p>
+					</sp>
+					<sp who="#lava">
+						<speaker>Lavandera 2ª</speaker>
+						<stage>(Cantan todas a coro.)</stage>
+						<lg>
+							<l>En el arroyo frío lavo tu cinta.</l>
+							<l>Como un jazmín caliente tienes la risa.</l>
+							<l>¡Ja, ja, ja!</l>
+						</lg>
+						<stage>(Mueven los paños con ritmo y los golpean.)</stage>
+					</sp>
+					<p>Telón</p>
+				</div>
+				<div type="scene" n="2">
+					<head>Cuadro Segundo</head>
+					<stage>(Casa de <rs key="yerm">Yerma</rs>. Atardece. <rs key="juan">Juan</rs> está sentado. Las dos cuñadas de pie.)</stage>
+					<sp who="#juan">	
+						<speaker>Juan</speaker>
+						<p>¿Dices que salió hace poco? <stage>(La hermana mayor contesta con la cabeza.)</stage> Debe de estar en la fuente. Pero ya sabéis que no me gusta que salga sola. <stage>(Pausa.)</stage> Puedes poner la mesa. <stage>(Sale la hermana menor.)</stage> Bien ganado tengo el pan que como. <stage>(A su hermana.)</stage> Ayer pasé un día duro. Estuve podando los manzanos y a la caída de la tarde me puse a pensar para qué pondría yo tanta ilusión en la faena si no puedo llevarme una manzana a la boca. Estoy harto. <stage>(Se pasa la mano por la cara. Pausa.)</stage> Ésa no viene… Una de vosotras debía salir con ella, porque para eso estáis aquí comiendo en mi mantel y bebiendo mi vino. Mi vida está en el campo, pero mi honra está aquí. Y mi honra es también la vuestra. <stage>(La hermana inclina la cabeza.)</stage> No lo tomes a mal. <stage>(Entra <rs key="yerm">YERMA</rs> con dos cántaros. Queda parada en la puerta.)</stage> ¿Vienes de la fuente?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Para tener agua fresca en la comida. <stage>(Sale la otra hermana.)</stage> ¿Cómo están las tierras?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Ayer estuve podando los árboles. <stage>(<rs key="yerm">Yerma</rs> deja los cántaros. Pausa.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Te quedarás?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>He de cuidar el ganado. Tú sabes que esto es cosa del dueño.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Lo sé muy bien. No lo repitas.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Cada hombre tiene su vida.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Y cada mujer la suya. No te pido yo que te quedes. Aquí tengo todo lo que necesito. Tus hermanas me guardan bien. Pan tierno y requesón y cordero asado como yo aquí, y pasto lleno de rocío tus ganados en el monte. Creo que puedes vivir en paz.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Para vivir en paz se necesita estar tranquilo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y tú no estás?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No lo estoy.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Desvía la intención.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¿Es que no conoces mi modo de ser? Las ovejas en el redil y las mujeres en su casa. Tú sales demasiado. ¿No me has oído decir esto siempre?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Justo. Las mujeres dentro de sus casas. Cuando las casas no son tumbas. Cuando las sillas se rompen y las sábanas de hilo se gastan con el uso. Pero aquí no. Cada noche, cuando me acuesto, encuentro mi cama más nueva, más reluciente, como si estuviera recién traída de la ciudad.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Tú misma reconoces que llevo razón al quejarme. ¡Que tengo motivos para estar alerta!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Alerta ¿de qué? En nada te ofendo. Vivo sumisa a ti, y lo que sufro lo guardo pegado a mis carnes. Y cada día que pase será peor. Vamos a callarnos. Yo sabré llevar mi cruz como mejor pueda, pero no me preguntes nada. Si pudiera de pronto volverme vieja y tuviera la boca como una flor machacada, te podría sonreír y conllevar la vida contigo. Ahora, ahora déjame con mis clavos.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Hablas de una manera que yo no te entiendo. No te privo de nada. Mando a los pueblos vecinos por las cosas que te gustan. Yo tengo mis defectos, pero quiero tener paz y sosiego contigo. Quiero dormir fuera y pensar que tú duermes también.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Pero yo no duermo, yo no puedo dormir.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¿Es que te falta algo? Dime. ¡Contesta!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con intención y mirando fijamente al marido.)</stage> Sí, me falta. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Siempre lo mismo. Hace ya más de cinco años. Yo casi lo estoy olvidando.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Pero yo no soy tú. Los hombres tienen otra vida, los ganados, los árboles, las conversaciones; las mujeres no tenemos más que ésta de la cría y el cuidado de la cría.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Todo el mundo no es igual. ¿Por qué no te traes un hijo de tu hermano? Yo no me opongo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No quiero cuidar hijos de otros. Me figuro que se me van a helar los brazos de tenerlos.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Con ese achaque vives alocada, sin pensar en lo que debías, y te empeñas en meter la cabeza por una roca.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Roca que es una infamia que sea roca, porque debía ser un canasto de flores y agua dulce.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Estando a tu lado no se siente más que inquietud, desasosiego. En último caso, debes resignarte.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo he venido a estas cuatro paredes para no resignarme. Cuando tenga la cabeza atada con un pañuelo para que no se me abra la boca, y las manos bien amarradas dentro del ataúd, en esa hora me habré resignado.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Entonces, ¿qué quieres hacer?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Quiero beber agua y no hay vaso ni agua, quiero subir al monte y no tengo pies, quiero bordar mis enaguas y no encuentro los hilos.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Lo que pasa es que no eres una mujer verdadera y buscas la ruina de un hombre sin voluntad.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo no sé quién soy. Déjame andar y desahogarme. En nada te he faltado.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No me gusta que la gente me señale. Por eso quiero ver cerrada esa puerta y cada persona en su casa. <stage>(Sale la hermana primera lentamente y se acerca a una alacena.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Hablar con la gente no es pecado.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Pero puede parecerlo. <stage>(Sale la otra hermana y se dirige a los cántaros en los cuales llena una jarra.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(Bajando la voz.)</stage> Yo no tengo fuerzas para estas cosas. Cuando te den conversación cierra la boca y piensa que eres una mujer casada.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con asombro.)</stage> ¡Casada!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Y que las familias tienen honra y la honra es una carga que se lleva entre dos. <stage>(Sale la hermana con la jarra, lentamente.)</stage> Pero que está oscura y débil en los mismos caños de la sangre. <stage>(Sale la otra hermana con una fuente de modo casi procesional. Pausa.)</stage> Perdóname. <stage>(<rs key="yerm">Yerma</rs> mira a su marido, éste levanta la cabeza y se tropieza con la mirada.)</stage> Aunque me miras de un modo que no debía decirte: perdóname, sino obligarte, encerrarte, porque para eso soy el marido. <stage>(Aparecen las dos hermanas en la puerta.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Te ruego que no hables. Deja quieta la cuestión. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Vamos a comer. <stage>(Entran las hermanas.)</stage> ¿Me has oído?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Dulce.)</stage> Come tú con tus hermanas. Yo no tengo hambre todavía.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Lo que quieras. <stage>(Entra.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<stage>(Como soñando.)</stage>
+						<lg>
+							<l>¡Ay, qué prado de pena!</l>
+							<l>¡Ay, qué puerta cerrada a la hermosura!,</l>
+							<l>que pido un hijo que sufrir,</l>
+							<l>y el aire me ofrece dalias de dormida luna.</l>
+							<l>Estos dos manantiales que yo tengo</l>
+							<l>de leche tibia,</l>
+							<l>son en la espesura de mi carne,</l>
+							<l>dos pulsos de caballo,</l>
+							<l>que hacen latir la rama de mi angustia.</l>
+							<l>¡Ay, pechos ciegos bajo mi vestido!</l>
+							<l>¡Ay, palomas sin ojos ni blancura!</l>
+							<l>¡Ay, qué dolor de sangre prisionera</l>
+							<l>me está clavando avispas en la nuca!</l>
+							<l>Pero tú has de venir, amor, mi niño,</l>
+							<l>porque el agua da sal, la tierra fruta,</l>
+							<l>y nuestro vientre guarda tiernos hijos</l>
+							<l>como la nube lleva dulce lluvia.</l>
+						</lg>
+						<p><stage>(Mira hacia la puerta.)</stage><rs key="mari">¡María!</rs> ¿Por qué pasas tan de prisa por mi puerta?</p>
+					</sp>
+					<sp who="#mari">	
+						<speaker>María</speaker>
+						<p>(Entra con un niño en brazos.) Cuando voy con el niño lo hago…, ¡como siempre lloras!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Tienes razón. <stage>(Coge al niño y se sienta.)</stage></p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Me da tristeza que tengas envidia.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No es envidia lo que tengo; es pobreza.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No te quejes.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Cómo no me voy a quejar cuando te veo a ti y a otras mujeres llenas por dentro de flores, y viéndome yo inútil en medio de tanta hermosura!</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Pero tienes otras cosas. Si me oyeras podrías ser feliz.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>La mujer de campo que no da hijos es inútil como un manojo de espinos, y hasta mala, a pesar de que yo sea de este desecho dejado de la mano de Dios. <stage>(<rs key="mari">María</rs> hace un gesto para tomar al niño.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Tómalo, contigo está más a gusto. Yo no debo tener manos de madre.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>¿Por qué me dices eso?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Se levanta.)</stage> Porque estoy harta. Porque estoy harta de tenerlas y no poderlas usar en cosa propia. Que estoy ofendida, ofendida y rebajada hasta lo último, viendo que los trigos apuntan, que las fuentes no cesan de dar agua y que paren las ovejas cientos de corderos, y las perras, y que parece que todo el campo puesto de pie me enseña sus crías tiernas, adormiladas, mientras yo siento dos golpes de martillo aquí, en lugar de la boca de mi niño</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No me gusta lo que dices</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Las mujeres cuando tenéis hijos no podéis pensar en las que no los tenemos. Os quedáis frescas, ignorantes, como el que nada en agua dulce y no tiene idea de la sed.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>No te quiero decir lo que te digo siempre.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Cada vez tengo más deseos y menos esperanzas.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Mala cosa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Acabaré creyendo que yo misma soy mi hijo. Muchas veces bajo yo a echar la comida a los bueyes, que antes no lo hacía, porque ninguna mujer lo hace, y cuando paso por lo oscuro del cobertizo mis pasos me suenan a pasos de hombre.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Cada criatura tiene su razón.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>A pesar de todo sigue queriéndome. ¡Ya ves cómo vivo!</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>¿Y tus cuñadas?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Muerta me vea y sin mortaja, si alguna vez les dirijo la conversación.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>¿Y tu marido?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Son tres contra mí.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>¿Qué piensan?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Figuraciones. De gente que no tiene la conciencia tranquila. Creen que me puede gustar otro hombre y no saben que aunque me gustara, lo primero de mi casta es la honradez. Son piedras delante de mí. Pero ellos no saben que yo, si quiero, puedo ser agua de arroyo que las lleve. <stage>(Una hermana entra y sale llevando un pan.)</stage></p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>De todas maneras, creo que tu marido te sigue queriendo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Mi marido me da pan y casa.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>¡Qué trabajos estás pasando, qué trabajos! Pero acuérdate de las llagas de Nuestro Señor. <stage>(Están en la puerta.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Mirando al niño.)</stage> Ya ha despertado.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Dentro de poco empezará a cantar…</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Los mismos ojos que tú, ¿lo sabías? ¿Los has visto?<stage>(Llorando.)</stage> ¡Tiene los mismos ojos que tienes tú! <stage>(<rs key="yerm">Yerma</rs> empuja suavemente a <rs key="mari">María</rs> y ésta sale silenciosa. <rs key="yerm">Yerma</rs> se dirige a la puerta por donde entró su marido.)</stage></p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Chiss.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Volviéndose.)</stage> ¿Qué?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Esperé a que saliera. Mi madre te está aguardando.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Está sola?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Con dos vecinas.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Dile que espere un poco.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>¿Pero vas a ir? ¿No te da miedo?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Voy a ir.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>¡Allá tú!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Que me esperen aunque sea tarde! <stage>(Entra <rs key="víct">Víctor</rs>.)</stage></p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>¿Está <rs key="juan">Juan</rs>?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p><stage>(Cómplice.)</stage> Entonces, luego, yo traeré la blusa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Cuando quieras. <stage>(Sale la <rs key="much">Muchacha</rs>.)</stage> Siéntate.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Estoy bien así.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Llamando.)¡</stage><rs key="juan">Juan</rs>!</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Vengo a despedirme. <stage>(Se estremece ligeramente, pero vuelve a su serenidad.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Te vas con tus hermanos?</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Así lo quiere mi padre.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Ya debe estar viejo.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Sí. Muy viejo. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Haces bien de cambiar de campos.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Todos los campos son iguales.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No. Yo me iría muy lejos.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Es todo lo mismo. Las mismas ovejas tienen la misma lana.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Para los hombres, sí; pero las mujeres somos otra cosa. Nunca oí decir a un hombre comiendo: qué buenas son estas manzanas. Vais a lo vuestro sin reparar en las delicadezas. De mí sé decir que he aborrecido el agua de estos pozos.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Puede ser. <stage>(La escena está en una suave penumbra.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><rs key="víct">Víctor</rs>.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Dime.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Por qué te vas? Aquí las gentes lo quieren.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Yo me porté bien. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Te portaste bien. Siendo zagalón me llevaste una vez en brazos, ¿no recuerdas? Nunca se sabe lo que va a pasar.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Todo cambia.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Algunas cosas no cambian. Hay cosas encerradas detrás de los muros que no pueden cambiar porque nadie las oye.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Así es.</p>
+						<stage>(Aparece la hermana segunda y se dirige lentamente hacia la puerta, donde queda fija, iluminada por la última luz de la tarde.)</stage>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Pero que si salieran de pronto y gritaran, llenarían el mundo.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>No se adelantaría nada. La acequia por su sitio, el rebaño en el redil, la luna en el cielo y el hombre con su arado.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Qué pena más grande no poder sentir las enseñanzas de los viejos! ¡Se oye el sonido largo y melancólico de las caracolas de los pastores!</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Los rebaños.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(Sale.)</stage> ¿Vas ya de camino?</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Y quiero pasar el puerto antes del amanecer.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¿Llevas alguna queja de mí?</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>No. Fuiste buen pagador.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(A <rs key="yerm">Yerma</rs>.)</stage> Le compré los rebaños.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Sí?</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p><stage>(A <rs key="yerm">Yerma</rs>.)</stage> Tuyos son.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No lo sabía.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(Satisfecho.)</stage> Así es.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Tu marido ha de ver su hacienda colmada.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>El fruto viene a las manos del trabajador que lo busca.</p>
+						<stage>(La hermana que está en la puerta entra dentro.)</stage>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Ya no tenemos sitio donde meter tantas ovejas.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Sombría.)</stage> La tierra es grande. <stage>(Pausa.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Iremos juntos hasta el arroyo.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Deseo la mayor felicidad para esta casa. <stage>(Le da la mano a <rs key="yerm">Yerma</rs>.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Dios lo oiga! ¡Salud!</p>
+						<stage>(<rs key="víct">Víctor</rs> le da salida y, a un movimiento imperceptible de <rs key="yerm">Yerma</rs>, se vuelve.)</stage>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>¿Decías algo?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Dramática.)</stage> Salud, dije.</p>
+					</sp>
+					<sp who="#víct">
+						<speaker>Víctor</speaker>
+						<p>Gracias.</p>
+						<stage>(Salen. <rs key="yerm">Yerma</rs> queda angustiada mirándose la mano que ha dado a <rs key="víct">Víctor</rs>. <rs key="yerm">Yerma</rs> se dirige rápidamente hacia la izquierda y toma un mantón.)</stage>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 2ª</speaker>
+						<p>Vamos. (En silencio, tapándole la cabeza.)</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Vamos.<stage>(Salen sigilosamente.)</stage></p>
+						<stage>(La escena está casi a oscuras. Sale la hermana primera con un velón que no debe dar al teatro luz ninguna sino la natural que lleva. Se dirige al fin de la escena, buscando a <rs key="yerm">Yerma</rs>. Suenan las caracolas de los rebaños.)</stage>
+					</sp>
+					<sp who="#cuna">
+						<speaker>Cuñada 1ª</speaker>
+						<p><stage>(En voz baja.)</stage> ¡<rs key="yerm">Yerma</rs>!</p>
+					</sp>
+					<stage>(Sale la hermana segunda. Se miran las dos y se dirigen hacia la puerta.)</stage>
+					<sp who="#cuna">
+						<speaker>Cuñada 2ª</speaker>
+						<p><stage>(Más alto.)</stage> ¡<rs key="yerm">Yerma</rs>!</p>
+					</sp>
+					<sp who="#cuna">
+						<speaker>Cuñada 1ª</speaker>
+						<p><stage>(Dirigiéndose a la puerta y con una imperiosa voz.)</stage>¡<rs key="yerm">Yerma</rs>!</p>
+					</sp>
+					<stage>(Se oyen las caracolas y los cuernos de los pastores. La escena está oscurísima.)</stage>
+					<p>Telón</p>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>ACTO TERCERO</head>
+				<div type="scene" n="1">
+					<head>Cuadro Primero</head>
+					<stage>(Casa de la <rs key="dolo">Doleres</rs> la conjuradora. Está amaneciendo. Entra <rs key="yerm">Yerma</rs> con <rs key="dolo">Dolores</rs> y dos viejas.)</stage>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Has estado valiente.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>No hay en el mundo fuerza como la del deseo.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 2ª</speaker>
+						<p>Pero el cementerio estaba demasiado oscuro.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Muchas veces yo he hecho estas oraciones en el cementerio con mujeres que ansiaban críos y todas han pasado miedo. Todas menos tú.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo he venido por el resultado. Creo que no eres mujer engañadora.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>No soy. Que mi lengua se llene de hormigas, como está la boca de los muertos, si alguna vez he mentido. La última vez hice la oración con una mujer mendicante que estaba seca más tiempo que tú, y se le endulzó el vientre de manera tan hermosa que tuvo dos criaturas ahí abajo en el río, porque no le daba tiempo de llegar a las casas, y ella misma las trajo en un pañal para que yo las arreglase.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y pudo venir andando desde el río?</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Vino. Con los zapatos y las enaguas empapados de sangre… pero con la cara reluciente.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y no le pasó nada?</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¿Qué le iba a pasar? Dios es Dios.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Naturalmente. Dios es Dios. No le podía pasar nada. Sino agarrar las criaturas y lavarlas con agua viva. Los animales los lamen, ¿verdad? A mí no me da asco de mi hijo. Yo tengo la idea de que las recién paridas están como iluminadas por dentro y los niños se duermen horas y horas sobre ellas, oyendo ese arroyo de leche tibia que les va llenando los pechos para que ellos mamen, para que ellos jueguen hasta que no quieran más, hasta que retiren la cabeza: «otro poquito más, niño…» y se les llene la cara y el pecho de gotas blancas.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Ahora tendrás un hijo. Te lo puedo asegurar.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Lo tendré porque lo tengo que tener. O no entiendo el mundo. A veces, cuando ya estoy segura de que jamás, jamás…, me sube como una oleada de fuego por los pies y se me quedan vacías todas las cosas, y los hombres que andan por la calle y los toros y las piedras me parecen como cosas de algodón. Y me pregunto: ¿para qué estarán ahí puestos?</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Está bien que una casada quiera hijos, pero si no los tiene, ¿por qué esa ansia de ellos? Lo importante de este mundo es dejarse llevar por los años. No te critico. Ya has visto cómo he ayudado a los rezos. Pero, ¿qué vega esperas dar a tu hijo ni qué felicidad, ni qué silla de plata?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo no pienso en el mañana, pienso en el hoy. Tú estás vieja y lo ves ya todo como un libro leído. Yo pienso que tengo sed y no tengo libertad. Yo quiero tener a mi hijo en los brazos para dormir tranquila, y óyelo bien y no te espantes de lo que digo: aunque yo supiera que mi hijo me iba a martirizar después y me iba a odiar y me iba a llevar de los cabellos por las calles, recibiría con gozo su nacimiento, porque es mucho mejor llorar por un hombre vivo que nos apuñala, que llorar por este fantasma sentado año tras año encima de mi corazón.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Eres demasiado joven para oír consejo. Pero mientras esperas la gracia de Dios debes ampararte en el amor de tu marido.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Ay! Has puesto el dedo en la llaga más honda que tienen mis carnes.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Tu marido es bueno.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Se levanta.)</stage> ¡Es bueno! ¡Es bueno! ¿Y qué? Ojalá fuera malo. Pero no. Él va con sus ovejas por sus caminos y cuenta el dinero por las noches. Cuando me cubre cumple con su deber, pero yo le noto la cintura fría como si tuviera el cuerpo muerto y yo, que siempre he tenido asco de las mujeres calientes, quisiera ser en aquel instante como una montaña de fuego.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¡<rs key="yerm">Yerma</rs>!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No soy una casada indecente; pero yo sé que los hijos nacen del hombre y de la mujer. ¡Ay, si los pudiera tener yo sola!</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Piensa que tu marido también sufre.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No sufre. Lo que pasa es que él no ansía hijos.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>¡No digas eso!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Se lo conozco en la mirada, y como no los ansía no me los da. No lo quiero, no lo quiero y, sin embargo, es mi única salvación. Por honra y por casta. Mi única salvación.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p><stage>(Con miedo.)</stage> Pronto empezará a amanecer. Debes ir a tu casa.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Antes de nada saldrán los rebaños y no conviene que te vean sola.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Necesitaba este desahogo. ¿Cuántas veces repito las oraciones?</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>La oración del laurel dos veces, y al mediodía la oración de Santa Ana. Cuando te sientas encinta me traes la fanega de trigo que me has prometido.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>Por encima de los montes ya empieza a clarear. Vete.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Como en seguida empezarán a abrir los portones, te vas dando un rodeo por la acequia.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con desaliento.)</stage> ¡No sé por qué he venido!</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¿Te arrepientes?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡No!</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p><stage>(Turbada.)</stage> Si tienes miedo te acompañaré hasta la esquina.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p><stage>(Con inquietud.)</stage> Van a ser las claras del día cuando llegues a tu puerta. <stage>(Se oyen voces.)</stage></p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¡Calla! <stage>(Escuchan.)</stage></p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja 1ª</speaker>
+						<p>No es nadie. Anda con Dios. <stage>(<rs key="yerm">Yerma</rs> se dirige a la puerta y en este momento llaman a ella. Las tres mujeres quedan paradas.)</stage></p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¿Quién es?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Soy yo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Abre. <stage>(<rs key="dolo">Dolores</rs> duda.)</stage> ¿Abres o no? <stage>(Se oyen murmullos. Aparece <rs key="juan">Juan</rs> con las dos cuñadas.)</stage></p>
+					</sp>
+					<sp who="#cuna">
+						<speaker>Cuñada 2ª</speaker>
+						<p>Aquí está.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Aquí estoy.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¿Qué haces en este sitio? Si pudiera dar voces levantaría a todo el pueblo para que viera dónde iba la honra de mi casa; pero he de ahogarlo todo y callarme porque eres mi mujer.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Si pudiera dar voces también las daría yo para que se levantaran hasta los muertos y vieran esta limpieza que me cubre.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¡No, eso no! Todo lo aguanto menos eso. Me engañas, me envuelves y como soy un hombre que trabaja la tierra no tengo ideas para tus astucias.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¡<rs key="juan">Juan</rs>!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¡Vosotras, ni palabra!</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p><stage>(Fuerte.)</stage> Tu mujer no ha hecho nada malo.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Lo está haciendo desde el mismo día de la boda. Mirándome con dos agujas, pasando las noches en vela con los ojos abiertos al lado mío y llenando de malos suspiros mis almohadas.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Cállate!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Y yo no puedo más. Porque se necesita ser de bronce para ver a tu lado una mujer que te quiere meter los dedos dentro del corazón y que se sale de noche fuera de su casa, ¿en busca de qué? ¡Dime!, ¿buscando qué? Las calles están llenas de machos. En las calles no hay flores que cortar.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No te dejo hablar ni una sola palabra… Ni una más. Te figuras tú y tu gente que sois vosotros los únicos que guardáis honra, y no sabes que mi casta no ha tenido nunca nada que ocultar. Anda. Acércate a mí y huele mis vestidos: ¡acércate! A ver dónde encuentras un olor que no sea tuyo, que no sea de tu cuerpo. Me pones desnuda en mitad de la plaza y me escupes. Haz conmigo lo que quieras, que soy tu mujer, pero guárdate de poner nombre de varón sobre mis pechos.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No soy yo quien lo pone, lo pones tú con tu conducta y el pueblo lo empieza a decir. Lo empieza a decir claramente. Cuando llego a un corro, todos callan; cuando voy a pesar la harina, todos callan y hasta de noche, en el campo, cuando despierto me parece que también se callan las ramas de los árboles.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo no sé por qué empiezan los malos aires que revuelcan al trigo; ¡y mira tú si el trigo es bueno!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Ni yo sé lo que busca una mujer a todas horas fuera de su tejado.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(En un arranque y abrazándose a su marido.)</stage> Te busco a ti. Te busco a ti, es a ti a quien busco día y noche sin encontrar sombra donde respirar. Es tu sangre y tu amparo lo que deseo.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Apártate.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No me apartes y quiere conmigo.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¡Quita!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Mira que me quedo sola. Como si la luna se buscara ella misma por el cielo. ¡Mírame! <stage>(Lo mira.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(La mira y la aparta bruscamente.)</stage> ¡Déjame ya de una vez!</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¡<rs key="juan">Juan</rs>! <stage>(<rs key="yerm">Yerma</rs> cae al suelo.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Alto.)</stage> Cuando salía por mis claveles me tropecé con el muro. ¡Ay! ¡Ay! Es en ese muro donde tengo que estrellar mi cabeza.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Calla. Vamos.</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¡Dios mío!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(A gritos.)</stage> Maldito sea mi padre que me dejó su sangre de padre de cien hijos. Maldita sea mi sangre que los busca golpeando por las paredes.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>¡Calla he dicho!</p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>¡Viene gente! Habla bajo.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No me importa. Dejarme libre siquiera la voz, ahora que voy entrando en lo más oscuro del pozo. <stage>(Se levanta.)</stage> Dejar que de mi cuerpo salga siquiera esta cosa hermosa y que llene el aire. <stage>(Se oyen votes.)</stage></p>
+					</sp>
+					<sp who="#dolo">
+						<speaker>Dolores</speaker>
+						<p>Van a pasar por aquí.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Silencio.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Eso! ¡Eso! Silencio. Descuida.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Vamos. ¡Pronto!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Ya está! ¡Ya está! ¡Y es inútil que me retuerza las manos! Una cosa es querer con la cabeza…</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Calla.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Bajo.)</stage> Una cosa es querer con la cabeza y otra cosa es que el cuerpo, ¡maldito sea el cuerpo!, no nos responda. Está escrito y no me voy a poner a luchar a brazo partido con los mares. ¡Ya está! ¡Que mi boca se quede muda! <stage>(Sale.)</stage></p>
+					</sp>
+					<p>Telón rápido</p>
+				</div>
+				<div type="scene" n="2">
+					<head>Cuadro Segundo</head>
+					<stage>(Alrededores de una ermita, en plena montaña. En primer término, unas ruedas de carro y unas mantas formando una tienda rústica donde está <rs key="yerm">Yerma</rs>. Entran las mujeres con ofrendas a la ermita. Vienen descalzas. En escena está la vieja alegre del primer acto.) (Canto a telón corrido.)</stage>
+					<lg>
+						<l>No te pude ver cuando eras soltera,</l>
+						<l>mas de casada te encontraré.</l>
+						<l>Te desnudaré casada y romera,</l>
+						<l>cuando en lo oscuro las doce den.</l>
+					</lg>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p><stage>(Con sorna.)</stage> ¿Habéis bebido ya el agua santa?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer 1ª</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>Y ahora a ver a ése.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer 1ª</speaker>
+						<p>Creemos en él.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>Venís a pedir hijos al Santo y resulta que cada año vienen más hombres solos a esta romería; ¿qué es lo que pasa? <stage>(Ríe.)</stage></p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer 1ª</speaker>
+						<p>¿A qué vienes aquí si no crees?</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>A ver. Yo me vuelvo loca por ver. Y a cuidar de mi hija. El año pasado se mataron dos por una casada seca y quiero vigilar. Y en último caso, vengo porque me da la gana.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer 1ª</speaker>
+						<p>¡Que Dios te perdone! <stage>(Entran.)</stage></p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p><stage>(Con sarcasmo.)</stage> Que te perdone a ti. <stage>(Se va. Entra <rs key="mari">María</rs> con la <rs key="much">Muchacha 1ª</rs>)</stage></p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>¿Y ha venido?</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Ahí tienes el carro. Me costó mucho que vinieran. Ella ha estado un mes sin levantarse de la silla. Le tengo miedo. Tiene una idea que no sé cuál es, pero desde luego es una idea mala.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>Yo llegué con mi hermana. Lleva ocho años viniendo sin resultado.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Tiene hijos la que los tiene que tener.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>Es lo que yo digo. <stage>(Se oyen voces.)</stage></p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Nunca me gustó esta romería. Vamos a las eras, que es donde está la gente.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>El año pasado, cuando se hizo oscuro, unos mozos atenazaron con sus manos los pechos de mi hermana.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>En cuatro leguas a la redonda no se oyen más que palabras terribles.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha 1ª</speaker>
+						<p>Más de cuarenta toneles de vino he visto en las espaldas de la ermita.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Un río de hombres solos baja esas sierras. <stage>(Salen. Se oyen voces. Entra <rs key="yerm">Yerma</rs> con seis mujeres que van a la iglesia. Van descalzas y llevan cirios rizados. Empieza el anochecer.)</stage></p>					
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Señor, que florezca la rosa, no me la dejéis en sombra.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer 2ª</speaker>
+						<p>Sobre su carne marchita florezca la rosa amarilla.</p>
+					</sp>
+					<sp who="#mari">
+						<speaker>María</speaker>
+						<p>Y en el vientre de tus siervas la llama oscura de la tierra.</p>
+					</sp>
+					<sp who="#coro">
+						<speaker>Coro De Mujeres</speaker>
+						<p>Señor, que florezca la rosa, no me la dejéis en sombra. <stage>(Se arrodillan.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<lg>
+							<l>El cielo tiene jardines con rosales de alegría,</l>
+							<l>entre rosal y rosal la rosa de maravilla.</l>
+							<l>Rayo de aurora parece,</l>
+							<l>y un arcángel la vigila,</l>
+							<l>las alas como tormentas,</l>
+							<l>los ojos como agonías.</l>
+							<l>Alrededor de sus hojas</l>
+							<l>arroyos de leche tibia juegan</l>
+							<l>y mojan la cara</l>
+							<l>de las estrellas tranquilas.</l>
+							<l>Señor, abre tu rosal</l>
+							<l>sobre mi carne marchita. <stage>(Se levantan.)</stage></l>
+						</lg>
+					</sp>	
+					<sp who="#muje">	
+						<speaker>Mujer 2ª</speaker>
+						<lg>
+							<l>Señor, calma con tu mano</l>
+							<l>las ascuas de su mejilla.</l>
+						</lg>
+					</sp>	
+					<sp who="#yerm">	
+						<speaker>Yerma</speaker>
+						<lg>
+							<l>Escucha a la penitente</l>
+							<l>de tu santa romería.</l>
+							<l>Abre tu rosa en mi carne</l>
+							<l>aunque tenga mil espinas.</l>
+						</lg>
+					</sp>	
+					<sp who="#coro">
+						<speaker>Coro</speaker>
+						<lg>
+							<l>Señor, que florezca la rosa,</l>
+							<l>no me la dejéis en sombra.</l>
+						</lg>
+					</sp>	
+					<sp who="#yerm">	
+						<speaker>Yerma</speaker>
+						<lg>
+							<l>Sobre mi carne marchita</l>
+							<l>la rosa de maravilla.</l>
+						</lg>
+						<stage>(Entran.)</stage>
+						<stage>(Salen muchachas corriendo, con largas cintas en las manos, por la izquierda. Por la derecha, otras tres mirando hacia atrás. Hay en la escena como un crescendo de voces y de ruidos de cascabeles y colleras de campanilleros. En un plano superior aparecen las siete muchachas que agitan las cintas hacia la izquierda. Crece el ruido y entran dos máscaras populares. Una como macho y otra como hembra. Llevan grandes caretas. El macho empuña un cuerno de toro en la mano. No son grotescas de ningún modo, sino de gran belleza y con un sentido de pura tierra. La hembra agita un collar de grandes cascabeles. El fondo se llena de gente que grita y comenta la danza. Está muy anochecido.)</stage>
+					</sp>
+					<sp who="#nin">	
+						<speaker>Niño</speaker>
+						<p>¡El demonio y su mujer! ¡El demonio y su mujer!</p>
+					</sp>		
+					<sp who="#hemb">
+						<speaker>Hembra</speaker>
+						<lg>
+							<l>En el río de la sierra</l>
+							<l>la esposa triste se bañaba.</l>
+							<l>Por el cuerpo le subían</l>
+							<l>los caracoles del agua.</l>
+							<l>La arena de las orillas</l>
+							<l>y el aire de la mañana</l>
+							<l>le daban fuego a su risa</l>
+							<l>y temblor a sus espaldas.</l>
+							<l>¡Ay, qué desnuda estaba</l>
+							<l>la doncella en el agua!</l>
+						</lg>
+					</sp>	
+					<sp who="#nin">	
+						<speaker>Niño</speaker>
+						<p>¡Ay, cómo se quejaba!</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Honmbre 1°</speaker>
+						<lg>
+							<l>¡Ay, marchita de amores</l>
+							<l>con el viento y el agua!</l>
+						</lg>
+					</sp>	
+					<sp who="#homb">	
+						<speaker>Hombre 2°</speaker>
+						<p>¡Que diga a quién espera!</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Hombre 1°</speaker>
+						<p>¡Que diga a quién aguarda!</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Hombre 2°</speaker>
+						<p>¡Ay, con el vientre seco y la color quebrada!</p>
+					</sp>
+					<sp who="#hemb">
+						<speaker>Hembra</speaker>
+						<lg>
+							<l>Cuando llegue la noche lo diré,</l>
+							<l>cuando llegue la noche clara.</l>
+							<l>Cuando llegue la noche de la romería</l>
+							<l>rasgaré los volantes de mi enagua.</l>
+						</lg>
+					</sp>	
+					<sp who="#nin">		
+						<speaker>Niño</speaker>
+						<lg>
+							<l>Y en seguida vino la noche.</l>
+							<l>¡Ay, que la noche llegaba!</l>
+							<l>Mirad qué oscuro se pone</l>
+							<l>el chorro de la montaña.</l>
+						</lg>
+						<stage>(Empiezan a sonar unas guitarras.)</stage>
+					</sp>	
+					<sp who="#mach">		
+						<speaker>Macho</speaker>
+						<stage>(Se levanta y agita el cuerno.)</stage>
+						<lg>
+							<l>¡Ay, qué blanca la triste casada!</l>
+							<l>¡Ay, cómo se queja entre las ramas!</l>
+							<l>Amapola y clavel será luego</l>
+							<l>cuando el macho despliegue su capa.</l>
+						</lg>
+						<stage>(Se acerca.)</stage>
+						<lg>
+							<l>Si tú vienes a la romería</l>
+							<l>a pedir que tu vientre se abra,</l>
+							<l>no te pongas un velo de luto</l>
+							<l>sino dulce camisa de Holanda.</l>
+							<l>Vete sola detrás de los muros</l>
+							<l>donde están las higueras cerradas</l>
+							<l>y soporta mi cuerpo de tierra</l>
+							<l>hasta el blanco gemido del alba.</l>
+							<l>¡Ay, cómo relumbra!</l>
+							<l>¡Ay, cómo relumbra,</l>
+							<l>ay, cómo se cimbrea la casada!</l>
+						</lg>
+					</sp>
+					<sp who="#hemb">		
+						<speaker>Hembra</speaker>
+						<lg>
+							<l>Ay, que el amor le pone</l>
+							<l>coronas y guirnaldas,</l>
+							<l>y dardos de oro vivo</l>
+							<l>en su pecho se clavan.</l>
+						</lg>
+					</sp>	
+					<sp who="#mach">		
+						<speaker>Macho</speaker>
+						<lg>
+							<l>Siete veces gemía,</l>
+							<l>nueve se levantaba,</l>
+							<l>quince veces juntaron</l>
+							<l>jazmines con naranjas.</l>
+						</lg>
+					</sp>
+					<sp who="#homb">		
+						<speaker>Hombre 3°</speaker>
+						<p>¡Dale ya con el cuerno!</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Hombre 2°</speaker>
+						<p>¡Con la rosa y la danza!</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Hombre 1°</speaker>
+						<p>¡Ay, cómo se cimbrea la casada!</p>
+					</sp>
+					<sp who="#mach">
+						<speaker>Macho</speaker>
+						<lg>
+							<l>En esta romería</l>
+							<l>el varón siempre manda.</l>
+							<l>Los maridos son toros.</l>
+							<l>El varón siempre manda.</l>
+							<l>¡Dale ya con la rama!</l>
+							<l>Y las romeras flores</l>
+							<l>para aquel que las gana.</l>
+						</lg>
+					</sp>
+					<sp who="#nin">		
+						<speaker>Niño</speaker>
+						<p>¡Dale ya con el aire!</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Hombre 2°</speaker>
+						<p>¡Dale ya con la rama!</p>
+					</sp>
+					<sp who="#mach">
+						<speaker>Macho</speaker>
+						<p>Venid a ver la lumbre de la que se bañaba!</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Hombre 1°</speaker>
+						<p>Como junco se curva.</p>
+					</sp>
+					<sp who="#hemb">
+						<speaker>Hembra</speaker>
+						<p>Y como flor se cansa.</p>
+					</sp>
+					<sp who="#homb">
+						<speaker>Hombres</speaker>
+						<p>¡Que se aparten las niñas!</p>
+					</sp>
+					<sp who="#mach">
+						<speaker>Macho</speaker>
+						<p>Que se queme la danza y el cuerpo reluciente de la linda casada.</p>
+						<stage>(Se van bailando con son de palmas y sonrisas. Cantan.)</stage>
+						<lg>
+							<l>El cielo tiene jardines con rosales de alegría,</l>
+							<l>entre rosal y rosal la rosa de maravilla.</l>
+						</lg>
+						<stage>(Vuelven a pasar dos muchachas gritando. Entra la <rs key="viej">Vieja</rs> alegre.)</stage>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>A ver si luego nos dejáis dormir. Pero luego será ella. <stage>(Entra <rs key="yerm">Yerma</rs>)</stage> ¡Tú! <stage>(<rs key="yerm">Yerma</rs> está abatida y no habla.)</stage> Dime, ¿para qué has venido?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>No sé.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>¿No te convences? ¿Y tu esposo? <stage>(<rs key="yerm">Yerma</rs> da muestras de cansancio y de persona a la que una idea fija le quiebra la cabeza.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Ahí está.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>¿Qué hace?</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Bebe. <stage>(Pausa. Llevándose Las manos a la frente.)</stage> ¡Ay!</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>¡Ay, ay! Menos ¡ay! Y más alma. Antes no he podido decirte nada, pero ahora sí.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Y qué me vas a decir que ya no sepa!</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>Lo que ya no se puede callar. Lo que está puesto encima del tejado. La culpa es de tu marido. ¿Lo oyes? Me dejaría cortar las manos. Ni su padre, ni su abuelo, ni su bisabuelo, se portaron como hombres de casta. Para tener un hijo ha sido necesario que se junte el cielo con la tierra. Están hechos con saliva. En cambio, tu gente no. Tienes hermanos y primos a cien leguas a la redonda. Mira qué maldición ha venido a caer sobre tu hermosura.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Una maldición. Un charco de veneno sobre las espigas.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>Pero tú tienes pies para marcharte de tu casa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Para marcharme?</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>Cuando te vi en la romería me dio un vuelco el corazón. Aquí vienen las mujeres a conocer hombres nuevos. Y el Santo hace el milagro. Mi hijo está sentado detrás de la ermita esperándote. Mi casa necesita una mujer. Vete con él y viviremos los tres juntos. Mi hijo sí es de sangre. Como yo. Si entras en mi casa todavía queda olor de tunas. La ceniza de tu colcha se te volverá pan y sal para las crías. Anda. No te importe la gente. Y en cuanto a tu marido, hay en mi casa entrañas y herramientas para que no cruce siquiera la calle.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Calla, calla, si no es eso! Nunca lo haría. Yo no puedo ir a buscar. ¿Te figuras que puedo conocer otro hombre? ¿Dónde pones mi honra? El agua no se puede volver atrás ni la luna llena sale al mediodía. Vete. Por el camino que voy, seguiré. ¿Has pensado en serio que yo me pueda doblar a otro hombre? ¿Qué yo vaya a pedirle lo que es mío como una esclava? Conóceme, para que nunca me hables más. Yo no busco.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>Cuando se tiene sed, se agradece el agua.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Yo soy como un campo seco donde caben arando mil pares de bueyes y lo que tú me das es un pequeño vaso de agua de pozo. Lo mío es dolor que ya no está en las carnes.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p><stage>(Fuerte.)</stage> Pues sigue así. Por tu gusto es. Como los cardos del secano, pinchosa, marchita.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Fuerte.)</stage> ¡Marchita, sí, ya lo sé! ¡Marchita! No es preciso que me lo refriegues por la boca. No vengas a solazarte como los niños pequeños en la agonía de un animalito. Desde que me casé estoy dándole vueltas a esta palabra, pero es la primera vez que la oigo, la primera vez que me la dicen en la cara. La primera vez que veo que es verdad.</p>
+					</sp>
+					<sp who="#viej">
+						<speaker>Vieja</speaker>
+						<p>No me das ninguna lástima, ninguna. Yo buscaré otra mujer para mi hijo. <stage>(Se va. Se oye un gran coro lejano cantando por los romeros. <rs key="yerm">Yerma</rs> se dirige hacia el carro y aparece detrás del mismo su marido.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Estabas ahí?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Estaba.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Acechando?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Acechando.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y has oído?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y qué? Déjame y vete a los cantos. <stage>(Se sienta en las mantas.)</stage></p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>También es hora de que yo hable.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Habla!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Y que me queje.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Con qué motivos?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Que tengo el amargor en la garganta.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Y yo en los huesos.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Ha llegado el último minuto de resistir este continuo lamento por cosas oscuras, fuera de la vida, por cosas que están en el aire.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Con asombro dramático.)</stage> ¿Fuera de la vida, dices? ¿En el aire, dices?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Por cosas que no han pasado y ni tú ni yo dirigimos.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Violenta.)</stage> ¡Sigue! ¡Sigue!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Por cosas que a mí no me importan. ¿Lo oyes? Que a mí no me importan. Ya es necesario que te lo diga. A mí me importa lo que tengo entre las manos. Lo que veo por mis ojos.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Incorporándose de rodillas, desesperada.)</stage> Así, así. Eso es lo que yo quería oír de tus labios. No se siente la verdad cuando está dentro de una misma, pero ¡qué grande y cómo grita cuando se pone fuera y levanta los brazos! ¡No te importa! ¡Ya lo he oído!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(Acercándose.)</stage> Piensa que tenía que pasar así. Óyeme. <stage>(La abraza para incorporarla.)</stage> Muchas mujeres serían felices de llevar tu vida. Sin hijos es la vida más dulce. Yo soy feliz no teniéndolos. No tenemos culpa ninguna.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y qué buscabas en mí?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>A ti misma.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p><stage>(Excitada.)</stage> ¡Eso! Buscabas la casa, la tranquilidad y una mujer. Pero nada más. ¿Es verdad lo que digo?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Es verdad. Como todos.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y lo demás? ¿Y tu hijo?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p><stage>(Fuerte.)</stage> ¿No oyes que no me importa? ¡No me preguntes más! ¡Que te lo tengo que gritar al oído para que lo sepas, a ver si de una vez vives ya tranquila!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y nunca has pensado en él cuando me has visto desearlo?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Nunca.</p>
+						<stage>(Están los dos en el suelo.)</stage>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Y no podré esperarlo?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Ni tú?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Ni yo tampoco. ¡Resígnate!</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¡Marchita!</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Y a vivir en paz. Uno y otro, con suavidad, con agrado. ¡Abrázame! <stage>(La abraza.)</stage></p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>¿Qué buscas?</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>A ti te busco. Con la luna estás hermosa.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Me buscas como cuando te quieres comer una paloma.</p>
+					</sp>
+					<sp who="#juan">
+						<speaker>Juan</speaker>
+						<p>Bésame…, así.</p>
+					</sp>
+					<sp who="#yerm">
+						<speaker>Yerma</speaker>
+						<p>Eso nunca, nunca. <stage>(<rs key="yerm">Yerma</rs> da un grito y aprieta la garganta de su esposo. Éste cae hacia atrás. Le aprieta la garganta hasta matarle. Empieza el coro de la romería.)</stage> Marchita. Marchita, pero segura. Ahora sí que lo sé de cierto. Y sola. <stage>(Se levanta. Empieza a llegar gente.)</stage> Voy a descansar sin despertarme sobresaltada, para ver si la sangre me anuncia otra sangre nueva. Con el cuerpo seco para siempre. ¿Qué queréis saber? No os acerquéis, porque he matado a mi hijo, ¡yo misma he matado a mi hijo! <stage>(Acude un grupo que queda al fondo. Se oye el coro de la romería.)</stage></p>
+					</sp>
+				</div>			
+			</div>
+		</body>
+		<back>
+			<head>Telón final</head>
+		</back>
+	</text>
+</TEI>

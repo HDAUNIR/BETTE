@@ -1,0 +1,996 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short">Asclepigenia</title>
+				<title type="full">Asclepigenia: Diálogo filosófico-amoroso</title>
+				<title type="idno">
+					<idno type="viaf"></idno>
+					<idno type="bne">XX2892959</idno>
+				</title>
+				<author>
+					<name type="full">Juan Valera</name>
+					<name type="short">Valera</name>
+					<idno type="viaf">46770556</idno>
+					<idno type="bne">XX918093</idno>
+				</author>
+				<principal xml:id="mal">María Aboal López</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2016</date>
+				<idno>027</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="print-sourced">
+					<date>1908</date>
+					<publisher>Imprenta Alemana</publisher>
+					<pubPlace>Madrid</pubPlace>
+				</bibl>
+				<bibl type="first-published">
+					<date>1878</date>
+					<publisher>Biblioteca Perojo</publisher> 
+					<pubPlace>Madrid</pubPlace>
+				</bibl>
+				<bibl type="electronic-source">
+					<date>2002</date>
+					<publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+					<pubPlace>Alicante</pubPlace>
+					<ref target="http://www.cervantesvirtual.com/obra/asclepigenia-1878--0"/>
+				</bibl>
+				<bibl type="first-performance">
+					<date when="1928">27 de septiembre de 1928</date>
+					<pubPlace>Sala Rex de Madrid</pubPlace>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Pieza de un solo acto dividido en doce escenas, este "saitne filosófico" se sitúa en la Constantinopla del siglo V e incluye alusiones a personajes y hechos históricos dentro del tono paródico que Valera da a la quinta y última de las piezas recogidas en el volumen de "Tentativas dramáticas". Proclo, recién llegado a Constantinopla, recibe en su casa a sus dos rivales amorosos y comprueba que Asclepigenia, hija del filósofo Plutarco y amor suyo de juventud, es una mujer inteligente, culta, bella y seductora por la que tres hombres rivalizan: el bello Eumorfo, el rico Crematurgo y el propio filósofo, ya mayor. Cada uno de los tres amantes aporta a la protagonista una dimensión necesaria del amor: la valoración intelectual, el sustento económico y el placer físico, como explica la propia Asclepigenia a través de una parábola sobre la manera de mantener un rosal lo más bello posible. La disputa amorosa se salda a favor de Proclo, quien conjura a los dioses del amor y las riquezas - Apolo y Pluto - para compensar sus carencias y quien acoge el ruego de su amada de bañarse y dejar de oler tan mal. En este sainete se esconde una crítica de Valera a la España de la Restauración y una reflexión sobre la importancia del amor en la vida del ser humano.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2016-09-28" who="#mal" status="proposed">Html a TEI.</change>
+			<change when="2017-07-28" who="#tsm" status="approved">Añadido resumen, texto validado.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<castList>
+					<head>Personajes</head>
+					<castItem>
+						<role xml:id="proc">Proclo</role>
+						<roleDesc>viejo filósofo</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="mari">Marino</role>
+						<roleDesc>jove discípulo de Proclo</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="eumo">Eumorfo</role>
+						<roleDesc>Joven y bello amante de Asclepigenia</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="ascl">Asclepigenia</role>
+						<roleDesc>dama, hija de Plutarco</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="crem">Crematurgo</role>
+						<roleDesc>anciano y rico mantenedor de Asclepigenia </roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="aten">Atenais</role>
+						<roleDesc>Amiga y conficdente de Asclepigenia e hija del filósofo Leoncio</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="sier">Sierva</role>
+						<roleDesc>criada de Asclepigenia</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="mort">Mortales y dioses</role>
+						<roleDesc>Los dioses Apolo y Pluto son invocados por Proclo en la última cierra. Presencias mudas, salvo por la intervención que cierra la pieza y que realizan junto con Asclepigenia, Atenais y Proclo.</roleDesc>
+					</castItem>
+				</castList>
+			</div>
+		</front> 
+		<body>
+			<div>
+				<stage>La escena en Constantinopla. Siglo V de la Era Cristiana.</stage>
+				<stage>Habitación de <rs key="#proc">Proclo</rs>. Es de noche. Una lámpara de siete mecheros, puesta sobre un trípode o candelabro de bronce, ilumina la estancia. Puertas al fondo y a los lados.</stage>
+			</div>
+			<div type="scene" n="1">
+				<head>Escena I</head>
+				<stage> Proclo, de edad de cincuenta años, seco, escuálido, consumido por vigilias, ayunos, estudios y mortificaciones, aparece sentado en un sitial. Su discípulo, Marino está de pie, junto a él.</stage>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p>¡Maestro! ¿Estás decidido a recibir esta noche?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Lo estoy. En cualquier otra ciudad podría yo excusarme: en Bizancio no, que es mi patria. ¿Cómo privar a mis paisanos del auxilio y consuelo de la sabiduría?</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Difícil es; pero debieras reposar y cuidarte. Estás que pareces el espíritu de la golosina; de puro desmedrado. Te vas a matar con tantos afanes.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Lléveme el cuerpo donde quiero ir, y luego que muera.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Me afliges al decir eso.¿Qué haré yo sin ti en este mundo? Pero dime, y perdona mi atrevida curiosidad: los que vienen a consultarte hablan siempre a solas contigo; no extrañes que note una contradicción...</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Di cuál es, y te demostraré que es aparente.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>¿No afirmas tú que se requieren largos preparativos antes de comunicar la sabiduría? ¿Qué revelas entonces a los que te consultan?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>No toda la verdad, cuyo resplandor los cegaría, sino algo de la verdad, velado en símbolos.Así el sol se vela entre nubes, a fin de que ojos mortales puedan fijarse en su disco glorioso.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Veo que esta noche estás expansivo. ¿Me permites que te haga varias preguntas?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Haz las que se te antojen. Si me es lícito, contestaré.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Pues con tu venia: ¿Qué nos trae aquí desde el fondo del Asia, donde estabas estudiando los más obscuros ritos y misterios del Oriente, y desentrañando su oculto sentido? ¿Es capricho de tu alma o mandato de un numen?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Hace ya años que mi alma no tiene caprichos. Es mandato de un numen.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>¿Puedo saber de cuál?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>De Venus Urania.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>¿La evocaste?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>No la evoqué. Ya sabes tú que en el día rara vez me tomo el trabajo de evocar a los númenes. Ellos mismos bajan del Olimpo y vienen a verme, enamorados de mi afable trato. Es verdad que en la escala de la vida ocupo lugar inferior al de ellos. Si quiero elevarme a la inteligencia y a la causa soberanas, a través de todas las manifestaciones corpóreas de su omnipotencia, tengo primero que subir por mil grados hasta llegar a dichos númenes, y aun después, desde los númenes hasta el manantial inexhausto de lo celeste y terrenal, del espíritu y la naturaleza, hay una peregrinación harto penosa. Por dicha, yo tengo un atajo, una trocha, un sendero recóndito y breve, por donde luego, no ya a la inteligencia y a la causa, sino más hondo; por donde llego al Uno. Me abstraigo de todo lo exterior; echo a un lado sentidos y potencias; borro imágenes de la fantasía; cubro con niebla densa todo lo escrito en la memoria, y hundiéndome en el abismo del alma, hallo al que es. Allí nos juntamos él y yo. Allí él y yo no somos más que el Uno. De este modo se explica que siendo yo simple mortal, sea tan considerado por los dioses. En la ligereza de carácter, propia de la serena beatitud de ellos, no caben estas reconcentraciones poderosas de lamente que me llevan al Uno. Ya te lo he dicho mil veces: por el principio vital, que gobierna mis sentidos, no valgo más que un perro; por el alma racional me quedo por bajo de las divinidades olímpicas; mas por la inteligencia especulativa e intuitiva, llego al Uno y dejo muy atrás de mí a los ángeles, a los demonios, a los genios y a los númenes. Por la unidad esencial que en mí hay, y de la cual hasta la inteligencia es emanado tributo, soy el Uno mismo. El Uno soy yo en los instantes dichosos de entusiasmo, de conjunción y de éxtasis.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Por Hércules vivo, maestro, que me lleno de envidia siempre que te oigo afirmar esa unión, por la cual te pones en el Uno o te identificas con el Uno. Se me ocurre, no obstante, cierta dificultad.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Explánala y te la resolveré.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>¿Por qué, si hallas al Uno, hundiéndote en el abismo del alma, te allanas a buscarle en la naturaleza? ¿Por qué no estás siempre reconcentrado y como viviendo en la eternidad?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Para imitar al propio Uno. Porque el Uno y yo, además de ser el Uno, somos el Bien. Es nuestra ley no quedar en el centro, absortos en el absoluto egoísmo y en la inefable contemplación de nuestra esencia. Tenemos que salir fuera a crear y mostrarnos activos. De él y de mí emanan la voluntad, la inteligencia y la palabra, y ellas crean el mundo. Desenvuelve el Uno su idea, y van apareciendo el ser, la vida, y la armonía, y el movimiento, y cuanto es y será. Desenvuelvo yo mi idea, y nacen el arte, las religiones y la ciencia. Y la creación del Uno y mi creación se compenetran y confunden y vienen a ser la misma. ¿Me entiendes ahora?</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Me pasmo de tu claridad. Con sobrada razón mereces apellidarte el sumo pontífice de todas las creencias, el gran ciudadano de todas las repúblicas y el archimetafísico de todas las metafísicas. No, Proclo, tú no eres un mortal.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>En la esencia no lo soy. En la esencia soy eterno. Considerado en mi unidad, vivo en la eternidad primitiva: esto es, en un punto inmóvil, en el cual toda la duración infinita de los siglos se halla parada, cifrada y reconcentrada. Considerado en el ápice de mi mente, en la inteligencia, vivo en la eternidad secundaria; torrente de las existencias sucesivas, perpetuo tránsito, movimiento sin término, carrera sin meta, mudanza y proceso que no acaban.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Y dime, maestro: el sacrificio que sin duda haces al salirte del Uno y penetrar con la mente, y con el discurso, y con el afecto en este universo visible, ¿qué principal propósito lleva?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Lleva varios propósitos; pero el principal es de la mayor transcendencia. La ley divina que sigue la historia me ha suscitado en el tiempo debido para una función importantísima. Mi espíritu toma carne hacia el fin de la civilización antigua para comprenderla toda en conjunto armónico. El genio de la Grecia, con sus castizas o peculiares creaciones, con los sueños de sus poetas desde Lisio y Orfeo hasta ahora, con su pensamiento filosófico desde Pitágoras hasta Jámblico, con los descubrimientos de sus matemáticos, astrónomos y físicos, y con las enseñanzas arcanas de Samotracia y de Eleusis; el genio de la Grecia, con los despojos opimos que trajo de Egipto, de Persia y hasta de la India, después de las conquistas del Macedón; todo este trabajo, toda esta aglomeración de doctrinas, experimentos y especulaciones, han venido a fundirse en mi cabeza como en horno o crisol candente. Ya fundido todo, he desechado la escoria por los bríos de mi virtud crítica, y he guardado sólo el metal limpio y puro. Por último, por otra virtud plasmante que hay en mí, he vaciado ese metal como en un molde, y he sacado a la luz el refulgente y completo sistema de la antigua sabiduría. Los pueblos del Norte acabaron ya con el imperio de Occidente. El imperio de Oriente sucumbirá también. Pronto vendrá la barbarie Las tinieblas de la ignorancia cubrirán al mundo. Yo seré, desde entonces hasta que aparezca la aurora de una nueva y tal vez más rica civilización, faro luminoso que alumbre y guíe al humano linaje.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>Reconozco la importancia de tu vida y de tus obras. Pero, concretándonos al caso singular de tu venida a Bizancio, ¿qué es lo que a ello te mueve?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Muéveme amor.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>¿Amor de patria? ¿Amor de gloria?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker> 
+					<p>Amor de una mujer.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker> 
+					<p>¡De una mujer! Me dejas turulato. ¿Quién había de suponer que pensabas en tales cosas?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> No hay motivo para que te quedes turulato. ¿Qué tiene de absurdo que yo ame a una mujer? La amo desde que la vi: desde hace quince años. Ella tenía entonces diez y siete. Hoy tiene treinta y dos. Entonces era como capullo de rosa; hoy debe de brillar con toda la pompa y el esplendor de la hermosura, en la plenitud de su vida. Claro está que si yo estuviese siempre reconcentrado en el Uno, no la amaría; pero, volviéndome, y no puedo menos de volverme, al mundo exterior, ¿qué hallaré en todo él que represente mejor al Bien y al Uno mismo? ¿Qué imagen, qué trasunto, qué destello de la belleza increada descubrirá el sabio que valga más que la mujer hermosa? Cuando el artista quiere representar a la ciencia, a la poesía, a la virtud, ¿no les da forma de mujer?</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> Es cierto.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> No debes, pues, maravillarte de que yo ame en esta mujer a la ciencia, a la poesía y a la virtud con forma visible.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> Ya no me maravillo. ¿Y puedo saber cómo se llama tu amada?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Se llama Asclepigenia. Es la hija de mi maestro Plutarco. Ya te he dicho que la conocí quince años ha. La conocí en Atenas. Plutarco me acabó de enseñar la filosofía. Asclepigenia me inició en los misterios caldeos, en los ritos de las orgías sagradas y en los procedimientos más eficaces de la teúrgia. Desde entonces estamos ella y yo ligados por amor espiritual y sublime. Su gallardo y lindo cuerpo ha sido sólo para mí como dorada nube, donde se me aparecía, en reflejos fugitivos, el sol eterno: toda la perfección del Ser.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> Nobilísima manera de amar fue la tuya... ¿Y ella, cómo te amaba?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Me amaba también con el alma y andaba enamorada del alma mía.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> ¿Y por qué te separaste de ella?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Por mil razones. Ni ella ni yo queríamos contaminar la pureza del amor que para siempre nos une.Ambos anhelábamos seguir sin tropiezo el camino ascendente que hacia el bien y hacia la luz nos encumbraba. Éramos demasiado jóvenes. No estábamos aún a toda la altura a que nos importaba estar. Decidimos, pues, separarnos por amor de nuestro mismo amor. Prometimos reunirnos cuando ya no hubiese peligro alguno. Venus Urania me ha revelado que ya no le hay, y por eso vengo en busca de Asclepigenia.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> Notable revelación estuvo. No hay más que verte, maestro, para conocer que no estás peligroso.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Tienes razón que te sobra.</p>
+				</sp>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> La fama ha difundido por esta gran capital, que la honras con tu presencia y que recibirás en consulta a tres personas cada noche. Por medio del senador Marciano, a fin de que la casa no se te llene de gente, han sido repartidos los billetes de entrada. Pronto irán llegando por su orden los que vienen hoy a verte. Tus siervos los detendrán en la antesala. Yo los conduciré luego hasta ti.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Aunque Marciano profesa la religión de Cristo, es muy amigo mío y se parece a mí en muchas cosas. Ama a la virgen emperatriz Pulqueria, como yo amo a la hija de Plutarco. Marciano, que pronto va a cumplir doce lustros, dos más que yo, dicen que se casará con Pulqueria, con quien ha de compartir, en honestidad santísima, el trono y el imperio de Oriente. Del mismo modo, Asclepigenia compartirá conmigo el trono y el imperio de la filosofía. Pero oigo ruido en la antesala. Ve y mira si ha venido alguien.</p>
+				</sp>
+				<stage>(Sale Marino y vuelve un instante después.)</stage>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> ¡Maestro! El primero que acude a consultarte es un bellísimo y elegante mancebo, llamado Eumorfo. Nadie se viste con tanto lujo y primor, nadie monta mejor a caballo, nadie baila con tanta gracia y gallardía. Por estas y otras prendas es el encanto de las damas más encopetadas.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Qué pretenderá de mí ese pisaverde? Dile que pase adelante.</p>
+				</sp>
+			</div>
+			<div type="scene" n="2">
+				<head>Escena II</head>
+				<stage><rs key="#proc">Proclo</rs> y <rs key="#eumo">Eumorfo</rs>, a quien <rs key="#mari">Marino</rs> acompaña, yéndose luego.</stage>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p> Abismo del saber, lucero de la filosofía, archivo de todas las noticias divinas y humanas...</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Amable mancebo, déjate de lisonjas y di lo que pretendes.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Pretendo que me ilustres un poco.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p><stage>Con cierto desdén.)</stage>¿Y para qué?</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>No me desdeñes así. Confieso que no tengo por las ciencias la vocación más decidida. A ti, que todo lo penetras, ¿cómo he de intentar engañarte? Pero, francamente, mis chistes y agudezas, mis habilidades, mis talentos de sociedad, todo queda deslucido sin algo de filosofía. La filosofía se ha puesto en moda entre las señoras de los círculos aristocráticos, a quienes sirvo, pretendo y tal vez enamoro. Me falta este charol; dámele, y seré irresistible.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Aunque es vulgar, mezquino y un tanto cuanto pecaminoso el fundamento de tu deseo, tu deseo es bueno en sí, y me decido a satisfacerle; pero la empresa es ardua. Por más que no quieras tomar sino una ligerísima tintura, necesitas varias lecciones: necesitas asimismo consagrar a mi servicio y asistencia un par de horas diarias, a fin de que vayas recogiendo sentencias de las que se escapan de mis labios muy a menudo.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Consagraré a tu servicio y asistencia ese par de horas diarias que dices.</p>
+				</sp>
+			</div>
+			<div type="scene" n="3">
+				<head>Escena III</head>
+				<stage>Dichos, <rs key="#mari">Marino</rs></stage>
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p>Una dama que, si bien envuelta en velo argentino, deja traslucir que está dotada de majestuosa hermosura; una dama, cuyo traje de seda y cuyas joyas riquísimas manifiestan lo elevado de su clase, acaba de bajar de una silla de manos y se halla en la antesala aguardando que la recibas. Parece una diosa por el ritmo y la nobleza de su andar entonado y por el olor de ambrosía con que satura en torno el ambiente. ¿Le digo que aguarde?</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>¡Venerando maestro! La galantería exige que recibas luego a esa dama. Yo aguardaré en otro cuarto.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Bien está. <stage>(Señalando a  Eumorfo la puerta de la izquierda.)</stage> Entra en aquél. <stage>(A Marino)</stage> Di a la dama que no se detenga.</p>
+				</sp>
+				<stage>(Vanse Eumorfo y Marino.)</stage>
+			</div>
+			<div type="scene" n="4">
+				<head>Escena IV</head>
+				<stage> Proclo, Asclepigenia.</stage>
+				<stage> Eumorfo asoma la cabeza de vez en cuando, ve, escucha y hace gestos de asombro durante toda esta escena.</stage>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¡Deslumbrante aparición! ¿Quién eres? ¿Eres mortal o diosa?</p>
+				</sp>
+				<stage>Asclepigenia (Alzando el velo y descubriendo el rostro.)</stage>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¿No me reconoces, Proclo?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¡Asclepigenia de mi corazón! ¡Cuán bella estás! Como el medio día vence al albor de la mañana, tu beldad de hoy vence a la beldad con que hace quince años resplandeciste en Atenas. No dudo que tu alma se habrá mejorado y hermoseado también.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p> No lo dudes. También mi alma se ha mejorado y hermoseado.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Sea mil veces enhorabuena. ¿Y de quién es tu alma?</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p> En su unidad es del Uno. En todas sus facultades, virtudes, potencias y demás atributos, es siempre tuya.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Con que me amas?</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Te amo. Apenas supe que estabas aquí, he venido a buscarte.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Ya no hay peligro.</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Lo veo.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Viviremos juntos?</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¿Y por qué no? Poseo un magnífico palacio donde albergarte. Serás mi filósofo. Contigo, por medio de la contemplación, en alas del entusiasmo y del amor sin mácula, me arrobaré, me extasiaré y me perderé en el Uno.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Así sea.</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Ahora tengo que dejarte. No puedo faltar esta noche en mi palacio, donde aguardo visitas. Ve a instalarte allí desde mañana.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>No aspiro a otra cosa.</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Como supongo que no te habrás venido sin los utensilios de tu profesión, mis criados se presentarán aquí con un carromato para la mudanza de todos los libros y trastos de hacer milagros, hablar con los muertos y atraer a los genios y demonios.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Eres mi providencia terrenal. ¿Cómo pagar tanto cuidado?</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Amándome.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Con el alma toda.</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p> Para despedida, te permito que me des un casto beso en la frente.</p>
+
+				</sp>
+				<stage>(Besándola con timidez respetuosa.)</stage> 
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Es la vez primera que la tocan mis labios. ¡Cuán regalado favor!</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¡Adiós, amadísimo Proclo!</p>
+
+				</sp>
+				<stage>(Vase.)</stage>
+			</div>
+			<div type="scene" n="5">
+				<head>Escena V</head>
+				<stage> Proclo </stage>
+				<stage> Eumorfo </stage>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>¿Sabes lo que digo, maestro?</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Di, y lo sabré. No quiero tomarme el trabajo de adivinar tus pensamientos.</p>
+
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Pues digo que se me van quitando las ganas de estudiar filosofía.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Y por qué?</p>
+
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Porque la filosofía vuelve tonto a quien la estudia.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Te equivocas. Lo que hace la filosofía es reforzar las prendas que cada uno tiene. Al tonto no le vuelve discreto, tú al discreto tonto; pero al discreto le hace discretísimo, y al tonto tontísimo.</p>
+
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Salvo el merecido respeto, te declararé entonces que tú propio te condenas.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿De qué suerte?</p>
+
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p> Porque mostrándote ahora tontísimo con toda tu filosofía, debiste de ser tonto en tu vida precientífica: tonto de nacimiento.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Y qué prueba he dado yo de esa tontería superlativa de que me acusas?</p>
+
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>La prueba es tu amor sublime por Asclepigenia.</p>
+
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Qué sabes tú de eso?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Conozco a Asclepigenia muy a fondo.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Te alucinas. Quiero dar por supuesto que conoces las potencias de su alma, las cuales, en su efusión, han creado para ella un cuerpo tan hermoso; pero la esencia eterna de esa alma misma, que es lo que yo amo y por lo que soy amado, está en un punto inaccesible para ti.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>¿Consientes que me valga de un símil?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Valte de cuantos símiles se te ocurran.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>¿Quién es más dueño del mundo, la emperatriz Pulqueria que le gobierna, o tú que le comprendes?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Yo, que le comprendo. Aunque Pulqueria poseyese, no ya sólo este planeta que habitamos, sino todos los demás planetas, y los astros, y los cielos, no poseería más que un burdo remedo del Universo, tal como el Demiurgo le contempla en el Paradigma, antes de sacar la copia o el traslado. Pero me inclino a sospechar que eres un majadero, y que no entiendes ni entenderás jamás estas cosas.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>No te sulfures, maestro. Si yo no entiendo esas cosas, entiendo otras más fáciles y agradables de entender. Asclepigenia tendrá quizá su Demiurgo y su Paradigma misteriosos que tú entiendes y posees; pero sus cielos, sus planetas y sus estrellas son míos desde hace algunos meses.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Qué palabra dijiste?</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p> Dije que Asclepigenia filosofa contigo; que contigo no quiere ni quiso nunca peligrar; pero que conmigo no hay peligro que no arrostre.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Por las divinidades superiores e inferiores, que en larga serie proceden del Uno, confieso que me duele lo que acabas de descubrirme. Sin embargo, todo se explica satisfactoriamente dentro de mi sistema. Las cosas son como son, y; no pueden ser mejores de lo que son, porque, como son, son perfectas según su grado.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Consuélate con ese trabalenguas.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Y por qué no consolarme? Asclepigenia y yo, con el libre albedrío de nuestras almas, dispusimos amarnos, y nos amamos y seguimos y seguiremos amándonos eternamente, ayudados del favor divino, que acude a nosotros en virtud de la plegaria. Contra esto nada puedes tú; nada pueden tus iguales. Hay, a pesar de todo, en la efusión de las potencias del alma, algo de corporal que está sujeto al hado. Esto es lo que he perdido en Asclepigenia. La fatalidad me lo roba. El libre albedrío de ella no ha sido bastante brioso para defenderlo con heroicidad. Pero la discordia entre el libre albedrío y el hado será al fin dominada por la Providencia, la cual lo purificará todo, reduciéndolo a la celestial y maravillosa armonía, que casi toca y se confunde con el Uno <hi rend="italics">hiperhipostático</hi>.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Tu discurso suena tan peregrino en mis profanas orejas, que me induce a creer o que eres un prodigio de prudencia semi-divina, o que estás loco de atar.</p>
+
+				</sp> 
+			</div> 
+			<div type="scene" n="6">
+				<head>Escena VI</head>
+				<stage>Dichos, Marino</stage>
+
+				<sp who="#mari">
+					<speaker>Marino</speaker>
+					<p> Un respetable anciano pide permiso para entrar a hablarte. Se llama Crematurgo. Es el más rico capitalista del imperio. Ha hecho del modo más filantrópico la mayor parte de sus riquezas. Ha traficado en cierta clase de individuos, que ya dirigen en los alcázares los negocios más difíciles; ya sirven sin infundir recelos a los maridos celosos; ya cantan como serafines en las iglesias. Retirado ahora de esta fabricación y comercio, se dedica a prestar al gobierno y a los particulares al cincuenta por ciento al año. Con tales virtudes, excelencias y servicios, no debe chocarnos que haya merecido el favor de la emperatriz y de sus ministros, los cuales le colman de distinciones. Ya le han nombrado conde Palatino y se anuncia que van a crear para él el título singular y nuevo de <hi rend="italics">Sebastocrator</hi>.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Y qué pretenderá de mí ese tunante? Vamos, dile que entre y le oiremos.</p>
+				</sp>
+				<stage>(Vase Marino)</stage>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Escóndete de nuevo donde estabas.</p>
+				</sp>
+				<stage>(Vase Eumorfo.)</stage>
+			</div> 
+			<div type="scene" n="7">
+				<head>Escena VII</head>
+				<stage>Proclo, Crematurgo</stage>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>¡Oh faro de las más altas especulaciones! ¡Oh déspota de los genios y demás poderes sobrenaturales!...</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Está bien. No me adules. Di qué pretendes de mí.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Tú, que lo sabes todo, ¿no podrías decirme de qué medio me valdré para que mi amada sea mía, solamente mía?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>No llega tan lejos mi saber. Si llegara, le hubiese yo empleado en favor mío, que buena falta me ha hecho.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Veo que tu saber no vale un comino. Harto me lo sospechaba yo.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Expón, no obstante, tu caso, y allá veremos si puedo remediarle o darte al menos algún consejo útil.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Yo estoy prendado de la más hermosa mujer que hay en Bizancio. Por ella hago descomunales desembolsos. No hay primor, ni refinamiento, ni objeto de arte que ella no logre por mí. He traído para ella telas bordadas del país de los Seras, alfombras deCtesifón, perlas y diamantes, papagayos y monos de la India, perfumes y oro de Arabia, y chales de Cachemira. Su palacio encierra muebles incrustados de marfil y nácar, estatuas de mármol de Paros, vajillas de plata, vasos de Nola y jarrones del Extremo Oriente, que tienen un barniz desconocido en los imperios de persas y de romanos. Ella hace visitas a mi costa en silla de manos lindísima, o se pasea o va al circo o al hipódromo en reluciente carroza o <hi rend="italics">harmamaxa</hi>,tirada por cuatro blancos caballos. En fin, nada le falta. ¿Cómo me compondré para que ella no me falte a mí?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Lo discurriremos. Para mayor ilustración del asunto, infórmame de quién es esa dama que tan caro te cuesta.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Es Asclepigenia, la hija del filósofo Plutarco.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¡Profundos cielos! ¿Quién lo hubiera podido imaginar en la vida? Tú eres mi rival.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>¿Tu rival? Pues qué, ¿también a ti te ama? ¿Qué le das tú, esqueleto pordiosero y ambulante?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>El alma, la esencia eterna. Pero sabe ¡oh sátiro vetusto!, que todavía tienes otro rival. Sal, Eumorfo.</p>
+				</sp>
+			</div>
+			<div type="scene" n="8">
+				<head>Escena VIII</head>
+				<stage>Dichos, Eumorfo.</stage>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>¿Qué descaro es éste? ¿Cómo te atreves, Eumorfo, a presentarte y a rivalizar conmigo? Tengo en mi poder cuatro pagarés tuyos vencidos y archivencidos, y voy a ejecutarte mañana.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Refrena tu furor, generoso magnate. Yo ignoraba que Asclepigenia te perteneciera.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Sea como sea, lo cierto es que Asclepigenia nos ha burlado a los tres galanes. El acaso, ¿qué digo el acaso?, la diosa Minerva nos ha reunido aquí para desengañarnos. Vamos a ver a Asclepigenia y a decirle lo que merece. Ella me aguarda solo. Venid en mi compañía.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Vamos.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Vamos.<stage>(Proclo toma su báculo de filósofo y salen juntos los tres).</stage></p>
+				</sp>
+			</div>
+			<div type="scene" n="9">
+				<head>Escena IX</head>
+				<stage>Estrado o parastasio rico y elegante en casa de Asclepigenia, adornado con estatuas y pinturas, e iluminado con lámparas, unas pendientes del techo, otras colocadas sobre mesas délficas.</stage>
+				<stage>Asclepigenia y Atenais</stage>
+				<stage>La primera aparece reclinada, casi tendida lánguidamente en un esquimpodio o silla-larga.</stage> 
+				<stage>Atenais, a su lado, en un taburete.</stage>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>¿Con que has visto a tu primer amor?</p> 
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p> Sí, le he visto. Me ha dado lástima. Está flaco, pálido, apergaminado. Y luego ¡qué sucio! Doy por cierto que en los quince años que ha vivido lejos de mí no se ha lavado una vez sola ni siquiera las manos.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Ese grave defecto tiene el espiritualismo o misticismo, que ahora priva y cunde. Parece que las virtudes a la moda exigen que sean puercos los virtuosos.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Y no es eso lo peor, sino que se apodera de los ánimos una tristeza vaga y sofística que los enerva; tristeza que los antiguos apenas conocieron; un menosprecio del mundo y de las dulzuras de la vida, que despuebla las ciudades y puebla los desiertos; un desdén del bienestar y de la riqueza, que roba brazos a la agricultura y a la industria, y una mansedumbre resignada, que amengua el valor del ciudadano y del guerrero. Más que Atila y todos los bárbaros, me hacen prever estos síntomas la total ruina de la civilización. Pero volviendo a la suciedad y descuido en la persona, te aseguro que me ha dado grima ver a Proclo. Ofende toda nariz medianamente delicada.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Cruel inconveniente es ese si has de vivir con Proclo.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Yo sabré remediarle. No me meteré en discusiones ni en consejos, sino que, a modo de broma, haré que mañana le cojan dos esclavos antes de comer, le soplen en un baño y me le laven y frieguen con pasta de almendra, y me lo froten con aromoso <hi rend="italics">diapasma</hi>. Él mismo se sentirá mejor después, y tomará la costumbre de lavarse.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Pero, declárate con franqueza: a pesar de estar Proclo tan viejo, tan estropeado y tan sucio, ¿le amas todavía?</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Le amo y le adoro. Se me figura que él es la última encarnación del maravilloso genio de Grecia. Amándole, se magnifica y ensalza todo mi ser, hasta considerarme yo misma como la ciencia, la poesía, la civilización griega personificada.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>En efecto, Proclo es el príncipe de los filósofos. Tu padre Plutarco y mi padre Leoncio, notable filósofo también, le veneraban como superior a ellos. Comprendo, pues, que ames a Proclo.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Una doncella tan sabia, educada con esmero en Atenas; una poetisa tan inspirada como tú, en quien veo renacer en edad temprana las altas prendas de Hipatia, no podía menos de comprender este amor mío que descuella sobre mis otros amores.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Es un dolor que no pueda ser el único.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>La culpa, hasta cierto punto, la tiene el pícaro misticismo. Por él nos separamos. Sin él hubiéramos vivido juntos, hubiéramos sido humanamente amantes y esposos, y ni yo hubiera caído, ni Proclo hubiera llegado a ser, con lamentable precocidad, y quedándose pobre, un vejestorio tan incapaz y tan feo.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Tu propósito era difícil. No extraño que no hayas podido cumplirle. El temple de alma de la emperatriz Pulqueria es rarísimo.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¿Qué temple de alma ni qué calabazas? Ella es Emperatriz y no necesita de un Crematurgo.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>¿Tiene acaso algún Eumorfo?</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¡Vaya si le tiene! Nadie lo ignora, menos tú, que estás en Babia, y Marciano, que hace la vista gorda.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>¿Y quién es ese feliz mortal?</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>El lindo y gracioso Paulino.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Pues no tiene mal gusto la santa.</p>
+
+				</sp>
+				<stage>(Aparece una sierva.)</stage>
+				<sp who="#sier">
+					<speaker>Sierva</speaker>
+					<p>Señora, Crematurgo pide licencia para entrar.</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Que entre.</p>
+
+				</sp> 
+
+				<stage>(Vase la sierva.)</stage>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>¿Me retiro?</p>
+
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Retírate.</p>
+
+				</sp>
+				<stage>(Vase Atenais.)</stage>
+			</div>
+			<div type="scene" n="10">
+				<head>Escena X</head>
+				<stage>Asclepigenia, Crematurgo, Proclo y Eumorfo.</stage>
+				<stage> Asclepigenia se pone de pie para recibirlos.</stage>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¡Qué agradable sorpresa! ¿Qué significa venir los tres juntos a mi casa?</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Envidiable frescura te concedió el cielo. ¿Cómo, al vernos entrar juntos a los tres, no tiemblas, no te asustas, no te hundes avergonzada en el centro de la tierra?</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Eso mismo repito yo. ¿Cómo no te hundes en el centro de la tierra?</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Inicua. Nos estabas engañando a todos.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Esto pasa de castaño obscuro. ¡Tres al mismo tiempo!</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>¿Qué puedes alegar en tu defensa?</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Con razón enmudeces.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Yo no enmudezco ni con razón ni sin ella. A fin de probaros que la razón no me falta, os contaré una parábola, si tenéis calma para oírla.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Cuenta.</p>
+				</sp>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Te escucho.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p><stage>(A Proclo, que ha estado y sigue silencioso desde que entró.)</stage>Y tú, ¿qué dices?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Nada. Te escucho también.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>En el jardín de este palacio hay un rosal, que estaba casi seco y perdido por hallarse en terreno estéril. -¿Qué necesita? Me dije yo al contemplarle. -Mantillo, me respondí. Es menester que de las substancias corrompidas que en el mantillo hay, absorba el rosal la savia vivificante que ha de dar lozanía, gala y primor a sus hojas  y a sus flores. Cubrí, pues, con mantillo las raíces y el pie del rosal, y el rosal ha reverdecido y florecido como por encanto. La verdura de sus hojas es brillante; sus rosas son divinas. Los pétalos de estas rosas tienen el color encendido del alba; el centro parece cáliz de oro; en el cáliz hay miel. ¿Qué ser delicado, elegante, ligero, bonito, en armonía con la rosa, podrá tocar sus pétalos sin marchitarlos, y libar la miel del cáliz con la correspondiente suavidad y finura? -Una aérea, pintada y alegre mariposa, pensé yo. Y apenas lo hube pensado y deseado, acudió la mariposa más gentil y juguetona que he visto en mi vida, y revoloteando en torno de la rosa, se posó en su seno, sin ladear apenas el flexible tallo, y libó la miel del cáliz de oro. Noté, sin embargo, que esto no bastaba. De la rosa se desprendía exquisita fragancia, que iba disipándose por el ambiente y que el céfiro esparcía en sus alas. En la rosa había asimismo belleza extraordinaria, reflejo de la idea; perfección de formas, que encierra puros pensamientos artísticos. Esto sólo puede comprenderlo la inteligencia. Sólo el espíritu puede gozar de todo esto. Es así que la mariposa no tiene inteligencia, ni espíritu, ni siquiera olfato; luego al rosal le faltaba lo mejor. Sus prendas de más valía quedaban sin fin y sin propósito. Entonces vi claro que si el mantillo y la mariposa eran indispensables para el rosal, eran más indispensables aún mente elevada, espíritu y conciencia, que le comprendiesen y admirasen. Aplicad ahora la parábola y reconoceréis mi justificación. Yo soy el rosal; tú, Crematurgo, eres el mantillo; tú, Eumorfo, la mariposa y Proclo es la nariz que aspira el aroma y la mente que estima la beldad y goza dignamente de ella. ¿Qué culpa adquiere el rosal de que nada sea completo en este bajo mundo? ¡Lástima es que no se logren mantillo, mariposa, narices y mente en un ser solo! Como el rosal requería todo esto y no se hallaba reunido, he tenido que buscarlo por separado.</p>
+				</sp>
+				<sp who="#crem">
+					<speaker>Crematurgo</speaker>
+					<p>Pues yo no me avengo. No quiero ser mantillo y nada más. ¡Adiós, ingrata!</p>
+
+				</sp>
+				<stage>(Vase.)</stage>
+				<sp who="#eumo">
+					<speaker>Eumorfo</speaker>
+					<p>Tampoco me resigno yo a ser una mariposa inteligente, sobre todo cuando por amor tuyo me había puesto ya a estudiar filosofía. ¡Adiós, infame!</p>
+
+				</sp>
+				<stage>(Vase.)</stage>
+			</div>
+			<div type="scene" n="11">
+				<head>Escena XI</head>
+				<stage>Asclepigenia, Proclo</stage>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Mantillo y mariposa me abandonan. ¿Me abandonarás tú también, Proclo mío?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Confieso que mi alma está destrozada.Tal vez haría yo bien en huir de tu lado para siempre; pero hay una fuerza que me retiene cerca de ti. En balde he querido espiritualizar, santificar la civilización antigua, risueña y amante de la hermosura, pero liviana. No acierto, con todo, a divorciarme de ella. Soy de ella. Soy tuyo sin remedio. El vergonzoso y duro desengaño no mata el amor de mi corazón al derribar todo el edificio filosófico que con tanto afán y arrogancia había yo levantado. Se me figura que cae sobre mí el justo castigo de la soberbia del espíritu. El espíritu se apartó con desdén de la naturaleza; quiso elevarse por cima de la inteligencia y de la causa; pugnó por ir más allá del ser mismo; aspiró a confundirse con el principio inmutable de todo ser. La unión mística, de que tanto me he envanecido, fue sin duda ilusión malsana. El principio indefinible del ser, con el cual yo creía unirme, y del cual todo lo que se afirma es negando, era el no ser; era la nada. Mi supuesta identificación con él fue muerte egoísta. No fue la muerte generosa de aquél que, amando la vida, sabe darla por el triunfo de una noble idea, por su patria, por la felicidad del objeto amado. Mi prurito de perderme en el Uno, absorbente, impersonal, que todo lo tiene en sí y nada tiene, es la más monstruosa perversión del espíritu. Es no saber vivir y gozar en el seno de este vario y bello Universo. Es crear un misticismo contrario al amor. Mi misticismo reconcentra el alma; el amor la difunde. Apartado el espíritu de la naturaleza, ¿qué se puede esperar sino lo que veo y lamento ahora? O el delirio que toma la nada por el principio del ser, o la vileza, el rebajamiento, la impura grosería y el brutal apetito de goces materiales, triunfantes en la naturaleza, en la sociedad y en todo pensamiento, cuando el espíritu los abandona. En cambio, ¿qué vale el espíritu que se aparta del mundo real, creyendo adorar lo divino y adorándose a sí propio? Ni para resistir los golpes del infortunio más vulgar conserva brío suficiente. ¿Qué energía de voluntad me queda? Sólo soy capaz de vil y cobarde resignación, o de morirme aquí de pena, como mujercilla nerviosa. ¡Qué vergüenza! No puedo más. ¡Ay de mí!</p>
+				</sp>
+				<stage>(Proclo cae desmayado en la silla larga.)</stage>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¡Atenais! ¡Atenais! ¡Acude! ¡Oh desgracia! Acude; trae un pomo de esencias. ¡Nos quedamos sin filosofía! Ya no hay filosofía posible. Ya no hay más que ciencias positivas y prosaicas. Mi filósofo se me muere. <stage>(Se inclina sobre él y le abraza con la mayor ternura.)</stage> Huele mal; pero... ¡es tan sabio! ¡es tan bueno!</p>
+				</sp>
+			</div> 
+			<div type="scene" n="12">
+				<head>Escena XII</head>
+				<stage>Dichos, Atenais.</stage>
+				<stage>Atenais ayuda a Asclepigenia a cuidar a Proclo, aplicando un pomo de esencias a sus narices.</stage>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Cálmate. No es nada. Ya vuelve en sí.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¡Buen susto me he llevado! ¡Pobrecito mío de mi alma! ¡Qué malo se me puso!</p>
+				</sp>
+				<stage>Proclo.- (Se levanta.)</stage>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Perdóname, amiga. Ha sido un momento de debilidad. <stage>(Reparando en Atenais.)</stage> ¿Quién es esta gallarda doncella?</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Es Atenais, hija de Leoncio.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¡La hija de mi docto e ilustre amigo!... ¡El cielo te bendiga, Atenais!</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¿Me perdonas, Proclo?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>No hablemos más de lo pasado: olvidémoslo.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>¿Vivirás conmigo?</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>No quiero ni puedo vivir ya sin ti. Tú serás el lucero que ilumine con su faz apacible la melancólica tarde de mi existencia. Estas blancas y suaves manos <stage>(las toma entre las suyas)</stage> cerrarán con amor mis párpados cuando se junten para dormir el último sueño.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Contigo no echaré de menos ni la riqueza ni la hermosura corporal... ¿Qué más hermosura, qué más riqueza que el tesoro de tu alma? Si es menester, viviremos en la mayor estrechez. Algo se me estropearán las manos de guisar y de remendarte la ropa. La elegancia, el esmero, el perfume de aristocrática distinción se desvanecerán casi por completo cuando vivamos míseramente. ¿Pero qué importa? Yo poseeré tu alma y tú la mía.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>No ha de ser así. No consentiré que se pierda o que se deteriore ni una chispa ni un átomo de toda esa beldad que te dio Naturaleza y que el Arte ha completado y realzado. Yo ganaré riquezas para ti. Para ti tendré hermosura corporal y juventud lozana.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>No te alucines, Proclo. La juventud que se fue, no vuelve nunca. Venus Urania no te visitó sin motivo. En cuanto a la riqueza, doy por cierto que no ganarás jamás un óbolo con toda tu filosofía, a no ser que apeles al milagro.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Pues bien: al milagro apelo. Ahora vas a ver quién yo soy. ¡Aquí te quiero, oh Teúrgia! Para algo me has de servir. Hasta ahora, Asclepigenia idolatrada, has poseído en Eumorfo y en Crematurgo hermosura, juventud y riquezas, contingentes, limitadas y caducas. De hoy en adelante vas a poseer la juventud, la hermosura y la riqueza, en absoluto y para siempre. Guardad silencio religioso. Ya empieza el conjuro.</p>
+				</sp>
+				<stage>(Profundo silencio. Proclo, agitando su báculo, traza en el aire círculos y otras figuras mágicas, y murmura entre dientes palabras ininteligibles. Óyese música celestial, lenta y sumisa. En el centro del teatro se va cuajando una brillante y cándida nube, con arreboles de carmín, oro y nácar.)</stage>
+				<sp who="#ascl #aten">
+					<speaker>Asclepigenia y Atenais</speaker>
+					<p>¡Qué portento!</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p> Ocultos en esa nube tienes ya, a tus órdenes y para tu servicio, en reemplazo de Eumorfo y de Crematurgo, al flechero Apolo, al más elegante y bonito de los dioses, y al hijo de Jasión y de Ceres, al ciego Pluto, dispensador de las riquezas. ¿Quieres que salgan con séquito de musas, gracias, ninfas y genios, o que salgan solos?</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Que salgan solos. Ya les iré pidiendo, en la sazón conveniente, todo aquello que se me ocurra.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¡Apareced, dioses!</p>
+				</sp>
+				<stage>(Se abre la nube, y salen de ella, con mucha luz de Bengala, Pluto, cojo, ciego y alado, y Apolo, muy bizarro y airoso, con manto de púrpura, corona de laurel y lira en mano.)</stage>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Qué más tienes que pedir?</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p> Nada. Yo me contentaba con tu amor.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Recapacita, sin embargo, si algo te falta.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Si no me motejases de sobrado pedigüeña y exigente, aún te pediría una cosa.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>¿Cuál?</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Que te laves.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>Me lavaré.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Ya eres dichosa. Posees ciencia, hermosura, juventud, riqueza y hasta aseo. Yo, desvalida y menesterosa, lejos de envidiarte, me regocijo.</p>
+				</sp>
+				<sp who="#proc">
+					<speaker>Proclo</speaker>
+					<p>El cielo te premiará, generosa Atenais. Yo, que estoy ahora inspirado, leo en el porvenir tu egregio destino. El joven Teodosio, a quien educa muy bien su hermana Pulqueria, a fin de que brille en el trono imperial, se casará contigo. Así serás Emperatriz de Oriente. Serás feliz y poderosa sin acudir a la magia; pero tendrás que hacerte cristiana. Por último, para que nuestra gloria y nuestra felicidad sean más estupendas y vividoras, después que pasen trece o catorce siglos, contando desde el día de la fecha, aparecerá en la risueña y fértil Bética, cuna de la dinastía reinante y patria de tu abuelo político el Gran Teodosio y de otra infinidad de personas eminentísimas, cierto escritor ingenioso y verídico, el cual ha de componer sobre los sucesos de esta noche un diálogo, donde trate de competir con el divino Platón en lo elevado y grave, y con el satírico Luciano en lo chistoso y alegre.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Mucho me he de holgar si tus vaticinios se cumplen.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Y yo también. Temo, sin embargo, que ese diálogo que Proclo anuncia, sea una extravagancia sin amenidad y sin viveza, donde nosotros figuremos, no como seres reales, sino como personajes alegóricos; donde Proclo y yo representemos la antigua poesía sensual y corrompida y el antiguo saber agotado, desesperado y estéril, que para seguir viviendo juntos se entregan a brujerías y supersticiones.</p>
+				</sp>
+				<sp who="#aten">
+					<speaker>Atenais</speaker>
+					<p>Si esa alegoría puede tener alguna aplicación cuando el diálogo se escriba, tal vez interese el diálogo.</p>
+				</sp>
+				<sp who="#ascl">
+					<speaker>Asclepigenia</speaker>
+					<p>Suceda lo que suceda, no debe importarnos mucho. Allá se las haya el autor. Nosotros cinco, mortales y dioses, vámonos al triclinio, donde tengo preparada una suculenta y bien condimentada cena.</p>
+				</sp>
+				<sp who="#mort">
+					<speaker>Mortales y dioses</speaker> 
+					<p>Vámonos a cenar.</p>
+				</sp>
+			</div>
+		</body>
+		<back>
+			<head>Madrid, 1878</head>
+		</back>
+	</text>
+</TEI>

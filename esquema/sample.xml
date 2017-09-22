@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short"></title>
+				<title type="full"></title>
+				<title type="idno">
+					<idno type="viaf"></idno>
+					<idno type="bne"></idno>
+				</title>
+				<author>
+					<name type="full"></name>
+					<name type="short"></name>
+					<idno type="viaf"></idno>
+					<idno type="bne"></idno>
+				</author>
+				<principal xml:id="_"></principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2016</date>
+				<idno>0000</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="print-source">
+					<date></date>
+					<publisher></publisher>
+					<pubPlace></pubPlace> 
+				</bibl>
+				<bibl type="electronic-source">
+					<date></date>
+					<publisher></publisher>
+					<pubPlace></pubPlace>
+					<ref target="_" />
+				</bibl>
+				<bibl type="first-published">
+					<date></date>
+					<publisher></publisher>
+					<pubPlace></pubPlace>
+				</bibl>
+				<bibl type="first-performance">
+					<date></date>
+					<pubPlace></pubPlace> 
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p/>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2016-06-06" who="#jct" status="draft">Versión inicital TEI.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+		</front>
+		<body>
+		<div></div>
+		</body>
+		<back>
+		</back>
+	</text>
+</TEI>

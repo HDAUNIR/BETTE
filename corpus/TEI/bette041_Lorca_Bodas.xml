@@ -1,0 +1,4598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short">Bodas de sangre</title>
+				<title type="full">Bodas de sangre: Tragedia en tres actos y siete cuadros</title>
+				<title type="idno">
+					<idno type="viaf">180647047</idno>
+					<idno type="bne">XX3383743</idno>
+				</title>
+				<author>
+					<name type="full">Federico García Lorca</name>
+					<name type="short">Lorca</name>
+					<idno type="viaf">34456883</idno>
+					<idno type="bne">XX841898</idno>
+				</author>
+				<principal xml:id="SGA">Sila Gómez Álvarez</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2016</date>
+				<idno>041</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="print-source">
+					<date>1938</date>
+					<publisher>Losada</publisher>
+					<pubPlace>Buenos Aires</pubPlace> 
+				</bibl>
+				<bibl type="electronic-source">
+					<date>2014</date>
+					<publisher>epublibre</publisher>
+					<pubPlace></pubPlace>
+					<ref target="https://www.epublibre.org/libro/detalle/3694"/>
+				</bibl>
+				<bibl type="first-published">
+					<date>1938</date>
+					<publisher>Losada</publisher>
+					<pubPlace>Buenos Aires</pubPlace>
+				</bibl>
+				<bibl type="first-performance">
+					<date></date>
+					<pubPlace></pubPlace> 
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Tragedia de Lorca inspirada en una historia real, conocida como el crimen de Níjar. En el acto primero se presenta al novio, que quiere casarse con una muchacha que despierta los recelos de la madre, pues ha sido novia de un miembro de la familia de los Félix, responsables de la muerte de su marido y su hijo. En el acto segundo tienen lugar los preparativos de la boda y se presenta a Leonardo, el antiguo novio de la prometida, y se muestra cómo ese amor sigue estando vivo. Tras la boda, Leonardo huye con la novia. En el Acto tercero se produce la muerte de Leonardo y el novio y la confrontación de la novia con la madre.</p>
+				<p>Acto 1: Cuadro 1: El novio y su madre hablan sobre la novia de este y del futuro de sus relaciones. Se hace referencia a las muertes en la familia que causaron una familia enemiga. Una vecina advierte a la madre del novio que había sospechas sobre la difunta madre de la novia; además señala que la novia tuvo de adolescente relaciones con Leonardo de los Félix, parte de la familia enemiga. Cuadro 2: La escena tiene lugar en la casa de Leonardo, donde su suegra y su mujer ponen a dormir al niño. Leonardo llega y hablan de la próxima boda de su antigua novia. En la conversación aparecen ciertos aspectos secretos y mentiras entre la pareja; termina en una fuerte discusión. Cuadro 3: el novio y su madre visitan a la novia y su padre y hacen los arreglos para que se casen en breve. La novia rechaza enseñar los regalos que le han hecho a la criada. Esta última le señala que Leonardo vino a verla la noche anterior y que ahora mismo está de nuevo fuera de la casa.</p>
+				<p>Acto 2: Cuadro 1: La novia se prepara para la boda sin demasiada alegría. Leonardo llega a casa de la novia antes que el resto de invitados y ambos hablan sobre su pasado y su historia no resuelta. Después llegan el resto de invitados y la familia del novio. Todos salen en dirección a la iglesia. Leonardo y su mujer discuten. Cuadro 2: durante  el convite de la boda, varios personajes hablan entre sí. La novia está arisca, también con el novio. En un momento dado la novia y Leonardo desaparecen juntos y el resto de los invitados se preparan para buscarlos.</p>
+				<p>Acto 3: Cuadro 1: el novio y un grupo de leñadores buscan a la novia y Leonardo. Aparece la luna y una mendiga como representaciones de la muerte. Leonardo y la novia huyen mientras se hacen declaraciones apasionadas. Finalmente se señala en la última acotación que algunos personajes mueren. Cuadro último: Diferentes muchachas hablan sobre qué debe haber pasado en la boda. Vuelven las mujeres (suegra, mujer de Leonardo, madre y novia) y se lamentan pasionalmente de la muerte del Novio y de Leonardo. La novia pide que la madre del Novio la mate, asegurando que ella sigue virgen, lo que a la madre la deja indiferente. Termina la obra con los personajes llorando los muertos.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc status="approved">
+			<change when="2016-07-23" who="sga">Versión inicial TEI.</change>
+			<change when="2017-06-11" who="jct" status="approved">Pequeños cambios en algunos datos del teiHeader y resumen añadido.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<castList>
+					<head>Personajes</head>
+					<castItem>
+						<role xml:id="madr">Madre</role>
+					</castItem>
+					<castItem>
+						<role xml:id="nova">Novia</role>
+					</castItem>
+					<castItem>
+						<role xml:id="sueg">Suegra</role>
+					</castItem>
+					<castItem>
+						<role xml:id="muje">Mujer de Leonardo</role>
+					</castItem>
+					<castItem>
+						<role xml:id="cria">Criada</role>
+					</castItem>
+					<castItem>
+						<role xml:id="veci">Vecina</role>
+					</castItem>
+					<castItem>
+						<role>Muchachas</role>
+					</castItem>
+					<castItem>
+						<role xml:id="leon">Leonardo</role>
+					</castItem>
+					<castItem>
+						<role xml:id="novo">Novio</role>
+					</castItem>
+					<castItem>
+						<role xml:id="padr">Padre de la novia</role>
+					</castItem>
+					<castItem>
+						<role xml:id="luna">Luna</role>
+					</castItem>
+					<castItem>
+						<role xml:id="muer">Muerte (como Mendiga)<!--SGA: ¿quitar, por lo que dice la primera vez que aparece en la acotación?Ver cómo está marcado en la primera edición--></role>
+					</castItem>
+					<castItem>
+						<role>Leñadores</role>
+					</castItem>
+					<castItem>
+						<role>Mozos</role>
+					</castItem>
+					<castItem>
+						<role xml:id="muc1"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="muc2"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="muc3"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="conv"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="len1"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="len2"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="len3"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="moz1"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="moz2"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="voce"></role><!--SGA: Aparece en la obra, último acto, este "personaje colectivo"-->
+					</castItem>
+					<castItem>
+						<role xml:id="mend"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="muj1"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="muj2"></role>
+					</castItem>
+					<castItem>
+						<role xml:id="nina"></role>
+					</castItem>
+				</castList>
+			</div>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Acto primero</head>
+				<div type="scene" n="1">
+					<head>Cuadro primero</head>
+					<stage>Habitación pintada de amarillo.</stage>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Entrando)</stage>Madre.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Me voy.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Adónde?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>A la viña. <stage>(Va a salir).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Espera.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Quieres algo?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Hijo, el almuerzo.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Déjalo. Comeré uvas. Dame la navaja.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Para qué?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Riendo)</stage> Para cortarlas.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(Entre dientes y buscándola)</stage> La navaja, la navaja… Malditas sean todas y el bribón que las inventó.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Vamos a otro asunto.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Y las escopetas y las pistolas y el cuchillo más pequeño, y hasta las azadas y los bieldos de la era.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Bueno.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Todo lo que puede cortar el cuerpo de un hombre. Un hombre hermoso, con su flor en la boca, que sale a las viñas o va a sus olivos propios; porque son de él, heredados…</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Bajando la cabeza)</stage> Calle usted.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>… y ese hombre no vuelve. O si vuelve es para ponerle una palma encima o un plato de sal gorda para que no se hinche. No sé cómo te atreves a llevar una navaja en tu cuerpo, ni cómo yo dejo a la serpiente dentro del arcón.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Está bueno ya?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Cien años que yo viviera, no hablaría de otra cosa. Primero tu padre, que me olía a clavel y lo disfruté tres años escasos. Luego tu hermano. ¿Y es justo y puede ser que una cosa pequeña como una pistola o una navaja pueda acabar con un hombre, que es un toro? No callaría nunca. Pasan los meses y la desesperación me pica en los ojos y hasta en las puntas del pelo.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Fuerte)</stage>¿Vamos a acabar?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No. No vamos a acabar. ¿Me puede alguien traer a tu padre? ¿Y a tu hermano? Y luego el presidio. ¿Qué es el presidio? ¡Allí comen, allí fuman, allí tocan los instrumentos! Mis muertos llenos de hierba, sin hablar, hechos polvo; dos hombres que eran dos geranios… Los matadores, en presidio, frescos, viendo los montes…</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Es que quiere usted que los mate?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No… Si hablo es porque… ¿Cómo no voy a hablar viéndote salir por esa puerta? Es que no me gusta que lleves navaja. Es que… que no quisiera que salieras al campo.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Riendo)</stage>
+							¡Vamos!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Que me gustaría que fueras una mujer. No te irías al arroyo ahora y bordaríamos las dos cenefas y perritos de lana.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Coge de un brazo a la madre y ríe)</stage>
+						Madre, ¿y si yo la llevara conmigo a las viñas?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Qué hace en las viñas una vieja? ¿Me ibas a meter debajo de los pámpanos?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Levantándola en sus brazos)</stage>
+						Vieja, revieja, requetevieja.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Tu padre sí que me llevaba. Eso es buena casta. Sangre. Tu abuelo dejó un hijo en cada esquina. Eso me gusta. Los hombres, hombres; el trigo, trigo.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Y yo, madre?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Tú, qué?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Necesito decírselo otra vez?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Seria)</stage>
+						¡Ah!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Es que le parece mal?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Entonces?…</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No lo sé yo misma. Así, de pronto, siempre me sorprende. Yo sé que la <rs key="#nova">muchacha</rs> es buena. ¿Verdad que sí? Modosa. Trabajadora. Amasa su pan y cose sus faldas, y siento sin embargo, cuando la nombro, como si me dieran una pedrada en la frente.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Tonterías.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Más que tonterías. Es que me quedo sola. Ya no me quedas más que tú y siento que te vayas.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Pero usted vendrá con nosotros.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No. Yo no puedo dejar aquí solos a tu padre y a tu hermano. Tengo que ir todas las mañanas, y si me voy es fácil que muera uno de los Félix, uno de la familia de los matadores, y lo entierren al lado. ¡Y eso sí que no! ¡Ca! ¡Eso sí que no! Porque con las uñas los desentierro y yo sola los machaco contra la tapia.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Fuerte)</stage>
+						Vuelta otra vez.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Perdóname. <stage>(Pausa).</stage> ¿Cuánto tiempo llevas en relaciones?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Tres años. Ya pude comprar la viña.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Tres años. ¿Ella tuvo un novio, no?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>No sé. Creo que no. Las muchachas tienen que mirar con quién se casan.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Sí. Yo no miré a nadie. Miré a tu padre, y cuando lo mataron miré a la pared de enfrente. Una mujer con un hombre, y ya está.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Usted sabe que mi <rs key="#nova">novia</rs> es buena.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No lo dudo. De todos modos siento no saber cómo fue su madre.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Qué más da?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Hijo.<stage>(Mirándolo)</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Qué quiere decir?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¡Que es verdad! ¡Que tienes razón! ¿Cuándo quieres que la pida?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Alegre)</stage>
+						¿Le parece bien el domingo?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Seria)</stage>
+						Le llevaré los pendientes de azófar, que son antiguos, y tú le compras…</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Usted entiende más…</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Le compras unas medias caladas, y para ti dos trajes… ¡Tres! ¡No te tengo más que a ti!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Me voy. Mañana iré a verla.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Sí, sí, y a ver si me alegras con seis nietos, o los que te dé la gana, ya que tu padre no tuvo lugar de hacérmelos a mí.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>El primero para usted.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Sí, pero que haya niñas. Que yo quiero bordar y hacer encaje y estar tranquila.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Estoy seguro que usted querrá a mi <rs key="#nova">novia</rs>.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>La querré. <stage>(Se dirige a besarlo y reacciona).</stage> Anda, ya estás muy grande para besos. Se los das a tu mujer. <stage>(Pausa. Aparte).</stage> Cuando lo sea.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Me voy.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Que caves bien la parte del molinillo, que la tienes descuidada.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Lo dicho!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Anda con Dios. <stage>(Vase el <rs key="#novo">novio</rs>. La madre queda sentada de espaldas a la puerta. Aparece en la puerta una <rs key="#veci">vecina</rs> vestida de color oscuro, con pañuelo a la cabeza).</stage> Pasa.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>¿Cómo estás?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Ya ves.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Yo bajé a la tienda y vine a verte. ¡Vivimos tan lejos!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Hace veinte años que no he subido a lo alto de la calle.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Tú estás bien.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Lo crees?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Las cosas pasan. Hace dos días trajeron al hijo de mi vecina con los brazos cortados por la máquina. <stage>(Se sienta).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿A Rafael?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Sí. Y allí lo tienes. Muchas veces pienso que tu hijo y el mío están mejor donde están, dormidos, descansando, que no expuestos a quedarse inútiles.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Calla. Todo eso son invenciones, pero no consuelos.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>¡Ay!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¡Ay! <stage>(Pausa).</stage></p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p><stage>(Triste)</stage>¿Y tu hijo?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Salió.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>¡Al fin compró la viña!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Tuvo suerte.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Ahora se casará.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Como despertando y acercando su silla a la silla de la <rs key="#veci">vecina</rs>)</stage>
+						Oye.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p><stage>(En plan confidencial)</stage>
+						Dime.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Tú conoces a la <rs key="#nova">novia</rs> de mi hijo?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>¡Buena muchacha!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Sí, pero…</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Pero quien la conozca a fondo no hay nadie. Vive sola con su padre allí, tan lejos, a diez leguas de la casa más cerca. Pero es buena. Acostumbrada a la soledad.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Y su madre?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>A su madre la conocí. Hermosa. Le relucía la cara como a un santo; pero a mí no me gustó nunca. No quería a su marido.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Fuerte)</stage>
+						Pero ¡cuántas cosas sabéis las gentes!</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Perdona. No quise ofender; pero es verdad. Ahora, si fue decente o no, nadie lo dijo. De esto no se ha hablado. Ella era orgullosa.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¡Siempre igual!</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Tú me preguntaste.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Es que quisiera que ni a la viva ni a la muerta las conociera nadie. Que fueran como dos cardos, que ninguna persona <!--SGA: comprobar primera edición-->les nombra y pinchan si llega el momento.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Tienes razón. Tu <rs key="#novo">hijo</rs> vale mucho.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Vale. Por eso lo cuido. A mí me habían dicho que la muchacha tuvo novio hace tiempo.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Tendría ella quince años. Él se casó ya hace dos años con una <rs key="#muje">prima de ella</rs>, por cierto. Nadie se acuerda del noviazgo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Cómo te acuerdas tú?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>¡Me haces unas preguntas!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>A cada uno le gusta enterarse de lo que le duele. ¿Quién fue el novio?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p><rs key="#leon">Leonardo</rs>.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Qué Leonardo?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p><rs key="#leon">Leonardo</rs> el de los Félix.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Levantándose)</stage>
+						¡De los Félix!</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Mujer, ¿qué culpa tiene <rs key="#leon">Leonardo</rs> de nada? Él tenía ocho años cuando las cuestiones.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Es verdad… Pero oigo eso de Félix y es lo mismo <stage>(Entre dientes).</stage> Félix <!--SGA: comprobar primera edición-->que llenárseme de cieno la boca <stage>(Escupe)</stage> y tengo que escupir, tengo que escupir por no matar.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Repórtate; ¿qué sacas con eso?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Nada. Pero tú lo comprendes.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>No te opongas a la felicidad de tu hijo. No le digas nada. Tú estás vieja. Yo también. A ti y a mí nos toca callar.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No le diré nada.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p><stage>(Besándola)</stage>Nada.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Serena)</stage>¡Las cosas!…</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Me voy, que pronto llegará mi gente del campo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Has visto qué día de calor?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Iban negros los chiquillos que llevan el agua a los segadores. Adiós, mujer.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Adiós.<stage>(La <rs key="#madr">madre</rs> se dirige a la puerta de la izquierda. En medio del camino se detiene y lentamente se santigua).</stage></p>
+					</sp>
+					<stage>Telón</stage>
+				</div>
+				<div type="scene" n="2">
+					<head>Cuadro segundo</head>
+					<stage>Habitación pintada de rosa, con cobres y ramos de flores populares. En el centro, una mesa con mantel. Es la mañana.</stage>
+					<stage>(<rs key="#sueg">Suegra de Leonardo</rs> con un niño en brazos. Lo mece. La <rs key="#muje">mujer</rs>, en la otra esquina, hace punto de media).</stage>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+							<lg>
+								<l> Nana, niño, nana</l>
+								<l>del caballo grande</l>
+								<l>que no quiso el agua.</l>
+								<l>El agua era negra</l>
+								<l>dentro de las ramas.</l>
+								<l>Cuando llega al puente</l>
+								<l>se detiene y canta.</l>
+								<l>¿Quién dirá, mi niño,</l>
+								<l>lo que tiene el agua,</l>
+								<l>con su larga cola</l>
+								<l>por su verde sala?</l>
+							</lg>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(Bajo).</stage></p>
+							<lg>
+								<l>Duérmete, clavel,</l>
+								<l>que el caballo no quiere beber.</l>
+							</lg>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+							<lg>
+								<l>Duérmete, rosal,</l>
+								<l>que el caballo se pone a llorar.</l>
+								<l>Las patas heridas,</l>
+								<l>las crines heladas,</l>
+								<l>dentro de los ojos</l>
+								<l>un puñal de plata.</l>
+								<l>Bajaban al río.</l>
+								<l>¡Ay, cómo bajaban!</l>
+								<l>La sangre corría</l>
+								<l>más fuerte que el agua.</l>
+							</lg>
+
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+
+							<lg>
+								<l>Duérmete, clavel,</l>
+								<l>que el caballo no quiere beber.</l>
+							</lg>
+
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+
+							<lg>
+								<l>Duérmete, rosal,</l>
+								<l>que el caballo se pone a llorar.</l>
+							</lg>
+
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+
+							<lg>
+								<l>No quiso tocar la orilla mojada,</l>
+								<l>su belfo caliente</l>
+								<l>con moscas de plata.</l>
+								<l>A los montes duros</l>
+								<l>sólo relinchaba</l>
+								<l>con el río muerto</l>
+								<l>sobre la garganta.</l>
+								<l>¡Ay, caballo grande</l>
+								<l>que no quiso el agua!</l>
+								<l>¡Ay, dolor de nieve,</l>
+								<l>caballo del alba!</l>
+							</lg>
+
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+
+							<lg>
+								<l>¡No vengas! Detente,</l>
+								<l>cierra la ventana</l>
+								<l>con rama de sueños</l>
+								<l>y sueño de ramas.</l>
+							</lg>
+
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+
+							<lg>
+								<l>Mi niño se duerme.</l>
+							</lg>
+
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+
+							<lg>
+								<l>Mi niño se calla.</l>
+							</lg>
+
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+
+							<lg>
+								<l>Caballo, mi niño</l>
+								<l>tiene una almohada.</l>
+							</lg>
+
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+
+							<lg>
+								<l>Su cuna de acero.</l>
+							</lg>
+
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<lg>
+								<l>Su colcha de holanda</l>
+							</lg>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						
+							<lg>
+								<l>Nana, niño, nana.</l>
+							</lg>
+						
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						
+
+							<lg>
+								<l>¡Ay caballo grande que no quiso el agua!</l>
+							</lg>
+
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+
+							<lg>
+								<l>¡No vengas; no entres!</l>
+								<l>Vete a la montaña.</l>
+								<l>Por los valles grises</l>
+								<l>donde está la jaca.</l>
+							</lg>
+
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(Mirando)</stage></p>
+							<lg>
+								<l>Mi niño se duerme</l>
+							</lg>
+
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+
+							<lg>
+								<l>Mi niño descansa.</l>
+							</lg>
+
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(Bajito)</stage></p>
+							<lg>
+								<l>Duérmete, clavel,</l>
+								<l>que el caballo no quiere beber</l>
+							</lg>
+						
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p><stage>(Levantándose y muy bajito)</stage></p>
+							<lg>
+								<l>Duérmete, rosal,</l>
+								<l>que el caballo se pone a llorar</l>
+							</lg>
+							<p><stage>(Entran al niño. Entra <rs key="#leon">Leonardo</rs>)</stage></p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Y el niño?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Se durmió.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Ayer no estuvo bien. Lloró por la noche.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p> <stage>(Alegre)</stage> Hoy está como una dalia. ¿Y tú? ¿Fuiste a casa del herrador?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>De allí vengo. ¿Querrás creer? Llevo más de dos meses poniendo herraduras nuevas al caballo y siempre se le caen. Por lo visto se las arranca con las piedras.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¿Y no será que lo usas mucho?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>No. Casi no lo utilizo.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Ayer me dijeron las vecinas que te habían visto al límite de los llanos.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Quién lo dijo?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Las mujeres que cogen las alcaparras. Por cierto que me sorprendió. ¿Eras tú?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>No. ¿Qué iba a hacer yo allí, en aquel secano?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Eso dije. Pero el caballo estaba reventado de sudar.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Lo viste tú?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>No. Mi madre.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Está con el niño?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Sí. ¿Quieres un refresco de limón?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Con el agua bien fría.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¡Cómo no viniste a comer!…</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Estuve con los medidores del trigo. Siempre entretienen.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker> 
+						<p><stage>(Haciendo el refresco y muy tierna)</stage>¿Y lo pagan a buen precio?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>El justo.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Me hace falta un vestido y al niño una gorra con lazos.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker> 
+						<p><stage>(Levantándose)</stage>Voy a verlo.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Ten cuidado, que está dormido.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p><stage>(Saliendo)</stage>Pero ¿quién da esas carreras al caballo? Está abajo tendido, con los ojos desorbitados como si llegara del fin del mundo.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker> 
+						<p><stage>(Agrio)</stage>Yo.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>Perdona; tuyo es.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(Tímida)</stage> Estuvo con los medidores del trigo.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>Por mí, que reviente. <stage>(Se sienta. Pausa).</stage></p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>El refresco. ¿Está frío?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¿Sabes que piden a mi <rs key="#nova">prima</rs>?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Cuándo?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Mañana. La boda será dentro de un mes. Espero que vendrán a invitarnos.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Serio)</stage>No sé.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>La madre de él creo que no estaba muy satisfecha con el casamiento.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Y quizá tenga razón. Ella es de cuidado.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>No me gusta que penséis mal de una buena muchacha.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>Pero cuando dice eso es porque la conoce. ¿No ves que fue tres años novia suya? <stage>(Con intención).</stage></p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Pero la dejé. <stage>(A su <rs key="#muje">mujer</rs>).</stage> ¿Vas a llorar ahora? ¡Quita! <stage>(Le aparta bruscamente las manos de la cara).</stage> Vamos a ver al niño.</p>
+					</sp>
+					<stage>(Entran abrazados. Aparece la <rs key="much">muchacha</rs>, alegre. Entra corriendo).</stage>
+					<sp who="#much">
+						<speaker>Muchacha</speaker>
+						<p>Señora.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>¿Qué pasa?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha</speaker>
+						<p>Llegó el <rs key="novo">novio</rs> a la tienda y ha comprado todo lo mejor que había.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>¿Vino solo?</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha</speaker>
+						<p>No, con su <rs key="madr">madre</rs>. Seria, alta. <stage>(La imita).</stage> Pero ¡qué lujo!</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>Ellos tienen dinero.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha</speaker>
+						<p>¡Y compraron unas medias caladas! ¡Ay, qué medias! ¡El sueño de las mujeres en medias! Mire usted: una golondrina aquí <stage>(señala al tobillo)</stage>, un barco aquí <stage>(señala la pantorrilla)</stage>, y aquí una rosa <stage>(señala al muslo).</stage></p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>¡Niña!</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha</speaker>
+						<p>¡Una rosa con las semillas y el tallo! ¡Ay! ¡Todo en seda!</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>Se van a juntar dos buenos capitales.</p>
+					</sp>
+					<stage>(Aparecen <rs key="#leon">Leonardo</rs> y su <rs key="#mujer">Mujer</rs>).</stage>
+					<sp who="#much">
+						<speaker>Muchacha</speaker>
+						<p>Vengo a deciros lo que están comprando.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Fuerte)</stage>No nos importa.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Déjala.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>Leonardo, no es para tanto.</p>
+					</sp>
+					<sp who="#much">
+						<speaker>Muchacha</speaker>
+						<p>Usted dispense. <stage>(Se va llorando).</stage></p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>¿Qué necesidad tienes de ponerte a mal con las gentes?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>No le he preguntado su opinión. <stage>(Se sienta).</stage></p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>Está bien. <stage>(Pausa).</stage></p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(A <rs key="#leon">Leonardo</rs>)</stage>
+											¿Qué te pasa? ¿Qué idea te bulle por dentro de la cabeza? No me dejes así, sin saber nada…</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Quita.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>No. Quiero que me mires y me lo digas.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Déjame. <stage>(Se levanta).</stage></p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¿Adónde vas, hijo?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Agrio)</stage>¿Te puedes callar?</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p><stage>(Enérgica a su <rs key="#muje">hija</rs>)</stage>
+											¡Cállate! <stage>(Sale <rs key="#leon">Leonardo</rs>).</stage> ¡El niño!</p>
+					</sp>
+					<stage>(Entra y vuelve a salir con él en brazos. La <rs key="#muje">Mujer</rs> ha permanecido de pie, inmóvil).</stage>
+					<!--SGA ¿quién dice esto, la suegra? Cf. 1ª edición-->
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<lg>
+								<l>Las patas heridas,</l>
+								<l>las crines heladas,</l>
+								<l>dentro de los ojos</l>
+								<l>un puñal de plata.</l>
+								<l>Bajaban al río.</l>
+								<l>¡Ay, cómo bajaban!</l>
+								<l>La sangre corría</l>
+								<l>más fuerte que el agua.</l>
+							</lg>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker> 
+						<p><stage>(Volviéndose lentamente y como soñando).</stage>
+							<lg>
+								<l>Duérmete, clavel</l>
+								<l>que el caballo se pone a beber.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<lg>
+								<l>Duérmete, rosal,</l>
+								<l>que el caballo se pone a llorar.</l>
+							</lg>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<lg>
+								<l>Nana, niño, nana.</l>
+							</lg>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<lg>
+								<l>¡Ay, caballo grande,</l>
+								<l>que no quiso el agua!</l>
+							</lg>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(Dramática).</stage>
+							<lg>
+								<l>¡No vengas, no entres!</l>
+								<l>¡Vete a la montaña!</l>
+								<l>¡Ay, dolor de nieve,</l> <!--SGA Me he perdido, comprobar primera edición-->
+								<l>caballo del alba!</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p><stage>(Llorando)</stage>
+							<lg>
+								<l>Mi niño se duerme…</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker> 
+						<p><stage>(Llorando y acercándose lentamente)</stage>
+							<lg>
+								<l>Mi niño descansa…</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<lg>
+								<l>Duérmete, clavel,</l>
+								<l>que el caballo no quiere beber.</l>
+							</lg>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(Llorando y apoyándose sobre la mesa).</stage></p>
+						<lg>
+							<l>Duérmete, rosal,</l>
+							<l>que el caballo se pone a llorar.</l>
+						</lg>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Cuadro tercero</head>
+					<stage>Interior de la cueva donde vive la <rs key="nova">Novia</rs>. Al fondo, una cruz de grandes flores rosa. Las puertas redondas con cortinas de encaje y lazos rosa<!--SGA rosas?-->. Por las paredes, de material blanco y duro, abanicos redondos, jarros azules y pequeños espejos.</stage>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Pasen… <stage>(Muy afable, llena de hipocresía humilde. Entran el <rs key="#novo">Novio</rs> y su <rs key="#madr">madre</rs>. La <rs key="#madr">madre</rs> viste de raso negro y lleva mantilla de encaje. El <rs key="#novo">novio</rs>, de pana negra con gran cadena de oro).</stage> ¿Se quieren sentar? Ahora vienen. <stage>(Sale).</stage></p>
+					</sp>
+					<stage>(Quedan madre e hijo sentados, inmóviles como estatuas. Pausa larga).</stage>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Traes el reloj?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Sí. <stage>(Lo saca y lo mira).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Tenemos que volver a tiempo. ¡Qué lejos vive esta gente!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Pero estas tierras son buenas.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Buenas; pero demasiado solas. Cuatro horas de camino y ni una casa ni un árbol.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Estos son los secanos.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Tu padre los hubiera cubierto de árboles.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Sin agua?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Ya la hubiera buscado. Los tres años que estuvo casado conmigo plantó diez cerezos. <stage>(Haciendo memoria).</stage> Los tres nogales del molino, toda una viña y una planta que se llama Júpiter, que da flores encarnadas, y se secó. <stage>(Pausa).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Por la <rs key="#nova">novia</rs>).</stage>Debe estar vistiéndose. <stage>(Entra el <rs key="#padr">padre de la novia</rs>. Es anciano, con el cabello blanco reluciente. Lleva la cabeza inclinada. La <rs key="#madr">madre</rs> y el <rs key="#novo">novio</rs> se levantan y se dan las manos en silencio).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>¿Mucho tiempo de viaje?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Cuatro horas. <stage>(Se sientan).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Habéis venido por el camino más largo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Yo estoy ya vieja para andar por las terreras del río.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Se marea. <stage>(Pausa).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Buena cosecha de esparto.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Buena de verdad.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>En mi tiempo, ni esparto daba esta tierra. Ha sido necesario castigarla y hasta llorarla, para que nos dé algo provechoso.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Pero ahora da. No te quejes. Yo no vengo a pedirte nada.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><stage>(Sonriendo).</stage>Tú eres más rica que yo. Las viñas valen un capital. <!--SGA: confirmar con primera edición-->Cada pámpano una moneda de plata. Lo que siento es que las tierras..., ¿entiendes?..., estén separadas. A mí me gusta todo junto. Una espina tengo en el corazón, y es la huertecilla esa metida entre mis tierras, que no me quieren vender por todo el oro del mundo.</p>  
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Eso pasa siempre.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Si pudiéramos con veinte pares de bueyes traer tus viñas aquí y ponerlas en la ladera, ¡qué alegría!…</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Para qué?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Lo mío es de ella y lo tuyo de él. Por eso. Para verlo todo junto, ¡que junto es una hermosura!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Y sería menos trabajo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Cuando yo me muera, vendéis aquello y compráis aquí al lado.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Vender, ¡vender! ¡Bah!; comprar, hija, comprarlo todo. Si yo hubiera tenido hijos hubiera comprado todo este monte hasta la parte del arroyo. Porque no es buena tierra; pero con brazos se la hace buena, y como no pasa gente no te roban los frutos y puedes dormir tranquilo.<stage>(Pausa).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Tú sabes a lo que vengo.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Y qué?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Me parece bien. Ellos lo han hablado.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Mi <rs key="#novo">hijo</rs> tiene y puede.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Mi <rs key="#nova">hija</rs> también.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Mi <rs key="#novo">hijo</rs> es hermoso. No ha conocido mujer. La honra más limpia que una sábana puesta al sol.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Qué te digo de la <rs key="#nova">mía</rs>. Hace las migas a las tres, cuando el lucero. No habla nunca; suave como la lana, borda toda clase de bordados y puede cortar una maroma con los dientes.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Dios bendiga su casa.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Que Dios la bendiga.<stage>(Aparece la criada con dos bandejas. Una con copas y la otra con dulces).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Al <rs key="#novo">hijo</rs>)</stage>¿Cuándo queréis la boda?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>El jueves próximo.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Día en que <rs key="#nova">ella</rs> cumple veintidós años justos.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¡Veintidós años! Esa edad tendría mi hijo mayor si viviera. Que viviría caliente y macho como era, si los hombres no hubieran inventado las navajas.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>En eso no hay que pensar.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Cada minuto, métete la mano en el pecho.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Entonces el jueves. ¿No es así?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Así es.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Los novios y nosotros iremos en coche hasta la iglesia que está muy lejos, y el acompañamiento en los carros y en las caballerías que traigan.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Conformes.<stage>(Pasa la criada).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Dile que ya puede entrar. <stage>(A la <rs key="#madr">madre</rs>).</stage> Celebraré mucho que te guste.
+							<stage>(Aparece la <rs key="#nova">novia</rs>. Trae las manos caídas en actitud modesta y la cabeza baja).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Acércate. ¿Estás contenta?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Sí, señora.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>No debes estar seria. Al fin y al cabo ella va a ser tu madre.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Estoy contenta. Cuando he dado el sí es porque quiero darlo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Naturalmente. <stage>(Le coge la barbilla).</stage> Mírame.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Se parece en todo a mi mujer.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Sí? ¡Qué hermoso mirar! ¿Tú sabes lo que es casarse, criatura?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Seria)</stage> Lo sé.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Un hombre, unos hijos y una pared de dos varas de ancha para todo lo demás.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Es que hace falta otra cosa?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No. Que vivan todos, ¡eso! ¡Que vivan!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Yo sabré cumplir.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Aquí tienes unos regalos.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Gracias.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>¿No tomamos algo?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Yo no quiero. <stage>(Al <rs key="#novo">novio</rs>).</stage> ¿Y tú?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Tomaré. <stage>(Toma un dulce. La <rs key="#nova">novia</rs> toma otro).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><stage>(Al <rs key="#novo">novio</rs>)</stage>¿Vino?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No lo prueba.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>¡Mejor!<stage>(Pausa. Todos están en pie).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio </speaker>
+						<p><stage>(A la <rs key="#nova">novia</rs>)</stage>Mañana vendré.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿A qué hora?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>A las cinco.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Yo te espero.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Cuando me voy de tu lado siento un despego grande y así como un nudo en la garganta.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Cuando seas mi marido ya no lo tendrás.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Eso digo yo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Vamos. El sol no espera. <stage>(Al <rs key="#padr">padre</rs>).</stage> ¿Conformes en todo?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Conformes.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(A la <rs key="#cria">criada</rs>)</stage>Adiós, mujer.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Vayan ustedes con Dios.
+							<stage>(La <rs key="#madr">madr</rs> besa a la <rs key="#nova">novia</rs> y van saliendo en silencio).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(En la puerta)</stage>
+														Adiós, hija. <stage>(La <rs key="#nova">novia</rs> contesta con la mano).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Yo salgo con vosotros. <stage>(Salen).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Que reviento por ver los regalos.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Agria).</stage> Quita.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Ay, niña, enséñamelos.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No quiero.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Siquiera las medias. Dicen que son todas caladas. ¡Mujer!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Ea, que no!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Por Dios. Está bien. Parece como si no tuvieras ganas de casarte.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Mordiéndose la mano con rabia)</stage>¡Ay!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Niña, hija, ¿qué te pasa? ¿Sientes dejar tu vida de reina? No pienses en cosas agrias. ¿Tienes motivo? Ninguno. Vamos a ver los regalos.
+							<stage>(Coge la caja).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Cogiéndola de las muñecas)</stage>
+																Suelta.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Ay, mujer!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Suelta he dicho.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Tienes más fuerza que un hombre.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿No he hecho yo trabajos de hombre? ¡Ojalá fuera!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡No hables así!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Calla he dicho. Hablemos de otro asunto.
+							<stage>(La luz va desapareciendo de la escena. Pausa larga).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿Sentiste anoche un caballo?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿A qué hora?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>A las tres.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Sería un caballo suelto de la manada.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>No. Llevaba jinete.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Por qué lo sabes?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Porque lo vi. Estuvo parado en tu ventana. Me chocó mucho.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿No sería mi <rs key="#novo">novio</rs>? Algunas veces ha pasado a esas horas.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Tú le viste?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Quién era?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Era <rs key="#leon">Leonardo</rs>.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Fuerte)</stage>
+													¡Mentira! ¡Mentira! ¿A qué viene aquí?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Vino.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Cállate! ¡Maldita sea tu lengua!
+							<stage>(Se siente el ruido de un caballo).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(En la ventana)</stage>
+																Mira, asómate. ¿Era?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Era!</p>
+					</sp>
+					<stage>Telón rápido</stage><stage>Fin del acto primero</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Acto segundo</head>
+				<div type="scene" n="1">
+					<head>Cuadro primero</head>
+					<stage>Zaguán de casa de la <rs key="#nova">Novia</rs>. Portón al fondo. Es de noche. La <rs key="#nova">Novia</rs> sale con enaguas blancas encañonadas, llenas de encajes y puntas bordadas y un corpiño blanco, con los brazos al aire. La <rs key="#cria">criada</rs>, lo mismo.</stage>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Aquí te acabaré de peinar.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No se puede estar ahí dentro del calor.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>En estas tierras no refresca ni al amanecer.<stage>(Se sienta la <rs key="#nova">novia</rs> en una silla baja y se mira en un espejito de mano. La <rs key="#cria">criada</rs> la peina).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Mi madre era de un sitio donde había muchos árboles. De tierra rica.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Así era ella de alegre!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Pero se consumió aquí.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>El sino.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Como nos consumimos todas. Echan fuego las paredes. ¡Ay!, no tires demasiado.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Es para arreglarte mejor esta onda. Quiero que te caiga sobre la frente. <stage>(La <rs key="#nova">novia</rs> se mira en el espejo).</stage> Qué hermosa estás. ¡Ay! <stage>(La besa apasionadamente).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Seria).</stage>Sigue peinándome.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(Peinándola)</stage> ¡Dichosa tú que vas a abrazar a un hombre, que lo vas a besar, que vas a sentir su peso!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Calla.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Y lo mejor es, cuando te despiertes y lo sientas al lado y que él te roza los hombros con su aliento, como con una plumilla de ruiseñor.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Fuerte)</stage>¿Te quieres callar?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Pero, niña! ¿Una boda, qué es? Una boda es esto y nada más. ¿Son los dulces? ¿Son los ramos de flores? No. Es una cama relumbrante y un hombre y una mujer.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No se debe decir.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Eso es otra cosa. ¡Pero es bien alegre!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>O bien amargo.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>El azahar te lo voy a poner desde aquí, hasta aquí, de modo que la corona luzca sobre el peinado.<stage>(Le prueba el ramo de azahar)</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Se mira en el espejo)</stage>Trae.<stage>(Coge el azahar y lo mira y deja caer la cabez abatida).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿Qué es esto?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Déjame.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>No son horas de ponerte triste. <stage>(Animosa).</stage> Trae el azahar. <stage>(<rs key="#nova">novia</rs> tira el azahar).</stage> ¡Niña! ¿Qué castigo pides tirando al suelo la corona? ¡Levanta esa frente! ¿Es que no te quieres casar? Dilo. Todavía te puedes arrepentir. <stage>(Se levanta).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Son nublos. Un mal aire en el centro. ¿Quién no lo tiene?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Tú quieres a tu <rs key="#novo">novio</rs> .</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Lo quiero.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Sí, sí, estoy segura.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Pero este es un paso muy grande.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Hay que darlo.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Ya me he comprometido.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Te voy a poner la corona.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Se sienta)</stage> Date prisa, que ya deben ir llegando.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Ya llevarán todos lo menos dos horas de camino.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Cuánto hay de aquí a la iglesia?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Cinco leguas por el arroyo, que por el camino hay el doble.<stage>(La <rs key="#nova">novia</rs> se levanta y la <rs key="#cria">criada</rs> se entusiasma al verla).</stage>
+							<lg>
+								<l>Despierte la novia</l>
+								<l>la mañana de la boda.</l>
+								<l>¡Que los ríos del mundo</l>
+								<l>lleven tu corona!</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p>Vamos.<stage>(Sonriente)</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(La besa entusiasmada y baila alrededor).</stage>
+							<lg>
+								<l>Que despierte con el ramo verde</l>
+								<l>del laurel florido.</l>
+								<l>¡Que despierte</l>
+								<l>por el tronco y la rama</l>
+								<l>de los laureles!</l>
+							</lg>
+							<stage>(Se oyen unos aldabonazos).</stage>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Abre! Deben ser los primeros convidados. <stage>(Entra. La <rs key="#cria">Criada</rs> abre sorprendida).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿Tú?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Yo. Buenos días.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡El primero!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿No me han convidado?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Por eso vengo.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿Y tu <rs key="#muje">mujer</rs>?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Yo vine a caballo. <rs key="#muje">Ella</rs> se acercaba por el camino.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿No te has encontrado a nadie?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Los pasé con el caballo.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Vas a matar al animal con tanta carrera.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¡Cuando se muera, muerto está!<stage>(Pausa).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Siéntate. Todavía no se ha levantado nadie.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Y la <rs key="#nova">novia</rs>?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Ahora mismo la voy a vestir.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¡La <rs key="#nova">novia</rs>! ¡Estará contenta!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker> 
+						<p><stage>(Variando de conversación)</stage>¿Y el niño?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Cuál?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Tu hijo.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Recordando como soñoliento)</stage>¡Ah!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿Lo traen?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>No.<stage>(Pausa. Voces cantando muy lejos).</stage></p>
+					</sp>
+					<sp who="#voce">
+						<speaker>Voces</speaker>
+						<lg>
+								<l>¡Despierte la novia</l>
+								<l>la mañana de la boda!</l>
+							</lg>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<lg>
+								<l>Despierte la novia</l>
+								<l>la mañana de la boda.</l>
+							</lg>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Es la gente. Vienen lejos todavía.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Levantándose)</stage>
+																		¿La <rs key="#nova">novia</rs> llevará una corona grande, no? No debía ser tan grande. Un poco más pequeña le sentaría mejor. ¿Y trajo ya el <rs key="#novo">novio</rs> el azahar que se tiene que poner en el pecho?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Apareciendo todavía en enaguas y con la corona de azahar puesta)</stage>Lo trajo.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(Fuerte)</stage>No salgas así.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Qué más da? <stage>(Seria).</stage> ¿Por qué preguntas si trajeron el azahar? ¿Llevas intención?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Ninguna. ¿Qué intención iba a tener? <stage>(Acercándose).</stage> Tú, que me conoces, sabes que no la llevo. Dímelo. ¿Quién he sido yo para ti? Abre y refresca tu recuerdo. Pero dos bueyes y una mala choza son casi nada. Esa es la espina.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿A qué vienes?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>A ver tu casamiento.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡También yo vi el tuyo!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Amarrado por ti, hecho con tus dos manos. A mí me pueden matar, pero no me pueden escupir. Y la plata, que brilla tanto, escupe algunas veces.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Mentira!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>No quiero hablar, porque soy hombre de sangre y no quiero que todos estos cerros oigan mis voces.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Las mías serían más fuertes.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Estas palabras no pueden seguir. Tú no tienes que hablar de lo pasado. <stage>(La <rs key="#cria">criada</rs> mira a las puertas presa de inquietud).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Tiene razón. Yo no debo hablarte siquiera. Pero se me calienta el alma de que vengas a verme y atisbar mi boda y preguntes con intención por el azahar. Vete y espera a tu <rs key="#muje">mujer</rs> en la puerta.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Es que tú y yo no podemos hablar?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker> 
+						<p><stage>(Con rabia)</stage>No; no podéis hablar.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Después de mi casamiento he pensado noche y día de quién era la culpa, y cada vez que pienso sale una culpa nueva que se come a la otra; ¡pero siempre hay culpa!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Un hombre con su caballo sabe mucho y puede mucho para poder estrujar a una muchacha metida en un desierto. Pero yo tengo orgullo. Por eso me caso. Y me encerraré con mi <rs key="#novo">marido</rs>, a quien tengo que querer por encima de todo.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>El orgullo no te servirá de nada. <stage>(Se acerca).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡No te acerques!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Callar y quemarse es el castigo más grande que nos podemos echar encima. ¿De qué me sirvió a mí el orgullo y el no mirarte y el dejarte despierta noches y noches? ¡De nada! ¡Sirvió para echarme fuego encima! Porque tú crees que el tiempo cura y que las paredes tapan, y no es verdad, no es verdad. ¡Cuando las cosas llegan a los centros, no hay quien las arranque!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Temblando)</stage>No puedo oírte. No puedo oír tu voz. Es como si me bebiera una botella de anís y me durmiera en una colcha de rosas. Y me arrastra, y sé que me ahogo, pero voy detrás.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(Cogiendo a <rs key="#leon">Leonardo</rs> por las solapas)</stage>¡Debes irte ahora mismo!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Es la última vez que voy a hablar con <rs key="#nova">ella</rs>. No temas nada.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Y sé que estoy loca y sé que tengo el pecho podrido de aguantar, y aquí estoy quieta por oírlo, por verlo menear los brazos.</p><!--SGA ¿No falta nada?-->
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>No me quedo tranquilo si no te digo estas cosas. Yo me casé. Cásate tú ahora.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(A <rs key="#leon">Leonardo</rs>)</stage>¡Y se casa!</p>
+					</sp>
+					<sp who="#voce">
+						<speaker>Voces</speaker>
+						<p><stage>(Cantando más cerca).</stage>
+							<lg>
+								<l>Despierte la novia</l>
+								<l>la mañana de la boda.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Despierte la novia!<stage>(Sale corriendo a su cuarto).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Ya está aquí la gente. <stage>(A <rs key="#leon">Leonardo</rs>).</stage> No te vuelvas a acercar a <rs key="#nova">ella</rs>.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Descuida.<stage>(Sale por la izquierda. Empieza a clarear el día).</stage></p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p><stage>(Entrando).</stage></p>
+							<lg>
+								<l>Despierte la novia</l>
+								<l>la mañana de la boda;</l>
+								<l>ruede la ronda</l>
+								<l>y en cada balcón una corona.</l>
+							</lg>
+						
+					</sp>
+					<sp who="#voce">
+						<speaker>Voces</speaker>
+						<p>¡Despierte la novia!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(Moviendo algazara).</stage></p>
+							<lg>
+								<l>Que despierte</l>
+								<l>con el ramo verde</l>
+								<l>del laurel florido.</l>
+								<l>¡Que despierte</l>
+								<l>por el tronco y la rama</l>
+								<l>de los laureles!</l>
+							</lg>
+
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p><stage>(Entrando).</stage></p>
+							<lg>
+								<l>Que despierte</l>
+								<l>con el largo pelo,</l>
+								<l>camisa de nieve,</l>
+								<l>botas de charol y plata</l>
+								<l>y jazmines en la frente.</l>
+							</lg>
+
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<lg>
+								<l>¡Ay, pastora,</l>
+								<l>que la luna asoma!</l>
+							</lg>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<lg>
+								<l>¡Ay, galán,</l>
+								<l>deja tu sombrero por el olivar!</l>
+							</lg>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p><stage>(Entrando con el sombrero en alto).</stage></p>
+							<lg>
+								<l>Despierte la novia</l>
+								<l>que por los campos viene</l>
+								<l>rodando la boda,</l><!--SGA: ¿rodando-->
+								<l>con bandeja de dalias</l>
+								<l>y panes de gloria.</l>
+							</lg>
+
+					</sp>
+					<sp who="#voce">
+						<speaker>Voces</speaker>
+						<p>¡Despierte la novia!</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<lg>
+								<l>La novia</l>
+								<l>se ha puesto su blanca corona,</l>
+								<l>y el novio</l>
+								<l>se la prende con lazos de oro</l>
+							</lg>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<lg>
+								<l>Por el toronjil</l>
+								<l>la novia no puede dormir.</l>
+							</lg>
+					</sp>
+					<sp who="#muc3">
+						<speaker>Muchacha 3</speaker>
+						<p><stage>(Entrando).</stage>
+							<lg>
+								<l>Por el naranjel</l>
+								<l>el novio le ofrece cuchara y mantel.</l>
+							</lg>
+							<stage>(Entran tres convidados).</stage></p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<lg>
+								<l>¡Despierta, paloma!</l>
+								<l>El alba despeja</l>
+								<l>campanas de sombra.</l>
+							</lg>
+					</sp>
+					<sp who="#conv">
+						<speaker>Convidado</speaker>
+						<lg>
+								<l>La novia, la blanca novia,</l>
+								<l>hoy doncella,</l>
+								<l>mañana señora.</l>
+							</lg>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<lg>
+								<l>Baja, morena,</l>
+								<l>arrastrando tu cola de seda.</l>
+							</lg>
+					</sp>
+					<sp who="#conv">
+						<speaker>Convidado</speaker>
+						<lg>
+								<l>Baja, morenita,</l>
+								<l>que llueve rocío la mañana fría.</l>
+							</lg>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<lg>
+								<l>Despertad, señora, despertad,</l>
+								<l>porque viene el aire lloviendo azahar.</l>
+							</lg>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<lg>
+								<l>Un árbol quiero bordarle</l>
+								<l>lleno de cintas granates</l>
+								<l>y en cada cinta un amor</l>
+								<l>con vivas alrededor.</l>
+							</lg>
+					</sp>
+					<sp who="#voce">
+						<speaker>Voces</speaker>
+						<l>Despierte la novia.</l>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>¡La mañana de la boda!</p>
+					</sp>
+					<sp who="#conv">
+						<speaker>Convidado</speaker>
+						<lg>
+								<l>La mañana de la boda</l>
+								<l>qué galana vas a estar;</l>
+								<l>pareces, flor de los montes,</l>
+								<l>la mujer de un capitán.</l>
+							</lg>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><stage>(Entrando).</stage>
+							<lg>
+								<l>La mujer de un capitán</l>
+								<l>se lleva el novio.</l>
+								<l>¡Ya viene con sus bueyes por el tesoro!</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#muc3">
+						<speaker>Muchacha 3</speaker>
+						<lg>
+								<l>El novio</l>
+								<l>parece la flor del oro.</l>
+								<l>Cuando camina,</l>
+								<l>a sus plantas se agrupan las clavelinas.</l>
+							</lg>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Ay mi niña dichosa!</p>
+					</sp>
+					<sp who="#moz2">
+						<speaker>Mozo 2</speaker>
+						<p>Que despierte la novia.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Ay mi galana!</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<lg>
+								<l>La boda está llamando</l>
+								<l>por las ventanas.</l>
+							</lg>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p>Que salga la novia.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¡Que salga, que salga!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<lg>
+								<l>¡Que toque y repiquen</l>
+								<l>las campanas!</l>
+							</lg>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>¡Que viene aquí! ¡Que sale ya!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<lg>
+								<l>¡Como un toro, la boda</l>
+								<l>levantándose está!</l>
+							</lg>
+					</sp>
+					<stage>(Aparece la <rs key="#nova">novia</rs>. Lleva un traje negro mil novecientos, con caderas y larga cola rodeada de gasas plisadas y encajes duros. Sobre el peinado de visera lleva la corona de azahar. Suenan las guitarras. Las muchachas besan a la <rs key="#nova">novia</rs>).</stage>
+					<sp who="#muc3">
+						<speaker>Muchacha 3</speaker>
+						<p>¿Qué esencia te echaste en el pelo?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Riendo)</stage>Ninguna.</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha</speaker>
+						<p><stage>(Mirando el traje)</stage>La tela es de lo que no hay.</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>¡Aquí está el <rs key="#novo">novio</rs>!</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p><stage>(Poniéndole una flor en la oreja).</stage>
+							<lg>
+								<l>El novio</l>
+								<l>parece la flor del oro.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<lg>
+								<l>¡Aires de sosiego</l>
+								<l>le manan los ojos!</l>
+							</lg>
+					</sp>
+					<stage>(El <rs key="#novo">novio</rs> se dirige al lado de la <rs key="#nova">novia</rs>).</stage>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Por qué te pusiste esos zapatos?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Son más alegres que los negros.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer de Leonardo</speaker>
+						<p><stage>(Entrando y besando a la <rs key="#nova">novia</rs>)</stage>
+															¡Salud! <stage>(Hablan todas con algazara).</stage></p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Entrando como quien cumple un deber).</stage>
+							<lg>
+								<l>La mañana de casada</l>
+								<l>la corona te ponemos.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker><!--SGA: Es la mujer de Leonardo, no?-->
+						<lg>
+								<l>¡Para que el campo se alegre</l>
+								<l>con el agua de tu pelo!</l>
+							</lg>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(Al <rs key="#padr">padre</rs>)</stage>
+															¿También están esos aquí?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Son familia. ¡Hoy es día de perdones!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Me aguanto, pero no perdono.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Con la corona da alegría mirarte!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Vámonos pronto a la iglesia!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Tienes prisa?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Sí. Estoy deseando ser tu mujer y quedarme sola contigo, y no oír más voz que la tuya.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Eso quiero yo!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Y no ver más que tus ojos. Y que me abrazaras tan fuerte, que aunque me llamara mi madre, que está muerta, no me pudiera despegar de ti.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Yo tengo fuerza en los brazos. Te voy a abrazar cuarenta años seguidos.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Dramática, cogiéndole del brazo)</stage>¡Vamos pronto! ¡A coger las caballerías y los carros! Que ya ha salido el sol.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¡Que llevéis cuidado! No sea que tengamos mala hora.</p>
+					</sp>
+					<stage>(Se abre el gran portón del fondo. Empiezan a salir).</stage>
+					<sp who="#cria">
+						<speaker>Criada</speaker> 
+						<p><stage>(Llorando).</stage>
+							<lg>
+								<l>Al salir de tu casa,</l>
+								<l>blanca doncella,</l>
+								<l>acuérdate que sales</l>
+								<l>como una estrella…</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>
+							<lg>
+								<l>Limpia de cuerpo y ropa</l>
+								<l>al salir de tu casa para la boda.</l>
+							</lg>
+							<stage>(Van saliendo).</stage>
+						</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<lg>
+								<l>¡Ya sales de tu casa</l>
+								<l>para la iglesia!</l>
+							</lg>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<lg>
+								<l>¡El aire pone flores</l>
+								<l>por las arenas!</l>
+							</lg>
+					</sp>
+					<sp who="#muc3">
+						<speaker>Muchacha 3</speaker>
+						<p>¡Ay la blanca niña!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>
+							<lg>
+								<l>Aire oscuro el encaje</l>
+								<l>de su mantilla.</l>
+							</lg>
+							<stage>(Salen. Se oyen guitarras, palillos y panderetas. Quedan solos <rs key="#leon">Leonardo</rs> y su <rs key="#muje">mujer</rs>).</stage></p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Vamos.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Adónde?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>A la iglesia. Pero no vas en el caballo. Vienes conmigo.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿En el carro?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¿Hay otra cosa?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Yo no soy hombre para ir en carro.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Y yo no soy mujer para ir sin marido en un casamiento. ¡Que no puedo más!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¡Ni yo tampoco!</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¿Por qué me miras así? Tienes una espina en cada ojo.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¡Vamos!</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>No sé lo que pasa. Pero pienso y no quiero pensar. Una cosa sé. Yo ya estoy despachada. Pero tengo un hijo. Y otro que viene. Vamos andando. El mismo sino tuvo mi madre. Pero de aquí no me muevo.<stage>(Voces fuera).</stage></p>
+					</sp>
+					<sp who="#voce">
+						<speaker>Voces</speaker>
+						<lg>
+								<l>¡Al salir de tu casa</l>
+								<l>para la iglesia,</l>
+								<l>acuérdate que sales</l>
+								<l>como una estrella!</l>
+							</lg>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker> 
+						<p><stage>(Llorando).</stage>
+							<lg>
+								<l>¡Acuérdate que sales</l>
+								<l>como una estrella!</l>
+							</lg>
+															Así salí yo de mi casa también. Que me cabía todo el campo en la boca.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Levantándose)</stage>Vamos.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¡Pero conmigo!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Sí. <stage>(Pausa).</stage> ¡Echa a andar! <stage>(Salen).</stage></p>
+					</sp>
+					<sp who="#voce">
+						<speaker>Voces</speaker>
+						<lg>
+								<l>Al salir de tu casa</l>
+								<l>para la iglesia</l>
+								<l>acuérdate que sales</l>
+								<l>como una estrella.</l>
+							</lg>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Cuadro segundo</head>
+					<stage>Exterior de la cueva de la novia. Entonación en blancos grises y azules fríos. Grandes chumberas. Tonos sombríos y plateados. Panoramas de mesetas color barquillo, todo endurecido como paisaje de cerámica popular.</stage>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(Arreglando en una mesa copas y bandejas).</stage>
+							<lg>
+								<l>Giraba,</l>
+								<l>giraba la rueda</l>
+								<l>y el agua pasaba.</l>
+								<l>Porque llega la boda</l>
+								<l>que se aparten las ramas</l>
+								<l>y la luna se adorne</l>
+								<l>por su blanca baranda.</l>
+							</lg>
+							<stage>(En voz alta).</stage>
+																	¡Pon los manteles!
+							<stage>(En voz patética).</stage>
+							<lg>
+								<l>Cantaban,</l>
+								<l>cantaban los novios</l>
+								<l>y el agua pasaba.</l>
+								<l>Porque llega la boda</l>
+								<l>que relumbre la escarcha</l>
+								<l>y se llenen de miel</l>
+								<l>las almendras amargas.</l>
+							</lg>
+							<stage>(En voz alta).</stage>
+																	¡Prepara el vino!
+							<stage>(En voz poética).</stage>
+							<lg>
+								<l>Galana.</l>
+								<l>Galana de la tierra,</l>
+								<l>mira cómo el agua pasa.</l>
+								<l>Porque llega tu boda</l>
+								<l>recógete las faldas</l>
+								<l>y bajo el ala del novio</l>
+								<l>nunca salgas de tu casa.</l>
+								<l>Porque el novio es un palomo</l>
+								<l>con todo el pecho de brasa</l>
+								<l>y espera el campo el rumor</l>
+								<l>de la sangre derramada.</l>
+								<l>Giraba,</l>
+								<l>giraba la rueda</l>
+								<l>y el agua pasaba.</l>
+								<l>¡Porque llega tu boda,</l>
+								<l>deja que relumbre el agua!</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> <p><stage>(Entrando)</stage>
+																		¡Por fin!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>¿Somos los primeros?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>No. Hace rato llegó <rs key="#leon">Leonardo</rs> con su <rs key="#muje">mujer</rs>. Corrieron como demonios. La <rs key="#muje">mujer</rs> llegó muerta de miedo. Hicieron el camino como si hubieran venido a caballo.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><rs key="#leon">Ese</rs> busca la desgracia. No tiene buena sangre.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Qué sangre va a tener? La de toda su familia. Mana de su bisabuelo, que empezó matando y sigue en toda la mala ralea, manejadores de cuchillos y gente de falsa sonrisa.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>¡Vamos a dejarlo!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿Cómo lo va a dejar?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Me duele hasta la punta de las venas. En la frente de todos ellos yo no veo más que la mano con que mataron a lo que era mío. ¿Tú me ves a mí? ¿No te parezco loca? Pues es loca de no haber gritado todo lo que mi pecho necesita. Tengo en mi pecho un grito siempre puesto de pie a quien tengo que castigar y meter entre los mantos. Pero se llevan a los muertos y hay que callar. Luego la gente critica. <stage>(Se quita el manto).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Hoy no es día de que te acuerdes de esas cosas.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Cuando sale la conversación, tengo que hablar. Y hoy más. Porque hoy me quedo sola en mi casa.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>En espera de estar acompañada.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Esa es mi ilusión: los nietos.
+							<stage>(Se sientan).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Yo quiero que tengan muchos. Esta tierra necesita brazos que no sean pagados. Hay que sostener una batalla con las malas hierbas, con los cardos, con los pedruscos que salen no se sabe dónde. Y estos brazos tienen que ser de los dueños, que castiguen y que dominen, que hagan brotar las simientes. Se necesitan muchos hijos.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¡Y alguna hija! ¡Los varones son del viento! Tienen por fuerza que manejar armas. Las niñas no salen jamás a la calle.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker> 
+						<p><stage>(Alegre)</stage>Yo creo que tendrán de todo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Mi hijo la cubrirá bien. Es de buena simiente. Su padre pudo haber tenido conmigo muchos hijos.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Lo que yo quisiera es que esto fuera cosa de un día. Que en seguida tuvieran dos o tres hombres.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Pero no es así. Se tarda mucho. Por eso es tan terrible ver la sangre de una derramada por el suelo. Una fuente que corre un minuto y a nosotros nos ha costado años. Cuando yo llegué a ver a mi hijo, estaba tumbado en mitad de la calle. Me mojé las manos y me la lamí con la lengua. Porque era mía. Tú no sabes lo que es eso. En una custodia de cristal y topacios pondría la tierra empapada por ella.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Ahora tienes que esperar. Mi hija es ancha y tu hijo es fuerte.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Así espero. <stage>(Se levantan).</stage></p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Prepara las bandejas de trigo.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Están preparadas.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(<rs key="#muje">mujer</rs> de Leonardo, entrando)</stage>
+																		¡Que sea para bien!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Gracias.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¿Va a haber fiesta?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Poca. La gente no puede entretenerse.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Ya están aquí!
+							<stage>(Van entrando invitados en alegres grupos. Entran los novios cogidos del brazo. Sale <rs key="#leon">Leonardo</rs>).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>En ninguna boda se vio tanta gente.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Sombría)</stage>
+																		En ninguna.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Fue lucida.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Ramas enteras de familias han venido.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Gente que no salía de su casa.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Tu padre sembró mucho y ahora lo recoges tú.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Hubo primos míos que yo ya no conocía.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Toda la gente de la costa.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Alegre)</stage>
+																		Se espantaban de los caballos.<stage>(Hablan).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p> <stage>(A la <rs key="nova">novia</rs>)</stage>¿Qué piensas?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No pienso en nada.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Las bendiciones pesan mucho. <stage>(Se oyen guitarras).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Como plomo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(Fuerte)</stage>Pero no han de pesar. Ligera como paloma debes ser.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Se queda usted aquí esta noche?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>No. Mi casa está sola.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Debía usted quedarse!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><stage>(A la <rs key="madr">madre</rs>)</stage>
+																		Mira el baile que tienen formado. Bailes de allá de la orilla del mar.<stage>(Sale <rs key="leon">Leonardo</rs> y se sienta. Su <rs key="muje">mujer</rs> detrás de él en actitud rígida).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Son los primos de mi marido. Duros como piedras para la danza.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Me alegra el verlos. ¡Qué cambio para esta casa! <stage>(Se va).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> <p><stage>(A la <rs key="nova">novia</rs>)</stage>
+																		¿Te gustó el azahar?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Mirándole fija)</stage>Sí.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Es todo de cera. Dura siempre. Me hubiera gustado que llevaras en todo el vestido.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No hace falta.<stage>(Mutis de <rs key="leon">Leonardo</rs> por la derecha).</stage></p>	
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>Vamos a quitarle los alfileres.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Al <rs key="novo">novio</rs>)</stage>Ahora vuelvo.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¡Que seas feliz con mi <rs key="nova">prima</rs>!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novio</speaker>
+						<p>Tengo seguridad.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Aquí los dos; sin salir nunca y a levantar la casa. ¡Ojalá yo viviera también así de lejos!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Por qué no compráis tierras? El monte es barato y los hijos se crían mejor.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>No tenemos dinero. ¡Y con el camino que llevamos!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Tu <rs key="leon">marido</rs> es un buen trabajador.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Sí, pero le gusta volar demasiado. Ir de una cosa a otra. No es hombre tranquilo.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿No tomáis nada? Te voy a envolver unos roscos de vino para tu <rs key="madr">madre</rs>, que a ella le gustan mucho.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Ponle tres docenas.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>No, no. Con media tiene bastante.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Un día es un día.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker> 
+						<p><stage>(A la <rs key="cria">criada</rs>)</stage>¿Y Leonardo?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>No lo vi.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Debe estar con la gente.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¡Voy a ver!<stage>(Se va).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Aquello está hermoso.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Y tú no bailas?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>No hay quien me saque.<stage>(Pasan al fondo dos muchachas; durante todo este acto el fondo será un animado cruce de figuras).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Alegre)</stage> Eso se llama no entender. Las viejas frescas como tú bailan mejor que las jóvenes.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Pero, ¿vas a echarme requiebros, niño? ¡Qué familia la tuya! ¡Machos entre los machos! Siendo niña vi la boda de tu abuelo. ¡Qué figura! Parecía como si se casara un monte.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Yo tengo menos estatura.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Pero el mismo brillo en los ojos. ¿Y la <rs key="nova">niña</rs>?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Quitándose la toca.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Ah! Mira. Para la media noche, como no dormiréis, os he preparado jamón, y unas copas grandes de vino antiguo. En la parte baja de la alacena. Por si lo necesitáis.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Sonriente)</stage>No como a media noche.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p><stage>(Con malicia)</stage>
+																		Si tú no, la <rs key="nova">novia</rs>. <stage>(Se va).</stage></p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker> 
+						<p><stage>(Entrando)</stage>¡Tienes que beber con nosotros!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Estoy esperando a la <rs key="nova">novia</rs>.</p>
+					</sp>
+					<sp who="#moz2">
+						<speaker>Mozo 2</speaker>
+						<p>¡Ya la tendrás en la madrugada!</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>¡Que es cuando más gusta!</p>
+					</sp>
+					<sp who="#moz2">
+						<speaker>Mozo 2</speaker>
+						<p>Un momento.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Vamos.<stage>
+																			(Salen. Se oye gran algazara. Sale la <rs key="nova">novia</rs>. Por el lado opuesto salen dos muchachas corriendo a encontrarla).
+							</stage></p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¿A quién diste el primer alfiler, a mí, o a esta?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No me acuerdo.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>A mí me lo diste aquí.</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p>A mí delante del altar.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Inquieta y con una gran lucha interior)</stage> No sé nada.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>Es que yo quisiera que tú…</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Interrumpiendo)</stage> Ni me importa. Tengo mucho que pensar.</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p>Perdona.<stage> (<rs key="leon">Leonardo</rs> cruza el fondo).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Ve a <rs key="leon">Leonardo</rs>)</stage>)
+																		Y estos momentos son agitados.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¡Nosotras no sabemos nada!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Ya lo sabréis cuando os llegue la hora. Estos pasos son pasos que cuestan mucho.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¿Te ha disgustado?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No. Perdonad vosotras.</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p>¿De qué? Pero los dos alfileres sirven para casarse, ¿verdad?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Los dos.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>Ahora que una se casa antes que otra.</p><!--SGA: no se entiende-->
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Tantas ganas tenéis?</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha2</speaker>
+						<p><stage>(Vergonzosa)</stage>Sí.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Para qué?</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>Pues… <stage>(Abrazando a la  <rs key="muc2">segunda</rs>)</stage><stage>)(Echan a correr las dos. Llega el <rs key="novo">novio</rs> y muy despacio abraza a la <rs key="nova">novia</rs> por detrás).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Con gran sobresalto)</stage>¡Quita!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Te asustas de mí?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Ay! ¿Eras tú?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Quién iba a ser? <stage>(Pausa).</stage> Tu padre o yo.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Es verdad!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Ahora que tu padre te hubiera abrazado más blando.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Sombría)</stage>¡Claro!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(La abraza fuertemente de modo un poco brusco)</stage>Porque es viejo.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Seca)</stage>¡Déjame!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Por qué? <stage>(La deja).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Pues… la gente. Pueden vernos. <stage>(Vuelve a cruzar el fondo la <rs key="cria">criada</rs>, que no mira a los novios).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Y qué? Ya es sagrado.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Sí, pero déjame… Luego.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Qué tienes? ¡Estás como asustada!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>No tengo nada. No te vayas. <stage>(Sale la <rs key="muje">mujer</rs> de Leonardo)</stage></p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>No quiero interrumpir.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Dime.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¿Pasó por aquí mi <rs key="leon">marido</rs>?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Es que no lo encuentro, y el caballo no está tampoco en el establo.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Alegre)</stage> Debe estar dándole una carrera.<stage>(Se va la <rs key="muje">mujer</rs> inquieta. Sale la <rs key="cria">criada</rs>).</stage></p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿No andáis satisfechos de tanto saludo?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Ya estoy deseando que esto acabe. La <rs key="nova">novia</rs> está un poco cansada.</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¿Qué es eso, niña?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Tengo como un golpe en las sienes!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>Una novia de estos montes debe ser fuerte. <stage>(Al <rs key="novo">novio</rs>).</stage> Tú eres el único que la puedes curar, porque tuya es.<stage>(Sale corriendo).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Abrazándola)</stage>Vamos un rato al baile.<stage>(La besa).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(Angustiada)</stage> No. Quisiera echarme en la cama un poco.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Yo te haré compañía.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Nunca! ¿Con toda la gente aquí? ¿Qué dirían? Déjame sosegar un momento.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Lo que quieras! ¡Pero no estés así por la noche!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker> 
+						<p><stage>(En la puerta)</stage> A la noche estaré mejor.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Que es lo que yo quiero!<stage>(Aparece la <rs key="madr">madre</rs>).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Hijo.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Dónde anda usted?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>En todo ese ruido. ¿Estás contento?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Sí.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Y tu mujer?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Descansa un poco. ¡Mal día para las novias!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Mal día? El único bueno. Para mí fue como una herencia. <stage>(Entra la <rs key="cria">criada</rs> y se dirige al cuarto de la <rs key="nova">novia</rs>).</stage> Es la roturación de las tierras, la plantación de árboles nuevos.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Usted se va a ir?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Sí. Yo tengo que estar en mi casa.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Sola.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Sola no. Que tengo la cabeza llena de cosas y de hombres y de luchas.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Pero luchas que ya no son luchas.<stage>(Sale la <rs key="cria">criada</rs> rápidamente; desaparece corriendo por el fondo).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Mientras una vive, lucha.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Siempre la obedezco!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Con tu <rs key="nova">mujer</rs> procura estar cariñoso, y si la notas infatuada o arisca, hazle una caricia que le produzca un poco de daño, un abrazo fuerte, un mordisco y luego un beso suave. Que ella no pueda disgustarse, pero que sienta que tú eres el macho, el amo, el que mandas. Así aprendí de tu padre. Y como no lo tienes, tengo que ser yo la que te enseñe estas fortalezas.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Yo siempre haré lo que usted mande.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker> 
+						<p><stage>(Entrando)</stage> ¿Y mi hija?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Está dentro.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¡Vengan los novios, que vamos a bailar la rueda!</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker> 
+						<p><stage>(Saliendo)</stage> Tú la vas a dirigir.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><stage>(Saliendo)</stage>¡Aquí no está!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿No?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>Debe haber subido a la baranda.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Voy a ver! <stage>(Entra)</stage> <stage>(Se oye algazara y guitarras).</stage></p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¡Ya han empezado!<stage>(Sale).</stage></p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Saliendo)</stage>No está.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(Inquieta)</stage>¿No?</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>¿Y a dónde pudo haber ido?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker> 
+						<p><stage>(Entrando)</stage>¿Y la niña, dónde está?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(Seria)</stage> No lo sabemos.</p>
+					</sp>
+					<stage>(Sale el <rs key="novo">novio</rs>. Entran tres invitados). </stage>
+					<sp who="#padr">
+						<speaker>Padre</speaker> 
+						<p><stage>(Dramático)</stage> Pero, ¿no está en el baile?</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>En el baile no está.</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><stage>(Con arranque)</stage> Hay mucha gente. ¡Mirad!</p>
+					</sp>
+					<sp who="#cria">
+						<speaker>Criada</speaker>
+						<p>¡Ya he mirado!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p><stage>(Trágico)</stage> ¿Pues dónde está?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Entrando)</stage> Nada. En ningún sitio.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(Al<rs key="padr">padre</rs>)</stage>¿Qué es esto? ¿Dónde está tu <rs key="nova">hija</rs>?</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p><stage>(Entra la <rs key="muje">mujer</rs> de Leonardo).</stage>¡Han huido! ¡Han huido! <rs key="nova">Ella</rs> y <rs key="leon">Leonardo</rs>. En el caballo. ¡Iban abrazados, como una exhalación!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>¡No es verdad! ¡Mi <rs key="nova">hija</rs>, no!</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¡Tu <rs key="nova">hija</rs>, sí! Planta de mala madre y él, también él. ¡Pero ya es la mujer de mi hijo!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Entrando)</stage>¡Vamos detrás! ¿Quién tiene un caballo?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>¿Quién tiene un caballo ahora mismo, quién tiene un caballo?, que le daré todo lo que tengo, mis ojos y hasta mi lengua…</p>
+					</sp>
+					<sp who="#voz">
+						<speaker>Voz</speaker>
+						<p>Aquí hay uno.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(Al <rs key="novo">hijo</rs>)</stage>¡Anda! ¡Detrás! <stage>(Sale con dos mozos.)</stage>No. No vayas. Esa gente mata pronto y bien… ¡pero sí, corre, y yo detrás!</p>
+					</sp>
+					<sp who="#padr">
+						<speaker>Padre</speaker>
+						<p>No será ella. Quizá se haya tirado al aljibe.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Al agua se tiran las honradas, las limpias; ¡esa, no! Pero ya es mujer de mi hijo. Dos bandos. Aquí hay ya dos bandos. <stage>(Entran todos).</stage> Mi familia y la tuya. Salid todos de aquí. Limpiarse el polvo de los zapatos. Vamos a ayudar a mi hijo. <stage>(La gente se separa en dos grupos).</stage> Porque tiene gente; que son sus primos del mar y todos los que llegan de tierra adentro. ¡Fuera de aquí! Por todos los caminos. Ha llegado otra vez la hora de la sangre. Dos bandos. Tú con el tuyo y yo con el mío. ¡Atrás! ¡Atrás!</p>
+					</sp>
+					<stage>Telón </stage>
+					<stage>Fin del acto segundo</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Acto tercero</head>
+				<div type="scene" n="1">
+					<head>Cuadro primero</head>
+					<stage>Bosque. Es de noche. Grandes troncos húmedos. Ambiente oscuro. Se oyen dos violines.</stage>
+					<stage>(Salen tres leñadores).</stage>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>¿Y los han encontrado?</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>No. Pero los buscan por todas partes.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>Ya darán con ellos.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>¡Chissss!</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Parece que se acercan por todos los caminos a la vez.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Cuando salga la luna los verán.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Debían dejarlos.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>El mundo es grande. Todos pueden vivir en él.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>Pero los matarán.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Hay que seguir la inclinación; han hecho bien en huir.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Se estaban engañando uno a otro y al fin la sangre pudo más.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>¡La sangre!</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Hay que seguir el camino de la sangre.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Pero sangre que ve la luz se la bebe la tierra.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>¿Y qué? Vale más ser muerto desangrado que vivo con ella podrida.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>Callar.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>¿Qué? ¿Oyes algo?</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>Oigo los grillos, las ranas, el acecho de la noche.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Pero el caballo no se siente.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Ahora la estará queriendo.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>El cuerpo de <rs key="#nova">ella</rs> era para él y el cuerpo de <rs key="#leon">él</rs> para ella.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>Los buscarán y los matarán.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Pero ya habrán mezclado sus sangres y serán como dos cántaros vacíos, como dos arroyos secos.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Hay muchas nubes y será fácil que la luna no salga.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>El <rs key="#novo">novio</rs> los encontrará con luna o sin luna. Yo lo vi salir. Como una estrella furiosa. La cara color ceniza. Expresaba el sino de su casta.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Su casta de muertos en mitad de la calle.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>¡Eso es!</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>¿Crees que ellos lograrán romper el cerco?</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Es difícil. Hay cuchillos y escopetas a diez leguas a la redonda.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p><rs key="#leon">Él</rs> lleva un buen caballo.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Pero lleva una mujer.</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>Ya estamos cerca.</p>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Un árbol de cuarenta ramas. Lo cortaremos pronto.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>Ahora sale la luna. Vamos a darnos prisa.</p>
+					</sp>
+					<stage>(Por la izquierda surge una claridad)</stage>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<lg>
+								<l>¡Ay luna que sales!</l>
+								<l>Luna de las hojas grandes.</l>
+							</lg>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>¡Llena de jazmines la sangre!</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<lg>
+								<l>¡Ay luna sola!</l>
+								<l>¡Luna de las verdes hojas!</l>
+							</lg>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>Plata en la cara de la novia.</p>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<lg>
+								<l>¡Ay luna mala!</l>
+								<l>Deja para el amor la oscura rama</l>
+							</lg>
+					</sp>  
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<p>
+							<lg>
+								<l>¡Ay triste luna!</l>
+								<l>¡Deja para el amor la rama oscura</l>
+							</lg>
+							<stage>(Salen. Por la claridad de la izquierda aparece la luna. La luna es un leñador joven con la cara blanca. La escena adquiere un vivo resplandor azul).</stage></p>
+					</sp>
+					<sp who="#luna">
+						<speaker>Luna</speaker>
+						<lg>
+								<l>Cisne redondo en el río,</l>
+								<l>ojo de las catedrales,</l>
+								<l>alba fingida en las hojas</l>
+								<l>soy; ¡no podrán escaparse!</l>
+								<l>¿Quién se oculta? ¿Quién solloza</l>
+								<l>por la maleza del valle?</l>
+								<l>La luna deja un cuchillo</l>
+								<l>abandonado en el aire,</l>
+								<l>que siendo acecho de plomo</l>
+								<l>quiere ser dolor de sangre.</l>
+								<l>¡Dejadme entrar! ¡Vengo helada</l>
+								<l>por paredes y cristales!</l>
+								<l>¡Abrir tejados y pechos</l>
+								<l>donde pueda calentarme!</l>
+								<l>¡Tengo frío! Mis cenizas</l>
+								<l>de soñolientos metales,</l>
+								<l>buscan la cresta del fuego</l>
+								<l>por los montes y las calles.</l>
+								<l>Pero me lleva la nieve</l>
+								<l>sobre su espalda de jaspe,</l>
+								<l>y me anega, dura y fría,</l>
+								<l>el agua de los estanques.</l>
+								<l>Pues esta noche tendrán</l>
+								<l>mis mejillas roja sangre,</l>
+								<l>y los juncos agrupados</l>
+								<l>en los anchos pies del aire.</l>
+								<l>¡No haya sombra ni emboscada,</l>
+								<l>que no puedan escaparse!</l>
+								<l>¡Que quiero entrar en un pecho</l>
+								<l>para poder calentarme!</l>
+								<l>¡Un corazón para mí!</l>
+								<l>¡Caliente!, que se derrame</l>
+								<l>por los montes de mi pecho;</l>
+								<l>dejadme entrar, ¡ay, dejadme!</l>
+							</lg>
+							<stage>(A las ramas).</stage>
+							<lg>
+								<l>No quiero sombras. Mis rayos</l>
+								<l>han de entrar en todas partes,</l>
+								<l>y haya en los troncos oscuros</l>
+								<l>un rumor de claridades,</l>
+								<l>para que esta noche tengan</l>
+								<l>mis mejillas dulce sangre,</l>
+								<l>y los juncos agrupados</l>
+								<l>en los anchos pies del aire.</l>
+								<l>¿Quién se oculta? ¡Afuera digo!</l>
+								<l>¡No! ¡No podrán escaparse!</l>
+								<l>Yo haré lucir al caballo</l>
+								<l>una fiebre de diamante.</l>
+							</lg>
+					</sp>
+					<stage>(Desaparece entre los troncos, y vuelve la escena a su luz oscura. Sale una <rs key="#mend">anciana</rs> totalmente cubierta por tenues paños verdeoscuro. Lleva los pies descalzos. Apenas si se le verá el rostro entre los pliegues. Este personaje no figura en el reparto<!--SGA: Curioso, ¿no? ¿Se respeta?-->).</stage>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>
+							<lg>
+								<l>Esa luna se va, y ellos se acercan</l>
+								<l>De aquí no pasan. El rumor del río</l>
+								<l>apagará con el rumor de troncos</l>
+								<l>el desgarrado vuelo de los gritos.</l>
+								<l>Aquí ha de ser, y pronto. Estoy cansada.</l>
+								<l>Abren los cofres, y los blancos hilos</l>
+								<l>aguardan por el suelo de la alcoba</l>
+								<l>cuerpos pesados con el cuello herido.</l>
+								<l>No se despierte un pájaro y la brisa,</l>
+								<l>recogiendo en su falda los gemidos,</l>
+								<l>huya con ellos por las negras copas</l>
+								<l>o los entierre por el blando limo.</l>
+								<l>¡Esa luna, esa luna!</l>
+							</lg>
+							<stage>(Impaciente).</stage>
+																								¡Esa luna, esa luna!</p>
+					</sp>
+					<stage>(Aparece la <rs key="#luna">luna</rs>. Vuelve la luz azul intensa).</stage>
+					<sp who="#luna">
+						<speaker>Luna</speaker>
+						<p>
+							<lg>
+								<l>Ya se acercan</l>
+								<l>Unos por la cañada y el otro por el río. </l>
+							</lg>
+																								Voy a alumbrar las piedras. ¿Qué necesitas?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>Nada.</p>
+					</sp>
+					<sp who="#luna">
+						<speaker>Luna</speaker>
+						<p>El aire va llegando duro, con doble filo.</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<lg>
+								<l>Ilumina el chaleco y aparta los botones,</l>
+								<l>que después las navajas ya saben el camino.</l>
+							</lg>
+					</sp>    
+					<sp who="#luna">
+						<speaker>Luna</speaker>
+						<p>
+							<lg>
+								<l>Pero que tarden mucho en morir</l>
+								<l>Que la sangre</l>
+								<l>me ponga entre los dedos su delicado silbo.</l>
+								<l>¡Mira que ya mis valles de ceniza despiertan</l>
+								<l>en ansia de esta fuente de chorro estremecido!</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>No dejemos que pasen el arroyo. ¡Silencio!</p>
+					</sp>
+					<sp who="#luna">
+						<speaker>Luna</speaker>
+						<p>¡Allí vienen!<stage> (Se va. Queda la escena oscura)</stage></p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<lg>
+								<l>De prisa. ¡Mucha luz! ¿Me has oído?</l>
+								<l>¡No pueden escaparse!</l>
+							</lg>
+					</sp>
+					<stage>(Entran el <rs key="#novo">novio</rs> y <rs key="#moz1">mozo 1</rs>. La <rs key="#mend">mendiga</rs> se sienta y se tapa con el manto).</stage>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Por aquí.</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>No los encontrarás.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Enérgico)</stage>¡Sí los encontraré!</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>Creo que se han ido por otra vereda.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>No. Yo sentí hace un momento el galope.</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>Sería otro caballo.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p><stage>(Dramático)</stage> Oye. No hay más que un caballo en el mundo, y es este. ¿Te has enterado? Si me sigues, sígueme sin hablar.</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>Es que quisiera…</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Calla. Estoy seguro de encontrármelos aquí. ¿Ves este brazo? Pues no es mi brazo. Es el brazo de mi hermano y el de mi padre y el de toda mi familia que está muerta. Y tiene tanto poderío, que puede arrancar este árbol de raíz si quiere. Y vamos pronto, que siento los dientes de todos los míos clavados aquí de una manera que se me hace imposible respirar tranquilo.</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p><stage>(Quejándose)</stage>
+																								¡Ay!</p>
+					</sp>
+					<sp who="#moz1">
+						<speaker>Mozo 1</speaker>
+						<p>¿Has oído?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Vete por ahí y da la vuelta.</p>
+					</sp>
+					<sp who="#mozo">
+						<speaker>Mozo 1</speaker>
+						<p>Esto es una caza.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Una caza. La más grande que se puede hacer.</p>
+					</sp>
+					<stage>(Se va el <rs key="#moz1">Mozo 1</rs>. El <rs key="#novo">novio</rs> se dirige rápidamente hacia la izquierda y tropieza con la <rs key="#mend">mendiga</rs>. La muerte).</stage>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>¡Ay!</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Qué quieres?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>Tengo frío.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Adónde te diriges?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker> 
+						<p><stage>(Siempre quejándose como una mendiga)</stage>Allá lejos.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿De dónde vienes?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>De allí…, de muy lejos.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¿Viste un hombre y una mujer que corrían montados en un caballo?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p><stage>(Despertándose)</stage> Espera… <stage>(Lo mira).</stage> Hermoso galán. <stage>(Se levanta).</stage> Pero mucho más hermoso si estuviera dormido.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>Dime, contesta, ¿los viste?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>Espera… ¡Qué espaldas más anchas! ¿Cómo no te gusta estar tendido sobre ellas y no andar sobre las plantas de los pies, que son tan chicas?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Zamarreándola<!--SGA: comprobar primera edición-->)</stage>¡Te digo si los viste! ¿Han pasado por aquí?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p><stage>(Enérgica)</stage>
+																								No han pasado; pero están saliendo de la colina. ¿No los oyes?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>¿Tú no conoces el camino?</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker>
+						<p>¡Iré sea como sea!</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker>
+						<p>Te acompañaré. Conozco esta tierra.</p>
+					</sp>
+					<sp who="#novo">
+						<speaker>Novio</speaker> 
+						<p><stage>(Impaciente)</stage>¡Pero vamos! ¿Por dónde?</p>
+					</sp>
+					<sp who="#mend">
+						<speaker>Mendiga</speaker> 
+						<p><stage>(Dramática)</stage>¡Por allí!</p>
+					</sp>
+					<stage>(Salen rápidos. Se oyen lejanos dos violines que expresan el bosque. Vuelven los leñadores<!--SGA: ¿Cómo se marcan los personajes colectivos?-->. Llevan las hachas al hombro. Pasan lentos entre los troncos).</stage>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<lg>
+								<l>¡Ay muerte que sales!</l>
+								<l>Muerte de las hojas grandes.</l>
+							</lg>
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<p>¡No abras el chorro de la sangre!</p>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador 1</speaker>
+						<lg>
+								<l>¡Ay muerte sola!</l>
+								<l>Muerte de las secas hojas.</l>
+							</lg>
+					</sp>
+					<sp who="#len3">
+						<speaker>Leñador 3</speaker>
+						<p>¡No cubras de flores la boda!</p><!--SGA: verso o prosa? Confirmar con edición -->
+					</sp>
+					<sp who="#len2">
+						<speaker>Leñador 2</speaker>
+						<lg>
+								<l>¡Ay triste muerte!</l>
+								<l>Deja para el amor la rama verde.</l>
+							</lg>
+					</sp>
+					<sp who="#len1">
+						<speaker>Leñador</speaker>
+						<lg>
+								<l>¡Ay muerte mala!</l>
+								<l>¡Deja para el amor la verde rama!</l>
+							</lg>
+					</sp>
+					<stage>(Van saliendo mientras hablan. Aparecen <rs key= "leon">Leonardo</rs> y la <rs key= "nova">novia</rs>).</stage>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¡Calla!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<lg><!-->SGA: ¿es un poema? Comprobar con la primera edición-->
+								<l>Desde aquí yo me iré sola</l>
+								<l>¡Vete! Quiero que te vuelvas.</l>
+							</lg>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>¡Calla, digo!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<lg>
+								<l>Con los dientes, con las manos, como puedas,</l>
+								<l>quita de mi cuello honrado</l>
+								<l>el metal de esta cadena,</l>
+								<l>dejándome arrinconada</l>
+								<l>allá en mi casa de tierra.</l>
+								<l>Y si no quieres matarme</l>
+								<l>como a víbora pequeña,</l>
+								<l>pon en mis manos de novia</l>
+								<l>el cañón de la escopeta.</l>
+								<l>¡Ay, qué lamento, qué fuego</l>
+								<l>me sube por la cabeza!</l>
+								<l>¡Qué vidrios se me clavan en la lengua!</l>
+							</lg>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<lg>
+								<l>Ya dimos el paso; ¡calla!,</l>
+								<l>porque nos persiguen cerca</l>
+								<l>y te he de llevar conmigo.</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Pero ha de ser a la fuerza!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<lg>
+								<l>¿A la fuerza? ¿Quién bajó</l>
+								<l>primero las escaleras?</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Yo las bajé.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<lg>
+								<l>¿Quién le puso</l>
+								<l>al caballo bridas nuevas?</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Yo misma. Verdad.</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<lg>
+								<l>¿Y qué manos</l>
+								<l>me calzaron las espuelas?</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<lg>
+								<l>Estas manos, que son tuyas,</l>
+								<l>pero que al verte quisieran</l>
+								<l>quebrar las ramas azules</l>
+								<l>y el murmullo de tus venas.</l>
+								<l>¡Te quiero! ¡Te quiero! ¡Aparta!</l>
+								<l>Que si matarte pudiera,</l>
+								<l>te pondría una mortaja</l>
+								<l>con los filos de violetas.</l>
+								<l>¡Ay, qué lamento, qué fuego</l>
+								<l>me sube por la cabeza!</l>
+							</lg>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<lg>
+								<l>¡Qué vidrios se me clavan en la lengua!</l>
+								<l>Porque yo quise olvidar</l>
+								<l>y puse un muro de piedra</l>
+								<l>entre tu casa y la mía.</l>
+								<l>Es verdad. ¿No lo recuerdas?</l>
+								<l>Y cuando te vi de lejos</l>
+								<l>me eché en los ojos arena.</l>
+								<l>Pero montaba a caballo</l>
+								<l>y el caballo iba a tu puerta.</l>
+								<l>Con alfileres de plata</l>
+								<l>mi sangre se puso negra,</l>
+								<l>y el sueño me fue llenando</l>
+								<l>las carnes de mala hierba.</l>
+								<l>Que yo no tengo la culpa,</l>
+								<l>que la culpa es de la tierra</l>
+								<l>y de ese olor que te sale</l>
+								<l>de los pechos y las trenzas.</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<lg>
+								<l>¡Ay qué sinrazón! No quiero</l>
+								<l>contigo cama ni cena,</l>
+								<l>y no hay minuto del día</l>
+								<l>que estar contigo no quiera,</l>
+								<l>porque me arrastras y voy,</l>
+								<l>y me dices que me vuelva</l>
+								<l>y te sigo por el aire</l>
+								<l>como una brizna de hierba.</l>
+								<l>He dejado a un hombre duro</l>
+								<l>y a toda su descendencia</l>
+								<l>en la mitad de la boda</l>
+								<l>y con la corona puesta.</l>
+								<l>Para ti será el castigo</l>
+								<l>y no quiero que lo sea.</l>
+								<l>¡Déjame sola! ¡Huye tú!</l>
+								<l>No hay nadie que te defienda.</l>
+							</lg>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>
+							<lg>
+								<l>Pájaros de la mañana</l>
+								<l>por los árboles se quiebran.</l>
+								<l>La noche se está muriendo</l>
+								<l>en el filo de la piedra.</l>
+								<l>Vamos al rincón oscuro,</l>
+								<l>donde yo siempre te quiera,</l>
+								<l>que no me importa la gente,</l>
+								<l>ni el veneno que nos echa.</l>
+							</lg>
+							<stage>(La abraza fuertemente).</stage>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<lg>
+								<l>Y yo dormiré a tus pies</l>
+								<l>para guardar lo que sueñas.</l>
+								<l>Desnuda, mirando al campo,</l>
+							</lg>
+							<stage>(Dramática).</stage>
+							<lg>
+								<l>como si fuera una perra,</l>
+								<l>¡porque eso soy! Que te miro</l>
+								<l>y tu hermosura me quema.</l>
+							</lg>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>
+							<lg>
+								<l>Se abrasa lumbre con lumbre</l>
+								<l>La misma llama pequeña</l>
+								<l>mata dos espigas juntas.</l>
+							</lg>
+																								¡Vamos!<stage>(La arrastra).</stage>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Adónde me llevas?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<lg>
+								<l>Adonde no puedan ir</l>
+								<l>estos hombres que nos cercan.</l>
+								<l>¡Donde yo pueda mirarte!</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(Sarcástica).</stage>
+							<lg>
+								<l>Llévame de feria en feria,</l>
+								<l>dolor de mujer honrada,</l>
+								<l>a que las gentes me vean</l>
+								<l>con las sábanas de boda</l>
+								<l>al aire, como banderas.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>
+							<lg>
+								<l>También yo quiero dejarte</l>
+								<l>si pienso como se piensa.</l>
+								<l>Pero voy donde tú vas.</l>
+								<l>Tú también. Da un paso. Prueba</l>
+								<l>Clavos de luna nos funden</l>
+								<l>mi cintura y tus caderas.</l>
+							</lg>
+							<stage>(Toda esta escena es violenta, llena de gran sensualidad).</stage>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¿Oyes?</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Viene gente.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<lg>
+								<l>¡Huye!</l>
+								<l>Es justo que yo aquí muera</l>
+								<l>con los pies dentro del agua,</l>
+								<l>espinas en la cabeza.</l>
+								<l>Y que me lloren las hojas,</l>
+								<l>mujer perdida y doncella.</l>
+							</lg>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>Cállate. Ya suben.</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Vete!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p>
+							<lg><!--SGA: ¿poema?-->
+								<l>Silencio. Que no nos sientan</l>
+								<l>Tú delante. ¡Vamos, digo!</l>
+							</lg>
+							<stage>(Vacila la <rs key= "nova">novia</rs>).</stage>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Los dos juntos!</p>
+					</sp>
+					<sp who="#leon">
+						<speaker>Leonardo</speaker>
+						<p><stage>(Abrazándola).</stage>
+							<lg><!--SGA: ¿poema?-->
+								<l>¡Como quieras!</l>
+								<l>Si nos separan,</l>
+								<l>será porque esté muerto.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Y yo muerta.</p>
+					</sp>
+					<stage>(Salen abrazados).</stage><stage>(Aparece la luna muy despacio. La escena adquiere una fuerte luz azul. Se oyen los dos violines. Bruscamente se oyen dos largos gritos desgarrados, y se corta la música de los violines. Al segundo grito aparece la <rs key= "luna">mendiga</rs> y queda de espaldas. Abre el manto y queda en el centro como un gran pájaro de alas inmensas. La luna se detiene. El telón baja en medio de un silencio absoluto).</stage>
+					<stage>Telón</stage>
+				</div>
+				<div type="scene" n="2">
+					<head>Cuadro último</head>
+					<stage>Habitación blanca con arcos y gruesos muros. A la derecha y a la izquierda escaleras blancas. Gran arco al fondo y pared del mismo color. El suelo será también de un blanco reluciente. Esta habitación simple tendrá un sentido monumental de iglesia. No habrá ni un gris, ni una sombra, ni siquiera lo preciso para la perspectiva.</stage>
+					<stage>(Dos muchachas vestidas de azul oscuro están devanando una madeja roja).</stage>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<lg>
+								<l>Madeja, madeja,</l>
+								<l>¿qué quieres hacer?</l>
+							</lg>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<lg>
+								<l>Jazmín de vestido,</l>
+								<l>cristal de papel.</l>
+								<l>Nacer a las cuatro,</l>
+								<l>morir a las diez.</l>
+								<l>Ser hilo de lana,</l>
+								<l>cadena a tus pies</l>
+								<l>y nudo que apriete</l>
+								<l>amargo laurel.</l>
+							</lg>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker> 
+						<p><stage>(Cantando)</stage>¿Fuisteis a la boda?</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>No.</p>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker>
+						<lg>
+								<l>¡Tampoco fui yo!</l>
+								<l>¿Qué pasaría</l>
+								<l>por los tallos de las viñas?</l>
+								<l>¿Qué pasaría</l>
+								<l>por el ramo de la oliva?</l>
+								<l>¿Qué pasó</l>
+								<l>que nadie volvió?</l>
+								<l>¿Fuisteis a la boda?</l>
+							</lg>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p>Hemos dicho que no.</p>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker>
+						<p><stage>(Yéndose)</stage>¡Tampoco fui yo!</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<lg>
+								<l>Madeja, madeja,</l>
+								<l>¿qué quieres cantar?</l>
+							</lg>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<lg>
+								<l>Heridas de cera,</l>
+								<l>dolor de arrayán.</l>
+								<l>Dormir la mañana,</l>
+								<l>de noche velar.</l>
+							</lg>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker> 
+						<p><stage>(En la puerta).</stage>
+							<lg>
+								<l>El hilo tropieza</l>
+								<l>con el pedernal.</l>
+								<l>Los montes azules</l>
+								<l>lo dejan pasar.</l>
+								<l>Corre, corre, corre,</l>
+								<l>y al fin llegará</l>
+								<l>a poner cuchillo</l>
+								<l>y a quitar el pan.</l>
+							</lg>
+							<stage>(Se va).</stage>
+						</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<lg>
+								<l>Madeja, madeja,</l>
+								<l>¿qué quieres decir?</l>
+							</lg>
+					</sp>	
+					<sp who="#much">
+						<speaker>Muchacha 1</speaker>
+						<p>
+							<lg>
+								<l>Amante sin habla</l>
+								<l>Novio carmesí.</l>
+								<l>Por la orilla muda</l>
+								<l>tendidos los vi.</l>
+							</lg>
+							<stage>(Se detiene mirando la madeja).</stage>
+						</p>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker>
+						<p>
+							<stage>(Asomándose a la puerta).</stage>
+							<lg>
+								<l>Corre, corre, corre</l>
+								<l>el hilo hasta aquí.</l>
+								<l>Cubiertos de barro</l>
+								<l>los siento venir.</l>
+								<l>¡Cuerpos estirados,</l>
+								<l>paños de marfil!</l>
+							</lg>
+							<stage>(Se va).</stage>
+							<stage>(Aparecen la <rs key="#muje">Mujer</rs> y la <rs key="#sueg">Suegra</rs> de Leonardo. Llegan angustiadas).</stage>
+						</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¿Vienen ya?</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p><stage>(Agria)</stage>No sabemos.</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p>¿Qué contáis de la boda?</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>Dime.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker> 
+						<p><stage>(Seca)</stage>
+																						Nada.</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>Quiero volver para saberlo todo.</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>
+							<stage>(Enérgica).</stage>
+							<lg>
+								<l>Tú, a tu casa.</l>
+								<l>Valiente y sola en tu casa.</l>
+								<l>A envejecer y a llorar.</l>
+								<l>Pero la puerta cerrada.</l>
+								<l>Nunca. Ni muerto ni vivo.</l>
+								<l>Clavaremos las ventanas.</l>
+								<l>Y vengan lluvias y noches</l>
+								<l>sobre las hierbas amargas.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>¿Qué habrá pasado?</p>
+					</sp>
+					<sp who="#sueg">
+						<speaker>Suegra</speaker>
+						<p>
+							<lg>
+								<l>No importa.</l><!--SGA: ¿acaba aquí el verso?-->
+								<l>Échate un velo en la cara.</l>
+								<l>Tus hijos son hijos tuyos</l>
+								<l>nada más. Sobre la cama</l>
+								<l>pon una cruz de ceniza</l>
+								<l>donde estuvo su almohada.</l>
+							</lg>
+							<stage>(Salen).</stage>
+						</p>
+					</sp>
+					<sp who="#muer">
+						<speaker>Mendiga</speaker>
+						<p>
+							<stage>(A la puerta)</stage>
+																										Un pedazo de pan, muchachas.</p>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker>
+						<p>¡Vete!
+							<stage>(Las muchachas se agrupan).</stage>
+						</p>
+					</sp>
+					<sp who="#muer">
+						<speaker>Mendiga</speaker>
+						<p>¿Por qué?</p>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker>
+						<p>Porque tú gimes: vete.</p>
+					</sp>
+					<sp who="#muer">
+						<speaker>Mendiga</speaker>
+						<lg>
+								<l>¡Pude pedir tus ojos! Una nube</l>
+								<l>de pájaros me sigue; ¿quieres uno?</l>
+							</lg>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker>
+						<p>¡Yo me quiero marchar!</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p><stage>(A la <rs key="#muer">Mendiga</rs>)</stage>
+																						¡No le hagas caso!</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¿Vienes por el camino del arroyo?</p>
+					</sp>
+					<sp who="#muer">
+						<speaker>Mendiga</speaker>
+						<p>¡Por allí vine!</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>
+							<stage>(Tímida)</stage>
+																										¿Puedo preguntarte?</p>
+					</sp>
+					<sp who="#muer">
+						<speaker>Mendiga</speaker>
+						<p>
+							<lg>
+								<l>Yo los vi; pronto llegan: dos torrentes</l>
+								<l>quietos al fin entre las piedras grandes,</l>
+								<l>dos hombres en las patas del caballo.</l>
+								<l>Muertos en la hermosura de la noche.</l>
+							</lg>
+							<stage>(Con delectación).</stage> Muertos, sí, muertos.</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>¡Calla, vieja, calla!</p>
+					</sp>
+					<sp who="#muer">
+						<speaker>Mendiga</speaker>
+						<p>
+							<lg>
+								<l>Flores rotas los ojos, y sus dientes</l>
+								<l>dos puñados de nieve endurecida.</l>
+								<l>Los dos cayeron, y la novia vuelve</l>
+								<l>teñida en sangre falda y cabellera.</l>
+								<l>Cubiertos con dos mantas ellos vienen</l>
+								<l>sobre los hombros de los mozos altos.</l>
+								<l>Así fue; nada más. Era lo justo.</l>
+								<l>Sobre la flor del oro, sucia arena.</l>
+							</lg>
+							<stage>(Se va. Las muchachas inclinan las cabezas y rítmicamente van saliendo).</stage>
+						</p>
+					</sp>
+					<sp who="#muc1">
+						<speaker>Muchacha 1</speaker>
+						<p>Sucia arena.</p>
+					</sp>
+					<sp who="#muc2">
+						<speaker>Muchacha 2</speaker>
+						<p>Sobre la flor del oro.</p>
+					</sp>
+					<sp who="#niña">
+						<speaker>Niña</speaker>
+						<p>
+							<lg>
+								<l>Sobre la flor del oro</l>
+								<l>traen a los muertos del arroyo.</l>
+								<l>Morenito el uno,</l>
+								<l>morenito el otro.</l>
+								<l>¡Qué ruiseñor de sombra vuela y gime</l>
+								<l>sobre la flor del oro!</l>
+							</lg>
+							<stage>(Se va. Queda la escena sola. Aparece la <rs key= "madr">madre</rs> con una <rs key= "veci">vecina</rs>. La <rs key= "veci">vecina</rs> viene llorando).</stage>
+						</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Calla.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>No puedo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Calla, he dicho. <stage>(En la puerta).</stage> ¿No hay nadie aquí? <stage>(Se lleva las manos a la frente).</stage> Debía contestarme mi hijo. Pero mi hijo es ya un brazado de flores secas. Mi hijo es ya una voz oscura detrás de los montes. <stage>(Con rabia a la <rs key= "veci">vecina</rs>).</stage> ¿Te quieres callar? No quiero llantos en esta casa. Vuestras lágrimas son lágrimas de los ojos nada más, y las mías vendrán cuando yo esté sola, de las plantas de mis pies, de mis raíces, y serán más ardientes que la sangre.</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Vente a mi casa; no te quedes aquí</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Aquí, aquí quiero estar. Y tranquila. Ya todos están muertos. A media noche dormiré, dormiré sin que ya me aterren la escopeta o el cuchillo. Otras madres se asomarán a las ventanas, azotadas por la lluvia, para ver el rostro de sus hijos. Yo no. Yo haré con mi sueño una fría paloma de marfil que lleve camelias de escarcha sobre el camposanto. Pero no; camposanto no, camposanto no: lecho de tierra, cama que los cobija y que los mece por el cielo. <stage>(Entra una mujer de negro que se dirige a la derecha y allí se arrodilla. A la <rs key= "veci">vecina</rs>).</stage> Quítate las manos de la cara. Hemos de pasar días terribles. No quiero ver a nadie. La Tierra y yo. Mi llanto y yo. Y estas cuatro paredes. ¡Ay! ¡Ay! <stage>(Se sienta transida).</stage></p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>Ten caridad de ti misma.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker> 
+						<p><stage>(Echándose el pelo hacia atrás)</stage>
+																						He de estar serena. <stage>(Se sienta).</stage> Porque vendrán las vecinas y no quiero que me vean tan pobre. ¡Tan pobre! Una mujer que no tiene un hijo siquiera que poderse llevar a los labios.
+							<stage>(Aparece la <rs key= "nova">Novia</rs>. Viene sin azahar y con un manto negro).</stage>
+						</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker> 
+						<p><stage>(Viendo a la <rs key= "nova">Novia</rs>, con rabia)</stage>¿Dónde vas?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Aquí vengo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p><stage>(A la <rs key= "veci">vecina</rs>)</stage>¿Quién es?</p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>¿No la reconoces?</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Por eso pregunto quién es. Porque tengo que no reconocerla, para no clavarla mis dientes en el cuello. ¡Víbora! <stage>(Se dirige hacia la <rs key= "nova">Novia</rs> con ademán fulminante; se detiene. A la <rs key= "veci">vecina</rs>).</stage> ¿La ves? Está ahí, y está llorando, y yo quieta sin arrancarle los ojos. No me entiendo. ¿Será que yo no quería a mi <rs key= "novo">hijo</rs>? Pero ¿y su honra? ¿Dónde está su honra?
+							<stage>(Golpea a la <rs key= "nova">Novia</rs> . Esta cae al suelo).</stage></p>
+					</sp>
+					<sp who="#veci">
+						<speaker>Vecina</speaker>
+						<p>¡Por Dios! <stage>(Trata de separarlas).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p><stage>(A la <rs key= "veci">vecina</rs>)</stage>
+																						Déjala; he venido para que me mate y que me lleven con ellos. <stage>(A la madre).</stage> Pero no con las manos; con garfios de alambre, con una hoz, y con fuerza, hasta que se rompa en mis huesos. ¡Déjala! Que quiero que sepa que yo soy limpia, que estaré loca, pero que me pueden enterrar sin que ningún hombre se haya mirado en la blancura de mis pechos.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Calla, calla; ¿qué me importa eso a mí?</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Porque yo me fui con el otro, me fui! <stage>(Con angustia).</stage> Tú también te hubieras ido. Yo era una mujer quemada, llena de llagas por dentro y por fuera, y tu hijo era un poquito de agua de la que yo esperaba hijos, tierra, salud; pero el otro era un río oscuro, lleno de ramas, que acercaba a mí el rumor de sus juncos y su cantar entre dientes. Y yo corría con tu hijo que era como un niñito de agua fría y el otro me mandaba cientos de pájaros que me impedían el andar y que dejaban escarcha sobre mis heridas de pobre mujer marchita, de muchacha acariciada por el fuego. Yo no quería, ¡óyelo bien!; yo no quería. ¡Tu hijo era mi fin y yo no lo he engañado, pero el brazo del otro me arrastró como un golpe de mar, como la cabezada de un mulo, y me hubiera arrastrado siempre, siempre, siempre, aunque hubiera sido vieja y todos los hijos de tu hijo me hubiesen agarrado de los cabellos! <stage>(Entra una vecina).</stage></p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Ella no tiene la culpa, ¡ni yo! <stage>(Sarcástica).</stage> ¿Quién la tiene, pues? ¡Floja, delicada, mujer de mal dormir es quien tira una corona de azahar para buscar un pedazo de cama calentado por otra mujer!</p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>¡Calla, calla! Véngate de mí; ¡aquí estoy! Mira que mi cuello es blando; te costará menos trabajo que segar una dalia de tu huerto. Pero, ¡eso no! Honrada, honrada como una niña recién nacida. Y fuerte para demostrártelo.Enciende la lumbre. Vamos a meter las manos; tú, por tu hijo, yo, por mi cuerpo. Las retirarás antes tú.</p>
+					</sp>
+					<stage>(Entra otra vecina).</stage>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Pero ¿qué me importa a mí tu honradez? ¿Qué me importa tu muerte? ¿Qué me importa a mí nada de nada? Benditos sean los trigos, porque mis hijos están debajo de ellos; bendita sea la lluvia, porque moja la cara de los muertos. Bendito sea Dios, que nos tiende juntos para descansar. <stage>(Entra otra vecina).</stage></p>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Déjame llorar contigo.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Llora. Pero en la puerta.
+							<stage>(Entra la niña. La <rs key="nova">Novia</rs> queda en la puerta. La <rs key="madr">Madre</rs>, en el centro de la escena).</stage></p>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<p>
+							<stage>(Entrando y dirigiéndose a la izquierda).</stage>
+							<lg>
+								<l>Era hermoso jinete,</l>
+								<l>y ahora montón de nieve.</l>
+								<l>Corrió ferias y montes</l>
+								<l>y brazos de mujeres.</l>
+								<l>Ahora, musgo de noche</l>
+								<l>le corona la frente.</l>
+							</lg>
+						</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<lg>
+								<l>Girasol de tu madre,</l>
+								<l>espejo de la tierra.</l>
+								<l>Que te pongan al pecho</l>
+								<l>cruz de amargas adelfas;</l>
+								<l>sábana que te cubra</l>
+								<l>de reluciente seda,</l>
+								<l>y el agua forme un llanto</l>
+								<l>entre tus manos quietas.</l>
+							</lg>
+					</sp>
+					<sp who="#muje">
+						<speaker>Mujer</speaker>
+						<lg>
+								<l>¡Ay, qué cuatro muchachos</l>
+								<l>llegan con hombros cansados!</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<lg>
+								<l>¡Ay, qué cuatro galanes</l>
+								<l>traen a la muerte por el aire</l>
+							</lg>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<p>Vecinas.</p>
+					</sp>
+					<sp who="#nina">
+						<speaker>Niña</speaker> 
+						<p><stage>(En la puerta)</stage>Ya los traen.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<lg>
+								<l>Es lo mismo.</l>
+								<l>La cruz, la cruz.</l>
+							</lg>
+					</sp>
+					<sp who="#muj1 #muj2">
+						<speaker>Mujeres</speaker>
+						<lg>
+								<l>Dulces clavos,</l>
+								<l>dulce cruz,</l>
+								<l>dulce nombre</l>
+								<l>de Jesús.</l>
+							</lg>
+					</sp>
+					<sp who="#nova">
+						<speaker>Novia</speaker>
+						<p>Que la cruz ampare a muertos y a vivos.</p>
+					</sp>
+					<sp who="#madr">
+						<speaker>Madre</speaker>
+						<lg>
+								<l>Vecinas: con un cuchillo,</l>
+								<l>con un cuchillito,</l>
+								<l>en un día señalado, entre las dos y las tres,</l>
+								<l>se mataron los dos hombres del amor.</l>
+								<l>Con un cuchillo,</l>
+								<l>con un cuchillito</l>
+								<l>que apenas cabe en la mano,</l>
+								<l>pero que penetra fino</l>
+								<l>por las carnes asombradas,</l>
+								<l>y que se para en el sitio</l>
+								<l>donde tiembla enmarañada</l>
+								<l>la oscura raíz del grito.</l>
+								<l>Y esto es un cuchillo,</l>
+								<l>un cuchillito</l>
+								<l>que apenas cabe en la mano;</l>
+								<l>pez sin escamas ni río,</l>
+								<l>para que un día señalado, entre las dos y las tres,</l>
+								<l>con este cuchillo</l>
+								<l>se queden dos hombres duros</l>
+								<l>con los labios amarillos.</l>
+								<l>Y apenas cabe en la mano,</l>
+								<l>pero que penetra frío</l>
+								<l>por las carnes asombradas</l>
+								<l>y allí se para, en el sitio</l>
+								<l>donde tiembla enmarañada</l>
+								<l>la oscura raíz del grito.</l>
+							</lg>
+					</sp>
+					<stage>(Las vecinas, arrodilladas en el suelo, lloran).</stage>
+					<stage>Telón</stage>
+				</div>
+			</div>
+		</body>
+		<back>
+			<head>Fin del drama</head>
+		</back>
+	</text>
+</TEI>
