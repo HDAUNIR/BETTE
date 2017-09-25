@@ -20,7 +20,7 @@ Como ya se ha señalado, el corpus actualmente dispone de 24 textos de 8 autores
 * Munoz	4
 * Echegaray	2
 * Valera	2
-* Unamuno	1
+* Unamuno	2
 * Clarin	1
 * Dicenta	1
 
@@ -95,7 +95,7 @@ Esta fase del proyecto ha sido liderada por Concepción María Jiménez. Teresa 
 ## Cómo citar BETTE
 
 Para citar la colección como tal:
-* María Jiménez, Concepción, y Santa María Fernández, Teresa:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, Unir: 2017. \<https://github.com/GHEDI/BETTE\>
+* María Jiménez, Concepción, y Santa María Fernández, Teresa:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, Unir: 2017. \<\>
 
 Para citar la presentación del corpus en su versión 1.0:
 * María Jiménez, Concepción, Martínez Carro, Elena, Santa María Fernández, Teresa, Calvo Tello, José, Simón Parra, María, Martínez Nieto, Roxana Beatriz, García Sánchez, María, *BETTE: Biblioteca Electrónica Textual del Teatro en Español de la Edad de Plata*, Málaga, Congreso HDH: 2017 \<\>

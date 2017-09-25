@@ -1,0 +1,3563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="short">Esfinge</title>
+				<title type="full">La esfinge</title>
+				<title type="idno">
+					<idno type="viaf">210973152</idno>
+					<idno type="bne">XX2804277</idno>
+				</title>
+				<author>
+					<name type="full">Miguel de Unamuno</name>
+					<name type="short">Unamuno</name>
+					<idno type="viaf">88844103</idno>
+					<idno type="bne">XX1139151</idno>
+				</author>
+				<principal xml:id="jct">José Calvo Tello</principal>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Ghedi (UNIR)</publisher>
+				<availability status="free">
+					<p>The text is freely available.</p>
+				</availability>
+				<date>2017</date>
+				<idno>056</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="print-source">
+					<date>1987</date>
+					<publisher>Clasicos Castalia</publisher>
+					<pubPlace>Madrid</pubPlace> 
+				</bibl>
+				<bibl type="electronic-source">
+					<date>2017</date>
+					<publisher></publisher>
+					<pubPlace></pubPlace>
+					<ref target="#" />
+				</bibl>
+				<bibl type="first-published">
+					<date>1898</date>
+					<publisher></publisher>
+					<pubPlace></pubPlace>
+				</bibl>
+				<bibl type="first-performance">
+					<date></date>
+					<pubPlace></pubPlace> 
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Acto 1: ocurre en la casa de Ángel. Él es el presidente de una junta revolucionaria. Al comienzo comenta con ciertos amigos y su mujer el discurso de la noche pasada, muy alabado. El grupo se despide y queda Eufenia, mujer de Ángel, y Eusebio solos, quien habla de sus problemas y celos contra Ángel. Ángel y Eufenia hablan de diferentes temas, entre ellos del hecho de que no hayan tenido hijos y de que ella espere de él gloria política como resarcimiento. Ángel está atormentado por su relación con Dios, la necesidad de libertad y el destino. Al final del acto Joaquín le informa que están conspirando para quitarle la presidencia, a lo que él responde enviando una carte de renuncia.</p>
+				<p>Acto 2: Ángel tiene una fuerte discusión con Eufenia sobre su relación, la falta de hijos, la renuncia, su relación, con Eusebio, etcétera. Diferentes personajes como Eufebio o varios amigos de Ángel van a visitarle, discutiendo todos con él. Eusebio y Eufenia también discuten entre ellos. Eufenia abandona a Ángel y le deja una carta. Este se encuentra al final del acto completamente solo, pensando en el suicidio y la falta de Dios.</p>
+				<p>Acto 3: Ángel va a visitar a su amigo Felipe, quien cuenta la historia del jardín del Edén a sus hijos. Ángel y Felipe recuerdan situaciones de cuando ambos eran niños. Aparecen los amigos de Ángel, entre ellos Joaquín, para avisarle de que la multitud quiere matarle. Tras discutir cómo podría responder, Ángel decide enfrentarse a la multitud, a la que termina insultando, por lo que le disparan. Sus amigos le recogen en casa para intentar sanarle. Aparece Eusebio y Eufemia, quien se reconcilia con su marido u quien le tiene en los abrazos poco antes de que este muera.</p>
+			</abstract>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2017-09-17" who="#jct">Versión inicial de TEI.</change>
+			<change when="2017-09-20" who="#jct" status="approved">Revisado el texto.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<head>La esfinge</head>
+				<p>Drama en tres actos</p>
+			</div>
+			<div>
+				<quote>
+					<p></p>
+					<p>(Proverbio indio).</p>
+				</quote>
+				<quote>
+					<p></p>
+					<p></p>
+				</quote>
+				<quote>
+					<p>To die, to sleep...; to sleep... perchance to dream!</p>
+					<p><hi rend="italic">(Hamlet)</hi>.</p>
+				</quote>
+				<quote>
+					
+				<sp who="#joaq"><speaker>Joaquín</speaker>
+					<p>Hay que proponerse en la vida algún fin...</p></sp>
+				<sp who="#joaq"><speaker>Ángel</speaker>
+					<p>¿Para qué, si el universo no lo tiene?</p>
+				</sp>
+				<sp who="#joaq"> <speaker>Joaquín</speaker>
+					<p>¡Para dárselo!</p>
+				</sp>
+				<stage>(<hi rend="italic">La Esfinge</hi>. Acto II, escena IX)</stage>.
+				</quote>
+			</div>	
+			<div>
+			</div>
+			<div>
+				<head>DRAMATIS PERSONAE</head>
+				<castList>
+					<castItem><role xml:id="ange">Ángel</role><roleDesc>, <hi rend="italic">jefe revolucionario</hi></roleDesc></castItem>
+					<castItem><role xml:id="eufe">Eufemia</role><roleDesc>, su mujer</roleDesc></castItem>
+					<castItem><role xml:id="joaq">Joaquín</role></castItem>
+					<castItem><role xml:id="feli">Felipe</role></castItem>
+					<castItem><role xml:id="euse">Eusebio</role></castItem>
+					<castItem><role xml:id="ramo">La Tía Ramona</role></castItem>
+					<castItem><role xml:id="pepe">José</role></castItem>
+					<castItem><role xml:id="teod">Teodoro</role></castItem>
+					<castItem><role xml:id="nico">Nicolás</role></castItem>
+					<castItem><role xml:id="marti">Martina</role><roleDesc>, <hi rend="italic">criada</hi></roleDesc></castItem>
+					<castItem><role xml:id="hima">El Hijo mayor <hi rend="italic">de Felipe</hi></role></castItem>
+					<castItem><role xml:id="hime">El Hijo menor <hi rend="italic">de Felipe</hi></role></castItem>
+				</castList>
+				<p>La acción, en España, en la época actual.</p>
+			</div>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>ACTO PRIMERO</head>
+				<stage>Ocurre la acción en él representada en el aposento de una casa de familia regularmente acomodada, donde se hallan reunidas varias personas que han festejado con un refresco cierto fausto acontecimiento. En una mesa se ve el servicio de café y los restos del refresco. Hay a un lado un armario de luna entera.</stage>
+				<div type="scene" n="1">
+					<head>ESCENA PRIMERA</head>
+					<stage><rs key="#eufe">Eufemia</rs>, <rs key="#ange">Ángel</rs>, <rs key="#joaq">Joaquín</rs>, <rs key="#euse">Eusebio</rs>, <rs key="#teod">Teodoro</rs>, <rs key="#pepe">Pepe</rs> y <rs key="#nico">Nicolás</rs></stage>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p><stage>(Dirigiéndose a</stage> <rs key="#ange">Ángel</rs>.) Ahora sí que nadie se atreverá a disputarte la jefatura. Te la has ganado por aclamación popular.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>La verdad, no esperaba de ti tanto. Nunca te he oído mejor.</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>¡Admirable! ¡Qué fuerza! ¡Qué pasión! ¡Vaya un modo de levantar en vilo al público! Ahora me explico cuanto nos cuentan del efecto que producían un Demóstenes, un Cicerón, un Mirabeau...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Hombre..., hombre..., apea el tratamiento!</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>¡Quia! No te lo apeo. Eres todo un tribuno, chico. <stage>(Le da una palmadita en el hombro.)</stage></p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Un golpe mortal a esa tiranía mansa que nos deshonra y envilece.</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Es todo un artista de la palabra... Gesto sobrio, entonación solemne y unción; ésta es la palabra, unción...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Hasta unción y todo?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Sí, algo olió a sermón...</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Protesto de eso!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Tiene razón el doctor. Trascendía a sermón, lo cual ayudó al efecto dando algo de religioso al acto. El público está acostumbrado a los sermones y...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¿Es que una revolución como la que preparamos no es, acaso, un sagrado sacrificio?</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>No; una revolución es una revolución, una ley natural, lo más humano que cabe.</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Y de puro humano, divino...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Metafísico estás!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Fue una obra de arte.</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>No; ¡una obra revolucionaria!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>¡Es lo mismo! Puede usted hacer, don <rs key="#ange">Ángel</rs>, una vida muy hermosa, un verdadero alto relieve...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Para que usted la ponga en coplas, ¿no es eso?</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>¡Quién sabe!</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>Nada, nada, a tus órdenes; aquí me tienes dispuesto a todo.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Descuida, <rs key="#pepe">Pepe</rs>; serás conmigo en el paraíso...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Siempre el mismo! Y a usted, <rs key="#eufe">Eufemia</rs>, a usted es a quien hay que felicitar ante todo, a usted, que es el alma de este hombre, su sostén, su sentido de la realidad. Sin usted, seguro estoy de que en una de sus murrias haría alguna de las que acostumbra.</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>Esas tristezas y desalientos son propios de todos los escogidos.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Que enseñas demasiado la oreja, <rs key="#pepe">Pepe</rs>...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(A <rs key="#ange">Ángel</rs>, bajo.)</stage> Pero, <rs key="#ange">Ángel</rs>, eres implacable...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Es que ellos no me están mortificando...?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Vamos a dejarte porque necesitas digerir tu triunfo.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>La verdad es que ese pobre pueblo merece cualquier sacrificio...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Ah! ¿Conque tú crees que debo sacrificarme por el pobre pueblo?</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>¿Y qué duda cabe?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Mira: ya tienes el apoyo de nuestro buen <rs key="#pepe">Pepe</rs>, que también es pueblo...</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>Gracias, maestro.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Y tengo el apoyo de todo el que sienta con alma. ¿Vas a dejarle?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Recogiéndose.)</stage> Es verdad; hay que servirle. ¡Pobre pueblo! No sabe lo que quiere, pero algo quiere, mientras nosotros sabemos lo que queremos, pero no querer. ¡Libertad, libertad! ¡Santa palabra! Pero libertad efectiva, real. Cuando la herida se cicatriza cae la costra que la protegió en un tiempo; así ha de caer toda autoridad humana. Hay que disolver las formas muertas; hay que romper la costra en que se tiene encerrado al pueblo, y que irrumpa y se derrame su contenido. Fío en él. Es muy grande el instinto de las muchedumbres cuando no se le bastardea con imposiciones de fuera.</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Vamos, hombre, así quiero verte!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Imposición de fuera es la oratoria...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, que podamos cerrar los ojos para siempre habiendo servido al porvenir, y que pise luego la Humanidad libre el polvo a que habremos de reducirnos. Día llegará en que a esta vieja tierra le tocará su turno y, hecha también polvo, se esparcirá por los espacios llevándose nuestra ciencia, nuestro arte, nuestra civilización toda reducida a aerolitos pelados. Y entonces cantarán las esferas celestiales el himno a nuestra libertad tan soñada. ¡Pobre pueblo! Tienes razón, <rs key="#eufe">Eufemia</rs>; merece cualquier sacrificio...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p><stage>(Que mientras hablaba <rs key="#ange">Ángel</rs> estaba arreglándose la corbata al espejo.)</stage> ¡Hermosa evocación! ¡Trágico de verdad!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Son los nervios agitados por la emoción. Dejémosle, que necesita reposo...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Vaya! Te dejamos. Mi enhorabuena de nuevo.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Tú, <rs key="#pepe">Pepe</rs>, espera, y tú también... Venid a mi despacho. Tú <stage>(Dirigiéndose a <rs key="#euse">Eusebio</rs>)</stage> ponme, en tanto, esa receta.</p>
+					</sp>
+					<stage>(Se van <rs key="#ange">Ángel</rs>, <rs key="#joaq">Joaquín</rs>, <rs key="#teod">Teodoro</rs>, <rs key="#pepe">Pepe</rs> y <rs key="#nico">Nicolás</rs>, después de despedirse estos cuatro de <rs key="#eufe">Eufemia</rs> <hi rend="italic">y</hi> <rs key="#euse">Eusebio</rs>.)</stage>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p><stage>(Aparte, al irse.)</stage> Se queda este lagarto... ¡Intimidades!</p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>ESCENA II</head>
+					<stage><rs key="#euse">Eusebio</rs> y <rs key="#eufe">Eufemia</rs>.</stage>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>No descuides a tu marido; me parece que emociones como la de anoche le perjudican.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Al contrario. ¡Vida, vida, mucha vida! La vida ahogará sus pueriles temores y extrañas tristezas.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>No sea que le ahogue a él...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Quia! No le conoces. Sólo necesita quien le sostenga.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Ah, ya! <stage>(Se sienta a la mesa, aparta una laza de café, saca del bolsillo un "block” de donde arranca una hoja.)</stage> Tintero...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Mientras va a un extremo de la estancia y trae un tintero con su pluma.)</stage> Parece providencial su situación, libre y desembarazado para poder entregarse en cuerpo y alma a su verdadera misión...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p><stage>(Escribiendo.)</stage> Providencial..., su verdadera misión... No conocía en ti esas doctrinas. ¡Enseña mucho la vida!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Sueles pasarte de listo, <rs key="#euse">Eusebio</rs>.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Psé! Quieres llenar el vacío de su alma tupiéndolo de gloria. Ese vacío no se llena así...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Siempre que hablas de mi <rs key="#ange">Ángel</rs> lo haces de un modo... Cualquiera diría...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Sí, que no olvido que me dejaste por él... Habla claro, <rs key="#eufe">Eufemia</rs>.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡A otra cosa!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Mira, <rs key="#eufe">Eufemia</rs>: seamos sinceros siempre; es la eterna cantinela de tu gran hombre. Sé que empiezas a ver claro.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Ves visiones.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Veo realidades, y las veo por dentro. Es inútil que luches; has visto al grande hombre en..., en..., en bata, ¡vamos!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¿Sabes, <rs key="#euse">Eusebio</rs>, que si fueses otro te echaría de casa...?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Eso sucede siempre; si fuésemos otros... <stage>(Al sentir a <rs key="#ange">Ángel</rs> despidiéndose de sus amigos, baja la voz.)</stage> Ya está aquí. Si algún día, <rs key="#eufe">Eufemia</rs>...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Me basto sola, <rs key="#euse">Eusebio</rs>. O con él todo, o sin él nada. Y no vuelvas a hablarme así.</p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>ESCENA III</head>
+					<stage>Dichos y <rs key="#ange">Ángel</rs>.</stage>
+					
+					
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Entrando.)</stage> Qué, ¿os quedan todavía antiguas cuentas que ajustar?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Oh, no! Pero ya comprenderás que las viejas amistades</p>
+					</sp>
+					
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Tú siempre tan sinuoso, Eusebio. Me has oído mil veces que la absoluta sinceridad acabaría con todas las rencillas y reconcomios. Si nos viésemos todos desnudas  las almas, fundiríase en amor una inmensa compasión mutua...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p><stage>(Alargándole la receta.)</stage> ¡Ahí está! Una cucharada antes de comer, y antes de cenar otra. ¡Y mucho reposo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Prescripción de la ciencia! Seamos con la señora ciencia respetuosos para que con nosotros lo sea ella...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Ahora te dejo descansar, porque observo los síntomas premonitorios de tu acceso sermonario. ¡Mucho reposo! <stage>(<rs key="#ange">Ángel</rs> se detiene ante él, cruzándose de brazos, como esperando a que siga.)</stage> ¡Mucho reposo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Bien, sigue.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Ya te lo he dicho.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Todo?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Hombre!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Bueno! <stage>(Le alarga la mano, y cuando <rs key="#euse">Eusebio</rs> se la coge, tómasela con las dos, se le acerca y añade:)</stage> Sé franco: ¿qué te parecí anoche?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¿No te lo ha dicho ya?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Hablo con él y no contigo! ¿Qué te parecí?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Que no eras tú el que hablaba, sino otro. Te excediste a ti mismo. En cuanto al público, creo que les decías una cosa y te entendieron otra.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Te entiendo. ¡Adiós!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Adiós, <rs key="#eufe">Eufemia</rs>!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Adiós, <rs key="#euse">Eusebio</rs>!</p>
+					</sp>
+					<stage>(Se va <rs key="#euse">Eusebio</rs>.)</stage>
+				</div>
+				<div type="scene" n="4">
+					<head>ESCENA IV</head>
+					<stage><rs key="#eufe">Eufemia</rs> y <rs key="#ange">Ángel</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Pobrecillo!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Tienes, <rs key="#ange">Ángel</rs>, una manera de compadecer que hiere...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es porque más que nadie necesito de compasión yo.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Déjate de esas cosas ya. ¡Levanta la cabeza y adelante! ¡Piensa en la causa del pueblo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Que es la tuya, ¿no es eso?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Sí, la mía. Cuando te oí anoche olvidé los sinsabores que con tu humor me haces sufrir; te vi grande. Sé hombre y ten fe en ti mismo. Hasta esta soledad en que vivimos, y que acaso más de uno nos compadezca, nos deja libres, libres para obra más grande que la de fundar una familia...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sinceridad, <rs key="#eufe">Eufemia</rs>, sinceridad!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Te soy sincera. Más grande que echar al mundo seres para quienes sea, acaso, la vida desgracia, es aliviar la desgracia de las ajenas vidas. Tú, soltero, nada hubieses hecho; padre, tampoco. ¡Ten fe en ti... y en mí!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y en ti? No la tienes tú misma.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Sólo con una causa grande y noble llenarás el vacío que sientes.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡ Crecerá más...!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡No!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es eso como el mar, que cuanto más de él se bebe, da más sed. No la apaga, y sí las aguas mansas y silenciosas del regato oculto entre las cañas. Es preciso que las aguas del mar soberbio suban al cielo, y que allí en nube se purifiquen para humillarse en lluvia que la tierra se traga...</p>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>ESCENA V</head>
+					<stage>Dichos, <rs key="#marti">Martina</rs> y <rs key="#feli">Felipe</rs>.</stage>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p><stage>(Entrando.)</stage> El señorito <rs key="#feli">Felipe</rs>...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(A <rs key="#marti">Martina</rs>.)</stage> ¡Ven acá! ¿Tú sabes quién fue Graco?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>No, señorito, no. Es el señorito <rs key="#feli">Felipe</rs> el que espera...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Dile que entre! <stage rend="italic">(A <rs key="#eufe">Eufemia</rs>.)</stage> Confío que llegará día en que nadie sabrá quien fue Graco.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Te dejo con tu amigóte!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p><stage>(Entrando, con un libro en la mano.)</stage> ¿Se va usted, <rs key="#eufe">Eufemia</rs>?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Sí; ustedes son como los enamorados: necesitan estar solos.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Celosa!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(A <rs key="#ange">Ángel</rs>.)</stage> Luego volverás a cordura. ¡Adiós, <rs key="#feli">Felipe</rs>!</p>
+					</sp>
+					<stage>(Se va.)</stage>
+				</div>
+				<div type="scene" n="6">
+					<head>ESCENA VI</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#feli">Felipe</rs>; al final, <rs key="#eufe">Eufemia</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Gracias a Dios! ¡Solo! ¡Es como mejor se está!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p><stage>(Dándole el libro.)</stage> ¡Ahí lo tienes! ¡Tómalo y lee! Él calmará tus penas.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Las han causado libros; no son ellos quienes pueden curármelas...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Ten calma, <rs key="#ange">Ángel</rs>, y convierte tus pesares mismos en fuente de renovación. Huye de ese mundo en que te has metido y que acabará por agotar la fuente de tu vida íntima. Vete al campo; sumérgete en naturaleza libre; derrama en su serenidad tu espíritu, y luego recogiéndote en ti mismo, espera a Dios. Y si has de hacer algo, escribe allí en calma y con pureza de intención cuanto Él te inspire. Es mejor que dejes un consuelo que bañe en adelante las almas de los que sufren, que no el que contribuyas a dar a una pobre muchedumbre una falsa libertad que convertirán en esclavitud muy pronto.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y cómo voy a dar consuelo a otros si para mí no lo tengo?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¿Cómo? ¡Buscándolo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Buscándolo..., buscándolo... ¡Lo convertiría en literatura al punto! No hago más que representar un papel, <rs key="#feli">Felipe</rs>; me paso la vida contemplándome, hecho teatro de mí mismo. El campo remachará mi tristeza; he nacido para la sociedad. El progreso está en libertarse del terruño...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Y la felicidad en volver a él... ¡Elige!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y crees que me dejaría ir solo?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Ve con ella!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Con ella? Encuentra unas razones...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Razones de esclavitud!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y mi historia? Es una cobardía.</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Cobardía es no entregarse cada uno a su propio natural, desoyendo la voz de la conciencia... ¿A qué te metes a querer redimir al prójimo, si tan necesitado te hallas de propia redención? Regenérese cada cual y nos regeneraremos todos. Purifica tu vista y purificarás el mundo a tus ojos. Si tus oídos son castos, castigarán cuanto oigan. Importa poco...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Basta..., basta, que quieres seducirme. Yo no sé qué tienen para mí tus palabras...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Es que al oírme te oyes a ti mismo; es que doy forma a tu pensamiento íntimo.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es que me enervas. <stage>(Levántase y se pasea.)</stage> No, no quiero, no quiero huir. Todo eso que me predicas es refinado egoísmo... “Ama a tu prójimo...”</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Como a ti mismo! Si no sabes amarte, ¿cómo has de amar a los demás?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Cómo? ¡Enajenándome! Entregándome a ellos, a la causa de la libertad del pueblo; con puro desinterés, con abnegación. Es ese monstruoso egoísmo lo que a todas horas me pone ante los ojos del espíritu el espectro de la muerte y tras ella el inmenso vacío eterno. Yo no soy nadie. Voy a anularme del todo, a perderme en la muchedumbre. Renunciando a mí mismo es como, encontrándome al cabo, hallaré esa paz que no consigo... ¡No soy nada!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡No es malo que sepas que no eres nada!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, sé que no soy nada, pero quiero serlo todo. Serlo todo, para gozar de la paz del todo. ¡Paz! ¡Paz! Tú, que eres bueno, <rs key="#feli">Felipe</rs>, dime: ¿dónde está?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>No me llames bueno.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Porque lo eres, te pido luces. ¡Gran fuerza de visión la bondad! Mi corazón no tiene ojos, <rs key="#feli">Felipe</rs>; está ciego porque está sordo..., dormido...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Prueba de que no duerme es que se agita...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>En sueños; late sin ritmo. No sé adonde voy. Dime, <rs key="#feli">Felipe</rs>: ¿dónde está la paz, dónde? ¡Habla!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Te dejo porque te exaltas. Es fácil que no nos veamos en algún tiempo, y hasta sospecho que me buscarás al cabo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pero ¿te vas así?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¿Cómo así?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Así..., vamos..., así..., qué sé yo... ¿Qué tenías que decirme?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Oh, nada, nada!... Traerte el libro...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Nada... Nada... Sí, algo te ha impulsado a venir; tienes que ser un providencial mensajero, un enviado del Espíritu, un fÁngel... ¿Quién te    ha traído?    </p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Nada, te he dicho.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Pues no sales de aquí    sin    decírmelo!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Pero ¿no has oído?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Cerrándole el paso.)</stage> ¡No, no sales sin cumplir tu misión!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p><stage>(Después de una breve pausa, llamando.)</stage> ¡<rs key="#eufe">Eufemia</rs>! ¡<rs key="#eufe">Eufemia</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Ah! ¿La llamas? ¿Quieres dejarme así a todo trance? ¡Bueno..., ve con Dios!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Entrando.)</stage> ¿Qué pasa?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Nada; que su marido no quería dejarme salir y reclamé auxilio. Necesita sosiego; esa condenada asamblea le ha sacado de quicio...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Al contrario; muchas así es lo que necesita... <rs key="#feli">Felipe</rs>. Tal vez... En fin, yo me voy. ¡Adiós, <rs key="#eufe">Eufemia</rs>! ¡<rs key="#ange">Ángel</rs>, que te alivies!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡<rs key="#feli">Felipe</rs>!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pero ¿te vas así...?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Adiós, <rs key="#ange">Ángel</rs>! <stage>(Se va.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ESCENA VII</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#eufe">Eufemia</rs>. La Tía <rs key="#ramo">Ramona</rs>, luego.</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¿Qué?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Nada; ya le conoces; el de siempre. <stage>(Mientras dice esto examina la cajetera, y al ver que queda café lo vierte en una taza, que se dispone a tomar.)</stage></p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Es tu <rs key="#ange">Ángel</rs> malo!</p>
+					</sp>
+					<stage>(Óyese un golpecito en la puerta y una voz que dice: “¿Se puede?”)</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Adelante! <stage>(Entra la Tía <rs key="#ramo">Ramona</rs>, <hi rend="italic">y al verla hace</hi> <rs key="#ange">Ángel</rs> un gesto de impaciencia.)</stage> ¿Qué ocurre, tía?</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>¿Tenemos hoy también convidados?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(A quien mira <rs key="#eufe">Eufemia</rs> como esperando respuesta.)</stage> Que yo sepa, no... ¿Pues?</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Para disponer las cosas. Desde que se ha metido a personaje anda esta casa patas arriba... Todo se vuelve entrar y salir gente...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y qué?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(A <rs key="#ange">Ángel</rs>.)</stage> Calla y déjala. Ya sabes lo que es mi tía...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>No sé cómo se acostumbra a ese olor de tabaco que dejan... <stage>(Empieza a recoger las tazas, platillos y demás enseres del refresco, y a arreglar la mesa.)</stage></p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pero eso es una simpleza...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Lo será, puesto que lo dice. ¡Cuánto mejor en aquella casita de Torrevieja, tan tranquila!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Si usted quiere, se le puede disponer allí una habitación...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>¡Ay, <rs key="#eufe">Eufemia</rs>, siempre dije que tu marido no tiene más que púas!...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Pues no acercarse a ellas!</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Yo no sé a qué meterse en barullos, y más no teniendo hijos. No sé qué va ganando en ello. Pudiendo llevar una vida tan sosegada... ¡Valiente gusto! ¡Sólo se ganan ingratitudes! <stage>(Va a recoger la taza en que <rs key="#ange">Ángel</rs> ha vertido el café.)</stage></p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Reteniéndola.)</stage> ¡No!</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p><stage>(Deteniéndose.)</stage> ¡Bueno!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Puede usted seguir arreglando la mesa. Es la mejor música a la letra que va entonando...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Le advierto que no soy aquí una criada; que si estoy es porque...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, lo sé. <stage>(Apura el contenido de la taza.)</stage> Puede retirarla, y tráigame un vaso y la botella de agua. Y ahora vamos a echar una partida de ajedrez, <rs key="#eufe">Eufemia</rs>.</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Mira qué manera tan delicada de echarme tiene tu marido...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Ya conoce usted sus cosas...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Y bien sabe Dios que si las sufro es por ti; por tu pobre madre, que esté en gloria...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Hay que perdonarle...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>¡Puerco espín! <stage>(Se va.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ESCENA VIII</head>
+					<stage><rs key="#eufe">Eufemia</rs> y <rs key="#ange">Ángel</rs>.</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Pero, <rs key="#ange">Ángel</rs>, que no hayas de corregirte nunca...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué quieres? No resisto a esos tipos vulgares...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Mientras trae el tablero de ajedrez y empiezan a colocar las piezas.)</stage> Lo cual no quita que estés entonando siempre un himno a la sencillez, siempre con el amor al humilde en los labios. ¿Por qué te irrita esta pobre anciana? ¡Oh, qué amable la sencillez abstracta!, como tú dirías; pero encamada y teniéndola que sufrir...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>La sencillez no es la tontería. De ser tonto, serlo hasta el idiotismo, que tiene su grandeza...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡No disparates!</p>
+
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Señalando al tablero.)</stage> ¡Sal!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Allá va; por esta salida que no te gusta...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+
+						<p>No, no me gusta; no hay como la clásica, la ordinaria, el “giuoco piano”...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Exacto, lo vulgar!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+
+						<p> No; lo consagrado por la experiencia...</p>
+					</sp>
+
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p> Pierdes así ese caballo... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Bueno! Cuando dejo perder algo será para ganar más...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Pues no lo veo, y observo que hoy juegas peor que de costumbre...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es verdad; no veo una jugada, me lo impiden las piezas. ¡Y pensar que todo el interés que ponemos en el juego de la vida no es más que el de este juego! Pensar que nos embargue tanto el evitar que se mate a un rey o el matarlo; ¡a una piececilla de boj torneado! Ganarán la partida unos u otros, blancos o negros, e irán luego confundidos a la misma caja para recomenzar otra vez, y otra. ¿Y la utilidad final? ¡Divertirnos, matar el tiempo! ¿No estaremos los hombres con nuestras luchas matando la eternidad a un Ser Supremo que con nosotros juegue? ¡Jaque! Créeme, <rs key="#eufe">Eufemia</rs>, que todo es juego... Pierdes la torre... <stage>(Bebe un trago de agua y vierte más en la copa.) </stage></p>
+					</sp>
+
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Y el juego tú!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Quién sabe si estas piezas tienen alguna oscura conciencia y se creen libres y meditan en el plan providencial de sus movimientos?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Jaque! Con todas esas extravagancias no te fijas en el juego...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y qué importa? ¡Ah! Esto es grave... Vaya, te lo doy por ganado.</p>
+					</sp>
+					<stage>(Se oye el piano del vecino.)</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Ya está el vecino con su piano... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Calla! <stage>(Escucha un rato.)</stage> ¡Mundo de pura armonía, de sonidos sin ideas, de libertad absoluta! Palpita en él desligada el alma de las cosas. Mira: gracias a carecer de idea se unen y conciertan y armonizan esas notas... No dicen nada y, por no decir nada, lo dicen todo...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+
+						<p>Yo creo que adormecen..</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Que adormecen? ¿Por qué no eres tú, <rs key="#eufe">Eufemia</rs> mía, una nota pura, purísima, sin letra, adormecedora...?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Lo que debes hacer es salir, ir al Casino, bañarte en gente...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Ven, ven acá, vamos a hablar de alma a alma... <stage>(Mientras el piano sigue lleva a su mujer a un sofá, la sienta junto a sí, dándose cara, le toma las manos y le dice:) </stage>Así, aquí, en frente mío. ¡Mírame a los ojos..., así, así, quieta!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Me das miedo, <rs key="#ange">Ángel</rs>. Yo no sé cómo eres... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Tampoco yo lo sé! ¿Qué importa?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Pero ¿qué te pasa, hombre? </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No apartes tus ojos de los míos... Deja en directa comunión las almas... ¡Mírame a la mirada y no a mí!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Por Dios, <rs key="#ange">Ángel</rs>, que me... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Calla y oye! ¿Gloria? ¿Para qué quieres gloria? ¿Para qué quieres que tu nombre sobrenade al olvido, enlazado en las aguas de la historia al mío...?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Pero, <rs key="#ange">Ángel</rs>...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, padeces la obsesión de la gloria; es lo que te trajo a mis brazos... Lo demás ha sido desgracia del Destino... ¡Gloria, gloria! Nuestros oídos taponados por la tierra, y vueltos tierra ellos mismos, no oirán lo que de nosotros se diga; esos tus ojos que se me agarraron al corazón se liquidarán al cabo, y...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>No digas esas cosas, <rs key="#ange">Ángel</rs>, que me haces daño y te haces daño a ti mismo... No eres ya el tribuno de anoche, eres otro... Algún mal espíritu te domina...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Tú no has tenido madre, <rs key="#eufe">Eufemia</rs>. Te educó tu padre, y su indiferencia ha hecho estragos en tu alma...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>El caso es que a mí no me pasa lo que a ti, que fuiste muy de otro modo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Porque tienes acorchada el alma y presa de la obsesión de la gloria. Sólo ves lo visible..., ¡mujer al cabo!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Y tú, como hombre, lo invisible!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Me esfuerzo en ello, para que me brote el ojo espiritual!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>No digas extravagancias.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Extravagancias, dices? ¡Siempre mujer!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Calla, <rs key="#ange">Ángel</rs>, que me das miedo. No sé cómo eres.</p>
+					</sp>
+					<stage>(Cesa el piano.)</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Con pausa.)</stage> Pues yo sí que sé cómo eres tú. Sé que ya que no te perpetúes en hijos de la carne, quieres dejar tu nombre unido a un nombre imperecedero...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡<rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Ah! Cambias de tono..., apartas tus ojos de los míos... ¡Bueno! Ya sé que allá, en tu interior, me culpas de la esterilidad de nuestro enlace... No, no te agites, ten calma, <rs key="#eufe">Eufemia</rs>. Crees que concentrando toda mi energía vital en el pensamiento, no me ha quedado para hacerte madre... No, no te levantes... <stage>(Reteniéndola.)</stage> ¡Como no te he dado hijos, me pides gloria! Llora, sí, llora... ¡Ven acá, <rs key="#eufe">Eufemia</rs>, perdóname!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Tú estás muy malo, <rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sólo te pido que adormezcas mi vida, <rs key="#eufe">Eufemia</rs>, que me cantes el canto de cuna... Tú no sabes lo que sufro...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Y lo que haces sufrir!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Para curarte! Pero tú soñando sólo en gloria, y si yo no te sirvo para ella no dejarás de buscar...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Levantándose, indignada.)</stage> ¡Bruto! Si es locura...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pero, <rs key="#eufe">Eufemia</rs>...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡<rs key="#eufe">Eufemia</rs> no es una pieza de ajedrez! <stage>(Se va.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>ESCENA IX</head>
+					<stage><rs key="ange">Ángel</rs>, Solo. </stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Bruto! ¡Bruto! ¡Sí, bruto! Es mi animalidad la que así se agarra a la vida. Dios mío, ¿por qué mi alma no te crea en fuerza de fe? Quiero humillarme, ser como los sencillos, rezar como de niño, maquinalmente, por rutina... ¡Dame fuerzas, Dios mío, para que crea en Ti! ¡Dame fuerzas para que renunciando a mí mismo me encuentre al cabo en paz! Dame fuerzas para que humillándome doble mis rodillas y brote de mis labios la plegaria de la infancia... <stage>(Mira a todas partes como por si le observasen y va a arrodillarse, pero al ir a hacerlo se levanta sobresaltado y se acerca a la puerta, como quien ha oído algún ruido.)</stage> No, no tengo valor para confesarte... No me rechaces por ello... ¿No ha de ser el consuelo verdad? ¡Humíllate, <rs key="#ange">Ángel</rs>, humíllate! <stage>(Vuelve a intentar arrodillarse y hasta llega a hacerlo, pero con disimulo, como por coger algo del suelo.)</stage> ¡Padre...! <stage>(Se levanta y va hacia la puerta.)</stage> Esto es terrible; voy creyendo que no estoy sano... <stage>(Pone una silla junto a la mesa, al lado opuesto de la puerta, y se arrodilla.)</stage> ¡Con qué sencillez lo hacía de niño! Padre nuestro, que estás...</p>
+					</sp>
+					<stage>(Al sentir llamar a la puerta se levanta sobresaltado, va a ella y abre a <rs key="#marti">Martina</rs>, la criada, que entregándole una carta, se dispone a marchar.)</stage>
+				</div>
+				<div type="scene" n="10">
+					<head>ESCENA X</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#marti">Martina</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Espera! <stage>(Repasa la carta con la vista.)</stage> Dime: ¿cómo rezas?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>¡Qué cosas se le ocurren al señorito!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué le dices a Dios?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>¿A Dios? Yo no le digo a Dios nunca nada...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Aparte.)</stage> Se entienden sin hablar. <stage>(A <rs key="#marti">Martina</rs>.)</stage> ¿Pues a quién rezas?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p><stage>(Encogiéndose de hombros.)</stage> ¡Yo no entiendo de eso! Lo que me enseñaron mi madre y el señor cura sólo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Tienes miedo a morirte?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>Pero ¡si no estoy enferma...!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y si te mueres?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>Algún día será...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Y novio, ¿le tienes?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p><stage>(Bajando los ojos.)</stage> Dicen por ahí, señorito, que es usted..., vamos..., que es usted un poco... un poco...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Algo loco, ¿no es eso?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>¡No, no, eso no!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Bueno! Ten novio; cásate con él, cría hijos para el cielo; vive siempre así, en paz y en gracia de Dios; reza como te enseñaron, sin pensar en lo que reces, y luego muérete naturalmente..., como se debe morir...</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>Cuando Dios quiera..., ¿qué remedio?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Es verdad; no hay remedio para la voluntad de Dios! A ti no te importa del recuerdo que dejes... ¿Sabes leer?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>En mi catecismo sólo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡A todos nos sucede lo mismo!</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>¿Quiere usted algo más?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Que si quiero algo más? Es tanto lo que quiero..., ¡tanto! Ni yo sé lo que quiero... Vete, y no te olvides de rezar por mí...</p>
+					</sp>
+					<stage>(Se va <rs key="#marti">Martina</rs>.)</stage>
+				</div>
+				<div type="scene" n="11">
+					<head>ESCENA XI</head>
+					<stage><rs key="ange">Ángel</rs>, solo.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Repasando la carta.)</stage> No debo acudir a la cita. Renunciaré de una vez para siempre a esa vida que se me convierte en muerte. Daré un adiós definitivo al mundo, quemando mis naves. ¡La renuncia! <stage>(Se sienta en la mesilla-escritorio, disponiéndose a escribir.)</stage> Una renuncia irrevocable; un acto, un verdadero acto, como dicen ellos; algo que me incapacite para volver a la vida pública, donde se tolera todo menos la confesión de culpas... <stage>(Se pone a escribir. Vuelve a ponerse a escribir cuando llaman a la puerta.)</stage> ¡Adelante! <stage>(Entra <rs key="#joaq">Joaquín</rs>, <hi rend="italic">y</hi> <rs key="#ange">Ángel</rs>, sin dejar de escribir, le saluda diciéndole:)</stage> ¡Otra vez tú por aquí! ¡Espera un poco!</p>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>ESCENA XII</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#joaq">Joaquín</rs>.</stage>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p><stage>(Aparte.)</stage> No se puede abandonar el campo a la gente de Moreno; sería la demagogia. Si éste fuera otro... Pero...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Sin dejar de escribir.)</stage> ¡Habla!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Sí, otra vez! He tenido un encuentro y me he creído obligado a venir a darte la voz de alerta: ¡se conspira contra ti!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Contra mí? <stage>(A todo esto sigue escribiendo.)</stage></p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Sí, contra ti! Y debes mañana, en la sesión definitiva de la junta revolucionaria, desbaratar sus planes. Se trata de arrebatarte la jefatura.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Cerrando la carta.)</stage> ¿Y no es más que eso?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¿Te parece poco? El general y Moreno se han puesto de acuerdo para anularte en lo posible...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Santa anulación!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Basta de bromas! Voy a exponerte al detalle su plan.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No, no lo hagas, que nada me interesa. Son ridiculas miseriucas de ese juego que llamáis política, para el que hace falta sentido práctico o de la realidad, que yo diría sentido de las apariencias; y como carezco de él, he decidido renunciar a tal juego. Pueden hacer Moreno y el general lo que gusten. Desde hoy ha muerto para mí el mundo ese; quiero ser libre, ¡libertad! ¡Libertad!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Pero, <rs key="#ange">Ángel</rs>, ¿estás en tu juicio?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>A él quiero prepararme.</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Pero oye... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No oigo!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¿Renuncias así a tu porvenir? </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿A cuál?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡A tu porvenir!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pero ¿a cuál, te pregunto, a qué porvenir? </p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Siempre con la misma idea fija! ¡O acabas con ella o acabará contigo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sí, conmigo acabará!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Vaya..., que tienes unas cosas... Eso se te pasará durmiendo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Durmiendo, sí; en durmiendo el último sueño, el sueño sin despertar. ¿Ves esta carta? Va en ella mi renuncia al mundo ese..., ¡al mundo! Y el regocijo de esos pobres hombres...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p><stage>(Intentando quitarle la carta.)</stage> ¡Ten formalidad alguna vez!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Defendiéndola.)</stage> ¡Eh, alto! ¿No predicas libertad?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p><stage>(Insistiendo en quitársela.)</stage> ¡Es que hay que tratarte como a un niño!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡<rs key="#joaq">Joaquín</rs>! <stage>(Forcejean.)</stage></p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>No atiendes a razones...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Y apelas a la fuerza... ¡Viva el progreso!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Vamos, basta de niñerías... ¡Dámela! </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No quiero, ¿lo has oído? La razón suprema: ¡no quiero!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Siempre el niño mal educado... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No quiero, no quiero y no quiero!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Alma de déspota!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡ No quiero..., no quiero!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Es lo único que sabes: no querer...!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡<rs key="#joaq">Joaquín</rs>!, ¿querrías hacerme el favor de irte...?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>No sin que antes me prometas no enviar esa carta, por lo menos, hasta que mañana nos veamos...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y quién eres tú para exigirme promesa alguna? ¿Soy yo o eres tú quien de mí ha de dar cuenta? Mucho de predicar tolerancia, sinceridad, libertad; pero cuando alguien quiere ser de veras sincero y libre, ¡contra él todos! Pasen las mayores extravagancias, las opiniones más absurdas, la conducta más depravada; pero emprender en serio el camino de su propia redención..., todos sois a motejarle e impedírselo. Creeríase que leéis en su conducta un reproche mudo. ¡Libertad! Es lo que quiero: libertad de ser como por dentro me siento... ¡Libertad! ¡Verdadera libertad!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Piensa bien lo que haces, no sea que te traiga amarguras.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es lo que necesito: amarguras, dolores, desprecios, a ver si acallan el dolor del alma, la lástima que a mí mismo me tengo... Y mira, <rs key="#joaq">Joaquín</rs>: perdóname si te he faltado...; tú me conoces...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>No hablemos de eso... Pero esa carta...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Deja lo de la carta!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Volveré mañana, cuando te hayas calmado. ¡Adiós! <stage>(Aparte.)</stage> No la enviará...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Adiós!</p>
+					</sp>
+					<stage><stage>(Se va <rs key="#joaq">Joaquín</rs>.,)</stage></stage>
+				</div>
+				<div type="scene" n="13">
+					<head>ESCENA XIII</head>
+					<stage><rs key="#ange">Ángel</rs>, solo; después, <rs key="#marti">Martina</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No quiero, no, no quiero! <stage>(Llamando.)</stage> ¡Cuanto antes, en caliente! ¡Que no vuelva a apoderarse de mí el demonio! <stage>(Entra <rs key="#marti">Martina</rs>.,)</stage> ¡Ven acá, <rs key="#marti">Martina</rs>! Toma esta carta y llévala a casa de Moreno; ya sabes dónde vive.</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>¿Tiene contestación?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No, casi nada la tiene. Toma la carta y llévala. <stage>(Vacila un rato.)</stage> Preguntas por Moreno y se la das a él mismo... ¿Has oído? No, no, ¡dásela a quien salga! ¡Anda, tómala y vete en seguida; pronto, pronto!</p>
+					</sp>
+					<stage>(Se va Martina.,)</stage>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p><stage>(Volviéndose.)</stage> ¿Manda usted...?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No, no, vete! ¡No quiero, no, no quiero! <stage>(Sale <rs key="#marti">Martina</rs>.,)</stage> ¡Se acabó! ¡No puedo ya arrepentirme! <stage>(Empieza a pasear, cabizbajo.)</stage> Ahora, a templarme en el recogimiento; a entonar mi corazón, y después, cuando le hiera el Espíritu, que sopla donde quiere, me arrancará limpia y pura mi nota, la mía propia, para que vaya a perderse en la infinita sinfonía, en el cántico universal al amor del Padre. <stage>(En los paseos por la estancia pasa frente al espejo, y ahora, al aproximarse a él cabizbajo, vislumbra de pronto su propia imagen como una sombra extraña y se detiene ante ella sobrecogido. Levanta la vista al espejo y se contempla un momento. Acércase en seguida a él, y cuando está como en entrevista con su propia imagen, se llama en voz queda:)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>! <stage>(Momento de recogimiento, tras el cual se pasa la mano por la frente, como ahuyentando una pesadilla, carraspea, se mira y palpa disimuladamente, avergonzado, y dice:)</stage> ... ¿Sombra?... ¡No!... ¡No!... ¡Vivo!... ¡Vivo!... <stage>(De pronto, sintiendo una violenta palpitación, lanza un gemido y se lleva la mano al pecho, diciendo:)</stage> ¡Pobrecillo! ¡Cómo trabajas! Sin descanso. Tú velas, mientras éste <stage>(Pasándose la mano por la frente.)</stage> duerme, y si hay peligro, con tus latidos le despiertas. No me cabes en el pecho, ¡pobrecillo! Quieres latir en todo y con todo; palpitar con el universo entero; recibir y devolver su savia eterna, la que viene de los infinitos mundos y a ellos vuelve. ¡Y con tanto anhelar derramarte me ahogas..., sí... me ahogas! <stage>(Va a la mesa, vierte agua en el vaso, la coge y apura de un trago casi todo su contenido; lo que resta se lo echa en la palma de la mano para rociarse la frente con ello.)</stage> ¡Quién pudiera sorberse así al Espíritu universal! ¡Dios mío! ¡Anégame, ahógame! ¡Que sienta mi vida derretirse en tu seno!</p>
+					</sp>
+					<stage>(Cae el telón.)</stage>
+					<stage>Fin del acto primero</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>ACTO SEGUNDO</head>
+				<stage>En otra estancia de la casa de <rs key="#ange">Ángel</rs>. Un retrato de mujer.</stage>
+				<div type="scene" n="1">
+					<head>ESCENA PRIMERA</head>
+					<stage><rs key="#eufe">Eufemia</rs>, bordando; la <rs key="#ramo">Tía Ramona</rs>, <rs key="#ange">Ángel</rs>, luego.</stage>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Hoy parece más calmado, pero sigo creyendo que tu marido no anda bien de la cabeza. ¡Claro! Ha querido meter tantas cosas en ella... Leer, leer y más leer... ¡Eso vuelve loco a cualquiera!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>No está ahí el mal.</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Romana</speaker>
+						<p>Si viviera tu pobre madre y te viese casada con ese erizo...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Le tiene usted muy mala voluntad, tía, y sin razón para ello. Es brusco, pero, en el fondo, cariñoso.</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Tan en el fondo, que es como si no lo fuese... En el fondo todos somos buenos.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Y a usted le aprecia...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>¿A mí? ¡Como a una rata! Por supuesto, no se me da un comino de ello. De aquí a cien años no será él más que yo...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Gracias que no le oye eso...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Aunque me lo oyese. Está bien pensar en cosas muy altas, muy altas, pero los demás también somos personas.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Es que se abstrae...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Pues no abstraerse, que para eso vivimos en el mundo.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Entrando.)</stage> Se murmura, ¿no es eso? <stage>(Pausa.) </stage>Tiene usted razón, señora, soy un puerco espín. Con usted me he mostrado siempre harto desdeñoso, ¡hasta grosero! Y lo cierto es que le debemos gratitud. Perdónemelo todo, que yo le prometo procurar corregirme; ¡perdónemelo, por Dios!</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p><stage>(Haciendo pucheros.)</stage> ¡Pobrecillo! Bien dice <rs key="#eufe">Eufemia</rs> que tiene un excelente fondo... ¡Si viviera mi hermana!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Usted es necesaria en esta casa; es la que rige su curso ordinario, esa multitud de pequeños detalles que forman la verdadera trama de la vida. Le ruego que siga aquí siempre y que me riña cada vez que me vea propasarme. Tráteme como a un niño.</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Por Dios, don <rs key="#ange">Ángel</rs>...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Don <rs key="#ange">Ángel</rs>?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Más vale que todo haya parado en bien...</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Me voy porque el corazón me sofoca... ¡Que Dios ayude a tu marido, <rs key="#eufe">Eufemia</rs>! <stage>(Se va.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>ESCENA II</head>
+					<stage><rs key="#eufe">Eufemia</rs> y <rs key="#ange">Ángel</rs>.</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Lo que has hecho, <rs key="#ange">Ángel</rs>, créemelo, no tiene nombre. No tienes ambición; ¡no eres hombre!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No, por lo visto, el que tú buscabas. ¡Tú sí que no eres..., digo, tú sí que eres mujer!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Renunciar de esa manera a tu porvenir...!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No, a mi pasado, para conquistar nuestro porvenir!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Mira, <rs key="#ange">Ángel</rs>: aún te queda tiempo de reparar lo hecho con un arranque vigoroso; hasta por higiene debías ponerte en cuerpo y alma al servicio de la causa de la libertad y del pueblo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Higiene..., libertad..., pueblo... ¡Cómo te gustan los logogrifos!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Lo que tú necesitas es distraerte. ¿Quieres que hagamos un viaje?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Aparte.)</stage> Me tiene por loco ya; no hay duda. <stage>(A ella.)</stage> No; ahora no debo salir de aquí, sino esperar los acontecimientos. ¡Quién sabe lo que hay debajo de mi renuncia!... ¡Esa dichosa revolución necesitará de una reacción que la consolide...!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Pero, <rs key="#ange">Ángel</rs>, ¿qué quieres decir con eso?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Me lo esperaba, porque te conozco. A ti ni el pueblo ni la libertad te quitan el sueño. Lo que quieres es que pasemos a la historia de cualquier modo que sea, y ni aun eso, sino figurar mientras vivas, influir, ser centro..., ¡la mujer del amo...! ¡Tienes razón; acción, vida, energía..., vivir..., vivir..., vivir lo más posible!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Pero, hombre!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Son transiciones del pobre loco... Ya sé que entre tú y tu <rs key="#euse">Eusebio</rs> estáis tramando mi curación...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Que al oír lo de “tu <rs key="#euse">Eusebio</rs>” se ha levantado, indignada.)</stage> <rs key="#ange">Ángel</rs>, te dejo. Te haces el loco para mortificarme con el desdén que siempre me has profesado por ser yo mujer y nada más que por eso. La esposa del genio debe ser una muñeca, ¿no es eso? Desahogas en mí tu soberbia herida... Represento a tus ojos la concesión que al instinto animal puede hacer tu espíritu privilegiado... Así sois los hombres...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pero, <rs key="#eufe">Eufemia</rs>...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><rs key="#eufe">Eufemia</rs> es tan persona como tú. Hace tiempo que me he convencido de que me tomas no de fin, sino de medio, como tú dirías. Para ti no hay más fin que tú mismo. Convéncete, <rs key="#ange">Ángel</rs>, de que todo lo que sufres es un inmenso orgullo, un orgullo masculino, un egoísmo monstruoso, que estás completamente encanallado en ese culto a ti mismo, que tanto combates en otros. Como vives lleno de ti mismo crees que en muriéndote tú se acaba el mundo, y la muerte significa para ti la nada...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Abatido.)</stage> ¡Calla, calla, por caridad! Calla y no hables de lo que no entiendes...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Claro! Yo, pobre mujer, no entiendo de esas cosas. No puedo seguirte a las alturas. Mira lo que es haber casado el águila con la gallina...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Calla, que me haces daño con tus...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Es el cauterio!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Calla, y no me atormentes más, por Dios, <rs key="#eufe">Eufemia</rs>! Ven, ven y cúrame... ¡Sí, tienes razón en todo! Vamos, ven, abrázame..., no me tengas miedo... Vámonos de aquí al campo, a la soledad, y allí me mimarás como a un niño, a ver si logras devolverme la infancia...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Así..., así..., tomarme de instrumento...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Por Dios, <rs key="#eufe">Eufemia</rs>, ten piedad de mí!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Rehaciéndose después de haberse enjugado una lágrima con disimulo.)</stage> ¿La has tenido tú de mí...? Conozco tus mañas; después de estas humillaciones y ternezas te levantas más tirano que antes. Me trajo, sí, me trajo a tu hogar un ensueño, y tú ¿qué has hecho? Te debe parecer muy grande renunciar a una reputación, despreciar una justa gloria... La quieres más exquisita... Quieres escondida ermita en que durante generaciones te rindan culto fervoroso a ti solo los iniciados, y no la pomposa fiesta de la muchedumbre en el gran templo resonante, de un día... Te entiendo... Eres un genio no comprendido, muy sobre el vulgo, inaccesible a una pobre mujer, ligada al fugitivo presente...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Irguiéndose y con calma.)</stage> Todo eso te lo debe de decir <rs key="#euse">Eusebio</rs>, ese feminista, o como se diga...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>No te sirve ya esa arma; está mellada...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Lo que está mellado es tu corazón...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>A tus golpes, <rs key="#ange">Ángel</rs>.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Paseándose.)</stage> Te ofrezco paz y me la rechazas...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Me quieres de adormidera que calme tus insomnios con cantos de cuna..., o de juguete. ¡Vaya con el niño!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué sabes de eso? Tú no has tenido madre, <rs key="#eufe">Eufemia</rs>. Tu padre te hizo descreída y ambiciosa, y sin saberlo tú misma, ansias creer...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¿Yo?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sí, tú, tú!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Creí en ti cuando me casé. He perdido la fe.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Mira, vete, vete ya. ¡Déjame en paz! <stage>(Se tapa los oídos.)</stage></p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Oyendo que llaman a la puerta.)</stage> ¡Adelante!</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p><stage>(Apareciendo en la puerta.)</stage> El señorito <rs key="#euse">Eusebio</rs>...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Anda, vete, recíbele...; desahogaos!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Miserable!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Ése, ése sí que te hará famosa, siquiera por unos días...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Con voz ahogada.)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>! <stage>(Se le acerca, y al verle aplanado.)</stage> ¿Por qué juegas así con lo más sagrado?</p>
+					</sp>
+					<stage>(Entra <rs key="#euse">Eusebio</rs> y se queda en expectación.)</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sagrado..., sagrado... Si tú y yo nos reducimos al cabo a polvo y nombre, ¿qué quiere decir eso de sagrado?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Pobre <rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>El loco, ¿no es eso? Mira: ahí le tienes. <stage>(Señalando a <rs key="#euse">Eusebio</rs>.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>ESCENA III</head>
+					<stage>Dichos y <rs key="#euse">Eusebio</rs>.</stage>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Buenos días. Veamos al neurasténico. </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Neu-ras-té-ni-co...! ¡Qué cosa tan admirable es la ciencia! ¿Quieres que te enseñe la lengua? Debo de ser un buen conejillo de Indias. Monomanía..., ¿de qué clase? ¡Neurosis..., mielina..., tálamo óptico..., vesania...! ¡Sois unos estúpidos!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p><stage>(Con sorna.)</stage> Cuídate del hígado... No se me quita de la cabeza que todo eso que te pasa ha de reconocer por causa algún desarreglo hepático...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Y ese tu juicio proviene de grasa espiritual, no lo dudes. Mira: toma también el pulso a mi mujer, que padece monomanía de las grandezas y algo de delirio de las persecuciones, y podéis, de paso, recordar los tiempos en que erais novios...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Veo que te parece muy genial eso de hacerte el loco...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Juego peligroso, porque una de las más graves locuras es la de fingirla.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿De veras?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Y tan de veras. Y llegan momentos en que el único tratamiento es una camisa de fuerza.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Gracias a Dios que reventaste, <rs key="#euse">Eusebio</rs>! No hay peor cosa que guardarse el rencor: no hace más que envenenar nuestros sentimientos y amargarnos el alma. Estoy seguro de que más de un asesino habrá empezado a sentir amor a su víctima una vez que satisfizo en ella su odio...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Tan sólo en consideración a tu estado se te puede soportar lo que yo te soporto.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡<rs key="#euse">Eusebio</rs>!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>No temas nada. Tú has sido siempre un hombre débil, sin voluntad ni valor, sin más que inteligencia pelada: un cobarde. Y ahora adoptas ese aire de extravagancia para vomitar cuanto se te pudría dentro. Estás muy enfermo, sí, pero de orgullo... Es una enfermedad muy triste...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Deteniéndose en sus paseos.)</stage> Mira, <rs key="#euse">Eusebio</rs>: lo que yo quiero es paz, y en nombre de ella te ruego que me dejes de una vez, que te vayas de esta casa para no volver a poner en ella los pies. Despídete con calma de mi mujer; hazle las advertencias que quieras; hablad a vuestras anchas. Os dejo. <stage>(Se va.)</stage></p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Llamándole.)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>!</p>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>ESCENA IV</head>
+					<stage>Al encontrarse solos se miran <rs key="#euse">Eusebio</rs> y <rs key="#eufe">Eufemia</rs> un rato en silencio.</stage>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¿Has visto cosa igual?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Cada día le comprendo menos...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p><stage>(Como hablando consigo.)</stage> Loco de orgullo y de egoísmo...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>No hables mal de él, <rs key="#euse">Eusebio</rs>, te lo suplico. Piensa en lo que acaba de hacer.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Sí; un rasgo!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Te repito que no hables de él así.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Ahí tienes lo que es desoír al corazón. ¡Te casaste con él por vanidad..., por sed de gloria..., y mira!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Si supieras lo que sufre...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Y lo que te hace sufrir...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Eso no importa!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Y tú no has nacido para mártir. A mí no me engañó; previ su fracaso...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Nadie tiene mejores ojos que la envidia...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p><stage>(Mira a todas partes, inquieto, se acerca a <rs key="#eufe">Eufemia</rs> y baja la voz.)</stage> Parece imposible que tú, que me conoces..., que me has querido..., que me quieres...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Retirándose.)</stage> ¡No necesitas tomar precauciones; habla claro y alto! No le conoces. Pero lo mejor será que te vayas y me dejes...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Víctima de las convencionalidades! ¡Esclava del mundo, que diría tu marido! </p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Es preferible aún esa esclavitud a...</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Estoy seguro de que tendrás al cabo que dejarle...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Vivamente.)</stage> Tal vez; pero para quedarme sola.</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Sola..., sí, sola... ¡La soledad es un gran consejero!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Retírate, Satanás! </p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Todo se pega. Eso no es tuyo; es de él; lleva la marca de fábrica.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¿Crees que yo no sé hablar por cuenta propia?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Vamos, ésta es mi <rs key="#eufe">Eufemia</rs>!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>“Mi <rs key="#eufe">Eufemia</rs>”... ¿Qué es eso de tu <rs key="#eufe">Eufemia</rs>? ¡Soy mía..., mía..., y... suya!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Te has contagiado, y te compadezco. </p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Vaya, basta! Estás en su casa. ¡Acabemos! ¿Tienes alguna recomendación que hacerme?</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>No volveré a verte; por lo    menos,    mientras viva ése. Si le guardas alguna compasión,    no    le abandones. Pero dudo de tu heroísmo...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Basta! ¡Adiós, <rs key="#euse">Eusebio</rs>!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p><stage>(Tendiéndole la mano.)</stage> ¡Última vez!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Rehusando dársela.)</stage> ¡No!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¿Ni eso?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Ni eso!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>Adiós, pues. <stage>(Desde la puerta, abriendo los brazos:)</stage> ¡Vendrás a ellos! <stage>(Se va.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>ESCENA V</head>
+					<stage><rs key="#eufe">Eufemia</rs>, sola.</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¿Equivoqué mi senda? Realiza ensueños y sueña las realidades. Si pudiese hacerle otro... Soy para él un instrumento, y nada más... ¡No..., no...; me quiere, sí, me quiere! ¡Qué alma tiene! Hay algo en él que fascina; es un misterio vivo. He de intentar el último esfuerzo para salvarle; ¡es mi obra! ¡Pobrecillo! Ahí viene...</p>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ESCENA VI</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#eufe">Eufemia</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Entrando.)</stage> ¿Concluisteis ya de arreglar vuestras cuentas? Todo claro; es como me gusta. Ahora es preciso que las arreglemos nosotros, porque esto no puede seguir así, <rs key="#eufe">Eufemia</rs>.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>De ti depende.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿De mí? Mira: siéntate y óyeme con calma. <stage>(Se sientan.)</stage> Tú no tienes alma de madre...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Levantándose.)</stage> ¡Buen principio!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Siéntate y oye. ¡Pues no..., no la tienes!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Intentando irse.)</stage> A este paso...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Reteniéndola.)</stage> Si la tuvieses, la intensidad misma de tu ansia te habría dado fe, y la fe crea...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Pero, <rs key="#ange">Ángel</rs>, por Dios... <stage>(Se sienta con aire de resignación.)</stage> ¿Es que quieres acabar con mi paciencia? ¿Qué te pasa? Descúbrete de una vez; desnúdame tu alma; da fin a este martirio...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Mira, <rs key="#eufe">Eufemia</rs>: la fe crea su objeto... En fuerza de desear algo logramos sacarlo de la nada..., ¿no es así? ¿Qué es Dios más que el deseo infinito, el supremo anhelo de la Humanidad?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Con dulzura.)</stage> Pero ¿qué te pasa, <rs key="#ange">Ángel</rs>, qué te pasa? ¡Revienta de una vez..., ábreme tu pecho!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué me pasa? ¿Qué me pasa? ¿Lo sé yo mismo acaso? No, no tengo alma pura...; estoy expiando algún crimen de antes de que naciera... <stage>(Fijándose en el retrato de su madre.)</stage> ¿Ves ese cuadro? Parece que me mira mi madre desde más allá de la tumba, desde el misterio silencioso... ¿Qué hay allí? Es una obsesión, <rs key="#eufe">Eufemia</rs>, que no me deja. Esa nada, esa nada terrible que se me presenta en cuanto cierro los ojos... Es una oquedad inmensa... ¿Por qué me miras así? Perdóname si te hago sufrir, <rs key="#eufe">Eufemia</rs>... <stage>(Cae a sus pies de rodillas.)</stage> Así, así debíamos estar siempre los hombres...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Levantándole.)</stage> Vamos, ven, cálmate; desecha esas aprensiones... ¡Distráete... haz algo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Distráete..., haz algo! Hacer algo es distraerse... No, no quiero hacer nada, porque es siempre mucho más grande que la ejecución el propósito. La acción, la expresión misma, empequeñecen la idea. Me bullen aquí <stage>(Señalándose la cabeza)</stage> mil cosas inefables, música pura, pero música silenciosa. Dime, <rs key="#eufe">Eufemia</rs>: ¿por qué no habrían de entenderse directamente las almas, en íntimo toque, y no a través de esta grosera corteza y por signos? Entonces sí que habría verdadero amor y no este miserable entregarnos uno a otro para poseernos. Todo sería de todos, y nada de nadie... El reino de Dios en la fusión de las almas en una. No, no quiero hacer nada. Apenas despierto se me desvanecen los ensueños más hermosos, y creo que la divina sabiduría está tan dentro de nosotros, tan dentro, que jamás llegaremos a ella... Ven acá. <stage>(Cogiéndole una mano, que se la pone sobre el pecho, hacia el corazón.)</stage> ¿Qué te dice?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Acariciándole como a un niño.)</stage> ¡Pobre <rs key="#ange">Ángel</rs> mío!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Así, sí, <rs key="#eufe">Eufemia</rs>, así... Despierta en ti a la madre y tómame de hijo...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Iremos al campo, <rs key="#ange">Ángel</rs>, y allí recobrarás tu salud perdida.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Mi salud? ¿Cuál? ¿Qué salud?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Aquiétate y ten fe en ti mismo, <rs key="#ange">Ángel</rs>! No seas niño...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Que no sea niño... <stage>(Levantándose.)</stage> Noto, <rs key="#eufe">Eufemia</rs>, algo forzado en tus ternezas. Mejor que el que te cuides de mí y de mi estado es que pienses en ti misma, en la situación de tu espíritu...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>La menor cosa te escuece...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, me siento como si despellejada el alma la tuviese en carne viva.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Con blandura.)</stage> Sosiégate; entra en razón y no nos hagas sufrir. Vamos a trazarnos un plan de vida que te sane. Y para que veas que no son mis aprensiones tan vanas y que ya tú presentías algo, voy a traerte una de las cartas que poco antes de nuestro enlace me escribiste...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>La conozco; no necesito verla...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Pues yo quiero volvértela a leer. Y algo más puedo enseñarte...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Es inútil!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>No, no lo es. <stage>(Se va.)</stage></p>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ESCENA VII</head>
+					<stage><rs key="#ange">Ángel</rs>, solo, mirando al retrato, y luego, <rs key="#marti">Martina</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué hay más allá, pobre madre? Esa mirada me persigue; es la mirada del misterio... Mejor será quitar de ahí cuanto antes esa imagen, ya que me basta con la que llevo siempre en el corazón. <stage>(Llama.)</stage> ¡Quién pudiese vivir vida de idiota, reír al sol, y morirse sin saberlo! ¡Oh sencillez, sencillez, cuanto más me esfuerzo por conseguirte, menos sencillo soy! </p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p><stage>(Entrando.)</stage> ¿Llamaba?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí; llamaba a la sencillez... y a ti. Quería que quitaseis de ahí ese cuadro...</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>¿El de su madre?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, ése.</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>Si tuviese yo un retrato de la mía...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Acercándose.)</stage> ¿La viste morir?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>Sí, señorito.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Se te ha aparecido alguna vez en sueños?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>No diga usted esas cosas...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Acariciándole la barbilla.)</stage> Vamos, no seas boba..., y no me hagas caso. <stage>(En este momento aparece <rs key="#eufe">Eufemia</rs> con unas cartas en la mano, y se detiene.)</stage> ¿La recuerdas mucho?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>¡Ah! ¡La señorita!</p>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ESCENA VIII</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#eufe">Eufemia</rs>.</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Bien, <rs key="#ange">Ángel</rs>, bien! ¡Tú <stage>(A <rs key="#marti">Martina</rs>)</stage>, vete! </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Mira: ésa apenas piensa. Su aspecto, su mirada, que es pura música...; toda ella me envuelve en atmósfera de paz...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Es el caso, <rs key="#ange">Ángel</rs>, que no me siento ya con vocación de enfermera. ¡Qué le he de hacer! </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Me gusta verte así, tal y como eres.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>No te convengo. Carezco de sumisión para hacerme tu esclava sin reservas... ¡Un encanto de mujer! ¡Ya tienes quien te cuide...: un dechado de sencillez!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No cabe negar que tienes arte; pero nos equivocamos. Creo que ni tú eres para mí, ni para ti yo... </p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Gracias que te veo razonable! </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Cómo?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Sí, que te veo como los demás; uno de tantos. ¡Debilidad del genio! Nada, nada; no hay hombre grande para su ayuda de cámara... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Ayuda de cámara?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Sí; es lo que te hace falta. ¡Puedes buscarlo..., digo buscarla!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Es éste el plan que os habíais trazado? </p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p> Conducta tan infame no merece...</p>
+					</sp>
+					<stage>(Llaman a la puerta.)</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p> ¡Adelante!</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Ahí preguntan por <rs key="#ange">Ángel</rs> sus amigos... </p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p> Entiéndete con ellos. Conmigo has acabado. ¿Lo oyes? ¡Has acabado! <stage>(A la Tía <rs key="#ramo">Ramona</rs>.)</stage> ¡Que pasen!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pero si no hemos empezado aún..., si no me conoces... <stage>(<rs key="#eufe">Eufemia</rs>se va.)</stage> ¡<rs key="#eufe">Eufemia</rs>! ¡<rs key="#eufe">Eufemia</rs>!</p>
+					</sp>
+					<stage>(La sigue <rs key="#ange">Ángel</rs>, pero en la puerta tropieza con <rs key="#nico">Nicolás</rs>, <rs key="#joaq">Joaquín</rs> y <rs key="#teod">Teodoro</rs>.)</stage>
+				</div>
+				<div type="scene" n="9">
+					<head>ESCENA IX</head>
+					<stage><rs key="#ange">Ángel</rs>, <rs key="#joaq">Joaquín</rs>, <rs key="#nico">Nicolás</rs> y <rs key="#teod">Teodoro</rs>.</stage>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p><stage>(Entrando.)</stage> ¡<rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Intentando salir.)</stage> ¡Déjame!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>J oaquín</speaker>
+						<p>Bueno, te esperamos...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Entrando, en transición brusca.)</stage> ¡Habla y acaba de una vez!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¿Es que estorbamos? <stage>(Silencio.)</stage> Porque, en tal caso, nos iremos en seguida...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Despacha tu comisión!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Pero, hombre, esa carta, ¿no es posible? </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Con displicencia.)</stage> ¡Posible, no...; necesario ya!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>No sabes bien los comentarios que a ello se hacen... ¡Qué comentarios! <stage>(<rs key="#ange">Ángel</rs> se encoge de hombros.)</stage> ¡Hay que tener honor! Y hemos venido...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Yo no lo encuentro como éstos, y a pesar de la misión que nos trae, me ha parecido digna de usted la salida ésa. Es un rasgo personal por el que le felicito...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>A haber sabido lo de su felicitación, tal vez no lo habría hecho...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Usted siempre tan humorista...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No me ponga usted motes!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p><stage>(A <rs key="#teod">Teodoro</rs>.)</stage> Déjate de comedias, y tú, <rs key="#ange">Ángel</rs>, no seas así... A ver si lo arreglamos de algún modo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Es que no lo quiero; alguna vez he de tener voluntad!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Es lo que queremos: que tengas voluntad y que no abandones así la causa del pueblo... ¡No basta tener talento: hay que saber aplicarlo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿También tú, <rs key="#nico">Nicolás</rs>; también tú te has aprendido la lección? ¡Buen chico!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Déjate de farsas y sé hombre una vez siquiera...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sé hombre..., sé hombre... ¡Vamos, sí, que sea de una pieza!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Todas tus murrias provienen de ociosidad...</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Exacto. ¡De falta de acción!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Trabaja y te curarás!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Basta! Me sé de memoria la canción del trabajo; maldición que cayó al hombre por haber querido hacerse como un dios. ¡Qué inmensidad de símbolo!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Más de una vez he pensado tomarlo de tema...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sí, para echarlo a perder!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p><stage>(Con sorna.)</stage> ¡Como usted quiera, maestro!</p>
+					</sp>
+					<stage>(En tanto hablan entre sí con calor <rs key="#joaq">Joaquín</rs> y <rs key="#nico">Nicolás</rs>.)</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No, de usted no! Mi primer principio es tomarlo todo en serio, demasiado en serio acaso...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>¿Y quién le ha dicho a usted que todo eso que usted, desde sus alturas, cree broma o frivolidad no es lo más serio del mundo; que la vida misma no es una broma?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pesada con gentes como usted. ¡No tengo ganas de discutir!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Es que...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Déjalo! Mira, <rs key="#ange">Ángel</rs>: que la cosa es seria. No seas egoísta ni soberbio. Sí, ésta es la palabra: soberbio. ¡Si sufres, aguántalo con virilidad!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>La vida activa ahogará tus penas disipándote todos esos fantasmas de la mente...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Lo que me pedís es imposible..., imposible! ¡Ah, si pudiésemos asomarnos al brocal del alma del prójimo! ¡Vosotros no sabéis lo que aquí dentro pasa! Necesito calma, reposo, sosiego, largas horas silenciosas conmigo mismo; escarbar sin descanso en el fondo del alma hasta descubrir el manantial de frescura que la riegue, el arroyo de mi niñez...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Muy bien, muy bien. Eso ya es otra cosa. Estoy con usted. Lo primero es formarse uno, como decía Goethe...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Y usted lo repite...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>¡Claro!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Vaya un mérito para Goethe!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Y para mí.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Necesito reposo y libertad, ¡mucha libertad!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Y huyes de contribuir a que la conquiste el pueblo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Eso no es libertad!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>También en esto conformo con usted, mal que le pese. En la labor de emancipar al pueblo puede sustituirle cualquier otro, y hasta con ventaja. En cambio, si usted nos cuenta sus pesares y sabe expresar las tormentas de su alma, podría legarnos una obra que nos eleve a la vez que nos recree el espíritu...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Siga usted, siga...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p><stage>(A <rs key="#teod">Teodoro</rs>, bajo.)</stage> Ahora sí; anda, tócale en lo vivo, a ver si salta. ¡Prepáramelo!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Hasta esas... esas... esas salidas que usted tiene y que cuando a mí se dirigen, por venir de usted, en vez de mortificarme me dan materia de observación y de estudio...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sí, que soy un caso! Siga usted, siga...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Usted nació para poeta. Además, no hay mejor medio de aliviar las penas que hacerlas pasar por el crisol del arte.</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p><stage>(A <rs key="#joaq">Joaquín</rs>, aparte.)</stage> Nos lo va a echar a perder.</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Su carta de usted ha sido, como acto, cosa hermosa <stage>(Hace signos de que se aquiete y espere a <rs key="#joaq">Joaquín</rs>, que, a escondidas de <rs key="#ange">Ángel</rs>, le hace gestos de impaciencía)</stage>, pero debió usted de cincelarla, sin fiarse demasiado de la espontaneidad.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Basta! ¡Basta! ¡Basta!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Es que...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Es que no oigo más! <stage>(<rs key="#joaq">Joaquín</rs> hace signos de contento.)</stage> ¡Cállese usted!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Gracias a Dios!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Imbéciles!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>El arte es el único consuelo de la vida..., por lo menos, para nosotros los imbéciles...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Arte..., arte... <stage>(Se le acerca.)</stage> Y cuando te mueras, ¿qué harás del arte?</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p><stage>(Encogiéndose de hombros.)</stage> ¡Bah! Lo que hay que saber es lo que hará él de mí...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Estos... artistas! <stage>(Sorprende a <rs key="#teod">Teodoro</rs> que hace señas a los otros tocándose con el dedo la frente.)</stage> ¡Sí, que estoy loco! Loco..., loco... Sé que os canso a todos, que os aburro... ¡Lo que quiero es paz!... ¡Paz!... ¡Paz!...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡No la encontrarás hasta la muerte!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Pues morir entonces!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡La vida es lucha!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Lucha..., ¿por qué? ¿Por qué? Dime: ¿por qué se lucha? ¿Qué es lo que en ese combate se gana? ¿Te callas?</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>¡La vida misma!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es decir, luchar para vivir y vivir para luchar... ¡Terrible círculo!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Hay que proponerse en la vida algún fin... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p> ¿Para qué, si el universo no le tiene?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Para dárselo!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Hay que dar días de gloria a la patria... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>La patria no necesita gloria. Lo que necesitan es felicidad sus hijos... ¡Gloria!... ¡Gloria!... ¡Indestructible aspiración a la eternidad! ¡Sombra de eternidad!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Nada más humano que el deseo de dejar al morir algo nuestro que nos sobreviva...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Nuestro..., mío..., mío no! ¿Cómo puede ser mía la gloria cuando yo no exista? ¡Sin mí no hay mío!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>No hay que ser egoísta; hay que luchar por los demás.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No hay que...; hay que... ¡Todo preceptos! Y los demás, ¿no mueren?</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Por la verdad; por la belleza; por el bien!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Verdad!... ¿Verdad de qué? ¿Qué belleza? ¿El bien de quién? Nunca os faltan nombres sonoros con que encubrir el vacío... ¡Vanidad de vanidades, y todo vanidad!... ¡Oh, déjame..., déjame...; no quiero morir..., no..., no quiero...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>J oaquín </speaker>
+						<p>Te he oído lo contrario otras veces...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Es verdad; más de una vez me han dado intentos de acabar con mi vida, por terror a la muerte; de apurar de un trago el cáliz para consumir las heces; de ir a sumergirme en el misterio..., a ver qué hay allí!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>¡Puro intelectualismo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Ésa..., ésa es la tisis del alma!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Bueno..., basta, que te agitas demasiado! Con todas esas cavilaciones nada práctico has de resolver. Decide de una vez lo que hayas de llevar a cabo. Nuestros amigos esperan tu decisión última.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿No la he dado acaso?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Ésa ha sido... una humorada, que, aunque con dificultad, admite enmienda. Mira que si abandonas la causa te tendrán por traidor...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Ah, ¿es eso? ¡Ahora sí que no voy!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Es mucha insensatez afrontar la nota de traidor...!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No quiero serlo a mi conciencia!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Llevarás una vida miserable...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No a mis ojos!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Y así nos dejas, a tus amigos, en la estacada..., a merced de Moreno y de su gente...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Gracias a Dios que reventaste, <rs key="#nico">Nicolás</rs>! ¡Siempre te he querido por sincero! ¡Gracias a Dios que has sido franco! Queréis mi apoyo, es decir, queréis valeros de mi nombre y de mi prestigio para aprovecharos de la libertad ésa... ¡Buen provecho os haga! Tengo que atender a mi salud. ¡Buscaos la vida!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Ahora sí que descubres tú el verdadero fondo de tu espíritu, tu refinado egoísmo. ¡Por mi parte, renuncio a tu apoyo, y... hasta a tu amistad y trato!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Hombre..., hombre...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, déjale. Es mejor que cada cual siga su camino; vosotros el vuestro, el mío yo. Tal vez nos encontremos al final de la jornada...</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>¡En la madre Tierra!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Muy bien, señor artista, muy bien! Y usted, ¿qué va buscando en la obra de la emancipación del pueblo? Emociones nuevas..., ¿no es así?</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Lo que he venido a buscar a esta visita...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Para tomarme de tema. ¿Cuánto le darán por el trabajo que yo le inspire? <hi rend="italic">(Se echa mano al bolsillo.) </hi>¿Lo quiere usted?</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p>Vaya, vámonos; que el gran hombre se sale de su papel. De lo sublime a lo ridículo no hay un paso. ¡Dejémosle solo con su pensamiento!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es mi más discreto amigo.</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>O tu peor enemigo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Vamos a ver, ¿por qué he de ser como me queréis vosotros y no como yo me quiero?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>No merece amistad quien no la aprecia...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Pues libertadme de la vuestra, ¡apóstoles de la libertad!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡En tal caso, hemos concluido, <rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Y yo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sí, tú..., cállate y vete, y no vuelvas!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Calla tú..., déspota!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Queda... con Dios!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Que Él me baste! <stage>(Señalándoles la puerta.)</stage> ¡Largo..., largo de mi casa!</p>
+					</sp>
+					<sp who="#teod">
+						<speaker>Teodoro</speaker>
+						<p><stage>(Desde la puerta.)</stage> Aliviarse..., ¡y hasta la madre Tierra!</p>
+					</sp>
+					<stage>(Se van.)</stage>
+				</div>
+				<div type="scene" n="10">
+					<head>ESCENA X</head>
+					<stage>Angel, solo.</stage>
+					<sp who="#ange">
+						<speaker>Angel</speaker>
+						<p><stage>(Cuando se han ido ya sus amigos sale y llama:)</stage> ¡<rs key="#joaq">Joaquín</rs>! ¡<rs key="#joaq">Joaquín</rs>!... ¡No me oye! ¿Por qué le llamaré, cuando sé que no me oye? <stage>(Volviendo al centro del escenario.)</stage> Es preciso romper los lazos que me unen al mundo de miserias; tengo que olvidar como a un sueño a este pasado de muerte. Ahora cogeré a mi <rs key="#eufe">Eufemia</rs> y nos retiraremos a la soledad del campo..., a domarla y a domarme. ¡Ella lucha..., lucha como yo! Evocaré su espíritu de madre, ese espíritu que en toda mujer, aun cuando no sueñe, duerme; se lo evocaré haciéndome su hijo espiritual... Ella evocará a la mía. <stage>(Mira al retrato.)</stage> ¡Pobre madre! <stage>(Va a la mesa y saca de un cajón un devocionario.)</stage> ¡Éste fue..., éste! En estas páginas está la marca de sus dedos, de los que tantas veces enjugaron mis lágrimas; de los que oprimieron su pecho cuando yo me nutría de su jugo; de aquellos dedos que al morir se afilaron... Aquí posaron tus ojos, madre; tal vez tus labios <stage>(Besa el libro)</stage>; en estas páginas se apacentó tu alma... ¿Su alma? ¿Qué se habrá hecho de ella? <stage>(Lo abre y lee:)</stage> “Con dos alas se levanta el hombre de las cosas terrenas, que son sencillez y pureza.” <stage>(Cerrándolo.)</stage> ¡Sencillez y pureza! ¡Es imposible, sí, imposible! No puedo ser ya sencillo. Mi mismo impulso a la sencillez, de sencillo nada tiene; nada de pura mi aspiración a la pureza... ¡Ah, si pudiera este libro darme el espíritu que dejó ella en sus páginas, al posar su mirada sencilla y pura!</p>
+					</sp>
+					<stage>(Entra la Tía <rs key="#ramo">Ramona</rs>.)</stage>
+					<sp who="#ange">
+						<speaker>Angel</speaker>
+						<p>¿Qué hay? <stage>(Esto lo dirá volviéndose, sobresaltado.)</stage></p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Me ha encargado <rs key="#eufe">Eufemia</rs> que le entregue esta carta...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Y ella, ¿dónde está?</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Se ha ido.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Acercándosele.)</stage> Pero ¿adonde?..., ¿cómo?</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>¡Que se ha ido!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, se lo he oído. Pero... ¿adonde?..., ¿cómo?</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Se ha ido, señor, se ha ido por no poder resistirle...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Como atontado.)</stage> Se ha ido... ¡Ah, sí!... Que se ha ido. ¡Váyase usted también!</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>En cuanto arregle ciertas cosas... <stage>(Se va, y en la puerta:)</stage> ¡Tirano!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Abre la carta y lee.)</stage> “No debo retardar un momento más mi marcha, porque temo nuestras entrevistas. Has logrado tu objeto. Me voy dejándote libre, con esa libertad por la que tanto suspiras. Sé que perturbo el sosiego de que necesitas. Resuelve tu problema, mientras yo intentaré resolver el mío. Me voy a casa de tía Teresa, donde sé que no irás a molestarme. No somos el uno para el otro. Sigue tú tu camino, y el mío yo. No sé si en él te encontrarás con la que ha sido tu <hi rend="italic"><rs key="#eufe">Eufemia</rs>.” (Aplanado.)</hi> Ha sido..., ha sido..., ha sido... <stage>(Volviendo a leer.)</stage> “Te dejo libre, con esa libertad por la que tanto suspiras...; yo intentaré resolver el mío.” ¡Su problema! Luego ella también lo tiene... ¡Sí, tiene su alma, como yo! ¡Libertad..., libertad..., libertad...! Solo..., solo..., solo... <stage>(Se sienta, apoya la cabeza en las manos, y tras una pausa, extendiendo los brazos.)</stage> Sociedad..., naturaleza..., tierra..., cielos..., mundos... ¡Qué grande todo! ¡Qué grande! ¡Qué inmensidad! Y yo perdido como una gota en este océano sin riberas... que me absorbe y anula... ¡Qué inmenso todo! Y yo solo..., solo..., sin poder arrancarme a mí mismo... ¡Hay que acabar de una vez! <stage>(Va a un cajón, del que saca una caja de pistolas, y cuando toma una de éstas, se detiene al oír el piano del vecino que toca el "Pietá, Signore", de Stradella.) </stage>¡Oh, qué oleadas levantó en un tiempo en mi corazón ese canto! ¡Cómo se henchía a sus acentos! ¡Piedad, Señor!</p>
+					</sp>
+					<stage>(Cuando va a arrodillarse, entra <rs key="#marti">Martina</rs>.)</stage>
+				</div>
+				<div type="scene" n="11">
+					<head>ESCENA XI</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#pepe">Pepe</rs>.</stage>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>El señorito don <rs key="#pepe">José</rs>...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿<rs key="#pepe">Pepe</rs>?</p>
+					</sp>
+					<sp who="#mart">
+						<speaker>Martina</speaker>
+						<p>Sí..., ¿qué le digo?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Que entre, sí..., que entre! <stage>(Apenas sale <rs key="#marti">Martina</rs> deja <rs key="#ange">Ángel</rs> la pistola sobre la mesa y se arrodilla, apoyando la cabeza en la mesa misma. Al entrar <rs key="#pepe">Pepe</rs> y ver aquello queda suspenso.)</stage></p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué hay?</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>No..., sigue..., sigue...; pero...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Levantándose.)</stage> ¿Qué hay, te pregunto?</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p><stage>(Retrocediendo, entre temeroso y asombrado.)</stage> Sentiría estorbarte...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, me estorbas...</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>Es que...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué hay?</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>Moreno...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Moreno? ¡Pues ahórrate el mensaje!</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>Por Dios, <rs key="#ange">Ángel</rs>..., ¿qué pasa?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, por Dios..., por Dios, <rs key="#pepe">Pepe</rs>..., no me martirices. <stage>(Sollozando.)</stage> Me ha dejado <rs key="#eufe">Eufemia</rs>...; se ha ido...</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>¿<rs key="#eufe">Eufemia</rs>?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí..., ella..., ella misma...</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p><stage>(Abriéndole los brazos.)</stage> ¡Pobre <rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Yendo a sus brazos y llorando:)</stage> Tú eres bueno..., tú... Estoy solo..., solo...</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>¡Solo no! ¡Conmigo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Contigo... ¿Y por qué, siendo tú tan bueno, te despreciaré tanto, <rs key="#pepe">Pepe</rs>?</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p><stage>(Separándose de él.)</stage> ¿Tú? ¿Despreciarme? ¿A mí?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Confundido.)</stage> ¡Sí..., yo... a ti!</p>
+					</sp>
+					<sp who="#pepe">
+						<speaker>Pepe</speaker>
+						<p>Pero, <rs key="#ange">Ángel</rs>... <stage>(<rs key="#ange">Ángel</rs> se le acerca, le coge una mano y se la besa.)</stage> ¡<rs key="#ange">Ángel</rs>! <stage>(Intenta éste arrodillarse ante su amigo.)</stage> No, no, levántate... ¡Ni tanto ni tan poco! <stage>(<rs key="#pepe">Pepe</rs> coge el sombrero y se dirige lentamente y cabizbajo hacia la puerta.)</stage></p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Solo..., sí, solo... Tú estás separado de mí para siempre después de la confesión que acabo de hacerte... ¿Lo ves? ¡Te callas! <stage>(<rs key="#pepe">Pepe</rs> sale.)</stage> ¡Solo, no; contigo, Dios mío! Y Dios, ¿dónde está? ¡Solo, por mi culpa! ¡Soberbio corazón! Querías la cima solitaria... ¡Ven, ven, y llena la soledad de mi alma!</p>
+					</sp>
+					<stage>(Cae de rodillas y baja el telón.)</stage>
+					<stage>Fin del acto segundo</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>ACTO TERCERO</head>
+				<stage>Estancia de casa modesta. A un lado, un balcón o ventana que da a la calle, y en otro, un sofá. En la pared, un cristo.</stage>
+				<div type="scene" n="1">
+					<head>ESCENA PRIMERA</head>
+					<stage><rs key="#feli">Felipe</rs> y sus dos hijos, de seis y nueve años.</stage>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Y Dios les puso en aquel jardín hermosísimo para que lo cuidasen y trabajasen y se pasaran la vida bendiciendo al Señor. Sólo les prohibió que tocasen a un árbol: el árbol de la ciencia del bien y del mal...</p>
+					</sp>
+					<sp who="#nima">
+						<speaker>Niño Mayor</speaker>
+						<p>¿Qué árbol es ése, papá?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Un árbol muy grande, muy grande y muy hermoso; que da mucha sombra, con unas frutas hermosas también, pero que tienen veneno...</p>
+					</sp>
+					<sp who="#nima">
+						<speaker>Niño Mayor</speaker>
+						<p>Entonces se morirá el que las coma...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Sí, se muere. Por eso les prohibió comer de ellas; pero el demonio, que es muy astuto, se disfrazó de serpiente y fue a Eva y la engañó...</p>
+					</sp>
+					<sp who="#nime">
+						<speaker>Niño Menor</speaker>
+						<p>¿Las serpientes hablan, papá?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Sí; hablan todas las cosas cuando Dios quiere. Le engañó a Eva diciéndole que si comían de aquello serían dioses, y sabrían de todo...</p>
+					</sp>
+					<sp who="#nima">
+						<speaker>Niño Mayor</speaker>
+						<p>¿Cómo es ser dios, papá?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Pues eso: saberlo todo, todo, todo, y poderlo todo...</p>
+					</sp>
+					<sp who="#nime">
+						<speaker>Niño Menor</speaker>
+						<p>Y mandar más que todos, ¿no es verdad, papá?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Sí, hijo mío.</p>
+					</sp>
+					<stage>(Entra <rs key="#ange">Ángel</rs> sin ser visto y se queda a la puerta, medio oculto.)</stage>
+					<sp who="#nime">
+						<speaker>Niño Menor</speaker>
+						<p>Pues yo quiero ser dios, papá, para mandar más que todos...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>No, hijo mío; no debes querer eso, y si no, ya ves lo que les pasó a Adán y Eva porque quisieron ser dioses...</p>
+					</sp>
+					<sp who="#nima">
+						<speaker>Niño Mayor</speaker>
+						<p>¡Cuenta lo que les pasó!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Que la serpiente engañó a Eva y Eva a Adán, y comieron de la fruta del árbol de la ciencia para hacerse dioses, y Dios luego, enfadado con ellos porque eran desobedientes, llamó a Adán y éste se escondió porque tenía vergüenza de presentarse desnudo...</p>
+					</sp>
+					<sp who="#nime">
+						<speaker>Niño Menor</speaker>
+						<p>Estaba desnudo... ¡Qué risa!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Sí; pero no se había fijado en ello hasta que comió de la fruta prohibida. Y Dios les echó del jardín por desobedientes, y salieron llorando. Y les puso en la puerta un Ángel con una espada de fuego...</p>
+					</sp>
+					<sp who="#nime">
+						<speaker>Niño Menor</speaker>
+						<p>Y la espada quemaría, ¿no es verdad, papá?</p>
+					</sp>
+					<sp who="#nima">
+						<speaker>Niño Mayor</speaker>
+						<p>¡Qué tonto! Pues no oyes que era de fuego...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>No llames nunca tonto a tu hermano, que es un pecado muy grande; ya te lo tengo dicho. Les echó Dios y les hizo trabajar para vivir...</p>
+					</sp>
+					<sp who="#nima">
+						<speaker>Niño Mayor</speaker>
+						<p><stage>(Que ha advertido a <rs key="#ange">Ángel</rs>.)</stage> Papá, papá, don <rs key="#ange">Ángel</rs> está ahí...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p><stage>(Volviéndose.)</stage> ¡Ah!</p>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>ESCENA II</head>
+					<stage>Dichos y <rs key="#ange">Ángel</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Avanzando.)</stage> No, sigue..., sigue tu relato, que con ser viejísimo es para mí siempre nuevo. Sigue, que yo me pondré entre los niños para escuchártelo...</p>
+					</sp>
+					<sp who="#nima">
+						<speaker>Niño Mayor</speaker>
+						<p>Sí, cuenta, papá, y lo de Caín y Abel...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>No; id vosotros a jugar en el jardín y dejadnos...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No, no..., que se queden los niños...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>No deben quedarse. Vaya, niños, un beso, y al jardín.</p>
+					</sp>
+					<stage>(Besan a su padre, y a <rs key="#ange">Ángel</rs> luego. Al coger éste al menor de ellos, dice:)</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>He aquí el enigma vivo... ¿qué será de él? ¡Ésta es la edad de la libertad, <rs key="#feli">Felipe</rs>! Pronto se le abrirán los caminos de la vida; tendrá que elegir uno, uno solo, renunciando a todos los demás, y una vez elegido no podrá ya desandarlo. ¡El tiempo no se dobla ni revierte! ¡Terrible misterio, cuya cara tantas veces me desvela! Un beso, niño. ¿Qué me dices de Adán y Eva?</p>
+					</sp>
+					<sp who="#nime">
+						<speaker>Niño Menor</speaker>
+						<p>Que les puso un Ángel en la puerta, con una espada de fuego..., que quemaba...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Bien, hombre, bien! ¡Vete con Dios! ¡A jugar..., a vivir!</p>
+					</sp>
+					<stage>(Le besa, y se van los niños.)</stage>
+				</div>
+				<div type="scene" n="3">
+					<head>ESCENA III</head>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#feli">Felipe</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Sentándose.)</stage> Sí, <rs key="#feli">Felipe</rs>; quiso el hombre ser dios, conocedor de la ciencia del bien y del mal, y así que la hubo probado, conoció, ante todo, su propia desnudez y se vio sujeto al trabajo y al progreso...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Mira, ahí fuera se lucha, no sé bien por qué. ¿Cómo anda eso de la revolución?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Y qué nos importa?  Cuando estaba ahí, en la puerta, oyéndote, parecía subirme del fondo del alma el aroma vivificante de mi niñez... ¡Qué días aquéllos, <rs key="#feli">Felipe</rs>!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>El niño que en nosotros todos duerme es la sal de nuestro espíritu, el justo que nos justifica...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Tú sabes que tuve la fortuna de nacer en una aldea, rodeado de campo y de aire libre. Así es como pude, de niño, desarrollarme en una sociedad también niña, recibiendo en el fresco verdor de mi espíritu virgen la frescura de aquel lugarejo, transparente y claro si los hay...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Hace mucho el poder librar a un niño de excesiva convivencia con los adultos...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Aquí, en las honduras de mi alma, donde se llevan los puros aluviones de la aurora de la vida, aquí llevo siempre el reflejo de la lenta calma de la vida sin historia de mi nativa aldea.</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Parece que la estoy viendo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Y recordarás la escuela en que aprendí a leer, escribir y contar, y las viejas leyendas de los antiguos patriarcas y profetas. Tenía ventanas abiertas al campo libre. Al salir de ella íbamos los chicuelos a corretear por la campiña, atracándonos de luz y de aire libre, para caer dormidos como marmotas así que tocábamos el lecho...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Estás evocando, <rs key="#ange">Ángel</rs>, también el sueño de mi niñez!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Déjame que en él me empape. Cuando salí de la escuela me entregaron al señor cura para que me preparase al ingreso. ¡Pobre don Pascual! Su recuerdo encarna para mí el ámbito maternal de la pobre aldea en que se meció la niñez de mi alma. Su casa me inspiraba el mismo respeto que la iglesia; es más, me parecía una iglesia más íntima y más recogida. En la penumbra del gabinete en que me daba las lecciones olía siempre al incienso con que don Pascual sahumaba su hogar. Al pie de un viejo cristo de marfil, los mugrientos devocionarios y los raídos textos en que el viejo párroco había apacentado su espíritu sereno.</p>
+					</sp>
+					<stage>(Se oye fuera gritos de una turba que pasa gritando: “¡Viva la libertad!’’ “¡Vivaaa!” “¡Viva el pueblo!” “¡Vivaaa!” “¡Abajo los tiranos!” “¡Abajo!” “¡Viva Moreno!” "¡Vivaaa!”)</stage>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Andan de revolución.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Pobre gente!... Presumía de músico y tenía allí un viejo clavicordio en que muchas veces le encontré tocando. Y entonces solía quedarme a la puerta, como suspenso y enajenado en aquellos ecos que parecían purificar el ámbito y que, casados al perfume del incienso, me hacían ver en aquel hogar casto la concentración viva de los tranquilos siglos de mi aldea...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Qué cuadro de libertad, <rs key="#ange">Ángel</rs>, de verdadera libertad..., de libertad cristiana!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Acabada la lección, me acariciaba la barbilla el pobre don Pascual, diciéndome: “¡Conque a ser bueno, <rs key="#ange">Ángel</rs>!” ¡Creíase obligado a darme consejos...; figúrate..., las simplezas de rigor! Pero el tono, la voz en que parecían vibrar ecos del clavicordio, el dulce reflejo de su cara pálida al dármelos, no lo olvidaré nunca..., ¡no, nunca! Y, después de todo, en los consejos, como en lo demás, es la música lo que da vida, no la letra. Aquí, <rs key="#feli">Felipe</rs>, aquí dentro llevo aquel “¡Conque a ser bueno, <rs key="#ange">Ángel</rs>...!” ¡A ser bueno..., a ser bueno...! <stage>(Baja la cabeza y la apoya en las manos, llorando.)</stage></p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Vamos, <rs key="#ange">Ángel</rs>, cálmate...; sí, eres bueno... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sólo Dios es bueno!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Desecha esas aprensiones y vuelve a tu niñez! </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, hay que hacerse niño para entrar en el reino de los cielos. Pero tú sabes cómo me perdió la ciudad. A ella vine a devorar libros. ¡Ah, mis primeros tiempos de ciudad! ¡Cuántas veces oculto en un rincón de la vieja catedral y vibrando cual débil junco a los sonidos del órgano me sumía en un mar de vaguedades! ¡Enjambres de larvas de ideas surgían en mi conciencia entonces como por ensalmo, y cual arrastradas de un viento por la pastosa y solemne voz del órgano formaban una nube que me cubría el espíritu y en que parecía palpitar pidiendo libertad un mundo entero...!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Sí, la libertad que has de conquistar ahora; ahora que te has quedado solo..., solo con Dios!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Cuántas veces, puesto de rodillas, me gozaba en el dolor de éstas, acabando por verter la energía de mi corazón en lágrimas silenciosas y lentas! Soñaba con ser santo, con tremendas penitencias o con un glorioso martirio, con místicos deliquios que apenas vislumbraba, acabando no pocas veces por soñarme emperador alzado en un campo de batalla. <stage>(Se oye mucho ruido de gente que pasa por fuera.)</stage> ¿Qué es eso?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Alguna turba que va al combate. Este es el camino del barrio Norte al Este...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿A qué molestarte con una historia que en cuanto no conoces adivinas? ¡Qué días aquellos en que vivía de fe! Pero siempre fue el mundo de mi fe un mundo exclusivamente mío; siempre me constituí en actor central de mis divinas comedias. Y en la edad en que empieza a cosquillear la carne, me cosquilleó el espíritu. El amor naciente fue fuerza intelectual en mí. Quise racionalizar mi fe. Tú sabes cómo me di a bucear en los más intrincados problemas, en los misterios más insondables, y cómo en la edad en que despierta en nuestra alma la humanidad eterna ansiaba abarcar bajo mi mirada al universo entero... Tú conoces los años de mi carrera...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Sí, los conozco!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Tú sabes mis tristezas. Y ¡cómo me acompañaba durante ellas aquel “¡Conque a ser bueno, <rs key="#ange">Ángel</rs>!” del pobre don Pascual!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>No vuelvas demasiado tus ojos al pasado. Acuérdate de la mujer de Lot. Mira hacia adelante, al porvenir, único reino de la salud...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡El porvenir! ¡El porvenir! ¿Qué habrá en él? Tú sabes que jamás me deja el terrible espectro de la nada; pero lo que no sabes es un suceso, no sé si providencial o extraño, que me ocurrió siendo niño. Escucha. Quise consultar mi porvenir, y una mañana, después de purificada mi conciencia y puesto de rodillas, abrí al azar los Evangelios y puse el dedo sobre aquellas palabras que dicen: “Id y predicad el Evangelio a todas las naciones.” Quedé pensativo y sin decidirme; empecé a rumiarlo, y acordé pedir aclaración al Espíritu. Y otra mañana, con igual recogimiento y solemnidad, latiéndome el pecho, volví a abrir el texto para leer aquello que el ciego, curado, dijo a los fariseos: “Ya os lo dije y no me oísteis, ¿por qué queréis saberlo otra vez?” </p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Es extraño...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Un peñasco, <rs key="#feli">Felipe</rs>, un peñasco que se me hubiese venido encima no me habría producido tal efecto. Parecía ahogarme...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Es extraño, sí, es extraño...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Esas palabras, como aquellas otras de “¡Conque a ser bueno, <rs key="#ange">Ángel</rs>!”, no se me callan nunca..., nunca... Sobre todo, desde que me casé. De mi matrimonio no hablemos; ha sido ella quien me lanzó a la vida pública, ella la que quiso emborracharme de gloria, ella, Eva, la que me ofrecía del árbol prohibido, y me deja..., me deja solo... solo...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Solo... no!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Sí, solo! Y he pasado por lo más horrible: por creerme loco. Por lo menos lo fingía. Y todo... ¿por qué? ¿Por qué crees que lo hacía, <rs key="#feli">Felipe</rs>? Por intrigar al prójimo; por hacerme el interesante; por aquello de que la locura y el genio..., ¡qué sé yo por qué! He vivido lleno de mí mismo..., en satánica soberbia...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Sosiégate, <rs key="#ange">Ángel</rs>, que exageras, dando ahora en la soberbia, que suele serlo, de menospreciarte...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Tienes razón. Humillarse para ser ensalzado es refinada soberbia... ¿Y no hay acaso algo de satánico también en ponerse al borde del camino a hacerse centro del interés compasivo de los transeúntes mostrándoles el gangrenoso muñón? <stage>(Se oye ruido de otra turba y gritos de "¡Viva la libertad!’’)</stage> ¡Vivaa!... ¡Sí, libertad, libertad! ¡Santa libertad de ser como Dios me hizo y no como me quiere el mundo...; libertad! <stage>(Se sienta, sollozando.)</stage></p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Vamos, <rs key="#ange">Ángel</rs>, cálmate...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Te acuerdas, <rs key="#feli">Felipe</rs>, de un día en que tenías en brazos al mayor de tus hijos, enfermito entonces? El pobrecillo se acurrucaba en tu regazo y te decía: “¡Quiéreme, papá!” cada vez que apartabas de él tu vista. ¡Y así, al calor de tu pecho, al contacto de tus brazos, bajo tu mirada amorosa, se quedó dormido! ¡No pido más..., nada más! ¡Sólo quiero que el Padre invisible me coja en su regazo, sentir el calor de su inmenso pecho, el ritmo de su respiración, mirarme en su mirada, en ese cielo limpio y puro, y dormir en paz!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Conque a ser bueno, <rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Volviéndose, sobresaltado.)</stage> ¡Ah, esa voz...! ¡No, no eres tú, <rs key="#feli">Felipe</rs>...; sí, eres tú...!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡A ser bueno, <rs key="#ange">Ángel</rs>! <stage>(Llaman a la puerta.) </stage>¿Quién será?</p>
+					</sp>
+					<stage><stage>(Sale a abrir y aparece <rs key="#joaq">Joaquín</rs>.)</stage></stage>
+				</div>
+				<div type="scene" n="4">
+					<head>ESCENA IV</head>
+					<stage>Dichos y <rs key="#joaq">Joaquín</rs>.</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Tú aquí?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Sí, yo, a pesar de que me echaste de tu casa y renegaste de mi amistad. Yo, que vengo tal vez a salvarte...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿A salvarme?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Sí, a salvarte! El movimiento encuentra más resistencia de la que esperábamos; empieza a sonar la palabra traición, y como no es un secreto este tu refugio, puedes pasarlo mal...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Dios se acuerda de mí al cabo...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Puede peligrar tu vida...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Peor sería que peligrase mi muerte!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Siempre esa condenada obsesión de la muerte!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Es peor la de la vida...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Ese pensamiento acabará por matarte en vida...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>En él se diferencia del animal el hombre. Cuanto más se piensa en la muerte, más hombre se es...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>No seas loco, <rs key="#ange">Ángel</rs>. ¡Sé hombre, sé viril! Piensa que todo en torno nuestro se renueva...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Basta! ¡Todo eso son razones tan sólo; nada más que razones!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Es que...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡El descubrimiento de los microbios debe consolar mucho la muerte de los tísicos...!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Pero enseñará a curarlos... Pero basta de divagaciones. Mira que peligras; que, además, Moreno...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Pobrecillo!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>No sabes lo que me disgusta tu manía de ver en todos tontos y no pillos... Rara vez odias: ¡desprecias!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Ni eso: ¡compadezco!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Ojalá compadecieses de veras...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Pudiendo haber hecho tanto...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Por qué? ¿Por esta civilización con la que acabará la morfina?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Aliviando la miseria ajena! Mientras haya quienes se mueren de hambre, todas esas cosas importan poco. Si hay Dios, Él verá lo que ha de hacer de nosotros; si no le hay...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¿Y si no le hay?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Calla; no creéis más que en el hambre esa..., la del cuerpo...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Es la verdadera..., la única!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Tú no conoces otros sufrimientos...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Sí, sufrimientos de lujo...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿De lujo?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>De lujo, sí; que se te curarían si tuvieses seis bocas que te pidiesen pan y nada más que tus propias fuerzas para ganarlo. Lo primero es libertar a todos los hombres de la miseria corporal...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¿Para qué?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Para pensar luego en otra cosa. Tal vez lo que éste sufre sea efecto de la miseria vulgar, del hambre de alguno de sus bisabuelos...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Sutilezas...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Sutilezas las que usted le inculca...</p>
+					</sp>
+					<stage>(En este momento llaman precipitadamente. Sale <rs key="#feli">Felipe</rs> a abrir y entra <rs key="#nico">Nicolás</rs>.)</stage>
+				</div>
+				<div type="scene" n="5">
+					<head>ESCENA V</head>
+					<stage>Dichos y <rs key="#nico">Nicolás</rs>.</stage>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡<rs key="#ange">Ángel</rs>, huye, huye pronto! ¡Ponte en salvo!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡En salvo..., de eso trato, de ponerme en salvo! Tú aquí...</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Sí, yo, a pesar de todo. ¡Viene un pelotón grande de gente en busca tuyo..., del traidor! El golpe, que parecía seguro, ha marrado en parte. No sé de dónde han sacado tantas tropas esos bandidos... <stage>(Se oyen a lo lejos cañonazos.)</stage> ¿No oyes? Piden a voces que se te arrastre...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Pues que me arrastren!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Ten prudencia, <rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Eso antes..., antes...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Que venga!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p><stage>(Cogiéndole.)</stage> ¡Que venga... no! Tú tienes que venirte con nosotros..., huir...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Te esconderemos...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Esconderme? ¿Como Adán cuando le llamó Dios? No siento vergüenza de presentarme desnudo al pueblo.</p>
+					</sp>
+					<stage>(Se levanta, se sienta, vuelve a levantarse <hi rend="italic">y acciona solo mientras los otros hablan.</hi> <rs key="#nico">Nicolás</rs> se asoma de cuando en cuando a la ventana.)</stage>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡<rs key="#ange">Ángel</rs>! Aún tienes tiempo...; el último momento..., el que no vuelve... ¡Aprovéchalo! Vuelve en ti; sé una vez siquiera hombre natural..., humano... Arroja de ti esa egoísta voluptuosidad de la tristeza... La acción...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Irguiéndose.)</stage> ¡Ea, sí, vamos!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡A huir, pero pronto!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No, a huir no! ¡A ponerme al frente de ellos para encauzarlos; a impedir mayores males, a morir en la barricada! Es una cobardía recogerse así...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Pero, <rs key="#ange">Ángel</rs>, ¿te has vuelto loco?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Creo haberlo estado hasta ahora. Vosotros tenéis razón.    ¡Vamos..., a ellos..., a la fiera! ¡A salvarlos!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¿Y si te pierdes?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡No es posible perderse salvando a los demás!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p><stage>(Cogiéndole.)</stage> ¡Éste es nuestro <rs key="#ange">Ángel</rs>! ¡Resucita! Aún puedes inflamarles con tu palabra..., darles fuerzas..., salvarnos. <stage>(Se oyen cañonazos lejanos.)</stage> ¡A ahogarlos!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Sólo Dios salva! ¡El triunfo te agrandará la nada!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<stage>(Acercándose a <rs key="#feli">Felipe</rs> y cruzándose de brazos ante él.)</stage>
+						<p>La nada..., la nada...; pero ¿qué he de hacer?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p><stage>(Con calma.)</stage> Ya te lo he dicho y no me has oído. ¿Por qué lo quieres saber otra vez?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Dejando caer los brazos y en actitud abatida.)</stage> ¡Oh Dios mío..., Dios mío...! ¿Hasta cuándo?... <stage>(Solloza.)</stage></p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Pero qué es eso..., ¡decídete! <stage>(Se asoma a la ventana al oír rumor de turba que se acerca.)</stage> ¡Ya no hay tiempo que perder...; están ahí cerca..., ahí vienen... <rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>!, ¿no oyes?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Como volviendo en sí.)</stage> No voy, no, no debo..., no puedo..., no quiero ir. Pero sí me asomaré a decirles cuatro palabras de corazón, ¿verdad, <rs key="#feli">Felipe</rs>?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Ten valor y calma!</p>
+					</sp>
+					<stage>(Se oye por de fuera gritería y voces de "¡Abajo los traidores!” “¡Mueran los vendidos!” “¡Abajo!” “¡Mueran!”)</stage>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¿Y qué hacemos?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¿Qué hemos de hacer? Atrancar las puertas y ponernos en manos de la providencia...</p>
+					</sp>
+					<stage>(<rs key="#ange">Ángel</rs> se acerca a la ventana mientras se oyen gritos y mueras y algunas pedradas. Cae roto algún cristal.)</stage>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p><stage>(Precipitándose fuera por la puerta que lleva al jardín.)</stage> Los niños... ¡Dios mío! ¡Los niños...!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p><stage>(Adelantándose a <rs key="#ange">Ángel</rs>.)</stage> ¡Retírate; no seas loco.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Dándole un fuerte empellón.)</stage> ¡Déjame con ellos!</p>
+					</sp>
+					<stage>(Abre la ventana a tiempo que se oye un “¡Viva la libertad!" “¡Vivaaa!” Suenan voces de “¡Hipócrita!” “¡Traidor!”, y pedradas. Cae de nuevo algún cristal.)</stage>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Por Dios, <rs key="#ange">Ángel</rs>, por Dios! <stage>(Saca una pistola.)</stage></p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Decididamente: está loco!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Dirigiéndose al pueblo)</stage> Sí, ¡viva la libertad! <stage>(El tumulto va encalmándose y convirtiéndose en un sordo rumor.)</stage> ¡Viva la libertad!, que es la vida. Os lo digo también yo..., la santa libertad..., el alma del mundo..., el espíritu de la idea... Pero cuán pocos, hijos míos... <stage>(Voces de “¡Fuera el sermón!” "¡Mueran los traidores!” “¡Silencio!” “¡Que calle” “¡Que hable!”)</stage>, cuán pocos llegan al seno de la libertad misma... Pedís libertad y venís a quitármela; no queréis que sea como soy... ¡Libertad! <stage>(¡Una voz: "¡Que calle el traidor!’’)</stage> ¿Traidor? ¿Sabéis lo que es traición acaso? <stage>(Se reproduce el tumulto y voces de "¡Que calle!” “¡Muera!” Aparece <rs key="#feli">Felipe</rs> con los niños a su arrimo y éstos quedan como aterrados en un rincón durante el resto de la escena.)</stage> No, no callaré mientras tenga vida en el pecho...; no debo callarme porque soy palabra...; callarme es morir, y no quiero morirme, no moriré... Sois unos cobardes... <stage>(El tumulto crece; arrecian las pedradas y suena un tiro, <rs key="#ange">Ángel</rs> se desvanece y se apoya.)</stage> Sí..., cobardes..., cobardes...</p>
+					</sp>
+					<stage>(Cae al suelo. <rs key="#feli">Felipe</rs>, <rs key="#joaq">Joaquín</rs> y <rs key="#nico">Nicolás</rs> se precipitan a él mientras va cesando el tumulto.)</stage>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Le han muerto, Dios mío!</p>
+					</sp>
+					<sp who="#nime">
+						<speaker>Niño Menor</speaker>
+						<p><stage>(Al mayor.)</stage> ¡Le han matado!</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Un médico..., agua..., una cama...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Allí..., allí..., a aquel sofá...</p>
+					</sp>
+					<stage>(Le cogen para llevarle al sofá.)</stage>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>Vive; tal vez no sea nada...</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Fricciones!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>No...; primero veamos lo que ha sido... </p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Canallas! ¡Cobardes! ¡Y se han ido! ¡Ya no gritan...!</p>
+					</sp>
+					<stage>(Le colocan en el sofá.)</stage>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Abrigarle!</p>
+					</sp>
+					<stage>(Va <rs key="#feli">Felipe</rs> a buscar una manta y de paso se coge a los niños y se los lleva. Éstos vuelven la cabeza a ver lo que pasa.)</stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Con voz débil; volviendo en sí.)</stage> Sí..., libertad..., libertad...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Calla y no hables!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p><stage>(Volviendo con la manta y abrigándole con ella.)</stage> ¡Cállate y descansa!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Ella...! ¡Ella...!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¿Qué dices? </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Ella...; ahí está!</p>
+					</sp>
+					<stage>(Se oyen golpes violentos a la puerta.)</stage>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¿Abro?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡No!</p>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ESCENA VI</head>
+					<stage>Dichos, <rs key="#eufe">Eufemia</rs>, <rs key="#euse">Eusebio</rs> y la Tía <rs key="#ramo">Ramona</rs>.</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Desde fuera.)</stage> ¡Abran..., ábranme pronto..., pronto..., <rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Su voz...</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¿Y ahora?</p>
+					</sp>
+					<stage>(<rs key="#feli">Felipe</rs> <hi rend="italic">va a abrir y se precipitan</hi> <rs key="#eufe">Eufemia</rs> y <rs key="#euse">Eusebio</rs>.)</stage>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Registra con la mirada toda la estancia y al ver a <rs key="#ange">Ángel</rs> tendido en el sofá corre a él, gritando:)</stage> ¡<rs key="#ange">Ángel</rs>, <rs key="#ange">Ángel</rs> mío!</p>
+					</sp>
+					<stage>(<rs key="#euse">Eusebio</rs> <hi rend="italic">se queda atrás.)</hi></stage>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Tú..., tú...; tú aquí...?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Sí..., yo..., yo..., tu <rs key="#eufe">Eufemia</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Tú...? ¿Cómo?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Le palpa, le introduce una mano en el seno, la saca y mira, y al ver sangre en ella se desvanece, gritando:)</stage> ¡Sangre, Dios mío, sangre! ¡<rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>La sangre redime... <stage>(La Tía <rs key="#ramo">Ramona</rs> en tanto le atiende, pide una almohada, que se la coloca bajo la cabeza; le prepara agua.)</stage> ¡Agua!</p>
+					</sp>
+					<sp who="#ramo">
+						<speaker>Tía Ramona</speaker>
+						<p>Aquí está.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Si volviese a nacer..., si volviese a nacer... ¡La vida, me mata la vida; bendita sea!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Así, así...; eso es recibir con dignidad a la muerte.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Volviendo en sí.)</stage> La muerte no..., no...</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Qué quiere decir la muerte?</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>¡Vida!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Si volviese a nacer..., si volviese a nacer..., si fuese otro...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Otro... no!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Haz cuenta que lo eres.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, otros son como yo...; la vida vive..., y yo no soy nada.</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Pero la vida es todo.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>La vida..., la vida..., ¿qué quiere decir la vida?</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Muerte!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Bendita sea la muerte!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡No, <rs key="#ange">Ángel</rs> mío, no, muerte no..., vida! ¡Iremos al campo..., perdóname..., hijo mío! <stage>(Volviendo en sí y arrodillándose ante su marido:)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs> mío! ¡Perdóname!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>No, perdón tú..., tú... Me entregaste tu vida...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Hijo mío!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Así..., así..., <rs key="#eufe">Eufemia</rs>..., así..., hijo..., hijo tuyo! ¿No querías ser madre? Y me tenías a mí, al niño de siempre..., a tu hijo..., a tu hijo enfermo... <stage>(Siente ahogos.) </stage>¡Ya te he hecho madre..., mira el poder de la muerte...!</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p><stage>(Cubriéndose la cara.)</stage> ¡Oh, no..., no...; la muerte no..., no..., no...!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿También tú tiemblas ante la muerte, madrecita? ¿Y más allá?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Calla, por Dios, <rs key="#ange">Ángel</rs>; calla y vive...; no..., no quiero que te mueras..., y no morirás. <stage>(Le abraza.)</stage></p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><rs key="#joaq">Joaquín</rs>, <rs key="#nico">Nicolás</rs>, acercaos. Dame la mano, <rs key="#nico">Nicolás</rs>, tú primero...</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p><stage>(Dándosela.)</stage> ¿Qué quieres?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><stage>(Tomándosela.)</stage> Libertad...; la libertad está en ser humilde..., humilde de corazón, no con los labios... <stage>(Le besa la mano.)</stage></p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p><stage>(Emocionado.)</stage> ¡Por Dios, <rs key="#ange">Ángel</rs>! ¿Qué haces?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>He querido hacer de vosotros, mis amigos, un comentario a mí: vosotros satélites, y el astro yo...; no he querido que os manifestarais... Y también vosotros tenéis vuestra alma, tan alma como la mía...</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡<rs key="#ange">Ángel</rs>!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Sí, te entiendo... Haz lo que quieras.</p>
+					</sp>
+					<stage><stage>(Sale <rs key="#feli">Felipe</rs>.)</stage></stage>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Vamos, calla!</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Calla..., calla...; pronto callaré para siempre..., y callarán también todas las cosas a mis oídos... ¡Conque a ser bueno, <rs key="#ange">Ángel</rs>!..., a ser bueno... Ya os lo dije y no me oísteis. ¿Por qué queréis saberlo otra vez?... Mira..., mira a la puerta el Ángel con la espada de fuego, que quema... </p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>Parece que delira... </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><rs key="#eufe">Eufemia</rs>, ¿te lleva Pegaso?...</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Estoy aquí, contigo, <rs key="#ange">Ángel</rs>... ¡<rs key="#ange">Ángel</rs> mío! </p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p><rs key="#ange">Ángel</rs>..., <rs key="#ange">Ángel</rs>... ¿Quién es <rs key="#ange">Ángel</rs>? Se va a acabar el mundo... Mira, mira cómo se derrite... Ciego, sordo, mudo, perlático, insensible...; dormido, dormido para siempre... ¿Dónde estás, Dios mío? ¡Detente, pueblo!, ¡no le atropelles! ¡Soy yo..., yo..., yo..., tu <rs key="#ange">Ángel</rs>...! Yo..., yo... Que me quiten de encima este yo, que me sofoca. <stage>(Le da un vahído.)</stage></p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡<rs key="#euse">Eusebio</rs>! ¡<rs key="#euse">Eusebio</rs>, sálvale!</p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>No hay salvación.</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Entonces, ¿para qué eres hombre?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¿Gloria...? ¿Gloria...?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¿A quién llamas, <rs key="#ange">Ángel</rs>?</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>¡Ah! ¿Estabas ahí?... No te veo... Ven... Acércate..., dame la mano... ¿Y la gloria, madre, qué es de la gloria?</p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>Calla, por Dios, <rs key="#ange">Ángel</rs>.</p>
+					</sp>
+					<sp who="#ange">
+						<speaker>Ángel</speaker>
+						<p>Cántame el canto de cuna para el sueño que no acaba...; arrulla mi agonía, que viene cerca...; reza por mí, por ti, por todos... <stage>(Entra <rs key="#feli">Felipe</rs>.)</stage> Reza..., reza..., a ver si cuajando nuestras oraciones nos abren una gloria, pero una gloria de sustancia, celestial y eterna..., de las almas; no terrestre y pasajera..., no de los nombres... ¡Sí, sí, llora..., llora... y reza! <stage>(Fijándose en el cristo.)</stage> Mira, mira cómo en su agonía me abre los brazos mientras le sangra el pecho...; es el divino abrazo del amor y la muerte...: el abrazo de paz en la agonía... Con justicia muero...; es el pago merecido a mi soberbia...; pero tú, Maestro de humildad, nada malo hiciste para merecer la muerte... Señor, acuérdate de mí en tu reino... ¡Paz!... ¡Paz!... ¡Paz!... <stage>(Le da un vahído.)</stage></p>
+					</sp>
+					<sp who="#eufe">
+						<speaker>Eufemia</speaker>
+						<p>¡Hijo de mi alma! <stage>(Se abraza a él, llorando.) </stage></p>
+					</sp>
+					<sp who="#euse">
+						<speaker>Eusebio</speaker>
+						<p>¡Apenas oye ya!</p>
+					</sp>
+					<sp who="#joaq">
+						<speaker>Joaquín</speaker>
+						<p>Quién sabe...</p>
+					</sp>
+					<sp who="#nico">
+						<speaker>Nicolás</speaker>
+						<p>¡Maldita revolución!</p>
+					</sp>
+					<sp who="#feli">
+						<speaker>Felipe</speaker>
+						<p>¡Dios le dé paz!</p>
+					</sp>
+				</div>
+			</div>
+		</body>
+		<back>
+			<div>
+				<stage>[Fin de «La esfinge»]</stage>
+			</div>
+		</back>
+	</text>
+</TEI>
