@@ -54,7 +54,7 @@ Algunas de las obras han sido cotejadas filológicamente con una obra de referen
 
 ## Publicación
 
-Los textos pueden encontrarse en el repositorio de *GitHub* del grupo: \<https://github.com/GHEDI/BETTE>. Entre sus carpetas pueden encontrarse:
+Los textos pueden encontrarse en el repositorio de *GitHub* del grupo: \<https://github.com/GHEDI/BETTE >. Entre sus carpetas pueden encontrarse:
 * los textos en formato XML-TEI
 * los textos en formato plano (txt) habiendo eliminado metadatos, paratextos iniciales y finales, nombres de personajes que hablan y acotaciones
 * documentación
@@ -62,7 +62,7 @@ Los textos pueden encontrarse en el repositorio de *GitHub* del grupo: \<https:/
 * estilos (utilizados si los archivos .xml son abiertos en navegador)
 * esquema
 
-Además, el grupo ha realizado una publicación en el portal de publicación de datos de investigación Zenodo, un proyecto apoyado por el CERN, que además entrega DOIs al conjunto de los datos. Puede visitarse en: \<https://zenodo.org/badge/latestdoi/104444419>.
+Además, el grupo ha realizado una publicación en el portal de publicación de datos de investigación Zenodo, un proyecto apoyado por el CERN, que además entrega DOIs al conjunto de los datos. Puede visitarse en: \<https://zenodo.org/badge/latestdoi/104444419 >.
 
 ## Metadatos
 En el *TEIheader* se encuentran los principales metadatos sobre el texto y el autor, ambos señalados mediantes identificadores VIAF y de la Biblioteca Nacional de España. También se ha puesto empeño en identificar de manera explícita los diferentes estadios de una obra hasta llegar a este punto. En concreto citamos cuatro posibles estadios:
@@ -108,25 +108,25 @@ Esta fase del proyecto ha sido liderada por Concepción María Jiménez. Teresa 
 ## Cómo citar BETTE
 
 Para citar la colección como tal:
-* María Jiménez, Concepción, Teresa Santa María Fernández y José Calvo Tello:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, UNIR: 2017. \<https://github.com/GHEDI/BETTE> [![DOI](https://zenodo.org/badge/104444419.svg)](https://zenodo.org/badge/latestdoi/104444419)
+* María Jiménez, Concepción, Teresa Santa María Fernández y José Calvo Tello:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, UNIR: 2017. \<https://github.com/GHEDI/BETTE > [![DOI](https://zenodo.org/badge/104444419.svg)](https://zenodo.org/badge/latestdoi/104444419)
 
 Para citar la presentación del corpus en su versión 1.0:
 * María Jiménez, Concepción, Elena Martínez Carro, Teresa Santa María Fernández, José Calvo Tello, María Simón Parra, Roxana Beatriz Martínez Nieto, María García Sánchez, *BETTE: Biblioteca Electrónica Textual del Teatro en Español de la Edad de Plata*, Málaga, Congreso HDH: 2017.
 
 Para citar un artículo sobre la planificacioń de BETTE:
-* Gómez, Sila, José Calvo Tello, Juana María González, y Rocío Vilches. 2015. ‘Hacia Una Biblioteca Electrónica Textual Del Teatro En Español de 1868-1936 (BETTE).’ Texto Digital 11 (2): 171–84. \<https://periodicos.ufsc.br/index.php/textodigital/article/view/1807-9288.2015v11n2p171/30960>
+* Gómez, Sila, José Calvo Tello, Juana María González, y Rocío Vilches. 2015. ‘Hacia Una Biblioteca Electrónica Textual Del Teatro En Español de 1868-1936 (BETTE).’ Texto Digital 11 (2): 171–84. \<https://periodicos.ufsc.br/index.php/textodigital/article/view/1807-9288.2015v11n2p171/30960 >
 
 
 ## Referencias
 
-Calvo Tello, José. 2015. Corpus of Spanish Novel from 1880-1940. Sp. Würzburg: University of Würzburg. <https://github.com/cligs/textbox/tree/master/es/novela-espanola>.
-Ehrlicher, Hanno, and Nanete Rißler-Pipka. 2015. Revistas Culturales 2.0. Augsburg: Universität Augsburg. <https://www.revistas-culturales.de/es>.
-Oleza Simó, Joan. 2013. Biblioteca Digital Arte Lope. Valencia: Universitat de València. <artelope.uv.es/biblioteca>.
-———. 2014. Canon 60. Valencia: Universitat de València. <http://tc12.uv.es/index.php/produccion-cientifica/edicion-del-patrimonio-teatral/canon-60>.
-Romero López, María Dolores. 2012. Mnemosine. Biblioteca Digital de La Otra Edad de Plata. Madrid: Grupo LOEP, Universidad Complutense de Madrid. <http://repositorios.fdi.ucm.es/mnemosine/>.
-Ruiz, Pablo, Clara Martínez Cantón, and José Calvo Tello. 2017. DISCO: Diachronic Spanish Sonnet Corpus. Madrid: UNED. <https://github.com/pruizf/disco>.
-Schöch, Christof, Ulrike Henny, José Calvo Tello, and Stefanie Popp. 2015. The CLiGS Textbox. Würzburg: University of Würzburg. <https://github.com/cligs/textbox>.
-Simón Palmer, María del Carmen. 1997. Teatro Español Del Siglo de Oro. Ann Arbor: ProQuest. <teso.chadwyck.com>.
+Calvo Tello, José. 2015. Corpus of Spanish Novel from 1880-1940. Sp. Würzburg: University of Würzburg. \<https://github.com/cligs/textbox/tree/master/spanish/novela-espanola >.
+Ehrlicher, Hanno, and Nanete Rißler-Pipka. 2015. Revistas Culturales 2.0. Augsburg: Universität Augsburg. \<https://www.revistas-culturales.de/es >.
+Oleza Simó, Joan. 2013. Biblioteca Digital Arte Lope. Valencia: Universitat de València. \<artelope.uv.es/biblioteca >.
+———. 2014. Canon 60. Valencia: Universitat de València. \<http://tc12.uv.es/index.php/produccion-cientifica/edicion-del-patrimonio-teatral/canon-60 >.
+Romero López, María Dolores. 2012. Mnemosine. Biblioteca Digital de La Otra Edad de Plata. Madrid: Grupo LOEP, Universidad Complutense de Madrid. \<http://repositorios.fdi.ucm.es/mnemosine/ >.
+Ruiz, Pablo, Clara Martínez Cantón, and José Calvo Tello. 2017. DISCO: Diachronic Spanish Sonnet Corpus. Madrid: UNED. \<https://github.com/pruizf/disco >.
+Schöch, Christof, Ulrike Henny, José Calvo Tello, and Stefanie Popp. 2015. The CLiGS Textbox. Würzburg: University of Würzburg. \<https://github.com/cligs/textbox >.
+Simón Palmer, María del Carmen. 1997. Teatro Español Del Siglo de Oro. Ann Arbor: ProQuest. \<teso.chadwyck.com >.
 
 
 
