@@ -19,6 +19,7 @@ Como ya se ha señalado, el corpus actualmente dispone de 25 textos de 8 autores
 * Lorca	5
 * Valle	5
 * Muñoz	4
+* Galdós	3
 * Echegaray	2
 * Valera	2
 * Unamuno	2
@@ -53,6 +54,7 @@ Además, las diferentes secciones del texto (*div*'s) están caracterizadas medi
 Algunas de las obras han sido cotejadas filológicamente con una obra de referencia (de poder ser, con la primera edición). Se puede saber si la obra ha sido cotejada si encontramos un elemento *change* con el atributo y valor: *status="compared"*. Somos conscientes de que la cotejación filológica es importante, y por eso comenzamos a realizarlo. Sin embargo el grupo se decidió por trabajar con grafos y redes sociales de personajes. Dentro de este tipo de estudios (con un enorme crecimiento internacional actualmente), el texto es en la mayoría de los casos ignorado, utilizándose exclusivamente la estructura de coapariciones de personajes en secciones de la obra. En el mejor de los casos, el texto es reducido enormemente a la cantidad de caracteres o palabras que un personaje dice cada vez. Es decir, la mayoría de la información cualitativa que un cotejo filológico traería, serían ignoradas por este tipo de análisis. Por eso decidimos priorizar otros aspectos del trabajo y postergar el cotejo filológico para pasos futuros.
 
 ## Publicación
+El corpus está publicado  bajo licencia [Creative Commons BY](https://creativecommons.org/licenses/by/2.0/es/).
 
 Los textos pueden encontrarse en el repositorio de *GitHub* del grupo: \<https://github.com/GHEDI/BETTE >. Entre sus carpetas pueden encontrarse:
 * los textos en formato XML-TEI
