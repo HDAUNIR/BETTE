@@ -1,5 +1,5 @@
 # Biblioteca Electrónica Textual del Teatro en Español de 1868-1936 (BETTE)
-[![DOI](https://zenodo.org/badge/104444419.svg)](https://zenodo.org/badge/latestdoi/104444419)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1010140.svg)](https://doi.org/10.5281/zenodo.1010140)
 
 ## Introducción
 La *Biblioteca Electrónica Textual del Teatro en Español* (BETTE) es una colección de textos teatrales de la Edad de Plata española, codificada en XML-TEI por el grupo GHEDI de la Universidad Internacional de La Rioja (UNIR). En esta primera fase (BETTE 1.0) hemos publicado 25 textos de 8 autores (Lorca, Valle, Munoz, Echegaray, Unamuno, Valera, Clarin y Dicenta).
@@ -112,7 +112,7 @@ Esta fase del proyecto ha sido liderada por Concepción María Jiménez. Teresa 
 ## Cómo citar BETTE
 
 Para citar la colección como tal:
-* María Jiménez, Concepción, Teresa Santa María Fernández y José Calvo Tello:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, UNIR: 2017. \<https://github.com/GHEDI/BETTE > [![DOI](https://zenodo.org/badge/104444419.svg)](https://zenodo.org/badge/latestdoi/104444419)
+* María Jiménez, Concepción, Teresa Santa María Fernández y José Calvo Tello:  *Biblioteca Electrónica Textual del Teatro en Español* (BETTE), La Rioja, UNIR: 2017. \<https://github.com/GHEDI/BETTE > [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1010140.svg)](https://doi.org/10.5281/zenodo.1010140)
 
 Para citar la presentación del corpus en su versión 1.0:
 * María Jiménez, Concepción, Elena Martínez Carro, Teresa Santa María Fernández, José Calvo Tello, María Simón Parra, Roxana Beatriz Martínez Nieto, María García Sánchez, *BETTE: Biblioteca Electrónica Textual del Teatro en Español de la Edad de Plata*, Málaga, Congreso HDH: 2017.
