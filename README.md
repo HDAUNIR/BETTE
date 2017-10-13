@@ -132,7 +132,7 @@ Para citar un artículo sobre la planificacioń de BETTE:
 * Romero López, María Dolores. 2012. Mnemosine. Biblioteca Digital de La Otra Edad de Plata. Madrid: Grupo LOEP, Universidad Complutense de Madrid. \<http://repositorios.fdi.ucm.es/mnemosine/ >.
 * Ruiz Fabo, Pablo, Clara Martínez Cantón, and José Calvo Tello. 2017. Diachronic Spanish Sonnet Corpus (DISCO). Madrid: UNED. \<https://github.com/pruizf/disco >.
 * Schöch, Christof, Ulrike Henny, José Calvo Tello, and Stefanie Popp. 2015. The CLiGS Textbox. Würzburg: University of Würzburg. \<https://github.com/cligs/textbox >.
-* Simón Palmer, María del Carmen. 1997. Teatro Español Del Siglo de Oro. Ann Arbor: ProQuest. \<teso.chadwyck.com >.
+* Simón Palmer, María del Carmen. 1997. Teatro Español Del Siglo de Oro. Ann Arbor: ProQuest. \<http://teso.chadwyck.com >.
 
 
 
