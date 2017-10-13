@@ -7,7 +7,7 @@ La *Biblioteca Electrónica Textual del Teatro en Español* (BETTE) es una colec
 ## Estado del Arte y Motivación
 El teatro hispánico ha sido objeto de numerosos e importantes proyectos dentro de las Humanidades Digitales en nuestra lengua. Proyectos como (citamos algunos de los más importantes) *TESO* (Simón Palmer 1997), *Biblioteca Digital Arte Lope* (Oleza Simó 2013), o *Canon 60* (Oleza Simó 2014) ya han trabajado en XML-TEI codificando obras de teatro en español. Sin embargo hasta ahora se ha trabajado prácticamente en exclusiva el período áureo de este género literario, dejando de lado otras épocas. Además, los citados proyectos no ponen a disposición de la comunidad investigadora los datos XML-TEI originales, sino apenas una exportación en HTML.
 
-Por otro lado, en la actualidad numerosos grupos están trabajando en diferentes áreas de la Edad de Plata: revistas por *Revistas Culturales 2.0* (Ehrlicher und Rissler-Pipka 2015), novelas por *Corpus of Spanish Novel from 1880-1940* (Calvo Tello 2015) como parte de *Textbox* (Schöch et al 2015), metadatos por *Mnemosine* (Romero López 2012) o poesía por *DISCO* (Ruiz 2017).
+Por otro lado, en la actualidad numerosos grupos están trabajando en diferentes áreas de la Edad de Plata: revistas por *Revistas Culturales 2.0* (Ehrlicher und Rissler-Pipka 2015), novelas por *Corpus of Spanish Novel from 1880-1940* (Calvo Tello 2015) como parte de *Textbox* (Schöch et al 2015), metadatos por *Mnemosine* (Romero López 2012) o poesía por *DISCO* (Ruiz Fabo et al. 2017).
 
 Como observamos, hay notable actividad en las Humanidades Digitales tanto en el teatro como en la Edad de Plata, pero percibíamos una laguna en la intersección de ambas, que ahora el grupo GHEDI y el proyecto BETTE cubren.
 
@@ -60,7 +60,7 @@ Los textos pueden encontrarse en el repositorio de *GitHub* del grupo: \<https:/
 * los textos en formato XML-TEI
 * los textos en formato plano (txt) habiendo eliminado metadatos, paratextos iniciales y finales, nombres de personajes que hablan y acotaciones
 * documentación
-* metadatos (como table *tsv* o *Tab-separated values*)
+* metadatos (como tabla *tsv* o *Tab-separated values*)
 * estilos (utilizados si los archivos .xml son abiertos en navegador)
 * esquema
 
@@ -74,11 +74,13 @@ En el *TEIheader* se encuentran los principales metadatos sobre el texto y el au
 * edición digital utilizada
 * edición utilizada para su cotejo
 
+A partir del año de la primera publicación se ha señalado la década en la que se publicó el texto como un campo más de los metadatos.
+
 Además, cada obra contiene un resumen especificando qué ocurre en cada acto. De esta manera se facilita a los investigadores un primer acercamiento en un par de párrafos a la obra, información que puede utilizarse como el puente entre el *close reading* de saber qué ocurre en el texto, y el *distant reading* de herramientas digitales.
 
 ## Aplicaciones en Investigación
 
-Como ya se ha señalado, el grupo está actualmente explorando estas obras mediante representaciones de redes sociales de los personajes en forma de grafo. Esta es un área de gran desarrollo en las Humanidades Digitales internacionales actualmente, con trabajos punteros de investigadores como Moretti, Craig, Jannidis, Schöch, Algee-Hewitt, Fischer, Rochat o Grandjean.
+Como ya se ha señalado, el grupo está actualmente explorando estas obras mediante representaciones de redes sociales de los personajes en forma de grafo. Esta es un área de gran desarrollo en las Humanidades Digitales internacionales actualmente, con trabajos punteros de investigadores como Moretti, Kaufman, Craig, Jannidis, Schöch, Algee-Hewitt, Trilcke, Fischer, Rochat o Grandjean.
 
 EL objetivo de esta área de las HD es recoger el modelo teórico desarrollado desde las matemáticas y utilizado en diferentes áreas (física, biología, sociología), y aplicarlo a la literatura, en concreto a la interacción entre personajes del texto.
 
@@ -121,14 +123,16 @@ Para citar un artículo sobre la planificacioń de BETTE:
 
 ## Referencias
 
-Calvo Tello, José. 2015. Corpus of Spanish Novel from 1880-1940. Sp. Würzburg: University of Würzburg. \<https://github.com/cligs/textbox/tree/master/spanish/novela-espanola >.
-Ehrlicher, Hanno, and Nanete Rißler-Pipka. 2015. Revistas Culturales 2.0. Augsburg: Universität Augsburg. \<https://www.revistas-culturales.de/es >.
-Oleza Simó, Joan. 2013. Biblioteca Digital Arte Lope. Valencia: Universitat de València. \<artelope.uv.es/biblioteca >.
-———. 2014. Canon 60. Valencia: Universitat de València. \<http://tc12.uv.es/index.php/produccion-cientifica/edicion-del-patrimonio-teatral/canon-60 >.
-Romero López, María Dolores. 2012. Mnemosine. Biblioteca Digital de La Otra Edad de Plata. Madrid: Grupo LOEP, Universidad Complutense de Madrid. \<http://repositorios.fdi.ucm.es/mnemosine/ >.
-Ruiz, Pablo, Clara Martínez Cantón, and José Calvo Tello. 2017. DISCO: Diachronic Spanish Sonnet Corpus. Madrid: UNED. \<https://github.com/pruizf/disco >.
-Schöch, Christof, Ulrike Henny, José Calvo Tello, and Stefanie Popp. 2015. The CLiGS Textbox. Würzburg: University of Würzburg. \<https://github.com/cligs/textbox >.
-Simón Palmer, María del Carmen. 1997. Teatro Español Del Siglo de Oro. Ann Arbor: ProQuest. \<teso.chadwyck.com >.
+* Calvo Tello, José. 2015. Corpus of Spanish Novel from 1880-1940. Sp. Würzburg: University of Würzburg. \<https://github.com/cligs/textbox/tree/master/spanish/novela-espanola >.
+* Ehrlicher, Hanno, and Nanete Rißler-Pipka. 2015. Revistas Culturales 2.0. Augsburg: Universität Augsburg. \<https://www.revistas-culturales.de/es >.
+* Marcus, Solomon. 1973. Mathematische Poetik. Translated by Edith Mândroiu. Frankfurt: Athenäum.
+* Moretti, Franco. 2005. Graphs, Maps, Trees: Abstract Models for a Literary History. London: Verso.
+* Oleza Simó, Joan. 2013. Biblioteca Digital Arte Lope. Valencia: Universitat de València. \<artelope.uv.es/biblioteca >.
+* ———. 2014. Canon 60. Valencia: Universitat de València. \<http://tc12.uv.es/index.php/produccion-cientifica/edicion-del-patrimonio-teatral/canon-60 >.
+* Romero López, María Dolores. 2012. Mnemosine. Biblioteca Digital de La Otra Edad de Plata. Madrid: Grupo LOEP, Universidad Complutense de Madrid. \<http://repositorios.fdi.ucm.es/mnemosine/ >.
+* Ruiz Fabo, Pablo, Clara Martínez Cantón, and José Calvo Tello. 2017. Diachronic Spanish Sonnet Corpus (DISCO). Madrid: UNED. \<https://github.com/pruizf/disco >.
+* Schöch, Christof, Ulrike Henny, José Calvo Tello, and Stefanie Popp. 2015. The CLiGS Textbox. Würzburg: University of Würzburg. \<https://github.com/cligs/textbox >.
+* Simón Palmer, María del Carmen. 1997. Teatro Español Del Siglo de Oro. Ann Arbor: ProQuest. \<teso.chadwyck.com >.
 
 
 
