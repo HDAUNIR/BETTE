@@ -7,7 +7,7 @@ La *Biblioteca Electrónica Textual del Teatro en Español* (BETTE) es una colec
 ## Estado del Arte y Motivación
 El teatro hispánico ha sido objeto de numerosos e importantes proyectos dentro de las Humanidades Digitales en nuestra lengua. Proyectos como (citamos algunos de los más importantes) *TESO* (Simón Palmer 1997), *Biblioteca Digital Arte Lope* (Oleza Simó 2013), o *Canon 60* (Oleza Simó 2014) ya han trabajado en XML-TEI codificando obras de teatro en español. Sin embargo hasta ahora se ha trabajado prácticamente en exclusiva el período áureo de este género literario, dejando de lado otras épocas. Además, los citados proyectos no ponen a disposición de la comunidad investigadora los datos XML-TEI originales, sino apenas una exportación en HTML.
 
-Por otro lado, en la actualidad numerosos grupos están trabajando en diferentes áreas de la Edad de Plata: revistas por *Revistas Culturales 2.0* (Ehrlicher und Rissler-Pipka 2015), novelas por *Corpus of Spanish Novel from 1880-1940* (Calvo Tello 2015) como parte de *Textbox* (Schöch et al 2015), metadatos por *Mnemosine* (Romero López 2012) o poesía por *DISCO* (Ruiz Fabo et al. 2017).
+Por otro lado, en la actualidad numerosos grupos están trabajando en diferentes áreas de la Edad de Plata: revistas por *Revistas Culturales 2.0* (Ehrlicher und Rißler-Pipka 2015), novelas por *Corpus of Spanish Novel from 1880-1940* (Calvo Tello 2015) como parte de *Textbox* (Schöch et al 2015), metadatos por *Mnemosine* (Romero López 2012) o poesía por *DISCO* (Ruiz Fabo et al. 2017).
 
 Como observamos, hay notable actividad en las Humanidades Digitales tanto en el teatro como en la Edad de Plata, pero percibíamos una laguna en la intersección de ambas, que ahora el grupo GHEDI y el proyecto BETTE cubren.
 
@@ -64,7 +64,7 @@ Los textos pueden encontrarse en el repositorio de *GitHub* del grupo: \<https:/
 * estilos (utilizados si los archivos .xml son abiertos en navegador)
 * esquema
 
-Además, el grupo ha realizado una publicación en el portal de publicación de datos de investigación Zenodo, un proyecto apoyado por el CERN, que además entrega DOIs al conjunto de los datos. Puede visitarse en: \<https://zenodo.org/badge/latestdoi/104444419 >.
+Además, el grupo ha realizado una publicación en el portal de publicación de datos de investigación Zenodo, un proyecto apoyado por el CERN, que además entrega DOIs al conjunto de los datos. Puede visitarse en: \<https://doi.org/10.5281/zenodo.995969 >.
 
 ## Metadatos
 En el *TEIheader* se encuentran los principales metadatos sobre el texto y el autor, ambos señalados mediantes identificadores VIAF y de la Biblioteca Nacional de España. También se ha puesto empeño en identificar de manera explícita los diferentes estadios de una obra hasta llegar a este punto. En concreto citamos cuatro posibles estadios:
