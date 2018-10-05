@@ -1,0 +1,9 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#proc	Proclo	M	lover	person	primary	1	16807	75	2	11	person
+1	#mari	Marino	M	other	person	minor	2	4089	24	2	3	person
+2	#eumo	Eumorfo	M	antagonist	person	secondary	3	1993	23	1	5	person
+3	#ascl	Asclepigenia	F	protagonist	person	primary	4	7775	40	0	5	person
+4	#crem	Crematurgo	M	antagonist	person	secondary	5	2005	13	0	3	person
+5	#aten	Atenais	M	other	person	minor	6	1147	15	0	2	person
+6	#sier	Sierva	F	other	person	minor	7	45	1	0	1	person
+7	#mort	Mortales y dioses	0	other	non-human	minor	8	16	1	0	1	personGrp

@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="Type" attr.type="string" for="edge" id="d6" />
+  <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
+  <key attr.name="importance" attr.type="string" for="node" id="d4" />
+  <key attr.name="nature" attr.type="string" for="node" id="d3" />
+  <key attr.name="role" attr.type="string" for="node" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="#sol3">
+      <data key="d0">F</data>
+      <data key="d1">Soltera 3ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#much">
+      <data key="d0">M</data>
+      <data key="d1">Muchacho</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#man3">
+      <data key="d0">F</data>
+      <data key="d1">Manola 3ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#man2">
+      <data key="d0">F</data>
+      <data key="d1">Manola 2ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#tio">
+      <data key="d0">M</data>
+      <data key="d1">Tío</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#man1">
+      <data key="d0">F</data>
+      <data key="d1">Manola 1ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#madr">
+      <data key="d0">F</data>
+      <data key="d1">Madre de las Solteras</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#ayo1">
+      <data key="d0">F</data>
+      <data key="d1">Ayola 1ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#rosi">
+      <data key="d0">F</data>
+      <data key="d1">Rosita</data>
+      <data key="d2">protagonist</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#ayo2">
+      <data key="d0">F</data>
+      <data key="d1">Ayola 2ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#obre">
+      <data key="d0">M</data>
+      <data key="d1">Dos obreros</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#sol2">
+      <data key="d0">F</data>
+      <data key="d1">Soltera 2ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#voz">
+      <data key="d0">M</data>
+      <data key="d1">Una voz</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#mart">
+      <data key="d0">M</data>
+      <data key="d1">Don Martín</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#sobr">
+      <data key="d0">M</data>
+      <data key="d1">Sobrino</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#tia">
+      <data key="d0">F</data>
+      <data key="d1">Tía</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#sol1">
+      <data key="d0">F</data>
+      <data key="d1">Soltera 1ª</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#ama">
+      <data key="d0">F</data>
+      <data key="d1">Ama</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <edge source="#sol3" target="#ayo2">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol3" target="#sol2">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol3" target="#tia">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol3" target="#madr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol3" target="#ayo1">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol3" target="#rosi">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol3" target="#sol1">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol3" target="#ama">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#tia">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#rosi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man3" target="#man1">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man3" target="#man2">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man3" target="#rosi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man3" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man2" target="#man1">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man2" target="#rosi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man2" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tio" target="#voz">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tio" target="#tia">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tio" target="#rosi">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tio" target="#ama">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man1" target="#rosi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#man1" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#madr" target="#sol2">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#madr" target="#ayo1">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#madr" target="#ayo2">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#madr" target="#ama">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#madr" target="#tia">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#madr" target="#sol1">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#madr" target="#rosi">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo1" target="#sol2">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo1" target="#ayo2">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo1" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo1" target="#tia">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo1" target="#sol1">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo1" target="#rosi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosi" target="#ayo2">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosi" target="#sol2">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosi" target="#tia">
+      <data key="d5">11.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosi" target="#sol1">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosi" target="#ama">
+      <data key="d5">11.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo2" target="#sol2">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo2" target="#tia">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo2" target="#sol1">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ayo2" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#obre" target="#tia">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#obre" target="#mart">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#obre" target="#ama">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol2" target="#tia">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol2" target="#sol1">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol2" target="#ama">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#voz" target="#tia">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#voz" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mart" target="#tia">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mart" target="#ama">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sobr" target="#tia">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sobr" target="#ama">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tia" target="#sol1">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tia" target="#ama">
+      <data key="d5">21.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sol1" target="#ama">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+  </graph>
+</graphml>

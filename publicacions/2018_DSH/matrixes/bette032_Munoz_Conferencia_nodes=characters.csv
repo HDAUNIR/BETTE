@@ -1,0 +1,10 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#alge	Algeciras	M	protagonist	person	primary	1	12860	94	21	12	person
+1	#cans	Canseco	M	other	person	secondary	2	3869	60	17	8	person
+2	#jorg	Jorge	M	other	person	secondary	3	2631	27	12	9	person
+3	#memb	Membrives	M	antagonist	person	primary	4	1482	20	7	7	person
+4	#mart	Martínez	M	other	person	minor	5	1152	12	8	5	person
+5	#gasc	Gascón	M	other	person	minor	6	232	7	4	2	person
+6	#rami	Ramírez	M	other	person	secondary	7	621	12	4	6	person
+7	#parr	Parrondo	M	other	person	minor	8	170	6	2	3	person
+8	#gome	Gómez	M	other	person	minor	9	306	3	0	2	person

@@ -1,0 +1,16 @@
+	Source	Target	Weight	Type
+2	#proc	#eumo	5.0	Undirected
+0	#proc	#ascl	4.0	Undirected
+1	#proc	#mari	3.0	Undirected
+4	#proc	#crem	3.0	Undirected
+7	#ascl	#aten	2.0	Undirected
+12	#eumo	#crem	2.0	Undirected
+3	#proc	#aten	1.0	Undirected
+5	#proc	#mort	1.0	Undirected
+6	#ascl	#eumo	1.0	Undirected
+8	#ascl	#crem	1.0	Undirected
+9	#ascl	#sier	1.0	Undirected
+10	#ascl	#mort	1.0	Undirected
+11	#mari	#eumo	1.0	Undirected
+13	#aten	#sier	1.0	Undirected
+14	#aten	#mort	1.0	Undirected

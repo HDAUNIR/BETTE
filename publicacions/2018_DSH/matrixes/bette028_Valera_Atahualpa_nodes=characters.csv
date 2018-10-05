@@ -1,0 +1,13 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#juan	Juanilla	F	other	person	minor	1	2747	7	19	2	person
+1	#laur	Laura	F	protagonist	person	primary	2	9743	45	95	11	person
+2	#cuel	Francisco de Cuéllar	M	lover	person	primary	3	11276	47	61	8	person
+3	#rive	Bartolomé Rivera	M	antagonist	person	primary	4	16757	67	25	7	person
+4	#padr	El Padre Antonio	M	other	person	secondary	5	9586	66	49	7	person
+5	#cipr	Cipriano	M	other	person	minor	6	576	9	14	3	person
+6	#bria	Doña Brianda	F	other	person	secondary	7	8829	38	28	5	person
+7	#iren	Doña Irene	F	other	person	secondary	8	11572	52	21	7	person
+8	#escu	Escudero	M	other	person	minor	9	73	1	3	1	person
+9	#fern	Don Fernando	M	antagonist	person	primary	10	6512	29	49	7	person
+10	#pere	Pérez	M	other	person	minor	11	333	5	6	1	person
+11	#garc	Garcés	M	other	person	minor	12	608	5	6	2	person

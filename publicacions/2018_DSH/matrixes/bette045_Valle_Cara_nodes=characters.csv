@@ -1,0 +1,47 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#caba	El Caballero, don Juan Manuel Montenegro	M	antagonist	person	primary	1	6184	108	64	5	person
+1	#cara	Cara de Plata	M	protagonist	person	primary	2	6063	202	72	10	person
+2	#pedr	Don Pedrito	M	other	person	minor	3	177	4	1	1	person
+3	#rose	Don Rosendo	M	other	person	minor	4	44	1	1	1	person
+4	#maur	Don Mauro	M	other	person	minor	5	393	12	10	2	person
+5	#gonz	Don Gonzalito	M	other	person	minor	6	0	0	1	0	person
+6	#farr	Don Farruquiño	M	other	person	minor	7	635	9	1	2	person
+7	#sabe	Sabelita	F	lover	person	primary	8	3384	118	41	5	person
+8	#abad	El Abad de Lantañón	M	antagonist	person	secondary	9	6386	142	59	8	person
+9	#jero	Doña Jeromita	F	other	person	minor	10	5459	120	12	4	person
+10	#sac1	El Sacristán	M	other	person	minor	11	4767	85	42	5	person
+11	#sac2	La Sacristana	F	other	person	minor	12	2633	39	2	1	person
+12	#biga	Bigardona	F	other	person	minor	13	444	15	15	1	person
+13	#celo	Celonio	M	other	person	minor	14	0	0	3	0	person
+14	#gabi	Gabino	M	other	person	minor	15	0	0	2	0	person
+15	#ming	Mingote	M	other	person	minor	16	0	0	4	0	person
+16	#fuso	Fuso Negro	M	other	person	minor	17	4753	54	29	6	person
+17	#gala	Don Galán	M	other	person	minor	18	341	10	4	1	person
+18	#peab	Pedro Abuín	M	other	person	minor	19	1322	22	2	3	person
+19	#rami	Ramiro de Bealo	M	other	person	minor	20	327	8	1	2	person
+20	#mato	Manuel Tovío	M	other	person	minor	21	172	3	1	2	person
+21	#mafo	Manuel Fonseca	F	other	person	minor	22	123	3	1	1	person
+22	#seba	Sebastián de Xogas	M	other	person	minor	23	1131	16	1	3	person
+23	#viej	El viejo de Cures	M	other	person	minor	24	2527	22	7	4	person
+24	#past	Pastor	M	other	person	minor	25	415	6	2	1	person
+25	#pich	Pichona la Bisbisera	F	other	person	minor	26	5987	92	27	5	person
+26	#ludo	Ludovina la ventorrillera	F	other	person	minor	27	990	28	11	1	person
+27	#coim	La Coima de otro mesón	F	other	person	minor	28	87	4	1	1	person
+28	#mara	Un maragato	M	other	person	minor	29	321	7	1	1	person
+29	#peni	Un Penitente	M	other	person	minor	30	836	6	7	1	person
+30	#cieg	El Ciego de Gondar	M	other	person	minor	31	279	2	0	1	person
+31	#indi	Un Indiano	M	other	person	minor	32	124	3	1	1	person
+32	#diac	El Diácono de Lesón	M	other	person	minor	33	208	6	0	1	person
+33	#viea	Una vieja cotillona	F	other	person	minor	34	603	10	1	1	person
+34	#voza	Otras viejas	F	other	person	minor	35	156	2	0	1	personGrp
+35	#pre1	Un pregón	M	other	person	minor	0	99	2	0	1	person
+36	#pre2	Otro pregón	M	other	person	minor	0	83	2	0	1	person
+37	#pre3	Otro pregón	M	other	person	minor	0	32	1	0	1	person
+38	#clam	Clamor de mujerucas	F	other	person	minor	36	384	3	0	1	personGrp
+39	#mari	María	F	other	person	minor	0	0	0	4	0	person
+40	#cvaq	Clamor de los vaqueros	M	other	person	minor	0	85	1	0	1	personGrp
+41	#vore	Voces remotas	O	other	person	minor	0	84	1	0	1	personGrp
+42	#chal	Un chalán	M	other	person	minor	0	17	1	0	1	person
+43	#conf	Confusión de voces	O	other	person	minor	0	54	1	0	1	person
+44	#vozl	Voz lejana	O	other	person	minor	0	15	1	0	1	person
+45	#vocs	Voces de viejas	F	other	person	minor	0	179	2	0	1	personGrp

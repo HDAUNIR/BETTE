@@ -1,0 +1,25 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#madr	Madre	F	other	person	secondary	1	12316	140	6	5	person
+1	#nova	Novia	F	lover	person	primary	2	5827	114	30	5	person
+2	#sueg	Suegra	F	other	person	secondary	3	1089	33	2	2	person
+3	#muje	Mujer de Leonardo	F	other	person	secondary	4	2725	61	13	4	person
+4	#cria	Criada	F	other	person	secondary	5	5460	86	6	3	person
+5	#veci	Vecina	F	other	person	minor	6	1648	32	2	2	person
+6	#much	Muchachas	F	other	person	minor	0	583	8	0	2	personGrp
+7	#leon	Leonardo	M	antagonist	person	primary	8	3549	71	17	4	person
+8	#novo	Novio	M	protagonist	person	primary	9	4402	119	19	5	person
+9	#padr	Padre de la novia	M	other	person	secondary	10	3368	50	3	3	person
+10	#luna	Luna	F	other	person	minor	11	368	5	1	1	person
+11	#muer	Muerte (como Mendiga)	F	other	non-human	minor	12	627	6	1	1	person
+12	#muc1	Muchacha 1	F	other	person	minor	7	706	26	0	3	person
+13	#muc2	Muchacha 2	F	other	person	minor	7	322	17	0	3	person
+14	#muc3	Muchacha 3	F	other	person	minor	7	146	4	0	1	person
+15	#conv	Convidado	M	other	person	minor	0	0	3	0	1	person
+16	#len1	Leñador 1	M	other	person	minor	13	696	18	0	1	person
+17	#len2	Leñador 2	M	other	person	minor	13	573	16	0	1	person
+18	#len3	Leñador 3	M	other	person	minor	13	429	14	0	1	person
+19	#moz1	Mozo 1	M	other	person	minor	14	317	14	2	3	person
+20	#moz2	Mozo 2	M	other	person	minor	14	67	3	0	2	person
+21	#voce	Voces	O	other	person	minor	0	104	7	0	1	personGrp
+22	#mujs	Mujeres	F	other	person	minor	0	0	1	0	1	personGrp
+23	#nina	Niña	F	other	person	minor	0	28	1	0	1	person

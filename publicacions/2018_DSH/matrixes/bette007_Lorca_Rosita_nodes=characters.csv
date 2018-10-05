@@ -1,0 +1,20 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#rosi	Rosita	F	protagonist	person	primary	1	12560	120	53	13	person
+1	#ama	Ama	F	other	person	minor	2	16465	142	24	23	person
+2	#tia	Tía	F	other	person	minor	3	12257	204	12	23	person
+3	#man1	Manola 1ª	F	other	person	minor	4	344	13	1	1	person
+4	#man2	Manola 2ª	F	other	person	minor	5	162	10	0	1	person
+5	#man3	Manola 3ª	F	other	person	minor	6	258	8	0	1	person
+6	#sol1	Soltera 1ª	F	other	person	minor	7	408	14	1	2	person
+7	#sol2	Soltera 2ª	F	other	person	minor	8	395	10	3	2	person
+8	#sol3	Soltera 3ª	F	other	person	minor	9	1761	25	3	3	person
+9	#madr	Madre de las Solteras	F	other	person	minor	10	3165	30	2	2	person
+10	#ayo1	Ayola 1ª	F	other	person	minor	11	1281	22	0	1	person
+11	#ayo2	Ayola 2ª	F	other	person	minor	12	818	16	2	1	person
+12	#tio	Tío	M	other	person	minor	13	4735	51	8	9	person
+13	#cate	Catedrático de economía	M	other	person	minor	14	0	0	0	0	person
+14	#mart	Don Martín	M	other	person	minor	15	3350	26	7	3	person
+15	#much	Muchacho	M	other	person	minor	16	786	14	2	1	person
+16	#obre	Dos obreros	M	other	person	minor	17	29	2	0	2	personGrp
+17	#voz	Una voz	M	other	person	minor	18	103	3	0	2	person
+18	#sobr	Sobrino	M	other	person	primary	0	601	11	2	1	person

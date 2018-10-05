@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="Type" attr.type="string" for="edge" id="d6" />
+  <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
+  <key attr.name="importance" attr.type="string" for="node" id="d4" />
+  <key attr.name="nature" attr.type="string" for="node" id="d3" />
+  <key attr.name="role" attr.type="string" for="node" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="#evar">
+      <data key="d0">F</data>
+      <data key="d1">Evarista</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#marq">
+      <data key="d0">M</data>
+      <data key="d1">El Marqués de Ronda</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#gil_">
+      <data key="d0">M</data>
+      <data key="d1">Gil</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#balb">
+      <data key="d0">F</data>
+      <data key="d1">Balbina</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#oper">
+      <data key="d0">M</data>
+      <data key="d1">Un operario</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#jose">
+      <data key="d0">M</data>
+      <data key="d1">José</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#pant">
+      <data key="d0">M</data>
+      <data key="d1">Don Salvador Pantoja</data>
+      <data key="d2">antagonist</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#eleu">
+      <data key="d0">F</data>
+      <data key="d1">La sombra de Eleuteria</data>
+      <data key="d2">other</data>
+      <data key="d3">non-human</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#maxi">
+      <data key="d0">M</data>
+      <data key="d1">Máximo</data>
+      <data key="d2">lover</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#doro">
+      <data key="d0">F</data>
+      <data key="d1">Sor Dorotea</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#urba">
+      <data key="d0">M</data>
+      <data key="d1">Don Urbano García Yuste</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#elec">
+      <data key="d0">F</data>
+      <data key="d1">Electra</data>
+      <data key="d2">protagonist</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#mari">
+      <data key="d0">M</data>
+      <data key="d1">Mariano</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#cues">
+      <data key="d0">M</data>
+      <data key="d1">Don Leonardo Cuesta</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#patr">
+      <data key="d0">F</data>
+      <data key="d1">Patros</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <edge source="#evar" target="#maxi">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#doro">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#urba">
+      <data key="d5">17.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#marq">
+      <data key="d5">15.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#elec">
+      <data key="d5">10.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#balb">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#jose">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#cues">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#pant">
+      <data key="d5">15.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#evar" target="#patr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#maxi">
+      <data key="d5">13.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#doro">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#urba">
+      <data key="d5">17.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#elec">
+      <data key="d5">17.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#balb">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#jose">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#mari">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#cues">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#pant">
+      <data key="d5">15.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#marq" target="#patr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gil_" target="#maxi">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gil_" target="#mari">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gil_" target="#elec">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#balb" target="#urba">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#balb" target="#elec">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#balb" target="#cues">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#balb" target="#pant">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#balb" target="#patr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#oper" target="#maxi">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#oper" target="#elec">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jose" target="#maxi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jose" target="#urba">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jose" target="#cues">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jose" target="#pant">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pant" target="#maxi">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pant" target="#doro">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pant" target="#urba">
+      <data key="d5">11.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pant" target="#elec">
+      <data key="d5">12.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pant" target="#cues">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pant" target="#patr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#eleu" target="#elec">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maxi" target="#doro">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maxi" target="#urba">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maxi" target="#elec">
+      <data key="d5">14.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maxi" target="#mari">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maxi" target="#cues">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maxi" target="#patr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#doro" target="#urba">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#doro" target="#elec">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#urba" target="#elec">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#urba" target="#cues">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#urba" target="#patr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elec" target="#mari">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elec" target="#cues">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elec" target="#patr">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cues" target="#patr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+  </graph>
+</graphml>

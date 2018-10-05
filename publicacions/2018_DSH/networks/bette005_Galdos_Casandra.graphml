@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="Type" attr.type="string" for="edge" id="d6" />
+  <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
+  <key attr.name="importance" attr.type="string" for="node" id="d4" />
+  <key attr.name="nature" attr.type="string" for="node" id="d3" />
+  <key attr.name="role" attr.type="string" for="node" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="#roge">
+      <data key="d0">M</data>
+      <data key="d1">Rogelio</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#isma">
+      <data key="d0">M</data>
+      <data key="d1">Ismael</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#alfo">
+      <data key="d0">M</data>
+      <data key="d1">Alfonso de la Cerda</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#casa">
+      <data key="d0">F</data>
+      <data key="d1">Casandra</data>
+      <data key="d2">protagonist</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#rosa">
+      <data key="d0">F</data>
+      <data key="d1">Rosaura</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#juan">
+      <data key="d0">F</data>
+      <data key="d1">Dña. Juana</data>
+      <data key="d2">antagonist</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#insu">
+      <data key="d0">F</data>
+      <data key="d1">Insúa</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#beat">
+      <data key="d0">F</data>
+      <data key="d1">Beatriz</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#cebr">
+      <data key="d0">M</data>
+      <data key="d1">Cebrián</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#pepa">
+      <data key="d0">F</data>
+      <data key="d1">Pepa</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#clem">
+      <data key="d0">F</data>
+      <data key="d1">Clementina</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">secondary</data>
+    </node>
+    <node id="#seve">
+      <data key="d0">F</data>
+      <data key="d1">Severiana</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#mari">
+      <data key="d0">F</data>
+      <data key="d1">María Juana</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#zeno">
+      <data key="d0">M</data>
+      <data key="d1">Zenón de Guillarte</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#mart">
+      <data key="d0">F</data>
+      <data key="d1">Martina</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#inst">
+      <data key="d0">F</data>
+      <data key="d1">La Institutriz</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <edge source="#roge" target="#isma">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#casa">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#clem">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#pepa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#zeno">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#alfo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#rosa">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#cebr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roge" target="#juan">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#pepa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#alfo">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#clem">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#casa">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#rosa">
+      <data key="d5">10.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#seve">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#zeno">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#cebr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#isma" target="#juan">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#beat">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#mari">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#clem">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#casa">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#insu">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#zeno">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#rosa">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alfo" target="#inst">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#clem">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#mart">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#rosa">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#pepa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#zeno">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#juan">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#cebr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosa" target="#clem">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosa" target="#zeno">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosa" target="#seve">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosa" target="#cebr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#pepa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#clem">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#insu">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#mart">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#cebr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#insu" target="#beat">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#insu" target="#clem">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#insu" target="#pepa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#insu" target="#mari">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#insu" target="#mart">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#beat" target="#clem">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#beat" target="#mari">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#beat" target="#inst">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cebr" target="#clem">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cebr" target="#zeno">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cebr" target="#mart">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepa" target="#zeno">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepa" target="#mart">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#clem" target="#mari">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#clem" target="#zeno">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#clem" target="#inst">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mari" target="#inst">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,13 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#ange	Ángel	M	protagonist	person	primary	1	43914	324	131	26	person
+1	#eufe	Eufemia	F	lover	person	primary	2	10120	141	68	16	person
+2	#joaq	Joaquín	M	other	person	secondary	3	5560	88	20	6	person
+3	#euse	Eusebio	M	antagonist	person	secondary	5	3445	47	28	6	person
+4	#ramo	La Tía Ramona	F	other	person	minor	6	2044	27	7	5	person
+5	#pepe	José	M	other	person	minor	7	953	16	14	2	person
+6	#teod	Teodoro	M	other	person	minor	8	2440	29	7	2	person
+7	#nico	Nicolás	M	other	person	minor	9	1887	34	12	4	person
+8	#mart	Martina	F	other	person	minor	10	823	23	0	6	person
+9	#hima	El Hijo mayor de Felipe	M	other	person	minor	11	261	7	0	2	person
+10	#hime	El Hijo menor de Felipe	M	other	person	minor	12	313	7	0	3	person
+11	#feli	Felipe	M	other	person	secondary	4	5156	74	29	8	person

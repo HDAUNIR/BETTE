@@ -1,0 +1,18 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#bern	Bernarda	F	protagonist	person	primary	1	13587	194	49	19	person
+1	#jose	María Josefa	F	other	person	minor	2	2255	17	0	5	person
+2	#angu	Angustias	F	other	person	secondary	3	2720	69	1	16	person
+3	#magd	Magdalena	F	other	person	minor	4	3753	62	2	15	person
+4	#amel	Amelia	F	other	person	minor	5	2409	70	0	14	person
+5	#mart	Martirio	F	other	person	secondary	6	6275	128	0	24	person
+6	#adel	Adela	F	antagonist	person	primary	7	7099	102	0	22	person
+7	#ponc	La Poncia	F	antagonist	person	primary	8	13911	162	1	22	person
+8	#cria	Criada	F	other	person	minor	9	3424	49	5	13	person
+9	#prud	Prudencia	F	other	person	minor	10	1110	22	0	1	person
+10	#mend	Mendiga	F	other	person	minor	11	189	5	0	1	person
+11	#muj1	Mujer 1ª	F	other	person	minor	12	160	5	0	1	person
+12	#muj2	Mujer 2ª	F	other	person	minor	13	127	3	0	1	person
+13	#muj3	Mujer 3ª	F	other	person	minor	14	108	3	0	1	person
+14	#muj4	Mujer 4ª	F	other	person	minor	15	54	1	0	1	person
+15	#much	Muchacha	F	other	person	minor	16	150	4	0	1	person
+16	#muje	Mujeres de luto	F	other	person	minor	17	177	8	0	1	personGrp

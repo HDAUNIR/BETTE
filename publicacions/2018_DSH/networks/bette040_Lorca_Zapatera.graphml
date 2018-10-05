@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="Type" attr.type="string" for="edge" id="d6" />
+  <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
+  <key attr.name="importance" attr.type="string" for="node" id="d4" />
+  <key attr.name="nature" attr.type="string" for="node" id="d3" />
+  <key attr.name="role" attr.type="string" for="node" id="d2" />
+  <key attr.name="label" attr.type="string" for="node" id="d1" />
+  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="#sacr">
+      <data key="d0">F</data>
+      <data key="d1">Sacristana</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#zapo">
+      <data key="d0">M</data>
+      <data key="d1">Zapatero</data>
+      <data key="d2">lover</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#veca">
+      <data key="d0">F</data>
+      <data key="d1">Vecina Amarilla</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#alca">
+      <data key="d0">M</data>
+      <data key="d1">Alcalde</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#elni">
+      <data key="d0">M</data>
+      <data key="d1">El Niño</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#beas">
+      <data key="d0">F</data>
+      <data key="d1">Beata Segunda</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#beap">
+      <data key="d0">F</data>
+      <data key="d1">Beata Primera</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#vecn">
+      <data key="d0">F</data>
+      <data key="d1">Vecina Negra</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#vecr">
+      <data key="d0">F</data>
+      <data key="d1">Vecina Roja</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#vecv">
+      <data key="d0">F</data>
+      <data key="d1">Vecina Verde</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <node id="#zapa">
+      <data key="d0">F</data>
+      <data key="d1">Zapatera</data>
+      <data key="d2">protagonist</data>
+      <data key="d3">person</data>
+      <data key="d4">primary</data>
+    </node>
+    <node id="#vecm">
+      <data key="d0">F</data>
+      <data key="d1">Vecina Morada</data>
+      <data key="d2">other</data>
+      <data key="d3">person</data>
+      <data key="d4">minor</data>
+    </node>
+    <edge source="#sacr" target="#veca">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sacr" target="#alca">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sacr" target="#elni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sacr" target="#vecn">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sacr" target="#vecr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sacr" target="#vecv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sacr" target="#zapa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sacr" target="#vecm">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#veca">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#alca">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#elni">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#beas">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#beap">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#vecn">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#zapa">
+      <data key="d5">12.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#vecr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapo" target="#vecm">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#veca" target="#alca">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#veca" target="#elni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#veca" target="#vecn">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#veca" target="#zapa">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#veca" target="#vecv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#veca" target="#vecr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#veca" target="#vecm">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alca" target="#elni">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alca" target="#vecn">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alca" target="#zapa">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alca" target="#vecm">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alca" target="#vecv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#alca" target="#vecr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elni" target="#vecn">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elni" target="#vecr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elni" target="#vecm">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elni" target="#vecv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#elni" target="#zapa">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#beas" target="#beap">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecn" target="#vecr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecn" target="#vecv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecn" target="#zapa">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecn" target="#vecm">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecr" target="#zapa">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecr" target="#vecv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecr" target="#vecm">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecv" target="#zapa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vecv" target="#vecm">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zapa" target="#vecm">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+  </graph>
+</graphml>

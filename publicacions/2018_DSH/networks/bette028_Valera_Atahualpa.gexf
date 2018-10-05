@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="4" title="Weight" type="double" />
+      <attribute id="5" title="Type" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="sex" type="string" />
+      <attribute id="1" title="role" type="string" />
+      <attribute id="2" title="nature" type="string" />
+      <attribute id="3" title="importance" type="string" />
+    </attributes>
+    <nodes>
+      <node id="#laur" label="Laura">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="protagonist" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="primary" />
+        </attvalues>
+      </node>
+      <node id="#padr" label="El Padre Antonio">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="secondary" />
+        </attvalues>
+      </node>
+      <node id="#escu" label="Escudero">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="minor" />
+        </attvalues>
+      </node>
+      <node id="#garc" label="Garcés">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="minor" />
+        </attvalues>
+      </node>
+      <node id="#iren" label="Doña Irene">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="secondary" />
+        </attvalues>
+      </node>
+      <node id="#juan" label="Juanilla">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="minor" />
+        </attvalues>
+      </node>
+      <node id="#cipr" label="Cipriano">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="minor" />
+        </attvalues>
+      </node>
+      <node id="#bria" label="Doña Brianda">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="secondary" />
+        </attvalues>
+      </node>
+      <node id="#rive" label="Bartolomé Rivera">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="antagonist" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="primary" />
+        </attvalues>
+      </node>
+      <node id="#cuel" label="Francisco de Cuéllar">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="lover" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="primary" />
+        </attvalues>
+      </node>
+      <node id="#pere" label="Pérez">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="minor" />
+        </attvalues>
+      </node>
+      <node id="#fern" label="Don Fernando">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="antagonist" />
+          <attvalue for="2" value="person" />
+          <attvalue for="3" value="primary" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="#laur" target="#padr">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="#laur" target="#iren">
+        <attvalues>
+          <attvalue for="4" value="3.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="#laur" target="#escu">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="#laur" target="#rive">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="#laur" target="#cuel">
+        <attvalues>
+          <attvalue for="4" value="4.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="#laur" target="#fern">
+        <attvalues>
+          <attvalue for="4" value="3.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="#laur" target="#juan">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="#padr" target="#cuel">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="#padr" target="#bria">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="#padr" target="#rive">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="#padr" target="#escu">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="#padr" target="#iren">
+        <attvalues>
+          <attvalue for="4" value="3.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="#padr" target="#fern">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="#padr" target="#cipr">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="#escu" target="#iren">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="#garc" target="#cuel">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="#garc" target="#bria">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="#iren" target="#fern">
+        <attvalues>
+          <attvalue for="4" value="3.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="#iren" target="#rive">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="#juan" target="#rive">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="#cipr" target="#bria">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="#cipr" target="#rive">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="#bria" target="#cuel">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="#bria" target="#rive">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="#rive" target="#cuel">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="#cuel" target="#fern">
+        <attvalues>
+          <attvalue for="4" value="2.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="#pere" target="#fern">
+        <attvalues>
+          <attvalue for="4" value="1.0" />
+          <attvalue for="5" value="Undirected" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

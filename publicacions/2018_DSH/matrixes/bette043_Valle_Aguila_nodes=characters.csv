@@ -1,0 +1,70 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#caba	El Caballero don Juan Manuel Montenegro	M	protagonist	person	primary	1	12796	197	90	12	person
+1	#fray	Fray Jerónimo	M	other	person	minor	2	911	2	4	1	person
+2	#vie1	Una vieja	F	other	person	minor	3	547	5	0	2	person
+3	#moza	Una moza	F	other	person	minor	4	171	3	0	2	person
+4	#mona	un monago	M	other	person	minor	5	27	1	0	1	person
+5	#voz_	una voz en la sombra	F	other	oher	minor	6	33	1	0	1	person
+6	#sabe	Sabelita	F	lover	person	primary	7	5301	86	85	12	person
+7	#rosi	Doña Rosita	F	other	person	minor	8	1131	10	0	1	person
+8	#rosm	Rosita María	F	other	person	minor	9	243	6	0	1	person
+9	#vie2	otra vieja	F	other	person	minor	10	44	1	0	1	person
+10	#roja	Micaela La Roja	F	other	person	secondary	11	5279	58	14	9	person
+11	#zaga	El zagal de las ovejas	M	other	person	minor	12	202	4	4	2	person
+12	#gala	Don Galán	M	other	person	secondary	13	9399	137	65	12	person
+13	#capi	El Capitán de los ladrones	M	other	person	minor	14	993	18	6	3	person
+14	#veci	Un vecino	M	other	person	minor	15	19	1	1	1	person
+15	#ladr	Un ladrón	M	other	person	secondary	16	140	7	2	2	person
+16	#otro	Otro ladrón	M	other	person	secondary	17	71	2	0	1	person
+17	#enma	El Enmascarado	M	other	person	minor	18	79	4	2	2	person
+18	#voce	voces de los ladrones	M	other	person	minor	19	171	4	0	1	personGrp
+19	#voz2	voces de los criados	O	other	person	minor	20	261	2	1	1	personGrp
+20	#pedr	Pedro Rey	M	other	person	secondary	21	2179	23	14	3	person
+21	#libe	Liberata	F	other	person	secondary	22	4409	81	30	6	person
+22	#dped	Don Pedrito	M	other	person	secondary	23	1038	18	10	1	person
+23	#cura	La Curandera	F	other	person	minor	24	1937	10	1	1	person
+24	#mozo	Un mozo	M	other	person	minor	25	106	4	0	1	person
+25	#viej	Un viejo	M	other	person	minor	26	480	4	0	1	person
+26	#mar1	Un Marinero	M	other	person	minor	27	22	1	0	1	person
+27	#patr	El Patrón	M	other	person	minor	28	74	3	0	1	person
+28	#mar2	Otro marinero	M	other	person	minor	29	42	1	0	1	person
+29	#manu	Manuel Tovío	M	other	person	minor	30	306	3	1	1	person
+30	#peab	Pedro Abuín	M	other	person	minor	31	90	1	1	1	person
+31	#fons	Manuel Fonseca	M	other	person	minor	32	191	2	1	1	person
+32	#lana	Un Lañador	M	other	person	minor	33	34	1	0	1	person
+33	#crib	Una Cribera	F	other	person	minor	34	87	1	0	1	person
+34	#cint	Una Cintera	F	other	person	minor	35	130	1	0	1	person
+35	#mend	El Mendicante	M	other	person	minor	36	98	1	0	1	person
+36	#dona	Doña María	F	antagonist	person	secondary	37	5425	95	46	9	person
+37	#cape	El Capellán	M	other	person	minor	38	1003	17	10	3	person
+38	#manc	La Manchada	F	other	person	minor	39	1081	14	0	3	person
+39	#rosa	Rosalva	F	other	person	minor	40	738	15	6	2	person
+40	#biei	Bieito	M	other	person	minor	41	230	2	1	1	person
+41	#andr	Andreíña	F	other	person	minor	42	517	7	2	1	person
+42	#algu	El Alguacil	M	other	person	minor	43	436	9	7	1	person
+43	#escr	El Escribano	M	other	person	minor	44	1395	24	17	1	person
+44	#maur	Don Mauro	M	other	person	minor	45	855	15	3	1	person
+45	#farr	Don Farruquiño	M	other	person	secondary	46	4407	67	15	5	person
+46	#rose	Don Rosendo	M	other	person	minor	47	283	12	1	1	person
+47	#cara	Cara de Plata	M	other	person	secondary	48	3593	69	25	6	person
+48	#gine	El señor Ginero	M	other	person	minor	49	604	5	3	1	person
+49	#borr	La voz de un borracho	M	other	person	minor	50	318	1	0	1	person
+50	#una_	una señora	F	other	person	minor	51	11	1	0	1	person
+51	#otra	la otra señora	F	other	person	minor	52	47	1	0	1	person
+52	#cria	Un criado	M	other	person	minor	53	0	0	0	0	person
+53	#chan	El chantre	M	other	person	minor	54	77	2	1	1	person
+54	#dean	El Deán	M	other	person	minor	55	74	2	2	1	person
+55	#abue	El abuelo	M	other	person	minor	56	1428	7	3	1	person
+56	#rapa	El Rapaz	M	other	person	minor	57	258	5	5	1	person
+57	#pren	La Preñada	F	other	person	minor	58	1301	17	6	2	person
+58	#mari	El marido	M	other	person	minor	59	235	6	1	1	person
+59	#sueg	La suegra	F	other	person	minor	60	2187	15	1	2	person
+60	#nino	El niño Jesús	M	other	non-human	secondary	61	1223	9	14	1	person
+61	#pich	La Pichona	F	other	person	minor	62	2481	39	31	2	person
+62	#gazu	Juana la Gazula	F	other	person	secondary	63	300	7	2	2	person
+63	#viso	Andrea la Visoja	F	other	person	secondary	64	450	8	2	2	person
+64	#barq	El barquero	M	other	person	minor	65	18	1	5	1	person
+65	#pere	El peregrino	M	other	person	minor	66	384	5	0	2	person
+66	#espo	El Espolique	M	other	person	minor	67	340	3	3	1	person
+67	#cieg	Una vieja ciega	F	other	person	minor	68	1542	3	3	1	person
+68	#eco_	Un eco	O	other	thing	minor	69	21	1	0	1	person

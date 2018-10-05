@@ -1,0 +1,9 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#tere	Teresa	F	protagonist	person	primary	1	21764	113	78	9	person
+1	#rita	Rita	F	other	person	secondary	2	3443	29	46	3	person
+2	#palm	Palmira 	F	other	person	secondary	3	618	16	21	2	person
+3	#roqu	Roque	M	antagonist	person	primary	4	10975	48	75	6	person
+4	#fern	Fernando	M	lover	person	primary	5	12561	84	47	6	person
+5	#min1	Minero 1	M	other	person	minor	6	618	11	0	3	person
+6	#min2	Minero 2	M	other	person	minor	7	821	7	0	3	person
+7	#min3	Minero 3	M	other	person	minor	8	429	7	0	3	person

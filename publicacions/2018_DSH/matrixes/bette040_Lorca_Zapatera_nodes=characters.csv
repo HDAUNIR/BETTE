@@ -1,0 +1,19 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#zapa	Zapatera	F	protagonist	person	primary	1	22787	198	70	21	person
+1	#vecr	Vecina Roja	F	other	person	minor	2	1570	32	1	5	person
+2	#vecm	Vecina Morada	F	other	person	minor	3	73	3	0	3	person
+3	#vecv	Vecina Verde	F	other	person	minor	4	25	2	0	1	person
+4	#veca	Vecina Amarilla	F	other	person	minor	5	306	11	0	2	person
+5	#vecn	Vecina Negra	F	other	person	minor	6	254	5	0	3	person
+6	#beap	Beata Primera	F	other	person	minor	7	43	2	0	1	person
+7	#beas	Beata Segunda	F	other	person	minor	8	67	2	0	1	person
+8	#sacr	Sacristana	F	other	person	minor	9	29	1	1	1	person
+9	#elau	El Autor	M	other	person	minor	10	0	0	0	0	person
+10	#zapo	Zapatero	M	lover	person	primary	11	13852	128	36	14	person
+11	#elni	El Niño	M	other	person	minor	12	5185	66	0	8	person
+12	#alca	Alcalde	M	other	person	minor	13	4587	48	11	6	person
+13	#donm	Don Mirlo	M	other	person	minor	14	0	0	12	0	person
+14	#mozf	Mozo de la Faja	M	other	person	secondary	15	0	0	6	0	person
+15	#mozs	Mozo del Sombrero	M	other	person	secondary	16	0	0	1	0	person
+16	#hija	Hijas de la Vecina Roja	F	other	person	minor	17	0	0	0	0	personGrp
+17	#vbcp	Vecinas, Beatas, Curas y Pueblo	O	other	person	minor	18	0	0	0	0	personGrp

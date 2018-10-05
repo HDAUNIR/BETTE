@@ -1,0 +1,7 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#fedr	Fedra	F	protagonist	person	primary	1	17699	224	64	19	person
+1	#pedr	Pedro	M	antagonist	person	primary	2	12484	146	45	17	person
+2	#hipo	Hipólito	M	lover	person	primary	3	7205	111	62	12	person
+3	#eust	Eustaquia	F	other	person	secondary	4	4236	101	26	14	person
+4	#marc	Marcelo	M	other	person	secondary	5	3282	53	20	5	person
+5	#rosa	Rosa	F	other	person	secondary	6	1323	28	16	4	person

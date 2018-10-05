@@ -1,0 +1,37 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#luce	Lucero	M	antagonist	person	primary	1	6735	119	27	5	person
+1	#poca	Poca pena	F	other	person	secondary	2	594	14	3	1	person
+2	#rein	Juana La Reina	F	other	person	secondary	3	791	18	8	2	person
+3	#idio	El hijo idiota	M	other	person	primary	4	206	13	9	2	person
+4	#pedr	Pedro Gailo	M	protagonist	person	primary	5	9501	132	36	9	person
+5	#marg	Mari-Gaila	F	lover	person	primary	6	11734	240	75	13	person
+6	#simo	Simoniña	F	other	person	secondary	7	3400	83	11	5	person
+7	#tatu	Rosa La Tatula	F	other	person	secondary	8	6463	116	17	10	person
+8	#migu	Miguelín El padronés	M	other	person	secondary	9	2410	55	13	5	person
+9	#chal	Un chalán	M	other	person	minor	10	31	1	2	1	person
+10	#mujs	Mujerucas que llenan los cántaros en la fuente	M	other	person	minor	11	528	11	2	1	personGrp
+11	#mar	Marica del Reino	F	other	person	secondary	6	0	0	0	0	person
+12	#peda	Un alcalde pedáneo	M	other	person	secondary	13	1907	25	6	2	person
+13	#rapa	Una rapaza	F	other	person	minor	14	39	1	3	1	person
+14	#cieg	El ciego de Gondar.	M	other	person	minor	15	1554	29	6	2	person
+15	#vend	El vendedor de agua de limón.	M	other	person	minor	16	826	9	1	2	person
+16	#pere	Un peregrino	M	other	person	minor	17	230	6	4	1	person
+17	#par	La pareja de civiles	F	other	person	minor	18	329	5	7	1	personGrp
+18	#matr	Un matrimonio de labriegos con una hija enferma.	O	other	person	minor	19	358	4	2	1	personGrp
+19	#vent	La ventera	F	other	person	minor	20	38	1	0	1	person
+20	#sere	Serenín de Bretal	M	other	person	minor	21	835	12	2	3	person
+21	#viej	Una vieja en un ventano	F	other	person	minor	22	221	9	0	3	person
+22	#muje	Una mujer en preñez	F	other	person	minor	23	136	4	0	1	person
+23	#veci	Otra vecina	F	other	person	minor	24	1147	17	1	1	person
+24	#sold	Un soldado con el canuto de la licencia	F	other	person	minor	25	353	7	0	1	person
+25	#ludo	Ludovina la tabernera	F	other	person	minor	26	675	16	10	1	person
+26	#trop	Tropas de rapaces	M	other	person	minor	27	242	2	3	1	personGrp
+27	#beat	Beaterío de viejas y mozas.	F	other	person	minor	28	23	2	1	1	personGrp
+28	#beni	Benita la costurera	F	other	person	minor	29	529	14	0	1	person
+29	#quin	Quintín pintado	M	other	person	minor	30	430	12	0	2	person
+30	#milo	Milón de La Arnoya	M	other	person	minor	31	233	10	1	2	person
+31	#coim	Coimbra	M	other	animal	minor	32	0	0	19	0	person
+32	#colo	Colorín, pájaro adivino	M	other	animal	minor	33	0	0	4	0	person
+33	#tras	El trasgo cabrío	M	other	non-human	secondary	34	631	18	7	1	person
+34	#sapo	Un sapo anónimo que canta en la noche	M	other	animal	minor	35	11	1	0	1	person
+35	#grit	Final de gritos y aturujos moceriles	O	other	other	minor	36	850	33	0	2	personGrp

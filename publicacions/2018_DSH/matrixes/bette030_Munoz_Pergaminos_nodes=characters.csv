@@ -1,0 +1,27 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#elvi	Elvira	F	protagonist	person	primary	1	6277	123	9	32	person
+1	#miss	Miss Plain	M	other	person	secondary	2	8573	131	32	33	person
+2	#urra	Urraca	F	other	person	secondary	3	4632	104	16	27	person
+3	#bere	Berenguela	F	other	person	secondary	4	2001	52	8	17	person
+4	#chic	Chicharita	F	other	person	minor	5	2207	21	1	1	person
+5	#bern	Bernarda	F	other	person	minor	6	1972	34	4	8	person
+6	#rela	Rafaela	F	other	person	minor	7	661	14	9	8	person
+7	#conc	Concha	F	other	person	minor	8	880	12	2	3	person
+8	#mano	Manolita	F	other	person	minor	9	779	10	1	3	person
+9	#rina	Rafaelina	F	other	person	minor	10	224	9	0	1	person
+10	#emil	Emilita	F	other	person	minor	11	61	1	2	1	person
+11	#rita	Rafaelita	F	other	person	minor	12	304	8	7	5	person
+12	#meli	Melitón	M	other	person	secondary	13	21067	251	45	38	person
+13	#gonz	Gonzalo	M	lover	person	primary	14	10947	130	20	26	person
+14	#nuno	Nuño	M	other	person	secondary	15	16069	202	19	28	person
+15	#lain	Laín	M	other	person	secondary	16	5254	109	10	16	person
+16	#jaim	Jaime	M	other	person	minor	17	4853	75	6	19	person
+17	#antu	Antúnez	M	other	person	minor	18	3940	34	1	3	person
+18	#rlon	Rafaelón	M	other	person	minor	19	2793	43	10	20	person
+19	#cosm	Don Cosme	M	other	person	minor	20	3181	39	5	7	person
+20	#domi	Domingo	M	other	person	minor	21	1861	23	3	12	person
+21	#illo	Faelillo	M	other	person	minor	22	314	12	0	8	person
+22	#rafa	Rafael	M	other	person	minor	23	2147	30	12	13	person
+23	#lito	Faelito	M	other	person	minor	24	640	17	4	7	person
+24	#reve	Revenga	M	other	person	minor	25	312	7	5	2	person
+25	#pepi	Pepito	M	other	person	minor	26	241	7	5	4	person

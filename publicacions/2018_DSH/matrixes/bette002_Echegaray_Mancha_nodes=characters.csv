@@ -1,0 +1,12 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#mati	Matilde	F	protagonist	person	primary	1	32584	306	199	20	person
+1	#enri	Enriqueta	F	antagonist	person	primary	2	19206	222	174	17	person
+2	#conc	Doña Concepción	F	other	person	secondary	3	15000	192	59	15	person
+3	#dolo	Dolores	F	other	person	minor	4	1130	23	4	2	person
+4	#fern	Fernando	M	lover	person	primary	5	15455	173	171	15	person
+5	#just	Don Justo	M	other	person	secondary	6	25948	280	100	23	person
+6	#lore	Don Lorenzo	M	other	person	secondary	7	9994	78	71	11	person
+7	#juli	Julio	M	antagonist	person	primary	8	3379	33	51	2	person
+8	#cria	Criados,	0	other	person	minor	9	95	3	7	3	personGrp
+9	#sras	Señoras, 	F	other	person	minor	10	0	0	0	0	personGrp
+10	#stas	Señoritas, 	F	other	person	minor	11	0	0	0	0	personGrp

@@ -1,0 +1,63 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#max	Max Estrella	M	protagonist	person	primary	1	15813	278	96	11	person
+1	#coll	Madame Collet	F	lover	person	secondary	2	1650	40	22	2	person
+2	#clau	Claudinita	F	other	person	secondary	3	835	26	15	2	person
+3	#lati	Don Latino de Hispalis	M	antagonist	person	primary	4	11825	181	79	12	person
+4	#zara	Zaratustra	M	other	person	secondary	5	1131	17	8	1	person
+5	#gay	Don Gay	M	other	person	secondary	6	1959	17	8	1	person
+6	#pelo	Un pelón	M	other	person	minor	7	16	1	0	1	person
+7	#chica	La chica de la portera	F	other	person	minor	8	155	3	0	1	person
+8	#pica	Pica lagartos	F	other	person	secondary	9	1398	21	8	2	person
+9	#chic	Un chico de taberna	F	other	person	minor	8	752	19	3	2	person
+10	#pisa	Enriqueta la pisa bien	F	other	person	secondary	11	3616	59	15	3	person
+11	#rey	El rey de Portugal	M	other	person	secondary	12	670	10	3	1	person
+12	#borr	Un borracho	M	other	person	minor	13	366	13	0	2	person
+13	#dori	Dorio de Gadex	M	other	person	secondary	14	3052	58	12	3	person
+14	#rafa	Rafael de los Vélez	M	other	person	minor	15	0	0	1	0	person
+15	#luci	Lucio Vero	M	other	person	minor	16	0	0	1	0	person
+16	#ming	Mínguez	M	other	person	minor	17	0	0	1	0	person
+17	#galv	Gálvez	M	other	person	minor	18	0	0	1	0	person
+18	#clar	Clarinito	M	other	person	minor	19	358	8	1	3	person
+19	#pere	Pérez	M	other	person	minor	20	238	8	4	3	person
+20	#grup	Grupo de los modernistas	M	other	person	secondary	21	332	13	0	2	personGrp
+21	#capi	El capitán Pitito	M	other	person	minor	22	280	6	2	1	person
+22	#sere	Un sereno	M	other	person	minor	23	418	14	2	2	person
+23	#voz	La voz de un vecino	M	other	person	minor	24	93	2	0	2	person
+24	#guar	Un guardia del orden	M	other	person	minor	25	578	10	0	3	person
+25	#otro	Otro guardia del orden	M	other	person	minor	26	283	8	0	2	person
+26	#sera	Serafín el bonito	M	other	person	secondary	27	866	22	2	1	person
+27	#cela	Un celador	M	other	person	minor	28	0	0	0	0	person
+28	#pres	Un preso	M	other	person	secondary	29	2016	25	1	1	person
+29	#cons	El conserje de la redacción	M	other	person	minor	30	199	1	2	1	person
+30	#fili	Don Filiberto	M	other	person	minor	31	4376	33	15	1	person
+31	#mini	El ministro de la gobernación	M	other	person	secondary	32	2534	30	7	1	person
+32	#dieg	Dieguito	M	other	person	minor	33	1780	18	9	1	person
+33	#ujie	ujier	M	other	person	minor	34	243	6	2	1	person
+34	#viej	Una vieja pintada	F	other	person	minor	35	495	11	0	1	person
+35	#luna	La lunares	F	other	person	minor	36	1906	35	4	1	person
+36	#jove	Un joven desconocido	M	other	person	minor	37	222	5	0	1	person
+37	#madr	La madre del niño muerto	F	other	person	minor	38	356	9	0	1	person
+38	#empe	El empeñista	M	other	person	minor	39	321	7	0	1	person
+39	#port	La portera	F	other	person	minor	40	1511	16	2	3	person
+40	#alba	Un albañil	M	other	person	minor	41	164	3	0	1	person
+41	#veja	Una vieja	F	other	person	minor	42	25	1	0	1	person
+42	#trap	La trapera	F	other	person	minor	43	46	1	0	1	person
+43	#reti	El retirado	M	other	person	minor	44	79	3	0	1	person
+44	#otra	Otra portera	F	other	person	minor	45	0	0	0	0	person
+45	#veci	Una vecina	F	other	person	minor	46	489	7	1	1	person
+46	#basi	Basilio Soulinake	M	other	person	secondary	47	2124	10	3	1	person
+47	#coch	Un cochero de la funeraria	M	other	person	minor	48	235	2	2	1	person
+48	#sepu	Un sepulturero	M	other	person	secondary	49	825	14	0	1	person
+49	#osep	Otro sepulturero	M	other	person	secondary	50	588	10	0	1	person
+50	#rube	Rubén Darío	M	other	person	secondary	51	2516	43	18	2	person
+51	#marq	El marqués de Bradomín	M	other	person	secondary	52	1958	21	9	1	person
+52	#poll	El pollo del pay-pay	M	other	person	minor	53	605	13	3	1	person
+53	#peri	La periodista	F	other	person	minor	54	120	1	1	1	person
+54	#veno	Un vecino	M	other	person	minor	55	35	2	0	1	person
+55	#guin	Un guindilla	M	other	person	minor	56	117	2	0	1	person
+56	#tabe	Un tabernero	M	other	person	minor	57	287	4	0	1	person
+57	#llav	El llavero	M	other	person	minor	58	85	2	1	1	person
+58	#can	can	M	other	animal	minor	59	20	2	0	1	person
+59	#gato	gato	M	other	animal	minor	60	14	1	0	1	person
+60	#loro	Un loro	M	other	animal	minor	61	13	1	0	1	person
+61	#turb	Turbas	O	other	person	minor	0	0	0	0	0	personGrp

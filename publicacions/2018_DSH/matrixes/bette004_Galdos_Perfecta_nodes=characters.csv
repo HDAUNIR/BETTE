@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#perf	Doña Perfecta	F	protagonist	person	primary	1	27491	279	53	22	person
+1	#rosa	Rosarito	F	antagonist	person	primary	2	11002	122	21	12	person
+2	#reme	María Remedios	F	other	person	secondary	3	10625	114	19	16	person
+3	#libr	Librada	F	other	person	secondary	4	513	11	24	5	person
+4	#pepe	Pepe Rey	M	antagonist	person	primary	5	25795	291	54	21	person
+5	#inoc	Don Inocencio	M	other	person	secondary	6	7036	72	35	8	person
+6	#cris	Cristóbal Ramos (Caballuco)	M	other	person	secondary	7	5290	30	43	2	person
+7	#jaci	Jacintito	M	other	person	secondary	8	2664	38	21	8	person
+8	#caye	Don Cayetano	M	other	person	minor	9	2729	42	12	7	person
+9	#juan	Don Juan Tafetán	M	other	person	secondary	10	6054	56	25	7	person
+10	#varg	Vargas	M	other	person	minor	11	2527	32	9	5	person
+11	#pinz	Pinzón	M	other	person	minor	12	1953	21	7	4	person
+12	#licu	El tío Licurgo	M	other	person	secondary	13	2270	29	20	3	person
+13	#paso	Pasolargo	M	other	person	minor	14	976	13	8	1	person
+14	#este	Esteban Romero	M	other	person	minor	15	935	10	7	1	person
+15	#cabo	Cabo Cartero.	M	other	person	minor	16	84	1	1	1	person

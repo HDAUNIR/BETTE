@@ -1,0 +1,16 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#elec	Electra	F	protagonist	person	primary	1	38069	383	176	36	person
+1	#evar	Evarista	F	other	person	secondary	2	14688	185	63	26	person
+2	#maxi	Máximo	M	lover	person	primary	3	25321	270	123	24	person
+3	#pant	Don Salvador Pantoja	M	antagonist	person	primary	4	25123	208	86	24	person
+4	#marq	El Marqués de Ronda	M	other	person	secondary	5	17618	198	105	29	person
+5	#cues	Don Leonardo Cuesta	M	other	person	secondary	6	0	0	60	0	person
+6	#urba	Don Urbano García Yuste	M	other	person	secondary	7	6851	107	55	24	person
+7	#mari	Mariano	M	other	person	minor	8	360	11	12	4	person
+8	#gil_	Gil	M	other	person	minor	9	533	9	9	2	person
+9	#balb	Balbina	F	other	person	minor	10	1605	17	7	3	person
+10	#patr	Patros	F	other	person	minor	11	2100	35	29	7	person
+11	#jose	José	M	other	person	minor	12	1538	24	20	5	person
+12	#doro	Sor Dorotea	F	other	person	secondary	13	2750	29	10	5	person
+13	#oper	Un operario	M	other	person	minor	14	348	5	3	2	person
+14	#eleu	La sombra de Eleuteria	F	other	non-human	secondary	15	0	0	1	0	person

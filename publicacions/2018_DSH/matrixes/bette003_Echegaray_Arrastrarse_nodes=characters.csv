@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#blan	Blanca	F	antagonist	person	primary	1	13333	175	124	17	person
+1	#jose	Josefina	F	lover	person	primary	2	14814	187	113	19	person
+2	#plac	Plácido	M	protagonist	person	primary	3	42979	530	177	39	person
+3	#marq	de Retamosa del Valle	M	other	person	secondary	4	17096	192	113	17	person
+4	#clau	Claudio	M	other	person	secondary	5	9475	140	51	9	person
+5	#romu	Don Romualdo	M	other	person	secondary	6	3006	57	27	4	person
+6	#anse	Don Anselmo	M	other	person	secondary	7	1183	19	15	2	person
+7	#javi	Javier	M	antagonist	person	primary	8	4302	76	56	9	person
+8	#basi	Basilio	M	other	person	secondary	9	5756	50	21	4	person
+9	#toma	Tomás	M	other	person	secondary	10	5045	78	34	9	person
+10	#pad1	Padrino 1º 	M	other	person	minor	11	347	6	2	1	person
+11	#pad2	Padrino 2º	M	other	person	minor	12	502	5	0	1	person
+12	#lesm	Tío Lesmes	M	other	person	minor	13	3787	31	8	2	person
+13	#deme	Demetrio	M	other	person	minor	14	816	11	3	2	person
+14	#cri1	Criado 1º 	M	other	person	minor	15	0	0	0	0	person
+15	#cri2	Criado 2º	M	other	person	minor	16	0	0	0	0	person

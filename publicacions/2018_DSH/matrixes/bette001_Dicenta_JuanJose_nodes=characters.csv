@@ -1,0 +1,19 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#rosa	Rosa	F	other	person	primary	1	15584	183	104	21	person
+1	#tonu	Toñuela	F	other	person	minor	2	3924	46	22	12	person
+2	#isid	Isidra	F	other	person	secondary	3	11105	113	46	15	person
+3	#muj1	Mujer 1ª	F	other	person	minor	4	41	2	0	1	person
+4	#muj2	Mujer 2ª	F	other	person	minor	5	0	0	0	0	person
+5	#juan	Juan José	M	protagonist	person	primary	6	34895	190	96	19	person
+6	#paco	Paco	M	lover	person	primary	7	4867	54	81	7	person
+7	#andr	Andrés	M	other	person	secondary	8	12329	96	53	13	person
+8	#cano	El Cano	M	other	person	secondary	9	8129	65	21	4	person
+9	#igna	Ignacio	M	other	person	minor	10	2558	27	12	4	person
+10	#peri	Perico 	M	other	person	minor	11	1376	20	9	3	person
+11	#tabe	El tabernero	M	other	person	minor	12	2705	30	38	11	person
+12	#cabo	Un cabo de presidio	M	other	person	minor	13	0	0	0	0	person
+13	#beb1	Bebedor 1º	M	other	person	minor	14	201	6	1	1	person
+14	#beb2	Bebedor 2º	M	other	person	minor	15	184	5	1	1	person
+15	#mozo	Un mozo de taberna	M	other	person	minor	16	0	0	30	0	person
+16	#bdrs	Bebedores	M	other	person	minor	17	0	0	0	0	personGrp
+17	#recl	Dos reclusos	M	other	person	secondary	0	0	0	0	0	personGrp

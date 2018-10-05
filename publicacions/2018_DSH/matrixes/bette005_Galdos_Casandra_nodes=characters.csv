@@ -1,0 +1,18 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#casa	Casandra	F	protagonist	person	primary	1	17362	135	70	8	person
+1	#juan	Dña. Juana	F	antagonist	person	primary	2	19544	136	107	8	person
+2	#rosa	Rosaura	F	other	person	minor	3	10391	118	43	11	person
+3	#mari	María Juana	F	other	person	minor	4	400	9	6	2	person
+4	#beat	Beatriz	F	other	person	minor	5	536	8	11	2	person
+5	#pepa	Pepa	F	other	person	minor	6	672	10	14	2	person
+6	#mart	Martina	F	other	person	minor	7	1244	19	18	4	person
+7	#seve	Severiana	F	other	person	minor	8	432	3	0	1	person
+8	#inst	La Institutriz	F	other	person	minor	9	256	2	1	1	person
+9	#alfo	Alfonso de la Cerda	M	other	person	secondary	10	10837	99	59	9	person
+10	#isma	Ismael	M	other	person	minor	11	14690	141	49	16	person
+11	#zeno	Zenón de Guillarte	M	other	person	minor	12	10900	77	23	9	person
+12	#roge	Rogelio	M	other	person	secondary	13	3623	28	81	6	person
+13	#insu	Insúa	F	other	person	minor	14	8518	42	0	4	person
+14	#cebr	Cebrián	M	other	person	minor	15	2138	16	18	4	person
+15	#nino	Dos niños pequeños	M	other	person	minor	16	0	0	0	0	personGrp
+16	#clem	Clementina	F	other	person	secondary	0	15121	123	51	12	person

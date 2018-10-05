@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#cant	Canto de voces	F	other	non-human	minor	1	0	1	0	1	personGrp
+1	#juan	Juan	M	lover	person	primary	2	6631	88	0	5	person
+2	#yerm	Yerma	F	protagonist	person	primary	3	20266	244	0	5	person
+3	#mari	María	F	other	person	minor	4	2846	52	0	3	person
+4	#víct	Víctor	M	other	person	secondary	5	1514	45	0	3	person
+5	#viej	Vieja	F	other	person	secondary	6	5714	47	0	3	person
+6	#much	Muchacha	F	other	person	minor	7	2125	29	0	3	person
+7	#lava	Lavandera	F	other	person	minor	8	3986	95	0	1	person
+8	#cuna	Cuñada	F	other	person	minor	9	119	4	0	2	person
+9	#dolo	Dolores	F	other	person	secondary	10	1329	22	0	1	person
+10	#muje	Mujer	F	other	person	minor	11	133	6	0	1	person
+11	#coro	Coro de mujeres	F	other	person	minor	12	72	2	0	1	personGrp
+12	#hemb	Hembra	F	other	person	minor	13	21	4	0	1	person
+13	#homb	Hombre	M	other	person	minor	14	249	10	0	1	person
+14	#nin	Niño	M	other	person	minor	15	91	4	0	1	person
+15	#mach	Macho	M	other	person	minor	16	107	5	0	1	person

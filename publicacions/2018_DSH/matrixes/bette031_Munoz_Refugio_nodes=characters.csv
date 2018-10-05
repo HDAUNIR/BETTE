@@ -1,0 +1,18 @@
+	id	label	sex	role	nature	importance	position	pers_mes_characters	pers_mes_sps	pers_mes_rss	pers_mes_scenes	pers_number
+0	#afri	África	F	lover	person	primary	1	15177	208	54	44	person
+1	#maru	Maruja	F	other	person	secondary	2	8535	80	39	13	person
+2	#cons	Consuelo	F	other	person	secondary	3	5289	67	32	12	person
+3	#niev	Nieves	F	other	person	minor	4	5414	71	19	16	person
+4	#beni	Benita	F	other	person	minor	5	5087	47	13	22	person
+5	#conde	Condesa	F	other	person	minor	6	6174	61	18	13	person
+6	#hora	Horacio	M	protagonist	person	primary	7	27638	228	61	46	person
+7	#luis	Luis	M	other	person	secondary	8	7949	95	37	17	person
+8	#ramo	Ramón	M	other	person	secondary	9	11374	132	45	16	person
+9	#paco	Paco	M	other	person	minor	10	9762	112	36	38	person
+10	#timo	Timoteo	M	other	person	minor	11	9744	111	36	38	person
+11	#wist	Wistremundo	M	other	person	minor	12	2408	36	8	7	person
+12	#vict	Victoriano	M	other	person	minor	13	2086	39	11	10	person
+13	#eulo	Eulogio	M	other	person	minor	14	3123	44	7	8	person
+14	#jorg	Jorge	M	other	person	minor	15	294	7	0	1	person
+15	#cami	Don Camilo	M	other	person	minor	16	0	0	10	0	person
+16	#todo	Todos	O	other	person	minor	17	14	1	0	1	personGrp
