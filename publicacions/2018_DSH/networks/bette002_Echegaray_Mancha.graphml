@@ -2,152 +2,100 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key attr.name="Type" attr.type="string" for="edge" id="d6" />
   <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="importance" attr.type="string" for="node" id="d4" />
-  <key attr.name="nature" attr.type="string" for="node" id="d3" />
-  <key attr.name="role" attr.type="string" for="node" id="d2" />
-  <key attr.name="label" attr.type="string" for="node" id="d1" />
-  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <key attr.name="sex" attr.type="string" for="node" id="d4" />
+  <key attr.name="importance" attr.type="string" for="node" id="d3" />
+  <key attr.name="label" attr.type="string" for="node" id="d2" />
+  <key attr.name="role" attr.type="string" for="node" id="d1" />
+  <key attr.name="nature" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#mati">
-      <data key="d0">F</data>
-      <data key="d1">Matilde</data>
-      <data key="d2">protagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#enri">
-      <data key="d0">F</data>
-      <data key="d1">Enriqueta</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#conc">
-      <data key="d0">F</data>
-      <data key="d1">Doña Concepción</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
     <node id="#lore">
-      <data key="d0">M</data>
-      <data key="d1">Don Lorenzo</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Don Lorenzo</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#juli">
-      <data key="d0">M</data>
-      <data key="d1">Julio</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#fern">
-      <data key="d0">M</data>
-      <data key="d1">Fernando</data>
-      <data key="d2">lover</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#cria">
-      <data key="d0">0</data>
-      <data key="d1">Criados,</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Julio</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#just">
-      <data key="d0">M</data>
-      <data key="d1">Don Justo</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Don Justo</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#conc">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Doña Concepción</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#cria">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Criados,</data>
+      <data key="d3">minor</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="#enri">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Enriqueta</data>
+      <data key="d3">primary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#mati">
+      <data key="d0">person</data>
+      <data key="d1">protagonist</data>
+      <data key="d2">Matilde</data>
+      <data key="d3">primary</data>
+      <data key="d4">F</data>
     </node>
     <node id="#dolo">
-      <data key="d0">F</data>
-      <data key="d1">Dolores</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Dolores</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
     </node>
-    <edge source="#mati" target="#dolo">
+    <node id="#fern">
+      <data key="d0">person</data>
+      <data key="d1">lover</data>
+      <data key="d2">Fernando</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <edge source="#lore" target="#juli">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#lore" target="#just">
+      <data key="d5">10.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#lore" target="#conc">
+      <data key="d5">10.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#lore" target="#cria">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mati" target="#enri">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mati" target="#conc">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mati" target="#lore">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mati" target="#juli">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mati" target="#fern">
-      <data key="d5">13.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mati" target="#cria">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mati" target="#just">
-      <data key="d5">11.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#enri" target="#conc">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#enri" target="#lore">
+    <edge source="#lore" target="#enri">
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#enri" target="#juli">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#enri" target="#fern">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#enri" target="#just">
-      <data key="d5">10.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#conc" target="#lore">
-      <data key="d5">10.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#conc" target="#juli">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#conc" target="#fern">
+    <edge source="#lore" target="#mati">
       <data key="d5">5.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#conc" target="#cria">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#conc" target="#just">
-      <data key="d5">14.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#conc" target="#dolo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#lore" target="#juli">
+    <edge source="#lore" target="#dolo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -155,19 +103,19 @@
       <data key="d5">6.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#lore" target="#cria">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#lore" target="#just">
-      <data key="d5">10.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#lore" target="#dolo">
+    <edge source="#juli" target="#fern">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#juli" target="#fern">
+    <edge source="#juli" target="#conc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juli" target="#enri">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juli" target="#mati">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -175,23 +123,75 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#fern" target="#cria">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#fern" target="#just">
+    <edge source="#just" target="#fern">
       <data key="d5">10.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#fern" target="#dolo">
-      <data key="d5">1.0</data>
+    <edge source="#just" target="#conc">
+      <data key="d5">14.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cria" target="#just">
+    <edge source="#just" target="#cria">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
+    <edge source="#just" target="#enri">
+      <data key="d5">10.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#just" target="#mati">
+      <data key="d5">11.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
     <edge source="#just" target="#dolo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#conc" target="#cria">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#conc" target="#enri">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#conc" target="#mati">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#conc" target="#dolo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#conc" target="#fern">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cria" target="#mati">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cria" target="#fern">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#enri" target="#mati">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#enri" target="#fern">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mati" target="#fern">
+      <data key="d5">13.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mati" target="#dolo">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#dolo" target="#fern">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>

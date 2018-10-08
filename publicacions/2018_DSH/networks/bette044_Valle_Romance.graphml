@@ -2,1163 +2,423 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key attr.name="Type" attr.type="string" for="edge" id="d6" />
   <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="importance" attr.type="string" for="node" id="d4" />
-  <key attr.name="nature" attr.type="string" for="node" id="d3" />
-  <key attr.name="role" attr.type="string" for="node" id="d2" />
-  <key attr.name="label" attr.type="string" for="node" id="d1" />
-  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <key attr.name="sex" attr.type="string" for="node" id="d4" />
+  <key attr.name="importance" attr.type="string" for="node" id="d3" />
+  <key attr.name="label" attr.type="string" for="node" id="d2" />
+  <key attr.name="role" attr.type="string" for="node" id="d1" />
+  <key attr.name="nature" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#beni">
-      <data key="d0">F</data>
-      <data key="d1">BENITA LA COSTURERA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#anso">
-      <data key="d0">F</data>
-      <data key="d1">ANDREÍÑA LA SORDA,</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#much">
-      <data key="d0">O</data>
-      <data key="d1">Muchas voces</data>
-      <data key="d2">other</data>
-      <data key="d3">non-human</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#andr">
-      <data key="d0">F</data>
-      <data key="d1">ANDREÍÑA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#flor">
-      <data key="d0">M</data>
-      <data key="d1">Floriano</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#morc">
-      <data key="d0">M</data>
-      <data key="d1">EL MORCEGO</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#maru">
-      <data key="d0">M</data>
-      <data key="d1">Marinero</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#pobr">
-      <data key="d0">M</data>
-      <data key="d1">EL POBRE DE SAN LÁZARO,</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#rose">
-      <data key="d0">M</data>
-      <data key="d1">DON ROSENDO</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#cieg">
-      <data key="d0">M</data>
-      <data key="d1">EL CIEGO DE GONDAR</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#rapa">
-      <data key="d0">M</data>
-      <data key="d1">EL RAPAZ</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#otra">
-      <data key="d0">O</data>
-      <data key="d1">Otra Voz</data>
-      <data key="d2">other</data>
-      <data key="d3">non-human</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#tull">
-      <data key="d0">M</data>
-      <data key="d1">EL TULLIDO DE CELTIGOS</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#cape">
-      <data key="d0">M</data>
-      <data key="d1">DON MANUELITO</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#voz_">
-      <data key="d0">O</data>
-      <data key="d1">La Voz De Todos</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#seba">
-      <data key="d0">M</data>
-      <data key="d1">SEBASTIÁN DE XOGAS</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+    <node id="#viud">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Una Viuda</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
     </node>
     <node id="#mago">
-      <data key="d0">M</data>
-      <data key="d1">EL MANCO DE GONDAR</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL MANCO DE GONDAR</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
-    <node id="#zaga">
-      <data key="d0">M</data>
-      <data key="d1">EL ZAGAL DE LAS VACAS</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+    <node id="#seba">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">SEBASTIÁN DE XOGAS</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
-    <node id="#gala">
-      <data key="d0">M</data>
-      <data key="d1">DON GALÁN</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+    <node id="#tull">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL TULLIDO DE CELTIGOS</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
-    <node id="#mard">
-      <data key="d0">M</data>
-      <data key="d1">Marinero</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#fuso">
-      <data key="d0">M</data>
-      <data key="d1">FUSO NEGRO</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+    <node id="#much">
+      <data key="d0">non-human</data>
+      <data key="d1">other</data>
+      <data key="d2">Muchas voces</data>
+      <data key="d3">minor</data>
+      <data key="d4">O</data>
     </node>
     <node id="#male">
-      <data key="d0">M</data>
-      <data key="d1">EL MANCO LEONÉS</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL MANCO LEONÉS</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
-    <node id="#patr">
-      <data key="d0">M</data>
-      <data key="d1">ABELARDO</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#viud">
-      <data key="d0">F</data>
-      <data key="d1">Una Viuda</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#mart">
-      <data key="d0">M</data>
-      <data key="d1">Marinero</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#pedr">
-      <data key="d0">M</data>
-      <data key="d1">DON PEDRITO</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#reco">
-      <data key="d0">F</data>
-      <data key="d1">LA RECOGIDA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#farr">
-      <data key="d0">M</data>
-      <data key="d1">DON FARRUQUIÑO</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#caba">
-      <data key="d0">M</data>
-      <data key="d1">EL CABALLERO, DON JUAN MANUEL DE MONTENEGRO</data>
-      <data key="d2">protagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#oliv">
-      <data key="d0">M</data>
-      <data key="d1">Oliveros</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#sabe">
-      <data key="d0">F</data>
-      <data key="d1">DOÑA SABELITA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#domi">
-      <data key="d0">F</data>
-      <data key="d1">DOMINGA DE GÓMEZ</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#arte">
-      <data key="d0">F</data>
-      <data key="d1">ARTEMISA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#maur">
-      <data key="d0">M</data>
-      <data key="d1">DON MAURO</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#paul">
-      <data key="d0">F</data>
-      <data key="d1">PAULA LA REINA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#unav">
-      <data key="d0">O</data>
-      <data key="d1">Una Voz</data>
-      <data key="d2">other</data>
-      <data key="d3">non-human</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#gonz">
-      <data key="d0">M</data>
-      <data key="d1">DON GONZALITO</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#roja">
-      <data key="d0">F</data>
-      <data key="d1">LA ROJA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#monc">
-      <data key="d0">F</data>
-      <data key="d1">DOÑA MONCHA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#rebo">
-      <data key="d0">F</data>
-      <data key="d1">LA REBOLA</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#adeg">
-      <data key="d0">F</data>
-      <data key="d1">ADEGA la inocente</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+    <node id="#zaga">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL ZAGAL DE LAS VACAS</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
     <node id="#rami">
-      <data key="d0">M</data>
-      <data key="d1">RAMIRO DE BEALO</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">RAMIRO DE BEALO</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
-    <edge source="#beni" target="#much">
+    <node id="#cape">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">DON MANUELITO</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#domi">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">DOMINGA DE GÓMEZ</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#mard">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Marinero</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#maru">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Marinero</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#rose">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">DON ROSENDO</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#maur">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">DON MAURO</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#reco">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">LA RECOGIDA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#mart">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Marinero</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#caba">
+      <data key="d0">person</data>
+      <data key="d1">protagonist</data>
+      <data key="d2">EL CABALLERO, DON JUAN MANUEL DE MONTENEGRO</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#gonz">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">DON GONZALITO</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#roja">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">LA ROJA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#paul">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">PAULA LA REINA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#oliv">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Oliveros</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#adeg">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">ADEGA la inocente</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#fuso">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">FUSO NEGRO</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#monc">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">DOÑA MONCHA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#patr">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">ABELARDO</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#voz_">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">La Voz De Todos</data>
+      <data key="d3">minor</data>
+      <data key="d4">O</data>
+    </node>
+    <node id="#otra">
+      <data key="d0">non-human</data>
+      <data key="d1">other</data>
+      <data key="d2">Otra Voz</data>
+      <data key="d3">minor</data>
+      <data key="d4">O</data>
+    </node>
+    <node id="#rapa">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL RAPAZ</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#sabe">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">DOÑA SABELITA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#cieg">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL CIEGO DE GONDAR</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#anso">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">ANDREÍÑA LA SORDA,</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#morc">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL MORCEGO</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#farr">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">DON FARRUQUIÑO</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#andr">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">ANDREÍÑA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#gala">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">DON GALÁN</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#unav">
+      <data key="d0">non-human</data>
+      <data key="d1">other</data>
+      <data key="d2">Una Voz</data>
+      <data key="d3">minor</data>
+      <data key="d4">O</data>
+    </node>
+    <node id="#pobr">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">EL POBRE DE SAN LÁZARO,</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#beni">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">BENITA LA COSTURERA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#arte">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">ARTEMISA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#pedr">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">DON PEDRITO</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#rebo">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">LA REBOLA</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#flor">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Floriano</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <edge source="#viud" target="#caba">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#beni" target="#rose">
+    <edge source="#viud" target="#fuso">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#beni" target="#andr">
+    <edge source="#mago" target="#tull">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#beni" target="#caba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#morc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#cieg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#maur">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#pobr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#cape">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#gonz">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beni" target="#monc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#otra">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#caba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#maru">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#tull">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#morc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#unav">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#pobr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#anso" target="#patr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#andr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#morc">
+    <edge source="#mago" target="#much">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#pobr">
+    <edge source="#mago" target="#cape">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mago" target="#male">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#rose">
+    <edge source="#mago" target="#domi">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#cieg">
+    <edge source="#mago" target="#maru">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#otra">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#cape">
+    <edge source="#mago" target="#rose">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#voz_">
+    <edge source="#mago" target="#maur">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#mago">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#gala">
+    <edge source="#mago" target="#reco">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#farr">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#caba">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#unav">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#domi">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#maur">
+    <edge source="#mago" target="#caba">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#male">
+    <edge source="#mago" target="#gonz">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#gonz">
+    <edge source="#mago" target="#morc">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#roja">
+    <edge source="#mago" target="#paul">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#rebo">
+    <edge source="#mago" target="#adeg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#much" target="#adeg">
+    <edge source="#mago" target="#patr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#flor">
+    <edge source="#mago" target="#voz_">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#morc">
+    <edge source="#mago" target="#otra">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#mago">
+    <edge source="#mago" target="#anso">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#rose">
+    <edge source="#mago" target="#cieg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#cieg">
+    <edge source="#mago" target="#roja">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#rapa">
+    <edge source="#mago" target="#farr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#cape">
+    <edge source="#mago" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mago" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mago" target="#unav">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mago" target="#pobr">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#pobr">
+    <edge source="#mago" target="#beni">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#gala">
+    <edge source="#mago" target="#rebo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#andr" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#monc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#farr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#caba">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#arte">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#maur">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#gonz">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#zaga">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#andr" target="#rebo">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#cape">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#rapa">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#caba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#monc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#arte">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#zaga">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#fuso">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#mago">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#rose">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#cieg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#otra">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#tull">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#cape">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#voz_">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#pobr">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#patr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#maru">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#farr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#caba">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#unav">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#domi">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#maur">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#male">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#sabe">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#gonz">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#roja">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#morc" target="#adeg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#tull">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#caba">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#otra">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#mart">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#unav">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#pobr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#roja">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#mard">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maru" target="#patr">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#mago">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#rose">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#cieg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#otra">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#tull">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#cape">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#voz_">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#patr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#pedr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#farr">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#caba">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#unav">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#domi">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#maur">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#male">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#gonz">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#roja">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pobr" target="#adeg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#cieg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#cape">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#voz_">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#seba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#mago">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#oliv">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#adeg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#pedr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#farr">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#caba">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#domi">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#maur">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#male">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#gonz">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#roja">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rose" target="#rami">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#caba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#cape">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#gonz">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#maur">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cieg" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#cape">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#monc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#caba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#arte">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#rapa" target="#zaga">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#otra" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#otra" target="#tull">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#otra" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#otra" target="#caba">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#otra" target="#unav">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#otra" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#otra" target="#patr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tull" target="#caba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tull" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tull" target="#unav">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tull" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tull" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tull" target="#patr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#maur">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#monc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#pedr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#farr">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#caba">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#arte">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#male">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#gonz">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#zaga">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cape" target="#rebo">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#reco">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#farr">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#caba">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#mago">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#adeg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#gala">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#gonz">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#roja">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#maur">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#voz_" target="#male">
+    <edge source="#seba" target="#oliv">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1166,7 +426,7 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#seba" target="#oliv">
+    <edge source="#seba" target="#rose">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1178,71 +438,231 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#gala">
+    <edge source="#tull" target="#otra">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#paul">
+    <edge source="#tull" target="#maru">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#patr">
+    <edge source="#tull" target="#patr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#reco">
+    <edge source="#tull" target="#anso">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#farr">
+    <edge source="#tull" target="#unav">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#caba">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mago" target="#unav">
+    <edge source="#tull" target="#pobr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#domi">
-      <data key="d5">3.0</data>
+    <edge source="#tull" target="#caba">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#maur">
+    <edge source="#tull" target="#male">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tull" target="#domi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#tull" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#cape">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#male">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mago" target="#gonz">
+    <edge source="#much" target="#male">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#roja">
+    <edge source="#much" target="#domi">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#farr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#rose">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#maur">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#reco">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#rebo">
+    <edge source="#much" target="#adeg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mago" target="#adeg">
+    <edge source="#much" target="#gonz">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#morc">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#paul">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#zaga" target="#reco">
+    <edge source="#much" target="#caba">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#voz_">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#otra">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#zaga" target="#caba">
+    <edge source="#much" target="#cieg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#zaga" target="#gala">
+    <edge source="#much" target="#roja">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#unav">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#pobr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#much" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#cape">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#domi">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#maru">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#rose">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#maur">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#reco">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#adeg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#gonz">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#morc">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#paul">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#caba">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#patr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#voz_">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#otra">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#anso">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#cieg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#roja">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#farr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#unav">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#pobr">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#pedr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#male" target="#rebo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1250,7 +670,27 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#zaga" target="#rebo">
+    <edge source="#zaga" target="#caba">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zaga" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zaga" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zaga" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zaga" target="#reco">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#zaga" target="#cape">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1258,55 +698,207 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#maur">
+    <edge source="#zaga" target="#rapa">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#male">
+    <edge source="#zaga" target="#rebo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#monc">
+    <edge source="#rami" target="#maur">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#reco">
+    <edge source="#rami" target="#gonz">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rami" target="#rose">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rami" target="#oliv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#pedr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#domi">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#farr">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#farr">
+    <edge source="#cape" target="#rose">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#maur">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#reco">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#caba">
+    <edge source="#cape" target="#caba">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#gonz">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#paul">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#monc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#cieg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#andr">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#domi">
+    <edge source="#cape" target="#gala">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#arte">
+    <edge source="#cape" target="#pobr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#rebo">
+    <edge source="#cape" target="#beni">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#gonz">
+    <edge source="#cape" target="#arte">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#roja">
+    <edge source="#cape" target="#rapa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cape" target="#rebo">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gala" target="#adeg">
+    <edge source="#cape" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#maru">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#rose">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#maur">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#reco">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#adeg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#gonz">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#morc">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#paul">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#caba">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#patr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#voz_">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#otra">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#anso">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#cieg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#roja">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#farr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#unav">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#pobr">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#pedr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#domi" target="#rebo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#mard" target="#caba">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mard" target="#maru">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1318,123 +910,183 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#fuso" target="#sabe">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#fuso" target="#roja">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#fuso" target="#viud">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#fuso" target="#caba">
+    <edge source="#maru" target="#patr">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#paul">
+    <edge source="#maru" target="#anso">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#patr">
+    <edge source="#maru" target="#otra">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#pedr">
+    <edge source="#maru" target="#roja">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#reco">
+    <edge source="#maru" target="#pobr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#farr">
+    <edge source="#maru" target="#gala">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#caba">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#male" target="#unav">
+    <edge source="#maru" target="#unav">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#domi">
-      <data key="d5">4.0</data>
+    <edge source="#maru" target="#mart">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#maur">
+    <edge source="#maru" target="#caba">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maru" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#maur">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#farr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#reco">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#caba">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#gonz">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#morc">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#gonz">
+    <edge source="#rose" target="#paul">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#oliv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#adeg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#voz_">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#roja">
+    <edge source="#rose" target="#pedr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#rebo">
+    <edge source="#rose" target="#cieg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#male" target="#adeg">
+    <edge source="#rose" target="#roja">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#patr" target="#domi">
+    <edge source="#rose" target="#gala">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#patr" target="#unav">
+    <edge source="#rose" target="#pobr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rose" target="#beni">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#patr" target="#caba">
+    <edge source="#rose" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#farr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#reco">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#caba">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#gonz">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#roja">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#paul">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#oliv">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#adeg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#voz_">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#patr" target="#mart">
+    <edge source="#maur" target="#pedr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#viud" target="#caba">
+    <edge source="#maur" target="#cieg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mart" target="#caba">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pedr" target="#farr">
+    <edge source="#maur" target="#morc">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pedr" target="#caba">
+    <edge source="#maur" target="#andr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pedr" target="#gonz">
+    <edge source="#maur" target="#gala">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pedr" target="#domi">
+    <edge source="#maur" target="#pobr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#maur" target="#beni">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pedr" target="#maur">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reco" target="#maur">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reco" target="#monc">
+    <edge source="#maur" target="#rebo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1442,27 +1094,19 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
+    <edge source="#reco" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
     <edge source="#reco" target="#caba">
       <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reco" target="#domi">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reco" target="#arte">
-      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#reco" target="#gonz">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#reco" target="#roja">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reco" target="#rebo">
+    <edge source="#reco" target="#morc">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1470,51 +1114,55 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#farr" target="#caba">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#farr" target="#maur">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#farr" target="#gonz">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#farr" target="#roja">
+    <edge source="#reco" target="#monc">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#farr" target="#domi">
+    <edge source="#reco" target="#voz_">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#farr" target="#adeg">
+    <edge source="#reco" target="#roja">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#caba" target="#unav">
+    <edge source="#reco" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#reco" target="#gala">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#caba" target="#domi">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#caba" target="#arte">
+    <edge source="#reco" target="#pobr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#caba" target="#maur">
-      <data key="d5">3.0</data>
+    <edge source="#reco" target="#arte">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#caba" target="#paul">
+    <edge source="#reco" target="#rapa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#reco" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mart" target="#caba">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#mart" target="#patr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#caba" target="#sabe">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#adeg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1526,7 +1174,75 @@
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
+    <edge source="#caba" target="#paul">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#fuso">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
     <edge source="#caba" target="#monc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#patr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#voz_">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#otra">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#pedr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#cieg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#anso">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#morc">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#farr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#andr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#gala">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#unav">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#pobr">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#arte">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#caba" target="#rapa">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1534,91 +1250,43 @@
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#caba" target="#adeg">
+    <edge source="#caba" target="#flor">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#oliv" target="#gonz">
+    <edge source="#gonz" target="#andr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#oliv" target="#maur">
+    <edge source="#gonz" target="#farr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gonz" target="#adeg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#oliv" target="#rami">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#sabe" target="#roja">
+    <edge source="#gonz" target="#morc">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#domi" target="#paul">
+    <edge source="#gonz" target="#paul">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#domi" target="#unav">
+    <edge source="#gonz" target="#oliv">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#domi" target="#maur">
+    <edge source="#gonz" target="#voz_">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#domi" target="#gonz">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#domi" target="#roja">
+    <edge source="#gonz" target="#pedr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#domi" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#domi" target="#adeg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#arte" target="#monc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#arte" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maur" target="#paul">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maur" target="#gonz">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maur" target="#roja">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maur" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maur" target="#adeg">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#maur" target="#rami">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paul" target="#rebo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paul" target="#gonz">
+    <edge source="#gonz" target="#cieg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -1626,23 +1294,355 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
+    <edge source="#gonz" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gonz" target="#pobr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gonz" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
     <edge source="#gonz" target="#rebo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gonz" target="#adeg">
+    <edge source="#roja" target="#sabe">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roja" target="#fuso">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#gonz" target="#rami">
-      <data key="d5">1.0</data>
+    <edge source="#roja" target="#gala">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#roja" target="#adeg">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
+    <edge source="#roja" target="#farr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roja" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roja" target="#morc">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#roja" target="#voz_">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#paul" target="#cieg">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#paul" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#paul" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#paul" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#paul" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#paul" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#adeg" target="#voz_">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#adeg" target="#farr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#adeg" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#adeg" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#adeg" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fuso" target="#sabe">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fuso" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#monc" target="#arte">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#monc" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#monc" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#monc" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#monc" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#monc" target="#rapa">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
     <edge source="#monc" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#patr" target="#anso">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#patr" target="#otra">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#patr" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#patr" target="#unav">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#patr" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#voz_" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#voz_" target="#farr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#voz_" target="#pobr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#voz_" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#otra" target="#anso">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#otra" target="#unav">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#otra" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#otra" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rapa" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rapa" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rapa" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rapa" target="#arte">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rapa" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#sabe" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cieg" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cieg" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cieg" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cieg" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cieg" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#anso" target="#unav">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#anso" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#anso" target="#morc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#morc" target="#farr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#morc" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#morc" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#morc" target="#unav">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#morc" target="#pobr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#morc" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#morc" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#farr" target="#pedr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#farr" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#farr" target="#andr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#farr" target="#pobr">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#andr" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#andr" target="#gala">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#andr" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#andr" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#andr" target="#arte">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#andr" target="#rebo">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gala" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gala" target="#arte">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gala" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#gala" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#unav" target="#pobr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pobr" target="#beni">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pobr" target="#pedr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pobr" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#beni" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#arte" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#arte" target="#rebo">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rebo" target="#flor">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>

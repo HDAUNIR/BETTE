@@ -1,120 +1,174 @@
 graph [
   node [
     id 0
-    label "#toma"
-    sex "M"
-    role "other"
+    label "#marq"
     nature "person"
+    role "other"
     importance "secondary"
+    sex "M"
   ]
   node [
     id 1
-    label "#deme"
-    sex "M"
-    role "other"
+    label "#toma"
     nature "person"
-    importance "minor"
+    role "other"
+    importance "secondary"
+    sex "M"
   ]
   node [
     id 2
-    label "#javi"
-    sex "M"
-    role "antagonist"
+    label "#anse"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "secondary"
+    sex "M"
   ]
   node [
     id 3
-    label "#clau"
-    sex "M"
-    role "other"
+    label "#javi"
     nature "person"
-    importance "secondary"
+    role "antagonist"
+    importance "primary"
+    sex "M"
   ]
   node [
     id 4
-    label "#jose"
-    sex "F"
-    role "lover"
+    label "#pad1"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 5
-    label "#plac"
-    sex "M"
-    role "protagonist"
+    label "#deme"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 6
-    label "#romu"
-    sex "M"
-    role "other"
+    label "#basi"
     nature "person"
+    role "other"
     importance "secondary"
+    sex "M"
   ]
   node [
     id 7
-    label "#pad2"
-    sex "M"
-    role "other"
+    label "#plac"
     nature "person"
-    importance "minor"
+    role "protagonist"
+    importance "primary"
+    sex "M"
   ]
   node [
     id 8
     label "#lesm"
-    sex "M"
-    role "other"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 9
-    label "#marq"
-    sex "M"
-    role "other"
+    label "#blan"
     nature "person"
-    importance "secondary"
+    role "antagonist"
+    importance "primary"
+    sex "F"
   ]
   node [
     id 10
-    label "#basi"
-    sex "M"
-    role "other"
+    label "#clau"
     nature "person"
+    role "other"
     importance "secondary"
+    sex "M"
   ]
   node [
     id 11
-    label "#anse"
-    sex "M"
-    role "other"
+    label "#pad2"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 12
-    label "#pad1"
-    sex "M"
-    role "other"
+    label "#jose"
     nature "person"
-    importance "minor"
+    role "lover"
+    importance "primary"
+    sex "F"
   ]
   node [
     id 13
-    label "#blan"
-    sex "F"
-    role "antagonist"
+    label "#romu"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "secondary"
+    sex "M"
   ]
   edge [
     source 0
-    target 8
+    target 10
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 1
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 11
     Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 3
+    Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 5
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 4
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 12
+    Weight 8.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 7
+    Weight 8.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 13
+    Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 9
+    Weight 5.0
     Type "Undirected"
   ]
   edge [
@@ -124,27 +178,27 @@ graph [
     Type "Undirected"
   ]
   edge [
-    source 0
-    target 9
-    Weight 2.0
+    source 1
+    target 3
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 0
-    target 4
+    source 1
+    target 12
     Weight 3.0
     Type "Undirected"
   ]
   edge [
-    source 0
-    target 5
+    source 1
+    target 7
     Weight 5.0
     Type "Undirected"
   ]
   edge [
-    source 0
-    target 13
-    Weight 2.0
+    source 1
+    target 8
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
@@ -155,80 +209,98 @@ graph [
   ]
   edge [
     source 2
-    target 7
+    target 11
     Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 9
-    Weight 3.0
     Type "Undirected"
   ]
   edge [
     source 2
     target 3
-    Weight 3.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 2
     target 4
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 5
-    Weight 8.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 6
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 11
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 2
     target 12
-    Weight 1.0
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 2
+    target 7
+    Weight 2.0
     Type "Undirected"
   ]
   edge [
     source 2
     target 13
-    Weight 5.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 3
-    target 4
-    Weight 4.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
-    target 5
-    Weight 7.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
+    source 2
     target 9
     Weight 2.0
     Type "Undirected"
   ]
   edge [
     source 3
-    target 13
+    target 10
     Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 11
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 4
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 12
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 7
+    Weight 8.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 13
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 9
+    Weight 5.0
+    Type "Undirected"
+  ]
+  edge [
+    source 4
+    target 11
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 4
+    target 12
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
@@ -239,144 +311,84 @@ graph [
   ]
   edge [
     source 4
-    target 9
-    Weight 8.0
+    target 13
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 4
-    target 5
+    target 9
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 12
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 7
+    Weight 4.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 9
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 7
+    target 12
     Weight 13.0
     Type "Undirected"
   ]
   edge [
-    source 4
-    target 6
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 10
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 11
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 12
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 13
-    Weight 9.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
+    source 7
     target 8
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 5
-    target 12
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
-    target 6
-    Weight 3.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
-    target 7
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
+    source 7
     target 9
-    Weight 8.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
-    target 10
-    Weight 4.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
-    target 11
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
-    target 13
     Weight 14.0
     Type "Undirected"
   ]
   edge [
-    source 6
-    target 7
+    source 7
+    target 10
+    Weight 7.0
+    Type "Undirected"
+  ]
+  edge [
+    source 7
+    target 11
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 6
-    target 9
+    source 7
+    target 13
     Weight 3.0
     Type "Undirected"
   ]
   edge [
-    source 6
-    target 13
-    Weight 1.0
+    source 9
+    target 10
+    Weight 3.0
     Type "Undirected"
   ]
   edge [
-    source 6
+    source 9
     target 12
-    Weight 1.0
+    Weight 9.0
     Type "Undirected"
   ]
   edge [
-    source 6
-    target 11
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 9
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 11
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 12
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
+    source 9
     target 13
     Weight 1.0
     Type "Undirected"
@@ -385,24 +397,12 @@ graph [
     source 9
     target 11
     Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 9
-    target 12
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 9
-    target 13
-    Weight 5.0
     Type "Undirected"
   ]
   edge [
     source 10
-    target 13
-    Weight 1.0
+    target 12
+    Weight 4.0
     Type "Undirected"
   ]
   edge [
@@ -414,7 +414,7 @@ graph [
   edge [
     source 11
     target 13
-    Weight 2.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [

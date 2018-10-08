@@ -2,244 +2,244 @@
 <gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
   <graph defaultedgetype="undirected" mode="static">
     <attributes class="edge" mode="static">
-      <attribute id="4" title="Weight" type="double" />
-      <attribute id="5" title="Type" type="string" />
+      <attribute id="4" title="Type" type="string" />
+      <attribute id="5" title="Weight" type="double" />
     </attributes>
     <attributes class="node" mode="static">
-      <attribute id="0" title="sex" type="string" />
-      <attribute id="1" title="role" type="string" />
-      <attribute id="2" title="nature" type="string" />
-      <attribute id="3" title="importance" type="string" />
+      <attribute id="0" title="nature" type="string" />
+      <attribute id="1" title="sex" type="string" />
+      <attribute id="2" title="importance" type="string" />
+      <attribute id="3" title="role" type="string" />
     </attributes>
     <nodes>
-      <node id="#cans" label="Canseco">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="secondary" />
-        </attvalues>
-      </node>
-      <node id="#gasc" label="Gascón">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#parr" label="Parrondo">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#alge" label="Algeciras">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="protagonist" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="primary" />
-        </attvalues>
-      </node>
-      <node id="#memb" label="Membrives">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="antagonist" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="primary" />
-        </attvalues>
-      </node>
-      <node id="#jorg" label="Jorge">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="secondary" />
-        </attvalues>
-      </node>
       <node id="#gome" label="Gómez">
         <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
       <node id="#mart" label="Martínez">
         <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
       <node id="#rami" label="Ramírez">
         <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="secondary" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#alge" label="Algeciras">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="protagonist" />
+        </attvalues>
+      </node>
+      <node id="#jorg" label="Jorge">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#gasc" label="Gascón">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#cans" label="Canseco">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#memb" label="Membrives">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="antagonist" />
+        </attvalues>
+      </node>
+      <node id="#parr" label="Parrondo">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="#cans" target="#parr">
+      <edge id="0" source="#gome" target="#alge">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="1" source="#cans" target="#alge">
+      <edge id="1" source="#gome" target="#parr">
         <attvalues>
-          <attvalue for="4" value="5.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="2" source="#cans" target="#gasc">
+      <edge id="2" source="#gome" target="#cans">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="3" source="#cans" target="#jorg">
+      <edge id="3" source="#gome" target="#rami">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="4" source="#cans" target="#gome">
+      <edge id="4" source="#mart" target="#alge">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="5" source="#cans" target="#mart">
+      <edge id="5" source="#mart" target="#jorg">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="6" source="#cans" target="#rami">
+      <edge id="6" source="#mart" target="#cans">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="7" source="#gasc" target="#alge">
+      <edge id="7" source="#mart" target="#memb">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="8" source="#gasc" target="#jorg">
+      <edge id="8" source="#mart" target="#rami">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="9" source="#gasc" target="#rami">
+      <edge id="9" source="#rami" target="#alge">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="10" source="#parr" target="#memb">
+      <edge id="10" source="#rami" target="#jorg">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="11" source="#parr" target="#rami">
+      <edge id="11" source="#rami" target="#gasc">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="12" source="#parr" target="#gome">
+      <edge id="12" source="#rami" target="#cans">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="13" source="#parr" target="#alge">
+      <edge id="13" source="#rami" target="#memb">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="14" source="#alge" target="#memb">
+      <edge id="14" source="#rami" target="#parr">
         <attvalues>
-          <attvalue for="4" value="4.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
       <edge id="15" source="#alge" target="#jorg">
         <attvalues>
-          <attvalue for="4" value="5.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
-      <edge id="16" source="#alge" target="#gome">
+      <edge id="16" source="#alge" target="#gasc">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="17" source="#alge" target="#mart">
+      <edge id="17" source="#alge" target="#cans">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
-      <edge id="18" source="#alge" target="#rami">
+      <edge id="18" source="#alge" target="#memb">
         <attvalues>
-          <attvalue for="4" value="4.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="19" source="#memb" target="#rami">
+      <edge id="19" source="#alge" target="#parr">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="20" source="#memb" target="#jorg">
+      <edge id="20" source="#jorg" target="#cans">
         <attvalues>
-          <attvalue for="4" value="4.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="21" source="#memb" target="#mart">
+      <edge id="21" source="#jorg" target="#memb">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="22" source="#jorg" target="#mart">
+      <edge id="22" source="#jorg" target="#gasc">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="23" source="#jorg" target="#rami">
+      <edge id="23" source="#gasc" target="#cans">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="24" source="#gome" target="#rami">
+      <edge id="24" source="#cans" target="#parr">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="25" source="#mart" target="#rami">
+      <edge id="25" source="#memb" target="#parr">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
     </edges>

@@ -2,154 +2,138 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key attr.name="Type" attr.type="string" for="edge" id="d6" />
   <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="importance" attr.type="string" for="node" id="d4" />
-  <key attr.name="nature" attr.type="string" for="node" id="d3" />
-  <key attr.name="role" attr.type="string" for="node" id="d2" />
-  <key attr.name="label" attr.type="string" for="node" id="d1" />
-  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <key attr.name="sex" attr.type="string" for="node" id="d4" />
+  <key attr.name="importance" attr.type="string" for="node" id="d3" />
+  <key attr.name="label" attr.type="string" for="node" id="d2" />
+  <key attr.name="role" attr.type="string" for="node" id="d1" />
+  <key attr.name="nature" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#laur">
-      <data key="d0">F</data>
-      <data key="d1">Laura</data>
-      <data key="d2">protagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#padr">
-      <data key="d0">M</data>
-      <data key="d1">El Padre Antonio</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
     <node id="#escu">
-      <data key="d0">M</data>
-      <data key="d1">Escudero</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#garc">
-      <data key="d0">M</data>
-      <data key="d1">Garcés</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Escudero</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
     <node id="#iren">
-      <data key="d0">F</data>
-      <data key="d1">Doña Irene</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#juan">
-      <data key="d0">F</data>
-      <data key="d1">Juanilla</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#cipr">
-      <data key="d0">M</data>
-      <data key="d1">Cipriano</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#bria">
-      <data key="d0">F</data>
-      <data key="d1">Doña Brianda</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#rive">
-      <data key="d0">M</data>
-      <data key="d1">Bartolomé Rivera</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#cuel">
-      <data key="d0">M</data>
-      <data key="d1">Francisco de Cuéllar</data>
-      <data key="d2">lover</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#pere">
-      <data key="d0">M</data>
-      <data key="d1">Pérez</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Doña Irene</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
     </node>
     <node id="#fern">
-      <data key="d0">M</data>
-      <data key="d1">Don Fernando</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Don Fernando</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
     </node>
-    <edge source="#laur" target="#padr">
+    <node id="#garc">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Garcés</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#pere">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Pérez</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#cipr">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Cipriano</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#juan">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Juanilla</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#bria">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Doña Brianda</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#cuel">
+      <data key="d0">person</data>
+      <data key="d1">lover</data>
+      <data key="d2">Francisco de Cuéllar</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#rive">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Bartolomé Rivera</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#padr">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">El Padre Antonio</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#laur">
+      <data key="d0">person</data>
+      <data key="d1">protagonist</data>
+      <data key="d2">Laura</data>
+      <data key="d3">primary</data>
+      <data key="d4">F</data>
+    </node>
+    <edge source="#escu" target="#padr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#laur" target="#iren">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#laur" target="#escu">
+    <edge source="#escu" target="#laur">
       <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#laur" target="#rive">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#laur" target="#cuel">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#laur" target="#fern">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#laur" target="#juan">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#padr" target="#cuel">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#padr" target="#bria">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#padr" target="#rive">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#padr" target="#escu">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#padr" target="#iren">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#padr" target="#fern">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#padr" target="#cipr">
-      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#escu" target="#iren">
       <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#iren" target="#rive">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#iren" target="#padr">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#iren" target="#laur">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#iren" target="#fern">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fern" target="#laur">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fern" target="#pere">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fern" target="#cuel">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fern" target="#padr">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#garc" target="#cuel">
@@ -160,23 +144,31 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#iren" target="#fern">
-      <data key="d5">3.0</data>
+    <edge source="#cipr" target="#rive">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#iren" target="#rive">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#rive">
-      <data key="d5">1.0</data>
+    <edge source="#cipr" target="#padr">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#cipr" target="#bria">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cipr" target="#rive">
+    <edge source="#juan" target="#rive">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#laur">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#bria" target="#rive">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#bria" target="#padr">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -184,19 +176,27 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#bria" target="#rive">
+    <edge source="#cuel" target="#rive">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cuel" target="#padr">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#rive" target="#cuel">
+    <edge source="#cuel" target="#laur">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rive" target="#padr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rive" target="#laur">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cuel" target="#fern">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pere" target="#fern">
+    <edge source="#padr" target="#laur">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>

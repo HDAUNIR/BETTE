@@ -2,388 +2,388 @@
 <gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
   <graph defaultedgetype="undirected" mode="static">
     <attributes class="edge" mode="static">
-      <attribute id="4" title="Weight" type="double" />
-      <attribute id="5" title="Type" type="string" />
+      <attribute id="4" title="Type" type="string" />
+      <attribute id="5" title="Weight" type="double" />
     </attributes>
     <attributes class="node" mode="static">
-      <attribute id="0" title="sex" type="string" />
-      <attribute id="1" title="role" type="string" />
-      <attribute id="2" title="nature" type="string" />
-      <attribute id="3" title="importance" type="string" />
+      <attribute id="0" title="nature" type="string" />
+      <attribute id="1" title="sex" type="string" />
+      <attribute id="2" title="importance" type="string" />
+      <attribute id="3" title="role" type="string" />
     </attributes>
     <nodes>
-      <node id="#sacr" label="Sacristana">
+      <node id="#vecr" label="Vecina Roja">
         <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#zapo" label="Zapatero">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="lover" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="primary" />
-        </attvalues>
-      </node>
-      <node id="#veca" label="Vecina Amarilla">
-        <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#alca" label="Alcalde">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#elni" label="El Niño">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#beas" label="Beata Segunda">
-        <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
       <node id="#beap" label="Beata Primera">
         <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#beas" label="Beata Segunda">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#zapo" label="Zapatero">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="lover" />
+        </attvalues>
+      </node>
+      <node id="#alca" label="Alcalde">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#veca" label="Vecina Amarilla">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#elni" label="El Niño">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#sacr" label="Sacristana">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
       <node id="#vecn" label="Vecina Negra">
         <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#vecr" label="Vecina Roja">
-        <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#vecv" label="Vecina Verde">
-        <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#zapa" label="Zapatera">
-        <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="protagonist" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="primary" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
       <node id="#vecm" label="Vecina Morada">
         <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#vecv" label="Vecina Verde">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#zapa" label="Zapatera">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="protagonist" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="#sacr" target="#veca">
+      <edge id="0" source="#vecr" target="#vecn">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="1" source="#sacr" target="#alca">
+      <edge id="1" source="#vecr" target="#veca">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="2" source="#sacr" target="#elni">
+      <edge id="2" source="#vecr" target="#vecm">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="3" source="#sacr" target="#vecn">
+      <edge id="3" source="#vecr" target="#vecv">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="4" source="#sacr" target="#vecr">
+      <edge id="4" source="#vecr" target="#alca">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="5" source="#sacr" target="#vecv">
+      <edge id="5" source="#vecr" target="#zapo">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="6" source="#sacr" target="#zapa">
+      <edge id="6" source="#vecr" target="#elni">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="7" source="#sacr" target="#vecm">
+      <edge id="7" source="#vecr" target="#sacr">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="8" source="#zapo" target="#veca">
+      <edge id="8" source="#vecr" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
-      <edge id="9" source="#zapo" target="#alca">
+      <edge id="9" source="#beap" target="#beas">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="10" source="#zapo" target="#elni">
+      <edge id="10" source="#beap" target="#zapo">
         <attvalues>
-          <attvalue for="4" value="4.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="11" source="#zapo" target="#beas">
+      <edge id="11" source="#beas" target="#zapo">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="12" source="#zapo" target="#beap">
+      <edge id="12" source="#zapo" target="#vecn">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="13" source="#zapo" target="#vecn">
+      <edge id="13" source="#zapo" target="#vecm">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="14" source="#zapo" target="#zapa">
+      <edge id="14" source="#zapo" target="#alca">
         <attvalues>
-          <attvalue for="4" value="12.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="15" source="#zapo" target="#vecr">
+      <edge id="15" source="#zapo" target="#veca">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="16" source="#zapo" target="#vecm">
+      <edge id="16" source="#zapo" target="#elni">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="17" source="#veca" target="#alca">
+      <edge id="17" source="#zapo" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="12.0" />
         </attvalues>
       </edge>
-      <edge id="18" source="#veca" target="#elni">
+      <edge id="18" source="#alca" target="#vecn">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="19" source="#veca" target="#vecn">
+      <edge id="19" source="#alca" target="#vecv">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="20" source="#veca" target="#zapa">
+      <edge id="20" source="#alca" target="#vecm">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="21" source="#veca" target="#vecv">
+      <edge id="21" source="#alca" target="#veca">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="22" source="#veca" target="#vecr">
+      <edge id="22" source="#alca" target="#elni">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="23" source="#veca" target="#vecm">
+      <edge id="23" source="#alca" target="#sacr">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="24" source="#alca" target="#elni">
+      <edge id="24" source="#alca" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="4.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="6.0" />
         </attvalues>
       </edge>
-      <edge id="25" source="#alca" target="#vecn">
+      <edge id="25" source="#veca" target="#vecn">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="26" source="#alca" target="#zapa">
+      <edge id="26" source="#veca" target="#vecv">
         <attvalues>
-          <attvalue for="4" value="6.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="27" source="#alca" target="#vecm">
+      <edge id="27" source="#veca" target="#vecm">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="28" source="#alca" target="#vecv">
+      <edge id="28" source="#veca" target="#elni">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="29" source="#alca" target="#vecr">
+      <edge id="29" source="#veca" target="#sacr">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="30" source="#elni" target="#vecn">
+      <edge id="30" source="#veca" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="31" source="#elni" target="#vecr">
+      <edge id="31" source="#elni" target="#vecn">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
       <edge id="32" source="#elni" target="#vecm">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
       <edge id="33" source="#elni" target="#vecv">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="34" source="#elni" target="#zapa">
+      <edge id="34" source="#elni" target="#sacr">
         <attvalues>
-          <attvalue for="4" value="8.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="35" source="#beas" target="#beap">
+      <edge id="35" source="#elni" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="8.0" />
         </attvalues>
       </edge>
-      <edge id="36" source="#vecn" target="#vecr">
+      <edge id="36" source="#sacr" target="#vecn">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="37" source="#vecn" target="#vecv">
+      <edge id="37" source="#sacr" target="#vecv">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="38" source="#vecn" target="#zapa">
+      <edge id="38" source="#sacr" target="#vecm">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="39" source="#vecn" target="#vecm">
+      <edge id="39" source="#sacr" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="40" source="#vecr" target="#zapa">
+      <edge id="40" source="#vecn" target="#vecv">
         <attvalues>
-          <attvalue for="4" value="5.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="41" source="#vecr" target="#vecv">
+      <edge id="41" source="#vecn" target="#vecm">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="42" source="#vecr" target="#vecm">
+      <edge id="42" source="#vecn" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="43" source="#vecv" target="#zapa">
+      <edge id="43" source="#vecm" target="#vecv">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="44" source="#vecv" target="#vecm">
+      <edge id="44" source="#vecm" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="45" source="#zapa" target="#vecm">
+      <edge id="45" source="#vecv" target="#zapa">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
     </edges>

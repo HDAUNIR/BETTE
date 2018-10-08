@@ -1,299 +1,347 @@
 graph [
   node [
     id 0
-    label "#muje"
-    sex "F"
+    label "#sapo"
+    nature "animal"
     role "other"
-    nature "person"
     importance "minor"
+    sex "M"
   ]
   node [
     id 1
-    label "#rein"
-    sex "F"
-    role "other"
+    label "#pedr"
     nature "person"
-    importance "secondary"
+    role "protagonist"
+    importance "primary"
+    sex "M"
   ]
   node [
     id 2
-    label "#simo"
-    sex "F"
-    role "other"
+    label "#idio"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "primary"
+    sex "M"
   ]
   node [
     id 3
-    label "#grit"
-    sex "O"
+    label "#pere"
+    nature "person"
     role "other"
-    nature "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 4
-    label "#sold"
-    sex "F"
-    role "other"
+    label "#milo"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 5
-    label "#sapo"
+    label "#luce"
+    nature "person"
+    role "antagonist"
+    importance "primary"
     sex "M"
-    role "other"
-    nature "animal"
-    importance "minor"
   ]
   node [
     id 6
-    label "#poca"
-    sex "F"
-    role "other"
+    label "#cieg"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 7
-    label "#cieg"
-    sex "M"
-    role "other"
+    label "#beat"
     nature "person"
+    role "other"
     importance "minor"
+    sex "F"
   ]
   node [
     id 8
-    label "#rapa"
-    sex "F"
-    role "other"
+    label "#quin"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 9
-    label "#ludo"
-    sex "F"
-    role "other"
+    label "#simo"
     nature "person"
-    importance "minor"
+    role "other"
+    importance "secondary"
+    sex "F"
   ]
   node [
     id 10
-    label "#par"
-    sex "F"
-    role "other"
+    label "#marg"
     nature "person"
-    importance "minor"
+    role "lover"
+    importance "primary"
+    sex "F"
   ]
   node [
     id 11
-    label "#chal"
-    sex "M"
-    role "other"
+    label "#muje"
     nature "person"
+    role "other"
     importance "minor"
+    sex "F"
   ]
   node [
     id 12
-    label "#vend"
-    sex "M"
-    role "other"
+    label "#sold"
     nature "person"
+    role "other"
     importance "minor"
+    sex "F"
   ]
   node [
     id 13
-    label "#quin"
-    sex "M"
-    role "other"
+    label "#vend"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 14
-    label "#marg"
-    sex "F"
-    role "lover"
+    label "#tatu"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "secondary"
+    sex "F"
   ]
   node [
     id 15
-    label "#pere"
-    sex "M"
+    label "#tras"
+    nature "non-human"
     role "other"
-    nature "person"
-    importance "minor"
+    importance "secondary"
+    sex "M"
   ]
   node [
     id 16
-    label "#beat"
-    sex "F"
-    role "other"
+    label "#poca"
     nature "person"
-    importance "minor"
+    role "other"
+    importance "secondary"
+    sex "F"
   ]
   node [
     id 17
-    label "#beni"
-    sex "F"
-    role "other"
+    label "#ludo"
     nature "person"
+    role "other"
     importance "minor"
+    sex "F"
   ]
   node [
     id 18
-    label "#milo"
-    sex "M"
-    role "other"
+    label "#rein"
     nature "person"
-    importance "minor"
+    role "other"
+    importance "secondary"
+    sex "F"
   ]
   node [
     id 19
-    label "#sere"
-    sex "M"
-    role "other"
+    label "#vent"
     nature "person"
+    role "other"
     importance "minor"
+    sex "F"
   ]
   node [
     id 20
-    label "#pedr"
-    sex "M"
-    role "protagonist"
+    label "#peda"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "secondary"
+    sex "M"
   ]
   node [
     id 21
-    label "#vent"
-    sex "F"
-    role "other"
+    label "#mujs"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 22
-    label "#peda"
-    sex "M"
-    role "other"
+    label "#sere"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 23
     label "#trop"
-    sex "M"
-    role "other"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 24
-    label "#mujs"
-    sex "M"
+    label "#grit"
+    nature "other"
     role "other"
-    nature "person"
     importance "minor"
+    sex "O"
   ]
   node [
     id 25
-    label "#tatu"
-    sex "F"
-    role "other"
+    label "#viej"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "minor"
+    sex "F"
   ]
   node [
     id 26
-    label "#migu"
-    sex "M"
-    role "other"
+    label "#matr"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "minor"
+    sex "O"
   ]
   node [
     id 27
-    label "#luce"
-    sex "M"
-    role "antagonist"
+    label "#rapa"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "minor"
+    sex "F"
   ]
   node [
     id 28
-    label "#viej"
-    sex "F"
-    role "other"
+    label "#chal"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 29
-    label "#tras"
-    sex "M"
+    label "#beni"
+    nature "person"
     role "other"
-    nature "non-human"
-    importance "secondary"
+    importance "minor"
+    sex "F"
   ]
   node [
     id 30
-    label "#matr"
-    sex "O"
-    role "other"
+    label "#par"
     nature "person"
+    role "other"
     importance "minor"
+    sex "F"
   ]
   node [
     id 31
-    label "#idio"
-    sex "M"
-    role "other"
+    label "#migu"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "secondary"
+    sex "M"
   ]
   edge [
     source 0
-    target 19
+    target 2
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 0
-    target 8
+    target 1
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 0
-    target 28
+    target 14
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 20
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
+    target 10
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 1
-    target 11
+    target 18
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 14
+    Weight 4.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 23
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 4
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 1
     target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 27
     Weight 2.0
     Type "Undirected"
   ]
   edge [
     source 1
-    target 26
+    target 5
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 22
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 2
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 24
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 8
     Weight 1.0
     Type "Undirected"
   ]
@@ -305,37 +353,37 @@ graph [
   ]
   edge [
     source 1
-    target 6
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 19
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 20
+    target 9
     Weight 5.0
     Type "Undirected"
   ]
   edge [
-    source 2
+    source 1
+    target 29
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 10
+    Weight 5.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 7
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
     target 16
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 2
-    target 27
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 13
+    target 12
     Weight 1.0
     Type "Undirected"
   ]
@@ -347,14 +395,8 @@ graph [
   ]
   edge [
     source 2
-    target 23
+    target 20
     Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 25
-    Weight 3.0
     Type "Undirected"
   ]
   edge [
@@ -365,44 +407,26 @@ graph [
   ]
   edge [
     source 2
-    target 18
+    target 31
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 2
-    target 3
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
-    target 19
+    target 10
     Weight 2.0
     Type "Undirected"
   ]
   edge [
-    source 3
+    source 2
     target 26
     Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
-    target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
-    target 18
-    Weight 2.0
     Type "Undirected"
   ]
   edge [
     source 3
     target 13
-    Weight 2.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
@@ -413,43 +437,49 @@ graph [
   ]
   edge [
     source 3
-    target 25
+    target 31
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 3
-    target 28
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 26
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 14
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 25
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
     target 30
     Weight 1.0
     Type "Undirected"
   ]
   edge [
+    source 3
+    target 6
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 10
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
     source 4
-    target 31
+    target 22
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 4
+    target 24
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 4
+    target 8
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 4
+    target 25
     Weight 1.0
     Type "Undirected"
   ]
@@ -460,141 +490,225 @@ graph [
     Type "Undirected"
   ]
   edge [
-    source 5
-    target 25
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
-    target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
+    source 4
     target 31
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 5
-    target 22
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
+    source 4
     target 14
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 6
-    target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 6
-    target 27
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 26
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 12
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 27
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 14
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
+    source 4
     target 10
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 7
-    target 15
+    source 5
+    target 13
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 7
-    target 25
+    source 5
+    target 14
+    Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 5
+    target 16
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 5
+    target 31
     Weight 2.0
     Type "Undirected"
   ]
   edge [
-    source 7
-    target 21
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 8
+    source 5
     target 19
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 8
+    source 5
+    target 6
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 5
+    target 10
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 5
+    target 7
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 5
+    target 9
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 5
     target 28
     Weight 1.0
     Type "Undirected"
   ]
   edge [
+    source 5
+    target 29
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 5
+    target 18
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 13
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 14
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 19
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 31
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 30
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 6
+    target 10
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 7
+    target 9
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 7
+    target 29
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 7
+    target 14
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 8
+    target 22
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 8
+    target 24
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 8
+    target 14
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 8
+    target 25
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 8
+    target 9
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 8
+    target 31
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 8
+    target 10
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
     source 9
-    target 26
+    target 22
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 9
+    target 24
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 9
     target 14
+    Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 9
+    target 29
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 9
-    target 25
+    target 23
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 9
-    target 30
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 9
-    target 31
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 10
-    target 26
-    Weight 1.0
+    target 10
+    Weight 2.0
     Type "Undirected"
   ]
   edge [
@@ -605,8 +719,14 @@ graph [
   ]
   edge [
     source 10
+    target 13
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 10
     target 14
-    Weight 1.0
+    Weight 7.0
     Type "Undirected"
   ]
   edge [
@@ -617,128 +737,164 @@ graph [
   ]
   edge [
     source 10
-    target 25
+    target 17
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 11
-    target 25
+    source 10
+    target 31
+    Weight 4.0
+    Type "Undirected"
+  ]
+  edge [
+    source 10
+    target 19
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 11
-    target 26
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 11
-    target 27
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 12
-    target 26
+    source 10
+    target 20
     Weight 2.0
     Type "Undirected"
   ]
   edge [
-    source 12
+    source 10
     target 21
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 12
+    source 10
+    target 22
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 10
+    target 23
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 10
+    target 24
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 10
+    target 25
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 10
+    target 26
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 10
+    target 30
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 11
+    target 22
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 11
     target 27
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 11
+    target 25
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 12
     target 14
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 12
-    target 15
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 12
-    target 25
-    Weight 2.0
+    target 17
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 13
-    target 19
-    Weight 2.0
+    source 12
+    target 31
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 13
+    source 12
     target 26
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 13
-    target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 13
-    target 18
+    target 14
     Weight 2.0
     Type "Undirected"
   ]
   edge [
     source 13
-    target 14
+    target 19
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 13
-    target 25
-    Weight 1.0
+    target 31
+    Weight 2.0
     Type "Undirected"
   ]
   edge [
     source 13
-    target 28
+    target 30
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 14
-    target 15
+    target 26
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 14
-    target 18
+    target 20
     Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 14
+    target 17
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 14
+    target 31
+    Weight 4.0
     Type "Undirected"
   ]
   edge [
     source 14
     target 19
     Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 14
-    target 20
-    Weight 5.0
     Type "Undirected"
   ]
   edge [
@@ -750,48 +906,12 @@ graph [
   edge [
     source 14
     target 22
-    Weight 2.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 14
     target 23
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 14
-    target 30
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 14
-    target 28
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 14
-    target 25
-    Weight 7.0
-    Type "Undirected"
-  ]
-  edge [
-    source 14
-    target 26
-    Weight 4.0
-    Type "Undirected"
-  ]
-  edge [
-    source 14
-    target 27
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 14
-    target 29
     Weight 1.0
     Type "Undirected"
   ]
@@ -803,176 +923,80 @@ graph [
   ]
   edge [
     source 14
-    target 31
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 15
-    target 26
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 15
-    target 25
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 16
-    target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 16
-    target 25
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 16
-    target 17
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 16
-    target 27
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 17
-    target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 17
-    target 27
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 17
-    target 25
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 18
-    target 19
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 18
-    target 26
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 18
-    target 20
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 18
-    target 25
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 18
     target 28
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 19
-    target 26
+    source 14
+    target 29
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 19
-    target 20
+    source 14
+    target 30
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 19
-    target 28
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 19
-    target 25
+    source 14
+    target 18
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 20
-    target 22
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 20
-    target 23
+    source 16
+    target 18
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 20
-    target 25
-    Weight 4.0
-    Type "Undirected"
-  ]
-  edge [
-    source 20
-    target 27
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 20
-    target 28
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 20
+    source 17
     target 31
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 21
+    source 17
     target 26
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 21
-    target 27
+    source 18
+    target 28
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 21
+    source 18
+    target 31
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 19
+    target 31
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 20
     target 25
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 22
+    target 24
+    Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 22
     target 25
-    Weight 1.0
+    Weight 2.0
     Type "Undirected"
   ]
   edge [
@@ -983,13 +1007,7 @@ graph [
   ]
   edge [
     source 22
-    target 28
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 23
-    target 25
+    target 27
     Weight 1.0
     Type "Undirected"
   ]
@@ -1000,49 +1018,31 @@ graph [
     Type "Undirected"
   ]
   edge [
-    source 25
-    target 26
-    Weight 4.0
-    Type "Undirected"
-  ]
-  edge [
-    source 25
-    target 27
-    Weight 3.0
-    Type "Undirected"
-  ]
-  edge [
-    source 25
-    target 30
+    source 24
+    target 31
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 25
     target 31
-    Weight 2.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 26
+    source 25
     target 27
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 26
-    target 28
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 26
-    target 30
+    target 31
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 26
+    source 28
     target 31
     Weight 1.0
     Type "Undirected"

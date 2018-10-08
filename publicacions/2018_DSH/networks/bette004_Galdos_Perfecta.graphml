@@ -2,133 +2,229 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key attr.name="Type" attr.type="string" for="edge" id="d6" />
   <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="importance" attr.type="string" for="node" id="d4" />
-  <key attr.name="nature" attr.type="string" for="node" id="d3" />
-  <key attr.name="role" attr.type="string" for="node" id="d2" />
-  <key attr.name="label" attr.type="string" for="node" id="d1" />
-  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <key attr.name="sex" attr.type="string" for="node" id="d4" />
+  <key attr.name="importance" attr.type="string" for="node" id="d3" />
+  <key attr.name="label" attr.type="string" for="node" id="d2" />
+  <key attr.name="role" attr.type="string" for="node" id="d1" />
+  <key attr.name="nature" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#libr">
-      <data key="d0">F</data>
-      <data key="d1">Librada</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#cris">
-      <data key="d0">M</data>
-      <data key="d1">Cristóbal Ramos (Caballuco)</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
     <node id="#pepe">
-      <data key="d0">M</data>
-      <data key="d1">Pepe Rey</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#perf">
-      <data key="d0">F</data>
-      <data key="d1">Doña Perfecta</data>
-      <data key="d2">protagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#licu">
-      <data key="d0">M</data>
-      <data key="d1">El tío Licurgo</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#paso">
-      <data key="d0">M</data>
-      <data key="d1">Pasolargo</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#pinz">
-      <data key="d0">M</data>
-      <data key="d1">Pinzón</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#reme">
-      <data key="d0">F</data>
-      <data key="d1">María Remedios</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#juan">
-      <data key="d0">M</data>
-      <data key="d1">Don Juan Tafetán</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#varg">
-      <data key="d0">M</data>
-      <data key="d1">Vargas</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#caye">
-      <data key="d0">M</data>
-      <data key="d1">Don Cayetano</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Pepe Rey</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#jaci">
-      <data key="d0">M</data>
-      <data key="d1">Jacintito</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#cabo">
-      <data key="d0">M</data>
-      <data key="d1">Cabo Cartero.</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Jacintito</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#este">
-      <data key="d0">M</data>
-      <data key="d1">Esteban Romero</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Esteban Romero</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#libr">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Librada</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#paso">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Pasolargo</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#cris">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Cristóbal Ramos (Caballuco)</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#varg">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Vargas</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#reme">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">María Remedios</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#cabo">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Cabo Cartero.</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#perf">
+      <data key="d0">person</data>
+      <data key="d1">protagonist</data>
+      <data key="d2">Doña Perfecta</data>
+      <data key="d3">primary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#juan">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Don Juan Tafetán</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#caye">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Don Cayetano</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#pinz">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Pinzón</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
     <node id="#inoc">
-      <data key="d0">M</data>
-      <data key="d1">Don Inocencio</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Don Inocencio</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#rosa">
-      <data key="d0">F</data>
-      <data key="d1">Rosarito</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Rosarito</data>
+      <data key="d3">primary</data>
+      <data key="d4">F</data>
     </node>
-    <edge source="#libr" target="#pepe">
+    <node id="#licu">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">El tío Licurgo</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <edge source="#pepe" target="#jaci">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#libr">
       <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#cris">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#varg">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#reme">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#perf">
+      <data key="d5">13.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#juan">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#caye">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#pinz">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#inoc">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#rosa">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pepe" target="#licu">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#cris">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#perf">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#libr">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#juan">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#caye">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#inoc">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#reme">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#jaci" target="#rosa">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#este" target="#cris">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#este" target="#perf">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#este" target="#reme">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#este" target="#licu">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#este" target="#paso">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#libr" target="#perf">
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#libr" target="#jaci">
+    <edge source="#libr" target="#juan">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -140,15 +236,19 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#libr" target="#juan">
+    <edge source="#paso" target="#cris">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cris" target="#paso">
+    <edge source="#paso" target="#perf">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cris" target="#pepe">
+    <edge source="#paso" target="#reme">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#paso" target="#licu">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -156,11 +256,7 @@
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cris" target="#licu">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cris" target="#jaci">
+    <edge source="#cris" target="#juan">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -168,7 +264,11 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cris" target="#este">
+    <edge source="#cris" target="#inoc">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cris" target="#licu">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -176,64 +276,52 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cris" target="#inoc">
+    <edge source="#varg" target="#cabo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cris" target="#juan">
+    <edge source="#varg" target="#perf">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pepe" target="#perf">
-      <data key="d5">13.0</data>
+    <edge source="#varg" target="#juan">
+      <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pepe" target="#licu">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#pinz">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#reme">
+    <edge source="#varg" target="#pinz">
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pepe" target="#juan">
-      <data key="d5">4.0</data>
+    <edge source="#varg" target="#reme">
+      <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#pepe" target="#varg">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#caye">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#jaci">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#inoc">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#rosa">
-      <data key="d5">8.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#perf" target="#pinz">
+    <edge source="#reme" target="#cabo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#perf" target="#licu">
+    <edge source="#reme" target="#perf">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#reme" target="#juan">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#perf" target="#caye">
-      <data key="d5">5.0</data>
+    <edge source="#reme" target="#pinz">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#reme" target="#inoc">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#reme" target="#rosa">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#reme" target="#licu">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#perf" target="#rosa">
@@ -244,19 +332,11 @@
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#perf" target="#varg">
-      <data key="d5">1.0</data>
+    <edge source="#perf" target="#caye">
+      <data key="d5">5.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#perf" target="#paso">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#perf" target="#jaci">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#perf" target="#este">
+    <edge source="#perf" target="#pinz">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -264,91 +344,15 @@
       <data key="d5">7.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#perf" target="#reme">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#licu" target="#paso">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#licu" target="#caye">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#licu" target="#este">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#licu" target="#reme">
+    <edge source="#perf" target="#licu">
       <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#licu" target="#inoc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#licu" target="#rosa">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paso" target="#este">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paso" target="#reme">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pinz" target="#varg">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pinz" target="#reme">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pinz" target="#juan">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reme" target="#rosa">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reme" target="#juan">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reme" target="#varg">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reme" target="#jaci">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reme" target="#cabo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reme" target="#este">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#reme" target="#inoc">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#varg">
-      <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#juan" target="#caye">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#juan" target="#jaci">
+    <edge source="#juan" target="#pinz">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -360,32 +364,28 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#varg" target="#cabo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#caye" target="#jaci">
-      <data key="d5">4.0</data>
+    <edge source="#caye" target="#inoc">
+      <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#caye" target="#rosa">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#caye" target="#inoc">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#jaci" target="#rosa">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#jaci" target="#inoc">
-      <data key="d5">3.0</data>
+    <edge source="#caye" target="#licu">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#inoc" target="#rosa">
       <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#inoc" target="#licu">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#rosa" target="#licu">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
   </graph>

@@ -1,67 +1,73 @@
 graph [
   node [
     id 0
-    label "#rita"
-    sex "F"
-    role "other"
+    label "#fern"
     nature "person"
-    importance "secondary"
+    role "lover"
+    importance "primary"
+    sex "M"
   ]
   node [
     id 1
-    label "#tere"
-    sex "F"
-    role "protagonist"
+    label "#min2"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 2
-    label "#min1"
-    sex "M"
-    role "other"
+    label "#roqu"
     nature "person"
-    importance "minor"
+    role "antagonist"
+    importance "primary"
+    sex "M"
   ]
   node [
     id 3
-    label "#roqu"
-    sex "M"
-    role "antagonist"
+    label "#min1"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 4
-    label "#min2"
-    sex "M"
-    role "other"
+    label "#palm"
     nature "person"
-    importance "minor"
+    role "other"
+    importance "secondary"
+    sex "F"
   ]
   node [
     id 5
-    label "#fern"
-    sex "M"
-    role "lover"
+    label "#tere"
     nature "person"
+    role "protagonist"
     importance "primary"
+    sex "F"
   ]
   node [
     id 6
-    label "#palm"
-    sex "F"
-    role "other"
+    label "#min3"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 7
-    label "#min3"
-    sex "M"
-    role "other"
+    label "#rita"
     nature "person"
-    importance "minor"
+    role "other"
+    importance "secondary"
+    sex "F"
+  ]
+  edge [
+    source 0
+    target 4
+    Weight 1.0
+    Type "Undirected"
   ]
   edge [
     source 0
@@ -72,7 +78,7 @@ graph [
   edge [
     source 0
     target 2
-    Weight 1.0
+    Weight 3.0
     Type "Undirected"
   ]
   edge [
@@ -83,14 +89,8 @@ graph [
   ]
   edge [
     source 0
-    target 4
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 0
     target 5
-    Weight 1.0
+    Weight 5.0
     Type "Undirected"
   ]
   edge [
@@ -107,38 +107,44 @@ graph [
   ]
   edge [
     source 1
-    target 3
-    Weight 5.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 4
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 5
-    Weight 5.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 6
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
     target 7
-    Weight 2.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 1
     target 2
+    Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 3
+    Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 5
     Weight 2.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 6
+    Weight 3.0
+    Type "Undirected"
+  ]
+  edge [
+    source 1
+    target 4
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 2
+    target 4
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
@@ -149,74 +155,68 @@ graph [
   ]
   edge [
     source 2
-    target 4
-    Weight 3.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
     target 5
-    Weight 1.0
+    Weight 5.0
     Type "Undirected"
   ]
   edge [
     source 2
     target 6
-    Weight 1.0
+    Weight 3.0
     Type "Undirected"
   ]
   edge [
     source 2
     target 7
-    Weight 3.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 3
     target 4
-    Weight 3.0
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 3
     target 5
-    Weight 3.0
+    Weight 2.0
     Type "Undirected"
   ]
   edge [
     source 3
     target 6
-    Weight 1.0
+    Weight 3.0
     Type "Undirected"
   ]
   edge [
     source 3
     target 7
-    Weight 3.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 5
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 4
-    target 6
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 4
     target 7
-    Weight 3.0
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 4
+    target 5
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 4
+    target 6
+    Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 5
     target 6
-    Weight 1.0
+    Weight 2.0
     Type "Undirected"
   ]
   edge [

@@ -1,67 +1,73 @@
 graph [
   node [
     id 0
-    label "#aten"
-    sex "M"
-    role "other"
+    label "#proc"
     nature "person"
-    importance "minor"
+    role "lover"
+    importance "primary"
+    sex "M"
   ]
   node [
     id 1
-    label "#proc"
-    sex "M"
-    role "lover"
+    label "#mari"
     nature "person"
-    importance "primary"
+    role "other"
+    importance "minor"
+    sex "M"
   ]
   node [
     id 2
-    label "#crem"
-    sex "M"
-    role "antagonist"
-    nature "person"
-    importance "secondary"
+    label "#mort"
+    nature "non-human"
+    role "other"
+    importance "minor"
+    sex "0"
   ]
   node [
     id 3
-    label "#mort"
-    sex "0"
-    role "other"
-    nature "non-human"
-    importance "minor"
+    label "#ascl"
+    nature "person"
+    role "protagonist"
+    importance "primary"
+    sex "F"
   ]
   node [
     id 4
-    label "#sier"
-    sex "F"
-    role "other"
+    label "#aten"
     nature "person"
+    role "other"
     importance "minor"
+    sex "M"
   ]
   node [
     id 5
-    label "#ascl"
-    sex "F"
-    role "protagonist"
+    label "#eumo"
     nature "person"
-    importance "primary"
+    role "antagonist"
+    importance "secondary"
+    sex "M"
   ]
   node [
     id 6
-    label "#mari"
-    sex "M"
-    role "other"
+    label "#crem"
     nature "person"
-    importance "minor"
+    role "antagonist"
+    importance "secondary"
+    sex "M"
   ]
   node [
     id 7
-    label "#eumo"
-    sex "M"
-    role "antagonist"
+    label "#sier"
     nature "person"
-    importance "secondary"
+    role "other"
+    importance "minor"
+    sex "F"
+  ]
+  edge [
+    source 0
+    target 1
+    Weight 3.0
+    Type "Undirected"
   ]
   edge [
     source 0
@@ -71,61 +77,49 @@ graph [
   ]
   edge [
     source 0
-    target 5
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 1
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 3
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 7
-    Weight 5.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
     target 2
-    Weight 3.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 3
     Weight 1.0
     Type "Undirected"
   ]
   edge [
-    source 1
-    target 5
+    source 0
+    target 3
     Weight 4.0
     Type "Undirected"
   ]
   edge [
-    source 1
+    source 0
+    target 5
+    Weight 5.0
+    Type "Undirected"
+  ]
+  edge [
+    source 0
     target 6
     Weight 3.0
     Type "Undirected"
   ]
   edge [
-    source 2
+    source 1
     target 5
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 2
-    target 7
+    target 4
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 2
+    target 3
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 4
     Weight 2.0
     Type "Undirected"
   ]
@@ -136,21 +130,27 @@ graph [
     Type "Undirected"
   ]
   edge [
+    source 3
+    target 6
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
+    source 3
+    target 7
+    Weight 1.0
+    Type "Undirected"
+  ]
+  edge [
     source 4
-    target 5
+    target 7
     Weight 1.0
     Type "Undirected"
   ]
   edge [
     source 5
-    target 7
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 6
-    target 7
-    Weight 1.0
+    target 6
+    Weight 2.0
     Type "Undirected"
   ]
 ]

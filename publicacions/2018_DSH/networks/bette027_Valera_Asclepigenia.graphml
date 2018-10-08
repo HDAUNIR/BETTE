@@ -2,90 +2,74 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key attr.name="Type" attr.type="string" for="edge" id="d6" />
   <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="importance" attr.type="string" for="node" id="d4" />
-  <key attr.name="nature" attr.type="string" for="node" id="d3" />
-  <key attr.name="role" attr.type="string" for="node" id="d2" />
-  <key attr.name="label" attr.type="string" for="node" id="d1" />
-  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <key attr.name="sex" attr.type="string" for="node" id="d4" />
+  <key attr.name="importance" attr.type="string" for="node" id="d3" />
+  <key attr.name="label" attr.type="string" for="node" id="d2" />
+  <key attr.name="role" attr.type="string" for="node" id="d1" />
+  <key attr.name="nature" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#aten">
-      <data key="d0">M</data>
-      <data key="d1">Atenais</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
     <node id="#proc">
-      <data key="d0">M</data>
-      <data key="d1">Proclo</data>
-      <data key="d2">lover</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
-    <node id="#crem">
-      <data key="d0">M</data>
-      <data key="d1">Crematurgo</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#mort">
-      <data key="d0">0</data>
-      <data key="d1">Mortales y dioses</data>
-      <data key="d2">other</data>
-      <data key="d3">non-human</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#sier">
-      <data key="d0">F</data>
-      <data key="d1">Sierva</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#ascl">
-      <data key="d0">F</data>
-      <data key="d1">Asclepigenia</data>
-      <data key="d2">protagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
+      <data key="d0">person</data>
+      <data key="d1">lover</data>
+      <data key="d2">Proclo</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#mari">
-      <data key="d0">M</data>
-      <data key="d1">Marino</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Marino</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#mort">
+      <data key="d0">non-human</data>
+      <data key="d1">other</data>
+      <data key="d2">Mortales y dioses</data>
+      <data key="d3">minor</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="#ascl">
+      <data key="d0">person</data>
+      <data key="d1">protagonist</data>
+      <data key="d2">Asclepigenia</data>
+      <data key="d3">primary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#aten">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Atenais</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
     <node id="#eumo">
-      <data key="d0">M</data>
-      <data key="d1">Eumorfo</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Eumorfo</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
     </node>
-    <edge source="#aten" target="#sier">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#aten" target="#ascl">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#aten" target="#proc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#aten" target="#mort">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#proc" target="#eumo">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#proc" target="#crem">
+    <node id="#crem">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Crematurgo</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#sier">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Sierva</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <edge source="#proc" target="#mari">
       <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#proc" target="#aten">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#proc" target="#mort">
@@ -96,32 +80,48 @@
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#proc" target="#mari">
+    <edge source="#proc" target="#eumo">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#proc" target="#crem">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#crem" target="#ascl">
+    <edge source="#mari" target="#eumo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#crem" target="#eumo">
-      <data key="d5">2.0</data>
+    <edge source="#mort" target="#aten">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#mort" target="#ascl">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#sier" target="#ascl">
-      <data key="d5">1.0</data>
+    <edge source="#ascl" target="#aten">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#ascl" target="#eumo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#mari" target="#eumo">
+    <edge source="#ascl" target="#crem">
       <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ascl" target="#sier">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#sier">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#eumo" target="#crem">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
   </graph>

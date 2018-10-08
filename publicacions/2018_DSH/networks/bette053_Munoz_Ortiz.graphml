@@ -2,411 +2,207 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key attr.name="Type" attr.type="string" for="edge" id="d6" />
   <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="importance" attr.type="string" for="node" id="d4" />
-  <key attr.name="nature" attr.type="string" for="node" id="d3" />
-  <key attr.name="role" attr.type="string" for="node" id="d2" />
-  <key attr.name="label" attr.type="string" for="node" id="d1" />
-  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <key attr.name="sex" attr.type="string" for="node" id="d4" />
+  <key attr.name="importance" attr.type="string" for="node" id="d3" />
+  <key attr.name="label" attr.type="string" for="node" id="d2" />
+  <key attr.name="role" attr.type="string" for="node" id="d1" />
+  <key attr.name="nature" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#prod">
-      <data key="d0">F</data>
-      <data key="d1">Prodosia</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#flor">
-      <data key="d0">F</data>
-      <data key="d1">Flora</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#vale">
-      <data key="d0">F</data>
-      <data key="d1">Valentina</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#casa">
-      <data key="d0">M</data>
-      <data key="d1">Casado</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#puli">
-      <data key="d0">M</data>
-      <data key="d1">Pulido</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#cefe">
-      <data key="d0">M</data>
-      <data key="d1">Ceferino</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#juan">
-      <data key="d0">M</data>
-      <data key="d1">Juan</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#aten">
-      <data key="d0">M</data>
-      <data key="d1">Ateneo</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#todo">
-      <data key="d0">0</data>
-      <data key="d1">Todos</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
     <node id="#celc">
-      <data key="d0">F</data>
-      <data key="d1">Celcina</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#eulo">
-      <data key="d0">F</data>
-      <data key="d1">Eulogia</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
-    </node>
-    <node id="#amar">
-      <data key="d0">M</data>
-      <data key="d1">Amaranto</data>
-      <data key="d2">protagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Celcina</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
     </node>
     <node id="#ever">
-      <data key="d0">F</data>
-      <data key="d1">Everilda</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Everilda</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#todo">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Todos</data>
+      <data key="d3">minor</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="#aten">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Ateneo</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#amil">
-      <data key="d0">M</data>
-      <data key="d1">Amílcar</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">minor</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Amílcar</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
     </node>
-    <edge source="#prod" target="#flor">
+    <node id="#eulo">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Eulogia</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#juan">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Juan</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#vale">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Valentina</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#prod">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Prodosia</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#amar">
+      <data key="d0">person</data>
+      <data key="d1">protagonist</data>
+      <data key="d2">Amaranto</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#cefe">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Ceferino</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#casa">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Casado</data>
+      <data key="d3">minor</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#puli">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Pulido</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#flor">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Flora</data>
+      <data key="d3">minor</data>
+      <data key="d4">F</data>
+    </node>
+    <edge source="#celc" target="#ever">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#celc" target="#aten">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#prod" target="#vale">
-      <data key="d5">10.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#casa">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#juan">
+    <edge source="#celc" target="#todo">
       <data key="d5">7.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#prod" target="#cefe">
-      <data key="d5">4.0</data>
+    <edge source="#celc" target="#amil">
+      <data key="d5">5.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#prod" target="#puli">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#aten">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#todo">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#celc">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#amar">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#ever">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#prod" target="#amil">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#vale">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#eulo">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#puli">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#cefe">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#juan">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#aten">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#todo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#casa">
-      <data key="d5">8.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#amar">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#ever">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#flor" target="#amil">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#casa">
+    <edge source="#celc" target="#amar">
       <data key="d5">14.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#vale" target="#juan">
-      <data key="d5">11.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#cefe">
-      <data key="d5">8.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#puli">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#aten">
+    <edge source="#celc" target="#juan">
       <data key="d5">6.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#vale" target="#todo">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#celc">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#eulo">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#amar">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#ever">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#vale" target="#amil">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#eulo">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#juan">
-      <data key="d5">19.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#cefe">
-      <data key="d5">12.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#puli">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#aten">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#todo">
-      <data key="d5">11.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#celc">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#amar">
-      <data key="d5">13.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#ever">
-      <data key="d5">12.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#casa" target="#amil">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#puli" target="#juan">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#puli" target="#cefe">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#puli" target="#aten">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#puli" target="#todo">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#puli" target="#celc">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#puli" target="#amar">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#puli" target="#ever">
+    <edge source="#celc" target="#eulo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#puli" target="#amil">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cefe" target="#juan">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cefe" target="#aten">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cefe" target="#todo">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cefe" target="#celc">
+    <edge source="#celc" target="#prod">
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cefe" target="#eulo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cefe" target="#amar">
+    <edge source="#celc" target="#vale">
       <data key="d5">6.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#cefe" target="#ever">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#cefe" target="#amil">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#eulo">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#aten">
+    <edge source="#celc" target="#cefe">
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#juan" target="#todo">
+    <edge source="#celc" target="#casa">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#celc" target="#puli">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#aten">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#todo">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#amar">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#flor">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#eulo">
       <data key="d5">10.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#juan" target="#celc">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#amar">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#ever">
-      <data key="d5">13.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#amil">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#aten" target="#todo">
+    <edge source="#ever" target="#prod">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#aten" target="#celc">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#aten" target="#eulo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#aten" target="#amar">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#aten" target="#ever">
+    <edge source="#ever" target="#vale">
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#todo" target="#celc">
-      <data key="d5">7.0</data>
+    <edge source="#ever" target="#cefe">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#casa">
+      <data key="d5">12.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#puli">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#ever" target="#juan">
+      <data key="d5">13.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#todo" target="#eulo">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#todo" target="#amar">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#todo" target="#ever">
+    <edge source="#todo" target="#aten">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
@@ -414,36 +210,240 @@
       <data key="d5">4.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#celc" target="#eulo">
+    <edge source="#todo" target="#juan">
+      <data key="d5">10.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#todo" target="#vale">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#todo" target="#prod">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#todo" target="#amar">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#todo" target="#cefe">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#todo" target="#casa">
+      <data key="d5">11.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#todo" target="#puli">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#todo" target="#flor">
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#celc" target="#amar">
-      <data key="d5">14.0</data>
+    <edge source="#aten" target="#eulo">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#celc" target="#ever">
+    <edge source="#aten" target="#juan">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#vale">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#prod">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#amar">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#cefe">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#casa">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#puli">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#aten" target="#flor">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#celc" target="#amil">
+    <edge source="#amil" target="#juan">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amil" target="#amar">
       <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amil" target="#prod">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amil" target="#vale">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amil" target="#cefe">
+      <data key="d5">3.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amil" target="#casa">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amil" target="#puli">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amil" target="#flor">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#eulo" target="#juan">
+      <data key="d5">9.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#eulo" target="#amar">
       <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#eulo" target="#ever">
+    <edge source="#eulo" target="#vale">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#eulo" target="#cefe">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#eulo" target="#casa">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#eulo" target="#flor">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#amar">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#flor">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#prod">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#vale">
+      <data key="d5">11.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#cefe">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#casa">
+      <data key="d5">19.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#juan" target="#puli">
+      <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vale" target="#prod">
       <data key="d5">10.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#amar" target="#ever">
+    <edge source="#vale" target="#amar">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vale" target="#cefe">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vale" target="#casa">
+      <data key="d5">14.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vale" target="#puli">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#vale" target="#flor">
       <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#amar" target="#amil">
-      <data key="d5">5.0</data>
+    <edge source="#prod" target="#amar">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#prod" target="#cefe">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#prod" target="#casa">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#prod" target="#puli">
+      <data key="d5">9.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#prod" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amar" target="#cefe">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amar" target="#casa">
+      <data key="d5">13.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amar" target="#puli">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#amar" target="#flor">
+      <data key="d5">1.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cefe" target="#casa">
+      <data key="d5">12.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cefe" target="#puli">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#cefe" target="#flor">
+      <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#puli">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#casa" target="#flor">
+      <data key="d5">8.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#puli" target="#flor">
+      <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
   </graph>

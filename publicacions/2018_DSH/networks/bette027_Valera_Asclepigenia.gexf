@@ -2,170 +2,170 @@
 <gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
   <graph defaultedgetype="undirected" mode="static">
     <attributes class="edge" mode="static">
-      <attribute id="4" title="Weight" type="double" />
-      <attribute id="5" title="Type" type="string" />
+      <attribute id="4" title="Type" type="string" />
+      <attribute id="5" title="Weight" type="double" />
     </attributes>
     <attributes class="node" mode="static">
-      <attribute id="0" title="sex" type="string" />
-      <attribute id="1" title="role" type="string" />
-      <attribute id="2" title="nature" type="string" />
-      <attribute id="3" title="importance" type="string" />
+      <attribute id="0" title="nature" type="string" />
+      <attribute id="1" title="sex" type="string" />
+      <attribute id="2" title="importance" type="string" />
+      <attribute id="3" title="role" type="string" />
     </attributes>
     <nodes>
-      <node id="#aten" label="Atenais">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
       <node id="#proc" label="Proclo">
         <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="lover" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="primary" />
-        </attvalues>
-      </node>
-      <node id="#crem" label="Crematurgo">
-        <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="antagonist" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="secondary" />
-        </attvalues>
-      </node>
-      <node id="#mort" label="Mortales y dioses">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="non-human" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#sier" label="Sierva">
-        <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
-        </attvalues>
-      </node>
-      <node id="#ascl" label="Asclepigenia">
-        <attvalues>
-          <attvalue for="0" value="F" />
-          <attvalue for="1" value="protagonist" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="primary" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="lover" />
         </attvalues>
       </node>
       <node id="#mari" label="Marino">
         <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="other" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="minor" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#mort" label="Mortales y dioses">
+        <attvalues>
+          <attvalue for="0" value="non-human" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
+        </attvalues>
+      </node>
+      <node id="#ascl" label="Asclepigenia">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="protagonist" />
+        </attvalues>
+      </node>
+      <node id="#aten" label="Atenais">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
       <node id="#eumo" label="Eumorfo">
         <attvalues>
-          <attvalue for="0" value="M" />
-          <attvalue for="1" value="antagonist" />
-          <attvalue for="2" value="person" />
-          <attvalue for="3" value="secondary" />
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="antagonist" />
+        </attvalues>
+      </node>
+      <node id="#crem" label="Crematurgo">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="M" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="antagonist" />
+        </attvalues>
+      </node>
+      <node id="#sier" label="Sierva">
+        <attvalues>
+          <attvalue for="0" value="person" />
+          <attvalue for="1" value="F" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="other" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="#aten" target="#sier">
+      <edge id="0" source="#proc" target="#mari">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="1" source="#aten" target="#ascl">
+      <edge id="1" source="#proc" target="#aten">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="2" source="#aten" target="#proc">
+      <edge id="2" source="#proc" target="#mort">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="3" source="#aten" target="#mort">
+      <edge id="3" source="#proc" target="#ascl">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
       <edge id="4" source="#proc" target="#eumo">
         <attvalues>
-          <attvalue for="4" value="5.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
       <edge id="5" source="#proc" target="#crem">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="6" source="#proc" target="#mort">
+      <edge id="6" source="#mari" target="#eumo">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="7" source="#proc" target="#ascl">
+      <edge id="7" source="#mort" target="#aten">
         <attvalues>
-          <attvalue for="4" value="4.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="8" source="#proc" target="#mari">
+      <edge id="8" source="#mort" target="#ascl">
         <attvalues>
-          <attvalue for="4" value="3.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="9" source="#crem" target="#ascl">
+      <edge id="9" source="#ascl" target="#aten">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="10" source="#crem" target="#eumo">
+      <edge id="10" source="#ascl" target="#eumo">
         <attvalues>
-          <attvalue for="4" value="2.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="11" source="#mort" target="#ascl">
+      <edge id="11" source="#ascl" target="#crem">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="12" source="#sier" target="#ascl">
+      <edge id="12" source="#ascl" target="#sier">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="13" source="#ascl" target="#eumo">
+      <edge id="13" source="#aten" target="#sier">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="14" source="#mari" target="#eumo">
+      <edge id="14" source="#eumo" target="#crem">
         <attvalues>
-          <attvalue for="4" value="1.0" />
-          <attvalue for="5" value="Undirected" />
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
     </edges>

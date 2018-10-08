@@ -2,80 +2,60 @@
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <key attr.name="Type" attr.type="string" for="edge" id="d6" />
   <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="importance" attr.type="string" for="node" id="d4" />
-  <key attr.name="nature" attr.type="string" for="node" id="d3" />
-  <key attr.name="role" attr.type="string" for="node" id="d2" />
-  <key attr.name="label" attr.type="string" for="node" id="d1" />
-  <key attr.name="sex" attr.type="string" for="node" id="d0" />
+  <key attr.name="sex" attr.type="string" for="node" id="d4" />
+  <key attr.name="importance" attr.type="string" for="node" id="d3" />
+  <key attr.name="label" attr.type="string" for="node" id="d2" />
+  <key attr.name="role" attr.type="string" for="node" id="d1" />
+  <key attr.name="nature" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#marc">
-      <data key="d0">M</data>
-      <data key="d1">Marcelo</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#pedr">
-      <data key="d0">M</data>
-      <data key="d1">Pedro</data>
-      <data key="d2">antagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
-    </node>
     <node id="#eust">
-      <data key="d0">F</data>
-      <data key="d1">Eustaquia</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
-    </node>
-    <node id="#hipo">
-      <data key="d0">M</data>
-      <data key="d1">Hipólito</data>
-      <data key="d2">lover</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Eustaquia</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
     </node>
     <node id="#fedr">
-      <data key="d0">F</data>
-      <data key="d1">Fedra</data>
-      <data key="d2">protagonist</data>
-      <data key="d3">person</data>
-      <data key="d4">primary</data>
+      <data key="d0">person</data>
+      <data key="d1">protagonist</data>
+      <data key="d2">Fedra</data>
+      <data key="d3">primary</data>
+      <data key="d4">F</data>
+    </node>
+    <node id="#pedr">
+      <data key="d0">person</data>
+      <data key="d1">antagonist</data>
+      <data key="d2">Pedro</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#hipo">
+      <data key="d0">person</data>
+      <data key="d1">lover</data>
+      <data key="d2">Hipólito</data>
+      <data key="d3">primary</data>
+      <data key="d4">M</data>
+    </node>
+    <node id="#marc">
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Marcelo</data>
+      <data key="d3">secondary</data>
+      <data key="d4">M</data>
     </node>
     <node id="#rosa">
-      <data key="d0">F</data>
-      <data key="d1">Rosa</data>
-      <data key="d2">other</data>
-      <data key="d3">person</data>
-      <data key="d4">secondary</data>
+      <data key="d0">person</data>
+      <data key="d1">other</data>
+      <data key="d2">Rosa</data>
+      <data key="d3">secondary</data>
+      <data key="d4">F</data>
     </node>
-    <edge source="#marc" target="#eust">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#marc" target="#pedr">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#marc" target="#fedr">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pedr" target="#eust">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pedr" target="#hipo">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pedr" target="#fedr">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
     <edge source="#eust" target="#hipo">
       <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#eust" target="#marc">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#eust" target="#fedr">
@@ -86,12 +66,32 @@
       <data key="d5">1.0</data>
       <data key="d6">Undirected</data>
     </edge>
-    <edge source="#hipo" target="#fedr">
+    <edge source="#eust" target="#pedr">
+      <data key="d5">4.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fedr" target="#hipo">
       <data key="d5">5.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fedr" target="#marc">
+      <data key="d5">2.0</data>
       <data key="d6">Undirected</data>
     </edge>
     <edge source="#fedr" target="#rosa">
       <data key="d5">2.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#fedr" target="#pedr">
+      <data key="d5">7.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pedr" target="#hipo">
+      <data key="d5">6.0</data>
+      <data key="d6">Undirected</data>
+    </edge>
+    <edge source="#pedr" target="#marc">
+      <data key="d5">3.0</data>
       <data key="d6">Undirected</data>
     </edge>
   </graph>
