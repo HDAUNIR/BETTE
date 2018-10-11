@@ -1,268 +1,268 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key attr.name="Type" attr.type="string" for="edge" id="d6" />
-  <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="sex" attr.type="string" for="node" id="d4" />
-  <key attr.name="importance" attr.type="string" for="node" id="d3" />
-  <key attr.name="label" attr.type="string" for="node" id="d2" />
-  <key attr.name="role" attr.type="string" for="node" id="d1" />
-  <key attr.name="nature" attr.type="string" for="node" id="d0" />
+  <key attr.name="Weight" attr.type="double" for="edge" id="d6" />
+  <key attr.name="Type" attr.type="string" for="edge" id="d5" />
+  <key attr.name="role" attr.type="string" for="node" id="d4" />
+  <key attr.name="nature" attr.type="string" for="node" id="d3" />
+  <key attr.name="importance" attr.type="string" for="node" id="d2" />
+  <key attr.name="sex" attr.type="string" for="node" id="d1" />
+  <key attr.name="label" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#nico">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Nicolás</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#pepe">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">José</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#mart">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Martina</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
+    <node id="#ramo">
+      <data key="d0">La Tía Ramona</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
     <node id="#ange">
-      <data key="d0">person</data>
-      <data key="d1">protagonist</data>
-      <data key="d2">Ángel</data>
-      <data key="d3">primary</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#euse">
-      <data key="d0">person</data>
-      <data key="d1">antagonist</data>
-      <data key="d2">Eusebio</data>
-      <data key="d3">secondary</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#ramo">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">La Tía Ramona</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
+      <data key="d0">Ángel</data>
+      <data key="d1">M</data>
+      <data key="d2">primary</data>
+      <data key="d3">person</data>
+      <data key="d4">protagonist</data>
     </node>
     <node id="#teod">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Teodoro</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#eufe">
-      <data key="d0">person</data>
-      <data key="d1">lover</data>
-      <data key="d2">Eufemia</data>
-      <data key="d3">primary</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#hime">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">El Hijo menor de Felipe</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
+      <data key="d0">Teodoro</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
     <node id="#joaq">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Joaquín</data>
-      <data key="d3">secondary</data>
-      <data key="d4">M</data>
+      <data key="d0">Joaquín</data>
+      <data key="d1">M</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#eufe">
+      <data key="d0">Eufemia</data>
+      <data key="d1">F</data>
+      <data key="d2">primary</data>
+      <data key="d3">person</data>
+      <data key="d4">lover</data>
+    </node>
+    <node id="#pepe">
+      <data key="d0">José</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#hime">
+      <data key="d0">El Hijo menor de Felipe</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#nico">
+      <data key="d0">Nicolás</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#euse">
+      <data key="d0">Eusebio</data>
+      <data key="d1">M</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">antagonist</data>
     </node>
     <node id="#hima">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">El Hijo mayor de Felipe</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
+      <data key="d0">El Hijo mayor de Felipe</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#mart">
+      <data key="d0">Martina</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
     <node id="#feli">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Felipe</data>
-      <data key="d3">secondary</data>
-      <data key="d4">M</data>
+      <data key="d0">Felipe</data>
+      <data key="d1">M</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
-    <edge source="#nico" target="#pepe">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#ramo" target="#ange">
+      <data key="d5">Undirected</data>
+      <data key="d6">5.0</data>
     </edge>
-    <edge source="#nico" target="#hime">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#ramo" target="#nico">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#nico" target="#ramo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nico" target="#teod">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nico" target="#ange">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nico" target="#eufe">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nico" target="#joaq">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nico" target="#euse">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nico" target="#feli">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#mart">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#teod">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#eufe">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#ange">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#joaq">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#pepe" target="#euse">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mart" target="#ange">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mart" target="#feli">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mart" target="#eufe">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#ramo">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#teod">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#joaq">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#hime">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#eufe">
-      <data key="d5">13.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#hima">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#euse">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ange" target="#feli">
-      <data key="d5">7.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#euse" target="#ramo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#euse" target="#teod">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#euse" target="#joaq">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#euse" target="#eufe">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#euse" target="#feli">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#ramo" target="#eufe">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#ramo" target="#euse">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#ramo" target="#joaq">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#ramo" target="#eufe">
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
     </edge>
     <edge source="#ramo" target="#feli">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#teod" target="#eufe">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#ange" target="#joaq">
+      <data key="d5">Undirected</data>
+      <data key="d6">6.0</data>
+    </edge>
+    <edge source="#ange" target="#pepe">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#ange" target="#hime">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#ange" target="#nico">
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
+    </edge>
+    <edge source="#ange" target="#euse">
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
+    </edge>
+    <edge source="#ange" target="#teod">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#ange" target="#hima">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#ange" target="#eufe">
+      <data key="d5">Undirected</data>
+      <data key="d6">13.0</data>
+    </edge>
+    <edge source="#ange" target="#mart">
+      <data key="d5">Undirected</data>
+      <data key="d6">6.0</data>
+    </edge>
+    <edge source="#ange" target="#feli">
+      <data key="d5">Undirected</data>
+      <data key="d6">7.0</data>
+    </edge>
+    <edge source="#teod" target="#pepe">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#teod" target="#nico">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#teod" target="#euse">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#teod" target="#joaq">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
     </edge>
-    <edge source="#eufe" target="#joaq">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#teod" target="#eufe">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#eufe" target="#feli">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#joaq" target="#pepe">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#hime" target="#joaq">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#joaq" target="#hime">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#hime" target="#hima">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#joaq" target="#nico">
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
     </edge>
-    <edge source="#hime" target="#feli">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#joaq" target="#euse">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#joaq" target="#eufe">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
     </edge>
     <edge source="#joaq" target="#feli">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#eufe" target="#pepe">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#eufe" target="#nico">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#eufe" target="#euse">
+      <data key="d5">Undirected</data>
+      <data key="d6">6.0</data>
+    </edge>
+    <edge source="#eufe" target="#mart">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#eufe" target="#feli">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#pepe" target="#nico">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#pepe" target="#euse">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#pepe" target="#mart">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hime" target="#hima">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#hime" target="#nico">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hime" target="#feli">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#nico" target="#euse">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#nico" target="#feli">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#euse" target="#feli">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#hima" target="#feli">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#mart" target="#feli">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
   </graph>
 </graphml>

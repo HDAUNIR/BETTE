@@ -1,279 +1,279 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key attr.name="Type" attr.type="string" for="edge" id="d6" />
-  <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="sex" attr.type="string" for="node" id="d4" />
-  <key attr.name="importance" attr.type="string" for="node" id="d3" />
-  <key attr.name="label" attr.type="string" for="node" id="d2" />
-  <key attr.name="role" attr.type="string" for="node" id="d1" />
-  <key attr.name="nature" attr.type="string" for="node" id="d0" />
+  <key attr.name="Weight" attr.type="double" for="edge" id="d6" />
+  <key attr.name="Type" attr.type="string" for="edge" id="d5" />
+  <key attr.name="role" attr.type="string" for="node" id="d4" />
+  <key attr.name="nature" attr.type="string" for="node" id="d3" />
+  <key attr.name="importance" attr.type="string" for="node" id="d2" />
+  <key attr.name="sex" attr.type="string" for="node" id="d1" />
+  <key attr.name="label" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#isid">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Isidra</data>
-      <data key="d3">secondary</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#paco">
-      <data key="d0">person</data>
-      <data key="d1">lover</data>
-      <data key="d2">Paco</data>
-      <data key="d3">primary</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#beb1">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Bebedor 1º</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
     <node id="#tabe">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">El tabernero</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
+      <data key="d0">El tabernero</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
-    <node id="#muj1">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Mujer 1ª</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
+    <node id="#isid">
+      <data key="d0">Isidra</data>
+      <data key="d1">F</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
     <node id="#beb2">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Bebedor 2º</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
+      <data key="d0">Bebedor 2º</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
-    <node id="#peri">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Perico </data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#juan">
-      <data key="d0">person</data>
-      <data key="d1">protagonist</data>
-      <data key="d2">Juan José</data>
-      <data key="d3">primary</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#andr">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Andrés</data>
-      <data key="d3">secondary</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#tonu">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Toñuela</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#rosa">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Rosa</data>
-      <data key="d3">primary</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#igna">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Ignacio</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
+    <node id="#muj1">
+      <data key="d0">Mujer 1ª</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
     <node id="#cano">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">El Cano</data>
-      <data key="d3">secondary</data>
-      <data key="d4">M</data>
+      <data key="d0">El Cano</data>
+      <data key="d1">M</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
-    <edge source="#isid" target="#paco">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#isid" target="#juan">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#isid" target="#andr">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#isid" target="#tonu">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#isid" target="#rosa">
-      <data key="d5">11.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#isid" target="#igna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#isid" target="#tabe">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#isid" target="#muj1">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paco" target="#juan">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paco" target="#andr">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paco" target="#tonu">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paco" target="#rosa">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paco" target="#tabe">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#paco" target="#muj1">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beb1" target="#beb2">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beb1" target="#peri">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beb1" target="#igna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beb1" target="#tabe">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beb1" target="#andr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
+    <node id="#andr">
+      <data key="d0">Andrés</data>
+      <data key="d1">M</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#peri">
+      <data key="d0">Perico </data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#tonu">
+      <data key="d0">Toñuela</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#juan">
+      <data key="d0">Juan José</data>
+      <data key="d1">M</data>
+      <data key="d2">primary</data>
+      <data key="d3">person</data>
+      <data key="d4">protagonist</data>
+    </node>
+    <node id="#rosa">
+      <data key="d0">Rosa</data>
+      <data key="d1">F</data>
+      <data key="d2">primary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#beb1">
+      <data key="d0">Bebedor 1º</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#paco">
+      <data key="d0">Paco</data>
+      <data key="d1">M</data>
+      <data key="d2">primary</data>
+      <data key="d3">person</data>
+      <data key="d4">lover</data>
+    </node>
+    <node id="#igna">
+      <data key="d0">Ignacio</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
     <edge source="#tabe" target="#beb2">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#tabe" target="#juan">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tabe" target="#andr">
-      <data key="d5">8.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#tabe" target="#isid">
+      <data key="d5">Undirected</data>
+      <data key="d6">5.0</data>
     </edge>
     <edge source="#tabe" target="#tonu">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
+    </edge>
+    <edge source="#tabe" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">6.0</data>
+    </edge>
+    <edge source="#tabe" target="#beb1">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#tabe" target="#rosa">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tabe" target="#igna">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#tabe" target="#peri">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
     </edge>
     <edge source="#tabe" target="#muj1">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#tabe" target="#paco">
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
+    </edge>
+    <edge source="#tabe" target="#peri">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#tabe" target="#andr">
+      <data key="d5">Undirected</data>
+      <data key="d6">8.0</data>
+    </edge>
+    <edge source="#tabe" target="#igna">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#isid" target="#tonu">
+      <data key="d5">Undirected</data>
+      <data key="d6">6.0</data>
+    </edge>
+    <edge source="#isid" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#isid" target="#rosa">
+      <data key="d5">Undirected</data>
+      <data key="d6">11.0</data>
+    </edge>
+    <edge source="#isid" target="#muj1">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#isid" target="#paco">
+      <data key="d5">Undirected</data>
+      <data key="d6">5.0</data>
+    </edge>
+    <edge source="#isid" target="#andr">
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
+    </edge>
+    <edge source="#isid" target="#igna">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#beb2" target="#beb1">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#beb2" target="#peri">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#beb2" target="#igna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#beb2" target="#andr">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#peri" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#beb2" target="#igna">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#peri" target="#andr">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#muj1" target="#paco">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#peri" target="#igna">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#andr">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#tonu">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#rosa">
-      <data key="d5">9.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#igna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#juan" target="#cano">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#cano" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
     </edge>
     <edge source="#andr" target="#tonu">
-      <data key="d5">6.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">6.0</data>
+    </edge>
+    <edge source="#andr" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">9.0</data>
+    </edge>
+    <edge source="#andr" target="#beb1">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#andr" target="#rosa">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">5.0</data>
+    </edge>
+    <edge source="#andr" target="#paco">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#andr" target="#peri">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
     </edge>
     <edge source="#andr" target="#igna">
-      <data key="d5">4.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">4.0</data>
+    </edge>
+    <edge source="#peri" target="#beb1">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#peri" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#peri" target="#igna">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#tonu" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">5.0</data>
     </edge>
     <edge source="#tonu" target="#rosa">
-      <data key="d5">11.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">11.0</data>
+    </edge>
+    <edge source="#tonu" target="#paco">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
     </edge>
     <edge source="#tonu" target="#igna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#juan" target="#rosa">
+      <data key="d5">Undirected</data>
+      <data key="d6">9.0</data>
+    </edge>
+    <edge source="#juan" target="#paco">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#juan" target="#igna">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#rosa" target="#paco">
+      <data key="d5">Undirected</data>
+      <data key="d6">5.0</data>
     </edge>
     <edge source="#rosa" target="#igna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#beb1" target="#igna">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
   </graph>
 </graphml>

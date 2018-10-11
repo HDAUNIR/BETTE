@@ -6,126 +6,126 @@
       <attribute id="5" title="Weight" type="double" />
     </attributes>
     <attributes class="node" mode="static">
-      <attribute id="0" title="nature" type="string" />
-      <attribute id="1" title="sex" type="string" />
+      <attribute id="0" title="sex" type="string" />
+      <attribute id="1" title="role" type="string" />
       <attribute id="2" title="importance" type="string" />
-      <attribute id="3" title="role" type="string" />
+      <attribute id="3" title="nature" type="string" />
     </attributes>
     <nodes>
       <node id="#eust" label="Eustaquia">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#fedr" label="Fedra">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="primary" />
-          <attvalue for="3" value="protagonist" />
-        </attvalues>
-      </node>
-      <node id="#pedr" label="Pedro">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="primary" />
-          <attvalue for="3" value="antagonist" />
-        </attvalues>
-      </node>
-      <node id="#hipo" label="Hipólito">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="primary" />
-          <attvalue for="3" value="lover" />
-        </attvalues>
-      </node>
-      <node id="#marc" label="Marcelo">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
       <node id="#rosa" label="Rosa">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#marc" label="Marcelo">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#fedr" label="Fedra">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="protagonist" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#hipo" label="Hipólito">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="lover" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#pedr" label="Pedro">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="antagonist" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="#eust" target="#hipo">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="5.0" />
-        </attvalues>
-      </edge>
-      <edge id="1" source="#eust" target="#marc">
+      <edge id="0" source="#eust" target="#marc">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="2" source="#eust" target="#fedr">
+      <edge id="1" source="#eust" target="#fedr">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="3" source="#eust" target="#rosa">
+      <edge id="2" source="#eust" target="#hipo">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="#eust" target="#pedr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="#eust" target="#rosa">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="4" source="#eust" target="#pedr">
+      <edge id="5" source="#rosa" target="#fedr">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
+          <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="5" source="#fedr" target="#hipo">
+      <edge id="6" source="#marc" target="#fedr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="#marc" target="#pedr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="#fedr" target="#hipo">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
-      <edge id="6" source="#fedr" target="#marc">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="7" source="#fedr" target="#rosa">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="8" source="#fedr" target="#pedr">
+      <edge id="9" source="#fedr" target="#pedr">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="7.0" />
         </attvalues>
       </edge>
-      <edge id="9" source="#pedr" target="#hipo">
+      <edge id="10" source="#hipo" target="#pedr">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="10" source="#pedr" target="#marc">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
     </edges>

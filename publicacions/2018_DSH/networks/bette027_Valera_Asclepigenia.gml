@@ -1,156 +1,156 @@
 graph [
   node [
     id 0
-    label "#proc"
-    nature "person"
-    role "lover"
-    importance "primary"
+    label "#aten"
     sex "M"
+    importance "minor"
+    nature "person"
+    role "other"
   ]
   node [
     id 1
-    label "#mari"
-    nature "person"
-    role "other"
-    importance "minor"
+    label "#proc"
     sex "M"
+    importance "primary"
+    nature "person"
+    role "lover"
   ]
   node [
     id 2
-    label "#mort"
-    nature "non-human"
-    role "other"
-    importance "minor"
-    sex "0"
+    label "#eumo"
+    sex "M"
+    importance "secondary"
+    nature "person"
+    role "antagonist"
   ]
   node [
     id 3
-    label "#ascl"
-    nature "person"
-    role "protagonist"
-    importance "primary"
+    label "#sier"
     sex "F"
+    importance "minor"
+    nature "person"
+    role "other"
   ]
   node [
     id 4
-    label "#aten"
-    nature "person"
-    role "other"
-    importance "minor"
+    label "#crem"
     sex "M"
+    importance "secondary"
+    nature "person"
+    role "antagonist"
   ]
   node [
     id 5
-    label "#eumo"
-    nature "person"
-    role "antagonist"
-    importance "secondary"
+    label "#mari"
     sex "M"
+    importance "minor"
+    nature "person"
+    role "other"
   ]
   node [
     id 6
-    label "#crem"
-    nature "person"
-    role "antagonist"
-    importance "secondary"
-    sex "M"
+    label "#mort"
+    sex "0"
+    importance "minor"
+    nature "non-human"
+    role "other"
   ]
   node [
     id 7
-    label "#sier"
-    nature "person"
-    role "other"
-    importance "minor"
+    label "#ascl"
     sex "F"
+    importance "primary"
+    nature "person"
+    role "protagonist"
+  ]
+  edge [
+    source 0
+    target 3
+    Type "Undirected"
+    Weight 1.0
   ]
   edge [
     source 0
     target 1
-    Weight 3.0
     Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 4
     Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 2
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 3
-    Weight 4.0
-    Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 5
-    Weight 5.0
-    Type "Undirected"
   ]
   edge [
     source 0
     target 6
-    Weight 3.0
     Type "Undirected"
+    Weight 1.0
+  ]
+  edge [
+    source 0
+    target 7
+    Type "Undirected"
+    Weight 2.0
+  ]
+  edge [
+    source 1
+    target 2
+    Type "Undirected"
+    Weight 5.0
+  ]
+  edge [
+    source 1
+    target 4
+    Type "Undirected"
+    Weight 3.0
   ]
   edge [
     source 1
     target 5
-    Weight 1.0
     Type "Undirected"
+    Weight 3.0
   ]
   edge [
-    source 2
-    target 4
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 3
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
-    target 4
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
-    target 5
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 3
+    source 1
     target 6
-    Weight 1.0
     Type "Undirected"
+    Weight 1.0
+  ]
+  edge [
+    source 1
+    target 7
+    Type "Undirected"
+    Weight 4.0
+  ]
+  edge [
+    source 2
+    target 5
+    Type "Undirected"
+    Weight 1.0
+  ]
+  edge [
+    source 2
+    target 4
+    Type "Undirected"
+    Weight 2.0
+  ]
+  edge [
+    source 2
+    target 7
+    Type "Undirected"
+    Weight 1.0
   ]
   edge [
     source 3
     target 7
-    Weight 1.0
     Type "Undirected"
+    Weight 1.0
   ]
   edge [
     source 4
     target 7
-    Weight 1.0
     Type "Undirected"
+    Weight 1.0
   ]
   edge [
-    source 5
-    target 6
-    Weight 2.0
+    source 6
+    target 7
     Type "Undirected"
+    Weight 1.0
   ]
 ]

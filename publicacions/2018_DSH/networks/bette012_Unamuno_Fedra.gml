@@ -2,115 +2,115 @@ graph [
   node [
     id 0
     label "#eust"
+    sex "F"
+    importance "secondary"
     nature "person"
     role "other"
-    importance "secondary"
-    sex "F"
   ]
   node [
     id 1
-    label "#fedr"
-    nature "person"
-    role "protagonist"
-    importance "primary"
+    label "#rosa"
     sex "F"
+    importance "secondary"
+    nature "person"
+    role "other"
   ]
   node [
     id 2
-    label "#pedr"
-    nature "person"
-    role "antagonist"
-    importance "primary"
+    label "#marc"
     sex "M"
+    importance "secondary"
+    nature "person"
+    role "other"
   ]
   node [
     id 3
-    label "#hipo"
-    nature "person"
-    role "lover"
+    label "#fedr"
+    sex "F"
     importance "primary"
-    sex "M"
+    nature "person"
+    role "protagonist"
   ]
   node [
     id 4
-    label "#marc"
-    nature "person"
-    role "other"
-    importance "secondary"
+    label "#hipo"
     sex "M"
+    importance "primary"
+    nature "person"
+    role "lover"
   ]
   node [
     id 5
-    label "#rosa"
+    label "#pedr"
+    sex "M"
+    importance "primary"
     nature "person"
-    role "other"
-    importance "secondary"
-    sex "F"
+    role "antagonist"
+  ]
+  edge [
+    source 0
+    target 2
+    Type "Undirected"
+    Weight 2.0
   ]
   edge [
     source 0
     target 3
-    Weight 5.0
     Type "Undirected"
+    Weight 4.0
   ]
   edge [
     source 0
     target 4
-    Weight 2.0
     Type "Undirected"
+    Weight 5.0
+  ]
+  edge [
+    source 0
+    target 5
+    Type "Undirected"
+    Weight 4.0
   ]
   edge [
     source 0
     target 1
-    Weight 4.0
     Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 5
     Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 0
-    target 2
-    Weight 4.0
-    Type "Undirected"
   ]
   edge [
     source 1
     target 3
-    Weight 5.0
     Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 4
     Weight 2.0
-    Type "Undirected"
   ]
   edge [
-    source 1
+    source 2
+    target 3
+    Type "Undirected"
+    Weight 2.0
+  ]
+  edge [
+    source 2
     target 5
-    Weight 2.0
     Type "Undirected"
-  ]
-  edge [
-    source 1
-    target 2
-    Weight 7.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 3
-    Weight 6.0
-    Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 4
     Weight 3.0
+  ]
+  edge [
+    source 3
+    target 4
     Type "Undirected"
+    Weight 5.0
+  ]
+  edge [
+    source 3
+    target 5
+    Type "Undirected"
+    Weight 7.0
+  ]
+  edge [
+    source 4
+    target 5
+    Type "Undirected"
+    Weight 6.0
   ]
 ]

@@ -1,413 +1,413 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key attr.name="Type" attr.type="string" for="edge" id="d6" />
-  <key attr.name="Weight" attr.type="double" for="edge" id="d5" />
-  <key attr.name="sex" attr.type="string" for="node" id="d4" />
-  <key attr.name="importance" attr.type="string" for="node" id="d3" />
-  <key attr.name="label" attr.type="string" for="node" id="d2" />
-  <key attr.name="role" attr.type="string" for="node" id="d1" />
-  <key attr.name="nature" attr.type="string" for="node" id="d0" />
+  <key attr.name="Weight" attr.type="double" for="edge" id="d6" />
+  <key attr.name="Type" attr.type="string" for="edge" id="d5" />
+  <key attr.name="role" attr.type="string" for="node" id="d4" />
+  <key attr.name="nature" attr.type="string" for="node" id="d3" />
+  <key attr.name="importance" attr.type="string" for="node" id="d2" />
+  <key attr.name="sex" attr.type="string" for="node" id="d1" />
+  <key attr.name="label" attr.type="string" for="node" id="d0" />
   <graph edgedefault="undirected">
-    <node id="#mari">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">María</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#coro">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Coro de mujeres</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
+    <node id="#yerm">
+      <data key="d0">Yerma</data>
+      <data key="d1">F</data>
+      <data key="d2">primary</data>
+      <data key="d3">person</data>
+      <data key="d4">protagonist</data>
     </node>
     <node id="#hemb">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Hembra</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#mach">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Macho</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#homb">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Hombre</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#víct">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Víctor</data>
-      <data key="d3">secondary</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#much">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Muchacha</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#nin">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Niño</data>
-      <data key="d3">minor</data>
-      <data key="d4">M</data>
-    </node>
-    <node id="#yerm">
-      <data key="d0">person</data>
-      <data key="d1">protagonist</data>
-      <data key="d2">Yerma</data>
-      <data key="d3">primary</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#viej">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Vieja</data>
-      <data key="d3">secondary</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#dolo">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Dolores</data>
-      <data key="d3">secondary</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#cant">
-      <data key="d0">non-human</data>
-      <data key="d1">other</data>
-      <data key="d2">Canto de voces</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
-    </node>
-    <node id="#cuna">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Cuñada</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
+      <data key="d0">Hembra</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
     <node id="#muje">
-      <data key="d0">person</data>
-      <data key="d1">other</data>
-      <data key="d2">Mujer</data>
-      <data key="d3">minor</data>
-      <data key="d4">F</data>
+      <data key="d0">Mujer</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#mach">
+      <data key="d0">Macho</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#nin">
+      <data key="d0">Niño</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#dolo">
+      <data key="d0">Dolores</data>
+      <data key="d1">F</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#mari">
+      <data key="d0">María</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#cant">
+      <data key="d0">Canto de voces</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">non-human</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#cuna">
+      <data key="d0">Cuñada</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
     </node>
     <node id="#juan">
-      <data key="d0">person</data>
-      <data key="d1">lover</data>
-      <data key="d2">Juan</data>
-      <data key="d3">primary</data>
-      <data key="d4">M</data>
+      <data key="d0">Juan</data>
+      <data key="d1">M</data>
+      <data key="d2">primary</data>
+      <data key="d3">person</data>
+      <data key="d4">lover</data>
     </node>
-    <edge source="#mari" target="#nin">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <node id="#much">
+      <data key="d0">Muchacha</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#coro">
+      <data key="d0">Coro de mujeres</data>
+      <data key="d1">F</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#víct">
+      <data key="d0">Víctor</data>
+      <data key="d1">M</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#homb">
+      <data key="d0">Hombre</data>
+      <data key="d1">M</data>
+      <data key="d2">minor</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <node id="#viej">
+      <data key="d0">Vieja</data>
+      <data key="d1">F</data>
+      <data key="d2">secondary</data>
+      <data key="d3">person</data>
+      <data key="d4">other</data>
+    </node>
+    <edge source="#yerm" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#mari" target="#hemb">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#coro">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#mach">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#homb">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#víct">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#much">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#yerm">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#juan">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#cant">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#cuna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mari" target="#viej">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#nin">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#hemb">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#yerm">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#mach">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#homb">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#much">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#coro" target="#viej">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#nin">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#yerm">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#mach">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#homb">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#much">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#hemb" target="#viej">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mach" target="#nin">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mach" target="#yerm">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mach" target="#homb">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mach" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mach" target="#much">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mach" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#mach" target="#viej">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#homb" target="#nin">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#homb" target="#yerm">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#homb" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#homb" target="#much">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#homb" target="#viej">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#homb" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#víct" target="#yerm">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#víct" target="#juan">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#víct" target="#much">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#víct" target="#cant">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#víct" target="#cuna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#víct" target="#viej">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#nin">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#yerm">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#juan">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#cuna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#much" target="#viej">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nin" target="#yerm">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nin" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nin" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#nin" target="#viej">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#yerm" target="#viej">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#yerm" target="#dolo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#yerm" target="#cant">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
-    </edge>
-    <edge source="#yerm" target="#cuna">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#yerm" target="#hemb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#yerm" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#yerm" target="#mach">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#yerm" target="#dolo">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#yerm" target="#mari">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#yerm" target="#cant">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#yerm" target="#cuna">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
     </edge>
     <edge source="#yerm" target="#juan">
-      <data key="d5">5.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">5.0</data>
     </edge>
-    <edge source="#viej" target="#juan">
-      <data key="d5">3.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#yerm" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
     </edge>
-    <edge source="#viej" target="#dolo">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#yerm" target="#nin">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#viej" target="#cuna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#yerm" target="#víct">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
     </edge>
-    <edge source="#viej" target="#muje">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#yerm" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#dolo" target="#cuna">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#yerm" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
     </edge>
-    <edge source="#dolo" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#hemb" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#cant" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#hemb" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
-    <edge source="#cuna" target="#juan">
-      <data key="d5">2.0</data>
-      <data key="d6">Undirected</data>
+    <edge source="#hemb" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hemb" target="#muje">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hemb" target="#mach">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hemb" target="#mari">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hemb" target="#nin">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hemb" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#hemb" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#muje" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#muje" target="#mari">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#muje" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#muje" target="#mach">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
     <edge source="#muje" target="#juan">
-      <data key="d5">1.0</data>
-      <data key="d6">Undirected</data>
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#muje" target="#nin">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#muje" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#muje" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mach" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mach" target="#mari">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mach" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mach" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mach" target="#nin">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mach" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mach" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#nin" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#nin" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#nin" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#nin" target="#mari">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#nin" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#nin" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#dolo" target="#cuna">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#dolo" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#dolo" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mari" target="#cant">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mari" target="#cuna">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mari" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#mari" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#mari" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mari" target="#víct">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#mari" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#mari" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#cant" target="#víct">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#cant" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#cuna" target="#juan">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#cuna" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#cuna" target="#víct">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#cuna" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#juan" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#juan" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#juan" target="#much">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#juan" target="#víct">
+      <data key="d5">Undirected</data>
+      <data key="d6">3.0</data>
+    </edge>
+    <edge source="#juan" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#much" target="#coro">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#much" target="#víct">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#much" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#much" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">2.0</data>
+    </edge>
+    <edge source="#coro" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#coro" target="#homb">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#víct" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="#homb" target="#viej">
+      <data key="d5">Undirected</data>
+      <data key="d6">1.0</data>
     </edge>
   </graph>
 </graphml>

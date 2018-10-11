@@ -6,430 +6,430 @@
       <attribute id="5" title="Weight" type="double" />
     </attributes>
     <attributes class="node" mode="static">
-      <attribute id="0" title="nature" type="string" />
-      <attribute id="1" title="sex" type="string" />
+      <attribute id="0" title="sex" type="string" />
+      <attribute id="1" title="role" type="string" />
       <attribute id="2" title="importance" type="string" />
-      <attribute id="3" title="role" type="string" />
+      <attribute id="3" title="nature" type="string" />
     </attributes>
     <nodes>
-      <node id="#celc" label="Celcina">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#ever" label="Everilda">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
       <node id="#todo" label="Todos">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="0" />
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#aten" label="Ateneo">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#amil" label="Amílcar">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#eulo" label="Eulogia">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#juan" label="Juan">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#vale" label="Valentina">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#prod" label="Prodosia">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#amar" label="Amaranto">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="primary" />
-          <attvalue for="3" value="protagonist" />
-        </attvalues>
-      </node>
-      <node id="#cefe" label="Ceferino">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#casa" label="Casado">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
       <node id="#puli" label="Pulido">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#ever" label="Everilda">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#prod" label="Prodosia">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#aten" label="Ateneo">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#eulo" label="Eulogia">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#juan" label="Juan">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#amil" label="Amílcar">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#vale" label="Valentina">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#amar" label="Amaranto">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="protagonist" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#cefe" label="Ceferino">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#casa" label="Casado">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
       <node id="#flor" label="Flora">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#celc" label="Celcina">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="#celc" target="#ever">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="1" source="#celc" target="#aten">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="2" source="#celc" target="#todo">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="7.0" />
-        </attvalues>
-      </edge>
-      <edge id="3" source="#celc" target="#amil">
+      <edge id="0" source="#todo" target="#puli">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
-      <edge id="4" source="#celc" target="#amar">
+      <edge id="1" source="#todo" target="#ever">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="14.0" />
+          <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="5" source="#celc" target="#juan">
+      <edge id="2" source="#todo" target="#prod">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="6.0" />
         </attvalues>
       </edge>
-      <edge id="6" source="#celc" target="#eulo">
+      <edge id="3" source="#todo" target="#aten">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="#todo" target="#eulo">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="7" source="#celc" target="#prod">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge id="8" source="#celc" target="#vale">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="9" source="#celc" target="#cefe">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge id="10" source="#celc" target="#casa">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="7.0" />
-        </attvalues>
-      </edge>
-      <edge id="11" source="#celc" target="#puli">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="12" source="#ever" target="#aten">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge id="13" source="#ever" target="#todo">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="14" source="#ever" target="#amar">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="15" source="#ever" target="#flor">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="16" source="#ever" target="#eulo">
+      <edge id="5" source="#todo" target="#juan">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="10.0" />
         </attvalues>
       </edge>
-      <edge id="17" source="#ever" target="#prod">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="18" source="#ever" target="#vale">
+      <edge id="6" source="#todo" target="#amil">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="19" source="#ever" target="#cefe">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="20" source="#ever" target="#casa">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="12.0" />
-        </attvalues>
-      </edge>
-      <edge id="21" source="#ever" target="#puli">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="22" source="#ever" target="#juan">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="13.0" />
-        </attvalues>
-      </edge>
-      <edge id="23" source="#todo" target="#eulo">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="24" source="#todo" target="#aten">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="25" source="#todo" target="#amil">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge id="26" source="#todo" target="#juan">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="10.0" />
-        </attvalues>
-      </edge>
-      <edge id="27" source="#todo" target="#vale">
+      <edge id="7" source="#todo" target="#vale">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="9.0" />
         </attvalues>
       </edge>
-      <edge id="28" source="#todo" target="#prod">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="29" source="#todo" target="#amar">
+      <edge id="8" source="#todo" target="#amar">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="7.0" />
         </attvalues>
       </edge>
-      <edge id="30" source="#todo" target="#cefe">
+      <edge id="9" source="#todo" target="#cefe">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="9.0" />
         </attvalues>
       </edge>
-      <edge id="31" source="#todo" target="#casa">
+      <edge id="10" source="#todo" target="#casa">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="11.0" />
         </attvalues>
       </edge>
-      <edge id="32" source="#todo" target="#puli">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="5.0" />
-        </attvalues>
-      </edge>
-      <edge id="33" source="#todo" target="#flor">
+      <edge id="11" source="#todo" target="#flor">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="34" source="#aten" target="#eulo">
+      <edge id="12" source="#todo" target="#celc">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="7.0" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="#puli" target="#ever">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="35" source="#aten" target="#juan">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge id="36" source="#aten" target="#vale">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="37" source="#aten" target="#prod">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="38" source="#aten" target="#amar">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="5.0" />
-        </attvalues>
-      </edge>
-      <edge id="39" source="#aten" target="#cefe">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="40" source="#aten" target="#casa">
+      <edge id="14" source="#puli" target="#prod">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="9.0" />
         </attvalues>
       </edge>
-      <edge id="41" source="#aten" target="#puli">
+      <edge id="15" source="#puli" target="#aten">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="42" source="#aten" target="#flor">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="43" source="#amil" target="#juan">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="7.0" />
-        </attvalues>
-      </edge>
-      <edge id="44" source="#amil" target="#amar">
+      <edge id="16" source="#puli" target="#juan">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
-      <edge id="45" source="#amil" target="#prod">
+      <edge id="17" source="#puli" target="#amil">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="46" source="#amil" target="#vale">
+      <edge id="18" source="#puli" target="#vale">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="7.0" />
         </attvalues>
       </edge>
-      <edge id="47" source="#amil" target="#cefe">
+      <edge id="19" source="#puli" target="#amar">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
+          <attvalue for="5" value="6.0" />
         </attvalues>
       </edge>
-      <edge id="48" source="#amil" target="#casa">
+      <edge id="20" source="#puli" target="#cefe">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="49" source="#amil" target="#puli">
+      <edge id="21" source="#puli" target="#casa">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="7.0" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="#puli" target="#flor">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="#puli" target="#celc">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="#ever" target="#prod">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="#ever" target="#aten">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="#ever" target="#eulo">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="10.0" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="#ever" target="#juan">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="13.0" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="#ever" target="#vale">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="#ever" target="#amar">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="#ever" target="#cefe">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="#ever" target="#casa">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="12.0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="#ever" target="#flor">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="#ever" target="#celc">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="50" source="#amil" target="#flor">
+      <edge id="34" source="#prod" target="#aten">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="#prod" target="#juan">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="7.0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="#prod" target="#amil">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="#prod" target="#vale">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="10.0" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="#prod" target="#amar">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="7.0" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="#prod" target="#cefe">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="#prod" target="#casa">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="9.0" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="#prod" target="#flor">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="#prod" target="#celc">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="#aten" target="#eulo">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="#aten" target="#juan">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="#aten" target="#vale">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="#aten" target="#amar">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="#aten" target="#cefe">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="#aten" target="#casa">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="9.0" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="#aten" target="#flor">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="#aten" target="#celc">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
       <edge id="51" source="#eulo" target="#juan">
@@ -438,13 +438,13 @@
           <attvalue for="5" value="9.0" />
         </attvalues>
       </edge>
-      <edge id="52" source="#eulo" target="#amar">
+      <edge id="52" source="#eulo" target="#vale">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="53" source="#eulo" target="#vale">
+      <edge id="53" source="#eulo" target="#amar">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="2.0" />
@@ -468,19 +468,19 @@
           <attvalue for="5" value="6.0" />
         </attvalues>
       </edge>
-      <edge id="57" source="#juan" target="#amar">
+      <edge id="57" source="#eulo" target="#celc">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="5.0" />
+          <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="58" source="#juan" target="#flor">
+      <edge id="58" source="#juan" target="#celc">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="7.0" />
+          <attvalue for="5" value="6.0" />
         </attvalues>
       </edge>
-      <edge id="59" source="#juan" target="#prod">
+      <edge id="59" source="#juan" target="#amil">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="7.0" />
@@ -492,124 +492,124 @@
           <attvalue for="5" value="11.0" />
         </attvalues>
       </edge>
-      <edge id="61" source="#juan" target="#cefe">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="9.0" />
-        </attvalues>
-      </edge>
-      <edge id="62" source="#juan" target="#casa">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="19.0" />
-        </attvalues>
-      </edge>
-      <edge id="63" source="#juan" target="#puli">
+      <edge id="61" source="#juan" target="#amar">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="5.0" />
         </attvalues>
       </edge>
-      <edge id="64" source="#vale" target="#prod">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="10.0" />
-        </attvalues>
-      </edge>
-      <edge id="65" source="#vale" target="#amar">
+      <edge id="62" source="#juan" target="#cefe">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="9.0" />
         </attvalues>
       </edge>
-      <edge id="66" source="#vale" target="#cefe">
+      <edge id="63" source="#juan" target="#casa">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="8.0" />
+          <attvalue for="5" value="19.0" />
         </attvalues>
       </edge>
-      <edge id="67" source="#vale" target="#casa">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="14.0" />
-        </attvalues>
-      </edge>
-      <edge id="68" source="#vale" target="#puli">
+      <edge id="64" source="#juan" target="#flor">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="7.0" />
         </attvalues>
       </edge>
-      <edge id="69" source="#vale" target="#flor">
+      <edge id="65" source="#amil" target="#vale">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="7.0" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="#amil" target="#amar">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="#amil" target="#cefe">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="3.0" />
         </attvalues>
       </edge>
-      <edge id="70" source="#prod" target="#amar">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="7.0" />
-        </attvalues>
-      </edge>
-      <edge id="71" source="#prod" target="#cefe">
+      <edge id="68" source="#amil" target="#casa">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="72" source="#prod" target="#casa">
+      <edge id="69" source="#amil" target="#flor">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="#amil" target="#celc">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="#vale" target="#amar">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="9.0" />
         </attvalues>
       </edge>
-      <edge id="73" source="#prod" target="#puli">
+      <edge id="72" source="#vale" target="#cefe">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="9.0" />
+          <attvalue for="5" value="8.0" />
         </attvalues>
       </edge>
-      <edge id="74" source="#prod" target="#flor">
+      <edge id="73" source="#vale" target="#casa">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
+          <attvalue for="5" value="14.0" />
         </attvalues>
       </edge>
-      <edge id="75" source="#amar" target="#cefe">
+      <edge id="74" source="#vale" target="#flor">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="#vale" target="#celc">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="6.0" />
         </attvalues>
       </edge>
-      <edge id="76" source="#amar" target="#casa">
+      <edge id="76" source="#amar" target="#celc">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="14.0" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="#amar" target="#cefe">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="#amar" target="#casa">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="13.0" />
         </attvalues>
       </edge>
-      <edge id="77" source="#amar" target="#puli">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="78" source="#amar" target="#flor">
+      <edge id="79" source="#amar" target="#flor">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="79" source="#cefe" target="#casa">
+      <edge id="80" source="#cefe" target="#casa">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="12.0" />
-        </attvalues>
-      </edge>
-      <edge id="80" source="#cefe" target="#puli">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
       <edge id="81" source="#cefe" target="#flor">
@@ -618,10 +618,10 @@
           <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="82" source="#casa" target="#puli">
+      <edge id="82" source="#cefe" target="#celc">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="7.0" />
+          <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
       <edge id="83" source="#casa" target="#flor">
@@ -630,10 +630,10 @@
           <attvalue for="5" value="8.0" />
         </attvalues>
       </edge>
-      <edge id="84" source="#puli" target="#flor">
+      <edge id="84" source="#casa" target="#celc">
         <attvalues>
           <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
+          <attvalue for="5" value="7.0" />
         </attvalues>
       </edge>
     </edges>

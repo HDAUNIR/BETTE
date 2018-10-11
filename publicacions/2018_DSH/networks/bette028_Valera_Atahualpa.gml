@@ -1,260 +1,260 @@
 graph [
   node [
     id 0
-    label "#escu"
+    label "#bria"
+    sex "F"
+    importance "secondary"
     nature "person"
     role "other"
-    importance "minor"
-    sex "M"
   ]
   node [
     id 1
     label "#iren"
+    sex "F"
+    importance "secondary"
     nature "person"
     role "other"
-    importance "secondary"
-    sex "F"
   ]
   node [
     id 2
-    label "#fern"
-    nature "person"
-    role "antagonist"
-    importance "primary"
+    label "#escu"
     sex "M"
+    importance "minor"
+    nature "person"
+    role "other"
   ]
   node [
     id 3
-    label "#garc"
+    label "#cipr"
+    sex "M"
+    importance "minor"
     nature "person"
     role "other"
-    importance "minor"
-    sex "M"
   ]
   node [
     id 4
-    label "#pere"
+    label "#padr"
+    sex "M"
+    importance "secondary"
     nature "person"
     role "other"
-    importance "minor"
-    sex "M"
   ]
   node [
     id 5
-    label "#cipr"
-    nature "person"
-    role "other"
-    importance "minor"
+    label "#cuel"
     sex "M"
+    importance "primary"
+    nature "person"
+    role "lover"
   ]
   node [
     id 6
-    label "#juan"
+    label "#fern"
+    sex "M"
+    importance "primary"
     nature "person"
-    role "other"
-    importance "minor"
-    sex "F"
+    role "antagonist"
   ]
   node [
     id 7
-    label "#bria"
+    label "#juan"
+    sex "F"
+    importance "minor"
     nature "person"
     role "other"
-    importance "secondary"
-    sex "F"
   ]
   node [
     id 8
-    label "#cuel"
-    nature "person"
-    role "lover"
-    importance "primary"
+    label "#garc"
     sex "M"
+    importance "minor"
+    nature "person"
+    role "other"
   ]
   node [
     id 9
     label "#rive"
+    sex "M"
+    importance "primary"
     nature "person"
     role "antagonist"
-    importance "primary"
-    sex "M"
   ]
   node [
     id 10
-    label "#padr"
+    label "#pere"
+    sex "M"
+    importance "minor"
     nature "person"
     role "other"
-    importance "secondary"
-    sex "M"
   ]
   node [
     id 11
     label "#laur"
+    sex "F"
+    importance "primary"
     nature "person"
     role "protagonist"
-    importance "primary"
-    sex "F"
   ]
   edge [
     source 0
-    target 10
-    Weight 1.0
+    target 3
     Type "Undirected"
+    Weight 2.0
   ]
   edge [
     source 0
-    target 11
-    Weight 1.0
+    target 4
     Type "Undirected"
+    Weight 2.0
   ]
   edge [
     source 0
-    target 1
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 1
     target 9
+    Type "Undirected"
     Weight 1.0
+  ]
+  edge [
+    source 0
+    target 5
     Type "Undirected"
+    Weight 1.0
+  ]
+  edge [
+    source 0
+    target 8
+    Type "Undirected"
+    Weight 1.0
   ]
   edge [
     source 1
-    target 10
-    Weight 3.0
+    target 4
     Type "Undirected"
+    Weight 3.0
   ]
   edge [
     source 1
-    target 11
-    Weight 3.0
+    target 6
     Type "Undirected"
+    Weight 3.0
   ]
   edge [
     source 1
     target 2
-    Weight 3.0
     Type "Undirected"
+    Weight 1.0
   ]
   edge [
-    source 2
+    source 1
     target 11
-    Weight 3.0
     Type "Undirected"
+    Weight 3.0
+  ]
+  edge [
+    source 1
+    target 9
+    Type "Undirected"
+    Weight 1.0
   ]
   edge [
     source 2
     target 4
-    Weight 1.0
     Type "Undirected"
+    Weight 1.0
   ]
   edge [
     source 2
-    target 8
-    Weight 2.0
+    target 11
     Type "Undirected"
-  ]
-  edge [
-    source 2
-    target 10
-    Weight 2.0
-    Type "Undirected"
+    Weight 1.0
   ]
   edge [
     source 3
-    target 8
-    Weight 2.0
+    target 4
     Type "Undirected"
+    Weight 2.0
   ]
   edge [
     source 3
-    target 7
-    Weight 1.0
-    Type "Undirected"
-  ]
-  edge [
-    source 5
     target 9
-    Weight 2.0
     Type "Undirected"
+    Weight 2.0
   ]
   edge [
-    source 5
-    target 10
-    Weight 2.0
+    source 4
+    target 6
     Type "Undirected"
+    Weight 2.0
   ]
   edge [
-    source 5
-    target 7
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 6
+    source 4
     target 9
-    Weight 1.0
     Type "Undirected"
+    Weight 1.0
   ]
   edge [
-    source 6
+    source 4
+    target 5
+    Type "Undirected"
+    Weight 1.0
+  ]
+  edge [
+    source 4
     target 11
-    Weight 2.0
     Type "Undirected"
-  ]
-  edge [
-    source 7
-    target 9
     Weight 1.0
-    Type "Undirected"
   ]
   edge [
-    source 7
-    target 10
-    Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 7
+    source 5
     target 8
-    Weight 1.0
     Type "Undirected"
-  ]
-  edge [
-    source 8
-    target 9
     Weight 2.0
-    Type "Undirected"
   ]
   edge [
-    source 8
-    target 10
-    Weight 1.0
+    source 5
+    target 9
     Type "Undirected"
+    Weight 2.0
   ]
   edge [
-    source 8
+    source 5
+    target 6
+    Type "Undirected"
+    Weight 2.0
+  ]
+  edge [
+    source 5
     target 11
+    Type "Undirected"
     Weight 4.0
-    Type "Undirected"
   ]
   edge [
-    source 9
+    source 6
     target 10
-    Weight 1.0
     Type "Undirected"
+    Weight 1.0
+  ]
+  edge [
+    source 6
+    target 11
+    Type "Undirected"
+    Weight 3.0
+  ]
+  edge [
+    source 7
+    target 9
+    Type "Undirected"
+    Weight 1.0
+  ]
+  edge [
+    source 7
+    target 11
+    Type "Undirected"
+    Weight 2.0
   ]
   edge [
     source 9
     target 11
+    Type "Undirected"
     Weight 2.0
-    Type "Undirected"
-  ]
-  edge [
-    source 10
-    target 11
-    Weight 1.0
-    Type "Undirected"
   ]
 ]

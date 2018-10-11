@@ -6,468 +6,468 @@
       <attribute id="5" title="Weight" type="double" />
     </attributes>
     <attributes class="node" mode="static">
-      <attribute id="0" title="nature" type="string" />
-      <attribute id="1" title="sex" type="string" />
+      <attribute id="0" title="sex" type="string" />
+      <attribute id="1" title="role" type="string" />
       <attribute id="2" title="importance" type="string" />
-      <attribute id="3" title="role" type="string" />
+      <attribute id="3" title="nature" type="string" />
     </attributes>
     <nodes>
-      <node id="#cues" label="Don Leonardo Cuesta">
+      <node id="#maxi" label="Máximo">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#evar" label="Evarista">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#marq" label="El Marqués de Ronda">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#patr" label="Patros">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#jose" label="José">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#balb" label="Balbina">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#pant" label="Don Salvador Pantoja">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="lover" />
           <attvalue for="2" value="primary" />
-          <attvalue for="3" value="antagonist" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
       <node id="#gil_" label="Gil">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
-      <node id="#oper" label="Un operario">
+      <node id="#jose" label="José">
         <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#maxi" label="Máximo">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="primary" />
-          <attvalue for="3" value="lover" />
-        </attvalues>
-      </node>
-      <node id="#elec" label="Electra">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="primary" />
-          <attvalue for="3" value="protagonist" />
-        </attvalues>
-      </node>
-      <node id="#mari" label="Mariano">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="minor" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#doro" label="Sor Dorotea">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="F" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
-        </attvalues>
-      </node>
-      <node id="#urba" label="Don Urbano García Yuste">
-        <attvalues>
-          <attvalue for="0" value="person" />
-          <attvalue for="1" value="M" />
-          <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
       <node id="#eleu" label="La sombra de Eleuteria">
         <attvalues>
-          <attvalue for="0" value="non-human" />
-          <attvalue for="1" value="F" />
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
           <attvalue for="2" value="secondary" />
-          <attvalue for="3" value="other" />
+          <attvalue for="3" value="non-human" />
+        </attvalues>
+      </node>
+      <node id="#cues" label="Don Leonardo Cuesta">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#mari" label="Mariano">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#elec" label="Electra">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="protagonist" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#evar" label="Evarista">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#balb" label="Balbina">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#oper" label="Un operario">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#urba" label="Don Urbano García Yuste">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#doro" label="Sor Dorotea">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#patr" label="Patros">
+        <attvalues>
+          <attvalue for="0" value="F" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="minor" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#marq" label="El Marqués de Ronda">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="other" />
+          <attvalue for="2" value="secondary" />
+          <attvalue for="3" value="person" />
+        </attvalues>
+      </node>
+      <node id="#pant" label="Don Salvador Pantoja">
+        <attvalues>
+          <attvalue for="0" value="M" />
+          <attvalue for="1" value="antagonist" />
+          <attvalue for="2" value="primary" />
+          <attvalue for="3" value="person" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="#cues" target="#evar">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="8.0" />
-        </attvalues>
-      </edge>
-      <edge id="1" source="#cues" target="#marq">
+      <edge id="0" source="#maxi" target="#urba">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="6.0" />
         </attvalues>
       </edge>
-      <edge id="2" source="#cues" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="3" source="#cues" target="#patr">
+      <edge id="1" source="#maxi" target="#gil_">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="2.0" />
         </attvalues>
       </edge>
-      <edge id="4" source="#cues" target="#jose">
+      <edge id="2" source="#maxi" target="#jose">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="5" source="#cues" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="8.0" />
-        </attvalues>
-      </edge>
-      <edge id="6" source="#cues" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="8.0" />
-        </attvalues>
-      </edge>
-      <edge id="7" source="#cues" target="#pant">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="8.0" />
-        </attvalues>
-      </edge>
-      <edge id="8" source="#cues" target="#balb">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="9" source="#evar" target="#marq">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="15.0" />
-        </attvalues>
-      </edge>
-      <edge id="10" source="#evar" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="9.0" />
-        </attvalues>
-      </edge>
-      <edge id="11" source="#evar" target="#patr">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="12" source="#evar" target="#jose">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="13" source="#evar" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="10.0" />
-        </attvalues>
-      </edge>
-      <edge id="14" source="#evar" target="#doro">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="15" source="#evar" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="17.0" />
-        </attvalues>
-      </edge>
-      <edge id="16" source="#evar" target="#pant">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="15.0" />
-        </attvalues>
-      </edge>
-      <edge id="17" source="#evar" target="#balb">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="18" source="#marq" target="#mari">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="19" source="#marq" target="#patr">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="20" source="#marq" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="13.0" />
-        </attvalues>
-      </edge>
-      <edge id="21" source="#marq" target="#jose">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="22" source="#marq" target="#balb">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="23" source="#marq" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="17.0" />
-        </attvalues>
-      </edge>
-      <edge id="24" source="#marq" target="#doro">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="25" source="#marq" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="17.0" />
-        </attvalues>
-      </edge>
-      <edge id="26" source="#marq" target="#pant">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="15.0" />
-        </attvalues>
-      </edge>
-      <edge id="27" source="#patr" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="28" source="#patr" target="#balb">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="29" source="#patr" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge id="30" source="#patr" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="31" source="#patr" target="#pant">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="32" source="#jose" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="33" source="#jose" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="34" source="#jose" target="#pant">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="35" source="#balb" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="36" source="#balb" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="37" source="#balb" target="#pant">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="38" source="#pant" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="7.0" />
-        </attvalues>
-      </edge>
-      <edge id="39" source="#pant" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="12.0" />
-        </attvalues>
-      </edge>
-      <edge id="40" source="#pant" target="#doro">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="41" source="#pant" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="11.0" />
-        </attvalues>
-      </edge>
-      <edge id="42" source="#gil_" target="#mari">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="43" source="#gil_" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="44" source="#gil_" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="45" source="#oper" target="#elec">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="46" source="#oper" target="#maxi">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="2.0" />
-        </attvalues>
-      </edge>
-      <edge id="47" source="#maxi" target="#mari">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="4.0" />
-        </attvalues>
-      </edge>
-      <edge id="48" source="#maxi" target="#elec">
+      <edge id="3" source="#maxi" target="#elec">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="14.0" />
         </attvalues>
       </edge>
-      <edge id="49" source="#maxi" target="#doro">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="1.0" />
-        </attvalues>
-      </edge>
-      <edge id="50" source="#maxi" target="#urba">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="6.0" />
-        </attvalues>
-      </edge>
-      <edge id="51" source="#elec" target="#mari">
+      <edge id="4" source="#maxi" target="#mari">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="4.0" />
         </attvalues>
       </edge>
-      <edge id="52" source="#elec" target="#doro">
-        <attvalues>
-          <attvalue for="4" value="Undirected" />
-          <attvalue for="5" value="3.0" />
-        </attvalues>
-      </edge>
-      <edge id="53" source="#elec" target="#urba">
+      <edge id="5" source="#maxi" target="#evar">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="9.0" />
         </attvalues>
       </edge>
-      <edge id="54" source="#elec" target="#eleu">
+      <edge id="6" source="#maxi" target="#oper">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="#maxi" target="#doro">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
         </attvalues>
       </edge>
-      <edge id="55" source="#doro" target="#urba">
+      <edge id="8" source="#maxi" target="#cues">
         <attvalues>
           <attvalue for="4" value="Undirected" />
           <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="#maxi" target="#patr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="#maxi" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="13.0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="#maxi" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="7.0" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="#gil_" target="#mari">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="#gil_" target="#elec">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="#jose" target="#evar">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="#jose" target="#cues">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="#jose" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="#jose" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="#jose" target="#urba">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="#eleu" target="#elec">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="#cues" target="#balb">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="#cues" target="#evar">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="8.0" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="#cues" target="#patr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="#cues" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="#cues" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="8.0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="#cues" target="#elec">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="8.0" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="#cues" target="#urba">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="8.0" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="#mari" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="#mari" target="#elec">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="#elec" target="#evar">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="10.0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="#elec" target="#urba">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="9.0" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="#elec" target="#balb">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="#elec" target="#oper">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="#elec" target="#doro">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="#elec" target="#patr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="#elec" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="17.0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="#elec" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="12.0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="#evar" target="#balb">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="#evar" target="#doro">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="#evar" target="#patr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="#evar" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="15.0" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="#evar" target="#urba">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="17.0" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="#evar" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="15.0" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="#balb" target="#urba">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="#balb" target="#patr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="#balb" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="#balb" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="#urba" target="#doro">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="#urba" target="#patr">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="#urba" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="17.0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="#urba" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="11.0" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="#doro" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="#doro" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="#patr" target="#marq">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="#patr" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="1.0" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="#marq" target="#pant">
+        <attvalues>
+          <attvalue for="4" value="Undirected" />
+          <attvalue for="5" value="15.0" />
         </attvalues>
       </edge>
     </edges>

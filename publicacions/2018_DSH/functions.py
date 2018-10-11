@@ -97,6 +97,7 @@ def visualise_networks(input_folder, name_files, columns_nodes, visualisations_f
         nx.draw_networkx(graph, pos, labels = labels, width = widths, font_size=15+(len(graph.nodes())/25), alpha=0.4, edge_color='#87CEFA', node_color=colors, cmap=plt.cm.RdYlBu, style= "solid", node_size = degree)
     
         plt.savefig(visualisations_folder+file_edges_name+'.png', dpi=300)
+        plt.savefig(visualisations_folder+file_edges_name+'.eps', dpi=300)
 
         attributes_df = pd.DataFrame([i[1] for i in graph.nodes(data=True)], index=[i[0] for i in graph.nodes(data=True)])
         
@@ -193,6 +194,7 @@ def test_correlation(attributes_total, ground_truths, variables):
             i += 1
         plt.tight_layout()
         plt.savefig("visualisations/corr_"+ground_truth+"_"+test+".png", dpi=300 )
+        plt.savefig("visualisations/corr_"+ground_truth+"_"+test+".eps", dpi=300 )
         plt.show()
 
 
@@ -225,6 +227,7 @@ def test_values_role(attributes_total, ground_truths_roles, variables):
 
     plt.tight_layout()
     plt.savefig("visualisations/boxplots_"+ground_truth_role+".png", dpi=300)
+    plt.savefig("visualisations/boxplots_"+ground_truth_role+".eps", dpi=300)
     plt.show()
 
 
@@ -267,6 +270,7 @@ def make_boxplot_importance(attributes_total, variables, test):
 
     plt.tight_layout()
     plt.savefig("visualisations/boxplots_importance.png", dpi=300)
+    plt.savefig("visualisations/boxplots_importance.eps", dpi=300)
     plt.show()
 
 
