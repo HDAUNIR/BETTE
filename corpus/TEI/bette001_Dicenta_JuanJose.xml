@@ -1360,7 +1360,7 @@ encargados de conceder o negar el permiso de representación y del cobro de los 
 					<sp who="#rosa">
 						<speaker>Rosa.</speaker> <p>¿Hay música ahí dentro?...</p>
 					</sp>
-					<stage>(<rs key="#1voz">UNA VOZ DE HOMBRE</rs> entona dentro la salida de una malagueña.)</stage>
+					<stage>(<rs key="#unav">UNA VOZ DE HOMBRE</rs> entona dentro la salida de una malagueña.)</stage>
 					<sp who="#isid">
 						<speaker>Isidra.</speaker> 
 						<p>Es...</p>
@@ -1369,7 +1369,7 @@ encargados de conceder o negar el permiso de representación y del cobro de los 
 						<speaker>Rosa.</speaker>
 						<p><stage> (Levantándose y dirigiéndose hacia la derecha.) </stage> Oiga usté, que van a cantar.</p>
 					</sp>
-					<sp who="#1voz">
+					<sp who="#unav">
 						<speaker>UNA VOZ DE HOMBRE.</speaker>
 						<p> <stage> (Dentro y cantando acompañado por la guitarra.) </stage>
 							<lg> <l> <hi rend="italics">Vivir sin ti, no es vivir,</hi></l>
