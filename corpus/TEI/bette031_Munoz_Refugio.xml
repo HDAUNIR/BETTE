@@ -155,7 +155,7 @@
 				<head>Acto Primero</head> 
 				<stage>Pieza central de uno de los paradores, albergues o «refugios» construidos al borde de las carreteras por el Patronato Nacional de Turismo. En el foro, chimenea de piedra, con librerías y sendos butacones. En el primer término de cada lateral, un tresillo con su mesita correspondiente. En las paredes, aparatos de luz, un teléfono y trazos de colores indicando carreteras, pueblos, fuentes de gasolina, etc., etc. Una puerta en cada lateral: la de la derecha (actor), que da acceso al comedor, y la de la izquierda, que conduce al recibimiento. Son las cinco de la tarde de un día de invierno. La chimenea, encendida. Época actual</stage>
 				<stage>Al levantarse el telón, <rs key="#afri">África</rs>, administradora del «parador», señora como de cincuenta años, que viste con sencillez y buen gusto, está poniendo nuevos leños en la chimenea, al mismo tiempo que entra en escena, por la derecha, <rs key="#timo">Timoteo</rs>, su hermano, sesentón simpaticote y corriente, que ha sido cochero de casa grande, y se le nota.</stage>
-				<sp who="timo"> 
+				<sp who="#timo"> 
 					<speaker>Timoteo</speaker>
 					<p>¿Qué, se largó ya la marquesa esa de Sangüesa?</p>
 				</sp>
@@ -455,7 +455,7 @@
 					<speaker>Horacio</speaker>
 					<p> Muy bien; muchas gracias.</p>
 				</sp>
-				<sp who="timo">
+				<sp who="#timo">
 					<speaker>Timoteo</speaker>
 					<p><stage>(Sentándose)</stage>. Cúbrase.</p>
 				</sp>
@@ -794,7 +794,7 @@
 					<speaker>Horacio</speaker>
 					<p>¡Ahí es nada! ¡En pleno ahi-landoy!</p>
 				</sp>
-				<sp who="paco">
+				<sp who="#paco">
 					<speaker>Paco</speaker>
 					<p>Sí, señor.</p>
 				</sp>
@@ -1026,7 +1026,7 @@
 					<speaker>Condesa</speaker>
 					<p>Por eso no he querido ir sola y me acompaña el hijo de mi administrador general. A <rs key="#vict">Victoriano</rs> le he visto yo nacer y hacerse hombre, y sé que es un muchacho valiente y decidido. Sobre todo, decidido.</p>
 				</sp>
-				<sp who="vict">
+				<sp who="#vict">
 					<speaker>Victoriano</speaker>
 					<p>Sí, señora. No lo digo por alabarme: pero yo, con una pistola en la mano y con esta puntería que me ha dado Dios, que escribo a balazos mi nombre y lo rubrico, no le temo a nada ni a nadie.</p>
 				</sp>
@@ -2332,12 +2332,12 @@
 						<l>cuando en Villa Cisneros…</l>
 					</lg>
 				</sp>
-				<sp who="paco">
+				<sp who="#paco">
 					<speaker>Paco</speaker>
 					<p><stage>(Por la izquierda)</stage>.  Don <rs key="#hora">Horacio</rs>… De parte de don <rs key="#luis">Luis</rs> Andrés, que haga usté el favor de ir en su busca. Está ahí, en la carretera, tomando el sol.</p>
 				</sp>
 
-				<sp who="Horacio">
+				<sp who="#hora">
 					<speaker>Horacio</speaker>
 					<p>Voy en seguida.</p>
 				</sp>
@@ -3383,7 +3383,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p><stage>(Entrando por la izquierda con <rs key="#afri">África</rs>, <rs key="#cons">Consuelo</rs>, <rs key="#maru">Maruja</rs>, <rs key="#beni">Benita</rs> y <rs key="#timo">Timoteo</rs>).</stage> Sí; aquí están los dos.</p>
 				</sp>
 
-				<sp who="Luis">
+				<sp who="#luis">
 					<speaker>Luis</speaker>
 					<p>¿Qué ocurre, muchacho?</p>
 				</sp>
@@ -5309,7 +5309,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>Usté, don <rs key="#cami">Camilo</rs>, se sienta lejos de nosotros, como si no nos conociéramos.</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Muy complacido).</stage>. Sí, hombre. ¡Y ya verás!</p>
 				</sp>
@@ -5369,7 +5369,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p><stage>(A Camilo).</stage>. ¿Y el señor?</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Acción de beber).</stage>. Of crenfia bail san dorf.</p>
 				</sp>
@@ -5404,7 +5404,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>¿Pero han visto ustedes qué frigidaire? ¡Ya está! ¡Ruso y del Cáucaso! ¡Es el sinvergüenza, cara de cemento, más grande!…</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p>A ver lo que me trae, hombre. Como sea algo de alcohol se ha caído.</p>
 				</sp>
@@ -5704,7 +5704,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>¡Llevo un día!…</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(A <rs key="#paco">Paco</rs>; indicándole un sillón).</stage> ¿Baj bai jarden? <stage>(Todos prestan gran atención).</stage></p>
 				</sp>
@@ -5719,7 +5719,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>(¡Atiza!).</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p>¿Truven dórminin sérden?</p>
 				</sp>
@@ -5739,7 +5739,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>¡Es listísimo!</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p>Dorpe fandan tijirden bastrofian.</p>
 				</sp>
@@ -5749,7 +5749,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>Fandan cinque.</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Dándole a <rs key="#paco">Paco</rs> dos duros y echándole mano al sillón para llevárselo).</stage> Tron sai belogen, mal buldin bufan chester. <stage>(Cargando con el sillón, en medio del asombro de todos).</stage> ¡Say Wolfa! ¡¡Say Wolfa!!</p>
 				</sp>
@@ -5834,7 +5834,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>¡Ay qué gracioso!</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Desafiante).</stage>. ¡Jajay!</p>
 				</sp>
@@ -5859,7 +5859,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p><stage>(Sujetándole).</stage> ¡Paco!…</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Lleno de pánico).</stage> ¡Caray!</p>
 				</sp>
@@ -5874,7 +5874,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p><stage>(A <rs key="#paco">Paco</rs>).</stage> Vamos, criatura, no se ponga usté así. Este señor le va a dar a usté las dos mil pesetas, porque el trato es trato, y no hay más que hablar. <stage>(A don <rs key="#cami">Camilo</rs>).</stage> Suelte usted la mosca, que aquí el que no se lía, se enrosca. ¡Ay qué tonto! ¿Pues no se lo estoy diciendo en castellano? Fandan cinque bergemen y despuisque… despejen.</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Miedoso, tirando de cartera).</stage> Ya la va, ya; ya la va.</p>
 				</sp>
@@ -5884,7 +5884,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>Usté dagalá y ya está.</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Alargando a <rs key="#paco">Paco</rs> dos billetes de mil pesetas).</stage> ¿Sa?</p>
 				</sp>
@@ -5904,17 +5904,17 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p><stage>(Aparte, a don <rs key="#cami">Camilo</rs>).</stage> Nos han cogido la vez.</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p>¡Malhaya sea! Pues yo no lo dejo aquí. <stage>(A <rs key="#paco">Paco</rs>).</stage> Oiga.</p>
 				</sp>
 
-				<sp who="todo">
+				<sp who="#todo">
 					<speaker>Todos</speaker>
 					<p>¿Eh?</p>
 				</sp>
 
-				<sp who="cami">
+				<sp who="#cami">
 					<speaker>Don Camilo</speaker>
 					<p><stage>(Colándose).</stage> Mañana vendrán por él. (¡Me he colado!) Gut bae. <stage>(Se va por la izquierda).</stage></p>
 				</sp>
@@ -6381,7 +6381,7 @@ primera edición aparece "posse", imagino que por ser extranjerismo reciente-->E
 					<p>Allí te esperamos.</p>
 				</sp>
 
-				<sp who="hora">
+				<sp who="#hora">
 					<speaker>Horacio</speaker>
 					<p><stage>(A <rs key="#timo">Timoteo</rs>, dirigiéndose hacia la puerta de la izquierda).</stage> ¿Qué será?</p>
 				</sp>

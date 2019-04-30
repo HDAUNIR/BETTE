@@ -418,7 +418,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> <stage> (Abrazándola.) </stage> ¡<rs key="#clem">Clementina</rs>... hija!</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> ¿Qué tal, señora?</p>
 					</sp>
@@ -431,7 +431,7 @@
 						<p> ¡Qué alegría!
 							<stage> (Ambas la besan.) </stage></p>
 					</sp>
-					<sp who="Beat">
+					<sp who="#beat">
 						<speaker>Beatriz.- </speaker>
 						<p> ¡Buen susto nos hemos llevado!</p>
 					</sp>
@@ -439,15 +439,15 @@
 						<speaker>Clementina.- </speaker>
 						<p> Muy enojada, pero muy enojada con usted... ¡Estar tan malita y no decirme una palabra!</p>
 					</sp>
-					<sp who="beat">
+					<sp who="#beat">
 						<speaker>Beatriz.- </speaker>
 						<p> ¡No mandarnos un recadito!</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> Nada supimos.</p>
 					</sp>
-					<sp who="marí">
+					<sp who="#mari">
 						<speaker>María Juana.- </speaker>
 						<p> La primera noticia que llegó a casa fue que ya estaba mejor.</p>
 					</sp>
@@ -459,7 +459,7 @@
 						<speaker>Clementina.- </speaker>
 						<p> Pero nos privó del consuelo de asistirla.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> Y ¿qué ha sido al fin?</p>
 					</sp>
@@ -475,7 +475,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> A mí no me asusta la muerte, pues para ella estoy, gracias a Dios, bien preparada. Demasiado sé que nuestra vida es un castigo, la muerte un indulto. ¿Qué hacemos en este presidio? El único solaz que en él hallamos es pedir a Dios que nos dé libertad y nos lleve consigo.</p>
 					</sp>
-					<sp who="beat">
+					<sp who="#beat">
 						<speaker>Beatriz.- </speaker>
 						<p> Tiíta, no nos hables de cosas tristes.</p>
 					</sp>
@@ -484,7 +484,7 @@
 						<p> Hablaré de lo que queráis.
 							<stage> (Les indica que se sienten.) </stage> Vosotras a mi lado. <stage> (Las niñas se sientan a un lado y otro de doña <rs key="#juan">Juana</rs>; don <rs key="#alfo">Alfonso</rs> permanece en pie.) </stage> Dime, <rs key="#alfo">Alfonso</rs>: ¿Qué tal; qué tal esas campañas agrícolas? ¿Van bien?</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> A un soldado que pelea sin armas no le pregunte usted por sus victorias.</p>
 					</sp>
@@ -492,7 +492,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> Ciego estás, <rs key="#alfo">Alfonso</rs>, si no ves que en tierra de Castilla serán siempre perdidos tus esfuerzos. El suelo rapado y seco, los ríos sin agua y los montes desnudos, han dado de sí santos y guerreros; nunca darán labradores primorosos.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> Guerreros y santos da también ahora la tierra campa de Castilla; pero los santos son de los que acaban en el infierno; los guerreros, de los que concluyen apaleados, como el generoso don Quijote... Eso es hoy el agricultor castellano: santo condenado y guerrero sin gloria.</p>
 					</sp>
@@ -500,7 +500,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> No te canses; no porfíes con la Naturaleza, con Dios, que creó los países pobres para fundar en ellos las escuelas de la humildad y la paciencia. <stage> (<rs key="#alfo">Alfonso</rs> y <rs key="#clem">Clementina</rs> se miran de soslayo, refrenando su enojo.) </stage></p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> Yo, señora, creo que Dios nos ha dado los países yermos y huraños para que los hagamos hospitalarios, risueños. Se educan las tierras como las personas, y se doman los campos como las fieras.</p>
 					</sp>
@@ -516,7 +516,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> Yo le ayudo... como puedo. Y no voy más allá, porque los tiempos están malos.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Desabrido, irónico.) </stage> Malos, sí: malos están siempre... Y esa ruindad de los tiempos no acabará mientras los españoles no aprendamos a prestarnos auxilio unos a otros; mientras los que poseen con exceso no alarguen su mano a los que sufren escasez, a los que, cargados de hijos y de obligaciones duras, no pueden vivir ni respirar... Malo está y estará todo mientras el egoísmo sea ley de las almas.</p>
 					</sp>
@@ -524,7 +524,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> <stage> (Con afectado celo y tonillo eclesiástico.) </stage> ¡El egoísmo! Cierto que es la primera de las plagas humanas. Para combatirlo, cultivemos con preferencia los campos del espíritu.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> Tengo cinco hijos que mantener y obligaciones que cumplir. Sin dejar de dar al Cielo lo que es del Cielo, doy a la Tierra lo suyo.</p>
 					</sp>
@@ -532,7 +532,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> <stage> (Vivamente.) </stage> Sí; pero no te conformas con la voluntad de Dios.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Con igual viveza.) </stage> Sí me conformo... Nos conformamos demasiado. Mi voluntad es reflejo de la de Dios, y Dios me manda que... <stage> (<rs key="#beat">Beatriz</rs>, próxima a su padre, le tira de la levita.) </stage></p>
 					</sp>
@@ -557,11 +557,11 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> <stage> (Gozosa.) </stage> Sí... Ya iba a deciros que os deis por invitadas. Tengo plática... Cantarán las niñas de San Hilario.</p>
 					</sp>
-					<sp who="marí">
+					<sp who="#mari">
 						<speaker>María Juana.- </speaker>
 						<p> ¡Ay, qué gusto!... ¡y poco que me gusta a mí la plática!</p>
 					</sp>
-					<sp who="beat">
+					<sp who="#beat">
 						<speaker>Beatriz.- </speaker>
 						<p> Y a mí el coro de niñas... Cantaremos con ellas.</p>
 					</sp>
@@ -569,7 +569,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> <stage> (Las besa.) </stage> Niñas del alma, mucho me agrada que prefiráis este recreo del espíritu a los paseos vanos, y a la cháchara frívola con amiguitas sin seso. <stage> (Entra <rs key="#mart">Martina</rs> y anuncia en voz baja a la señora que han llegado los reverendos Sacerdotes.) </stage> Ya es la hora. <stage> (Se levanta impaciente y con dificultad, ayudada por <rs key="#clem">Clementina</rs>.) </stage> Vamos... 	<stage> (Coge su bastón. Toma el brazo de <rs key="#clem">Clementina</rs>.) </stage> Acompañadme a mi catedral casera. Veréis qué bonita está... <stage> (A <rs key="#alfo">Alfonso</rs>.) </stage> A ti no te digo que vengas... Temo que te fastidies.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> Sí, señora; me aburro. <stage> (Corrigiéndose con presteza.) </stage> No, no: he querido decir que... <stage> (Entra <rs key="#isma">Ismael</rs> presuroso por el fondo; saluda a doña <rs key="#juan">Juana</rs>. Es hombre de cuarenta años, regular figura, por demás inquieto y nervioso, el genio pronto, el pensamiento rápido, la voz y el mirar siempre delante del pensamiento.) </stage></p>
 					</sp>
@@ -597,7 +597,7 @@
 						<speaker>Doña Juana.- </speaker>
 						<p> Tampoco a ti te instaré para que vengas a mi capilla. Quédate con <rs key="#alfo">Alfonso</rs>, que, como tú, no gusta de fiestas religiosas, aunque por agradarme haya dicho lo contrario...</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Confuso.) </stage> He dicho sinceramente que...</p>
 					</sp>
@@ -613,7 +613,7 @@
 						<speaker>Ismael.- </speaker>
 						<p> <stage> (Como azarado, paseándose de largo a largo.) </stage> Lléveme el diablo si no está enteramente loca.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Sereno y burlón.) </stage> Y un loco hace ciento, querido <rs key="#isma">Ismael</rs>, porque tú lo estás de remate.</p>
 					</sp>
@@ -621,7 +621,7 @@
 						<speaker>Ismael.- </speaker>
 						<p> No es locura, es rabia. Figúrate que acabo de ver al reverendo administrador don Damián Insúa...</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> Ya entiendo. La entrega de los cinco mil duros se aplaza... ¿por cuántos días?</p>
 					</sp>
@@ -630,7 +630,7 @@
 						<p> Las promesas de esta buena señora nos traen la alegría del mañana... Luego se van, se van...
 							<stage> (Párase un momento.) </stage></p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> ¿Adónde?</p>
 					</sp>
@@ -639,7 +639,7 @@
 						<p> A la consumación de los siglos.
 							<stage> (Sigue su paseo vertiginoso.) </stage></p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Riendo.) </stage> Piensa doña <rs key="#juan">Juana</rs> que eres eterno, como ella.</p>
 					</sp>
@@ -647,7 +647,7 @@
 						<speaker>Ismael.- </speaker>
 						<p> <stage> (Parándose ante <rs key="#alfo">Alfonso</rs>.) </stage> Dime, <rs key="#alfo">Alfonso</rs>... pero con sinceridad: ¿crees tú que mi tía es santa, como dice la gente?</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> No sé qué responderte. No entiendo yo bien las psicologías de la santidad. Juzgando a doña <rs key="#juan">Juana</rs> por los efectos de su carácter sobre mi familia y sobre mí, no vacilo en asegurar que es la mujer más mala que Dios ha echado al mundo.</p>
 					</sp>
@@ -655,7 +655,7 @@
 						<speaker>Ismael.- </speaker>
 						<p> <stage> (Caviloso.) </stage> No tanto... no. La verdad es que a <rs key="#clem">Clementina</rs> y a mí, sus sobrinos carnales, nos ha trastornado con las esperanzas que nos arroja al rostro, como polvillo de oro que nos deslumbra, nos ahoga... y nos ciega.</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Con repugnancia del asunto.) </stage> Así es. Pero ¿a qué hablar de eso?</p>
 					</sp>
@@ -663,7 +663,7 @@
 						<speaker>Ismael.- </speaker>
 						<p> Yo no sé hablar de otra cosa. Parece natural que a mí, su sobrino carnal, pobre, creador de familia, trabajador en varias industrias, me auxilie con algún capital... Con que me diera los intereses del lote que me tiene destinado en su testamento, me haría feliz. No quería yo más para vivir en mis glorias, labrando nueva riqueza, multiplicando familia y productos industriales... Y en el propio caso estás tú... Que te dé una parte de las rentas del <hi rend="italics">latifundio</hi> y transformarás tus campos míseros...</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Amargado, le interrumpe.) </stage> Cállate... No me trastornes... Resuelto estoy a desentenderme de las vanas esperanzas de mi esposa... Sustituyo la paciencia con la confianza en mí mismo... Trabajaré como un pobre hidalgo de secano... No valgo yo para sobrino pordiosero; ni soy tan flaco de moral que subordine mis cálculos a la muerte de una persona, y descuente las ventajas de una herencia... que podrá ser... podrá no ser...</p>
 					</sp>
@@ -671,7 +671,7 @@
 						<speaker>Ismael.- </speaker>
 						<p> Ha de ser, <rs key="#alfo">Alfonso</rs>... Cree como yo, y espera...</p>
 					</sp>
-					<sp who="alfo">
+					<sp who="#alfo">
 						<speaker>Alfonso.- </speaker>
 						<p> <stage> (Viendo entrar a <rs key="#rosa">Rosaura</rs>.) </stage> Cuéntale todo eso a tu cara mitad...</p>
 					</sp>
@@ -3839,7 +3839,7 @@
 						<speaker>Rosaura.- </speaker>
 						<p> Así es. Si vas por el camino del bien y quieres abrazar vida religiosa, te facilitará cuanto para esa vida sea menester... Si te lanzas al mundo, no podrá seguirte más que con su compasión y el socorro de sus oraciones. <stage> (Observa con atento examen el rostro de <rs key="#casa">Casandra</rs>; mas en él sólo ve una profunda concentración del pensamiento.) </stage> Hay otro camino, <rs key="#casa">Casandra</rs>; otra carrera... y es que vivas de un honrado trabajo. Ya ves: con ese dinero podrás establecerte. doña <rs key="#juan">Juana</rs> me indicó que si adoptabas ese partido seguiría socorriéndote... siempre que te establecieras fuera de Madrid y dieras garantías de moralidad intachable... <stage> (Pausa.) </stage> Esta solución me parece la mejor para ti... Yo, que te quiero, que soy tu mejor amiga, puedo y debo aconsejarte...</p>
 					</sp>
-					<sp who="casa">
+					<sp who="#casa">
 						<speaker>Casandra.- </speaker>
 						<p> <stage> (Con voz lúgubre.) </stage> Tomaré consejo de mí misma. Mi dolor me ilumina. <stage> (Entra por la derecha <rs key="#clem">Clementina</rs> con los chiquillos. Cada uno trae en la mano un pedazo de pan.) </stage></p>
 					</sp>
@@ -3847,7 +3847,7 @@
 						<speaker>Clementina.- </speaker>
 						<p> Venid, nenes, a dar alegría y consuelo a vuestro papá.</p>
 					</sp>
-					<sp who="casa">
+					<sp who="#casa">
 						<speaker>Casandra.- </speaker>
 						<p> ¡Ah, tus niños! Déjame que los bese. <stage> (Llévanle los chiquillos. Los abraza.) </stage></p>
 					</sp>
@@ -3855,7 +3855,7 @@
 						<speaker>Rosaura.- </speaker>
 						<p> ¡Pobrecilla!... Por un instante figúrate que son los tuyos.</p>
 					</sp>
-					<sp who="casa">
+					<sp who="#casa">
 						<speaker>Casandra.- </speaker>
 						<p> Hijos míos, ¿dónde estáis?... Ya no os veré más.</p>
 					</sp>

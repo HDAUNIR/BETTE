@@ -1305,7 +1305,7 @@
 						<speaker>Sabelita</speaker>
 						<p>¡Socorro! ¡Socorro!</p>
 					</sp>
-					<sp who="#los ">
+					<sp who="#los">
 						<speaker>Los perros</speaker>
 						<p>¡Guau! ¡Guau! ¡Guau!</p>
 					</sp>
@@ -1341,7 +1341,7 @@
 						<speaker>El Capitán</speaker>
 						<p>¡Al que no esté que se lo lleve el diablo!</p>
 					</sp>
-					<sp who="#los ">
+					<sp who="#los">
 						<speaker>Los perros</speaker>
 						<p>¡Guau! ¡Guau! ¡Guau!</p>
 					</sp>
