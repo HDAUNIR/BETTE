@@ -114,7 +114,7 @@
 					<head>Escena Primera</head>
 				<stage>Anochece. A ser posible, imítese alguno de los ruidos propios del campo, en verano, en los valles del Noroeste de España; por ejemplo, voces lejanas de aldeanos, rechino apagado de carretas. De no conseguir una imitación apropiada, es preferible prescindir de todo esto. Al levantarse el telón, se oirá a lo lejos un aire del país en un instrumento rústico (algo como gaita, dulzaina, caramillo o cosa análoga). <rs key="#rita">Rita</rs> (de unos dieciocho años), y <rs key="#palm">Palmira</rs> (de cinco a siete años). <rs key="#rita">Rita</rs> duerme de bruces sobre el montón de grava, viste traje de aldeana del país, mezclado con prendas de artesana de la ciudad, todo maltrecho, pobre. <rs key="#palm">Palmira</rs>, cerca de ella, sentada sobre el polvo de la carretera, desgreñada, descalza. Llora con cierto ritmo, cansada ya del llanto. Cuando suena la música lejana, deja de llorar. Cesa la música, y vuelve el llanto. Pasan por la carretera algunos grupos de tres o cuatro mineros, unos silenciosos, otros en conversación confusa, lenta, desanimada. Los más, llevan lámpara de minero. Tuercen por el primer término de la izquierda, donde hace curva la carretera, y desaparecen. Después <rs key="#fern">Fernando</rs>.</stage>
 
-				<sp who="#alm">
+				<sp who="#palm">
 					<speaker>Palmira</speaker>
 					<p><stage>(Sentada en la carretera.)</stage>  ¡Madre! ¡madre! ¡Mira: <rs key="#rita">Rita</rs> no me da sopa!  <stage>(Se acerca, arrastrándose, a <rs key="#rita">Rita</rs>.) </stage> ¡<rs key="#rita">Rita</rs>! ¡Ritona! ¡Despierta, que me das miedo! ¡Sopa! ¡Ritona, dame pan!  (Le mete una mano entre los labios.)</p>
 				</sp>
@@ -1349,7 +1349,7 @@
 					<p> Y haces bien; está vendido a los de arriba, a los que nos explotan.</p>
 				</sp>
 
-				<sp who="#mi1 #min2 #min3">
+				<sp who="#min1 #min2 #min3">
 					<speaker>Todos</speaker> 
 					<p> ¡Buenas noches, buenas noches!</p>
 				</sp>

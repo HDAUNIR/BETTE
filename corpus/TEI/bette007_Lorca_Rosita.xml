@@ -995,17 +995,17 @@
 					<p>Calla.</p>
 				</sp>
 
-				<sp who="#mano">
+				<sp who="#man3">
 					<speaker>Manola 3ª</speaker>
 					<p>¿Por qué?</p>
 				</sp>
 
-				<sp who="#mano">
+				<sp who="#man2">
 					<speaker>Manola 2ª</speaker>
 					<p>¡Ay!</p>
 				</sp>
 
-				<sp who="#mano">
+				<sp who="#man1">
 					<speaker>Manola 1ª</speaker>
 					<p>¡Ay, sin que nadie lo oiga!</p>
 				</sp>
@@ -2520,7 +2520,7 @@
 					<p>Con quien sea, pero no me quiero quedar soltera.</p>
 				</sp>
 
-				<sp who="#ayol">
+				<sp who="#ayo2">
 					<speaker>Ayola 2ª</speaker>
 					<p>Yo pienso igual.</p>
 				</sp>

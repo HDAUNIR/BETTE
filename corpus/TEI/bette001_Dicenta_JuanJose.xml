@@ -766,7 +766,7 @@ encargados de conceder o negar el permiso de representación y del cobro de los 
 						</p>
 					</sp>
 					<stage>(El <rs key="#tabe">Tabernero</rs> sirve la copa a <rs key="#isid">Isidra</rs>; esta la apura a sorbos junto al mostrador.)</stage>
-					<sp who="andr">
+					<sp who="#andr">
 						<speaker>Andrés.</speaker>
 						<p>La <rs key="#isid">Isidra</rs>.<stage>(A <rs key="#juan">Juan José</rs>, que se habrá vuelto al oír la voz de <rs key="#isid">Isidra</rs>.)</stage>
 						</p>
@@ -2002,7 +2002,7 @@ encargados de conceder o negar el permiso de representación y del cobro de los 
 						<p> <stage> (Dejando el brasero en el suelo.) </stage> ¡Ya está aquí el brasero! ¡Y calienta que es una bendición! ¡<hi rend="italics">Acercarse</hi>, hijas, <hi rend="italics">acercarse</hi>!...</p>
 					</sp> 
 					<stage>(Rosa y Toñuela se acercan al brasero.)</stage> 
-					<sp who="rosa">
+					<sp who="#rosa">
 						<speaker>Rosa. </speaker>
 						<p> <stage> (Poniendo las manos cerca de la lumbre.) </stage>¡Estoy <hi rend="italics">arrecía!</hi>...</p>
 					</sp>

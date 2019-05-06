@@ -108,7 +108,7 @@
 					<castItem><role xml:id="pepe">José</role></castItem>
 					<castItem><role xml:id="teod">Teodoro</role></castItem>
 					<castItem><role xml:id="nico">Nicolás</role></castItem>
-					<castItem><role xml:id="marti">Martina</role><roleDesc>, <hi rend="italic">criada</hi></roleDesc></castItem>
+					<castItem><role xml:id="mart">Martina</role><roleDesc>, <hi rend="italic">criada</hi></roleDesc></castItem>
 					<castItem><role xml:id="hima">El Hijo mayor <hi rend="italic">de Felipe</hi></role></castItem>
 					<castItem><role xml:id="hime">El Hijo menor <hi rend="italic">de Felipe</hi></role></castItem>
 				</castList>
@@ -506,14 +506,14 @@
 				</div>
 				<div type="scene" n="5">
 					<head>ESCENA V</head>
-					<stage>Dichos, <rs key="#marti">Martina</rs> y <rs key="#feli">Felipe</rs>.</stage>
+					<stage>Dichos, <rs key="#mart">Martina</rs> y <rs key="#feli">Felipe</rs>.</stage>
 					<sp who="#mart">
 						<speaker>Martina</speaker>
 						<p><stage>(Entrando.)</stage> El señorito <rs key="#feli">Felipe</rs>...</p>
 					</sp>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
-						<p><stage>(A <rs key="#marti">Martina</rs>.)</stage> ¡Ven acá! ¿Tú sabes quién fue Graco?</p>
+						<p><stage>(A <rs key="#mart">Martina</rs>.)</stage> ¡Ven acá! ¿Tú sabes quién fue Graco?</p>
 					</sp>
 					<sp who="#mart">
 						<speaker>Martina</speaker>
@@ -1057,11 +1057,11 @@
 						<speaker>Ángel</speaker>
 						<p>¡Bruto! ¡Bruto! ¡Sí, bruto! Es mi animalidad la que así se agarra a la vida. Dios mío, ¿por qué mi alma no te crea en fuerza de fe? Quiero humillarme, ser como los sencillos, rezar como de niño, maquinalmente, por rutina... ¡Dame fuerzas, Dios mío, para que crea en Ti! ¡Dame fuerzas para que renunciando a mí mismo me encuentre al cabo en paz! Dame fuerzas para que humillándome doble mis rodillas y brote de mis labios la plegaria de la infancia... <stage>(Mira a todas partes como por si le observasen y va a arrodillarse, pero al ir a hacerlo se levanta sobresaltado y se acerca a la puerta, como quien ha oído algún ruido.)</stage> No, no tengo valor para confesarte... No me rechaces por ello... ¿No ha de ser el consuelo verdad? ¡Humíllate, <rs key="#ange">Ángel</rs>, humíllate! <stage>(Vuelve a intentar arrodillarse y hasta llega a hacerlo, pero con disimulo, como por coger algo del suelo.)</stage> ¡Padre...! <stage>(Se levanta y va hacia la puerta.)</stage> Esto es terrible; voy creyendo que no estoy sano... <stage>(Pone una silla junto a la mesa, al lado opuesto de la puerta, y se arrodilla.)</stage> ¡Con qué sencillez lo hacía de niño! Padre nuestro, que estás...</p>
 					</sp>
-					<stage>(Al sentir llamar a la puerta se levanta sobresaltado, va a ella y abre a <rs key="#marti">Martina</rs>, la criada, que entregándole una carta, se dispone a marchar.)</stage>
+					<stage>(Al sentir llamar a la puerta se levanta sobresaltado, va a ella y abre a <rs key="#mart">Martina</rs>, la criada, que entregándole una carta, se dispone a marchar.)</stage>
 				</div>
 				<div type="scene" n="10">
 					<head>ESCENA X</head>
-					<stage><rs key="#ange">Ángel</rs> y <rs key="#marti">Martina</rs>.</stage>
+					<stage><rs key="#ange">Ángel</rs> y <rs key="#mart">Martina</rs>.</stage>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
 						<p>¡Espera! <stage>(Repasa la carta con la vista.)</stage> Dime: ¿cómo rezas?</p>
@@ -1080,7 +1080,7 @@
 					</sp>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
-						<p><stage>(Aparte.)</stage> Se entienden sin hablar. <stage>(A <rs key="#marti">Martina</rs>.)</stage> ¿Pues a quién rezas?</p>
+						<p><stage>(Aparte.)</stage> Se entienden sin hablar. <stage>(A <rs key="#mart">Martina</rs>.)</stage> ¿Pues a quién rezas?</p>
 					</sp>
 					<sp who="#mart">
 						<speaker>Martina</speaker>
@@ -1146,7 +1146,7 @@
 						<speaker>Ángel</speaker>
 						<p>¿Que si quiero algo más? Es tanto lo que quiero..., ¡tanto! Ni yo sé lo que quiero... Vete, y no te olvides de rezar por mí...</p>
 					</sp>
-					<stage>(Se va <rs key="#marti">Martina</rs>.)</stage>
+					<stage>(Se va <rs key="#mart">Martina</rs>.)</stage>
 				</div>
 				<div type="scene" n="11">
 					<head>ESCENA XI</head>
@@ -1339,10 +1339,10 @@
 				</div>
 				<div type="scene" n="13">
 					<head>ESCENA XIII</head>
-					<stage><rs key="#ange">Ángel</rs>, solo; después, <rs key="#marti">Martina</rs>.</stage>
+					<stage><rs key="#ange">Ángel</rs>, solo; después, <rs key="#mart">Martina</rs>.</stage>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
-						<p>¡No quiero, no, no quiero! <stage>(Llamando.)</stage> ¡Cuanto antes, en caliente! ¡Que no vuelva a apoderarse de mí el demonio! <stage>(Entra <rs key="#marti">Martina</rs>.,)</stage> ¡Ven acá, <rs key="#marti">Martina</rs>! Toma esta carta y llévala a casa de Moreno; ya sabes dónde vive.</p>
+						<p>¡No quiero, no, no quiero! <stage>(Llamando.)</stage> ¡Cuanto antes, en caliente! ¡Que no vuelva a apoderarse de mí el demonio! <stage>(Entra <rs key="#mart">Martina</rs>.,)</stage> ¡Ven acá, <rs key="#mart">Martina</rs>! Toma esta carta y llévala a casa de Moreno; ya sabes dónde vive.</p>
 					</sp>
 					<sp who="#mart">
 						<speaker>Martina</speaker>
@@ -1359,7 +1359,7 @@
 					</sp>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
-						<p>¡No, no, vete! ¡No quiero, no, no quiero! <stage>(Sale <rs key="#marti">Martina</rs>.,)</stage> ¡Se acabó! ¡No puedo ya arrepentirme! <stage>(Empieza a pasear, cabizbajo.)</stage> Ahora, a templarme en el recogimiento; a entonar mi corazón, y después, cuando le hiera el Espíritu, que sopla donde quiere, me arrancará limpia y pura mi nota, la mía propia, para que vaya a perderse en la infinita sinfonía, en el cántico universal al amor del Padre. <stage>(En los paseos por la estancia pasa frente al espejo, y ahora, al aproximarse a él cabizbajo, vislumbra de pronto su propia imagen como una sombra extraña y se detiene ante ella sobrecogido. Levanta la vista al espejo y se contempla un momento. Acércase en seguida a él, y cuando está como en entrevista con su propia imagen, se llama en voz queda:)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>! <stage>(Momento de recogimiento, tras el cual se pasa la mano por la frente, como ahuyentando una pesadilla, carraspea, se mira y palpa disimuladamente, avergonzado, y dice:)</stage> ... ¿Sombra?... ¡No!... ¡No!... ¡Vivo!... ¡Vivo!... <stage>(De pronto, sintiendo una violenta palpitación, lanza un gemido y se lleva la mano al pecho, diciendo:)</stage> ¡Pobrecillo! ¡Cómo trabajas! Sin descanso. Tú velas, mientras éste <stage>(Pasándose la mano por la frente.)</stage> duerme, y si hay peligro, con tus latidos le despiertas. No me cabes en el pecho, ¡pobrecillo! Quieres latir en todo y con todo; palpitar con el universo entero; recibir y devolver su savia eterna, la que viene de los infinitos mundos y a ellos vuelve. ¡Y con tanto anhelar derramarte me ahogas..., sí... me ahogas! <stage>(Va a la mesa, vierte agua en el vaso, la coge y apura de un trago casi todo su contenido; lo que resta se lo echa en la palma de la mano para rociarse la frente con ello.)</stage> ¡Quién pudiera sorberse así al Espíritu universal! ¡Dios mío! ¡Anégame, ahógame! ¡Que sienta mi vida derretirse en tu seno!</p>
+						<p>¡No, no, vete! ¡No quiero, no, no quiero! <stage>(Sale <rs key="#mart">Martina</rs>.,)</stage> ¡Se acabó! ¡No puedo ya arrepentirme! <stage>(Empieza a pasear, cabizbajo.)</stage> Ahora, a templarme en el recogimiento; a entonar mi corazón, y después, cuando le hiera el Espíritu, que sopla donde quiere, me arrancará limpia y pura mi nota, la mía propia, para que vaya a perderse en la infinita sinfonía, en el cántico universal al amor del Padre. <stage>(En los paseos por la estancia pasa frente al espejo, y ahora, al aproximarse a él cabizbajo, vislumbra de pronto su propia imagen como una sombra extraña y se detiene ante ella sobrecogido. Levanta la vista al espejo y se contempla un momento. Acércase en seguida a él, y cuando está como en entrevista con su propia imagen, se llama en voz queda:)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>! <stage>(Momento de recogimiento, tras el cual se pasa la mano por la frente, como ahuyentando una pesadilla, carraspea, se mira y palpa disimuladamente, avergonzado, y dice:)</stage> ... ¿Sombra?... ¡No!... ¡No!... ¡Vivo!... ¡Vivo!... <stage>(De pronto, sintiendo una violenta palpitación, lanza un gemido y se lleva la mano al pecho, diciendo:)</stage> ¡Pobrecillo! ¡Cómo trabajas! Sin descanso. Tú velas, mientras éste <stage>(Pasándose la mano por la frente.)</stage> duerme, y si hay peligro, con tus latidos le despiertas. No me cabes en el pecho, ¡pobrecillo! Quieres latir en todo y con todo; palpitar con el universo entero; recibir y devolver su savia eterna, la que viene de los infinitos mundos y a ellos vuelve. ¡Y con tanto anhelar derramarte me ahogas..., sí... me ahogas! <stage>(Va a la mesa, vierte agua en el vaso, la coge y apura de un trago casi todo su contenido; lo que resta se lo echa en la palma de la mano para rociarse la frente con ello.)</stage> ¡Quién pudiera sorberse así al Espíritu universal! ¡Dios mío! ¡Anégame, ahógame! ¡Que sienta mi vida derretirse en tu seno!</p>
 					</sp>
 					<stage>(Cae el telón.)</stage>
 					<stage>Fin del acto primero</stage>
@@ -1935,7 +1935,7 @@
 				</div>
 				<div type="scene" n="7">
 					<head>ESCENA VII</head>
-					<stage><rs key="#ange">Ángel</rs>, solo, mirando al retrato, y luego, <rs key="#marti">Martina</rs>.</stage>
+					<stage><rs key="#ange">Ángel</rs>, solo, mirando al retrato, y luego, <rs key="#mart">Martina</rs>.</stage>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
 						<p>¿Qué hay más allá, pobre madre? Esa mirada me persigue; es la mirada del misterio... Mejor será quitar de ahí cuanto antes esa imagen, ya que me basta con la que llevo siempre en el corazón. <stage>(Llama.)</stage> ¡Quién pudiese vivir vida de idiota, reír al sol, y morirse sin saberlo! ¡Oh sencillez, sencillez, cuanto más me esfuerzo por conseguirte, menos sencillo soy! </p>
@@ -1990,7 +1990,7 @@
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#eufe">Eufemia</rs>.</stage>
 					<sp who="#eufe">
 						<speaker>Eufemia</speaker>
-						<p>¡Bien, <rs key="#ange">Ángel</rs>, bien! ¡Tú <stage>(A <rs key="#marti">Martina</rs>)</stage>, vete! </p>
+						<p>¡Bien, <rs key="#ange">Ángel</rs>, bien! ¡Tú <stage>(A <rs key="#mart">Martina</rs>)</stage>, vete! </p>
 					</sp>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
@@ -2553,7 +2553,7 @@
 						<speaker>Ángel</speaker>
 						<p><stage>(Abre la carta y lee.)</stage> “No debo retardar un momento más mi marcha, porque temo nuestras entrevistas. Has logrado tu objeto. Me voy dejándote libre, con esa libertad por la que tanto suspiras. Sé que perturbo el sosiego de que necesitas. Resuelve tu problema, mientras yo intentaré resolver el mío. Me voy a casa de tía Teresa, donde sé que no irás a molestarme. No somos el uno para el otro. Sigue tú tu camino, y el mío yo. No sé si en él te encontrarás con la que ha sido tu <hi rend="italic"><rs key="#eufe">Eufemia</rs>.” (Aplanado.)</hi> Ha sido..., ha sido..., ha sido... <stage>(Volviendo a leer.)</stage> “Te dejo libre, con esa libertad por la que tanto suspiras...; yo intentaré resolver el mío.” ¡Su problema! Luego ella también lo tiene... ¡Sí, tiene su alma, como yo! ¡Libertad..., libertad..., libertad...! Solo..., solo..., solo... <stage>(Se sienta, apoya la cabeza en las manos, y tras una pausa, extendiendo los brazos.)</stage> Sociedad..., naturaleza..., tierra..., cielos..., mundos... ¡Qué grande todo! ¡Qué grande! ¡Qué inmensidad! Y yo perdido como una gota en este océano sin riberas... que me absorbe y anula... ¡Qué inmenso todo! Y yo solo..., solo..., sin poder arrancarme a mí mismo... ¡Hay que acabar de una vez! <stage>(Va a un cajón, del que saca una caja de pistolas, y cuando toma una de éstas, se detiene al oír el piano del vecino que toca el "Pietá, Signore", de Stradella.) </stage>¡Oh, qué oleadas levantó en un tiempo en mi corazón ese canto! ¡Cómo se henchía a sus acentos! ¡Piedad, Señor!</p>
 					</sp>
-					<stage>(Cuando va a arrodillarse, entra <rs key="#marti">Martina</rs>.)</stage>
+					<stage>(Cuando va a arrodillarse, entra <rs key="#mart">Martina</rs>.)</stage>
 				</div>
 				<div type="scene" n="11">
 					<head>ESCENA XI</head>

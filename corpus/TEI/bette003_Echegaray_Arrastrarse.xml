@@ -4882,7 +4882,7 @@
 						<p>¡Jesús, qué distracción! <stage> (Levantándose de golpe.)</stage> Si entra de pronto <rs key="#plac">Plácido</rs>, digo, el señor vizconde, y me encuentra sentado, ¡buena la hicimos! ¡Bien se desquita, bien! Y bien supo hacerse el amo.
 						¡Paciencia! <rs key="#toma">Tomás</rs> es <rs key="#toma">Tomás</rs>, y también me desquitaré yo con él y con niña <rs key="#jose">Josefina</rs>... digo... con la señora vizcondesa...</p>
 					</sp>
-					<sp who="cria"> 
+					<sp who="#cria"> 
 						<speaker>Criado</speaker> 
 						<p> <stage> (Entrando por el fondo.) </stage> Ahí está el que vino esta mañana. El lugareño. Empeñado en que ha de ver al señor vizconde.</p> 
 					</sp> 
