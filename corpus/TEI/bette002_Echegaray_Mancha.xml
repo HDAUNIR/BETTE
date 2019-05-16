@@ -408,7 +408,7 @@
 						<p>¿Y el prisionero es este? </p>
 						<stage>(Refiriéndose a <rs key="#fern">Fernando</rs>)</stage>
 					</sp>
-					<sp who="#justo">
+					<sp who="#just">
 						<speaker>Don Justo</speaker>
 						<p>Sí será. ¿Hice mal? Se marchaba y le cogí</p>
 					</sp>
@@ -4280,7 +4280,7 @@
 						<speaker>Doña Concepción</speaker>
 						<p> Eso es. Para ella no hay más que el cariño de <rs key="#fern">Fernando</rs>. Pero yo le dije: «No, hija mía, que eso es casarse en <hi rend="italics">secreto</hi>. Vendrán pocos, pero vendrán algunos amigos.»</p> 
 					</sp>
-					<sp who="#criad">
+					<sp who="#cria">
 						<speaker>Criado</speaker>
 						<p> <stage> (Por un costado.)</stage>  Acaban de traer esto, con una tarjeta.<stage> Trayendo un estuche, no muy grande, envuelto en un papel, y dando la tarjeta.) </stage></p> 
 					</sp>
@@ -4850,7 +4850,7 @@
 						<speaker>Matilde</speaker>
 						<p> Toca el timbre y llámale. Yo llamaré. <stage> (Tocando el timbre.) </stage> ¡Pero tú conmigo! ¡No te suelto: si ya no te suelto!</p> 
 					</sp>
-					<sp who="#criad">
+					<sp who="#cria">
 						<speaker>Criado</speaker>
 						<p> <stage> (Presentándose por la derecha.) </stage> ¿Qué manda la señorita?</p> 
 					</sp>

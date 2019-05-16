@@ -752,7 +752,7 @@
 				<div type="scene" n="10">
 					<head>ESCENA X</head>
 					<stage>Aparece en la ventana don <rs key="#donm">Mirlo</rs>. Viste de negro, frac y pantalón corto. Le tiembla la voz y mueve la cabeza como un muñeco de alambre.</stage>
-					<sp who="#mirl">
+					<sp who="#donm">
 						<speaker>Mirlo</speaker>
 						<p>¡Chisssssss!</p>
 					</sp>
@@ -760,7 +760,7 @@
 						<speaker>Zapatera</speaker>
 						<p><stage>(Sin mirar y vuelta de espalda a la ventana.)</stage> Pin, pin, pío, pío, pío.</p>
 					</sp>
-					<sp who="#mirl">
+					<sp who="#donm">
 						<speaker>Mirlo</speaker>
 						<p><stage>(Acercándose más.)</stage> ¡Chissss! Zapaterita blanca, como el corazón de las almendras, pero amargosilla también. Zapaterita… junco de oro encendido… Zapaterita, bella Otero de mi corazón.</p>
 					</sp>
@@ -768,7 +768,7 @@
 						<speaker>Zapatera</speaker>
 						<p>Cuánta cosa, don <rs key="#donm">Mirlo</rs>; a mí me parecía imposible que los pajarracos hablaran. Pero si anda por ahí revoloteando un mirlo negro, negro y viejo… sepa que yo no puedo oírle cantar hasta más tarde… pin, pío, pío, pío.</p>
 					</sp>
-					<sp who="#mirl">
+					<sp who="#donm">
 						<speaker>Mirlo</speaker>
 						<p>Cuando las sombras crepusculares invadan con sus tenues velos el mundo y la vía pública se halle libre de transeuntes, volveré. <stage>(Toma rapé y estornuda sobre el cuello de la <rs key="#zapa">Zapatera</rs>.)</stage></p>
 					</sp>
@@ -1074,7 +1074,7 @@
 						<speaker>Vecina Roja</speaker>
 						<p>La menta es mejor.</p>
 					</sp>
-					<sp who="#veci">
+					<sp who="#vecm">
 						<speaker>Vecina Morada</speaker>
 						<p>Vecina.</p>
 					</sp>
@@ -1160,7 +1160,7 @@
 						<speaker>Mozo Del Sombrero</speaker>
 						<p><stage>(Mirando al suelo.)</stage> ¡Ay!</p>
 					</sp>
-					<sp who="#mirl">
+					<sp who="#donm">
 						<speaker>Mirlo</speaker>
 						<p><stage>(Mirando al techo.)</stage> ¡Ay! <stage>(La <rs key="#zapa">Zapatera</rs> dirige la cabeza hacia los tres ayes.)</stage></p>
 					</sp>
@@ -1168,7 +1168,7 @@
 						<speaker>Zapatera</speaker>
 						<p>¡Requeteay! Pero esto ¿es una taberna o un hospital? ¡Abusivos! Si no fuera porque tengo que ganarme la vida con estos vinillos y este trapicheo, porque estoy sola desde que se fue por culpa de todos vosotros mi pobrecito marido de mi alma, ¿cómo es posible que yo aguantara esto? ¿Qué me dicen ustedes? Los voy a tener que plantar en lo ancho de la calle.</p>
 					</sp>
-					<sp who="#mirl">
+					<sp who="#donm">
 						<speaker>Mirlo</speaker>
 						<p>Muy bien, muy bien dicho.</p>
 					</sp>
@@ -1929,7 +1929,7 @@
 						<speaker>Niño</speaker>
 						<p>¡Que me da mucho miedo!</p>
 					</sp>
-					<sp who="#veci">
+					<sp who="#vecv">
 						<speaker>Vecina Verde</speaker>
 						<p>¡Acudir, acudir! <stage>(Van saliendo.)</stage></p>
 					</sp>

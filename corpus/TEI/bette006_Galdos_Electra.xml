@@ -97,7 +97,7 @@
 						<actor>Don Fernando Altarriba.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cuest">Don Leonardo Cuesta,</role>
+						<role xml:id="cues">Don Leonardo Cuesta,</role>
 						<roleDesc>agente de Bolsa (50 años.). </roleDesc>  
 						<actor>Don Ramón Vallarino.</actor>
 					</castItem>
@@ -375,14 +375,14 @@
 				</div>
 				<div type="scene" n="3">
 					<head>Escena III</head>
-					<stage>El <rs key="#marq">Marqués</rs>, Don <rs key="#urba">Urbano</rs>; <rs key="#cuest">Cuesta</rs>, por el fondo</stage>
+					<stage>El <rs key="#marq">Marqués</rs>, Don <rs key="#urba">Urbano</rs>; <rs key="#cues">Cuesta</rs>, por el fondo</stage>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
 						<p><stage>(Entra con muestras de cansancio, saca su cartera de negocios y se dirige a la mesa.)</stage> <rs key="#marq">Marqués</rs>… ¿tanto bueno por aquí…?</p>
 					</sp>
 					<sp who="#marq">
 						<speaker>Marqués</speaker>
-						<p>Hola, gran <rs key="#cuest">Cuesta</rs>. ¿Qué nos dice nuestro incansable agente…?</p>
+						<p>Hola, gran <rs key="#cues">Cuesta</rs>. ¿Qué nos dice nuestro incansable agente…?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -426,7 +426,7 @@
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p><stage>(A <rs key="#cuest">Cuesta</rs>.)</stage> ¿Vienes?</p>
+						<p><stage>(A <rs key="#cues">Cuesta</rs>.)</stage> ¿Vienes?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -447,14 +447,14 @@
 				</div>
 				<div type="scene" n="4">
 					<head>Escena IV</head>
-					<stage><rs key="#cuest">Cuesta</rs>, <rs key="#patr">Patros</rs>.</stage>
+					<stage><rs key="#cues">Cuesta</rs>, <rs key="#patr">Patros</rs>.</stage>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
-						<p><stage>(Corrigiendo los apuntes.)</stage> ¡Ah! sí, había un error. A los de Yuste corresponden… un millón seiscientas mil pesetas. Al <rs key="#marq">marqués</rs> de Ronda, doscientas veintidós mil. Hay que descontar las doce mil y pico, equivalentes a los nueve mil francos… <stage>(Entra <rs key="#patr">Patros</rs> con vasos de agua, azucarillos, coñac. Aguarda un momento a que <rs key="#cuest">Cuesta</rs> termine sus cálculos.)</stage></p> 
+						<p><stage>(Corrigiendo los apuntes.)</stage> ¡Ah! sí, había un error. A los de Yuste corresponden… un millón seiscientas mil pesetas. Al <rs key="#marq">marqués</rs> de Ronda, doscientas veintidós mil. Hay que descontar las doce mil y pico, equivalentes a los nueve mil francos… <stage>(Entra <rs key="#patr">Patros</rs> con vasos de agua, azucarillos, coñac. Aguarda un momento a que <rs key="#cues">Cuesta</rs> termine sus cálculos.)</stage></p> 
 					</sp>
 					<sp who="#patr">
 						<speaker>Patros</speaker>
-						<p>¿Lo dejo aquí, Don <rs key="#cuest">Leonardo</rs>?</p>
+						<p>¿Lo dejo aquí, Don <rs key="#cues">Leonardo</rs>?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -470,7 +470,7 @@
 					</sp>
 					<sp who="#patr">
 						<speaker>Patros</speaker>
-						<p>Usted dirá, Don <rs key="#cuest">Leonardo</rs>.</p>
+						<p>Usted dirá, Don <rs key="#cues">Leonardo</rs>.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -507,7 +507,7 @@
 				</div>
 				<div type="scene" n="5">
 					<head>Escena V</head>
-					<stage><rs key="#cuest">Cuesta</rs>; <rs key="#pant">Pantoja</rs>, enteramente vestido de negro. Entra en escena meditabundo, abstraído.</stage>
+					<stage><rs key="#cues">Cuesta</rs>; <rs key="#pant">Pantoja</rs>, enteramente vestido de negro. Entra en escena meditabundo, abstraído.</stage>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
 						<p>Amigo <rs key="#pant">Pantoja</rs>, Dios la guarde. ¿Vamos bien?</p>
@@ -594,7 +594,7 @@
 					</sp>
 					<sp who="#pant">
 						<speaker>Pantoja</speaker>
-						<p>Sí… <stage>(Repitiendo una idea fija.)</stage> Serpiente ya teníamos. <stage>(Alto.)</stage> ¿Qué me decía usted, amigo <rs key="#cuest">Cuesta</rs>?</p>
+						<p>Sí… <stage>(Repitiendo una idea fija.)</stage> Serpiente ya teníamos. <stage>(Alto.)</stage> ¿Qué me decía usted, amigo <rs key="#cues">Cuesta</rs>?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -615,10 +615,10 @@
 				</div>
 				<div type="scene" n="6">
 					<head>Escena VI</head>
-					<stage><rs key="#pant">Pantoja</rs>, <rs key="#cuest">Cuesta</rs>; <rs key="#evar">Evarista</rs>, Don <rs key="#urba">Urbano</rs>, el <rs key="#marq">Marqués</rs>, que vienen del jardín.</stage>
+					<stage><rs key="#pant">Pantoja</rs>, <rs key="#cues">Cuesta</rs>; <rs key="#evar">Evarista</rs>, Don <rs key="#urba">Urbano</rs>, el <rs key="#marq">Marqués</rs>, que vienen del jardín.</stage>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p><stage>(Soltando el brazo del <rs key="#marq">Marqués</rs>.)</stage> Felices, <rs key="#cuest">Cuesta</rs>. <rs key="#pant">Pantoja</rs>, ¡cuánto me alegro de verla hoy!… <stage>(<rs key="#cuest">Cuesta</rs> y <rs key="#pant">Pantoja</rs> se inclinan y le besan la mano respetuosamente. Siéntase la señora a la derecha; el <rs key="#marq">Marqués</rs>, en pie, a su lado. Los otros tres forman grupo a la izquierda hablando de negocios.)</stage></p>
+						<p><stage>(Soltando el brazo del <rs key="#marq">Marqués</rs>.)</stage> Felices, <rs key="#cues">Cuesta</rs>. <rs key="#pant">Pantoja</rs>, ¡cuánto me alegro de verla hoy!… <stage>(<rs key="#cues">Cuesta</rs> y <rs key="#pant">Pantoja</rs> se inclinan y le besan la mano respetuosamente. Siéntase la señora a la derecha; el <rs key="#marq">Marqués</rs>, en pie, a su lado. Los otros tres forman grupo a la izquierda hablando de negocios.)</stage></p>
 					</sp>
 					<sp who="#marq">
 						<speaker>Marqués</speaker>
@@ -626,7 +626,7 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p>No alabe usted, <rs key="#marq">Marqués</rs>, lo que en absoluto carece de mérito… No tenemos hijos: Dios arroja sobre nosotros caudales y más caudales. Cada año nos cae una herencia. Sin molestarnos en lo más mínimo ni discurrir cosa alguna, el exceso de nuestras rentas, manejado en operaciones muy hábiles por el amigo <rs key="#cuest">Cuesta</rs>, nos crea sin sentirlo nuevos capitales. Compramos una finca y al año la subida de los productos triplica su valor; adquirimos un erial y resulta que el subsuelo es un inmenso almacén de carbón, de hierro, de plomo… ¿Qué quiere decir esto, <rs key="#marq">Marqués</rs>?</p>
+						<p>No alabe usted, <rs key="#marq">Marqués</rs>, lo que en absoluto carece de mérito… No tenemos hijos: Dios arroja sobre nosotros caudales y más caudales. Cada año nos cae una herencia. Sin molestarnos en lo más mínimo ni discurrir cosa alguna, el exceso de nuestras rentas, manejado en operaciones muy hábiles por el amigo <rs key="#cues">Cuesta</rs>, nos crea sin sentirlo nuevos capitales. Compramos una finca y al año la subida de los productos triplica su valor; adquirimos un erial y resulta que el subsuelo es un inmenso almacén de carbón, de hierro, de plomo… ¿Qué quiere decir esto, <rs key="#marq">Marqués</rs>?</p>
 					</sp>
 					<sp who="#marq">
 						<speaker>Marqués</speaker>
@@ -634,7 +634,7 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p>Exactamente. Interpretándolo yo del mismo modo, me apresuro a cumplir la divina voluntad. Lo que hoy me trae <rs key="#cuest">Cuesta</rs> no hará más que pasar por mis manos, y con esto habré consagrado al Patrocinio siete millones largos, y aún haré más, para que la casa y colegio de Madrid tengan todo el decoro y la magnificencia que corresponden a tan grande instituto… Impulsaremos las obras de los colegios de Valencia y Cádiz…</p>
+						<p>Exactamente. Interpretándolo yo del mismo modo, me apresuro a cumplir la divina voluntad. Lo que hoy me trae <rs key="#cues">Cuesta</rs> no hará más que pasar por mis manos, y con esto habré consagrado al Patrocinio siete millones largos, y aún haré más, para que la casa y colegio de Madrid tengan todo el decoro y la magnificencia que corresponden a tan grande instituto… Impulsaremos las obras de los colegios de Valencia y Cádiz…</p>
 					</sp>
 					<sp who="#pant">
 						<speaker>Pantoja</speaker>
@@ -654,7 +654,7 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p><stage>(A <rs key="#cuest">Cuesta</rs>, que también pasa a la derecha.)</stage> Y ahora, <rs key="#cuest">Leonardo</rs>, ¿qué hacemos?</p>
+						<p><stage>(A <rs key="#cues">Cuesta</rs>, que también pasa a la derecha.)</stage> Y ahora, <rs key="#cues">Leonardo</rs>, ¿qué hacemos?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -738,11 +738,11 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p>Ponte a las órdenes de <rs key="#cuest">Cuesta</rs> para la liquidación y para la entrega a los Padres…</p>
+						<p>Ponte a las órdenes de <rs key="#cues">Cuesta</rs> para la liquidación y para la entrega a los Padres…</p>
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p>Hoy mismo. <stage>(Se levanta <rs key="#cuest">Cuesta</rs>.)</stage></p>
+						<p>Hoy mismo. <stage>(Se levanta <rs key="#cues">Cuesta</rs>.)</stage></p>
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
@@ -1026,7 +1026,7 @@
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
-						<p>Seguramente. <stage>(<rs key="#cuest">Cuesta</rs> y Don <rs key="#urba">Urbano</rs> pasan también al lado de <rs key="#evar">Evarista</rs>, quedando solos a la izquierda <rs key="#maxi">Máximo</rs> y el <rs key="#marq">Marqués</rs>.)</stage></p>
+						<p>Seguramente. <stage>(<rs key="#cues">Cuesta</rs> y Don <rs key="#urba">Urbano</rs> pasan también al lado de <rs key="#evar">Evarista</rs>, quedando solos a la izquierda <rs key="#maxi">Máximo</rs> y el <rs key="#marq">Marqués</rs>.)</stage></p>
 					</sp>
 					<sp who="#maxi">
 						<speaker>Máximo</speaker>
@@ -1103,7 +1103,7 @@
 				</div>
 				<div type="scene" n="8">
 					<head>Escena VIII</head>
-					<stage><rs key="#elec">Electra</rs>, <rs key="#evar">Evarista</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#pant">Pantoja</rs>, <rs key="#cuest">Cuesta</rs>, <rs key="#jose">José</rs>.</stage>
+					<stage><rs key="#elec">Electra</rs>, <rs key="#evar">Evarista</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#pant">Pantoja</rs>, <rs key="#cues">Cuesta</rs>, <rs key="#jose">José</rs>.</stage>
 					<sp who="#jose">
 						<speaker>José</speaker>
 						<p><stage>(Anunciando.)</stage> La señora superiora de San <rs key="#jose">José</rs> de la Penitencia.</p>
@@ -1143,7 +1143,7 @@
 				</div>
 				<div type="scene" n="9">
 					<head>Escena IX</head>
-					<stage><rs key="#elec">Electra</rs>; al poco rato <rs key="#cuest">Cuesta</rs>.</stage>
+					<stage><rs key="#elec">Electra</rs>; al poco rato <rs key="#cues">Cuesta</rs>.</stage>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
 						<p><stage>(Entonando una salmodia de Iglesia, recoge los dibujos y los ordena.)</stage> Bach… para que me asimile… ¡qué gracia! el estilo religioso. <stage>(Canta.)</stage></p>
@@ -1154,7 +1154,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p><stage>(Canta algunas notas litúrgicas. Ve avanzar a <rs key="#cuest">Cuesta</rs>.)</stage> ¿Pero no se había marchado usted, Don <rs key="#cuest">Leonardo</rs>?</p>
+						<p><stage>(Canta algunas notas litúrgicas. Ve avanzar a <rs key="#cues">Cuesta</rs>.)</stage> ¿Pero no se había marchado usted, Don <rs key="#cues">Leonardo</rs>?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -1194,7 +1194,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p>Mi madre es para mí un recuerdo vago, dulcísimo; una imagen que nunca me abandona… Viva la guardo en mi corazón, que no es todavía más que una gran memoria, y en esta gran memoria la están buscando siempre mis ojos ansiosos de verla. ¡Pobre madre mía! <stage>(Se lleva el pañuelo a los ojos. <rs key="#cuest">Cuesta</rs> suspira.)</stage> Dígame, don <rs key="#cuest">Leonardo</rs>: cuando trataba usted a mi madre ¿era yo muy chiquitita?</p>
+						<p>Mi madre es para mí un recuerdo vago, dulcísimo; una imagen que nunca me abandona… Viva la guardo en mi corazón, que no es todavía más que una gran memoria, y en esta gran memoria la están buscando siempre mis ojos ansiosos de verla. ¡Pobre madre mía! <stage>(Se lleva el pañuelo a los ojos. <rs key="#cues">Cuesta</rs> suspira.)</stage> Dígame, don <rs key="#cues">Leonardo</rs>: cuando trataba usted a mi madre ¿era yo muy chiquitita?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -1234,7 +1234,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p>¡Oh! me da usted miedo, don <rs key="#cuest">Leonardo</rs>.</p> 
+						<p>¡Oh! me da usted miedo, don <rs key="#cues">Leonardo</rs>.</p> 
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -1306,7 +1306,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p>Sí… ¡Es tan fácil para mí querer! Pero no hable usted de morirse, don <rs key="#cuest">Leonardo</rs>.</p>
+						<p>Sí… ¡Es tan fácil para mí querer! Pero no hable usted de morirse, don <rs key="#cues">Leonardo</rs>.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2534,15 +2534,15 @@
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p>Bien: continúa vigilando. <stage>(Entra <rs key="#cuest">Cuesta</rs> por el foro.)</stage></p> 
+						<p>Bien: continúa vigilando. <stage>(Entra <rs key="#cues">Cuesta</rs> por el foro.)</stage></p> 
 					</sp>
 				</div>
 				<div type="scene" n="8">
 					<head>Escena VIII</head>
-					<stage>Don <rs key="#urba">Urbano</rs>; <rs key="#cuest">Cuesta</rs> con papeles y cartas.</stage>
+					<stage>Don <rs key="#urba">Urbano</rs>; <rs key="#cues">Cuesta</rs> con papeles y cartas.</stage>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p><rs key="#cuest">Leonardo</rs>, gracias a Dios.</p>
+						<p><rs key="#cues">Leonardo</rs>, gracias a Dios.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2550,7 +2550,7 @@
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p><stage>(Tomando un papel que le da <rs key="#cuest">Cuesta</rs>.)</stage> ¿Qué es esto?</p>
+						<p><stage>(Tomando un papel que le da <rs key="#cues">Cuesta</rs>.)</stage> ¿Qué es esto?</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2646,7 +2646,7 @@
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p>Perdona, <rs key="#cuest">Leonardo</rs>. <rs key="#evar">Evarista</rs> no tardará en salir.</p>
+						<p>Perdona, <rs key="#cues">Leonardo</rs>. <rs key="#evar">Evarista</rs> no tardará en salir.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2655,14 +2655,14 @@
 				</div>
 				<div type="scene" n="9">
 					<head>Escena IX</head>
-					<stage><rs key="#cuest">Cuesta</rs>; <rs key="#elec">Electra</rs>, <rs key="#patr">Patros</rs>, que asoman por la puerta de la izquierda, como reconociendo el terreno.</stage>
+					<stage><rs key="#cues">Cuesta</rs>; <rs key="#elec">Electra</rs>, <rs key="#patr">Patros</rs>, que asoman por la puerta de la izquierda, como reconociendo el terreno.</stage>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
 						<p>Cuidado, <rs key="#patr">Patros</rs>… Por aquí es difícil que podamos pasarlo.</p>
 					</sp>
 					<sp who="#patr">
 						<speaker>Patros</speaker>
-						<p><stage>(Reconociendo a <rs key="#cuest">Cuesta</rs>, a quien ven de espalda escribiendo.)</stage> ¡Don <rs key="#cuest">Leonardo</rs>!</p>
+						<p><stage>(Reconociendo a <rs key="#cues">Cuesta</rs>, a quien ven de espalda escribiendo.)</stage> ¡Don <rs key="#cues">Leonardo</rs>!</p>
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
@@ -2674,7 +2674,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						 <p>¿Estorbamos, don <rs key="#cuest">Leonardo</rs>?…</p>
+						 <p>¿Estorbamos, don <rs key="#cues">Leonardo</rs>?…</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2722,7 +2722,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p>Perdone un momento, don <rs key="#cuest">Leonardo</rs>. <stage>(Aparte a <rs key="#patr">Patros</rs>.)</stage> No te separes de él… Mucho cuidado. Si Don <rs key="#cuest">Leonardo</rs> no me entretiene mucho, antes de vestirme iré a darle un besito.</p>
+						<p>Perdone un momento, don <rs key="#cues">Leonardo</rs>. <stage>(Aparte a <rs key="#patr">Patros</rs>.)</stage> No te separes de él… Mucho cuidado. Si Don <rs key="#cues">Leonardo</rs> no me entretiene mucho, antes de vestirme iré a darle un besito.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2743,14 +2743,14 @@
 				</div>
 				<div type="scene" n="10">
 					<head>Escena X</head>
-					<stage><rs key="#cuest">Cuesta</rs>, <rs key="#elec">Electra</rs>.</stage>
+					<stage><rs key="#cues">Cuesta</rs>, <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
 						<p><stage>(Cogiéndole las manos.)</stage> Mujercita juguetona, ven aquí. ¡Qué dicha tan grande verte!</p>
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p>¿Me quiere usted mucho, Don <rs key="#cuest">Leonardo</rs>? ¡Si viera usted cuánto me gasta que me quieran!</p>
+						<p>¿Me quiere usted mucho, Don <rs key="#cues">Leonardo</rs>? ¡Si viera usted cuánto me gasta que me quieran!</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2830,23 +2830,23 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p>Sí, mañana. Adiós. <stage>(Corre hacia la derecha. Movida de una repentina idea, da media vuelta.)</stage> Antes tengo que… <stage>(Aparte.)</stage> No puedo vencer la tentación. Quiero darle otro besito. <stage>(Vase corriendo por la izquierda. <rs key="#cuest">Cuesta</rs> la sigue con la vista. Suspira.)</stage></p>
+						<p>Sí, mañana. Adiós. <stage>(Corre hacia la derecha. Movida de una repentina idea, da media vuelta.)</stage> Antes tengo que… <stage>(Aparte.)</stage> No puedo vencer la tentación. Quiero darle otro besito. <stage>(Vase corriendo por la izquierda. <rs key="#cues">Cuesta</rs> la sigue con la vista. Suspira.)</stage></p>
 					</sp>
 				</div>
 				<div type="scene" n="11">
 					<head>Escena XI</head>
-					<stage><rs key="#cuest">Cuesta</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#evar">Evarista</rs>; después <rs key="#elec">Electra</rs>.</stage>
+					<stage><rs key="#cues">Cuesta</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#evar">Evarista</rs>; después <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
 						<p><stage>(Recogiendo sus papeles.)</stage> ¡Qué felicidad la mía si pudiese quererla públicamente!</p>
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p><stage>(Vestida para salir.)</stage> Perdone usted el plantón, <rs key="#cuest">Leonardo</rs>. Ya me ha dicho este que preparamos una operación extensa.</p>
+						<p><stage>(Vestida para salir.)</stage> Perdone usted el plantón, <rs key="#cues">Leonardo</rs>. Ya me ha dicho este que preparamos una operación extensa.</p>
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p><stage>(Dando a <rs key="#cuest">Cuesta</rs> un talón.)</stage> Toma.</p>
+						<p><stage>(Dando a <rs key="#cues">Cuesta</rs> un talón.)</stage> Toma.</p>
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
@@ -2870,7 +2870,7 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p>No puede usted figurarse, amigo <rs key="#cuest">Cuesta</rs>, lo incomodada que me tiene esta niña con sus chiquilladas, que no son tan inocentes, no. <stage>(Da la carta a su marido.)</stage> Lee tú.</p>
+						<p>No puede usted figurarse, amigo <rs key="#cues">Cuesta</rs>, lo incomodada que me tiene esta niña con sus chiquilladas, que no son tan inocentes, no. <stage>(Da la carta a su marido.)</stage> Lee tú.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2947,10 +2947,10 @@
 				</div>
 				<div type="scene" n="12">
 					<head>Escena XII</head>
-					<stage><rs key="#cuest">Cuesta</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#evar">Evarista</rs>, <rs key="#pant">Pantoja</rs>.</stage>
+					<stage><rs key="#cues">Cuesta</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#evar">Evarista</rs>, <rs key="#pant">Pantoja</rs>.</stage>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p><stage>(Con tristeza y desaliento.)</stage> Ya ve usted, <rs key="#cuest">Leonardo</rs>…</p>
+						<p><stage>(Con tristeza y desaliento.)</stage> Ya ve usted, <rs key="#cues">Leonardo</rs>…</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2962,11 +2962,11 @@
 					</sp>
 					<sp who="#pant">
 						<speaker>Pantoja</speaker>
-						<p><stage>(Por el foro algo sofocado.)</stage> Aquí están… y también <rs key="#cuest">Cuesta</rs>, para que no pueda uno hablar con libertad…</p>
+						<p><stage>(Por el foro algo sofocado.)</stage> Aquí están… y también <rs key="#cues">Cuesta</rs>, para que no pueda uno hablar con libertad…</p>
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p><stage>(Gozosa de verle.)</stage> Al fin parece usted… <stage>(Se forman dos grupos: a la izquierda, <rs key="#cuest">Cuesta</rs> sentado, Don <rs key="#urba">Urbano</rs> en pie; a la derecha, <rs key="#pant">Pantoja</rs> y <rs key="#evar">Evarista</rs> sentados.)</stage></p>
+						<p><stage>(Gozosa de verle.)</stage> Al fin parece usted… <stage>(Se forman dos grupos: a la izquierda, <rs key="#cues">Cuesta</rs> sentado, Don <rs key="#urba">Urbano</rs> en pie; a la derecha, <rs key="#pant">Pantoja</rs> y <rs key="#evar">Evarista</rs> sentados.)</stage></p>
 					</sp>
 					<sp who="#pant">
 						<speaker>Pantoja</speaker>
@@ -3022,7 +3022,7 @@
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p><stage>(Dando interés a sus palabras.)</stage> ¿Saben lo que me dice <rs key="#cuest">Cuesta</rs>? Pues que entra la cáfila los novios hay un preferido. <rs key="#elec">Electra</rs> misma se lo ha confesado.</p>
+						<p><stage>(Dando interés a sus palabras.)</stage> ¿Saben lo que me dice <rs key="#cues">Cuesta</rs>? Pues que entra la cáfila los novios hay un preferido. <rs key="#elec">Electra</rs> misma se lo ha confesado.</p>
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
@@ -3042,7 +3042,7 @@
 					</sp>
 					<sp who="#pant">
 						<speaker>Pantoja</speaker>
-						<p><stage>(Pasando junto a <rs key="#cuest">Cuesta</rs>.)</stage> Y usted, amigo <rs key="#cuest">Cuesta</rs>, ¿no la interrogó?…</p>
+						<p><stage>(Pasando junto a <rs key="#cues">Cuesta</rs>.)</stage> Y usted, amigo <rs key="#cues">Cuesta</rs>, ¿no la interrogó?…</p>
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
@@ -3054,7 +3054,7 @@
 					</sp>
 					<sp who="#pant">
 						<speaker>Pantoja</speaker>
-						<p><stage>(Con suavidad que no oculta su altanería.)</stage> El celo mío, queridísimo <rs key="#cuest">Leonardo</rs>, es lo que debe ser.</p>
+						<p><stage>(Con suavidad que no oculta su altanería.)</stage> El celo mío, queridísimo <rs key="#cues">Leonardo</rs>, es lo que debe ser.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -3062,7 +3062,7 @@
 					</sp>
 					<sp who="#pant">
 						<speaker>Pantoja</speaker>
-						<p><stage>(Llevándose a don <rs key="#urba">Urbano</rs> hacia la derecha.)</stage> <rs key="#cuest">Cuesta</rs> se mete demasiado en lo que no le importa.</p>
+						<p><stage>(Llevándose a don <rs key="#urba">Urbano</rs> hacia la derecha.)</stage> <rs key="#cues">Cuesta</rs> se mete demasiado en lo que no le importa.</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -3106,7 +3106,7 @@
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>
-						<p>Es la hora. <stage>(<rs key="#pant">Pantoja</rs>, impaciente, espera a <rs key="#elec">Electra</rs> en la puerta del cuarto de esta. <rs key="#cuest">Cuesta</rs> habla con don <rs key="#urba">Urbano</rs>.)</stage></p>
+						<p>Es la hora. <stage>(<rs key="#pant">Pantoja</rs>, impaciente, espera a <rs key="#elec">Electra</rs> en la puerta del cuarto de esta. <rs key="#cues">Cuesta</rs> habla con don <rs key="#urba">Urbano</rs>.)</stage></p>
 					</sp>
 				</div>
 				<div type="scene" n="14">
@@ -5079,7 +5079,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						<p>¿El señor de <rs key="#cuest">Cuesta</rs>…?</p>
+						<p>¿El señor de <rs key="#cues">Cuesta</rs>…?</p>
 					</sp>
 					<sp who="#marq">
 						<speaker>Marqués</speaker>
@@ -6148,7 +6148,7 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p>Ha muerto nuestro gran amigo, don <rs key="#cuest">Leonardo</rs> <rs key="#cuest">Cuesta</rs>, el agente de Bolsa.</p>
+						<p>Ha muerto nuestro gran amigo, don <rs key="#cues">Leonardo</rs> <rs key="#cues">Cuesta</rs>, el agente de Bolsa.</p>
 					</sp>
 					<sp who="#doro">
 						<speaker>Dorotea</speaker>
@@ -6164,7 +6164,7 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p>En su testamento, <rs key="#cuest">Leonardo</rs> instituye a <rs key="#elec">Electra</rs> heredera de la mitad de su fortuna…</p>
+						<p>En su testamento, <rs key="#cues">Leonardo</rs> instituye a <rs key="#elec">Electra</rs> heredera de la mitad de su fortuna…</p>
 					</sp>
 					<sp who="#doro">
 						<speaker>Dorotea</speaker>
@@ -6200,7 +6200,7 @@
 					</sp>
 					<sp who="#evar">
 						<speaker>Evarista</speaker>
-						<p>¿Tiene noticia de la última voluntad del pobre <rs key="#cuest">Cuesta</rs>?</p>
+						<p>¿Tiene noticia de la última voluntad del pobre <rs key="#cues">Cuesta</rs>?</p>
 					</sp>
 					<sp who="#urba">
 						<speaker>Don Urbano</speaker>

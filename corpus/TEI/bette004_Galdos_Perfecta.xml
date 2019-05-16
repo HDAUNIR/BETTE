@@ -898,7 +898,7 @@
 							<speaker>Pepe Rey</speaker>
 							<p>¿Quién lo duda? Infinitamente más.</p>
 						</sp>
-						<sp who="#libra">
+						<sp who="#libr">
 							<speaker>Librada</speaker>
 							<p><stage>(Entrando por la derecha.)</stage> Señora, las señoras de Cirujeda. <stage>(Vase <rs key="#libr">Librada</rs>.)</stage> </p>
 						</sp>
@@ -1034,7 +1034,7 @@
 							<speaker>María Remedios</speaker>
 							<p>Me voy. <stage>(Viendo salir a <rs key="#libr">Librada</rs> por el comedor.)</stage> ¡Ah!... a ver qué trae esta.</p>
 						</sp>
-						<sp who="#libra">
+						<sp who="#libr">
 							<speaker>Librada</speaker>
 							<p>Señor don <rs key="#inoc">Inocencio</rs>...</p>
 						</sp>
@@ -1042,7 +1042,7 @@
 							<speaker>Don Inocencio</speaker>
 							<p>¿Se fueron esas señoras?</p>
 						</sp>
-						<sp who="#libra">
+						<sp who="#libr">
 							<speaker>Librada</speaker>
 							<p>Han bajado a la huerta con la señora. La señora que haga usted el favor de ir, que tiene que hablarle.</p>
 						</sp>

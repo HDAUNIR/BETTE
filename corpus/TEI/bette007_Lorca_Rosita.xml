@@ -745,7 +745,7 @@
 
 					<stage>(Coge un jarro de agua y hace una cruz en el suelo.)</stage>
 				</sp>
-				<sp who="tia">
+				<sp who="#tia">
 
 					<speaker>Tía</speaker>
 					<p>No maldigas. Vete a tu hacienda.<stage>(Sale el <rs key="#ama">Ama</rs>. Se oyen risas. La <rs key="#tia">Tía</rs> se va.)</stage></p>
@@ -995,17 +995,17 @@
 					<p>Calla.</p>
 				</sp>
 
-				<sp who="#mano">
+				<sp who="#man3">
 					<speaker>Manola 3ª</speaker>
 					<p>¿Por qué?</p>
 				</sp>
 
-				<sp who="#mano">
+				<sp who="#man2">
 					<speaker>Manola 2ª</speaker>
 					<p>¡Ay!</p>
 				</sp>
 
-				<sp who="#mano">
+				<sp who="#man1">
 					<speaker>Manola 1ª</speaker>
 					<p>¡Ay, sin que nadie lo oiga!</p>
 				</sp>
@@ -1085,7 +1085,7 @@
 					<p>las cuerdas de mi laúd!</p>
 				</sp>
 
-				<sp who="prim">
+				<sp who="#prim">
 					<speaker>Primo</speaker>
 					<p><stage>(La lleva a un «vis-a-vis» y se sientan.)</stage></p>
 					<p>¡Ay, prima, tesoro mío!,</p>
@@ -1124,7 +1124,7 @@
 					<p>rojas como el alhelí</p>
 				</sp>
 
-				<sp who="prim">
+				<sp who="#prim">
 					<speaker>Primo</speaker>
 					<p>He de volver, prima mía,</p>
 					<p>para llevarte a mi lado</p>
@@ -1142,7 +1142,7 @@
 					<p>el vestido de mi muerte.</p>
 				</sp>
 
-				<sp who="prim">
+				<sp who="#prim">
 					<speaker>Primo</speaker>
 					<p>Cuando mi caballo lento</p>
 					<p>coma tallos con rocío,</p>
@@ -1171,7 +1171,7 @@
 					<p>¿Volverás?</p>
 				</sp>
 
-				<sp who="prim">
+				<sp who="#prim">
 					<speaker>Primo</speaker>
 					<p>Sí. ¡Volveré!</p>
 				</sp>
@@ -1182,7 +1182,7 @@
 					<p>me anunciará tu llegada?</p>
 				</sp>
 
-				<sp who="prim">
+				<sp who="#prim">
 					<speaker>Primo</speaker>
 					<p>El palomo de mi fe.</p>
 				</sp>
@@ -1193,7 +1193,7 @@
 					<p>sábanas para los dos.</p>
 				</sp>
 
-				<sp who="prim">
+				<sp who="#prim">
 					<speaker>Primo</speaker>
 					<p>Por los diamantes de Dios</p>
 					<p>y el clavel de su costado,</p>
@@ -2520,7 +2520,7 @@
 					<p>Con quien sea, pero no me quiero quedar soltera.</p>
 				</sp>
 
-				<sp who="#ayol">
+				<sp who="#ayo2">
 					<speaker>Ayola 2ª</speaker>
 					<p>Yo pienso igual.</p>
 				</sp>
