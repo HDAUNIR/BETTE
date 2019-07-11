@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#bern	#bern	Bernarda	F	protagonist	person	primary	1	75	56	63	75	56.0	63
+#jose	#jose	María Josefa	F	other	person	minor	2	8	0	9	8	0.0	9
+#angu	#angu	Angustias	F	other	person	secondary	3	12	38	19	12	38.0	19
+#magd	#magd	Magdalena	F	other	person	minor	4	30	24	8	30	24.0	8
+#amel	#amel	Amelia	F	other	person	minor	5	24	37	9	24	37.0	9
+#mart	#mart	Martirio	F	other	person	secondary	6	29	60	39	29	60.0	39
+#adel	#adel	Adela	F	antagonist	person	primary	7	16	47	39	16	47.0	39
+#ponc	#ponc	La Poncia	F	antagonist	person	primary	8	43	85	34	43	85.0	34
+#cria	#cria	Criada	F	other	person	minor	9	33	2	14	33	2.0	14
+#prud	#prud	Prudencia	F	other	person	minor	10	0	0	22	0	0.0	22
+#mend	#mend	Mendiga	F	other	person	minor	11	5	0	0	5	0.0	0
+#muj1	#muj1	Mujer 1ª	F	other	person	minor	12	5	0	0	5	0.0	0
+#muj2	#muj2	Mujer 2ª	F	other	person	minor	13	3	0	0	3	0.0	0
+#muj3	#muj3	Mujer 3ª	F	other	person	minor	14	3	0	0	3	0.0	0
+#muj4	#muj4	Mujer 4ª	F	other	person	minor	15	1	0	0	1	0.0	0
+#much	#much	Muchacha	F	other	person	minor	16	4	0	0	4	0.0	0

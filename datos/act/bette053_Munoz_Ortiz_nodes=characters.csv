@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#cast	#cast	Casta	F	lover	person	primary	1	0	0	0	0	0.0	0
+#prod	#prod	Prodosia	F	other	person	secondary	2	14	22	38	14	22.0	38
+#vale	#vale	Valentina	F	other	person	minor	3	43	45	15	43	45.0	15
+#celc	#celc	Celcina	F	other	person	minor	4	15	20	29	15	20.0	29
+#ever	#ever	Everilda	F	other	person	minor	5	28	16	14	28	16.0	14
+#eulo	#eulo	Eulogia	F	other	person	minor	6	21	8	10	21	8.0	10
+#flor	#flor	Flora	F	other	person	minor	7	1	8	9	1	8.0	9
+#amar	#amar	Amaranto	M	protagonist	person	primary	8	13	74	60	13	74.0	60
+#caye	#caye	Mariano	M	antagonist	person	primary	9	0	0	0	0	0.0	0
+#juan	#juan	Juan	M	other	person	secondary	10	68	40	28	68	40.0	28
+#aten	#aten	Ateneo	M	other	person	secondary	11	0	38	15	0	38.0	15
+#puli	#puli	Pulido	M	other	person	secondary	12	14	13	19	14	13.0	19
+#amil	#amil	Amílcar	M	other	person	minor	13	17	12	10	17	12.0	10
+#cefe	#cefe	Ceferino	M	other	person	minor	14	26	13	7	26	13.0	7
+#casa	#casa	Casado	M	other	person	minor	15	66	85	40	66	85.0	40
+#frai	#frai	Fraile	M	other	non-human	minor	16	1	0	0	1	0.0	0

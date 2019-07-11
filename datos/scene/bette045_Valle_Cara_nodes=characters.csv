@@ -1,0 +1,42 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	first scene	middle scene	last scene
+#caba	#caba	El Caballero, don Juan Manuel Montenegro	M	antagonist	person	primary	1	0	24	0	0	25	0	0	0	1	0	0	0	33	0	0	0	25	0	5.533333333333333	25
+#cara	#cara	Cara de Plata	M	protagonist	person	primary	2	0	34	26	0	0	11	14	7	11	45	0	21	0	0	0	27	6	0	13.066666666666666	6
+#pedr	#pedr	Don Pedrito	M	other	person	minor	3	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0.26666666666666666	0
+#rose	#rose	Don Rosendo	M	other	person	minor	4	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.06666666666666667	0
+#maur	#maur	Don Mauro	M	other	person	minor	5	0	0	0	0	0	4	8	0	0	0	0	0	0	0	0	0	0	0	0.8	0
+#gonz	#gonz	Don Gonzalito	M	other	person	minor	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#farr	#farr	Don Farruquiño	M	other	person	minor	7	0	0	0	0	0	4	5	0	0	0	0	0	0	0	0	0	0	0	0.6	0
+#sabe	#sabe	Sabelita	F	lover	person	primary	8	0	30	0	0	38	0	0	3	25	0	0	0	22	0	0	0	0	0	7.866666666666666	0
+#abad	#abad	El Abad de Lantañón	M	antagonist	person	secondary	9	0	0	17	17	0	0	17	24	0	0	20	0	19	23	0	0	5	0	9.133333333333333	5
+#jero	#jero	Doña Jeromita	F	other	person	minor	10	0	0	0	18	67	0	0	13	0	0	22	0	0	0	0	0	0	0	8.0	0
+#sac1	#sac1	El Sacristán	M	other	person	minor	11	0	0	0	0	16	0	0	9	0	0	5	0	0	23	32	0	0	0	5.666666666666667	0
+#sac2	#sac2	La Sacristana	F	other	person	minor	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	39	0	0	0	2.6	0
+#biga	#biga	Bigardona	F	other	person	minor	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	1.0	0
+#celo	#celo	Celonio	M	other	person	minor	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#gabi	#gabi	Gabino	M	other	person	minor	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#ming	#ming	Mingote	M	other	person	minor	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#fuso	#fuso	Fuso Negro	M	other	person	minor	17	0	1	0	0	0	3	0	0	12	0	0	0	0	1	4	33	0	0	3.6	0
+#gala	#gala	Don Galán	M	other	person	minor	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0.0	10
+#peab	#peab	Pedro Abuín	M	other	person	minor	19	14	0	0	6	0	0	2	0	0	0	0	0	0	0	0	0	0	14	0.5333333333333333	0
+#rami	#rami	Ramiro de Bealo	M	other	person	minor	20	7	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0.06666666666666667	0
+#mato	#mato	Manuel Tovío	M	other	person	minor	21	1	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.13333333333333333	0
+#mafo	#mafo	Manuel Fonseca	F	other	person	minor	22	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0.0	0
+#seba	#seba	Sebastián de Xogas	M	other	person	minor	23	4	0	0	7	0	0	0	5	0	0	0	0	0	0	0	0	0	4	0.8	0
+#viej	#viej	El viejo de Cures	M	other	person	minor	24	8	0	8	0	0	0	1	5	0	0	0	0	0	0	0	0	0	8	0.9333333333333333	0
+#past	#past	Pastor	M	other	person	minor	25	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0.0	0
+#pich	#pich	Pichona la Bisbisera	F	other	person	minor	26	0	3	0	0	0	4	0	0	0	40	0	23	0	0	0	22	0	0	6.133333333333334	0
+#ludo	#ludo	Ludovina la ventorrillera	F	other	person	minor	27	0	0	0	0	0	0	0	0	0	28	0	0	0	0	0	0	0	0	1.8666666666666667	0
+#coim	#coim	La Coima de otro mesón	F	other	person	minor	28	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0.26666666666666666	0
+#mara	#mara	Un maragato	M	other	person	minor	29	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0.4666666666666667	0
+#peni	#peni	Un Penitente	M	other	person	minor	30	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0.4	0
+#cieg	#cieg	El Ciego de Gondar	M	other	person	minor	31	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0.13333333333333333	0
+#indi	#indi	Un Indiano	M	other	person	minor	32	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0.2	0
+#diac	#diac	El Diácono de Lesón	M	other	person	minor	33	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0.4	0
+#viea	#viea	Una vieja cotillona	F	other	person	minor	34	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0.6666666666666666	0
+#pre1	#pre1	Un pregón	M	other	person	minor	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0.13333333333333333	0
+#pre2	#pre2	Otro pregón	M	other	person	minor	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0.13333333333333333	0
+#pre3	#pre3	Otro pregón	M	other	person	minor	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0.06666666666666667	0
+#mari	#mari	María	F	other	person	minor	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#chal	#chal	Un chalán	M	other	person	minor	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0.06666666666666667	0
+#conf	#conf	Confusión de voces	O	other	person	minor	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0.0	1
+#vozl	#vozl	Voz lejana	O	other	person	minor	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0.06666666666666667	0

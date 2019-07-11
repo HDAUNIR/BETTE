@@ -1,0 +1,61 @@
+	id	label	sex	role	nature	importance	position	act_1	first act	middle act	last act
+#max	#max	Max Estrella	M	protagonist	person	primary	1	278	278	278	278
+#coll	#coll	Madame Collet	F	lover	person	secondary	2	40	40	40	40
+#clau	#clau	Claudinita	F	other	person	secondary	3	26	26	26	26
+#lati	#lati	Don Latino de Hispalis	M	antagonist	person	primary	4	181	181	181	181
+#zara	#zara	Zaratustra	M	other	person	secondary	5	17	17	17	17
+#gay	#gay	Don Gay	M	other	person	secondary	6	17	17	17	17
+#pelo	#pelo	Un pelón	M	other	person	minor	7	1	1	1	1
+#chica	#chica	La chica de la portera	F	other	person	minor	8	3	3	3	3
+#pica	#pica	Pica lagartos	F	other	person	secondary	9	21	21	21	21
+#chic	#chic	Un chico de taberna	F	other	person	minor	8	19	19	19	19
+#pisa	#pisa	Enriqueta la pisa bien	F	other	person	secondary	11	59	59	59	59
+#rey	#rey	El rey de Portugal	M	other	person	secondary	12	10	10	10	10
+#borr	#borr	Un borracho	M	other	person	minor	13	13	13	13	13
+#dori	#dori	Dorio de Gadex	M	other	person	secondary	14	58	58	58	58
+#rafa	#rafa	Rafael de los Vélez	M	other	person	minor	15	0	0	0	0
+#luci	#luci	Lucio Vero	M	other	person	minor	16	0	0	0	0
+#ming	#ming	Mínguez	M	other	person	minor	17	0	0	0	0
+#galv	#galv	Gálvez	M	other	person	minor	18	0	0	0	0
+#clar	#clar	Clarinito	M	other	person	minor	19	8	8	8	8
+#pere	#pere	Pérez	M	other	person	minor	20	8	8	8	8
+#capi	#capi	El capitán Pitito	M	other	person	minor	22	6	6	6	6
+#sere	#sere	Un sereno	M	other	person	minor	23	14	14	14	14
+#voz	#voz	La voz de un vecino	M	other	person	minor	24	2	2	2	2
+#guar	#guar	Un guardia del orden	M	other	person	minor	25	10	10	10	10
+#otro	#otro	Otro guardia del orden	M	other	person	minor	26	8	8	8	8
+#sera	#sera	Serafín el bonito	M	other	person	secondary	27	22	22	22	22
+#cela	#cela	Un celador	M	other	person	minor	28	0	0	0	0
+#pres	#pres	Un preso	M	other	person	secondary	29	25	25	25	25
+#cons	#cons	El conserje de la redacción	M	other	person	minor	30	1	1	1	1
+#fili	#fili	Don Filiberto	M	other	person	minor	31	33	33	33	33
+#mini	#mini	El ministro de la gobernación	M	other	person	secondary	32	30	30	30	30
+#dieg	#dieg	Dieguito	M	other	person	minor	33	18	18	18	18
+#ujie	#ujie	ujier	M	other	person	minor	34	6	6	6	6
+#viej	#viej	Una vieja pintada	F	other	person	minor	35	11	11	11	11
+#luna	#luna	La lunares	F	other	person	minor	36	35	35	35	35
+#jove	#jove	Un joven desconocido	M	other	person	minor	37	5	5	5	5
+#madr	#madr	La madre del niño muerto	F	other	person	minor	38	9	9	9	9
+#empe	#empe	El empeñista	M	other	person	minor	39	7	7	7	7
+#port	#port	La portera	F	other	person	minor	40	16	16	16	16
+#alba	#alba	Un albañil	M	other	person	minor	41	3	3	3	3
+#veja	#veja	Una vieja	F	other	person	minor	42	1	1	1	1
+#trap	#trap	La trapera	F	other	person	minor	43	1	1	1	1
+#reti	#reti	El retirado	M	other	person	minor	44	3	3	3	3
+#otra	#otra	Otra portera	F	other	person	minor	45	0	0	0	0
+#veci	#veci	Una vecina	F	other	person	minor	46	7	7	7	7
+#basi	#basi	Basilio Soulinake	M	other	person	secondary	47	10	10	10	10
+#coch	#coch	Un cochero de la funeraria	M	other	person	minor	48	2	2	2	2
+#sepu	#sepu	Un sepulturero	M	other	person	secondary	49	14	14	14	14
+#osep	#osep	Otro sepulturero	M	other	person	secondary	50	10	10	10	10
+#rube	#rube	Rubén Darío	M	other	person	secondary	51	43	43	43	43
+#marq	#marq	El marqués de Bradomín	M	other	person	secondary	52	21	21	21	21
+#poll	#poll	El pollo del pay-pay	M	other	person	minor	53	13	13	13	13
+#peri	#peri	La periodista	F	other	person	minor	54	1	1	1	1
+#veno	#veno	Un vecino	M	other	person	minor	55	2	2	2	2
+#guin	#guin	Un guindilla	M	other	person	minor	56	2	2	2	2
+#tabe	#tabe	Un tabernero	M	other	person	minor	57	4	4	4	4
+#llav	#llav	El llavero	M	other	person	minor	58	2	2	2	2
+#can	#can	can	M	other	animal	minor	59	2	2	2	2
+#gato	#gato	gato	M	other	animal	minor	60	1	1	1	1
+#loro	#loro	Un loro	M	other	animal	minor	61	1	1	1	1

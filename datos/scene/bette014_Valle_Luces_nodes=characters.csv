@@ -1,0 +1,61 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	first scene	middle scene	last scene
+#max	#max	Max Estrella	M	protagonist	person	primary	1	26	17	17	32	19	25	0	36	29	28	9	40	0	0	0	26	19.384615384615383	0
+#coll	#coll	Madame Collet	F	lover	person	secondary	2	27	0	0	0	0	0	0	0	0	0	0	0	13	0	0	27	1.0	0
+#clau	#clau	Claudinita	F	other	person	secondary	3	13	0	0	0	0	0	0	0	0	0	0	0	13	0	0	13	1.0	0
+#lati	#lati	Don Latino de Hispalis	M	antagonist	person	primary	4	15	8	12	23	4	0	12	0	19	3	5	38	12	0	30	15	10.461538461538462	30
+#zara	#zara	Zaratustra	M	other	person	secondary	5	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.3076923076923077	0
+#gay	#gay	Don Gay	M	other	person	secondary	6	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.3076923076923077	0
+#pelo	#pelo	Un pelón	M	other	person	minor	7	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.07692307692307693	0
+#chica	#chica	La chica de la portera	F	other	person	minor	8	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.23076923076923078	0
+#pica	#pica	Pica lagartos	F	other	person	secondary	9	0	0	9	0	0	0	0	0	0	0	0	0	0	0	12	0	0.6923076923076923	12
+#chic	#chic	Un chico de taberna	F	other	person	minor	8	0	0	12	0	0	0	0	0	0	0	0	0	0	0	7	0	0.9230769230769231	7
+#pisa	#pisa	Enriqueta la pisa bien	F	other	person	secondary	11	0	0	30	11	0	0	0	0	0	0	0	0	0	0	18	0	3.1538461538461537	18
+#rey	#rey	El rey de Portugal	M	other	person	secondary	12	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0.7692307692307693	0
+#borr	#borr	Un borracho	M	other	person	minor	13	0	0	12	0	0	0	0	0	0	0	0	0	0	0	1	0	0.9230769230769231	1
+#dori	#dori	Dorio de Gadex	M	other	person	secondary	14	0	0	0	19	0	0	28	0	0	0	0	0	11	0	0	0	4.461538461538462	0
+#rafa	#rafa	Rafael de los Vélez	M	other	person	minor	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#luci	#luci	Lucio Vero	M	other	person	minor	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#ming	#ming	Mínguez	M	other	person	minor	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#galv	#galv	Gálvez	M	other	person	minor	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#clar	#clar	Clarinito	M	other	person	minor	19	0	0	0	2	0	0	4	0	0	0	0	0	2	0	0	0	0.6153846153846154	0
+#pere	#pere	Pérez	M	other	person	minor	20	0	0	0	2	0	0	3	0	0	0	0	0	3	0	0	0	0.6153846153846154	0
+#capi	#capi	El capitán Pitito	M	other	person	minor	22	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0.46153846153846156	0
+#sere	#sere	Un sereno	M	other	person	minor	23	0	0	0	13	0	0	0	0	0	0	1	0	0	0	0	0	1.0769230769230769	0
+#voz	#voz	La voz de un vecino	M	other	person	minor	24	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0.15384615384615385	0
+#guar	#guar	Un guardia del orden	M	other	person	minor	25	0	0	0	7	2	0	0	0	0	0	1	0	0	0	0	0	0.7692307692307693	0
+#otro	#otro	Otro guardia del orden	M	other	person	minor	26	0	0	0	7	1	0	0	0	0	0	0	0	0	0	0	0	0.6153846153846154	0
+#sera	#sera	Serafín el bonito	M	other	person	secondary	27	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	1.6923076923076923	0
+#cela	#cela	Un celador	M	other	person	minor	28	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#pres	#pres	Un preso	M	other	person	secondary	29	0	0	0	0	0	25	0	0	0	0	0	0	0	0	0	0	1.9230769230769231	0
+#cons	#cons	El conserje de la redacción	M	other	person	minor	30	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0.07692307692307693	0
+#fili	#fili	Don Filiberto	M	other	person	minor	31	0	0	0	0	0	0	33	0	0	0	0	0	0	0	0	0	2.5384615384615383	0
+#mini	#mini	El ministro de la gobernación	M	other	person	secondary	32	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0	2.3076923076923075	0
+#dieg	#dieg	Dieguito	M	other	person	minor	33	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0	0	1.3846153846153846	0
+#ujie	#ujie	ujier	M	other	person	minor	34	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0.46153846153846156	0
+#viej	#viej	Una vieja pintada	F	other	person	minor	35	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0.8461538461538461	0
+#luna	#luna	La lunares	F	other	person	minor	36	0	0	0	0	0	0	0	0	0	35	0	0	0	0	0	0	2.6923076923076925	0
+#jove	#jove	Un joven desconocido	M	other	person	minor	37	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0.38461538461538464	0
+#madr	#madr	La madre del niño muerto	F	other	person	minor	38	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0.6923076923076923	0
+#empe	#empe	El empeñista	M	other	person	minor	39	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0.5384615384615384	0
+#port	#port	La portera	F	other	person	minor	40	0	0	0	0	0	0	0	0	0	0	2	5	9	0	0	0	1.2307692307692308	0
+#alba	#alba	Un albañil	M	other	person	minor	41	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0.23076923076923078	0
+#veja	#veja	Una vieja	F	other	person	minor	42	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0.07692307692307693	0
+#trap	#trap	La trapera	F	other	person	minor	43	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0.07692307692307693	0
+#reti	#reti	El retirado	M	other	person	minor	44	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0.23076923076923078	0
+#otra	#otra	Otra portera	F	other	person	minor	45	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#veci	#veci	Una vecina	F	other	person	minor	46	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0.5384615384615384	0
+#basi	#basi	Basilio Soulinake	M	other	person	secondary	47	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0.7692307692307693	0
+#coch	#coch	Un cochero de la funeraria	M	other	person	minor	48	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0.15384615384615385	0
+#sepu	#sepu	Un sepulturero	M	other	person	secondary	49	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	1.0769230769230769	0
+#osep	#osep	Otro sepulturero	M	other	person	secondary	50	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0.7692307692307693	0
+#rube	#rube	Rubén Darío	M	other	person	secondary	51	0	0	0	0	0	0	0	0	27	0	0	0	0	16	0	0	3.3076923076923075	0
+#marq	#marq	El marqués de Bradomín	M	other	person	secondary	52	0	0	0	0	0	0	0	0	0	0	0	0	0	21	0	0	1.6153846153846154	0
+#poll	#poll	El pollo del pay-pay	M	other	person	minor	53	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0.0	13
+#peri	#peri	La periodista	F	other	person	minor	54	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0.0	1
+#veno	#veno	Un vecino	M	other	person	minor	55	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0.15384615384615385	0
+#guin	#guin	Un guindilla	M	other	person	minor	56	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0.15384615384615385	0
+#tabe	#tabe	Un tabernero	M	other	person	minor	57	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0.3076923076923077	0
+#llav	#llav	El llavero	M	other	person	minor	58	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0.15384615384615385	0
+#can	#can	can	M	other	animal	minor	59	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.15384615384615385	0
+#gato	#gato	gato	M	other	animal	minor	60	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.07692307692307693	0
+#loro	#loro	Un loro	M	other	animal	minor	61	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.07692307692307693	0

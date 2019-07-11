@@ -1,31 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="short">Cara de Plata</title>
+				<title type="short">CaraPlata</title>
 				<title type="full">Cara de Plata (Comedias bárbaras, 1)</title>
 				<title type="idno">
 					<idno type="viaf">185991665</idno>
 					<idno type="bne">XX2215951</idno>
+					<idno type="wikidata">Q5748755</idno>
 				</title>
 				<author>
 					<name type="full">Ramón María del Valle Inclán</name>
 					<name type="short">Valle</name>
 					<idno type="viaf">68936773</idno>
 					<idno type="bne">XX1055436</idno>
+					<idno type="wikidata">Q311001</idno>
 				</author>
 				<principal xml:id="rvf">Rocío Vilches Fernández</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>045</idno>
+				<idno>
+					<idno type="number">045</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -35,9 +43,9 @@
 				</bibl>
 				<bibl type="electronic-source">
 					<date>2013</date>
-					<publisher>epub</publisher>
-					<pubPlace>ePubLibre</pubPlace>
-					<ref target="https://www.epublibre.org/libro/detalle/3825/"/>
+					<publisher>epublibre</publisher>
+					<pubPlace></pubPlace>
+					<ref target="https://www.epublibre.org/libro/detalle/3825/"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1922</date>
@@ -51,15 +59,546 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="comedia-bárbara"></purpose>
+			</textDesc>
 			<abstract>
 				<p>En la primera jornada de la obra presenciamos la queja de los chalanes por la prohibición impuesta por Montenegro sobre el paso del ganado por el pazo de Lantañón. Además queda reflejada, en esta jornada, la atracción sentimental que siente Cara de Plata por Sabelita, ahijada de su padre; y la enemistad entre Cara de Plata y el Abad, después de impedirle a este, pasar por el pazo, cuando iba a ver a una persona que estaba a punto de morir.</p>
 				<p>En la segunda jornada, queda, de nuevo, patente la enemistad/rivalidad entre Cara de Plata y el Abad durante una partida de cartas entre ambos. Además, en esta jornada, se produce el rapto de Sabelita por parte de don Juan Manuel Montenegro.</p>
 				<p>En la tercera jornada, el Abad va a rescatar a su sobrina, Sabelita, de las manos de Montenegro. Después de una gran disputa, este no lo consigue, Sabelita se queda con don Juan Manuel. La obra finaliza con una fuerte pelea entre este y su hijo, Cara de Plata, cuando va a rescatar también a Sabelita. </p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+					<person n="1" role="antagonist" sex="M" xml:id="caba">
+						<persName>El Caballero, don Juan Manuel Montenegro</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6184</desc></event>
+							<event type="sps"><desc>108</desc></event>
+							<event type="rss"><desc>64</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="protagonist" sex="M" xml:id="cara">
+						<persName>Cara de Plata</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6063</desc></event>
+							<event type="sps"><desc>202</desc></event>
+							<event type="rss"><desc>72</desc></event>
+							<event type="scenes"><desc>10</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="other" sex="M" xml:id="pedr">
+						<persName>Don Pedrito</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>177</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="other" sex="M" xml:id="rose">
+						<persName>Don Rosendo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>44</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="other" sex="M" xml:id="maur">
+						<persName>Don Mauro</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>393</desc></event>
+							<event type="sps"><desc>12</desc></event>
+							<event type="rss"><desc>10</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="gonz">
+						<persName>Don Gonzalito</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="farr">
+						<persName>Don Farruquiño</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>635</desc></event>
+							<event type="sps"><desc>9</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="lover" sex="F" xml:id="sabe">
+						<persName>Sabelita</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3384</desc></event>
+							<event type="sps"><desc>118</desc></event>
+							<event type="rss"><desc>41</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="antagonist" sex="M" xml:id="abad">
+						<persName>El Abad de Lantañón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6386</desc></event>
+							<event type="sps"><desc>142</desc></event>
+							<event type="rss"><desc>59</desc></event>
+							<event type="scenes"><desc>8</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="F" xml:id="jero">
+						<persName>Doña Jeromita</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5459</desc></event>
+							<event type="sps"><desc>120</desc></event>
+							<event type="rss"><desc>12</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="M" xml:id="sac1">
+						<persName>El Sacristán</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>4767</desc></event>
+							<event type="sps"><desc>85</desc></event>
+							<event type="rss"><desc>42</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="F" xml:id="sac2">
+						<persName>La Sacristana</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2633</desc></event>
+							<event type="sps"><desc>39</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="13" role="other" sex="F" xml:id="biga">
+						<persName>Bigardona</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>444</desc></event>
+							<event type="sps"><desc>15</desc></event>
+							<event type="rss"><desc>15</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="M" xml:id="celo">
+						<persName>Celonio</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="M" xml:id="gabi">
+						<persName>Gabino</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="16" role="other" sex="M" xml:id="ming">
+						<persName>Mingote</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="17" role="other" sex="M" xml:id="fuso">
+						<persName>Fuso Negro</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>4753</desc></event>
+							<event type="sps"><desc>54</desc></event>
+							<event type="rss"><desc>29</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person>
+					<person n="18" role="other" sex="M" xml:id="gala">
+						<persName>Don Galán</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>341</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="19" role="other" sex="M" xml:id="peab">
+						<persName>Pedro Abuín</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1322</desc></event>
+							<event type="sps"><desc>22</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="20" role="other" sex="M" xml:id="rami">
+						<persName>Ramiro de Bealo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>327</desc></event>
+							<event type="sps"><desc>8</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="21" role="other" sex="M" xml:id="mato">
+						<persName>Manuel Tovío</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>172</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="22" role="other" sex="F" xml:id="mafo">
+						<persName>Manuel Fonseca</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>123</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="23" role="other" sex="M" xml:id="seba">
+						<persName>Sebastián de Xogas</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1131</desc></event>
+							<event type="sps"><desc>16</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="24" role="other" sex="M" xml:id="viej">
+						<persName>El viejo de Cures</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2527</desc></event>
+							<event type="sps"><desc>22</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="25" role="other" sex="M" xml:id="past">
+						<persName>Pastor</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>415</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="26" role="other" sex="F" xml:id="pich">
+						<persName>Pichona la Bisbisera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5987</desc></event>
+							<event type="sps"><desc>92</desc></event>
+							<event type="rss"><desc>27</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="27" role="other" sex="F" xml:id="ludo">
+						<persName>Ludovina la ventorrillera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>990</desc></event>
+							<event type="sps"><desc>28</desc></event>
+							<event type="rss"><desc>11</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="28" role="other" sex="F" xml:id="coim">
+						<persName>La Coima de otro mesón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>87</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="29" role="other" sex="M" xml:id="mara">
+						<persName>Un maragato</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>321</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="30" role="other" sex="M" xml:id="peni">
+						<persName>Un Penitente</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>836</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="31" role="other" sex="M" xml:id="cieg">
+						<persName>El Ciego de Gondar</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>279</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="32" role="other" sex="M" xml:id="indi">
+						<persName>Un Indiano</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>124</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="33" role="other" sex="M" xml:id="diac">
+						<persName>El Diácono de Lesón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>208</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="34" role="other" sex="F" xml:id="viea">
+						<persName>Una vieja cotillona</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>603</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="35" role="other" sex="F" xml:id="voza">
+						<persName>Otras viejas</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>156</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="0" role="other" sex="M" xml:id="pre1">
+						<persName>Un pregón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>99</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="0" role="other" sex="M" xml:id="pre2">
+						<persName>Otro pregón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>83</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="0" role="other" sex="M" xml:id="pre3">
+						<persName>Otro pregón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>32</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="36" role="other" sex="F" xml:id="clam">
+						<persName>Clamor de mujerucas</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>384</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="0" role="other" sex="F" xml:id="mari">
+						<persName>María</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="0" role="other" sex="M" xml:id="cvaq">
+						<persName>Clamor de los vaqueros</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>85</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<personGrp n="0" role="other" sex="O" xml:id="vore">
+						<persName>Voces remotas</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>84</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="0" role="other" sex="M" xml:id="chal">
+						<persName>Un chalán</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>17</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="0" role="other" sex="O" xml:id="conf">
+						<persName>Confusión de voces</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>54</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="0" role="other" sex="O" xml:id="vozl">
+						<persName>Voz lejana</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>15</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="0" role="other" sex="M" xml:id="cape">
+						<persName>El capellán</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>24</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>					
+					<personGrp n="0" role="other" sex="F" xml:id="vocs">
+						<persName>Voces de viejas</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>179</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+				</listPerson>
+			</particDesc>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2016-09-04" who="rvf" status="proposed">Versión XML-TEI</change>
-			<change when="2017-06-26" who="jct" status="approved">Metadatos añadidos.</change>
+			<change status="proposed" when="2016-09-04" who="#rvf">Versión XML-TEI</change>
+			<change status="approved" when="2017-06-26" who="#jct">Metadatos añadidos.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#jct">Revisión de metadatos a partir del resumen</change>
+
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -68,125 +607,125 @@
 				<castList>
 					<head>DRAMATIS PERSONAE</head>
 					<castItem>
-						<role xml:id="caba">El Caballero, don Juan Manuel Montenegro</role>
+						<role corresp="#caba">El Caballero, don Juan Manuel Montenegro</role>
 					</castItem>
 					<castItem>
 						<role>Sus hijos</role>
 					</castItem>
 					<castItem>
-						<role xml:id="cara">Cara de Plata</role>
+						<role corresp="#cara">Cara de Plata</role>
 					</castItem>
 					<castItem>
-						<role xml:id="pedr">Don Pedrito</role>
+						<role corresp="#pedr">Don Pedrito</role>
 					</castItem>
 					<castItem>
-						<role xml:id="rose">Don Rosendo</role>
+						<role corresp="#rose">Don Rosendo</role>
 					</castItem>
 					<castItem>
-						<role xml:id="maur">Don Mauro</role>
+						<role corresp="#maur">Don Mauro</role>
 					</castItem>
 					<castItem>
-						<role xml:id="gonz">Don Gonzalito</role>
+						<role corresp="#gonz">Don Gonzalito</role>
 					</castItem>
 					<castItem>
-						<role xml:id="farr">Don Farruquiño</role>
+						<role corresp="#farr">Don Farruquiño</role>
 					</castItem>
 					<castItem>
-						<role xml:id="sabe">Sabelita</role>
+						<role corresp="#sabe">Sabelita</role>
 						<roleDesc>Ahijada del Caballero</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="abad">El Abad de Lantañón</role>
+						<role corresp="#abad">El Abad de Lantañón</role>
 					</castItem>
 					<castItem>
-						<role xml:id="jero">Doña Jeromita</role>
+						<role corresp="#jero">Doña Jeromita</role>
 						<roleDesc>Hermana del Abad de Lantañón</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="sac1">El Sacristán</role>
+						<role corresp="#sac1">El Sacristán</role>
 					</castItem>
 					<castItem>
-						<role xml:id="sac2">La Sacristana</role>
+						<role corresp="#sac2">La Sacristana</role>
 					</castItem>
 					<castItem>
-						<role xml:id="biga">Bigardona</role>
+						<role corresp="#biga">Bigardona</role>
 					</castItem>
 					<castItem>
-						<role xml:id="celo">Celonio</role>
+						<role corresp="#celo">Celonio</role>
 					</castItem>
 					<castItem>
-						<role xml:id="gabi">Gabino</role>
+						<role corresp="#gabi">Gabino</role>
 					</castItem>
 					<castItem>
-						<role xml:id="ming">Mingote</role>
+						<role corresp="#ming">Mingote</role>
 					</castItem>
 					<castItem>
 						<role>Coro de crianzas</role>
 					</castItem>
 					<castItem>
-						<role xml:id="fuso">Fuso Negro</role>
+						<role corresp="#fuso">Fuso Negro</role>
 						<roleDesc>Loco</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="gala">Don Galán</role>
+						<role corresp="#gala">Don Galán</role>
 						<roleDesc>Criado del Caballero</roleDesc>
 					</castItem>
 					<castItem>
 						<role>Una tropa de siete chalanes</role>
 					</castItem>
 					<castItem>
-						<role xml:id="peab">Pedro Abuín</role>
+						<role corresp="#peab">Pedro Abuín</role>
 					</castItem>
 					<castItem>
-						<role xml:id="rami">Ramiro de Bealo</role>
+						<role corresp="#rami">Ramiro de Bealo</role>
 					</castItem>
 					<castItem>
-						<role xml:id="mato">Manuel Tovío</role>
+						<role corresp="#mato">Manuel Tovío</role>
 					</castItem>
 					<castItem>
-						<role xml:id="mafo">Manuel Fonseca</role>
+						<role corresp="#mafo">Manuel Fonseca</role>
 					</castItem>
 					<castItem>
-						<role xml:id="seba">Sebastián de Xogas</role>
+						<role corresp="#seba">Sebastián de Xogas</role>
 					</castItem>
 					<castItem>
-						<role xml:id="viej">El viejo de Cures</role>
+						<role corresp="#viej">El viejo de Cures</role>
 					</castItem>
 					<castItem>
-						<role xml:id="past">Pastor</role>
+						<role corresp="#past">Pastor</role>
 					</castItem>
 					<castItem>
-						<role xml:id="pich">Pichona la Bisbisera</role>
+						<role corresp="#pich">Pichona la Bisbisera</role>
 					</castItem>
 					<castItem>
-						<role xml:id="ludo">Ludovina la ventorrillera</role>
+						<role corresp="#ludo">Ludovina la ventorrillera</role>
 					</castItem>
 					<castItem>
-						<role xml:id="coim">La Coima de otro mesón</role>
+						<role corresp="#coim">La Coima de otro mesón</role>
 					</castItem>
 					<castItem>
-						<role xml:id="mara">Un maragato</role>
+						<role corresp="#mara">Un maragato</role>
 					</castItem>
 					<castItem>
-						<role xml:id="peni">Un Penitente</role>
+						<role corresp="#peni">Un Penitente</role>
 					</castItem>
 					<castItem>
-						<role xml:id="cieg">El Ciego de Gondar</role>
+						<role corresp="#cieg">El Ciego de Gondar</role>
 					</castItem>
 					<castItem>
-						<role xml:id="indi">Un Indiano</role>
+						<role corresp="#indi">Un Indiano</role>
 					</castItem>
 					<castItem>
-						<role xml:id="diac">El Diácono de Lesón</role>
+						<role corresp="#diac">El Diácono de Lesón</role>
 					</castItem>
 					<castItem>
-						<role xml:id="viea">Una vieja cotillona</role>
+						<role corresp="#viea">Una vieja cotillona</role>
 					</castItem>
 					<castItem>
 						<role>Voz en una chimenea</role>
 					</castItem>
 					<castItem>
-						<role xml:id="voza">Otras viejas</role>
+						<role corresp="#voza">Otras viejas</role>
 					</castItem>
 					<castItem>
 						<role>Gritos y denuestos</role>
@@ -194,17 +733,11 @@
 					<castItem>
 						<role>Pregones</role>
 					</castItem>
+
+
+
 					<castItem>
-						<role xml:id="pre1"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="pre2"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="pre3"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="clam">Clamor de mujerucas</role>
+						<role corresp="#clam">Clamor de mujerucas</role>
 					</castItem>
 					<castItem>
 						<role>Salmodia de beatas</role>
@@ -215,34 +748,13 @@
 					<castItem>
 						<role>Las luces del Santo Viático</role>
 					</castItem>
-					<castItem>
-						<role xml:id="mari"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="cvaq"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="vore"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="chal"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="conf"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="vozl"></role>
-					</castItem>
-					<castItem>
-						<role xml:id="vocs"></role>
-					</castItem>
 				</castList>
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>Jornada primera</head>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena primera</head>
 					<stage>Alegres albores. Luengas brañas comunales, en los montes de Lantaño. Sobre el roquedo, la ruina de un castillo, y en el verde regazo, las Arcas de Bradomín. Acampa una <rs key="#peab #rami #mato #mafo #seba #viej #past">tropa de chalanes</rs>, al abrigo de aquellas piedras insignes -<rs key="#mato">Manuel Tovío</rs>, <rs key="#mafo">Manuel Fonseca</rs>, <rs key="#peab">Pedro Abuín</rs>, <rs key="#rami">Ramiro de Bealo</rs> y <rs key="#seba">Sebastián de Xogas</rs>-. A la redonda, los caballos se esparcen mordiendo la yerba sagrada de las célticas mámoas. En la altura, una vaca montesa embravecida muge por el vitelo que se lleva a la feria un rabadán.</stage>
 					<sp who="#peab">
@@ -424,7 +936,7 @@
 					</sp>
 					<stage>El tropel de chalanes parte en cabalgada, y <rs key="#past">el Pastor</rs> en lo alto de la peña, silueteado sobre el cielo, los despide con un grito, agitando los brazos. A lo lejos, en el cristal de la mañana, un vuelo de palomas abre sus círculos sobre la torre de Lantañón.</stage>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena segunda</head>
 					<stage>Luces matinales en el Pazo de Lantañón. Sobre el atrio de limoneros, la arcada de una solana, con escalera de piedra. <rs key="#sabe">Sabelita</rs> está en lo alto, de pechos al arambol, rubia de mieles, el cabello en dos trenzas, la frente bombeada y pulida, el hábito Nazareno. En el lindero del atrio clamorea una ringla de mujerucas con frutos y tenderetes.</stage>
 					<sp who="#clam">
@@ -819,7 +1331,7 @@
 					</sp>
 					<stage><rs key="#fuso">Fuso Negro</rs> se esguinza con una espantada, sacando la lengua. Una nalga negruzca le palpita entre jirones de remiendos. ¡Touporroutou! De pronto se vuelve, y comienza a bailar, trenzando las piernas. ¡Touporroutou!</stage>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena tercera</head>
 					<stage>Entre Lugar de Condes y Lugar de Freyres, el Pazo de Lantañón. Brañas, castañares, agros de pan. Lugar de Condes en el abrigo de la iglesia, y cavado en el monte Lugar de Freyres. La Puente de Lantañón reina en medio: a uno y otro lado son orgullosas entradas, arcos barrocos con escudos y cadenas. Por los pretiles, en los claros ojos de la mañana, se estrecha una punta de vacas, con el sol en las astas. Y contra el sol, rostro al monte, viene al galope <rs key="#cara">Cara de Plata</rs>. Le saluda placentera la voz del <rs key="#viej">viejo de Cures</rs>.</stage>
 					<sp who="#viej">
@@ -1037,7 +1549,7 @@
 					</sp>
 					<stage><rs key="#abad">El Abad</rs> vuelve grupas y pone espuelas. Sobre los roquedos, ágiles siluetas pastoriles gritan agitando los brazos, y esparcidos rebaños pacen en torno: voces y ladridos se prolongan y encadenan por la quebrada.</stage>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena cuarta</head>
 					<stage><rs key="#abad">El Abad</rs> de Lantañón con escolta de chalanes y boyeros, entra por la verde quintana de su iglesia, y ante el portón de la rectoral, descabalga. <rs key="#sac1">Blas de Míguez, el sacristán</rs>, acude a tenerle el bridón de la montura. Tumulto de voces quiebra el verde y aldeano silencio. El tonsurado esquivo y sin hablar palabra, se mete por las puertas de la sacristía. Negro, zancudo, angosto, desaparece en la tiniebla de arcones y santos viejos. A poco retorna, y en el quicio de la puerta hace disimulo de no mirar a los chalanes, atento al tempero. Disputa el tropel de feriantes y se mueven las picas entre gritos y gestos. De pronto, sobre el patín de la rectoral, aparece una dueña pilonga, muy halduda, que con la rueca en la cinta tuerce el huso y escupe en el dedo. Es <rs key="#jero">doña Jeromita</rs>, la hermana de <rs key="#abad">el Abad</rs>.</stage>
 					<sp who="#jero">
@@ -1248,7 +1760,7 @@
 					</sp>
 					<stage><rs key="#abad">El Abad</rs>, signándose de prisa, y paseando a la sombra del muro, comienza el rezo canónico. La tropa de chalanes se reparte por el murete de la quintana, en espera del jarro de mosto. Era famoso el vino de la rectoral.</stage>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena quinta</head>
 					<stage>El atrio de limoneros en el Pazo de Lantañón. <rs key="#jero">Doña Jeromita</rs> aparece sobre un borriquillo con jamugas, saltante al trote titiritero, bien repartido por los bastes el vuelo de su falda, y el manto con alfileres. <rs key="#sac1">Blas de Míguez, el sacristán</rs>, que viene como espolique, azota el anca del borriquillo con una vara de verde avellano. Entran por el gran arca feudal con escudos y cadenas. La dueña pilonga descabalga en un poyo, tapándose las canillas, y el <rs key="#sac1">sacristán</rs>, con los brazos abiertos, está atento, sin tocarla, respetando aquella honesta pulcritud de abadesa.</stage>
 					<sp who="#jero">
@@ -1841,9 +2353,9 @@
 					<stage><rs key="#sac1">Blas de Míguez</rs> sale por la puerta de la torre con un jarro de vino, borracho y bailando. La <rs key="#jero">vieja pilonga</rs> se espanta en el ruedo de su falda, y renueva la risa el <rs key="#caba">viejo linajudo</rs>, mientras halaga blandamente la cabeza de <rs key="#sabe">la niña</rs>, que se arrodilla para besarle la mano. En la penumbra verde de los limoneros, la nota morada es un grito dramático.</stage>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>Jornada segunda</head>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena primera</head>
 					<stage>Viana del Prior: fue villa de señorío, como lo declaran sus piedras insignes. Está llena de prestigio la ruda sonoridad de sus atrios y quintanas. Tiene su crónica en piedras sonoras, candoroso romance de rapiñas feudales y banderas de gremios rebeldes, frente a condes y mitrados. Viejas casonas, viejos linajes, pergaminos viejos, escudos en arcos, pregonan las góticas fábulas de la Armería Galaica. ¡Viana del Prior! Feria renombrada en la Octava del Corpus. Nunca faltan lusos y castellanos. Un campo verde con robledo. Velarios. Gentío. Ganados. Vistosos tendales. Portugueses talabartes, jalmas zamoranas, pardas estameñas. En las bayetas de los refajos cantan amarillos, verdes y granas. El azul en las calzas y en los recortes del sayo. Tenderetes de espejillos, navajas y sartales, fulgen al sol, y bajan en dos carreros por la cuesta enlosada con prosapia romana, y aun trasponen el arco que comunica la iglesia de un convento y un palacio. Bajo grandes parasoles tienen el tabanque tunos buhoneros que el barato y la suerte pregonan, y con arte gitana engañan a los maravillados aldeanos. Ciegos y lazarillos cantan sus romances.</stage>
 					<sp who="#pre1">
@@ -2073,7 +2585,7 @@
 						<p>¡Agua de rosas para los ojos! ¡Petaquillas del presidio de Ceuta! ¡A la rueda de la biribís que a todos contenta! ¡A cuarto la suerte! ¡A cartiño rabelo!</p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena segunda</head>
 					<stage>Un huerto con parral, a espaldas de la venta. Trajinantes, arrieros, maragatos, chalanes y rufos clérigos, en una rinconada, tiran al naipe, el juego clásico de las ferias españolas, gallos y albures que dicen los doctos.</stage>
 					<sp who="#abad">
@@ -2291,7 +2803,7 @@
 					</sp>
 					<stage><rs key="#maur">Don Mauro</rs> restalla su vara. El fogonazo de un tiro, charamuscas del taco, olor de pólvora, ladridos, denuestos, espantos. <rs key="#maur">Don Mauro</rs> pelea por desasirse entre clerigotes y chalanes que le amonestan y traban. <rs key="#abad">El Abad</rs> con la sotana rota y la pistola humeante, caminando de espalda, pega con la puerta del huerto y escapa. Repentinamente se aclara el tropel. <rs key="#cara">Cara de Plata</rs> tiene en la frente el rasguño rojo de una bala, y todo un lado del rostro, negro del fogonazo. Se lava con vino, y sus hermanos, con sorda brama, hacen rueda mirándole.</stage>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena tercera</head>
 					<stage>La verde quintana de San Clemente de Lantañón, con la rectoral al flanco, y su <rs key="#abad">Abad</rs> negro y escueto, que despide a tres viejos ceremoniosos sobre la solana de dorados sillares, regalada y monástica. Capas largas, varas y monteras, los tres viejos se vuelven con un mismo compás y hacen su genuflexión en la verde Quintana.</stage>
 					<sp who="#abad">
@@ -2591,7 +3103,7 @@
 					</sp>
 					<stage><rs key="#abad">El Abad</rs>, palpitando con ronca brama, arroja la bolsa al camino, por donde, al galope de su caballo, se aleja <rs key="#cara">Cara de Plata</rs>. <rs key="#jero">Doña Jeromita</rs> cae de rodillas abriendo los brazos, y el bonete espanta sus cuatro cuernos en el ventanuco.</stage>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena cuarta</head>
 					<stage>Huerto de luceros la tarde, y entre cuatro cipreses negros, las piedras románicas de San Martiño de Freyres. Son remotas lumbres las cimas de los montes, y las faldas sinfónicas violetas. Pasa el rezo del viento por los maizales ya nocturnos, y se están transportando a la clave del morado los caminos que aún son al crepúsculo almagres y cadmios. San Martiño de Freyres, por la virtud crepuscular, acendra su karma de suplicaciones, milagros y cirios de muerte. Manos de mujer encienden la lámpara del presbiterio. Vuela asustada una lechuza. <rs key="#sabe">Sabelita</rs>, en sombra, aparece bajo la lámpara, y en la puerta, refrenando el caballo, <rs key="#cara">Cara de Plata</rs>.</stage>
 					<sp who="#cara">
@@ -2795,7 +3307,7 @@
 					</sp>
 					<stage>En el camino, una vieja halduda se aparta casi bajo las patas del caballo, y se hace la cruz.</stage>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena quinta</head>
 					<stage>Ventorrillo sobre un ribazo atalayando el mar y los faros lejanos, que se encienden y se apagan con el ritmo de las estrellas. Ventorrillo de <rs key="#ludo">Ludovina</rs>. Medio postigo alcahuete entorna sobre el camino la luz del zaguán tabernero. Un quinqué de latón, rajado el tubo y el cuerno de la luz amarillo y negro, alumbra colgado sobre el mostrador que rezuma olores de vino y aguardiente. Detrás, pueblan el sórdido anaquel velas de sebo y serones de higos, botillería, especies y tachuelas. <rs key="#ludo">Ludovina</rs> dormita tras el mostrador, con el gato en la falda. Resuena a lo lejos por el camino el paso de un caballo. <rs key="#pich">Pichona la Bisbisera</rs> saca la cabeza y el hombro desnudo, por la cortinilla gaitera de una puerta muy pequeña con tres escalones de cadalso. Salta el gato del regazo de <rs key="#ludo">Ludovina</rs>. <rs key="#pich">Pichona</rs> se oculta y cierra. En el camino está un jinete. <rs key="#ludo">Ludovina</rs> abre los ojos nublados de sueño, y se mete por la puerta de la taberna <rs key="#cara">Cara de Plata</rs>. El <rs key="#cara">hermoso segundón</rs>, pálido, adementado y bello, encorvado sobre la silla aún tocaba el techo con la cabeza.</stage>
 					<sp who="#ludo">
@@ -3255,7 +3767,7 @@
 						<p>¡Si el padre y el hijo se encuentran!</p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena sexta</head>
 					<stage>La rectoral. A la luz de un velón, el zaguán encalado y desguarnido, con arcas antañonas y negra viguería. Pasea <rs key="#abad">el tonsurado</rs>: trabuco, sotana, bonete. Los reflejos del velón llenan de aladas inquietudes las paredes, y en el temblor de la luz y la sombra se hace visible el viento sobre las lívidas cales. Colgado de un clavo baila el solideo, y solfea sobre el arcón de los diezmos la cola de un perrillo que runfla y bosteza. La Quintana, silenciosa y nocherniega, se prolonga por el vano de la puerta, y en el claro de luna, con los brazos abiertos, se espanta la <rs key="#jero">vieja pilonga hermana de <rs key="#abad">el Abad</rs></rs>. Estremece el viento la llama del velón, y calca su negro baile en la pared la borla del solideo.</stage>
 					<sp who="#abad">
@@ -3490,7 +4002,7 @@
 					</sp>
 					<stage><rs key="#jero">Doña Jeromita</rs> abre los brazos para alcanzar el cielo, y con un grito traspasa el nocturno silencio de estrellas. En la niebla lunar, por el camino de plata, <rs key="#fuso">Fuso Negro</rs>. ¡Touporroutou! Ha tropezado con la bolsa y escapa con ella. <rs key="#abad">El Abad</rs> dispara su trabuco. Ladridos lejanos.</stage>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena séptima</head>
 					<stage>Nocturnos cantos ruanos, lejanas risas de foliadas, panderos, brincos y aturujos repenicados, tienen alertada en la cama a <rs key="#pich">Pichona la Bisbisera</rs>. Los ojos brillantes y grandes, el fulvo cabello esparcido por la almohada, atenta al concierto, se desvela la moza andariega. Colgado en el rincón del horno alumbra un sainero candilejo, se agarima debajo una clueca, y en el círculo de la penumbra el gato abre el sacrilegio de sus ojos verdes. Resuena el paso de un caballo, suspira la moza, rebulle la clueca, se enarca el gato y se desvanece. Por la sombra del muro, lo anuncia la lumbre de los ojos verdes. Un golpe en la puerta.</stage>
 					<sp who="#cara">
@@ -3676,9 +4188,9 @@
 					</sp>
 				</div>
 			</div>
-			<div type="act" n="3">
+			<div n="3" type="act">
 				<head>Jornada tercera</head>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena primera</head>
 					<stage>Sala grande y oscura en el Pazo de Lantañón. Un Santo Cristo con enagüillas, en la tiniebla del muro encalado, sugiere su lívida tragedia. Hipnotiza el clavo amarillo de una luz de aceite. Por el vano de un arco se advierte la mesa con recado de manteles. Rondan en torno gatos y perros. <rs key="#caba">El mayorazgo</rs>, en su sillón, levanta la copa. <rs key="#sabe">Sabelita</rs>, en el fondo de una puerta, se cubre la cara. ¡Blancura de aquellas manos!</stage>
 					<sp who="#caba">
@@ -3981,7 +4493,7 @@
 					</sp>
 					<stage>Sale <rs key="#abad">el tonsurado</rs> como una ráfaga negra por la puerta lunera. <rs key="#caba">El mayorazgo</rs> levanta su copa y la ofrece a la sombra arrodillada de su <rs key="#sabe">nueva manceba</rs>.</stage>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena segunda</head>
 					<stage>La encrucijada de San Martiño de Freyres. Cielo con estrellas. Rumor de viento en las mieses. La queja del molino, en un grupo de árboles, alarga las vocales del miedo. La luna en la balsa hila nieblas de plata. Sobre la cruz de los albos caminos enmagrece el bulto ensotanado del <rs key="#abad">Abad</rs>. Bajo el cielo estrellado el bonete perfila sus cuernos y el brazo perfila su trazo negro de maldición y anatema. <rs key="#sac1">Blas de Míguez</rs> se encoge como un perro sobre la sombra alargada del tonsurado.</stage>
 					<sp who="#abad">
@@ -4176,7 +4688,7 @@
 					</sp>
 					<stage>Sobre el albo camino baila <rs key="#fuso">el loco</rs> su baile frenético, y una bolsa de monedas hace saltar en el roto bonete cismático. Pasa en una ráfaga ante el sacrílego <rs key="#abad">Abad</rs> de San Clemente.</stage>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena tercera</head>
 					<stage>Quintán de San Martiño. Almiares y tejados luneros. Ladridos lejanos. Tendida parra de morada sombra, ante alguna puerta. Una casa sola al confín del quintero. Negro y rojo el hogar donde una vieja encuerada se espulga. Sale en bocana por las tejas humo de pinocha y olor de sardinas asadas. La vieja se espulga, un crío gimotea y una <rs key="#biga">bigardona</rs>, bajo el candil, se remienda el manteo.</stage>
 					<sp who="#sac2">
@@ -4590,7 +5102,7 @@
 						<p>A morir me rebelo. ¿Qué fue lo tratado? ¡Cierro un ojo no más! ¡Hay que ponerlo en claro! ¡Luces no quiero! ¡Las luces sean apagadas! ¡Apágalas, viento! ¡A morir me rebelo! ¡Las luces! No voy aunque la cera me llame. ¡Déjame que escape! ¡Aparta, puñela!</p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena cuarta</head>
 					<stage>La cama de <rs key="#pich">la Pichona</rs>. Un silencio con suspiros y arrullos. Sobre sus gayos caballetes azules, cruje el tabanque del jergón. <rs key="#cara">Cara de Plata</rs> y <rs key="#pich">la Pichona</rs> están a falagare bajo el paraíso de una colcha portuguesa. ¡Toc! ¡Toc! ¡Toc! Rueda una piedra por el tejado. Apagan sus voces las bocas maridadas.</stage>
 					<sp who="#pich">
@@ -4923,14 +5435,14 @@
 						<speaker>Pichona la Bisbisera</speaker>
 						<p>¿Qué negra idea te gobierna? ¡Espera! ¡Detente! ¡No dejes mis brazos, rebelde a tu padre! ¡Quédate mío y te serviré toda la vida! ¡Seré tu esclava! ¡No renueves mi sino enlutado! ¡Yo soy aquella de la vida airada por quien mató a su padre Benitiño el Penitenciado! De tu misma furia revestido, escapó de mis brazos. ¡Detente, adorado! ¡Quedo rezándote!</p>
 					</sp>
-					<sp who="#vozr">
+					<sp who="#voza">
 						<speaker>Voz de ruada</speaker>
-						<p><lg><l>Noite noitiña de meigas e trasgos</l>
+						<lg><l>Noite noitiña de meigas e trasgos</l>
 								<l>fun á ó muiño d'o meu compadre;</l>
-								<l>fun pol'o vento, vin pol'o aire.</l></lg></p>
+								<l>fun pol'o vento, vin pol'o aire.</l></lg>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena última</head>
 					<stage>El atrio del Pazo, fragante de limoneros. Arcos con luna, y el ciprés inmóvil y negro al pie de la escalera. Cruza, cargada de remordimientos, la sombra del <rs key="#caba">Caballero</rs>. Le sigue el bufón patizambo, con la bufonería de resaltar su cojera.</stage>
 					<sp who="#gala">

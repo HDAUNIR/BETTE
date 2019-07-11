@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	scene_18	scene_19	scene_20	scene_21	scene_22	scene_23	first scene	middle scene	last scene
+#zapa	#zapa	Zapatera	F	protagonist	person	primary	1	1	9	19	2	8	1	3	4	1	3	9	0	1	18	11	23	16	16	28	6	0	1	18	1	8.523809523809524	18
+#vecr	#vecr	Vecina Roja	F	other	person	minor	2	0	0	0	11	0	0	0	0	0	0	0	0	0	3	0	0	1	7	0	0	0	10	0	0	1.5238095238095237	0
+#vecm	#vecm	Vecina Morada	F	other	person	minor	3	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0.14285714285714285	0
+#vecv	#vecv	Vecina Verde	F	other	person	minor	4	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0.09523809523809523	0
+#veca	#veca	Vecina Amarilla	F	other	person	minor	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	10	0	0	0.5238095238095238	0
+#vecn	#vecn	Vecina Negra	F	other	person	minor	6	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	2	0	0	0	1	0	0	0.23809523809523808	0
+#beap	#beap	Beata Primera	F	other	person	minor	7	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0.09523809523809523	0
+#beas	#beas	Beata Segunda	F	other	person	minor	8	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0.09523809523809523	0
+#sacr	#sacr	Sacristana	F	other	person	minor	9	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0.047619047619047616	0
+#elau	#elau	El Autor	M	other	person	minor	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#zapo	#zapo	Zapatero	M	lover	person	primary	11	0	0	9	9	9	14	3	3	0	0	1	3	0	0	0	0	0	24	28	1	1	4	19	0	5.190476190476191	19
+#elni	#elni	El Niño	M	other	person	minor	12	0	9	1	0	0	0	0	0	0	0	0	0	0	15	0	22	3	10	0	5	0	0	1	0	3.0952380952380953	1
+#alca	#alca	Alcalde	M	other	person	minor	13	0	0	0	0	0	14	5	0	0	0	0	0	0	1	0	3	14	11	0	0	0	0	0	0	2.2857142857142856	0
+#donm	#donm	Don Mirlo	M	other	person	minor	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#mozf	#mozf	Mozo de la Faja	M	other	person	secondary	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#mozs	#mozs	Mozo del Sombrero	M	other	person	secondary	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0

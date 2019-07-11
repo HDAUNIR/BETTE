@@ -1,31 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="short">Divinas Palabras</title>
+				<title type="short">DivinasPalabras</title>
 				<title type="full">Divinas Palabras: Tragicomedia de aldea</title>
 				<title type="idno">
 					<idno type="viaf">177399388</idno>
 					<idno type="bne">XX2958776</idno>
+					<idno type="wikidata">Q8561242</idno>
 				</title>
 				<author>
 					<name type="full">Ramón María del Valle Inclán</name>
 					<name type="short">Valle</name>
 					<idno type="viaf">197999653</idno>
 					<idno type="bne">XX1055436</idno>
+					<idno type="wikidata">Q311001</idno>
 				</author>
 				<principal xml:id="mgs_">María García Sánchez</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>013</idno>
+				<idno>
+					<idno type="number">013</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -35,9 +43,9 @@
 				</bibl>
 				<bibl type="electronic-source">
 					<date>2014</date>
-					<publisher>epub libre</publisher>
-					<pubPlace>epub libre</pubPlace>
-					<ref target="https://www.epublibre.org/libro/detalle/9052" />
+					<publisher>epublibre</publisher>
+					<pubPlace></pubPlace>
+					<ref target="https://www.epublibre.org/libro/detalle/9052"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1920</date>
@@ -51,18 +59,471 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="tragicomedia"></purpose>
+			</textDesc>
 			<abstract>
-				<p>Jornada primera: En San Clemente, una iglesia de aldea gallega. Pedro Gailo, el sacristán, ve molesto, a dos farandules que corren los caminos Lucero y Poca Pena. Pedro Gailo intenta echarlos de los alrededores de la iglesia. Mientras salen unas viejas de la Iglesia entre ellas Juana la Reina, mendiga, madre de un enano que le procura fortuna en limosnas y hermana del sacristán. Juana la Reina empieza a delirar y cae al suelo. A los gritos de Rosa aparecen Miguelín el Padronés, un  anda caminos, y el Compadre Miau (Lucero). Aconsejan a Rosa la Tatula que lleve la nueva a la familia, sin decir que ha muerto ya.  Rosa la Tatula llega portadora de la mala nueva. Mari-Gaila, casada con el sacristán, comienza el planto y se ofrece  como una caridad  a hacerse cargo del carretón. Llega Marica del Reino, dando gritos donde está la muerta tendida. Llegan los Gailos y discuten acerca de quién se queda con el enano huérfano. Vuelven a discutir los parientes y el alcalde pedáneo les aconseja que se repartan al enano de lunes a miércoles, de jueves a sábados y los domingos alternados. </p>
-				<p>Jornada segunda: Marica del Reino, acurrucada en el umbral de su casa, desayuna. Espera el carretón desde el día anterior y se desata en insultos hacia su cuñada. Mari-Gaila, bromea con los demás de lo bien que le sienta su nueva vida. El Compadre Miau queda con Mari-Gaila en verse. Pedro Gailo, el sacristán, pasea por el pórtico batiendo llaves. Marica del Reino le reclama el carretón y le incita a que tome venganza de su mujer, que anda extraviada. En la playa, se encuentran Mari-Gaila y el El Compadre Miau, y este seduce a Mari-Gaila.  En la casa de los Gailos, el sacristán, borracho, afila el cuchillo y da vueltas a su idea de matar a su mujer. Simoniña intenta calmarlo y  le procura más bebida. El viejo, en su borrachera, le propone un incesto a Simoniña  ésta lo rechaza y al fin el sacristán se duerme. En un hostal fuera de puertas, mendigos y trajinantes de toda laya, mientras Mari-Gaila y el Compadre Miau  ven los castillos de fuego en la plaza. Miguel el Padronés y un joven, hablan del Compadre y de Mari-Gaila y de lo mucho que representa el enano para sacarle dinero enseñándole en ferias y verbenas. El enano tiene un ataque y muere, quedan de acuerdo en guardar silencio, echándole la culpa al Padronés. Aparece la Mari-Gaila, le dan la noticia y le aconsejan darle tierras bajo la cruz de su madre. Mari-Gaila por un camino ve al Trasgo Cabrío, que le recuerda el adulterio que ha cometido. Mari-Gaila se aparece en casa de los Gailos y da la noticia de la muerte del baldadiño. Suelta el dinero que ha recogido. Simoniña comienza el planto. Acuerdan llevar el carretón a Marica del Reino y dejárselo sin decirle nada.</p>
-				<p>Jornada tercera: En casa de los Gailo. Mari-Gaila ofrece una copa al sacristán. Este se muestra irritado con Mari-Gaila. Llega Marica del Reino tirando del carretón. Se pelean. Pedro Gailo, da instrucciones a las mujeres sobre el amortajamiento. La Tatula sugiere que lo pongan en la puerta de la iglesia pidiendo limosna para enterrarlo. La Tatula trae recado de Séptimo Miau que le pide una cita a Mari-Gaila y ésta queda en ir adonde él la cite.  En San Clemente, la Iglesia, Simoniña está arrodillada a la vera del carretón, pideiendo para el entierro. La enorme cabeza del idiota destaca sobre una almohada blanca. Rosa la Tatula vuelve con la respuesta de Mari-Gaila  y busca con la vista un cañaberal para la cita. Miguelín el Padronés ha descubierto in fraganti a Mari-Gaila y a Séptimo Miau, del que se quiere vengar. Los aldeanos se disponen a ir por ellos. El hombre se escapa. Mari-Gaila se revuelve acorralada. En La quintana, atropellando al sacristán, dos mozuelos suben a repicar al campanario. Anuncian que traen a la mujer cogida en adulterio, expuesta a la vergüenza pública. Suben al tejado y desde allí ven llegar el carro. El sacristán se tira desde el tejado, de cabeza. Hace semblante de muerte. De pronto se alza renqueando, la mujer va a su encuentro, el sacristán conduce a su mujer a través del atrio y él hace una vaga imitación de un exorcismo, citando las palabras evangélicas acerca de quien esté libre de culpa, tire la primera piedra. La enorme cabeza del idiota, coronada de camelias se le aparece como una cabeza de ángel y la mujer adúltera va de la mano de su marido.
-				</p>
+				<p>Jornada primera: En San Clemente, una iglesia de aldea gallega. Pedro Gailo, el sacristán, ve molesto, a dos farandules que corren los caminos Lucero (también llamado compadre Miau) y Poca Pena. Pedro Gailo intenta echarlos de los alrededores de la iglesia. Mientras salen unas viejas de la Iglesia entre ellas Juana la Reina, mendiga, madre de un enano que le procura fortuna en limosnas y hermana del sacristán. Juana la Reina empieza a delirar y cae al suelo. A los gritos de Rosa aparecen Miguelín el Padronés, un anda caminos, y Lucero. Aconsejan a Rosa la Tatula que lleve la nueva a la familia, sin decir que ha muerto ya. Rosa la Tatula llega portadora de la mala nueva. Mari-Gaila, casada con el sacristán, comienza el planto y se ofrece  como una caridad  a hacerse cargo del carretón. Llega Marica del Reino, dando gritos donde está la muerta tendida. Llegan los Gailos y discuten acerca de quién se queda con el enano huérfano. Vuelven a discutir los parientes y el alcalde pedáneo les aconseja que se repartan al enano de lunes a miércoles, de jueves a sábados y los domingos alternados. </p>
+				<p>Jornada segunda: Marica del Reino, acurrucada en el umbral de su casa, desayuna. Espera el carretón desde el día anterior y se desata en insultos hacia su cuñada. Mari-Gaila, bromea con los demás de lo bien que le sienta su nueva vida. Lucero queda con Mari-Gaila en verse. Pedro Gailo, el sacristán, pasea por el pórtico batiendo llaves. Marica del Reino le reclama el carretón y le incita a que tome venganza de su mujer, que anda extraviada. En la playa, se encuentran Mari-Gaila y Lucero, y este seduce a Mari-Gaila.  En la casa de los Gailos, el sacristán, borracho, afila el cuchillo y da vueltas a su idea de matar a su mujer. Simoniña intenta calmarlo y le procura más bebida. El viejo, en su borrachera, le propone un incesto a Simoniña, ésta lo rechaza y al fin el sacristán se duerme. En un hostal fuera de puertas, mendigos y trajinantes de toda laya, mientras Mari-Gaila y Lucero ven los castillos de fuego en la plaza. Miguel el Padronés y un joven, hablan de Lucero y de Mari-Gaila y de lo mucho que representa el enano para sacarle dinero enseñándole en ferias y verbenas. El enano tiene un ataque y muere, quedan de acuerdo en guardar silencio, echándole la culpa a Miguelín el padronés. Aparece la Mari-Gaila, le dan la noticia y le aconsejan darle tierras bajo la cruz de su madre. Mari-Gaila por un camino ve al Trasgo Cabrío, que le recuerda el adulterio que ha cometido. Mari-Gaila se aparece en casa de los Gailos y da la noticia de la muerte del baldadiño. Suelta el dinero que ha recogido. Simoniña comienza el planto. Acuerdan llevar el carretón a Marica del Reino y dejárselo sin decirle nada.</p>
+				<p>Jornada tercera: En casa de los Gailo. Mari-Gaila ofrece una copa al sacristán. Este se muestra irritado con Mari-Gaila. Llega Marica del Reino tirando del carretón. Se pelean. Pedro Gailo, da instrucciones a las mujeres sobre el amortajamiento. La Tatula sugiere que lo pongan en la puerta de la iglesia pidiendo limosna para enterrarlo. La Tatula trae recado de Lucero que le pide una cita a Mari-Gaila y ésta queda en ir adonde él la cite. En San Clemente, la Iglesia, Simoniña está arrodillada a la vera del carretón, pidiendo para el entierro. La enorme cabeza del idiota destaca sobre una almohada blanca. Rosa la Tatula vuelve con la respuesta de Mari-Gaila  y busca con la vista un cañaberal para la cita. Miguelín el Padronés ha descubierto in fraganti a Mari-Gaila y a Lucero, del que se quiere vengar. Los aldeanos se disponen a ir por ellos. Lucero se escapa. Mari-Gaila se revuelve acorralada. En La quintana, atropellando al sacristán, dos mozuelos suben a repicar al campanario. Anuncian que traen a la mujer cogida en adulterio, expuesta a la vergüenza pública. Suben al tejado y desde allí ven llegar el carro. El sacristán se tira desde el tejado, de cabeza. Hace semblante de muerte. De pronto se alza renqueando, la mujer va a su encuentro, el sacristán conduce a su mujer a través del atrio y él hace una vaga imitación de un exorcismo, citando las palabras evangélicas acerca de quien esté libre de culpa, tire la primera piedra. La enorme cabeza del idiota, coronada de camelias se le aparece como una cabeza de ángel y la mujer adúltera va de la mano de su marido.</p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+					<person n="1" role="antagonist" sex="M" xml:id="luce">
+						<persName>Lucero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6735</desc></event>
+							<event type="sps"><desc>119</desc></event>
+							<event type="rss"><desc>27</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="other" sex="F" xml:id="poca">
+						<persName>Poca pena</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>594</desc></event>
+							<event type="sps"><desc>14</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="other" sex="F" xml:id="rein">
+						<persName>Juana La Reina</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>791</desc></event>
+							<event type="sps"><desc>18</desc></event>
+							<event type="rss"><desc>8</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="other" sex="M" xml:id="idio">
+						<persName>El hijo idiota</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>206</desc></event>
+							<event type="sps"><desc>13</desc></event>
+							<event type="rss"><desc>9</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="protagonist" sex="M" xml:id="pedr">
+						<persName>Pedro Gailo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>9365</desc></event>
+							<event type="sps"><desc>132</desc></event>
+							<event type="rss"><desc>36</desc></event>
+							<event type="scenes"><desc>9</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="lover" sex="F" xml:id="marg">
+						<persName>Mari-Gaila</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>11775</desc></event>
+							<event type="sps"><desc>240</desc></event>
+							<event type="rss"><desc>75</desc></event>
+							<event type="scenes"><desc>13</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="F" xml:id="simo">
+						<persName>Simoniña</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3400</desc></event>
+							<event type="sps"><desc>83</desc></event>
+							<event type="rss"><desc>11</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="F" xml:id="tatu">
+						<persName>Rosa La Tatula</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6463</desc></event>
+							<event type="sps"><desc>116</desc></event>
+							<event type="rss"><desc>17</desc></event>
+							<event type="scenes"><desc>10</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="M" xml:id="migu">
+						<persName>Miguelín El padronés</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2410</desc></event>
+							<event type="sps"><desc>55</desc></event>
+							<event type="rss"><desc>13</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="M" xml:id="chal">
+						<persName>Un chalán</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>31</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="11" role="other" sex="M" xml:id="mujs">
+						<persName>Mujerucas que llenan los cántaros en la fuente</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>528</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="6" role="other" sex="F" xml:id="mar">
+						<persName>Marica del Reino</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="13" role="other" sex="M" xml:id="peda">
+						<persName>Un alcalde pedáneo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1907</desc></event>
+							<event type="sps"><desc>25</desc></event>
+							<event type="rss"><desc>6</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="F" xml:id="rapa">
+						<persName>Una rapaza</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>39</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="M" xml:id="cieg">
+						<persName>El ciego de Gondar.</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1554</desc></event>
+							<event type="sps"><desc>29</desc></event>
+							<event type="rss"><desc>6</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="16" role="other" sex="M" xml:id="vend">
+						<persName>El vendedor de agua de limón.</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>826</desc></event>
+							<event type="sps"><desc>9</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="17" role="other" sex="M" xml:id="pere">
+						<persName>Un peregrino</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>230</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="18" role="other" sex="F" xml:id="par">
+						<persName>La pareja de civiles</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>329</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<personGrp n="19" role="other" sex="O" xml:id="matr">
+						<persName>Un matrimonio de labriegos con una hija enferma.</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>358</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="20" role="other" sex="F" xml:id="vent">
+						<persName>La ventera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>38</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="21" role="other" sex="M" xml:id="sere">
+						<persName>Serenín de Bretal</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>835</desc></event>
+							<event type="sps"><desc>12</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="22" role="other" sex="F" xml:id="viej">
+						<persName>Una vieja en un ventano</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>221</desc></event>
+							<event type="sps"><desc>9</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="23" role="other" sex="F" xml:id="muje">
+						<persName>Una mujer en preñez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>136</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="24" role="other" sex="F" xml:id="veci">
+						<persName>Otra vecina</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1130</desc></event>
+							<event type="sps"><desc>17</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="25" role="other" sex="F" xml:id="sold">
+						<persName>Un soldado con el canuto de la licencia</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>353</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="26" role="other" sex="F" xml:id="ludo">
+						<persName>Ludovina la tabernera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>675</desc></event>
+							<event type="sps"><desc>16</desc></event>
+							<event type="rss"><desc>10</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="27" role="other" sex="M" xml:id="trop">
+						<persName>Tropas de rapaces</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>242</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<personGrp n="28" role="other" sex="F" xml:id="beat">
+						<persName>Beaterío de viejas y mozas.</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>23</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="29" role="other" sex="F" xml:id="beni">
+						<persName>Benita la costurera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>529</desc></event>
+							<event type="sps"><desc>14</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="30" role="other" sex="M" xml:id="quin">
+						<persName>Quintín pintado</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>430</desc></event>
+							<event type="sps"><desc>12</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="31" role="other" sex="M" xml:id="milo">
+						<persName>Milón de La Arnoya</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>233</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="32" role="other" sex="M" xml:id="coim">
+						<persName>Coimbra</persName>
+						<trait type="nature"><desc>animal</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>19</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="33" role="other" sex="M" xml:id="colo">
+						<persName>Colorín, pájaro adivino</persName>
+						<trait type="nature"><desc>animal</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="34" role="other" sex="M" xml:id="tras">
+						<persName>El trasgo cabrío</persName>
+						<trait type="nature"><desc>non-human</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>631</desc></event>
+							<event type="sps"><desc>18</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="35" role="other" sex="M" xml:id="sapo">
+						<persName>Un sapo anónimo que canta en la noche</persName>
+						<trait type="nature"><desc>animal</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>11</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person role="other" sex="F" xml:id="moza">
+						<persName>Una moza</persName>
+						<trait type="nature"><desc>human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>186</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>					
+					<person role="other" sex="F" xml:id="otra">
+						<persName>Otra moza</persName>
+						<trait type="nature"><desc>human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>43</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person role="other" sex="F" xml:id="marc">
+						<persName>Marica del Reino</persName>
+						<trait type="nature"><desc>human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>7117</desc></event>
+							<event type="sps"><desc>89</desc></event>
+							<event type="rss"><desc>20</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person>
+					<person role="other" sex="F" xml:id="moci">
+						<persName>Una mocina</persName>
+						<trait type="nature"><desc>human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>49</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>					
+					<personGrp n="36" role="other" sex="O" xml:id="grit">
+						<persName>Final de gritos y aturujos moceriles</persName>
+						<trait type="nature"><desc>other</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>850</desc></event>
+							<event type="sps"><desc>33</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</personGrp>				
+				</listPerson>
+			</particDesc>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2016-06-06" who="#jct" status="draft">Versión inicital TEI.</change>
+			<change status="draft" when="2016-06-06" who="#jct">Versión inicital TEI.</change>
 			<change when="2016-11-04" who="#mgs">Cambios en  datos del teiHeader</change>
 			<change when="2017-05-11" who="#jct">Correcciones menores y validación.</change>
-			<change when="2017-05-11" who="#mgs" status="approved">Añadido abstract y aprobado.</change>
+			<change status="approved" when="2017-05-11" who="#mgs">Añadido abstract y aprobado.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#jct">Revisión de metadatos a partir del resumen</change>
+
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -71,171 +532,181 @@
 				<castList>
 					<head>Dramatis personae</head>
 					<castItem>
-						<role xml:id="luce">Lucero</role>
+						<role corresp="#luce">Lucero</role>
 						<roleDesc>Lucero, que otras veces se llama Séptimo miau y compadre miau. Feriante </roleDesc>
 						<actor></actor>				
 					</castItem>
 					<castItem>
-						<role xml:id="poca">Poca pena</role>
+						<role corresp="#poca">Poca pena</role>
 						<roleDesc>Manceba de Lucero , madre de su hijo </roleDesc>
 						<actor></actor>				
 					</castItem>
 					<castItem>
-						<role xml:id="rein">Juana La Reina</role>
+						<role corresp="#rein">Juana La Reina</role>
 						<roleDesc>Hermana de Pedro Gailo, hermana de Rosa de Tatula, madre del idiota. </roleDesc>	
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="idio">El hijo idiota</role>
+						<role corresp="#idio">El hijo idiota</role>
 						<roleDesc>Hijo de Juana La Reina  </roleDesc>	
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pedr">Pedro Gailo</role>
-						<roleDesc>Sacristán de San Clemente; Mari-Gaila, su mujer, y Simoniña, nacida de los dos.</roleDesc>	
+						<role corresp="#pedr">Pedro Gailo</role>
+						<roleDesc>Sacristán de San Clemente;</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="tatu">La Tatula</role>
+						<role corresp="#marg">Mari-Gaila</role>
+						<roleDesc>, su mujer,</roleDesc>
+						<actor></actor>
+					</castItem>
+					<castItem>
+						<role corresp="#simo">Simoniña</role>
+						<roleDesc>, nacida de los dos.</roleDesc>
+						<actor></actor>
+					</castItem>
+					<castItem>
+						<role corresp="#tatu">La Tatula</role>
 						<roleDesc> Vieja mendiga </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="migu">Miguelín El padronés</role>
+						<role corresp="#migu">Miguelín El padronés</role>
 						<roleDesc>  Mozo leñador  </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="chal">Un chalán</role>
+						<role corresp="#chal">Un chalán</role>
 						<roleDesc> Tratante de ganado   </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="mujs">Mujerucas que llenan los cántaros en la fuente</role>
+						<role corresp="#mujs">Mujerucas que llenan los cántaros en la fuente</role>
 						<roleDesc> Aldeanas   </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="mar">Marica del Reino con otras mujerucas</role>
-						<roleDesc> Hermana de Pedro Gailo, tía de Simoniña, cuñada de Mari-Gaila   </roleDesc>
+						<role corresp="#marc">Marica del Reino con otras mujerucas</role>
+						<roleDesc>Hermana de Pedro Gailo, tía de Simoniña, cuñada de Mari-Gaila   </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="peda">Un alcalde pedáneo</role>
+						<role corresp="#peda">Un alcalde pedáneo</role>
 						<roleDesc>  Alcalde  </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="rapa">Una rapaza.</role>
+						<role corresp="#rapa">Una rapaza.</role>
 						<roleDesc> Rapaza   </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cieg">El ciego de Gondar.</role>
+						<role corresp="#cieg">El ciego de Gondar.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="vend">El vendedor de agua de limón.</role>
+						<role corresp="#vend">El vendedor de agua de limón.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pere">Un peregrino.</role>
+						<role corresp="#pere">Un peregrino.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="par">La pareja de civiles.</role>
+						<role corresp="#par">La pareja de civiles.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="matr">Un matrimonio de labriegos con una hija enferma.</role>
+						<role corresp="#matr">Un matrimonio de labriegos con una hija enferma.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="vent">La ventera</role>
+						<role corresp="#vent">La ventera</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="sere">Serenín de Bretal.</role>
+						<role corresp="#sere">Serenín de Bretal.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="viej">Una vieja en un ventano.</role>
+						<role corresp="#viej">Una vieja en un ventano.</role>
 						<roleDesc>   La vieja del ventano </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="muje">Una mujer en preñez.</role>
+						<role corresp="#muje">Una mujer en preñez.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="veci">Otra vecina.</role>
+						<role corresp="#veci">Otra vecina.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="sold">Un soldado con el canuto de la licencia.</role>
+						<role corresp="#sold">Un soldado con el canuto de la licencia.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="ludo">Ludovina la tabernera.</role>
+						<role corresp="#ludo">Ludovina la tabernera.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="trop">Tropas de rapaces con burlas y canciones.</role>
+						<role corresp="#trop">Tropas de rapaces con burlas y canciones.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="beat">Beaterío de viejas y mozas.</role>
+						<role corresp="#beat">Beaterío de viejas y mozas.</role>
 						<roleDesc>    </roleDesc>	
 					</castItem>
 					<castItem>
-						<role xml:id="beni">Benita la costurera.</role>
+						<role corresp="#beni">Benita la costurera.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="quin">Quintín pintado.</role>
+						<role corresp="#quin">Quintín pintado.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="milo">Milón de La Arnoya</role>
+						<role corresp="#milo">Milón de La Arnoya</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="coim">Coimbra, perro sabio.</role>
+						<role corresp="#coim">Coimbra, perro sabio.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="colo">Colorín, pájaro adivino</role>
+						<role corresp="#colo">Colorín, pájaro adivino</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="tras">El trasgo cabrío</role>
+						<role corresp="#tras">El trasgo cabrío</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="sapo">Un sapo anónimo que canta en la noche.</role>
+						<role corresp="#sapo">Un sapo anónimo que canta en la noche.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="grit">Final de gritos y aturujos moceriles.</role>
+						<role corresp="#grit">Final de gritos y aturujos moceriles.</role>
 						<roleDesc>    </roleDesc>
 						<actor></actor>
 					</castItem>
@@ -243,9 +714,9 @@
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>JORNADA PRIMERA</head>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena primera</head>
 					<stage>San Clemente, anejo de Viana del Prior. Iglesia de aldea sobre la cruz de dos caminos, en medio de una quintana con sepulturas y cipreses. <rs key="#pedr">Pedro Gailo</rs>, el sacristán, apaga los cirios bajo el pórtico románico. Es un viejo fúnebre, amarillo de cara y manos, barbas mal rapadas, sotana y roquete. Sacude los dedos, sopla sobre las yemas renegridas, las rasca en las columnas del pórtico. Y es siempre a conversar consigo mismo, huraño el gesto, las oraciones deshilvanadas.</stage>
 					<sp who="#pedr">
@@ -481,7 +952,7 @@
 					</sp>
 					<stage>Se desconsuela el niño en brazos de la madre, y sobre la espalda del errante bambolea la jaula del pájaro que saca la suerte: Dorada bajo el Sol, es Alcázar de la Ilusión.</stage>
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena segunda</head>
 					<stage>Paraje de árboles sobre la carretera. <rs key="#rein">Juana La Reina</rs>, en aquellas sombras, pide limosna con el pañuelo de flores abierto en las ribas de la cuneta, y el enano, hundido en el jergón del dornajo, vicioso bajo la manta remendada, hace su mueca.</stage>
 					<sp who="#rein">
@@ -807,7 +1278,7 @@
 						<p>¡Cochinos ochavos! ¡Los aborrezco! ¡A pique estuvimos de reñir, compadre<rs key="#luce">Lucero</rs>! Riña de enamorados.</p>
 					</sp>
 				</div>
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena tercera</head>
 					<stage>Otro camino galgueando entre las casas de un quintero. Al borde de los tejados maduran las calabazas verdigualdas, y suenan al pie de los hórreos las cadenas de los perros. Baja el camino hasta una fuente embalsada en el recato de una umbría de álamos. Silban los mirlos, y las mujerucas aldeanas <rs key="#mujs">Mujerucas que llenan los cántaros en la fuente</rs>dejan desbordar las herradas, contando los cuentos del quintero.  <rs key="#tatu">Rosa La Tatula</rs> llega haldeando, portadora de la mala nueva.</stage>
 					<sp who="#tatu">
@@ -845,7 +1316,7 @@
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
-						<p><rs key="#mari">Mari-Gaila</rs>, casada con un hermano carnal de la difunta. <rs key="#Pedr">Pedro Gailo</rs>, el sacristán, en sus papeles es Pedro del Reino.</p>
+						<p><rs key="#marg">Mari-Gaila</rs>, casada con un hermano carnal de la difunta. <rs key="#Pedr">Pedro Gailo</rs>, el sacristán, en sus papeles es Pedro del Reino.</p>
 					</sp>
 					<sp who="#mujs">
 						<speaker>Otra Mujeruca</speaker>
@@ -853,22 +1324,22 @@
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
-						<p><rs key="#mari">Mari-Gaila</rs>, corre, que a tu cuñada le acudió una alferecía, y está privada en las sombras de la vereda. <rs key="#mari">Mari-Gaila</rs> ¿Cuál de las dos cuñadas?</p>
+						<p><rs key="#marg">Mari-Gaila</rs>, corre, que a tu cuñada le acudió una alferecía, y está privada en las sombras de la vereda. <rs key="#marg">Mari-Gaila</rs> ¿Cuál de las dos cuñadas?</p>
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
 						<p><rs key="#rein">Juana La Reina</rs>.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay Tatula<rs key="#tatu"> Rosa La Tatula</rs>, declárate si ella es difunta, que no me falta fortaleza!</p>
 					</sp>
-					<sp who="#mari #tatu">
+					<sp who="#marg #tatu">
 						<speaker>Rezo de las mujeres</speaker>
 						<p>Más de lo que sabes, aquí no sabemos.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> deja caer el cántaro, desanuda el pañuelo que lleva a la cabeza, y frente a la hija, que suspira apocada, abre los brazos en ritmos trágicos y antiguos. La fila de cabezas, con un murmullo casi religioso, está vuelta para la plañidera que bajo los sombras de la fuente aldeana resucita una antigua belleza histriónica. Detenida en lo alto del camino, abre la curva cadenciosa de los brazos, con las curvas sensuales de la voz.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs> deja caer el cántaro, desanuda el pañuelo que lleva a la cabeza, y frente a la hija, que suspira apocada, abre los brazos en ritmos trágicos y antiguos. La fila de cabezas, con un murmullo casi religioso, está vuelta para la plañidera que bajo los sombras de la fuente aldeana resucita una antigua belleza histriónica. Detenida en lo alto del camino, abre la curva cadenciosa de los brazos, con las curvas sensuales de la voz.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Escacha el cántaro, Simoniña! ¡Simoniña, escacha el cántaro! ¡Qué triste sino! ¡Acaba como la hija de un déspota! ¡Nunca jamás querer acogerse al abrigo de su familia! ¡Ay cuñada, no te llamaba la sangre, y te llamó para siempre la tierra, que todos pisan de una vereda! ¡Escacha el cántaro, Simoniña!</p>
 					</sp>
@@ -884,7 +1355,7 @@
 						<speaker>Otra Mujeruca</speaker>
 						<p>Corta castellano como una alcaldesa.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay cuñada, soles y lluvia, andar caminos, pasar trabajos, fueron tus romerías en este mundo! ¡Ay cuñada, por cismas te despartiste de tus familias! ¡Y quémala virazón tuviste para mí, cuñada! ¡Ay, cuñada, te movían lenguas anabolenas!</p>
 					</sp>
@@ -900,7 +1371,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Por veces también se niega.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡No en mi pecho, Tatula!</p>
 					</sp>
@@ -908,7 +1379,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Así se contempla.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Y aun cuando me quede sin pan que llevar a la boca, he de hacerme el cargo del carretón.</p>
 					</sp>
@@ -916,7 +1387,7 @@
 						<speaker>La Tatula</speaker>
 						<p>El carretón, si no lo retiras de los caminos, trae provecho.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Cativo provecho si tengo que dejar el apaño de mi casa.</p>
 					</sp>
@@ -924,15 +1395,15 @@
 						<speaker>La Tatula</speaker>
 						<p>Lo pones en arriendo. Si llega el caso, habla conmigo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Lo tendré presente. Que venga a mí el cargo del carretón, tampoco lo dificulto. La difunta era hermana de mi hombre, y otra familia más allegada no tiene.</p>
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
-						<p>El pleito será entre vosotros y tu cuñada <rs key="#mari">Márica del reino</rs> </p>
+						<p>El pleito será entre vosotros y tu cuñada <rs key="#marg">Márica del reino</rs> </p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Pleito! ¿Por qué ha de haber pleito? Yo hago esta caridad porque tengo conciencia. ¿Quién puede disputarle el cargo al hermano varón? Si van a justicias, el varón gana el pleito o no hay ley derecha.</p>
 					</sp>
@@ -940,7 +1411,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Pues si para en tu dominio, recuerda de lo qué ahora tenemos hablado.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Ya te echo el alto. Ninguna palabra hay de por medio.</p>
 					</sp>
@@ -948,7 +1419,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Cierto que no hay palabra, pero si quieres recordar alguna cosa de lo hablado…</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Aquello que no se me borre podré recordarlo.</p>
 					</sp>
@@ -956,7 +1427,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Yo me pasaré por tu puerta.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Con bien llegues a ella.</p>
 					</sp>
@@ -968,44 +1439,44 @@
 						<speaker>Otra Mujeruca</speaker>
 						<p>¡De pan trigo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Qué mala ventura tuviste, cuñada! ¡Aprendan de ti las anabolenas! ¡Morir sin confesión en un camino!</p>
 					</sp>
 					<stage>Simoniña, blanca, simplona, carillena; apretando los ojos, remeda el planto de su madre, y abre los brazos ante el cántaro roto.</stage>
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena cuarta</head>
 					<stage>El robledo, al borde del camino real. <rs key="#rein">Juana La Reina</rs> está tendida de cara al cielo, y tiene sobre el pecho una cruz formada por dos ramas verdes. Los pies descalzos y las canillas del color de la cera, asoman por debajo de la saya como dos cirios. Bastián de Candás, alcalde <rs key="#peda">pedáneo</rs>, pone guardas a la muerta, y da órdenes con una mano en el aire, como si fuese a bendecir.</stage>
 					<sp who="#peda">
 						<speaker>El pedáneo</speaker>
 						<p>Vosotros, rapaces<rs key="#trop">Tropas de rapaces con burlas y canciones.</rs>, aquí firmes, sin desviaros del pie de la finada difunta. No habéis de consentir por cosa del mundo que muevan el cuerpo antes de comparecer el Ministro de la Ley.</p>
 					</sp>
-					<stage>Algunas mujerucas aldeanas llegan haldeando. Resplandor de faroles, negrura de mantillas. Viene, entre ellas, una vieja encorvada que da gritos con el rostro entre las manos. Por veces se deja caer en tierra abriendo los brazos, y declama las frases rituales de un planto. Es <rs key="#mar">Márica del reino</rs>, hermana de la difunta.</stage> 
+					<stage>Algunas mujerucas aldeanas llegan haldeando. Resplandor de faroles, negrura de mantillas. Viene, entre ellas, una vieja encorvada que da gritos con el rostro entre las manos. Por veces se deja caer en tierra abriendo los brazos, y declama las frases rituales de un planto. Es <rs key="#marc">Márica del reino</rs>, hermana de la difunta.</stage> 
 
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker> 
 						<p>¿Dónde estás, Juana? ¡Callaste para siempre! ¡Nuestro Señor te llamó, sin acordar de los que acá quedamos! ¿Dónde estás, Juana? ¿Dónde finaste, hermana mía?</p>
 					</sp>
 					<sp who="#moza">
 						<speaker>Una Moza</speaker>
-						<p>¡Conformidad, tía Marica<rs key="#mar">Marica del Reino</rs>!</p>
+						<p>¡Conformidad, tía <rs key="#marc">Marica</rs>!</p>
 					</sp>
-					<stage>Tía Marica<rs key="#mar">Marica del Reino</rs>, ayudada por las mujeres y cubierta con el manteo, camina encorvada. Cuando llega al pie de la difunta, se abraza con ella.</stage>
-					<sp who="#mar">
+					<stage>Tía <rs key="#marc">Marica</rs>, ayudada por las mujeres y cubierta con el manteo, camina encorvada. Cuando llega al pie de la difunta, se abraza con ella.</stage>
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Ay Juana, hermana mía, qué blanca estás! ¡Ya no me miran tus ojos! ¡Ya esa boca no tiene palabras para esta tu hermana que lo es! ¡Ya no volverás a detenerte en mi puerta para catar los bollos del pote! ¡Cegabas por ellos! ¡Inda esta segunda feria los merendamos juntas! ¡Qué bien te sabían con unto y con nebodas!</p>
 					</sp>
-					<stage>Después del planto, queda recogida sobre las rodillas, gimiendo monótonamente. Las mujeres se sientan en torno, refiriendo azares de los caminos, casos de muertes repentinas, cuentos de almas en pena. Y cuando decae el interés de aquellas historias, renueva su planto <rs key="#mari">Marica del Reino</rs>. Atravesando la robleda, llega el matrimonio de los Gailos. La mujer, echada sobre los hombros la mantilla; y el marido, con capa larga y bastón señoril de dorada contera y muleta de hueso. La hermana, viéndolos llegar, se alza en las rodillas y abre los brazos en dramática expresión.</stage>
-					<sp who="#mar">
+					<stage>Después del planto, queda recogida sobre las rodillas, gimiendo monótonamente. Las mujeres se sientan en torno, refiriendo azares de los caminos, casos de muertes repentinas, cuentos de almas en pena. Y cuando decae el interés de aquellas historias, renueva su planto <rs key="#marg">Marica del Reino</rs>. Atravesando la robleda, llega el matrimonio de los Gailos. La mujer, echada sobre los hombros la mantilla; y el marido, con capa larga y bastón señoril de dorada contera y muleta de hueso. La hermana, viéndolos llegar, se alza en las rodillas y abre los brazos en dramática expresión.</stage>
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Tarde vos dieron el aviso! Yo llevo aquí el más del día, casi que estoy tullida de la friura de la tierra.</p>
 					</sp>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>El hombre que tiene cargo no dispone de sí, Marica<rs key="#mar">Marica del Reino</rs>. Y ¿cómo fue que aconteció esta incumbencia?</p>
+						<p>El hombre que tiene cargo no dispone de sí, <rs key="#marc">Marica</rs>. Y ¿cómo fue que aconteció esta incumbencia?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Ordenado estaría en la divina proposición!</p>
 					</sp>
@@ -1013,7 +1484,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Cabal! Pero ¿cómo fue que ello aconteció?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¿Y a mí me lo preguntas? ¡Vírate para la difunta, que ella solamente puede darte la respuesta!</p>
 					</sp>
@@ -1021,7 +1492,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Difunta, hermana mía, mucho te tiraba el andar por caminos, y andando por ellos topaste la muerte!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Las mismas consideraciones le tengo hechas! ¡Dios nos ampare!</p>
 					</sp>
@@ -1030,20 +1501,20 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Ya eres huérfano, y no puedes considerarlo, Laureano! ¡Tu madre, la hermana mía, es finada, y no puedes considerarlo, Laureano! ¡Por padre tuyo putativo me ofrezco!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>El cargo del inocente a mí me cumple.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Nosotros tampoco lo abandonamos, cuñada.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> tiene el gesto de desenfado y una luz provocativa en los ojos parleros. La otra tuerce la cabeza mostrando desdén.</stage>
-					<sp who="#mar">
+					<stage><rs key="#marg">Mari-Gaila</rs> tiene el gesto de desenfado y una luz provocativa en los ojos parleros. La otra tuerce la cabeza mostrando desdén.</stage>
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>A mi hermano, que lo es, me refería.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Mas yo te respondía.</p>
 					</sp>
@@ -1067,7 +1538,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>: ¿Recordáis aquella mi vaca pintada?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Una vaca como una reina!</p>
 					</sp>
@@ -1083,7 +1554,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Que las hay no tiene duda, y al cuerpo adolecido más pronto lo dañan. Le corrompen el interior.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Entre el señorío, tanto mirar mal el aguardiente, y no decir cosa ninguna contra las aguas.</p>
 					</sp>
@@ -1091,40 +1562,40 @@
 						<speaker>El pedáneo</speaker>
 						<p>El señorío mira mal el aguardiente porque se regala con otros resolios.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Anisete escarchado!</p>
 					</sp>
 					<stage>Por el camino real vese venir al juez, caballero en un rucio de gayas jalmas y anteojeras con borlones. El alguacil zanquea al flanco, como espolique. Las mujerucas, alzadas sobre las rodillas y soplándose los dedos, avivan la luciérnaga de sus faroles. Comienza un planto solemne.</stage>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Juana, hermana mía, si en el mundo de la verdad topas con mi difunto, dirásle la ley que le guardé! ¡Dirásle que nunca más quise volver a casar, y que no me faltaron las buenas proporciones! Ahora soy una vieja, pero me dejó bien lozana. Dirásle que un habanero de posibles me pretendía, y que jamás le viré cara. ¡Un mozo como un castillo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Cuñada, flor de los caminos, ya estás a la vera de Dios Nuestro Señor! ¡Cuñada, que tantos trabajos pasaste, ya tienes regalo a su mesa! ¡Ya estás en el baile de los ángeles! ¡De hoy más, tu pan es pan con huevos y canela! ¡Ay cuñada, quién como tú pudiese estar a oír los cuentos divertidos de San Pedro!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena quinta</head>
 					<stage>San Clemente. El atrio con la iglesia en el fondo. Pasa entre los ramajes el claro de luna. Algunos faroles, posados en tierra, abren sus círculos de luz aceitosa en torno al bulto de la difunta, modelado bajo una sábana blanca. Los aldeanos del velorio —capas y mantillas— beben aguardiente al abrigo de la iglesia. El murmullo de las voces, las pisadas, las sombras tienen el sentido irreal y profundo de las consejas.</stage>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
 						<p>Desde el momento primero, yo fui en decir que la difunta finó por haber bebido de alguna fuente ponzoñosa, pues ya van muchas desgracias en ganados y cristianos así aparejadas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Y el engendro bebió algún trago dela misma agua, pues todo se derramó, con perdón, en las pajas. Fue menester lavarlo como a un niño de teta. ¡Y si supieseis qué completo es de sus partes!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Calla, cuñada! Poco tendrás que renegar de tales trabajos, que yo me hago cargo del carretón.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
-						<p>¡Ahí está su hermano! Con él te gobiernas, Marica<rs key="#mar">Marica del Reino</rs>.</p>
+						<p>¡Ahí está su hermano! Con él te gobiernas, <rs key="#marc">Marica</rs>.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¿Qué tienes tú que deponer, hermano mío?</p>
 					</sp>
@@ -1132,23 +1603,23 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Los brazos de un hombre llevan mejor cualisquiera carga.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>La voluntad de la difunta era encomendarme el cuidado del carretón. ¡Declarado me lo tenía!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
-						<p>¿Dónde están los testigos, Marica<rs key="#mar">Marica del Reino</rs>?</p>
+						<p>¿Dónde están los testigos, <rs key="#marc">Marica</rs>?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Con mi hermano hablaba.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Pero yo te escuchaba.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Ay si la difunta pudiera declarar su voluntad!</p>
 					</sp>
@@ -1172,15 +1643,15 @@
 						<speaker>El pedáneo</speaker>
 						<p>En otros tiempos, que en éstos al carro de la muerte ninguno le quita los bueyes.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Y todo este hablar salió a cuento del pleito que tratan entre sí de sustentar dos hermanos propios carnales!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>No habrá pleito si tú respetas el derecho del que nació varón.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Consultaremos con hombres de Ley.</p>
 					</sp>
@@ -1196,7 +1667,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>Si fuese a daros mi dictado, a ninguno había de contentar. ¡Como que ninguno tiene la Ley!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿No llama al hermano varón?</p>
 					</sp>
@@ -1204,7 +1675,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>Las voces de la Ley tú no las alcanzas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Pero aquí hay alguno que sabe latines!</p>
 					</sp>
@@ -1220,7 +1691,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>Si no habéis de seguirlo, ¡para qué escucharlo!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Te pedimos tu consejo, y cumples con darlo.</p>
 					</sp>
@@ -1244,7 +1715,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>Son bienes pro indiviso, que dicen en juzgados.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay Bastián<rs key="#peda">El pedáneo</rs>, tú sentencias, pero no enseñas cómo se puede repartir el carretón! Zueco en dos plantas, ¿dónde irás que lo veas?</p>
 					</sp>
@@ -1256,7 +1727,7 @@
 						<speaker>Una Mocina</speaker>
 						<p>Mi padre muele doce horas en el molino de András.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Por manera que el justo sentir es de repartirse el carretón entre las familias, determinados los días.</p>
 					</sp>
@@ -1268,7 +1739,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Así no había pleito.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>A ti corresponde hablar, hermano mío.</p>
 					</sp>
@@ -1276,23 +1747,23 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Lo que propone aquí este vecino honrado es un consejo, y a nosotros cumple tomarlo o dejarlo. Mi sentir ya está manifiesto, el tuyo debes declararlo.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Mi sentir está con el tuyo, y de ahí no me descarrío.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Retuertas vienen esas palabras.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Claras como el sol.</p>
 					</sp>
 					<sp who="#peda">
 						<speaker>El pedáneo</speaker>
-						<p>Veremos si yo marcho por tus caminos, <rs key="#mari">Marica del Reino</rs>. A mi ver, con tales palabras quieres significar que te avienes con aquello que se avenga este tu hermano.</p>
+						<p>Veremos si yo marcho por tus caminos, <rs key="#marg">Marica del Reino</rs>. A mi ver, con tales palabras quieres significar que te avienes con aquello que se avenga este tu hermano.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Claramente!</p>
 					</sp>
@@ -1300,7 +1771,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>¿Y tú qué respondes, Pedro del Reino?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Este bragazas se conforma al respective.</p>
 					</sp>
@@ -1308,7 +1779,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>Pues muera el cuento.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Por manera que tres días el Carretón al cargo mío y otros tres al cargo de mi cuñada.</p>
 					</sp>
@@ -1320,7 +1791,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Ya tenéis hechas las partijas, sin peritos.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Hay que cumplimentarlo bebiendo una copa. Cachea por el caneco del aguardiente, marido.</p>
 					</sp>
@@ -1328,7 +1799,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Míralo a la ventana tuya, arrimado a las parihuelas de la difunta.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Y hay que darle una copa al baldadiño.</p>
 					</sp>
@@ -1336,7 +1807,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>¿Lo cata?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Y se relame. Veréis vosotros cómo no se conforma con una. Está imbuido en la bebida.</p>
 					</sp>
@@ -1344,7 +1815,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Tantas lluvias y soles por caminos… Sin ese reparo moría.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Quieres echar una copa, Laureano?</p>
 					</sp>
@@ -1352,8 +1823,8 @@
 						<speaker>La Tatula</speaker>
 						<p>Amuéstrale el caneco, que por palabras no saca el sentido.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs>, donairosa y gentil, erguida al pie de la difunta, colma el vaso de las rondas, y respira con delicia el aroma del aguardiente.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs>, donairosa y gentil, erguida al pie de la difunta, colma el vaso de las rondas, y respira con delicia el aroma del aguardiente.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Bastián<rs key="#peda">El pedáneo</rs>, a ti toca beber el primero, que fallaste el pleito.</p>
 					</sp>
@@ -1361,7 +1832,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>Pues a la salud de toda la compañía.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>A tras de ti va el baldadiño. Ahora lo catas, Laureano.</p>
 					</sp>
@@ -1369,7 +1840,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Dáselo para que remede el trueno. ¡Lo hace cumplidamente!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Mirad aquí, por vuestra alma! ¡Saca la lengua como un pito!</p>
 					</sp>
@@ -1377,7 +1848,7 @@
 						<speaker>El idiota</speaker>
 						<p>¡Hou! ¡Hou! ¡Dade acá!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Quién lo da?</p>
 					</sp>
@@ -1393,7 +1864,7 @@
 						<speaker>El idiota</speaker>
 						<p>¡Hou! ¡Hou!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Cómo se pide?</p>
 					</sp>
@@ -1401,11 +1872,11 @@
 						<speaker>El idiota</speaker>
 						<p>¡Releche! ¡Hou! ¡Hou!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Dale el trago y no lo hagas más condenar.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Has de hacer el trueno, si quieres beber.</p>
 					</sp>
@@ -1413,7 +1884,7 @@
 						<speaker>El idiota</speaker>
 						<p>¡Miau! ¡Fu! ¡Miau!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Cativo, así es el gato.</p>
 					</sp>
@@ -1421,7 +1892,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Laureano, remeda el cohete, que vas a beber.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>No lo hagáis más condenar.</p>
 					</sp>
@@ -1433,7 +1904,7 @@
 						<speaker>El pedáneo</speaker>
 						<p>Ya se ganó el trago.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Es un mundo de divertido!</p>
 					</sp>
@@ -1441,15 +1912,15 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Enternece!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡La finada muy bien adeprendido lo tenía! No por ser nuestra hermana dejaba de ser una mujer de provecho. ¡Ay Juana, qué negro sino tuviste!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay cuñada, espera el día para el planto, y bebe tu copa, que ya se me cansan los brazos de estar alzados con el caneco!</p>
 					</sp>
-					<stage>La otra suspira y, antes de catar el aguardiente, se pasa por los labios un pico de la mantilla. Luego, de un sorbo, con mueca de repulsa, apura el trago. <rs key="#mari">Mari-Gaila</rs> bebe la postrera y se sienta en el corro. Una vieja comienza un cuento, y <rs key="#idio">El idiota</rs> balanceando la cabeza enorme sobre la almohada de paja, da su grito en la humedad del cementerio.</stage>
+					<stage>La otra suspira y, antes de catar el aguardiente, se pasa por los labios un pico de la mantilla. Luego, de un sorbo, con mueca de repulsa, apura el trago. <rs key="#marg">Mari-Gaila</rs> bebe la postrera y se sienta en el corro. Una vieja comienza un cuento, y <rs key="#idio">El idiota</rs> balanceando la cabeza enorme sobre la almohada de paja, da su grito en la humedad del cementerio.</stage>
 					<sp who="#idio">
 						<speaker>El idiota</speaker>
 						<p>¡Hou! ¡Hou!</p>
@@ -1460,16 +1931,16 @@
 					</sp>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>JORNADA SEGUNDA</head>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena primera</head>
-					<stage>Lugar de Condes. Viejo caserío con palios de vid ante las puertas. Eras con hórreos y almiares. Sobre las bardas, ladradores perros. El rayar del alba, estrellas que se apagan, claras voces madrugueras, mugir de vacas y terneros. Sombras con faroles entran y salen en los establos oscuros, portando brazadas de yerba. Cuece la borona en algún horno, y el humo de las jaras monteses perfuma el casal que se despierta. <rs key="#mar">Marica del Reino</rs>, acurrucada en el umbral de su casa, se desayuna con el cuenco de berzas.</stage>
+					<stage>Lugar de Condes. Viejo caserío con palios de vid ante las puertas. Eras con hórreos y almiares. Sobre las bardas, ladradores perros. El rayar del alba, estrellas que se apagan, claras voces madrugueras, mugir de vacas y terneros. Sombras con faroles entran y salen en los establos oscuros, portando brazadas de yerba. Cuece la borona en algún horno, y el humo de las jaras monteses perfuma el casal que se despierta. <rs key="#marc">Marica del Reino</rs>, acurrucada en el umbral de su casa, se desayuna con el cuenco de berzas.</stage>
 					<sp who="#veci">
 						<speaker>Una Vecina</speaker>
-						<p>¿Cuido que espera el carretón, tía Marica<rs key="#mar">Marica del Reino</rs>?</p>
+						<p>¿Cuido que espera el carretón, tía <rs key="#marc">Marica</rs>?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Desde ayer que lo espero.</p>
 					</sp>
@@ -1477,7 +1948,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Pues se demora su cuñada la Gaila.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Cuñada! Esa palabra me sujeta la lengua. A la gran ladra, como trae otras luces dentro del fol, la toma el oscuro sobre los caminos, y se pasa la noche por ventorrillos y tabernas, perdiendo la conducta.</p>
 					</sp>
@@ -1485,7 +1956,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Cuando tiene una copa, muy divertida se pone. ¡San Blas, lo que pudimos reír con ella estos tiempos pasados en el ventorrillo de <rs key="#ludo">Ludovina</rs>!  <rs key="#cieg">El ciego</rs> de Gondar, que también estaba a barlovento, la requería para que se le juntase, y ella le cerraba la boca con cada sentencia…</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Pues el ciego  <rs key="#cieg">El  de Gondar</rs> es agudo.</p>
 					</sp>
@@ -1493,7 +1964,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Pues no le valía su agudeza. Y todo se lo decían en coplas: el ciego con la zanfoña y ella con el pandero.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Milagros del vino y mal mirar por la conducta.</p>
 					</sp>
@@ -1501,7 +1972,7 @@
 						<speaker>La Vecina</speaker>
 						<p>¡Si no se paga todo lo que bebe! Muchos la convidan por su labia y por oírle las coplas tan divertidas que saca.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Es gracia nueva que nunca le conocí! ¡Y no haber modo de redención para el baldadiño! Ni mira por él, ni le remuda la paja del jergón, ni le pasa unas aguas por sus vergüenzas, que está llagado como un San Lázaro. ¡Ay, qué alma negra!</p>
 					</sp>
@@ -1509,7 +1980,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Pues el carretón rinde su provecho. ¡Algunos quisieran ese bien!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>A ella le rinde, porque no se duele de pasearlo por soles y lluvias, de feria en feria. Otra cosa acontece conmigo. Como es mi sangre, me compadece, y solamente trabajos me procura. ¡Rodando el carretón todo el día, nunca arribé al estipendio de una peseta!</p>
 					</sp>
@@ -1517,7 +1988,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Pues su cuñada en bebida ya lo sobrepasa.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>A mí me ata la decencia.</p>
 					</sp>
@@ -1525,7 +1996,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Y cuando ella bebe, convida al carretón.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡No es mérito! También se lo gana.</p>
 					</sp>
@@ -1533,7 +2004,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Pues el anisado tampoco ha de ser cosa buena para el inocente.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Superado, no. Una copa, si tiene lombrices, se las quema.</p>
 					</sp>
@@ -1541,15 +2012,15 @@
 						<speaker>La Vecina</speaker>
 						<p>Quedárase en una…</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡No me lo digas!</p>
 					</sp>
 					<sp who="#veci">
 						<speaker>La Vecina</speaker>
-						<p>Y hoy no espere a su cuñada la <rs key="#mari">Mari-Gaila</rs>.</p>
+						<p>Y hoy no espere a su cuñada la <rs key="#marg">Mari-Gaila</rs>.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Cállate ese texto! ¡Cuñada! ¡Cuñada! ¡Nunca esa gran bribona lo fuera! ¡Y el hermano mío, tan engañado!</p>
 					</sp>
@@ -1557,7 +2028,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Tío Pedro canta en los entierros y la mujer en los ventorrillos.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Cuánta verdad que las mujeres somos hijas de la Serpiente! ¡Y el hermano mío, tan ajeno de su vergüenza!</p>
 					</sp>
@@ -1565,15 +2036,15 @@
 						<speaker>La Vecina</speaker>
 						<p>Él solamente ve la moneda.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Ni eso!</p>
 					</sp>
 					<sp who="#veci">
 						<speaker>La Vecina</speaker>
-						<p>La <rs key="#mari">Mari-Gaila</rs> aventuro que se fue con el carretón a la feria de Viana. No pierde ella ese provecho.</p>
+						<p>La <rs key="#marg">Mari-Gaila</rs> aventuro que se fue con el carretón a la feria de Viana. No pierde ella ese provecho.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Y me roba mi día! ¡Santo Tomás, una y no más! Rescato el carretón y no se lo vuelvo. Te lo digo secretamente: La sombra de mi hermana vino a llamar en mi puerta. Ve los trabajos que pasa el hijo de su pecado, y me declaró que no quiere verlo en manos ajenas. Me ordenó hacerme todo el cargo del carretón, y a esa intrusa le pronosticó fierros de cadenas en este mundo y en el otro. ¡Si te digo mentira, que me condene!</p>
 					</sp>
@@ -1581,7 +2052,7 @@
 						<speaker>La Vecina</speaker>
 						<p>Son cosas que traen los sueños.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Estaba bien despierta.</p>
 					</sp>
@@ -1589,7 +2060,7 @@
 						<speaker>La Vecina</speaker>
 						<p>¿Y talmente habló con el alma de la difunta?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Talmente! No lo divulgues.</p>
 					</sp>
@@ -1599,14 +2070,14 @@
 					</sp>
 					<stage><rs key="#veci">La vecina</rs> entra en su casa a mirar por la lumbre. Pica en el umbral una clueca con pollos, y tres críos, sucios, que enseñan las carnes, se desayunan sobre una higuera.</stage>
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena segunda</head>
-					<stage>Un soto de castaños, donde hace huelgo la caravana de mendigos, lañadores y criberos, que acuden anuales a las ferias de Agosto en Viana del Prior. LA <rs key="#mari">Mari-Gaila</rs>, gozosa de su nueva aventura, sofocada y risueña, llega tirando del dornajo por la carretera cegadora de luz.</stage>
+					<stage>Un soto de castaños, donde hace huelgo la caravana de mendigos, lañadores y criberos, que acuden anuales a las ferias de Agosto en Viana del Prior. LA <rs key="#marg">Mari-Gaila</rs>, gozosa de su nueva aventura, sofocada y risueña, llega tirando del dornajo por la carretera cegadora de luz.</stage>
 					<sp who="#migu">
 						<speaker>Miguelín</speaker>
-						<p>Mucho te vale el tesoro, <rs key="#mari">Mari-Gaila</rs>.</p>
+						<p>Mucho te vale el tesoro, <rs key="#marg">Mari-Gaila</rs>.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Ni un mal chavo pelón.</p>
 					</sp>
@@ -1614,7 +2085,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>¡Si robas la plata con la ocurrencia que sacaste de enseñar las vergüenzas del engendro!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>No son tiempos éstos en que corra dinero.</p>
 					</sp>
@@ -1630,7 +2101,7 @@
 						<speaker>Miguelín</speaker>
 						<p>No hay dinero, y el que hay lo emboba el Compadre Miau<rs key="#luce">Lucero</rs>.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Séptimo Miau<rs key="#luce">Lucero</rs>! Tengo oído, y también de su perro <rs key="#coim">Coimbra, perro sabio</rs>. A lo que cuentan, es un tuno de mucho provecho.</p>
 					</sp>
@@ -1638,8 +2109,8 @@
 						<speaker>Miguelín</speaker>
 						<p>¡Un condenado!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> arrima el dornajo a la sombra de los castaños y se sienta a la vera, los ojos y los labios alegres de malicias.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs> arrima el dornajo a la sombra de los castaños y se sienta a la vera, los ojos y los labios alegres de malicias.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Me va por la pierna una pulga con zuecos, y voy a ver si la cazo. ¡No mires, Padronés!</p>
 					</sp>
@@ -1647,7 +2118,7 @@
 						<speaker>Miguelín</speaker>
 						<p>¿Qué temes? ¿Que te saque tacha? Público es que las piernas tienes tuertas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Tuertas y encanilladas!</p>
 					</sp>
@@ -1655,7 +2126,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Contigo no hay penas. Puestos los dos a correr ferias y romerías, ganáramos muy buenos machacantes. Y tú ya no dejas esta vida.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Es el bien que me trujo la herencia renegada.</p>
 					</sp>
@@ -1663,7 +2134,7 @@
 						<speaker>Miguelín</speaker>
 						<p>¿Pues no abandonaste el Palacio del Rey?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Abandoné mi casa, donde era reina.</p>
 					</sp>
@@ -1675,7 +2146,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Y colores!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Toda la vida tuve colores de una rosa, así me achacaron lo de la bebida. ¡Cuando era la buena conducta!</p>
 					</sp>
@@ -1688,7 +2159,7 @@
 						<speaker>Miguelín</speaker>
 						<p>La feria que estos tiempos suena es la del Cristo de Bezán.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Esas ferias distantes son buenas para vosotros, que sois cuerpos libres. ¿Pero adónde voy yo siete leguas tirando del carretón?</p>
 					</sp>
@@ -1696,7 +2167,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Se busca una buena compañía, y se hace el camino por jornadas. Para sacar del carretón su por qué, las ferias de la montaña. Ésas son ferias de mucho bien de Dios.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Adonde este año no falto es al San Campio de la Arnoya.</p>
 					</sp>
@@ -1704,7 +2175,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Y verás tu provecho, si te pones en un acuerdo conmigo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>De acuerdo ya estamos, salvo que tú llamas acuerdo al dormir juntos, y eso de mí no lo esperes.</p>
 					</sp>
@@ -1712,15 +2183,15 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Amén de Dios, si el pecado no puede con vosotros!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Con mi carne de rosas, que este cativo ya me está palpando. ¡Aparta la mano, centellón!</p>
 					</sp>
 					<sp who="#cieg">
 						<speaker>El ciego de Gondar</speaker>
-						<p>¡No escapes, <rs key="#mari">Mari-Gaila</rs>!</p>
+						<p>¡No escapes, <rs key="#marg">Mari-Gaila</rs>!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Cachea si tienes un mixto.</p>
 					</sp>
@@ -1728,15 +2199,15 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>¿Quieres hacerte la calderada?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Mucho penetras!</p>
 					</sp>
 					<sp who="#cieg">
 						<speaker>El ciego de Gondar</speaker>
-						<p>Me llegaron vientos de sardinas. ¿Y si juntáramos el compango, <rs key="#mari">Mari-Gaila</rs>?</p>
+						<p>Me llegaron vientos de sardinas. ¿Y si juntáramos el compango, <rs key="#marg">Mari-Gaila</rs>?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>De mi banda, solamente puedo poner cuatro arenques que me dieron en una puerta. Es comida que reclama bebida.</p>
 					</sp>
@@ -1744,16 +2215,16 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Tiéntame las alforjas, que algo bueno viene en ellas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay, tunante! Te das el trato de un Padre Prior.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs>, los brazos desnudos y las trenzas recogidas bajo el pañuelo de flores, enciende unas ramas, y se levantan cantando las lenguas de una hoguera. El humo tiende olores de laurel y sardinas, con el buen recaudo del vino agrio y la borona aceda. Un viejo venerable, que parecía dormido, se incorpora lentamente. Tiene el pecho cubierto de rosarios y la esclavina del peregrino <rs key="#pere">El peregrino</rs> en los hombros.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs>, los brazos desnudos y las trenzas recogidas bajo el pañuelo de flores, enciende unas ramas, y se levantan cantando las lenguas de una hoguera. El humo tiende olores de laurel y sardinas, con el buen recaudo del vino agrio y la borona aceda. Un viejo venerable, que parecía dormido, se incorpora lentamente. Tiene el pecho cubierto de rosarios y la esclavina del peregrino <rs key="#pere">El peregrino</rs> en los hombros.</stage>
 					<sp who="#pere">
 						<speaker>El peregrino</speaker>
 						<p>A fe que siento, cristianos, no tener cosa que ofreceros para ser parte.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Pues la alforja rumbo mete.</p>
 					</sp>
@@ -1769,8 +2240,8 @@
 						<speaker>El peregrino</speaker>
 						<p>La piedra donde descanso la cabeza cuando duermo.</p>
 					</sp>
-					<stage>Abre la alforja y enseña un canto del río con un gran alvéolo redondo y pulido, la huella de largos sueños penitentes. <rs key="#mari">Mari-Gaila</rs>, ante aquel prodigio, siente una gozosa ternura.</stage>
-					<sp who="#mari">
+					<stage>Abre la alforja y enseña un canto del río con un gran alvéolo redondo y pulido, la huella de largos sueños penitentes. <rs key="#marg">Mari-Gaila</rs>, ante aquel prodigio, siente una gozosa ternura.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Llegue acá, venturoso, y haremos entre los tres reparto.</p>
 					</sp>
@@ -1778,11 +2249,11 @@
 						<speaker>El peregrino</speaker>
 						<p>¡Alabado sea Dios!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Alabado sea siempre!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> aparta las sardinas de la lumbre y las pone en una escudilla de peltre. Luego saca el pan y la bota de las alforjas del ciego<rs key="#cieg">El ciego de Gondar</rs>, y hace un lugar al peregrino <rs key="#pere">El peregrino</rs> en torno de la capa remendada, que sirve de mantel. Mientras come la compañía,el ciego <rs key="#cieg">El ciego de Gondar</rs>, con risa socarrona, huele su sardina, puesta sobre una tajada de pan, y alarga la oreja.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> aparta las sardinas de la lumbre y las pone en una escudilla de peltre. Luego saca el pan y la bota de las alforjas del ciego<rs key="#cieg">El ciego de Gondar</rs>, y hace un lugar al peregrino <rs key="#pere">El peregrino</rs> en torno de la capa remendada, que sirve de mantel. Mientras come la compañía,el ciego <rs key="#cieg">El ciego de Gondar</rs>, con risa socarrona, huele su sardina, puesta sobre una tajada de pan, y alarga la oreja.</stage>
 					<sp who="#cieg">
 						<speaker>El ciego de Gondar</speaker>
 						<p>El cabezal lo tiene de piedra, pero las muelas aún le ganan. La penitencia es para el mal dormir, que para el mal comer… ¡Contro con el santo!</p>
@@ -1832,7 +2303,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Unos corremos el mundo con honradez y otros sin ella.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Ya se les alcanza a los Señores Guardias<rs key="#par">La pareja de civiles</rs>.</p>
 					</sp>
@@ -1840,7 +2311,7 @@
 						<speaker>El Otro guardia</speaker>
 						<p>Yo, para no equivocarme, os ponía a todos a la sombra. ¡Cuidado con lo que se hace, que andamos vigilantes!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Nuestras obras están a la luz del sol, Señores Guardias<rs key="#par">La pareja de civiles</rs>.</p>
 					</sp>
@@ -1869,7 +2340,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Pues mi boca está sellada.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Qué hablar por cifra!</p>
 					</sp>
@@ -1881,8 +2352,8 @@
 						<speaker>Miguelín</speaker>
 						<p>¡Miau!</p>
 					</sp>
-					<stage>El taimado mozuelo, recostado en el tronco de un árbol, abre el paraguas por juzgar del arte con que puso el remiendo, y silba un nuevo aire. <rs key="#mari">Mari-Gaila</rs>, procurando tomarle al oído, escucha con una sonrisa quieta y los ojos entornados…</stage>
-					<sp who="#mari">
+					<stage>El taimado mozuelo, recostado en el tronco de un árbol, abre el paraguas por juzgar del arte con que puso el remiendo, y silba un nuevo aire. <rs key="#marg">Mari-Gaila</rs>, procurando tomarle al oído, escucha con una sonrisa quieta y los ojos entornados…</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Linda tocata! Parece habanera.</p>
 					</sp>
@@ -1890,7 +2361,7 @@
 						<speaker>El Vendedor De Agua De Limón</speaker>
 						<p>El Compadre Miau<rs key="#luce">Lucero</rs> vino con ella del fin del mundo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Será de reír la primera vez que nos encontremos. No le conozco y llevo tres noches que sueño con él y con su perro.</p>
 					</sp>
@@ -1898,15 +2369,15 @@
 						<speaker>Miguelín</speaker>
 						<p>Falta que el hombre de tu sueño tenga la cara del Compadre<rs key="#luce">Lucero</rs>.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Padronés<rs key="#migu">Miguelín El padronés</rs>, si tal acontece, también te digo que tiene pacto.</p>
 					</sp>
 				</div>
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena tercera</head>
-					<stage>La <rs key="#mari">Mari-Gaila</rs> rueda el dornajo y dice donaires. Para convocar gentes bate el pandero. Claros del sol entre repentinas lluvias. Tiempo de ferias en Viana del Prior. Rinconadas dela Colegiata. Caballetes y tabanques bajo los soportales. Verdes y rojas estameñas, jalmas y guarniciones. Un campo costanero sube por el flanco de la Colegiala. Sombras de robles con ganados. A las puertas del mesón, alboroque de vaqueros, alegría de mozos, refranes de viejos, prosas y letanías de mendicantes. <rs key="#migu">Miguelín El Padronés </rs> , bajo la mirada de la mesonera, laña una fuente de flores azules. <rs key="#coim">Coimbra, perro sabio</rs>, vestida de colorines, irrumpe entre el gentío, y el alcázar del pájaro mago aparece sobre los hombros del farandul, que ahora se cubre el ojo izquierdo con un tafetán verde. El Compadre miau<rs key="#luce">Lucero</rs> levanta su tabanque a la puerta del mesón, y tañe la flauta haciendo bailar a <rs key="#coim">Coimbra, perro sabio</rs>. El pájaro mago entra y sale en su alcázar, profetizando. <rs key="#mari">Mari-Gaila</rs> se arregla sobre los hombros el pañuelo de flores, y buscando que la mire el farandul, canta una copla en el ritmo habanero que mueve la flauta del Compadre<rs key="#luce">Lucero</rs>.</stage>
-					<sp who="#mari">
+					<stage>La <rs key="#marg">Mari-Gaila</rs> rueda el dornajo y dice donaires. Para convocar gentes bate el pandero. Claros del sol entre repentinas lluvias. Tiempo de ferias en Viana del Prior. Rinconadas dela Colegiata. Caballetes y tabanques bajo los soportales. Verdes y rojas estameñas, jalmas y guarniciones. Un campo costanero sube por el flanco de la Colegiala. Sombras de robles con ganados. A las puertas del mesón, alboroque de vaqueros, alegría de mozos, refranes de viejos, prosas y letanías de mendicantes. <rs key="#migu">Miguelín El Padronés </rs> , bajo la mirada de la mesonera, laña una fuente de flores azules. <rs key="#coim">Coimbra, perro sabio</rs>, vestida de colorines, irrumpe entre el gentío, y el alcázar del pájaro mago aparece sobre los hombros del farandul, que ahora se cubre el ojo izquierdo con un tafetán verde. El Compadre miau<rs key="#luce">Lucero</rs> levanta su tabanque a la puerta del mesón, y tañe la flauta haciendo bailar a <rs key="#coim">Coimbra, perro sabio</rs>. El pájaro mago entra y sale en su alcázar, profetizando. <rs key="#marg">Mari-Gaila</rs> se arregla sobre los hombros el pañuelo de flores, y buscando que la mire el farandul, canta una copla en el ritmo habanero que mueve la flauta del Compadre<rs key="#luce">Lucero</rs>.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Yo quisiera vivir en La Habana, 
 					a pesar del calor que hace allí! 
@@ -1917,7 +2388,7 @@
 						<speaker>Miguelín</speaker>
 						<p>¿Reconoces al hombre de tu sueño?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Cambia por el ojo que lleva tapado.</p>
 					</sp>
@@ -1929,16 +2400,16 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>Yo se la regalo, que más merece por su gracia. <rs key="#colo">Colorín, pájaro adivino</rs>, saca la suerte de esta señora. <rs key="#colo">Colorín, pájaro adivino</rs>, interroga su estrella.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Mi suerte es desgracia.</p>
 					</sp>
-					<stage><rs key="#colo">Colorín, pájaro adivino</rs>, caperuza verde y bragas amarillas, aparece en la puerta de su alcázar, con la suerte en el pico. <rs key="#mari">Mari-Gaila</rs> recoge el billete, y sin desdoblarlo se lo entrega al farandul, que hace la lectura en una rueda de rostros atentos.</stage>
+					<stage><rs key="#colo">Colorín, pájaro adivino</rs>, caperuza verde y bragas amarillas, aparece en la puerta de su alcázar, con la suerte en el pico. <rs key="#marg">Mari-Gaila</rs> recoge el billete, y sin desdoblarlo se lo entrega al farandul, que hace la lectura en una rueda de rostros atentos.</stage>
 					<sp who="#luce">
 						<speaker>Lectura del Compadre miau</speaker>
 						<p>«Venus y Ceres. En esta conjunción se descorren los velos de tu Destino. Ceres te ofrece frutos. Venus, licencias. Tu destino es el de la mujer hermosa. Tu trono, el de la Primavera».</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Quebrados aciertos! Mi suerte es desgracia.</p>
 					</sp>
@@ -1951,7 +2422,7 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>Que con uno me basta para conocerle a usted las intenciones, Comadre Maricuela.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Vuelve por otra, Padronés.</p>
 					</sp>
@@ -1959,7 +2430,7 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>¿No me hace gracia el ojo tapado? Dígalo usted, señora.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Si usted se lo descubre, amigo, podré compararlo.</p>
 					</sp>
@@ -1967,7 +2438,7 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>Luego nos apartaremos secretamente para el cotejo. ¿Hace?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Qué representa esa palabra?</p>
 					</sp>
@@ -1975,25 +2446,25 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>¿Quiere decir si quedamos convenidos?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Si usted lo desea.</p>
 					</sp>
 					<stage><rs key="#cieg">El ciego de Gondar</rs> , con la montera derribada y una taza de vino entre las manos, asoma en la puerta del mesón. Tiene la risa jocunda del mosto y del yantar.</stage>
 					<sp who="#cieg">
 						<speaker>El ciego de Gondar</speaker>
-						<p><rs key="#mari">Mari-Gaila</rs>, ven a echar un trago.</p>
+						<p><rs key="#marg">Mari-Gaila</rs>, ven a echar un trago.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Se agradece.</p>
 					</sp>
 					<sp who="#cieg">
 						<speaker>El ciego de Gondar</speaker>
-						<p>Bebe para refrescar la voz, <rs key="#mari">Mari-Gaila</rs>. Adentro oí tu copla.</p>
+						<p>Bebe para refrescar la voz, <rs key="#marg">Mari-Gaila</rs>. Adentro oí tu copla.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> enjúgase los labios con un pico del pañuelo que lleva a la cabeza, recibe la taza desbordante y roja de manos del ladino viejo y bebe, gorjeando el vino en la garganta.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs> enjúgase los labios con un pico del pañuelo que lleva a la cabeza, recibe la taza desbordante y roja de manos del ladino viejo y bebe, gorjeando el vino en la garganta.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Es canela!</p>
 					</sp>
@@ -2001,7 +2472,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Propio del Condado.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Y con estos calores se aprecia doblemente.</p>
 					</sp>
@@ -2009,7 +2480,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>¿Quieres catar ahora un blanco que hay de Amandi? ¡Sabe a fresas!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Buena vida te das!</p>
 					</sp>
@@ -2017,7 +2488,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Si quieres catarlo, entra.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Y si da en mareárseme la chola?</p>
 					</sp>
@@ -2025,7 +2496,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Nos subimos a dormir al sobrado.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Condenada tema! ¿Cómo estás tú sin una buena rapaza?</p>
 					</sp>
@@ -2039,13 +2510,13 @@
 					</sp>
 					<sp who="#cieg">
 						<speaker>El ciego de Gondar</speaker>
-						<p>¿Tú cómo las tienes, <rs key="#mari">Mari-Gaila</rs>?</p>
+						<p>¿Tú cómo las tienes, <rs key="#marg">Mari-Gaila</rs>?</p>
 					</sp>
 					<sp who="#vent">
 						<speaker>La Ventera</speaker>
 						<p>Después de parir, no hay mollas duras.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Eso va en la condición de cada mujer. Yo, después de parir, tenía la carne que no se me agarraba un repulgo.</p>
 					</sp>
@@ -2053,7 +2524,7 @@
 						<speaker>El ciego de Gondar</speaker>
 						<p>Deja ver cómo las tienes ahora.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Para que te acompañe, has de tener las manos quedas.</p>
 					</sp>
@@ -2061,7 +2532,7 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>¡Si usted se va, no podemos hacer el cotejo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Habla usted del cotejo del ojo biroque?</p>
 					</sp>
@@ -2069,7 +2540,7 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>¡Cabal!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Nos juntamos luego.</p>
 					</sp>
@@ -2077,11 +2548,11 @@
 						<speaker>El Compadre Miau</speaker>
 						<p>¿Quiere usted esperarme en el mesón?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Con este amigo le aguardo, si no se tarda.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> bate en la espalda del viejo ladino y penetra en el mesón tirando del dornajo. Antes de desaparecer en la oscuridad del zaguán, se vuelve, y con un guiño dice abur a los que se quedan.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> bate en la espalda del viejo ladino y penetra en el mesón tirando del dornajo. Antes de desaparecer en la oscuridad del zaguán, se vuelve, y con un guiño dice abur a los que se quedan.</stage>
 					<sp who="#luce">
 						<speaker>El Compadre Miau</speaker>
 						<p>El garbo de esa mujer no es propio de estos pagos. ¡Y el pico!</p>
@@ -2108,7 +2579,7 @@
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
-						<p>¡Y pensar que una suerte como ésa pudo tener la<rs key="#mari">Mari-Gaila</rs>!</p>
+						<p>¡Y pensar que una suerte como ésa pudo tener la<rs key="#marg">Mari-Gaila</rs>!</p>
 					</sp>
 					<sp who="#migu">
 						<speaker>Miguelín</speaker>
@@ -2131,27 +2602,27 @@
 						<p>No soy el primero. <rs key="#colo">Colorín, pájaro adivino</rs> también se lo ha pronosticado, y en su pico está toda la ciencia de lo venidero. ¡A la suerte del pajarito, señoras y señores! ¡A la suerte del pajarito, que les descorrerá el velo del porvenir! ¡Señoras y señores, a la suerte del pajarito!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena cuarta</head>
-					<stage>La Quintana de San Clemente, a la caída de la tarde, en la hora de las Cruces. Está llena de pájaros y de sombras casi moradas. <rs key="#pedr">Pedro Gailo</rs>, el sacristán, pasea por el pórtico, batiendo las llaves. Con las barbas grises sin afeitar y las mejillas cavadas, el sacristán <rs key="#pedr">Pedro Gailo</rs>tiene algo que recuerda la llama amarilla de los cirios. Salen de la iglesia las últimas mujerucas, y reza sobre la tierra fresca de una sepultura <rs key="#mar">Marica del Reino</rs>.</stage>
+					<stage>La Quintana de San Clemente, a la caída de la tarde, en la hora de las Cruces. Está llena de pájaros y de sombras casi moradas. <rs key="#pedr">Pedro Gailo</rs>, el sacristán, pasea por el pórtico, batiendo las llaves. Con las barbas grises sin afeitar y las mejillas cavadas, el sacristán <rs key="#pedr">Pedro Gailo</rs>tiene algo que recuerda la llama amarilla de los cirios. Salen de la iglesia las últimas mujerucas, y reza sobre la tierra fresca de una sepultura <rs key="#marc">Marica del Reino</rs>.</stage>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>¡Adiós, Marica<rs key="#mar">Marica del Reino</rs>! Al salir, cierra la cancela.</p>
+						<p>¡Adiós, <rs key="#marc">Marica</rs>! Al salir, cierra la cancela.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>No te vayas sin hablar conmigo. Déjame rematar este Gloria.</p>
 					</sp>
-					<stage>El sacristán <rs key="#pedr">Pedro Gailo</rs>se sienta en el muro del atrio sonando las llaves. <rs key="#mar">Marica del Reino</rs> se santigua. El hermano la ve venir sin moverse.</stage>
-					<sp who="#mar">
+					<stage>El sacristán <rs key="#pedr">Pedro Gailo</rs>se sienta en el muro del atrio sonando las llaves. <rs key="#marc">Marica del Reino</rs> se santigua. El hermano la ve venir sin moverse.</stage>
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¿Qué era lo tratado?</p>
 					</sp>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>¿Por dónde vienen esas palabras,Marica <rs key="#mar">Marica del Reino</rs>?</p>
+						<p>¿Por dónde vienen esas palabras,Marica <rs key="#marc">Marica del Reino</rs>?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¿Y no se te alcanza? ¡Pues es manifiesto!</p>
 					</sp>
@@ -2159,7 +2630,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Si no haces más luz…</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¿Qué fue del carretón?</p>
 					</sp>
@@ -2167,7 +2638,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Cuanto tú sabes, cuanto sé.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Así dejas que la mujer se te vaya extraviada!</p>
 					</sp>
@@ -2175,15 +2646,15 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Tiene quien la cubra la honra.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Ay hermano mío, otro tiempo tan gallo, y ahora te dejas así picar la cresta! ¿Qué te dio esa mala mujer que de tu honra no miras?</p>
 					</sp>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>¡Llegas como la serpiente, Marica<rs key="#mar">Marica del Reino</rs>!</p>
+						<p>¡Llegas como la serpiente, <rs key="#marc">Marica</rs>!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Porque te hablo verdad, me motejas!</p>
 					</sp>
@@ -2191,7 +2662,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Te dejas mucho llevar de calumnias, Marica!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Calumnias! ¡Ojalá lo fueran, que esa mala mujer, con su conducta, es oprobio de nuestras familias!</p>
 					</sp>
@@ -2199,7 +2670,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Tanto hablar, tanto hablar, pudiese acontecer que diese fin de mi prudencia! Ya no le queda más que el rabo.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Acaba de desollarlo, y paga en esta tu hermana, que lo es, la rabia de tu honra!</p>
 					</sp>
@@ -2207,7 +2678,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>No iban por ti mis palabras, aunque bien pudieran ir. ¡Son muchas las malas lenguas!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Ya te caerá la venda, hermano mío!</p>
 					</sp>
@@ -2215,7 +2686,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¿Qué puñela quieres que haga? ¡Tú buscas que tu hermano se pierda!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Busco que no sea consentido!</p>
 					</sp>
@@ -2223,7 +2694,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Que se pierda!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Tendrás honra!</p>
 					</sp>
@@ -2231,7 +2702,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡La honra de una cárcel!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>No te digo que la mates, pero májala.</p>
 					</sp>
@@ -2239,7 +2710,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Se me vuelve.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>No le darás a ley.</p>
 					</sp>
@@ -2247,7 +2718,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Estoy resentido del pecho! ¡Considera!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Por qué considero!</p>
 					</sp>
@@ -2255,7 +2726,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Para alcanzar alguna cosa tendría que matarla. Las tundas no bastan, porque se me vuelve. ¡Considera!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Pues desuníos.</p>
 					</sp>
@@ -2263,7 +2734,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Nada se remedia.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Marica del Reino</speaker>
 						<p>Esa mala mujer te tiene avasallado.</p>
 					</sp>
@@ -2271,15 +2742,15 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Si un día la mato, me espera la cadena.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Eres bien sufrido!</p>
 					</sp>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>¡Tú quieres que yo me pierda, y tanto harás que me subirás a la horca! ¡Me hilan el cáñamo las malas lenguas y llaman sobre mí al verdugo! ¡Por perdido me cuento! ¡Tendrás, Marica<rs key="#mar">Marica del Reino</rs>, un hermano ahorcado! ¡Esta noche saco los filos al cuchillo! ¡No quisiera sobre mi alma tus remordimientos!</p>
+						<p>¡Tú quieres que yo me pierda, y tanto harás que me subirás a la horca! ¡Me hilan el cáñamo las malas lenguas y llaman sobre mí al verdugo! ¡Por perdido me cuento! ¡Tendrás, <rs key="#marc">Marica</rs>, un hermano ahorcado! ¡Esta noche saco los filos al cuchillo! ¡No quisiera sobre mi alma tus remordimientos!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡A mí me culpas! Si tienes perdida la honra y miras por cobrarla, será tu sino que así sea.</p>
 					</sp>
@@ -2287,7 +2758,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>El sino que me dan las lenguas murmuradoras. ¡Abrasadas sean tantas malas lenguas! ¡Así se pierde a un hombre de bien que iba por su camino sin faltar! ¡Cuitado de mí! Marica, hermana mía, ¿cómo de considerarlo no te entra la mayor pena?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>El corazón tengo cubierto.</p>
 					</sp>
@@ -2295,7 +2766,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Ay, qué negro calabozo el que me dispones!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡En qué hora triste fuiste nacido! ¡Jamás de los jamases me quitaré el luto de encima si llevas a cabo tu mal pensamiento! ¡Ay hermano mío, antes quisiera verte entre cuatro velas que sacando filo al cuchillo! ¡Celos con rabia a la puerta de la casa, nunca dictaron buen consejo! ¡Ay hermano mío, sentenciado sin remedio! ¡Cuando quieres mirar por tu honra, te echas encima una cadena! ¡Esconde el cuchillo, hermano mío, no le saques filo! ¡No te comprometas, que solamente de considerarlo toda el alma se me enciende contra esa mala mujer! ¡La gran Anabolena se desvaneció con el carretón! ¡Ay hermano mío! ¿Por qué es tan tirana la honra que te ordena cachear, en busca de esa mujer, hasta los profundos de la tierra?</p>
 					</sp>
@@ -2305,10 +2776,10 @@
 						<p>¡Me entregas al pecado! ¡Me entregas al pecado!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena quinta</head>
-					<stage>Cielo estrellado. Una garita de carabinero medio tumbada en la playa y deshaciéndose. Olas de mar con perfiles de plata abren sobre las peñas; se mecen sombras de masteleros; alumbran las boyas lejanas; en la taberna del puerto hay coplas y cartas. <rs key="#mari">Mari-Gaila</rs> llega tirando del dornajo, y escucha, acurrucándose en la sombra de la garita. Suenan livianos unos cascabeles. <rs key="#coim">Coimbra, perro sabio</rs> corre la playa olfateando. Y se destaca, por negro, en la puerta iluminada de la taberna la figura de Séptimo miau<rs key="#luce">Lucero</rs>. <rs key="#mari">Mari-Gaila</rs>, le cecea, y en la sombra de la garita se juntan los dos.</stage>
-					<sp who="#mari">
+					<stage>Cielo estrellado. Una garita de carabinero medio tumbada en la playa y deshaciéndose. Olas de mar con perfiles de plata abren sobre las peñas; se mecen sombras de masteleros; alumbran las boyas lejanas; en la taberna del puerto hay coplas y cartas. <rs key="#marg">Mari-Gaila</rs> llega tirando del dornajo, y escucha, acurrucándose en la sombra de la garita. Suenan livianos unos cascabeles. <rs key="#coim">Coimbra, perro sabio</rs> corre la playa olfateando. Y se destaca, por negro, en la puerta iluminada de la taberna la figura de Séptimo miau<rs key="#luce">Lucero</rs>. <rs key="#marg">Mari-Gaila</rs>, le cecea, y en la sombra de la garita se juntan los dos.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Vamos más lejos.</p>
 					</sp>
@@ -2316,7 +2787,7 @@
 						<speaker>Séptimo miau </speaker>
 						<p>No se sobresalte usted.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Miro por mi honra. Si aciertan a vernos juntos, ya están levantando un enredo.</p>
 					</sp>
@@ -2324,7 +2795,7 @@
 						<speaker>Séptimo miau </speaker>
 						<p>Podremos ocultarnos en la casilla.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>No le quiero a usted tan cerca, amigo. Retire usted el brazo.</p>
 					</sp>
@@ -2332,7 +2803,7 @@
 						<speaker>Séptimo miau </speaker>
 						<p>Ya está usted amenazándome con las uñas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Es mi modo. ¿Y cómo va usted por el mundo sin una buena compañera?</p>
 					</sp>
@@ -2340,7 +2811,7 @@
 						<speaker>Séptimo miau </speaker>
 						<p>Aún no pude ganar un corazón.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿A quién requirió usted, que alcanzó tan mala correspondencia?</p>
 					</sp>
@@ -2348,7 +2819,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>De mujeres maldigo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Por ellas ciega.</p>
 					</sp>
@@ -2356,7 +2827,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Por una sola, que es usted.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Cuánta calor!… Pues iba el amigo acompañado, no hace mucho, de una buena hembra.</p>
 					</sp>
@@ -2364,7 +2835,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Usted la ha conocido.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Oí conversas. ¿Qué ha sido de ella?</p>
 					</sp>
@@ -2372,7 +2843,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Se ha suicidado.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Qué representa tal palabra?</p>
 					</sp>
@@ -2380,7 +2851,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Que ella misma se ha dado muerte.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿De verse abandonada?</p>
 					</sp>
@@ -2388,7 +2859,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>De falta de cabeza.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>O de mucho amor.</p>
 					</sp>
@@ -2396,7 +2867,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>¿Por usted no se ha matado ningún hombre?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Cómo se chulea!</p>
 					</sp>
@@ -2404,7 +2875,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Pues seré yo el primero.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>No tiene mi cara ese mérito.</p>
 					</sp>
@@ -2412,7 +2883,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Usted no puede apreciarlo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Qué labia gasta!</p>
 					</sp>
@@ -2420,7 +2891,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Usted no querrá mi muerte.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Ni la de usted, ni la de nadie. ¡Demonio fuera! ¡No me pase usted el brazo!</p>
 					</sp>
@@ -2428,7 +2899,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>¿Tiene usted cosquillas?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Sí las tengo. ¡Estése quieto el amigo, que llega gente!</p>
 					</sp>
@@ -2436,7 +2907,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Nadie llega.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Puede llegar. ¡Es usted atrevido!</p>
 					</sp>
@@ -2444,13 +2915,13 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Vamos a entrarnos en la casilla.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Le acudió buena tema!</p>
 					</sp>
 					<stage>El farandul empuja suavemente a la coima, que se resiste, blanda y amorosa, recostándose en el pecho del hombre. Los cohetes abren sus luces de colores y cabrillean sobre el mar. Clamoreo de campanas que tocan a vísperas. En la súbita claridad de los cohetes aparecen las torres de la Colegiata.</stage>
-					<stage><rs key="#mari">Mari-Gaila</rs>, en la puerta de la garita, se agacha y levanta un naipe caído en la arena.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs>, en la puerta de la garita, se agacha y levanta un naipe caído en la arena.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Las siete espadas! ¿Cómo se interpreta?</p>
 					</sp>
@@ -2458,7 +2929,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Que de siete trabajos te recompensas durmiendo esta noche con luceimo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Y si duermo la semana?</p>
 					</sp>
@@ -2466,7 +2937,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>De tu vida entera.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Se proclama usted Dios!</p>
 					</sp>
@@ -2474,8 +2945,8 @@
 						<speaker>Séptimo miau</speaker>
 						<p>No conozco a ese sujeto.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> se detiene resistiéndose a entrar en la garita, entorna los ojos, respira con reír alegre de vino y licencias. Dejándose abrazar del farandul murmura con transporte.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs> se detiene resistiéndose a entrar en la garita, entorna los ojos, respira con reír alegre de vino y licencias. Dejándose abrazar del farandul murmura con transporte.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Eres el Conde Polaco?</p>
 					</sp>
@@ -2483,7 +2954,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Deja esos cuentos.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿No lo eres?</p>
 					</sp>
@@ -2491,7 +2962,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>No lo soy; mas pudiera suceder que le conociese.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Pues si es tu amigo, cumples dándole el santo de que le buscan los guardias<rs key="#par">La pareja de civiles</rs>.</p>
 					</sp>
@@ -2499,7 +2970,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>¿Piensas que él no lo sepa? ¡Ya estará advertido!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Tú no lo eres?</p>
 					</sp>
@@ -2507,7 +2978,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Cambia la tocata.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Por cambiada.</p>
 					</sp>
@@ -2515,7 +2986,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Entra.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Y qué hago del carretón?</p>
 					</sp>
@@ -2523,7 +2994,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>Lo dejas fuera. Entramos, pecamos y nos caminamos.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Lindo verso.</p>
 					</sp>
@@ -2531,7 +3002,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>¡Hala!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>luceimo, ¡no me aprecias!</p>
 					</sp>
@@ -2540,7 +3011,7 @@
 						<speaker>Séptimo miau</speaker>
 						<p>¡Bebí tu sangre!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>A ti me entrego.</p>
 					</sp>
@@ -2548,12 +3019,12 @@
 						<speaker>Séptimo miau</speaker>
 						<p>¿Sabes quién soy?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Eres mi negro!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena sexta</head>
 					<stage>La casa de los Gailos. En la cocina, terreña y a teja vana, ahuma el pabilo sainoso del candil, y las gallinas se acogen bajo la piedra morna de las llares. <rs key="#simo"> Simoniña</rs>, dando cabezones tras un cañizo, soltábase los refajos para dormir, y el sacristán <rs key="#pedr">Pedro Gailo</rs> bajaba del sobrado, descalzo y cubierto con una sotana vieja. En una mano trae negro cuchillo carnicero, y en la otra un pichel. Hablando con su sombra se sienta a canto de la piedra larera.</stage>
 					<sp who="#pedr">
@@ -2752,7 +3223,7 @@
 					</sp>
 					<stage><rs key="#simo">Simoniña</rs>, con el candil en la mano, escucha acurrucada en la escalera. El borracho comienza a roncar, y las palabras borrosas que dibujan la línea del sueño se distinguen apenas.</stage>
 				</div>
-				<div  type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena séptima</head>
 					<stage>Viana del Prior. Clamoreo de campanas. Noche de luceros. Un hostal fuera de puertas. Hacen allí posada mendigos y trajinantes de toda laya, negros segadores, amancebados criberos, mujeres ribereñas que venden encajes, alegres pícaros y amarillos enfermos que, con la manta al hombro y un palo en la mano, piden limosna para llegar al Santo Hospital. El acaso los junta en aquel gran zaguán, sin otra luz que la llama del hogar y la tristeza de un candil colgado a la entrada de las cuadras. Aparece <rs key="#tatu">Rosa La Tatula</rs> tirando del carretón del enano, llega al mostrador y se registra la faltriquera al tiempo que ríe toda su boca sin dientes</stage>
 					<sp who="#tatu">
@@ -2778,7 +3249,7 @@
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
-						<p>Ese ventolera, que ya encartó con <rs key="#mari">Mari-Gaila</rs>. Juntos como dos enamorados quedan en la plaza viendo los castillos de fuego, y como es tanto gentío, me encomendaron el carretón. Bien hacen en divertirse, que son mozos.</p>
+						<p>Ese ventolera, que ya encartó con <rs key="#marg">Mari-Gaila</rs>. Juntos como dos enamorados quedan en la plaza viendo los castillos de fuego, y como es tanto gentío, me encomendaron el carretón. Bien hacen en divertirse, que son mozos.</p>
 					</sp>
 					<sp who="#ludo">
 						<speaker>Ludovina</speaker>
@@ -2791,7 +3262,7 @@
 					<stage>Del fondo oscuro del zaguán sale a la luz un mozo alto, con barba naciente, capote de soldado sobre los hombros, y el canuto de la licencia al pecho. Tiene cercenado un brazo, y pide limosna tocando el acordeón con una mano.</stage>
 					<sp who="#sold">
 						<speaker>El Soldado</speaker>
-						<p><rs key="#mari">Mari-Gaila</rs> no es mujer para un hombre de ese porte. ¡La otra tenía un garbo y un ceceo más bien puesto!</p>
+						<p><rs key="#marg">Mari-Gaila</rs> no es mujer para un hombre de ese porte. ¡La otra tenía un garbo y un ceceo más bien puesto!</p>
 					</sp>
 					<sp who="#migu">
 						<speaker>Miguelín</speaker>
@@ -2811,7 +3282,7 @@
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
-						<p><rs key="#mari">Mari-Gaila</rs>, teniendo el disfrute del engendro, o el medio disfrute, no hacía nada.</p>
+						<p><rs key="#marg">Mari-Gaila</rs>, teniendo el disfrute del engendro, o el medio disfrute, no hacía nada.</p>
 					</sp>
 					<sp who="#sold">
 						<speaker>El Soldado</speaker>
@@ -2975,8 +3446,8 @@
 						<speaker>Ludovina</speaker>
 						<p>Aquí ninguno vio nada.</p>
 					</sp>
-					<stage>La Vieja <rs key="#tatu">Rosa La Tatula</rs>rueda el dornajo, y en el umbral de la puerta, blanco de luna, aparece la <rs key="#mari">Mari-Gaila</rs>. Su sombra, llena de ritmos clásicos, se pronuncia sobre la noche de plata.</stage>
-					<sp who="#mari">
+					<stage>La Vieja <rs key="#tatu">Rosa La Tatula</rs>rueda el dornajo, y en el umbral de la puerta, blanco de luna, aparece la <rs key="#marg">Mari-Gaila</rs>. Su sombra, llena de ritmos clásicos, se pronuncia sobre la noche de plata.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Salud a todos!</p>
 					</sp>
@@ -2984,7 +3455,7 @@
 						<speaker>Ludovina</speaker>
 						<p>Oportuna llegas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Qué misterio se pasa?</p>
 					</sp>
@@ -2992,7 +3463,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Que la muerte no tiene aviso.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿El baldadiño?</p>
 					</sp>
@@ -3000,7 +3471,7 @@
 						<speaker>Ludovina</speaker>
 						<p>Espichó.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Espadas son desgracias! ¿Cómo a luceimo le daría aviso? ¡Bien quisiera pedirle consejo!</p>
 					</sp>
@@ -3008,7 +3479,7 @@
 						<speaker>Miguelín</speaker>
 						<p>¿Dónde quedó?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Fue llamado del Casino de los Caballeros.</p>
 					</sp>
@@ -3016,7 +3487,7 @@
 						<speaker>Ludovina</speaker>
 						<p>El consejo es darle tierra.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Tierra bendita?</p>
 					</sp>
@@ -3028,23 +3499,23 @@
 						<speaker>El Padre de la niña extática</speaker>
 						<p>Cumple en conciencia, y pon al hijo bajo la cruz de la madre<rs key="#matr">En matrimonio de labriegos con una hija enferma.</rs>.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Habré de caminar toda la noche con el muerto en el carro. ¡Arrenegado el Demonio sea! Échame una copa, <rs key="#ludo">Ludovina</rs>. Tragos con tragos. Échame otra para que sea medio real. Si por mí preguntase luceimo…</p>
 					</sp>
 					<sp who="#ludo">
 						<speaker>Ludovina</speaker>
-						<p>Tendrá respuesta. ¡<rs key="#mari">Mari-Gaila</rs>, pónteme fuera! ¡No quiero más sobre mis bienes el aire del muerto!</p>
+						<p>Tendrá respuesta. ¡<rs key="#marg">Mari-Gaila</rs>, pónteme fuera! ¡No quiero más sobre mis bienes el aire del muerto!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Nuestro Señor Misericordioso, te llevas mis provechos y mis males me dejas! ¡Ya se voló de este mundo quien me llenaba la alforja! ¡Jesús Nazareno, me quitas el amparo de andar por los caminos, y no me das otro sustento! ¡No harás para mí tus milagros, no me llenarás el horno de panes, Jesús Nazareno!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena octava</head>
-					<stage>Noche de luceros. <rs key="#mari">Mari-Gaila</rs> rueda el dornajo por un camino blanco y lleno de rumor de maizales. Canta el cuco. Cuando fina, suena la risa tremolante del <rs key="#tras">Trasgo Cabrío</rs>. Está sentado sobre un peñasco, con la barba greñuda, estremecido por una ráfaga de viento. <rs key="#mari">Mari-Gaila</rs> lo conjura.</stage>
-					<sp who="#mari">
+					<stage>Noche de luceros. <rs key="#marg">Mari-Gaila</rs> rueda el dornajo por un camino blanco y lleno de rumor de maizales. Canta el cuco. Cuando fina, suena la risa tremolante del <rs key="#tras">Trasgo Cabrío</rs>. Está sentado sobre un peñasco, con la barba greñuda, estremecido por una ráfaga de viento. <rs key="#marg">Mari-Gaila</rs> lo conjura.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>: ¡A la una, la luz de la luna! 
 						¡A las dos, la luz del sol! 
@@ -3054,7 +3525,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>¡Jujurujú!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Arrenegado!</p>
 					</sp>
@@ -3062,7 +3533,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>¡Esta noche bien me retorciste los cuernos!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡A las cuatro, el canto del gallo!</p>
 					</sp>
@@ -3070,8 +3541,8 @@
 						<speaker>El Cabrío</speaker>
 						<p>¡Jujurujú! ¡Bésame en el rabo!</p>
 					</sp>
-					<stage>El paraje se transmuda. <rs key="#mari">Mari-Gaila</rs> atraviesa una calzada por un estero rielante. El <rs key="#tras">Cabrío</rs>, sentado sobre las patas, en medio de la vereda, ríe con aquella gran risa que pasa retorciéndose por las perillas de su barba.</stage>
-					<sp who="#mari">
+					<stage>El paraje se transmuda. <rs key="#marg">Mari-Gaila</rs> atraviesa una calzada por un estero rielante. El <rs key="#tras">Cabrío</rs>, sentado sobre las patas, en medio de la vereda, ríe con aquella gran risa que pasa retorciéndose por las perillas de su barba.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>: ¡A las cinco, lo que está escrito! 
 						¡A las seis, la estrella de los Reis! 
@@ -3081,7 +3552,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>Cuando remates, echaremos un baile.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>: ¡A las ocho, llamas del Purgatorio! 
 						¡A las nueve, tres ojos y tres trébedes! 
@@ -3090,12 +3561,12 @@
 						¡A las doce, el trueno del Señor revienta en las tripas 
 						[del Diablo Mayor]!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> espera el trueno, y sólo oye la risa del <rs key="#tras">Cabrío</rs>. Otra vez se transmuda el paraje. Hay una iglesia sobre una encrucijada. Las brujas danzan en torno. Por la puerta sale un resplandor rojizo, y pasa el viento cargado de humo, con olor de sardinas asadas. El <rs key="#tras">Cabrío</rs>, sobre la veleta del campanario, lanza su relincho.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> espera el trueno, y sólo oye la risa del <rs key="#tras">Cabrío</rs>. Otra vez se transmuda el paraje. Hay una iglesia sobre una encrucijada. Las brujas danzan en torno. Por la puerta sale un resplandor rojizo, y pasa el viento cargado de humo, con olor de sardinas asadas. El <rs key="#tras">Cabrío</rs>, sobre la veleta del campanario, lanza su relincho.</stage>
 					<sp who="#tras">
 						<speaker>El Cabrío</speaker>
 						<p>¡Jujurujú!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Arrenegado una y mil veces!</p>
 					</sp>
@@ -3103,7 +3574,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>¿Por qué me desconoces?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Negro, si jamás te vi!</p>
 					</sp>
@@ -3111,7 +3582,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>¡Vente conmigo al baile!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>De tus romerías saber no quiero.</p>
 					</sp>
@@ -3119,7 +3590,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>¡Jujurujú! Te llevaré por los aires, más alto que el Sol y la Luna. ¡Jujurujú!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Tu poder aborrezco.</p>
 					</sp>
@@ -3127,7 +3598,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>¿Quieres que te ponga al final de tu camino? Con sólo soplar puedo hacerlo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Ya lo sé que puedes.</p>
 					</sp>
@@ -3135,16 +3606,16 @@
 						<speaker>El Cabrío</speaker>
 						<p>Tú en toda la noche no has andado lo que te falta.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Arrédrate, Cabrío, y déjame pasar!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> tira del dornajo sin poder moverlo. Lo siente pesado, como si fuese de piedra. El <rs key="#tras">Cabrío</rs> deja oír su relincho.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> tira del dornajo sin poder moverlo. Lo siente pesado, como si fuese de piedra. El <rs key="#tras">Cabrío</rs> deja oír su relincho.</stage>
 					<sp who="#tras">
 						<speaker>El Cabrío</speaker>
 						<p>¡Jujurujú! En toda la noche no arribas a tu puerta. ¿Quieres mi ayuda?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Por qué precio me la otorgas?</p>
 					</sp>
@@ -3152,7 +3623,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>Por ninguna cosa. En rematando el viaje echamos un baile.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Como solamente fuera eso…</p>
 					</sp>
@@ -3160,7 +3631,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>Eso y no más.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Tengo mejor cortejo.</p>
 					</sp>
@@ -3168,12 +3639,12 @@
 						<speaker>El Cabrío</speaker>
 						<p>¡Jujurujú! A tu ventura te quedas.</p>
 					</sp>
-					<stage>El <rs key="#tras">Cabrío</rs> revienta en una risada, y desaparece del campanario, cabalgando sobre el gallo de la veleta. Otra vez se transmuda el paraje, y vuelve a ser el sendero blanco de luna, con rumor de maizales. <rs key="#mari">Mari-Gaila</rs> se siente llevada en una ráfaga, casi no toca la tierra. El impulso acrece, va suspendida en el aire, se remonta y suspira con deleite carnal. Siente bajo las faldas las sacudidas de una grupa lanuda, tiende los brazos para no caer, y sus manos encuentran la retorcida cuerna del <rs key="#tras">Cabrío</rs>.</stage>
+					<stage>El <rs key="#tras">Cabrío</rs> revienta en una risada, y desaparece del campanario, cabalgando sobre el gallo de la veleta. Otra vez se transmuda el paraje, y vuelve a ser el sendero blanco de luna, con rumor de maizales. <rs key="#marg">Mari-Gaila</rs> se siente llevada en una ráfaga, casi no toca la tierra. El impulso acrece, va suspendida en el aire, se remonta y suspira con deleite carnal. Siente bajo las faldas las sacudidas de una grupa lanuda, tiende los brazos para no caer, y sus manos encuentran la retorcida cuerna del <rs key="#tras">Cabrío</rs>.</stage>
 					<sp who="#tras">
 						<speaker>El Cabrío</speaker>
 						<p>¡Jujurujú!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Adónde me llevas, negro?</p>
 					</sp>
@@ -3181,7 +3652,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>Vamos al baile.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Por dónde vamos?</p>
 					</sp>
@@ -3189,7 +3660,7 @@
 						<speaker>El Cabrío</speaker>
 						<p>Por arcos de Luna.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay, que desvanezco! ¡Temo caer!</p>
 					</sp>
@@ -3197,13 +3668,13 @@
 						<speaker>El Cabrío</speaker>
 						<p>Cíñeme las piernas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Qué peludo eres!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> se desvanece, y desvanecida se siente llevada por las nubes. Cuando, tras una larga cabalgada por arcos de Luna, abre los ojos, está al pie de su puerta. La Luna grande, redonda y abobada, cae sobre el dornajo donde el enano hace siempre la misma mueca.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> se desvanece, y desvanecida se siente llevada por las nubes. Cuando, tras una larga cabalgada por arcos de Luna, abre los ojos, está al pie de su puerta. La Luna grande, redonda y abobada, cae sobre el dornajo donde el enano hace siempre la misma mueca.</stage>
 				</div>
-				<div  type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena novena</head>
 					<stage><rs key="#simo">Simoniña</rs>, en camisa, los pies furtivos y descalzos, desciende la escalera del sobrado. En la cocina, negra y vacía, resuenan los golpes con que llaman a la puerta</stage>
 					<sp who="#simo">
@@ -3222,7 +3693,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¿Y qué mal puede venir de preguntar?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>La voz de Mari-Gaila</speaker>
 						<p>¡Abriréis, condenados!</p>
 					</sp>
@@ -3242,7 +3713,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>De mi mano no quedaron.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>La voz de Mari-Gaila</speaker>
 						<p>¡Ay, aborrecidos! ¿Es que cuidáis de tenerme toda la noche a la luna?</p>
 					</sp>
@@ -3250,7 +3721,7 @@
 						<speaker>Simoniña</speaker>
 						<p>Estoy a cachear por los mixtos.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>La voz de Mari-Gaila</speaker>
 						<p>¡Llevo aquí la vida perdurable!</p>
 					</sp>
@@ -3258,8 +3729,8 @@
 						<speaker>Simoniña</speaker>
 						<p>Aguarda que encienda el candil.</p>
 					</sp>
-					<stage>La sombra del sacristán<rs key="#pedr">Pedro Gailo</rs>, larga y escueta, asoma por encima del cañizo. Bajo la chimenea, el candil, ya encendido, se mece con lento balance, y la mozuela, cayéndole por los hombros la camisa, levanta las trancas de la puerta. <rs key="#mari">Mari-Gaila</rs> se aparece en el claro de luna, negra y donosa. En el camino, medio volcado, está el carretón.</stage>
-					<sp who="#mari">
+					<stage>La sombra del sacristán<rs key="#pedr">Pedro Gailo</rs>, larga y escueta, asoma por encima del cañizo. Bajo la chimenea, el candil, ya encendido, se mece con lento balance, y la mozuela, cayéndole por los hombros la camisa, levanta las trancas de la puerta. <rs key="#marg">Mari-Gaila</rs> se aparece en el claro de luna, negra y donosa. En el camino, medio volcado, está el carretón.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Sois piedras cuando os echáis a dormir!</p>
 					</sp>
@@ -3267,7 +3738,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡A los cuerpos cansados del trabajo, no ha de pedírseles que duerman con un ojo abierto como las liebres!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Qué estás a barrullar, latino? ¡Así durmieses y no despertases!</p>
 					</sp>
@@ -3275,7 +3746,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¿No tienes mejores palabras cuando te acoges a tu casa, descarriada?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡No me quiebres la cabeza!</p>
 					</sp>
@@ -3283,7 +3754,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Más me cumplía, y era el rebanártela del pescuezo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Loquéaste, latino!</p>
 					</sp>
@@ -3291,7 +3762,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¿Dónde está mi honra?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Vaya el cantar que te acuerda!</p>
 					</sp>
@@ -3299,7 +3770,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Te hiciste pública!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡A ver si te enciendo las liendres!</p>
 					</sp>
@@ -3307,7 +3778,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡No comiencen la pelea!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Buenos latines cuando perdimos nuestro bien!</p>
 					</sp>
@@ -3315,7 +3786,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¿El baldadiño, mi madre?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Espichó.</p>
 					</sp>
@@ -3323,7 +3794,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Por modo que… ¿Algún dolor repentino?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Una alferecía. ¡Acabóse nuestro provecho!</p>
 					</sp>
@@ -3331,20 +3802,20 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Él dejó de padecer, y no miró más.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Cuatro machacantes junté en este medio tiempo.</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> desanuda con los dientes una punta del pañuelo, y haciéndolas saltar en la mano, muestra las cuatro monedas. <rs key="#simo"> Simoniña</rs>, ante aquellas luces, comienza el planto.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> desanuda con los dientes una punta del pañuelo, y haciéndolas saltar en la mano, muestra las cuatro monedas. <rs key="#simo"> Simoniña</rs>, ante aquellas luces, comienza el planto.</stage>
 					<sp who="#simo">
 						<speaker>Simoniña</speaker>
 						<p>¡Ya se fue el sol de nuestra puerta! ¡Ya se acabó el bien de nuestra casa! ¡Ay, que se fue de este mundo sin mirar por nos!</p>
 					</sp>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>Corresponde dar aviso a mi hermana Marica<rs key="#mar">Marica del Reino</rs>.</p>
+						<p>Corresponde dar aviso a mi hermana <rs key="#marc">Marica</rs>.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Que  <rs key="#rapa"> La rapaza</rs> se llegue por su puerta al ser de mañana…</p>
 					</sp>
@@ -3352,7 +3823,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡Madre del Señor, cómo mi tía se va a poner de remontada! ¡La mar de Corrubedo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Tú no le hablas palabra. Le dejas el carretón a la puerta, y con la misma, te caminas.</p>
 					</sp>
@@ -3360,7 +3831,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¿He de llevar el carretón?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Por sabido, aborrecida! ¡Por sabido! ¡No han de ser nuestras costillas a pagar el entierro!</p>
 					</sp>
@@ -3372,7 +3843,7 @@
 						<speaker>Simoniña</speaker>
 						<p>Falta que mi tía sea conforme.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Cuando se mire con el carretón a la sombra de las tejas, verá si lo pone en salmuera.</p>
 					</sp>
@@ -3380,7 +3851,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Determinado de hacer conforme a este hablar, cumple que ello se remate antes de venirse el día.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ahí estás asesado, latino!</p>
 					</sp>
@@ -3392,7 +3863,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Calla, mal enseñada! ¡Es tu tía y no has de alzarte contra ella!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Si te acoge con malas palabras, le rompes las tejas.</p>
 					</sp>
@@ -3400,7 +3871,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>No hay caso de tal incumbencia, aprovechando el rabo de la noche.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>No dictaminas mal.</p>
 					</sp>
@@ -3416,7 +3887,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Son discursos de hombre.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Calla, latino! ¿Consideras que no alcanzo tanta doctrina?</p>
 					</sp>
@@ -3428,7 +3899,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡Muera el cuento!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Muerto y sepultado. Aprovecha este ínterin de noche y llega con el carretón a la puerta de tu tía.</p>
 					</sp>
@@ -3436,7 +3907,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡Estoy a temblar!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Eres muy dama!</p>
 					</sp>
@@ -3444,7 +3915,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡El muerto me impone!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Anda a turrar del carretón.</p>
 					</sp>
@@ -3452,7 +3923,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡Ir por esos caminos tan negros!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Por ellos vino tu madre.</p>
 					</sp>
@@ -3468,7 +3939,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Yo te hablaré desde la puerta, Simoniña.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>No te dilates con retóricas, aborrecida.</p>
 					</sp>
@@ -3482,15 +3953,15 @@
 						<p>¡Háblame, mi padrecito!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="10">
+				<div n="10" type="scene">
 					<head>Escena décima</head>
-					<p>Prima mañana, rosadas luces, cantos de pájaros. En la copa de las higueras abren los brazos derrengados peleles y dos marranos gruñen sobre el dornajo ante la puerta aún cerrada de <rs key="#mar">Marica del Reino</rs>. La vieja, raída y pelona, saca la cabeza por el ventano, y con gritos espanta a las bestias.</p>
-					<sp who="#mar">
+					<p>Prima mañana, rosadas luces, cantos de pájaros. En la copa de las higueras abren los brazos derrengados peleles y dos marranos gruñen sobre el dornajo ante la puerta aún cerrada de <rs key="#marc">Marica del Reino</rs>. La vieja, raída y pelona, saca la cabeza por el ventano, y con gritos espanta a las bestias.</p>
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Cache!… ¡Cache!… ¡Cache, grandísimos ladrones!… ¡Nuestro Señor me valga, los bacuriños sobre el carretón! ¡A las calladas me lo trujeron! ¡Las malas almas, ni una voz para advertirme!</p>
 					</sp>
-					<stage><rs key="#mari">Marica del Reino</rs>, el refajo mal ceñido, y los pechos de cabra seca fuera del justillo, surge del fondo de la cocina, enarbolando la escoba.</stage>
-					<sp who="#mar">
+					<stage><rs key="#marg">Marica del Reino</rs>, el refajo mal ceñido, y los pechos de cabra seca fuera del justillo, surge del fondo de la cocina, enarbolando la escoba.</stage>
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Cache, ladrones! ¡Cache, empedernidos!… ¡Alma, no te espantes! ¡No te vayas, alma! ¡Ay, que toda la cara le comieron! ¡Devorado! ¡Devorado de los bacuriños! ¡Frío del todo!</p>
 					</sp>
@@ -3516,7 +3987,7 @@
 						<speaker>La mujer en preñez</speaker>
 						<p>¡Madre de Dios! ¡Madre de Dios!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Calladamente, esta noche me lo trujeron, y calladamente se caminaron sin revelarme del sueño con una voz, sin batirme en la puerta! ¡Su negra conducta ocasiona este ejemplo!</p>
 					</sp>
@@ -3524,7 +3995,7 @@
 						<speaker>La mujer en preñez</speaker>
 						<p>¡Su madre estaba a llamar por él!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Aquí tenéis este cuerpo frío! ¡Cara y manos le comieron los cerdos! ¡Duélense las entrañas, la vista se duele viendo esta carnicería! ¡Testigo sois! ¡Comido de las bestias!</p>
 					</sp>
@@ -3536,7 +4007,7 @@
 						<speaker>La vieja del ventano</speaker>
 						<p>¡Es manifiesto!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Las entrañas se estremecen viendo estos despojos! ¡Abandonado fuiste a mi puerta, Laureaniño! ¡Almas soberbias te trajeron la muerte!</p>
 					</sp>
@@ -3548,7 +4019,7 @@
 						<speaker>La rapaza</speaker>
 						<p>Y pudiera ser que las diese, tía Justa.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Hubiéranme revelado del sueño.</p>
 					</sp>
@@ -3572,7 +4043,7 @@
 						<speaker>Serenín de Bretal</speaker>
 						<p>De andar en justicia no os libráis…</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Si hay culpados, no se verán sin cadena!</p>
 					</sp>
@@ -3580,7 +4051,7 @@
 						<speaker>La vieja del ventano</speaker>
 						<p>¡Muy calladamente vinieron!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Un levante de barbas honradas había de haber contra este vituperio! ¿Quién te quitó la vida, Laureaniño? ¡Si hablaras tú, cuerpo muerto!</p>
 					</sp>
@@ -3588,7 +4059,7 @@
 						<speaker>Serenín de Bretal</speaker>
 						<p>No alces esas voces, que son responsabilidades. El carretón finó de muerte propia, que nadie va contra su sustento.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¿Quieres decir que acabó bajo mi custodia?</p>
 					</sp>
@@ -3596,7 +4067,7 @@
 						<speaker>Serenín de Bretal</speaker>
 						<p>Quiero decir que se lo llevó la voluntad del Señor.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¿Y por qué del sigilo con que me lo dejaron a la puerta? ¡Acabó en sus manos ladronas!</p>
 					</sp>
@@ -3610,19 +4081,19 @@
 					</sp>
 				</div>
 			</div>
-			<div type="act" n="3">
+			<div n="3" type="act">
 				<head>JORNADA TERCERA</head>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena primera</head>
 					<stage>La casa de los Gailos. En la cocina, terrena y ahumada, se acurrucan —sombras taciturnas— marido y mujer. Por el tejado rueda burlona una piedra y un vuelo esparcido de rapaces<rs key="#trop">Tropas de rapaces con burlas y canciones.</rs>, que pasa ante la puerta, levanta esta copla:</stage>
 					<sp who="#trop">
 						<speaker>Coplas de rapaces</speaker>
-						<p>: ¡Tunturuntún! La <rs key="#mari">Mari-Gaila</rs>. 
+						<p>: ¡Tunturuntún! La <rs key="#marg">Mari-Gaila</rs>. 
 						¡Tunturuntún! Que tanto bailó. 
-						¡Tunturuntún! La <rs key="#mari">Mari-Gaila</rs>. 
+						¡Tunturuntún! La <rs key="#marg">Mari-Gaila</rs>. 
 						¡Tunturuntún! Que malparió.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Hijos de la grandísima!</p>
 					</sp>
@@ -3630,7 +4101,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Prudencia!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Centellas!</p>
 					</sp>
@@ -3638,7 +4109,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>No los incitemos.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Más mereces!</p>
 					</sp>
@@ -3646,11 +4117,11 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Titulada de adúltera!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Titulado de cabra!</p>
 					</sp>
-					<stage>Tornan a quedar en silencio. La sombra de una bruja pasa escurrida pegada a la casa y se detiene a mirar por la puerta. Es <rs key="#tatu"> Rosa La Tatula</rs>, encorvada, sin dientes, escueta la alforja y el palo en la mano. <rs key="#mari">Mari-Gaila</rs> se levanta, y en voz baja tiene coloquio con la vieja. Entran las dos. <rs key="#mari">Mari-Gaila</rs> canta.</stage>
+					<stage>Tornan a quedar en silencio. La sombra de una bruja pasa escurrida pegada a la casa y se detiene a mirar por la puerta. Es <rs key="#tatu"> Rosa La Tatula</rs>, encorvada, sin dientes, escueta la alforja y el palo en la mano. <rs key="#marg">Mari-Gaila</rs> se levanta, y en voz baja tiene coloquio con la vieja. Entran las dos. <rs key="#marg">Mari-Gaila</rs> canta.</stage>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
 						<p>¿Nada me dices, <rs key="#pedr">Pedro Gailo</rs>?</p>
@@ -3663,7 +4134,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Tú aún no rompes unas mangas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Y unas bragas. Por cuentos está virado contra mí, como un león africano. ¡Hasta habló de picarme el cuello!</p>
 					</sp>
@@ -3671,12 +4142,12 @@
 						<speaker>La Tatula</speaker>
 						<p>Es hablar que tienen los hombres.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Si de hablar no pasa!</p>
 					</sp>
-					<stage>Un profundo suspiro levanta el pecho de <rs key="#mari">Mari-Gaila</rs>. Con garbo de talle y brazos alcanza el pichel, llena una copa, que cata con mimos de lengua, y desde lejos, desgarrándose, se la ofrece al marido.</stage>
-					<sp who="#mari">
+					<stage>Un profundo suspiro levanta el pecho de <rs key="#marg">Mari-Gaila</rs>. Con garbo de talle y brazos alcanza el pichel, llena una copa, que cata con mimos de lengua, y desde lejos, desgarrándose, se la ofrece al marido.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Bebe!</p>
 					</sp>
@@ -3684,7 +4155,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Quería recibir a Dios.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Bebe en mi copa.</p>
 					</sp>
@@ -3692,7 +4163,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Quería descargar mi conciencia.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Me haces ese feo?</p>
 					</sp>
@@ -3700,7 +4171,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Tengo sobre mi alma una negra culpa!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Bebe, que yo te lo ofrezco.</p>
 					</sp>
@@ -3708,7 +4179,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Mi alma no te pertenece.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Bebe sin escrúpulo.</p>
 					</sp>
@@ -3716,7 +4187,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Pestilencia!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ahí tienes sus textos, Tatula<rs key="#tatu"> Rosa La Tatula</rs>!</p>
 					</sp>
@@ -3724,29 +4195,29 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Mujer de escándalo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Alumbrado!</p>
 					</sp>
-					<stage>El sacristán<rs key="#pedr">Pedro Gailo</rs> échase fuera, negro y zancudo, mas queda espantado sobre el umbral, con los pelos de pie, los brazos en aspa. <rs key="#mar">Marica del Reino</rs>, cubierta con el manteo, venía rostro a la casa, tirando del carretón.</stage>
+					<stage>El sacristán<rs key="#pedr">Pedro Gailo</rs> échase fuera, negro y zancudo, mas queda espantado sobre el umbral, con los pelos de pie, los brazos en aspa. <rs key="#marc">Marica del Reino</rs>, cubierta con el manteo, venía rostro a la casa, tirando del carretón.</stage>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>¡El fin de los tiempos, mi hermana Marica<rs key="#mar">Marica del Reino</rs>!</p>
+						<p>¡El fin de los tiempos, mi hermana <rs key="#marc">Marica</rs>!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Lo recibido vuelvo.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Mari-Gaila</speaker>
 						<p>Este cuerpo frío a mi puerta no lo dejas.</p>
 					</sp>
-					<stage><rs key="#mari">Marica del Reino</rs>, antes de contestar, vuelve la cabeza: Una sombra y una mirada hostil adivina a su espalda. <rs key="#simo"> Simoniña</rs>, que tornaba de la fuente, estaba erguida en medio del camino, las manos firmes en las caderas. En aquella hora tenía un recuerdo de su madre, la <rs key="#mari">Mari-Gaila</rs>.</stage>
+					<stage><rs key="#marg">Marica del Reino</rs>, antes de contestar, vuelve la cabeza: Una sombra y una mirada hostil adivina a su espalda. <rs key="#simo"> Simoniña</rs>, que tornaba de la fuente, estaba erguida en medio del camino, las manos firmes en las caderas. En aquella hora tenía un recuerdo de su madre, la <rs key="#marg">Mari-Gaila</rs>.</stage>
 					<sp who="#simo">
 						<speaker>Simoniña</speaker>
 						<p>Llévese esa boleta, señora mi tía.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Franquéame el paso.</p>
 					</sp>
@@ -3754,7 +4225,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡No se ponga en pasar!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>En pasar y en picarte la cresta.</p>
 					</sp>
@@ -3766,31 +4237,31 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¿Qué cisma traes a mi casa?</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Es difunto de tu sangre.</p>
 					</sp>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>Y de la tuya, Marica<rs key="#mar">Marica del Reino</rs>.</p>
+						<p>Y de la tuya, <rs key="#marc">Marica</rs>.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>En mis manos no murió.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Vivo te fue entregado, cuñada.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Cuñada! ¡Maldita palabra que mi lengua encadena!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Habla! ¡Tendrás tu respuesta!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Malcasada!</p>
 					</sp>
@@ -3810,31 +4281,31 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>El que está sobre la puerta me los ha levantado con su aire. ¡Pide sepultura!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>Y cumples dándosela. Pero ¡no murió en mis manos, y la sepultura no es del mi cargo!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Bruja cicatera!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Malcasada!</p>
 					</sp>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
-						<p>¡Vete, Marica<rs key="#mar">Marica del Reino</rs>! ¡Vete de mi puerta! El sobrino tendrá su entierro de ángel.</p>
+						<p>¡Vete, <rs key="#marc">Marica</rs>! ¡Vete de mi puerta! El sobrino tendrá su entierro de ángel.</p>
 					</sp>
 					<sp who="#simo">
 						<speaker>Simoniña</speaker>
 						<p>¡Muy rico se encuentra mi padre!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Iluminado!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Déjame paso, Simoniña!</p>
 					</sp>
@@ -3842,7 +4313,7 @@
 						<speaker>Simoniña</speaker>
 						<p>Está en pasar, y no pasa.</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Que te clavo esta lezna!</p>
 					</sp>
@@ -3850,7 +4321,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡Bruja!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Que con ella el corazón te paso!</p>
 					</sp>
@@ -3858,7 +4329,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¡Acuda, mi madre!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Aborrecida, déjala que se vaya!</p>
 					</sp>
@@ -3870,7 +4341,7 @@
 						<speaker>Simoniña</speaker>
 						<p>¿Oye, mi madre?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Oigo, oigo, y me estoy callada.</p>
 					</sp>
@@ -3878,7 +4349,7 @@
 						<speaker>La Tatula</speaker>
 						<p>No arméis vosotros una nueva parranda. Tres días que os pongáis con el carretón a la puerta de la iglesia, juntáis el entierro y mucho más.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Tres días no los resiste con estas calores.</p>
 					</sp>
@@ -3890,27 +4361,27 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>Hay que muy bien lavarle la cara, rabecharle las barbas que le nacían y ponerle su corona de azucenas. Como era inocente, le cumple el rezo de ángel.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Y tú, latino, ¿no tocas para la misa? ¿Esperas que toquen solas las campanas?</p>
 					</sp>
 					<stage>Tapando la luz de la puerta, negro en la angosta sotana, el sacristán<rs key="#pedr">Pedro Gailo</rs> juzga de la hora por la altura del sol, y corre al atrio, sonando las llaves de la iglesia. En torno de la casa vuelve a rodar la copla de los rapaces<rs key="#trop">Tropas de rapaces con burlas y canciones.</rs>.</stage>
 					<sp who="#trop">
 						<speaker>Coplas de rapaces</speaker>
-						<p>: ¡Tunturuntún! La <rs key="#mari">Mari-Gaila</rs>. 
+						<p>: ¡Tunturuntún! La <rs key="#marg">Mari-Gaila</rs>. 
 						¡Tunturuntún! No sé qué le dio. 
-						¡Tunturuntún! La <rs key="#mari">Mari-Gaila</rs>. 
+						¡Tunturuntún! La <rs key="#marg">Mari-Gaila</rs>. 
 						¡Tunturuntún! Que malparió.</p>
 					</sp>
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena segunda</head>
-					<stage><rs key="#mari">Mari-Gaila</rs> y <rs key="#tatu"> La Tatula</rs> conversan secretamente a espaldas de la casa, bajo la pompa de la higuera donde abre los brazos el espantapájaros: Una sotana hecha jirones, vestida en la cruz de dos escobas.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> y <rs key="#tatu"> La Tatula</rs> conversan secretamente a espaldas de la casa, bajo la pompa de la higuera donde abre los brazos el espantapájaros: Una sotana hecha jirones, vestida en la cruz de dos escobas.</stage>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
 						<p>Ya podemos hablar sin misterio.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Pues comienza.</p>
 					</sp>
@@ -3918,7 +4389,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¿Recuerdas la suerte que una cierta ocasión te pronosticaron las cartas?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Cartas veletas!</p>
 					</sp>
@@ -3926,7 +4397,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Prendas de amor te salieron por tres veces.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Fallidos pronósticos!</p>
 					</sp>
@@ -3934,7 +4405,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Tú misma pudiste leerlas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Mi suerte no muda.</p>
 					</sp>
@@ -3942,7 +4413,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Será porque tú no quieras… He de darte cierto aviso.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Qué es ello?</p>
 					</sp>
@@ -3950,7 +4421,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Palabras de uno que espera las tuyas.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Vienes mandada de Séptimo miau<rs key="#luce">Lucero</rs>?</p>
 					</sp>
@@ -3958,7 +4429,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Diste pronto en el sujeto. ¿Sabrás igualmente cuál es su tocata?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>La tocata es buena.</p>
 					</sp>
@@ -3966,7 +4437,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Quiere entrevistarse contigo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay, qué trueno! ¿Qué ceño puso al conocer el fin del carretón?</p>
 					</sp>
@@ -3974,7 +4445,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Interrogó a los presentes, y sacó el hilo como un juez. Te conviene saberlo. El baldadiño espichó de tanta aguardiente como le hizo embarcar el Maricuela.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Había de ser ese ladrón! Y luceimo, ¿qué dijo al enterarse?</p>
 					</sp>
@@ -3982,7 +4453,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Al pronto quedó suspenso picando un cigarro.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Disimulaba.</p>
 					</sp>
@@ -3990,7 +4461,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Le conoces! Luego se puso a beber con todos, y con el Maricuela el primero. Cuando lo tuvo a barlovento saltóle encima, le afeitó el lunar y sin calzones lo echó al camino. ¡Lo que allí pudimos reír!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Y <rs key="#ludo">Ludovina</rs>?</p>
 					</sp>
@@ -3998,7 +4469,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Se escachaba!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Tú no sospechas que tenga trato con luceimo?</p>
 					</sp>
@@ -4006,7 +4477,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Lo habrá tenido.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Si lo tuvo, lo tiene.</p>
 					</sp>
@@ -4014,7 +4485,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Ya te encelas!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Libres son!</p>
 					</sp>
@@ -4022,7 +4493,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡luceimo está por ti que ciega!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>De un ojo.</p>
 					</sp>
@@ -4030,7 +4501,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Bien te lo declara su deseo de hablar contigo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Acaso no le bastará con una!…</p>
 					</sp>
@@ -4038,7 +4509,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¿Es ésa tu respuesta?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Mi respuesta aún no te la di.</p>
 					</sp>
@@ -4046,7 +4517,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Pues otra cosa no espero.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>La tengo de pensar.</p>
 					</sp>
@@ -4054,7 +4525,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Los dictados del corazón son repentinos.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Eso dicen…</p>
 					</sp>
@@ -4062,7 +4533,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¿Qué le respondes?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ay, no estoy por sus conciertos!</p>
 					</sp>
@@ -4070,7 +4541,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Buena vida pierdes!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Andar errante.</p>
 					</sp>
@@ -4078,7 +4549,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Contar pesetas!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Soles y lluvias!</p>
 					</sp>
@@ -4086,7 +4557,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Comer de mesones!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Sobresaltos!</p>
 					</sp>
@@ -4094,7 +4565,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Una reina! Para ti son estas medias listadas y estos pendientes de brillos. Las medias, si las pruebas, llevaré razón de cómo te aprisionan la pantorra.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Son altas las medias?</p>
 					</sp>
@@ -4102,7 +4573,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Clase superior! A éstas llama el señorío conejeras.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Pues está ocurrente el señorío!</p>
 					</sp>
@@ -4110,21 +4581,19 @@
 						<speaker>La Tatula</speaker>
 						<p>¿Qué me respondes para luceimo?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Le das las gracias.</p>
 					</sp>
 					<sp who="#tatu">
 						<speaker>La Tatula</speaker>
-						<p>¿Sin otra palabra, <rs key="#mari">Mari-Gaila</rs>?</p>
+						<p>¿Sin otra palabra, <rs key="#marg">Mari-Gaila</rs>?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Si otra te pide, dile que venga por ella.</p>
-					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> sonríe pensativa, mirando el río, cubierto de reflejos dorados. Por la orilla va una caravana de húngaros con osos y calderos. <rs key="#mari">Mari-Gaila</rs> canta.</stage>
-					<sp who="#cant">
-						<speaker>Cantar de <rs key="#mari">Mari-Gaila</rs></speaker>
+					<stage><rs key="#marg">Mari-Gaila</rs> sonríe pensativa, mirando el río, cubierto de reflejos dorados. Por la orilla va una caravana de húngaros con osos y calderos. <rs key="#marg">Mari-Gaila</rs> canta.</stage>
+						<stage>Cantar de <rs key="#marg">Mari-Gaila</rs></stage>
 						<p>: Si mensaje me mandas, 
 						no lo celebro. 
 						Suspiros en el aire 
@@ -4134,7 +4603,7 @@
 						<speaker>La Tatula</speaker>
 						<p>luceimo pide hablarte en lugar retirado.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Para darnos la despedida.</p>
 					</sp>
@@ -4142,7 +4611,7 @@
 						<speaker>La Tatula</speaker>
 						<p>La despedida, si otra cosa con él no conciertas. ¿Qué respondes?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Y qué puede responder la mujer enamorada?</p>
 					</sp>
@@ -4150,7 +4619,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¿Irás adonde él te cite?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Iré!</p>
 					</sp>
@@ -4158,7 +4627,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¿Lo confirmas?</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Confirmado.</p>
 					</sp>
@@ -4166,7 +4635,7 @@
 						<speaker>La Tatula</speaker>
 						<p>Pues dame una copa, y me camino con tu acuerdo.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Entremos a tomarla.</p>
 					</sp>
@@ -4174,8 +4643,8 @@
 						<speaker>La Tatula</speaker>
 						<p>Espera.</p>
 					</sp>
-					<stage>La vieja retenía del brazo a <rs key="#mari">Mari-Gaila</rs>. La guardia Civil cruzaba el camino con un hombre maniatado. Asombradas bajo la higuera, las dos mujeres reconocieron a <rs key="#pere">El peregrino</rs> de las barbas venerables y el cabezal de piedra.</stage>
-					<sp who="#mari">
+					<stage>La vieja retenía del brazo a <rs key="#marg">Mari-Gaila</rs>. La guardia Civil cruzaba el camino con un hombre maniatado. Asombradas bajo la higuera, las dos mujeres reconocieron a <rs key="#pere">El peregrino</rs> de las barbas venerables y el cabezal de piedra.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Siempre pegan en el más infeliz!</p>
 					</sp>
@@ -4183,7 +4652,7 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Qué engañada! ¡Ése es el Conde Polaco!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ése!… Por tal tuve a luceimo.</p>
 					</sp>
@@ -4191,7 +4660,7 @@
 						<speaker>La Tatula</speaker>
 						<p>El Condado de luceimo es sacar dinero con sus títeres.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Muy tunante!</p>
 					</sp>
@@ -4199,12 +4668,12 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Y muy divertido!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Por algo yo le aborrezco!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena tercera</head>
 					<stage>San Clemente. La iglesia románica, de piedras doradas. La quintana verde. Paz y aromas. El sol traza sus juveniles caminos de ensueño sobre la esmeralda del río. Séptimo miau<rs key="#luce">Lucero</rs> aparece sentado en el muro de la quintana. <rs key="#simo"> Simoniña</rs>, en la sombra del pórtico, arrodillada a la vera del carretón, pide para el entierro. La enorme cabeza del idiota <rs key="#idio">El idiota</rs> destaca sobre una almohada blanca, coronada de camelias la frente de cera. Y el cuerpo rígido dibuja su desmedrado perfil bajo el percal de la mortaja azul con esterillas doradas. Encima del vientre, inflamado como el de una preñada, un plato de peltre lleno de calderilla recoge las limosnas, y sobrenada en el montón de cobre negro una peseta luciente.</stage>
 					<sp who="#luce">
@@ -4586,7 +5055,7 @@
 					</sp>
 					<stage>La vieja <rs key="#tatu"> Rosa La Tatula</rs> se rasca bajo la greña gris, y mientras en un reír astuto descubre las encías desnudas de dientes, el farandul, apartándose el tafetán, tiende la vista sobre las verdes eras.</stage>
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena cuarta</head>
 					<stage>El río divino de romana historia es una esmeralda con mirajes de ensueño. Las vacas de cobre abrevan sobre la orilla, y en claros de sol blanquean los linos mozas como cerezas y dueñas caducas, del ocre melado de las imágenes en los retablos viejos. El campo, en la tarde llena de sopor, tiene un silencio palpitante y sonoro. <rs key="#migu">Miguelín El Padronés </rs>  asoma por cima de una barda, y sin hablar, con guiños de misterio, abre los brazos convocando gentes. Algunas voces interrogan lejanas.</stage>
 					<sp who="#moza">
@@ -4671,7 +5140,7 @@
 						<speaker>Grito Moceril</speaker>
 						<p>¡Jujurujú! Hay que hacer salir a  <rs key="#rapa"> La rapaza</rs>.</p>
 					</sp>
-					<stage>Viejos y zagales dejan la labor de las eras y acuden sobre los linderos. Los más atrevidos entran por los verdes canavales de la orilla del río, azuzando los perros. Algunas mozas tienen una sonrisa vergonzosa, furias en los ojos algunas viejas. <rs key="#mari">Mari-Gaila</rs>, dando voces, sale al camino, la falda entre los dientes de los perros.</stage>
+					<stage>Viejos y zagales dejan la labor de las eras y acuden sobre los linderos. Los más atrevidos entran por los verdes canavales de la orilla del río, azuzando los perros. Algunas mozas tienen una sonrisa vergonzosa, furias en los ojos algunas viejas. <rs key="#marg">Mari-Gaila</rs>, dando voces, sale al camino, la falda entre los dientes de los perros.</stage>
 					<sp who="#grit">
 						<speaker>Una Voz</speaker>
 						<p>¿Con quién fornicaba?</p>
@@ -4680,7 +5149,7 @@
 						<speaker>Otra Voz</speaker>
 						<p>¡Con el titiritero!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Ladrones de honra! ¡Hijos de la grandísima!…</p>
 					</sp>
@@ -4700,16 +5169,16 @@
 						<speaker>Coro De Voces</speaker>
 						<p>¡Que baile en camisa! ¡Que baile en camisa!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Así ceguéis! ¡Cabras! ¡Cabras! ¡Cabras!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs>, seguida de mozos y canes, corre por la ribera, sosteniendo en la cintura la falda desgarrada, que descubre por los jirones la albura de las piernas. <rs key="#milo">Milón de La Arnoya</rs>, un gigante rojo, que va delante de su carro, le corta el camino, y con ruda alegría brama su relincho. <rs key="#mari">Mari-Gaila</rs> se detiene, alzando una piedra.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs>, seguida de mozos y canes, corre por la ribera, sosteniendo en la cintura la falda desgarrada, que descubre por los jirones la albura de las piernas. <rs key="#milo">Milón de La Arnoya</rs>, un gigante rojo, que va delante de su carro, le corta el camino, y con ruda alegría brama su relincho. <rs key="#marg">Mari-Gaila</rs> se detiene, alzando una piedra.</stage>
 					<sp who="#milo">
 						<speaker>Milón de La Arnoya</speaker>
 						<p>¡Jujurujú!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Al que se me llegue, lo descalabro!</p>
 					</sp>
@@ -4717,7 +5186,7 @@
 						<speaker>Milón de La Arnoya</speaker>
 						<p>¡Suelta la piedra!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡La levanto para mi defensa!</p>
 					</sp>
@@ -4725,11 +5194,11 @@
 						<speaker>Milón de La Arnoya</speaker>
 						<p>¡Suéltala!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡No te llegues, Milón!</p>
 					</sp>
-					<stage>El jayán, con bárbaras risas, adelanta de un salto, y la piedra le bate en el pecho. <rs key="#mari">Mari-Gaila</rs>, con los ojos encendidos, rastrea por otra, y el rojo gigante la estrecha en los brazos.</stage>
+					<stage>El jayán, con bárbaras risas, adelanta de un salto, y la piedra le bate en el pecho. <rs key="#marg">Mari-Gaila</rs>, con los ojos encendidos, rastrea por otra, y el rojo gigante la estrecha en los brazos.</stage>
 					<sp who="#milo">
 						<speaker>Milón de La Arnoya</speaker>
 						<p>¡Jujurujú! ¡Ya es mía!</p>
@@ -4738,7 +5207,7 @@
 						<speaker>Una Voz</speaker>
 						<p>¡Milón la tomó!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Suelta, Milón! Si calladamente me lo pides, te lo concedo. ¡Suelta!</p>
 					</sp>
@@ -4746,7 +5215,7 @@
 						<speaker>Milón de La Arnoya</speaker>
 						<p>No suelto.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Eres bárbaro, y no temes que en otra ocasión sea tu mujer la puesta en vergüenza!</p>
 					</sp>
@@ -4754,7 +5223,7 @@
 						<speaker>Milón de La Arnoya</speaker>
 						<p>Mi mujer no es tentada de tu idea.</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Mal sabes tú a quién tienes en casa!</p>
 					</sp>
@@ -4762,7 +5231,7 @@
 						<speaker>Milón de La Arnoya</speaker>
 						<p>¡Calla, malvada!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>Suéltame, y otra hora, donde me señales, te daré un aviso de provecho. ¡Suéltame!</p>
 					</sp>
@@ -4770,7 +5239,7 @@
 						<speaker>Milón de La Arnoya</speaker>
 						<p>¡Vete y confúndete, que ya me dejas la condenación!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> huye de los brazos del gigante, desnudo el pecho y en cabellos. El CORO DE VOCES se desgrana como una cohetada en clamores diversos y gritos encendidos.</stage>
+					<stage><rs key="#marg">Mari-Gaila</rs> huye de los brazos del gigante, desnudo el pecho y en cabellos. El CORO DE VOCES se desgrana como una cohetada en clamores diversos y gritos encendidos.</stage>
 					<sp who="#grit">
 						<speaker>grit</speaker>
 						<p>¡Que se escapa!</p>
@@ -4788,8 +5257,8 @@
 						<p>¡Que te malquiebro!</p>
 					</sp>
 					<stage>Azuza su galgo y corre por la ribera del río volteando la honda sobre la fugitiva. Rueda por los congostos un tropel de zuecos.</stage>
-					<stage><rs key="#mari">Mari-Gaila</rs> se revuelve acorralada.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs> se revuelve acorralada.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Almas negras! ¡Salidos de los Infiernos!</p>
 					</sp>
@@ -4797,7 +5266,7 @@
 						<speaker>Quintín Pintado</speaker>
 						<p>¡Vas a bailar en camisa! ¡Vas a lucir el cuerpo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡No te me acerques tú, Caifás!</p>
 					</sp>
@@ -4809,7 +5278,7 @@
 						<speaker>Coro de relinchos</speaker>
 						<p>¡Jujurujú!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Sarracenos! ¡Negros del Infierno! ¡Si por vuestra culpa malparo, a la cárcel os llevo!</p>
 					</sp>
@@ -4825,7 +5294,7 @@
 						<speaker>Quintín Pintado</speaker>
 						<p>¡Vas a lucir el cuerpo!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¿Me corréis por eso, hijos de la más grande? ¡Bailaré en camisa y bailaré en cueros!</p>
 					</sp>
@@ -4833,7 +5302,7 @@
 						<speaker>Coro de relinchos</speaker>
 						<p>¡Jujurujú!</p>
 					</sp>
-					<sp who="#mari">
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Pero que ninguno sea osado a maltratarme! ¡Mira y hasta cegar, sin poner mano!</p>
 					</sp>
@@ -4841,8 +5310,8 @@
 						<speaker>Coro De Relinchos</speaker>
 						<p>¡Jujurujú!</p>
 					</sp>
-					<stage><rs key="#mari">Mari-Gaila</rs> se arranca el justillo, y con la carne temblorosa, sale de entre las sueltas enaguas. De un hombro le corre un hilo de sangre. Rítmica y antigua, adusta y resuelta, levanta su blanca desnudez ante el río cubierto de oros.</stage>
-					<sp who="#mari">
+					<stage><rs key="#marg">Mari-Gaila</rs> se arranca el justillo, y con la carne temblorosa, sale de entre las sueltas enaguas. De un hombro le corre un hilo de sangre. Rítmica y antigua, adusta y resuelta, levanta su blanca desnudez ante el río cubierto de oros.</stage>
+					<sp who="#marg">
 						<speaker>Mari-Gaila</speaker>
 						<p>¡Conformarse con esto!</p>
 					</sp>
@@ -4868,14 +5337,14 @@
 					</sp>
 					<stage>Rodante y fragante montaña de heno; el carro, con sus bueyes dorados, y al frente el rojo gigante que los conduce, era sobre la fronda del río como el carro de un triunfo de faunalias.</stage>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena última</head>
 					<stage>San Clemente. La quintana, en silencio húmedo y verde, y la iglesia de románicas piedras doradas por el sol, entre el rezo tardecino de los maizales. La sotana del sacristán<rs key="#pedr">Pedro Gailo</rs> ondula bajo el pórtico, y a canto del carretón un coro de mantillas rumorea. Atropellando al sacristán<rs key="#pedr">Pedro Gailo</rs>, dos mozuelos irreverentes penetran en la iglesia y suben al campanario. Estalla un loco repique. <rs key="#pedr">Pedro Gailo</rs> da una espantada y queda con los brazos abiertos, pisándose la sotana.</stage>
 					<sp who="#pedr">
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Qué falta de divino respeto!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡De falta supera!</p>
 					</sp>
@@ -4891,7 +5360,7 @@
 						<speaker>Pedro Gailo</speaker>
 						<p>¡Alabado sea Dios, qué insubordinación!</p>
 					</sp>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Carne sin abstinencia!</p>
 					</sp>
@@ -4900,7 +5369,7 @@
 						<p>¡<rs key="#pedr">Pedro Gailo</rs>, la mujer te traen desnuda sobre un carro, puesta a la vergüenza!</p>
 					</sp>
 					<stage><rs key="#pedr">Pedro Gailo</rs> cae de rodillas, y con la frente golpea las sepulturas del pórtico. Sobre su cabeza, las campanas bailan locas, llegan al atrio los ritmos de la agreste faunalia, y la frente del sacristán <rs key="#pedr">Pedro Gailo</rs>en las losas levanta un eco de tumba.</stage>
-					<sp who="#mar">
+					<sp who="#marc">
 						<speaker>Marica del Reino</speaker>
 						<p>¡Vas a dejar ahí las astas!</p>
 					</sp>
@@ -4932,16 +5401,16 @@
 						<speaker>La Tatula</speaker>
 						<p>¡Así es! Casos de conducta no llaman trompetas.</p>
 					</sp>
-					<stage><rs key="#pedr">Pedro Gailo</rs> corre pisándose la sotana y se desvanece por la puerta de la iglesia. Sube al campanario, batiendo en la angosta escalera como un vencejo, y sale a mirar por los arcos de las campanas. El carro de la faunalia rueda por el camino, en torno salta la encendida guirnalda de mozos, y en lo alto, toda blanca y desnuda, quiere cubrirse con la yerba <rs key="#mari">Mari-Gaila</rs>. El sacristán<rs key="#pedr">Pedro Gailo</rs>, negro y largo, sale al tejado, quebrando las tejas.</stage>
+					<stage><rs key="#pedr">Pedro Gailo</rs> corre pisándose la sotana y se desvanece por la puerta de la iglesia. Sube al campanario, batiendo en la angosta escalera como un vencejo, y sale a mirar por los arcos de las campanas. El carro de la faunalia rueda por el camino, en torno salta la encendida guirnalda de mozos, y en lo alto, toda blanca y desnuda, quiere cubrirse con la yerba <rs key="#marg">Mari-Gaila</rs>. El sacristán<rs key="#pedr">Pedro Gailo</rs>, negro y largo, sale al tejado, quebrando las tejas.</stage>
 					<sp who="#grit">
 						<speaker>Una Voz</speaker>
 						<p>¡Castrado!</p>
 					</sp>
 					<sp who="#grit">
 						<speaker>Coro De Foliada</speaker>
-						<p>: ¡Tunturuntún! La <rs key="#mari">Mari-Gaila</rs>. 
+						<p>: ¡Tunturuntún! La <rs key="#marg">Mari-Gaila</rs>. 
 						¡Tunturuntún! Que tanto bailó. 
-						¡Tunturuntún! La <rs key="#mari">Mari-Gaila</rs>, 
+						¡Tunturuntún! La <rs key="#marg">Mari-Gaila</rs>, 
 						que la camisa se quitó.</p>
 					</sp>
 					<sp who="#pedr">
@@ -4980,8 +5449,8 @@
 						<p> ¡Mengua de hombres!</p>
 					</sp>
 					<stage>El sacristán <rs key="#pedr">Pedro Gailo</rs>se vuelve con saludo de iglesia, y bizcando los ojos sobre el misal abierto, reza en latín la blanca sentencia.</stage>
-						<p>Rezo latino del sacristán<rs key="#pedr">Pedro Gailo</rs></p>
-						<p> Qui sine peccato est vestrum, primus in illan lapidem mittat.</p>
+					<p>Rezo latino del sacristán<rs key="#pedr">Pedro Gailo</rs></p>
+					<p> Qui sine peccato est vestrum, primus in illan lapidem mittat.</p>
 					<stage>El sacristán<rs key="#pedr">Pedro Gailo</rs> entrega a la desnuda la vela apagada y de la mano la conduce a través del atrio, sobre las losas sepulcrales… ¡Milagro del latín! Una emoción religiosa y litúrgica conmueve las conciencias y cambia el sangriento resplandor de los rostros. Las viejas almas infantiles respiran un aroma de vida eterna. No falta quien se esquive con sobresalto y quien aconseje cordura. Las palabras latinas, con su temblor enigmático y litúrgico, vuelan del cielo de los milagros.</stage>
 					<sp who="#sere">
 						<speaker>Serenín de Bretal</speaker>
@@ -5007,15 +5476,14 @@
 						<speaker>Serenín de Bretal</speaker>
 						<p>¡Sellar la boca para los civiles, y aguantar mancuerda!</p>
 					</sp>
-					<stage>Los oros del poniente flotan sobre la quintana. <rs key="#mari">Mari-Galia</rs>, armoniosa y desnuda, pisando descalza sobre las piedras sepulcrales, percibe el ritmo de la vida bajo un velo de lágrimas. Al penetrar en la sombra del pórtico, la enorme cabeza del <rs key="#idio">El idiota</rs>, coronada de camelias, se le aparece como una cabeza de ángel. Conducida de la mano del marido, la mujer adúltera se acoge al asilo de la iglesia, circundada del áureo y religioso prestigio, que en aquel mundo milagrero, de almas rudas, intuye el latín ignoto de las</stage>
+					<stage>Los oros del poniente flotan sobre la quintana. <rs key="#marg">Mari-Galia</rs>, armoniosa y desnuda, pisando descalza sobre las piedras sepulcrales, percibe el ritmo de la vida bajo un velo de lágrimas. Al penetrar en la sombra del pórtico, la enorme cabeza del <rs key="#idio">El idiota</rs>, coronada de camelias, se le aparece como una cabeza de ángel. Conducida de la mano del marido, la mujer adúltera se acoge al asilo de la iglesia, circundada del áureo y religioso prestigio, que en aquel mundo milagrero, de almas rudas, intuye el latín ignoto de las</stage>
 				</div>
 			</div>
 		</body>
 		<back>
-		<div>
-			<p>DIVINAS PALABRAS.</p>
-		</div>
+			<div>
+				<p>DIVINAS PALABRAS.</p>
+			</div>
 		</back>
 	</text>
 </TEI>
-

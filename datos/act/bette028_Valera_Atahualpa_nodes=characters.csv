@@ -1,0 +1,13 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#juan	#juan	Juanilla	F	other	person	minor	1	7	0	0	7	0.0	0
+#laur	#laur	Laura	F	protagonist	person	primary	2	17	18	10	17	18.0	10
+#cuel	#cuel	Francisco de Cuéllar	M	lover	person	primary	3	12	0	35	12	0.0	35
+#rive	#rive	Bartolomé Rivera	M	antagonist	person	primary	4	42	15	10	42	15.0	10
+#padr	#padr	El Padre Antonio	M	other	person	secondary	5	42	19	5	42	19.0	5
+#cipr	#cipr	Cipriano	M	other	person	minor	6	9	0	0	9	0.0	0
+#bria	#bria	Doña Brianda	F	other	person	secondary	7	29	0	9	29	0.0	9
+#iren	#iren	Doña Irene	F	other	person	secondary	8	0	52	0	0	52.0	0
+#escu	#escu	Escudero	M	other	person	minor	9	0	1	0	0	1.0	0
+#fern	#fern	Don Fernando	M	antagonist	person	primary	10	0	14	15	0	14.0	15
+#pere	#pere	Pérez	M	other	person	minor	11	0	0	5	0	0.0	5
+#garc	#garc	Garcés	M	other	person	minor	12	0	0	5	0	0.0	5

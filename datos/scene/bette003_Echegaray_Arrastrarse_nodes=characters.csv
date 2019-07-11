@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	scene_18	scene_19	scene_20	scene_21	scene_22	scene_23	scene_24	scene_25	scene_26	scene_27	scene_28	scene_29	scene_30	scene_31	scene_32	scene_33	scene_34	scene_35	scene_36	scene_37	scene_38	scene_39	scene_40	scene_41	scene_42	scene_43	scene_44	scene_45	scene_46	scene_47	scene_48	scene_49	scene_50	scene_51	first scene	middle scene	last scene
+#blan	#blan	Blanca	F	antagonist	person	primary	1	0	0	0	17	30	0	10	0	0	0	0	0	9	5	14	3	3	0	0	0	19	0	13	12	0	0	0	0	0	3	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	23	0	9	0	0	3.5714285714285716	0
+#jose	#jose	Josefina	F	lover	person	primary	2	0	0	0	0	0	23	5	0	0	0	0	23	6	14	0	0	4	0	0	0	0	0	0	14	32	5	0	0	0	12	4	2	0	0	0	0	0	0	2	19	3	2	0	11	0	0	0	0	0	3	3	0	3.7551020408163267	3
+#plac	#plac	Plácido	M	protagonist	person	primary	3	1	15	33	17	13	0	0	0	22	26	9	23	4	8	14	19	9	0	0	12	22	6	14	6	32	6	29	3	0	0	0	6	0	0	20	1	10	22	3	0	0	3	43	12	23	4	1	22	5	7	5	1	10.693877551020408	5
+#marq	#marq	de Retamosa del Valle	M	other	person	secondary	4	0	0	0	0	0	22	10	25	24	0	0	0	0	0	0	0	11	11	15	13	0	0	0	0	0	0	0	2	6	13	4	4	0	0	0	0	0	0	0	0	4	0	0	0	22	0	3	0	0	0	3	0	3.857142857142857	3
+#clau	#clau	Claudio	M	other	person	secondary	5	0	0	30	0	11	0	0	0	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	28	0	0	0	0	4	0	0	0	0	0	22	1	19	7	0	0	0	0	0	0	0	0	0	0	0	2.857142857142857	0
+#romu	#romu	Don Romualdo	M	other	person	secondary	6	0	0	0	0	0	0	0	23	4	27	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.163265306122449	0
+#anse	#anse	Don Anselmo	M	other	person	secondary	7	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.3877551020408163	0
+#javi	#javi	Javier	M	antagonist	person	primary	8	0	0	32	0	19	0	0	0	0	0	0	0	0	0	0	2	4	0	0	0	6	3	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	1	0	0	0	0	0	1.5510204081632653	0
+#basi	#basi	Basilio	M	other	person	secondary	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	43	0	0	0	0	0	5	1	0	0	1.0204081632653061	0
+#toma	#toma	Tomás	M	other	person	secondary	10	0	0	0	0	0	0	3	0	0	0	9	0	0	0	0	0	0	0	0	0	0	8	0	0	0	6	0	0	0	0	4	0	3	15	20	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.5918367346938775	0
+#pad1	#pad1	Padrino 1º 	M	other	person	minor	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.12244897959183673	0
+#pad2	#pad2	Padrino 2º	M	other	person	minor	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.10204081632653061	0
+#lesm	#lesm	Tío Lesmes	M	other	person	minor	13	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.6326530612244898	0
+#deme	#deme	Demetrio	M	other	person	minor	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.22448979591836735	0
+#cri1	#cri1	Criado 1º 	M	other	person	minor	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#cri2	#cri2	Criado 2º	M	other	person	minor	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0

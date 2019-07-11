@@ -1,0 +1,13 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	scene_18	scene_19	scene_20	scene_21	scene_22	scene_23	scene_24	scene_25	scene_26	scene_27	scene_28	scene_29	scene_30	first scene	middle scene	last scene
+#ange	#ange	Ángel	M	protagonist	person	primary	1	12	0	8	7	3	21	9	25	1	11	1	22	3	3	21	5	0	0	13	6	8	48	7	13	0	4	20	14	16	23	12	10.321428571428571	23
+#eufe	#eufe	Eufemia	F	lover	person	primary	2	3	9	2	6	3	2	6	26	0	0	0	0	0	6	21	3	16	1	13	0	8	0	0	0	0	0	0	0	0	16	3	4.357142857142857	16
+#joaq	#joaq	Joaquín	M	other	person	secondary	3	6	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	24	0	0	0	0	0	16	11	6	6	2.607142857142857	6
+#euse	#euse	Eusebio	M	antagonist	person	secondary	5	5	9	7	0	0	0	0	0	0	0	0	0	0	0	0	6	17	0	0	0	0	0	0	0	0	0	0	0	0	3	5	1.3928571428571428	3
+#ramo	#ramo	La Tía Ramona	F	other	person	minor	6	0	0	0	0	0	0	11	0	0	0	0	0	0	9	0	0	0	0	0	0	1	0	5	0	0	0	0	0	0	1	0	0.9285714285714286	1
+#pepe	#pepe	José	M	other	person	minor	7	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	6	0.35714285714285715	0
+#teod	#teod	Teodoro	M	other	person	minor	8	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	7	0.7857142857142857	0
+#nico	#nico	Nicolás	M	other	person	minor	9	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	11	4	4	0.9285714285714286	4
+#mart	#mart	Martina	F	other	person	minor	10	0	0	0	0	2	0	0	0	0	10	0	0	2	0	1	0	0	0	0	6	0	0	0	2	0	0	0	0	0	0	0	0.8214285714285714	0
+#hima	#hima	El Hijo mayor de Felipe	M	other	person	minor	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	1	0	0	0	0	0	0.25	0
+#hime	#hime	El Hijo menor de Felipe	M	other	person	minor	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	0	0	0.25	0
+#feli	#feli	Felipe	M	other	person	secondary	4	0	0	0	0	1	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	2	20	4	12	3	0	2.5357142857142856	3

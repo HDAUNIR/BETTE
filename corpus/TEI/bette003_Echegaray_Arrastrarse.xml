@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,25 +10,33 @@
 				<title type="idno">
 					<idno type="viaf"></idno>
 					<idno type="bne">bimo0000803288</idno>
+					<idno type="wikidata">Q19410894</idno>
 				</title>
 				<author>
 					<name type="full">José Echegaray</name>
 					<name type="short">Echegaray</name>
 					<idno type="viaf">79077383</idno>
 					<idno type="bne">XX910695</idno>
+					<idno type="wikidata">Q127349</idno>
 				</author>
 				<principal xml:id="coj">Concepción Jiménez</principal>
 				<principal xml:id="emc">Elena Martínez</principal>
 				<principal xml:id="tsm">María Teresa Santa María</principal>
 				<principal xml:id="msi">María Simón</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2015</date>
-				<idno>003</idno>
+				<idno>
+					<idno type="number">003</idno>
+					<idno type="text">1.0</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -40,8 +48,8 @@
 					<date>1999</date>
 					<publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
 					<pubPlace>Alicante</pubPlace>
-					<ref target="http://www.cervantesvirtual.com/nd/ark:/59851/bmck0702" />
-					<ref target="http://www.cervantesvirtual.com/obra/a-fuerza-de-arrastrarse--0/" />
+					<ref target="http://www.cervantesvirtual.com/nd/ark:/59851/bmck0702"></ref>
+					<ref target="http://www.cervantesvirtual.com/obra/a-fuerza-de-arrastrarse--0/"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1901</date>
@@ -55,14 +63,201 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="farsa-cómica"></purpose>
+			</textDesc>
 			<abstract>
 				<p>Comedia que lleva por título y se inspira en un fragmento de una fábula de Juan Eugenio Hartzembuch, "El águila y el caracol". En el prólogo Plácido, Claudio y Javier quieren ir a Madrid a triunfar. Plácido ya insinúa que será a costa de renunciar a toda nobleza (va a vender el retrato de su madre para financiar el viaje), al amor que siente por Blanca, hermana de Javier y a todo principio moral. En el primer acto, todos menos Claudio están instalados en casa del marqués de Retamosa del Valle y de su caprichosa y casquivana hija Josefina. Se observa el comportamiento rastrero, hipócrita y dispuesto a medrar de Plácido mientras Blanca y Javier se distancia de él. En el Acto II los falsos halagos y la treta urdida por Plácido en el acto anterior cobran su fruto. Va a fingir batirse en duelo con Claudio para defender el honor del Marqués y ya ha conseguido el favor de don Anselmo, don Romualdo y de Josefina, con quien se promete en matrimonio. El Acto III se sitúa seis años más tarde y Plácido aspira a un alto cargo político mientras intenta recuperar el cuadro que había vendido. Se ve la malquerencia de Tomás hacia él, las infidelidades de Josefina y la degeneración de Claudio. Aparece Basilio para chantajear al protagonista, pues sabe lo sucedido con el falso duelo y la conducta licenciosa de Josefina. Plácido paga el precio que le pide Basilio por los papeles que le comprometen, mientras que Javier y Blanca le han ido a visitar y se van escandalizados por su decadencia. Le dicen a Plácido que ellos tienen el cuadro de su madre y acaba la obra con el reconocimiento por parte de Plácido de que dicho retrato es más digno de ocupar la casa de los dos hermanos que la abyecta familia que conforma él con el Marqués y Josefina.</p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+					<person n="1" role="antagonist" sex="F" xml:id="blan">
+						<persName>Blanca</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+					<listEvent>
+							<event type="characters"><desc>13333</desc></event>
+							<event type="sps"><desc>175</desc></event>
+							<event type="rss"><desc>124</desc></event>
+							<event type="scenes"><desc>17</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="lover" sex="F" xml:id="jose">
+						<persName>Josefina</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>14814</desc></event>
+							<event type="sps"><desc>187</desc></event>
+							<event type="rss"><desc>113</desc></event>
+							<event type="scenes"><desc>19</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="protagonist" sex="M" xml:id="plac">
+						<persName>Plácido</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>42979</desc></event>
+							<event type="sps"><desc>530</desc></event>
+							<event type="rss"><desc>177</desc></event>
+							<event type="scenes"><desc>39</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="other" sex="M" xml:id="marq">
+						<persName><rs key="#marq">Marqués</rs>de Retamosa del Valle</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>17096</desc></event>
+							<event type="sps"><desc>192</desc></event>
+							<event type="rss"><desc>113</desc></event>
+							<event type="scenes"><desc>17</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="other" sex="M" xml:id="clau">
+						<persName>Claudio</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>9475</desc></event>
+							<event type="sps"><desc>140</desc></event>
+							<event type="rss"><desc>51</desc></event>
+							<event type="scenes"><desc>9</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="romu">
+						<persName>Don Romualdo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>4546</desc></event>
+							<event type="sps"><desc>72</desc></event>
+							<event type="rss"><desc>27</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="anse">
+						<persName>Don Anselmo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2735</desc></event>
+							<event type="sps"><desc>35</desc></event>
+							<event type="rss"><desc>15</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="antagonist" sex="M" xml:id="javi">
+						<persName>Javier</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>4302</desc></event>
+							<event type="sps"><desc>76</desc></event>
+							<event type="rss"><desc>56</desc></event>
+							<event type="scenes"><desc>9</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="M" xml:id="basi">
+						<persName>Basilio</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5756</desc></event>
+							<event type="sps"><desc>50</desc></event>
+							<event type="rss"><desc>21</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="M" xml:id="toma">
+						<persName>Tomás</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5045</desc></event>
+							<event type="sps"><desc>78</desc></event>
+							<event type="rss"><desc>34</desc></event>
+							<event type="scenes"><desc>9</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="M" xml:id="pad1">
+						<persName>Padrino 1º </persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>347</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="M" xml:id="pad2">
+						<persName>Padrino 2º</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>502</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="13" role="other" sex="M" xml:id="lesm">
+						<persName>Tío Lesmes</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3787</desc></event>
+							<event type="sps"><desc>31</desc></event>
+							<event type="rss"><desc>8</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="M" xml:id="deme">
+						<persName>Demetrio</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>816</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="M" xml:id="cri1">
+						<persName>Criado 1º </persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>568</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>20</desc></event>
+							<event type="scenes"><desc>8</desc></event>
+						</listEvent>
+					</person>
+					<person n="16" role="other" sex="M" xml:id="cri2">
+						<persName>Criado 2º</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>				</listPerson></particDesc>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2016-01-25" who="#coj" status="draft">Versión inicial de TEI.</change>
-			<change when="2016-03-16" who="#tsm" status="compared">Modernización gramatical según criterios y subsanación de erratas.</change>
-			<change when="2016-03-16" who="#jct" status="approved">Aprobado.</change>
+			<change status="draft" when="2016-01-25" who="#coj">Versión inicial de TEI.</change>
+			<change status="compared" when="2016-03-16" who="#tsm">Modernización gramatical según criterios y subsanación de erratas.</change>
+			<change status="approved" when="2016-03-16" who="#jct">Aprobado.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#emc">Revisión de metadatos a partir del resumen</change>
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -75,82 +270,82 @@
 				<castList>
 					<head>Personajes</head>
 					<castItem>
-						<role xml:id="blan">Blanca</role>
+						<role corresp="#blan">Blanca</role>
 						<roleDesc> </roleDesc>
 						<actor>Sra. Guerrero.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="jose">Josefina</role>
+						<role corresp="#jose">Josefina</role>
 						<roleDesc>Hija del Marqués</roleDesc>
 						<actor>Srta. Suárez.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="plac">Plácido</role>
+						<role corresp="#plac">Plácido</role>
 						<actor>Sr. Díaz de Mendoza (F).</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="marq"><rs key="#marq">Marqués</rs>de Retamosa del Valle</role>
+						<role corresp="#marq"><rs key="#marq">Marqués</rs>de Retamosa del Valle</role>
 						<roleDesc>Don Cipriano. De unos cuarenta y cinco o cincuenta años.</roleDesc>
 						<actor>Palanca.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="clau">Claudio</role>
+						<role corresp="#clau">Claudio</role>
 						<actor>Santiago.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="romu">Don Romualdo</role>
+						<role corresp="#romu">Don Romualdo</role>
 						<actor>Cirera.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="anse">Don Anselmo</role>
+						<role corresp="#anse">Don Anselmo</role>
 						<actor>Carsí.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="javi">Javier</role>
+						<role corresp="#javi">Javier</role>
 						<actor>Guerrero.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="basi">Basilio</role>
+						<role corresp="#basi">Basilio</role>
 						<actor>Díaz de Mendoza (M).</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="toma">Tomás</role>
+						<role corresp="#toma">Tomás</role>
 						<roleDesc>Criado de confianza del Marqués, de poco más de cuarenta años.</roleDesc>
 						<actor>Mesejo</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pad1">Padrino 1º </role>
+						<role corresp="#pad1">Padrino 1º </role>
 						<actor>Medrano.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pad2">Padrino 2º</role>
+						<role corresp="#pad2">Padrino 2º</role>
 						<actor>Soriano Viosca.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="lesm">Tío Lesmes</role>
+						<role corresp="#lesm">Tío Lesmes</role>
 						<actor>Urquijo.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="deme">Demetrio</role>
+						<role corresp="#deme">Demetrio</role>
 						<roleDesc>Mayordomo de la casa ya viejo.</roleDesc>
 						<actor>Juste.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cri1">Criado 1º </role>
+						<role corresp="#cri1">Criado 1º </role>
 						<actor>Gil.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cri2">Criado 2º</role>
+						<role corresp="#cri2">Criado 2º</role>
 						<actor>Ariño.</actor>
 					</castItem>
 				</castList>
 			</div>
 		</front>
 		<body>
-			<div type="act" n="0">
-			<head>PRÓLOGO</head>
+			<div n="0" type="act">
+				<head>PRÓLOGO</head>
 				<stage><p>La escena representa la sala baja de una casa muy pobre en una aldea. Puerta en el centro que da al campo. A un lado, una verja con algún tiesto de flores. Se ven el cielo y árboles. Un sofá, un sillón, algunas sillas, etc., todo pobrísimo, viejo y desvencijado. Una mesa de pino, sobre ella, una palmatoria con un cabo de vela sin encender. Es la caída de la tarde.</p></stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage><rs key="#plac">Plácido</rs>, en la puerta, mirando hacia fuera.</stage>
 					<sp who="#plac">
@@ -161,7 +356,7 @@
 							<stage> (Dejándose caer en el sofá.) </stage> Estoy cansado. Cansado porque no lucho; pero yo lucharé. Yo he de subir: no sé cómo; como pueda... ¡arriba, como pueda! Bien a bien o mal a mal. Hola, ¿quién es?</p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage><rs key="#plac">Plácido</rs>, el <rs key="#lesm">tío Lesmes</rs>.</stage>
 					<sp who="#lesm">
@@ -289,7 +484,7 @@
 						<p> Aquí tenemos calma y esperamos a que Dios quiera. Pero siempre quiere. Esperamos la lluvia y al fin llueve, si por nuestros pecados no hay sequía. Y esperamos la espiga y al fin sale más dorada que el sol. Y a luego esperamos la siega. Qué remedio, la vida se ha hecho para esperar... que todo llega. Como llegarán mis nietos, y ya verá usted qué guapos. Conque, con Dios, don <rs key="#plac">Plácido</rs>; queda usted convidado para la boda y para el bautizo. <stage> (Se va y vuelve.) </stage> Cásese, don <rs key="#plac">Plácido</rs>, cásese... y que no haya sequía... Quede con Dios... y mantenerse firme, que está usted un poco esmirriado... ¡Ea, hasta la vuelta... con Dios... con Dios!</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage><rs key="#plac">Plácido</rs>, después, <rs key="#clau">Claudio</rs> y <rs key="#javi">Javier</rs>, hermano de <rs key="#blan">Blanca</rs>.</stage>
 					<sp who="#plac">
@@ -677,7 +872,7 @@
 						<p>Bien mirado, nosotros tampoco tenemos mucha. <stage> (Salen riendo.) </stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage><rs key="#plac">Plácido</rs>. Después, <rs key="#blan">Blanca</rs>.</stage>
 					<sp who="#plac">
@@ -817,7 +1012,7 @@
 						<p> Ahora lo veremos.</p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>
 					<stage><rs key="#plac">Plácido</rs>, <rs key="#blan">Blanca</rs>, <rs key="#clau">Claudio</rs> y <rs key="#javi">Javier</rs>.</stage>
 					<sp who="#clau">
@@ -1117,10 +1312,10 @@
 					<stage> FIN DEL PRÓLOGO </stage>
 				</div>
 			</div>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>ACTO PRIMERO</head>
 				<stage>Salón muy lujoso. Puertas laterales y puertas al fondo. Es de día.</stage> 
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage>Don Cipriano (<rs key="#marq">marqués</rs> de Retamosa del Valle) y <rs key="#jose">Josefina</rs> (su hija).  <rs key="#jose">Josefina</rs> es como se ha descrito en el prólogo; el <rs key="#marq">Marqués</rs> tiene aires de gran personaje; vanidoso y vacío; su edad, unos cuarenta y cinco o cincuenta años. El <rs key="#marq">Marqués</rs> aparece sentado; está preocupado e inquieto. Su hija, en pie, muy nerviosa y como un gato.</stage> 
 					<sp who="#jose"> 
@@ -1281,7 +1476,7 @@
 					</sp> 
 					<sp who="#marq"> 
 						<speaker>Marqués</speaker>
-						<p> Ahora, verás. <stage> (Toca un timbre y aparece un <rs key="#cria">Criado</rs>.) </stage> Que venga al momento la señorita <rs key="#blan">Blanca</rs>. <stage> (Sale el <rs key="#cria">Criado</rs>.) </stage>
+						<p> Ahora, verás. <stage> (Toca un timbre y aparece un <rs key="#cri1">Criado</rs>.) </stage> Que venga al momento la señorita <rs key="#blan">Blanca</rs>. <stage> (Sale el <rs key="#cri1">Criado</rs>.) </stage>
 						</p> 
 					</sp>
 					<sp who="#jose"> 
@@ -1306,7 +1501,7 @@
 						</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage><rs key="#marq">Marqués</rs>, <rs key="#jose">Josefina</rs> y <rs key="#blan">Blanca</rs>, por la derecha, <rs key="#toma">Tomás</rs>, por el fondo.</stage> 
 					<sp who="#blan"> 
@@ -1425,21 +1620,21 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage><rs key="#marq">Marqués</rs>. Después, don <rs key="#romu">Romualdo</rs>.</stage> 
 					<sp who="#marq"> 
 						<speaker>Marqués</speaker>
 						<p> Gracias a Dios que me dejan solo. Buen día me han dado entre todos. En seguida me quedo yo en esta casa solo con <rs key="#jose">Josefina</rs>. ¡Como su madre... que en paz descanse!</p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> Don <rs key="#romu">Romualdo</rs> Pedrosa.</p> 
 					</sp> 
 					<sp who="#marq"> 
 						<speaker>Marqués</speaker>
 						<p> Que pase, que pase. 
-							<stage> (El <rs key="#cria">Criado</rs> sale.) </stage> Ese, me alegro que venga; es buen amigo y de buen consejo. <stage> (Entra don <rs key="#romu">Romualdo</rs>.) </stage> Querido <rs key="#romu">Romualdo</rs>... ¡Cuánto tiempo por esos mundos de Dios!</p> 
+							<stage> (El <rs key="#cri1">Criado</rs> sale.) </stage> Ese, me alegro que venga; es buen amigo y de buen consejo. <stage> (Entra don <rs key="#romu">Romualdo</rs>.) </stage> Querido <rs key="#romu">Romualdo</rs>... ¡Cuánto tiempo por esos mundos de Dios!</p> 
 					</sp> 
 					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker>
@@ -1628,7 +1823,7 @@
 						<p> Nada..., he tropezado...; el <hi rend="italics">coraje</hi> que me domina y estoy un poco nervioso. A veces no puedo contenerme.<stage> (Fingiendo fiereza.) </stage></p> 
 					</sp>
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage><rs key="#marq">Marqués</rs>, don <rs key="#romu">Romualdo</rs> y <rs key="#plac">Plácido</rs> (trae un libro en la mano con un dedo entre las hojas como para no perder el sitio en que leía.)</stage> 
 					<sp who="#plac"> 
@@ -1835,7 +2030,7 @@
 						<p> Vamos a ver qué pretenden esos señores. (En buena, en buena me han metido. ¡Ay Dios mío, cuándo acabará esto!)<stage> (Sale.) </stage> </p> 
 					</sp>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>
 					<stage><rs key="#plac">Plácido</rs>, don <rs key="#romu">Romualdo</rs>.</stage> 
 					<sp who="#romu"> 
@@ -2040,7 +2235,7 @@
 						<speaker>Plácido</speaker> 
 						<p> Eso... si usted se empeña... ya es otra cosa.</p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> Señor don <rs key="#romu">Romualdo</rs>, el señor <rs key="#marq">marqués</rs>le ruega que pase a su despacho.</p> 
 					</sp> 
@@ -2057,13 +2252,13 @@
 						<p> No hacen falta. <stage> (Sale mirando a <rs key="#plac">Plácido</rs>. </stage> (¡Tiene mucho talento! ¡Vaya un artículo que escribirá sobre mi libro!)</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
-					<stage><rs key="#plac">Plácido</rs>; después, un <rs key="#cria">Criado</rs>; después,<rs key="#toma">Tomás</rs>.</stage> 
+					<stage><rs key="#plac">Plácido</rs>; después, un <rs key="#cri1">Criado</rs>; después,<rs key="#toma">Tomás</rs>.</stage> 
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
 						<p> Estoy rendido. La tarea hoy es muy fuerte. <stage> (Dando un golpe con el libro sobre la mesa.) </stage> ¡Ah, libro estúpido, no te puedes quejar de mí! <stage> (Toca el timbre y sale un 
-								<rs key="#cria">Criado</rs>.) </stage> Diga usted a <rs key="#toma">Tomás</rs> que haga el favor de venir un momento. Se lo ruego. <stage> (Sale el <rs key="#cria">Criado</rs>.) </stage> A ese grosero de <rs key="#toma">Tomás</rs> también hay que tratarle con dulzura, casi con mimo. Es el preferido de <rs key="#jose">Josefina</rs>, tiene sobre ella mucho dominio y no conviene que ni a ella ni al <rs key="#marq">Marqués</rs>les hable mal de mí. Hay que seguir <hi rend="italics">arrastrándose</hi>. Hasta ahora no me puedo quejar. Hola,  <rs key="#toma">Tomás</rs>.</p> 
+								<rs key="#cri1">Criado</rs>.) </stage> Diga usted a <rs key="#toma">Tomás</rs> que haga el favor de venir un momento. Se lo ruego. <stage> (Sale el <rs key="#cri1">Criado</rs>.) </stage> A ese grosero de <rs key="#toma">Tomás</rs> también hay que tratarle con dulzura, casi con mimo. Es el preferido de <rs key="#jose">Josefina</rs>, tiene sobre ella mucho dominio y no conviene que ni a ella ni al <rs key="#marq">Marqués</rs>les hable mal de mí. Hay que seguir <hi rend="italics">arrastrándose</hi>. Hasta ahora no me puedo quejar. Hola,  <rs key="#toma">Tomás</rs>.</p> 
 					</sp> 
 					<sp who="#toma"> 
 						<speaker>Tomás</speaker>
@@ -2135,7 +2330,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="7">
+				<div n="7" type="scene">
 					<head>ESCENA VII</head>
 					<stage><rs key="#plac">Plácido</rs>, después <rs key="#jose">Josefina</rs>.</stage> 
 					<sp who="#plac"> 
@@ -2325,7 +2520,7 @@
 						</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="8">
+				<div n="8" type="scene">
 					<head>ESCENA VIII</head>
 					<stage> <rs key="#jose">Josefina</rs>, <rs key="#plac">Plácido</rs> y <rs key="#blan">Blanca</rs>.</stage> 
 					<sp who="#blan"> 
@@ -2408,10 +2603,10 @@
 						<p> <stage> (Pasa riendo delante de <rs key="#plac">Plácido</rs> y le dice en voz baja.) </stage> ¡Sí tiene precio!</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="9">
+				<div n="9" type="scene">
 					<head>ESCENA IX</head>
-					<stage> <rs key="#blan">Blanca</rs>, <rs key="#jose">Josefina</rs>, <rs key="#plac">Plácido</rs>, un <rs key="#cria">Criado</rs>; después, don <rs key="#anse">Anselmo</rs> Ventosa.</stage> 
-					<sp who="#cria"> 
+					<stage> <rs key="#blan">Blanca</rs>, <rs key="#jose">Josefina</rs>, <rs key="#plac">Plácido</rs>, un <rs key="#cri1">Criado</rs>; después, don <rs key="#anse">Anselmo</rs> Ventosa.</stage> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p><rs key="#anse">Anselmo</rs>.</p> 
 					</sp> 
@@ -2559,7 +2754,7 @@
 					</sp>
 					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker>
-						<p> <stage> (A un <rs key="#cria">Criado</rs> que se presenta.) </stage> Avise usted al señor <rs key="#marq">marqués</rs>que estoy a sus órdenes.</p> 
+						<p> <stage> (A un <rs key="#cri1">Criado</rs> que se presenta.) </stage> Avise usted al señor <rs key="#marq">marqués</rs>que estoy a sus órdenes.</p> 
 					</sp> 
 					<sp who="#jose"> 
 						<speaker>Josefina</speaker>
@@ -2577,7 +2772,7 @@
 						<speaker>Plácido</speaker> 
 						<p> <stage> (Fingiendo interés.) </stage> (Sí, por Dios, <rs key="#jose">Josefina</rs>.)</p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> El señor <rs key="#marq">marqués</rs>le espera a usted.</p> 
 					</sp> 
@@ -2600,7 +2795,7 @@
 						</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="10">
+				<div n="10" type="scene">
 					<head>ESCENA X</head>
 					<stage> <rs key="#blan">Blanca</rs> y <rs key="#plac">Plácido</rs>.</stage> 
 					<sp who="#blan"> 
@@ -2716,12 +2911,12 @@
 						<p> ¡Calla, que viene gente!</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="11">
+				<div n="11" type="scene">
 					<head>ESCENA XI</head>
 					<stage> <rs key="#blan">Blanca</rs>, <rs key="#plac">Plácido</rs>, <rs key="#clau">Claudio</rs> y <rs key="#javi">Javier</rs>.</stage> 
 					<sp who="#javi"> 
 						<speaker>Javier</speaker> 
-						<p> <stage> (Al <rs key="#cria">Criado</rs>.) </stage> No tiene que anunciarnos: esperaremos en esta sala.</p> 
+						<p> <stage> (Al <rs key="#cri1">Criado</rs>.) </stage> No tiene que anunciarnos: esperaremos en esta sala.</p> 
 					</sp> 
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
@@ -2890,7 +3085,7 @@
 						<p>¡Qué remedio!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="12">
+				<div n="12" type="scene">
 					<head>ESCENA XII</head>
 					<stage> <rs key="#blan">Blanca</rs>, <rs key="#javi">Javier</rs>, <rs key="#plac">Plácido</rs>. Después don <rs key="#anse">Anselmo</rs>, don <rs key="#romu">Romualdo</rs>, <rs key="#pad1">Padrino 1</rs>.º y <rs key="#pad1">Padrino 2</rs>.º (de <rs key="#clau">Claudio</rs>), el <rs key="#marq">Marqués</rs>, después, <rs key="#jose">Josefina</rs>.</stage>  
 					<sp who="#javi"> 
@@ -3092,10 +3287,10 @@
 					<stage> FIN DEL ACTO PRIMERO </stage>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>ACTO SEGUNDO</head>
 				<stage><p>La escena representa un saloncito elegante y sencillo, perteneciente a un pabellón del parque del <rs key="#marq">Marqués</rs>. Puerta en el fondo que da a dicho parque: puertas laterales.</p></stage>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage>El <rs key="#marq">Marqués</rs> y <rs key="#deme">Demetrio</rs>, mayordomo de la casa ya viejo: trae una cartera y un lápiz.</stage>
 					<sp who="#marq">
@@ -3183,7 +3378,7 @@
 						<p>(Es el mayordomo más torpe que he tenido.)</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage>El <rs key="#marq">Marqués</rs>, don <rs key="#romu">Romualdo</rs> y don <rs key="#anse">Anselmo</rs>, que se encuentra con <rs key="#deme">Demetrio</rs>.</stage>  
 					<sp who="#deme"> 
@@ -3194,11 +3389,11 @@
 						<speaker>Marqués</speaker> 
 						<p>¡Ah... son ustedes!... Les esperaba con verdadera impaciencia.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>Estamos pasando unos días muy desagradables. En fin, tú te empeñaste en que fuésemos padrinos de <rs key="#plac">Plácido</rs>... y realmente, es un joven muy simpático.</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Muy simpático.</p> 
 					</sp>
@@ -3206,7 +3401,7 @@
 						<speaker>Marqués</speaker> 
 						<p>Su conducta ha sido nobilísima.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>No cabe duda: nobilísima</p> 
 					</sp>
@@ -3214,7 +3409,7 @@
 						<speaker>Marqués</speaker> 
 						<p>¿Pero cuándo ha de acabar este asunto?</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>¡Ah! De nosotros no depende... ni de ellos tampoco. Dos veces hemos querido ir al terreno y dos veces la Policía se nos ha echado encima. ¿Quién ha podido dar el aviso? ¿Lo sospecha usted?</p> 
 					</sp>
@@ -3222,7 +3417,7 @@
 						<speaker>Marqués</speaker> 
 						<p>Vaya usted a saberlo</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>De los interesados no hay que sospechar. A don <rs key="#clau">Claudio</rs> le dió un síncope o algo así, de ira.</p>
 					</sp>	
@@ -3230,19 +3425,19 @@
 						<speaker>Marqués</speaker> 
 						<p>No, a corazón no le gana a <rs key="#plac">Plácido</rs>. No he visto tranquilidad igual. Ustedes saben lo que yo soy en esos lances: pues aun más sereno que yo, como si tal cosa.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>¡Si es tranquilo el hombre dígamelo usted a mí! En estos días que debían ser angustiosos, muy angustiosos para él, porque al fin se juega la vida, ha tenido la ocurrencia de escribir un artículo sobre mi libro.</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Un gran artículo, y que ha tenido una gran resonancia.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>¡Es un joven de mucho talento... y de mucho valor!</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Y, sin embargo, vean ustedes lo que es el teatro: la noche en que se estrenó su comedia tenía miedo; un hombre tan sereno ante la muerte... tenía miedo.</p> 
 					</sp>
@@ -3250,15 +3445,15 @@
 						<speaker>Marqués</speaker> 
 						<p>Pero fue un gran éxito.</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Claro: <stage>(Al <rs key="#marq">Marqués</rs>)</stage> usted compró casi todo el teatro y luego nuestros dos periódicos echaron las campanas a vuelo.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>¡Yo no estoy arrepentido!</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Tratándose de un principiante tan simpático, la benevolencia es permitida: es casi un deber.</p> 
 					</sp>
@@ -3266,7 +3461,7 @@
 						<speaker>Marqués</speaker> 
 						<p>Hay que ayudarle entre todos, porque él es tan tímido, tan modesto, que no hará nada por sí. Yo tengo mi proyecto. Si escapa con vida, que Dios lo quiera, yo le haré subir. ¡Quizá le deba la vida! No hago más que pagar una deuda sagrada.</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Si ustedes le hubieran visto con qué modestia y con qué ingenuidad me rogaba que dulcificase mi artículo de crítica. Al soberbio, castigo; al humilde, protección.</p> 
 					</sp>
@@ -3274,11 +3469,11 @@
 						<speaker>Marqués</speaker> 
 						<p>Yo estoy angustiadísimo. ¿Pero no habría modo de evitar el lance?</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>Imposible. Hemos querido aprovechar las dificultades que durante una semana entera nos ha estado poniendo la Policía, para buscar un arreglo, extender un acta en que todos quedasen bien y dar por terminado el lance: pues no lo hemos conseguido.</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Y en honor a la verdad, el más terco ha sido <rs key="#plac">Plácido</rs>: «que <rs key="#clau">Claudio</rs> le ha insultado a usted y que han de matarse y han de matarse». Esto es lo que opone a todas nuestras reflexiones.</p> 
 					</sp>
@@ -3286,7 +3481,7 @@
 						<speaker>Marqués</speaker> 
 						<p>Ese joven vale mucho. Yo soy duro para estas cosas, ya lo saben ustedes... pues me enternezco. ¡Si ocurriese una desgracia!...</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Tengamos esperanza. Y si <rs key="#plac">Plácido</rs> sale bien, ha hecho su suerte. En ocho días, el hombre a la moda, el favorito del público, el héroe y el caballero.</p> 
 					</sp>
@@ -3294,11 +3489,11 @@
 						<speaker>Marqués</speaker> 
 						<p>¡Qué pena si le rompen las alas a ese pobre chico!</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>Él se empeña.</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Él fue el que sugirió la idea de que aprovechásemos su parque de usted.</p> 
 					</sp>
@@ -3306,7 +3501,7 @@
 						<speaker>Marqués</speaker> 
 						<p>Y yo tuve la debilidad de acceder.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>No, el sitio está bien escogido y esta vez desafiamos a la Policía.</p> 
 					</sp>
@@ -3314,7 +3509,7 @@
 						<speaker>Marqués</speaker> 
 						<p>Ya he dado todas mis órdenes.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>Plácido está aquí: no le ve entrar ningún polizonte. Don <rs key="#clau">Claudio</rs> vendrá solo y entrará por la puertecita del parque. Y los padrinos vendremos como de visita... o para almorzar contigo... a las once o a las doce. No hay modo de que nos sorprendan.</p> 
 					</sp>
@@ -3322,7 +3517,7 @@
 						<speaker>Marqués</speaker> 
 						<p>Sí, las precauciones están bien tomadas; pero voy a pasar un mal día... porque es hoy, ¿no es verdad?</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker> 
 						<p>Hoy misino; ya se lo hemos escrito.</p> 
 					</sp>
@@ -3330,23 +3525,23 @@
 						<speaker>Marqués</speaker> 
 						<p>Sí, sí... recibí anoche la carta.</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>Pero veníamos precisamente por eso; para evitar cualquier equivocación.</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker>
 						<p><stage>(A don <rs key="#romu">Romualdo</rs>.)</stage>	¿Y ahora, si a usted le parece?...</p>
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker>
 						<p>Sí... vamos, que nos estarán esperando los otros padrinos.</p>
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker>	
 						<p>Hasta luego, señor <rs key="#marq">marqués</rs>, y buen ánimo. <stage>(Se dan la mano)</stage> </p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p>Hasta luego... ¿quién sabe?... puede ser que almorcemos todos juntos.</p> 
 					</sp>
@@ -3355,7 +3550,7 @@
 						<p>¡Dios lo quiera!<stage>(Salen don <rs key="#anse">Anselmo</rs> y don <rs key="#romu">Romualdo</rs>.)</stage></p> 
 					</sp>
 				</div> 
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage>El <rs key="#marq">Marqués</rs>; a poco, <rs key="#plac">Plácido</rs>.</stage>
 					<sp who="#marq"> 
@@ -3460,7 +3655,7 @@
 					</sp>
 
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage><rs key="#plac">Plácido</rs>, <rs key="#blan">Blanca</rs> y <rs key="#javi">Javier</rs>. Pausa. Se miran unos a otros.</stage>
 					<sp who="#javi"> 
@@ -3652,7 +3847,7 @@
 						<p>No temas: no iba a decir nada.</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>	
 					<stage>Dichos y <rs key="#toma">Tomás</rs>.</stage> 
 					<sp who="#plac"> 
@@ -3724,7 +3919,7 @@
 						<p>Tengo que ir allá. Me espera la señorita. Buen alojamiento, bueno, bueno.<stage>(Dirigiéndose a la puerta)</stage>Que lo goce usted muchos años. Porque mejor que estos, los salones del palacio del señor <rs key="#marq">marqués</rs>. No hay más. ¡Eh!... ¿no digo bien?... <stage>(Se marcha hablando en voz baja y para sí.)</stage> <rs key="#plac">Plácido</rs>... don <rs key="#plac">Plácido</rs>... el excelentísimo señor don <rs key="#plac">Plácido</rs>... A eso vamos... a eso vamos.</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
 					<stage> <rs key="#blan">Blanca</rs> y <rs key="#plac">Plácido</rs>. <rs key="#blan">Blanca</rs> sentada y ocultando el rostro entre las manos.</stage>
 					<sp who="#plac"> 
@@ -3836,7 +4031,7 @@
 						<p>(¡Pues la careta!...)¡<rs key="#jose">Josefina</rs>!...</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="7">
+				<div n="7" type="scene">
 					<head>ESCENA VII</head>		
 					<stage>Dichos y <rs key="#jose">Josefina</rs>.</stage>  
 					<sp who="#jose"> 
@@ -3968,7 +4163,7 @@
 						<p><stage>(Ya en la puerta y riendo.)</stage>Es capaz.<stage>(Sale.)</stage></p> 
 					</sp>	
 				</div>
-				<div  type="scene" n="8">
+				<div n="8" type="scene">
 					<head>ESCENA VIII</head>	
 					<stage><rs key="#jose">Josefina</rs> y <rs key="#plac">Plácido</rs>.</stage>
 					<sp who="#jose"> 
@@ -4228,7 +4423,7 @@
 						<p>Ahora verá usted.(¡Gracias a Dios!¡Empieza mi desquite!)</p> 
 					</sp>	
 				</div>
-				<div  type="scene" n="9">
+				<div n="9" type="scene">
 					<head>ESCENA IX</head>	
 					<stage>Dichos y <rs key="#toma">Tomás</rs>.</stage> 
 					<sp who="#toma"> 
@@ -4300,7 +4495,7 @@
 						<p>¡Es mía!... ¡Es fea!... ¡Pero es un diablillo!... ¡Y es millonaria!... ¡Esto ya no es arrastrarse... es trepar! ¿Dijo  <rs key="#toma">Tomás</rs> que venía alguien?...<stage>(Asomándose a la puerta)</stage> ¡Ah! ¡Claudio!... ¡Imbécil!...</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="10">
+				<div n="10" type="scene">
 					<head>ESCENA X</head>
 					<stage><rs key="#plac">Plácido</rs>, <rs key="#clau">Claudio</rs> pálido y agitado.</stage> 
 					<sp who="#plac"> 
@@ -4532,14 +4727,14 @@
 						<p>¡Te he dicho que sí... pero vete... vete con todos los diablos!<stage>(Mirando desde la puerta.)</stage>Y ahora, <rs key="#plac">Plácido</rs>, en confianza, ¿si el lance fuera serio, irías con tanta tranquilidad como ahora? <stage>(Pausa)</stage>No. Pero iría... si me convenía ir.</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="11">
+				<div n="11" type="scene">
 					<head>ESCENA XI</head>	
 					<stage><rs key="#plac">Plácido</rs>, don <rs key="#romu">Romualdo</rs>, don <rs key="#anse">Anselmo</rs>, el <rs key="#marq">Marqués</rs> y <rs key="#javi">Javier</rs>.</stage>
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker>  
 						<p>Señores.</p> 
 					</sp> 
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker>  
 						<p>Faltan ocho minutos, el tiempo preciso para llegar con una pequeña anticipación.</p> 
 					</sp>
@@ -4547,7 +4742,7 @@
 						<speaker>Plácido</speaker>  
 						<p>Estoy a sus órdenes. <stage>(Preparándose a salir)</stage></p> 
 					</sp> 
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker>  
 						<p>¿No quiere usted que intentemos modificar alguna de las condiciones... que me parecen de gravedad suma?</p> 
 					</sp>
@@ -4563,16 +4758,16 @@
 						<speaker>Marqués</speaker>  
 						<p><stage>(A <rs key="#anse">Anselmo</rs> y <rs key="#romu">Romualdo</rs>.)</stage>¡Es un valor heroico!</p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker>  
 						<p>¡Es un hombre!</p> 
 					</sp>
-					<sp who="#dona"> 
+					<sp who="#anse"> 
 						<speaker>Don Anselmo</speaker>  
 						<p>¡Todo un hombre!</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="12">
+				<div n="12" type="scene">
 					<head>ESCENA XII</head>	
 					<stage>El <rs key="#marq">Marqués</rs> y <rs key="#javi">Javier</rs>.</stage> 
 					<sp who="#marq"> 
@@ -4620,7 +4815,7 @@
 						<p>Basta.</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="13">
+				<div n="13" type="scene">
 					<head>ESCENA XIII</head>
 					<stage>El <rs key="#marq">Marqués</rs>,  <rs key="#javi">Javier</rs>, <rs key="#jose">Josefina</rs> y <rs key="#blan">Blanca</rs>.</stage>
 					<sp who="#marq"> 
@@ -4736,7 +4931,7 @@
 						<p>¡Hija, vámonos! ¡Yo no puedo resistir más estas emociones! Si yo estuviera en el terreno, si fuera uno de ellos, estaría tranquilo; pero aquí, no. No puedo. ¡Ven, <rs key="#jose">Josefina</rs>!<stage>(Se dirige con ella al fondo; aparece <rs key="#toma">Tomás</rs>)</stage></p> 
 					</sp> 
 				</div>	
-				<div  type="scene" n="14">
+				<div n="14" type="scene">
 					<head>ESCENA XIV</head>		
 					<stage><rs key="#blan">Blanca</rs>, <rs key="#jose">Josefina</rs>, <rs key="#marq">Marqués</rs> y <rs key="#toma">Tomás</rs>.</stage>
 					<sp who="#marq"> 
@@ -4792,7 +4987,7 @@
 						<p><stage>(Desde la puerta)</stage>Papá... papá... que ya vienen.<stage>(El <rs key="#marq">Marqués</rs> y <rs key="#jose">Josefina</rs>, en la puerta esperando. <rs key="#blan">Blanca</rs> y <rs key="#javi">Javier</rs>, más retirados, tristes y despreciativos.)</stage></p> 
 					</sp>
 				</div>
-				<div  type="scene" n="15">
+				<div n="15" type="scene">
 					<head>ESCENA XV</head>	
 					<stage>Dichos, <rs key="#plac">Plácido</rs> y <rs key="#clau">Claudio</rs>, por el fondo, con don <rs key="#romu">Romualdo</rs>, don <rs key="#anse">Anselmo</rs> y los padrinos de <rs key="#clau">Claudio</rs>.</stage>
 					<sp who="#marq"> 
@@ -4839,7 +5034,7 @@
 						<speaker>Plácido</speaker> 
 						<p>Señor <rs key="#marq">marqués</rs>...<stage>(Se dan las manos.)</stage></p> 
 					</sp>
-					<sp who="#donr"> 
+					<sp who="#romu"> 
 						<speaker>Don Romualdo</speaker> 
 						<p><stage>(Llevándole aparte.)</stage>(Ya he hablado con el <rs key="#marq">Marqués</rs> ... En mi distrito hay un puesto vacante, el que tenía don <rs key="#anse">Anselmo</rs>: cuente usted con que será usted diputado. ¡Eso merecen hombres de corazón como usted!)</p> 
 					</sp>
@@ -4871,18 +5066,18 @@
 					<stage> FIN DEL ACTO SEGUNDO </stage>
 				</div>
 			</div>
-			<div type="act" n="3">
+			<div n="3" type="act">
 				<head>ACTO TERCERO</head>
 				<stage><p>Salón lujoso. Puerta en el fondo y laterales: una de las puertas laterales de segundo término es pequeña.</p></stage>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
-					<stage><rs key="#toma">Tomás</rs> sentado cómodamente en un sofá o sillón. Después, un <rs key="#cria">Criado</rs>.</stage>
+					<stage><rs key="#toma">Tomás</rs> sentado cómodamente en un sofá o sillón. Después, un <rs key="#cri1">Criado</rs>.</stage>
 					<sp who="#toma">
 						<speaker>Tomás</speaker>
 						<p>¡Jesús, qué distracción! <stage> (Levantándose de golpe.)</stage> Si entra de pronto <rs key="#plac">Plácido</rs>, digo, el señor vizconde, y me encuentra sentado, ¡buena la hicimos! ¡Bien se desquita, bien! Y bien supo hacerse el amo.
 						¡Paciencia! <rs key="#toma">Tomás</rs> es <rs key="#toma">Tomás</rs>, y también me desquitaré yo con él y con niña <rs key="#jose">Josefina</rs>... digo... con la señora vizcondesa...</p>
 					</sp>
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> <stage> (Entrando por el fondo.) </stage> Ahí está el que vino esta mañana. El lugareño. Empeñado en que ha de ver al señor vizconde.</p> 
 					</sp> 
@@ -4890,16 +5085,16 @@
 						<speaker>Tomás</speaker> 
 						<p> ¿Para qué?</p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> No sé. No lo dice: es muy receloso. Solo nos ha dicho que es de Retamosa.</p> 
 					</sp> 
 					<sp who="#toma"> 
 						<speaker>Tomás</speaker> 
-						<p> ¡Ah! ¿De Retamosa? ¡Ps! Si tiene tanto empeño, que entre. <stage> (Sale el <rs key="#cria">Criado</rs>.) </stage> ¿Quién sabe si contará algo útil?</p> 
+						<p> ¡Ah! ¿De Retamosa? ¡Ps! Si tiene tanto empeño, que entre. <stage> (Sale el <rs key="#cri1">Criado</rs>.) </stage> ¿Quién sabe si contará algo útil?</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage> <rs key="#toma">Tomás</rs>, el <rs key="#lesm">tío Lesmes</rs>.</stage>  
 					<sp who="#lesm"> 
@@ -5024,7 +5219,7 @@
 						<p> Adiós, bestia. ¿Conque <rs key="#plac">Plácido</rs> vendió el retrato de su madre?... Bueno es saberlo. Ya está ahí el Judas. <stage> (Toma aspecto respetuoso.) </stage></p> 
 					</sp> 
 				</div> 
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage><rs key="#plac">Plácido</rs>, <rs key="#toma">Tomás</rs>.</stage>
 					<sp who="#plac"> 
@@ -5188,7 +5383,7 @@
 						<p> (Ya lo sabía yo.) <stage> (Sale.) </stage></p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage><rs key="#plac">Plácido</rs>.</stage>
 					<sp who="#plac"> 
@@ -5196,7 +5391,7 @@
 						<p><stage> (Leyendo el papel.) </stage> Sí, con estos datos se podrá encontrar, no hay duda. <stage> (Paseando nerviosamente.) </stage> ¡Lo necesito!, ¡lo deseo!, ¡lo quiero! <stage> (Pensativo.) </stage> Mucho me he arrastrado, pero mucho he subido. Dentro de pocos días, ¡a lo más alto! ¡El poder!, ¡qué hermoso es el poder! Ser ministro es mucho, ¡no es bastante! Pero para subir lo que me falta, ya no necesito arrastrarme. Me basta con luchar: luchar de frente, de potencia a potencia. ¡Vida nueva!</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>	
 					<stage><rs key="#plac">Plácido</rs> y <rs key="#toma">Tomás</rs>.</stage> 
 					<sp who="#toma"> 
@@ -5280,7 +5475,7 @@
 						<p> A ver qué me cuenta <rs key="#clau">Claudio</rs> del asunto. Es una cosa insignificante, ridícula, pero me tiene inquieto. ¡Me voy volviendo cobarde!... Yo antes no era así.</p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
 					<stage><rs key="#plac">Plácido</rs> y <rs key="#clau">Claudio</rs>. Viste con elegancia severa, aire de duelista, pero sin exageración: mirada altiva; de vez en cuando con el brazo derecho amaga una estocada, pero sin abusar del movimiento y sin marcarlo mucho.</stage>
 					<sp who="#plac"> 
@@ -5460,7 +5655,7 @@
 						<p> Ya le conocerás y te repugnará más todavía.</p> 
 					</sp> 				
 				</div>
-				<div  type="scene" n="7">
+				<div n="7" type="scene">
 					<head>ESCENA VII</head>		
 					<stage>Plácido, <rs key="#clau">Claudio</rs> y <rs key="#jose">Josefina</rs> que entra muy agitada.</stage>  
 					<sp who="#jose"> 
@@ -5488,7 +5683,7 @@
 						<p> Tienes razón. ¡No soy el que era! <stage> (Sale dignamente.) </stage></p> 
 					</sp> 
 				</div>
-				<div  type="scene" n="8">
+				<div n="8" type="scene">
 					<head>ESCENA VIII</head>	
 					<stage><rs key="#jose">Josefina</rs> y <rs key="#clau">Claudio</rs>.</stage>
 					<sp who="#jose"> 
@@ -5644,7 +5839,7 @@
 						<p> Entonces será otra cosa. Déjeme usted correr... con el asunto.</p> 
 					</sp> 					
 				</div>
-				<div  type="scene" n="9">
+				<div n="9" type="scene">
 					<head>ESCENA IX</head>	
 					<stage>Josefina, <rs key="#clau">Claudio</rs> y el <rs key="#marq">Marqués</rs>.</stage> 
 					<sp who="#marq"> 
@@ -5704,9 +5899,9 @@
 						<p> Estoy a sus órdenes. <stage> (Salen <rs key="#clau">Claudio</rs> y el <rs key="#marq">Marqués</rs>.) </stage></p> 
 					</sp> 	
 				</div>
-				<div  type="scene" n="10">
+				<div n="10" type="scene">
 					<head>ESCENA X</head>
-					<stage>Josefina, <rs key="#plac">Plácido</rs> y un <rs key="#cria">Criado</rs>.</stage> 
+					<stage>Josefina, <rs key="#plac">Plácido</rs> y un <rs key="#cri1">Criado</rs>.</stage> 
 					<sp who="#jose"> 
 						<speaker>Josefina</speaker>  
 						<p> ¿Qué noticias?</p> 
@@ -5721,26 +5916,26 @@
 					</sp> 
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
-						<p> <stage> (Toca un timbre. Aparece un <rs key="#cria">Criado</rs>.) </stage> ¿No ha venido un joven a buscarme?</p> 
+						<p> <stage> (Toca un timbre. Aparece un <rs key="#cri1">Criado</rs>.) </stage> ¿No ha venido un joven a buscarme?</p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> Sí, señor; ahí espera, y dijo don <rs key="#clau">Claudio</rs> que cuando el señor estuviese solo que le avisásemos.</p> 
 					</sp> 
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
-						<p> Dígale usted que entre. <stage> (Vase el <rs key="#cria">Criado</rs>.) </stage> ¿Qué clase de hombre será? Conviene tantear el terreno y caminar con prudencia. Más listo que yo no ha de ser. <stage> (Riendo.) </stage> Cuando más, <hi rend="italics">otro yo</hi>. ¡Sería curioso verme <hi rend="italics">yo</hi> ante <hi rend="italics">mí mismo</hi>! <stage> (Ríe con risa forzada. Por la pequeña puerta lateral, el <rs key="#cria">Criado</rs> introduce a <rs key="#basi">Basilio</rs>.) </stage></p> 
+						<p> Dígale usted que entre. <stage> (Vase el <rs key="#cri1">Criado</rs>.) </stage> ¿Qué clase de hombre será? Conviene tantear el terreno y caminar con prudencia. Más listo que yo no ha de ser. <stage> (Riendo.) </stage> Cuando más, <hi rend="italics">otro yo</hi>. ¡Sería curioso verme <hi rend="italics">yo</hi> ante <hi rend="italics">mí mismo</hi>! <stage> (Ríe con risa forzada. Por la pequeña puerta lateral, el <rs key="#cri1">Criado</rs> introduce a <rs key="#basi">Basilio</rs>.) </stage></p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> Allí está el señor vizconde. <stage> (En voz baja.) </stage></p> 
 					</sp> 
 					<sp who="#basi"> 
 						<speaker>Basilio</speaker>  
-						<p> <stage> (Lo mismo.) </stage> Ya le veo, ya le conozco. <stage> (Sale el <rs key="#cria">Criado</rs>.) </stage></p> 
+						<p> <stage> (Lo mismo.) </stage> Ya le veo, ya le conozco. <stage> (Sale el <rs key="#cri1">Criado</rs>.) </stage></p> 
 					</sp> 		
 				</div>
-				<div  type="scene" n="11">
+				<div n="11" type="scene">
 					<head>ESCENA XI</head>	
 					<stage><rs key="#plac">Plácido</rs> y <rs key="#basi">Basilio</rs>. Este es joven, viste modestamente, es un bohemio, pero no un andrajoso; delgado, pálido, mirada entre cínica y astuta.</stage>
 					<sp who="#plac"> 
@@ -6088,20 +6283,20 @@
 						<p> Entre caballeros eso basta. <stage> (Sale haciendo saludos respetuosos.) </stage></p> 
 					</sp> 					
 				</div>
-				<div  type="scene" n="12">
+				<div n="12" type="scene">
 					<head>ESCENA XII</head>	
-					<stage>Plácido; después <rs key="#cria">Criado</rs>; luego <rs key="#jose">Josefina</rs>.</stage> 
+					<stage>Plácido; después <rs key="#cri1">Criado</rs>; luego <rs key="#jose">Josefina</rs>.</stage> 
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
 						<p> ¡Ah, miserable!... ¡miserable!... ¡Yo no he sido así!..., ¡no he sido como tú!... ¡Hay mucha distancia del ingenio... de la travesura... a la infamia!, ¡a la villanía! ¡Ese hombre va bordeando el presidio! ¡Yo, nunca! <stage> (Procurando convencerse.) </stage> ¡Y yo he tocado a ese ser envilecido! <stage> (Con repugnancia y agitándose y paseando como queriendo salir de sí.)</stage> Pero ¿adónde va esta sociedad?, ¿adónde vamos todos con esta podredumbre que nos cerca, que nos asalta, que nos llega a los labios? ¡Asco y miseria! ¡Sí, romper con el pasado, olvidarlo!... ¡No arrastrarse más! Pero para ello, para quedar libre... necesito esa suma... ¡y en este momento no la tengo! Yo nunca tengo oro mío... ¡mío! ¡No; el asunto no puede quedar para mañana! No hay otro medio. <stage> (Después de pensarlo toca el timbre.) </stage></p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> Señor...</p> 
 					</sp> 
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
-						<p> Entre usted y diga a la señora que venga en seguida, ¡pronto! <stage> (Sale el <rs key="#cria">Criado</rs> por la izquierda. Enjugando la frente febril, mirando el reloj.) </stage> Dos minutos para que venga <rs key="#jose">Josefina</rs>. Diez minutos para que ella o el <rs key="#marq">Marqués</rs>me den un cheque. Media hora para que venga ese tunante..., y todo habrá concluído... todo... y libre... ¡libre para siempre! Por precaución hice que vinieran <rs key="#blan">Blanca</rs> y <rs key="#javi">Javier</rs>... pero ya sería inútil. No... inútil no... Bueno es que vean a <rs key="#javi">Javier</rs> en mi casa. <rs key="#javi">Javier</rs> da honra. El pobrecillo no puede dar otra cosa. <stage> (Riendo.) </stage> Pero es algo... es algo. ¡Ah..., ya viene <rs key="#jose">Josefina</rs>!</p> 
+						<p> Entre usted y diga a la señora que venga en seguida, ¡pronto! <stage> (Sale el <rs key="#cri1">Criado</rs> por la izquierda. Enjugando la frente febril, mirando el reloj.) </stage> Dos minutos para que venga <rs key="#jose">Josefina</rs>. Diez minutos para que ella o el <rs key="#marq">Marqués</rs>me den un cheque. Media hora para que venga ese tunante..., y todo habrá concluído... todo... y libre... ¡libre para siempre! Por precaución hice que vinieran <rs key="#blan">Blanca</rs> y <rs key="#javi">Javier</rs>... pero ya sería inútil. No... inútil no... Bueno es que vean a <rs key="#javi">Javier</rs> en mi casa. <rs key="#javi">Javier</rs> da honra. El pobrecillo no puede dar otra cosa. <stage> (Riendo.) </stage> Pero es algo... es algo. ¡Ah..., ya viene <rs key="#jose">Josefina</rs>!</p> 
 					</sp> 
 					<sp who="#jose"> 
 						<speaker>Josefina</speaker> 
@@ -6188,14 +6383,14 @@
 						<p> <hi rend="italics">¡Mío caro, caro mío!</hi> <stage> (Saliendo y burlándose.) </stage></p> 
 					</sp> 		
 				</div>
-				<div  type="scene" n="13">
+				<div n="13" type="scene">
 					<head>ESCENA XIII</head>
-					<stage><rs key="#plac">Plácido</rs>; luego un <rs key="#cria">Criado</rs>; después el <rs key="#marq">Marqués</rs>.</stage>
+					<stage><rs key="#plac">Plácido</rs>; luego un <rs key="#cri1">Criado</rs>; después el <rs key="#marq">Marqués</rs>.</stage>
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
-						<p> ¡Ni alma!..., ¡ni corazón!..., ¡ni siquiera hermosura! ¡Este pasado sí que no lo redimo como el otro con treinta mil duros!... ¡Una gota, aunque no sea más que una gota de rocío! <stage> (Toca un timbre; aparece un <rs key="#cria">Criado</rs>.) </stage> Cuando vengan don <rs key="#javi">Javier</rs> y la señorita <rs key="#blan">Blanca</rs>, que pasen por aquí. Usted mismo les hace entrar.</p> 
+						<p> ¡Ni alma!..., ¡ni corazón!..., ¡ni siquiera hermosura! ¡Este pasado sí que no lo redimo como el otro con treinta mil duros!... ¡Una gota, aunque no sea más que una gota de rocío! <stage> (Toca un timbre; aparece un <rs key="#cri1">Criado</rs>.) </stage> Cuando vengan don <rs key="#javi">Javier</rs> y la señorita <rs key="#blan">Blanca</rs>, que pasen por aquí. Usted mismo les hace entrar.</p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> Sí, señor. <stage> (Sale.) </stage></p> 
 					</sp> 
@@ -6376,14 +6571,14 @@
 						<p><stage> (Saliendo.) </stage> ¡Treinta mil!... ¡Es una cifra aterradora!... ¡Prefería batirme otra vez!... ¡Ah!... no; es verdad; la primera se <hi rend="italics">batió</hi> él. <stage> (Vase.) </stage></p> 
 					</sp> 					
 				</div>	
-				<div  type="scene" n="14">
+				<div n="14" type="scene">
 					<head>ESCENA XIV</head>		
 					<stage><rs key="#plac">Plácido</rs>. Después, <rs key="#blan">Blanca</rs> y <rs key="#javi">Javier</rs>.</stage>
 					<sp who="#plac"> 
 						<speaker>Plácido</speaker> 
 						<p> Ha cedido; ya sabía yo que cedería; otro ser ante el cual no tendré que arrastrarme.</p> 
 					</sp> 
-					<sp who="#cria"> 
+					<sp who="#cri1"> 
 						<speaker>Criado</speaker> 
 						<p> <stage> (En voz baja.) </stage> Ahí está el señor... ha dicho que pasen. <stage> (Se retira.) </stage></p> 
 					</sp> 
@@ -6428,7 +6623,7 @@
 						<p> No tenemos otra cosa que dar.</p> 
 					</sp>
 				</div>
-				<div  type="scene" n="15">
+				<div n="15" type="scene">
 					<head>ESCENA XV</head>	
 					<stage><rs key="#plac">Plácido</rs>, <rs key="#blan">Blanca</rs>, <rs key="#javi">Javier</rs> y el <rs key="#marq">Marqués</rs>, con un sobre en el que se supone trae el cheque.</stage>
 					<sp who="#marq"> 
@@ -6452,7 +6647,7 @@
 						<p> Yo también voy ganando... ¡La compañía de un sabio de cierto prestigio!... ¡Yo siempre protegí la <hi rend="italics">ciencia</hi>!... Usted conoce mi biblioteca... no digo más. ¿Lo creerá usted? ¡Solo en encuadernaciones gasto tres mil duros al año! <stage> (Salen los dos.) </stage></p> 
 					</sp> 					
 				</div>
-				<div  type="scene" n="16">
+				<div n="16" type="scene">
 					<head>ESCENA XVI</head>	
 					<stage><rs key="#blan">Blanca</rs> y <rs key="#plac">Plácido</rs>.</stage>
 					<sp who="#blan"> 
@@ -6636,7 +6831,7 @@
 						<p> <stage> (Rechazándole.) </stage> ¡No te necesito! <stage> (Sale.) </stage></p> 
 					</sp> 			
 				</div>
-				<div  type="scene" n="17">
+				<div n="17" type="scene">
 					<head>ESCENA XVII</head>	
 					<stage><rs key="#plac">Plácido</rs> y <rs key="#basi">Basilio</rs>.</stage>
 					<sp who="#plac"> 
@@ -6680,7 +6875,7 @@
 						<p> Más prisa que usted, señor vizconde, en recogerlas, tengo yo en desprenderme de estos papeles infames. <stage> (Al darle las cuartillas, fingiendo desprecio y volviendo la cabeza, deja caer dos o tres. <rs key="#plac">Plácido</rs> instintivamente se baja para recogerlas, poniendo una rodilla en tierra. De suerte que hay un momento muy rápido en que <rs key="#plac">Plácido</rs> está a los pies de <rs key="#basi">Basilio</rs>; y este, erguido, burlón, insolente, contémplale «desde su altura».) </stage></p> 
 					</sp> 					
 				</div>
-				<div  type="scene" n="18">
+				<div n="18" type="scene">
 					<head>ESCENA XVIII</head>
 					<stage><rs key="#plac">Plácido</rs>, <rs key="#basi">Basilio</rs>, <rs key="#blan">Blanca</rs>; después, <rs key="#jose">Josefina</rs>, el <rs key="#marq">Marqués</rs> y <rs key="#javi">Javier</rs>.</stage> 
 					<sp who="#blan"> 
@@ -6764,7 +6959,7 @@
 						<p> Sí..., ¡qué pena!..., ¡muy grande!</p> 
 					</sp> 					
 				</div>
-				<div  type="scene" n="19">
+				<div n="19" type="scene">
 					<head>ESCENA XIX</head>		
 					<stage><rs key="#plac">Plácido</rs>, <rs key="#jose">Josefina</rs> y el <rs key="#marq">Marqués</rs>. Al retirarse los demás personajes, <rs key="#plac">Plácido</rs> cierra la puerta del fondo.</stage>
 					<sp who="#plac"> 

@@ -1,0 +1,10 @@
+	id	label	sex	role	nature	importance	position	act_1	first act	middle act	last act
+#alge	#alge	Algeciras	M	protagonist	person	primary	1	94	94	94	94
+#cans	#cans	Canseco	M	other	person	secondary	2	60	60	60	60
+#jorg	#jorg	Jorge	M	other	person	secondary	3	27	27	27	27
+#memb	#memb	Membrives	M	antagonist	person	primary	4	20	20	20	20
+#mart	#mart	Martínez	M	other	person	minor	5	12	12	12	12
+#gasc	#gasc	Gascón	M	other	person	minor	6	7	7	7	7
+#rami	#rami	Ramírez	M	other	person	secondary	7	12	12	12	12
+#parr	#parr	Parrondo	M	other	person	minor	8	6	6	6	6
+#gome	#gome	Gómez	M	other	person	minor	9	3	3	3	3

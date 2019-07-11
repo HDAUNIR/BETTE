@@ -1,0 +1,8 @@
+	id	label	sex	role	nature	importance	position	act_1	first act	middle act	last act
+#proc	#proc	Proclo	M	lover	person	primary	1	75	75	75	75
+#mari	#mari	Marino	M	other	person	minor	2	24	24	24	24
+#eumo	#eumo	Eumorfo	M	antagonist	person	secondary	3	23	23	23	23
+#ascl	#ascl	Asclepigenia	F	protagonist	person	primary	4	40	40	40	40
+#crem	#crem	Crematurgo	M	antagonist	person	secondary	5	13	13	13	13
+#aten	#aten	Atenais	M	other	person	minor	6	15	15	15	15
+#sier	#sier	Sierva	F	other	person	minor	7	1	1	1	1

@@ -1,0 +1,68 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	act_4	act_5	first act	middle act	last act
+#caba	#caba	El Caballero don Juan Manuel Montenegro	M	protagonist	person	primary	1	22	75	40	34	26	22	49.666666666666664	26
+#fray	#fray	Fray Jerónimo	M	other	person	minor	2	2	0	0	0	0	2	0.0	0
+#vie1	#vie1	Una vieja	F	other	person	minor	3	1	4	0	0	0	1	1.3333333333333333	0
+#moza	#moza	Una moza	F	other	person	minor	4	1	2	0	0	0	1	0.6666666666666666	0
+#mona	#mona	un monago	M	other	person	minor	5	1	0	0	0	0	1	0.0	0
+#voz_	#voz_	una voz en la sombra	F	other	oher	minor	6	1	0	0	0	0	1	0.0	0
+#sabe	#sabe	Sabelita	F	lover	person	primary	7	27	16	34	0	9	27	16.666666666666668	9
+#rosi	#rosi	Doña Rosita	F	other	person	minor	8	10	0	0	0	0	10	0.0	0
+#rosm	#rosm	Rosita María	F	other	person	minor	9	6	0	0	0	0	6	0.0	0
+#vie2	#vie2	otra vieja	F	other	person	minor	10	1	0	0	0	0	1	0.0	0
+#roja	#roja	Micaela La Roja	F	other	person	secondary	11	19	15	12	7	5	19	11.333333333333334	5
+#zaga	#zaga	El zagal de las ovejas	M	other	person	minor	12	3	0	0	0	1	3	0.0	1
+#gala	#gala	Don Galán	M	other	person	secondary	13	1	47	24	52	13	1	41.0	13
+#capi	#capi	El Capitán de los ladrones	M	other	person	minor	14	18	0	0	0	0	18	0.0	0
+#veci	#veci	Un vecino	M	other	person	minor	15	1	0	0	0	0	1	0.0	0
+#ladr	#ladr	Un ladrón	M	other	person	secondary	16	7	0	0	0	0	7	0.0	0
+#otro	#otro	Otro ladrón	M	other	person	secondary	17	2	0	0	0	0	2	0.0	0
+#enma	#enma	El Enmascarado	M	other	person	minor	18	4	0	0	0	0	4	0.0	0
+#pedr	#pedr	Pedro Rey	M	other	person	secondary	21	0	13	0	10	0	0	7.666666666666667	0
+#libe	#libe	Liberata	F	other	person	secondary	22	0	24	0	36	21	0	20.0	21
+#dped	#dped	Don Pedrito	M	other	person	secondary	23	0	18	0	0	0	0	6.0	0
+#cura	#cura	La Curandera	F	other	person	minor	24	0	10	0	0	0	0	3.3333333333333335	0
+#mozo	#mozo	Un mozo	M	other	person	minor	25	0	4	0	0	0	0	1.3333333333333333	0
+#viej	#viej	Un viejo	M	other	person	minor	26	0	4	0	0	0	0	1.3333333333333333	0
+#mar1	#mar1	Un Marinero	M	other	person	minor	27	0	1	0	0	0	0	0.3333333333333333	0
+#patr	#patr	El Patrón	M	other	person	minor	28	0	3	0	0	0	0	1.0	0
+#mar2	#mar2	Otro marinero	M	other	person	minor	29	0	1	0	0	0	0	0.3333333333333333	0
+#manu	#manu	Manuel Tovío	M	other	person	minor	30	0	3	0	0	0	0	1.0	0
+#peab	#peab	Pedro Abuín	M	other	person	minor	31	0	1	0	0	0	0	0.3333333333333333	0
+#fons	#fons	Manuel Fonseca	M	other	person	minor	32	0	2	0	0	0	0	0.6666666666666666	0
+#lana	#lana	Un Lañador	M	other	person	minor	33	0	1	0	0	0	0	0.3333333333333333	0
+#crib	#crib	Una Cribera	F	other	person	minor	34	0	1	0	0	0	0	0.3333333333333333	0
+#cint	#cint	Una Cintera	F	other	person	minor	35	0	1	0	0	0	0	0.3333333333333333	0
+#mend	#mend	El Mendicante	M	other	person	minor	36	0	1	0	0	0	0	0.3333333333333333	0
+#dona	#dona	Doña María	F	antagonist	person	secondary	37	0	8	44	32	11	0	28.0	11
+#cape	#cape	El Capellán	M	other	person	minor	38	0	2	15	0	0	0	5.666666666666667	0
+#manc	#manc	La Manchada	F	other	person	minor	39	0	0	5	0	9	0	1.6666666666666667	9
+#rosa	#rosa	Rosalva	F	other	person	minor	40	0	0	5	0	10	0	1.6666666666666667	10
+#biei	#biei	Bieito	M	other	person	minor	41	0	0	2	0	0	0	0.6666666666666666	0
+#andr	#andr	Andreíña	F	other	person	minor	42	0	0	7	0	0	0	2.3333333333333335	0
+#algu	#algu	El Alguacil	M	other	person	minor	43	0	0	9	0	0	0	3.0	0
+#escr	#escr	El Escribano	M	other	person	minor	44	0	0	24	0	0	0	8.0	0
+#maur	#maur	Don Mauro	M	other	person	minor	45	0	0	15	0	0	0	5.0	0
+#farr	#farr	Don Farruquiño	M	other	person	secondary	46	0	0	21	46	0	0	22.333333333333332	0
+#rose	#rose	Don Rosendo	M	other	person	minor	47	0	0	12	0	0	0	4.0	0
+#cara	#cara	Cara de Plata	M	other	person	secondary	48	0	0	16	53	0	0	23.0	0
+#gine	#gine	El señor Ginero	M	other	person	minor	49	0	0	5	0	0	0	1.6666666666666667	0
+#borr	#borr	La voz de un borracho	M	other	person	minor	50	0	0	1	0	0	0	0.3333333333333333	0
+#una_	#una_	una señora	F	other	person	minor	51	0	0	1	0	0	0	0.3333333333333333	0
+#otra	#otra	la otra señora	F	other	person	minor	52	0	0	1	0	0	0	0.3333333333333333	0
+#cria	#cria	Un criado	M	other	person	minor	53	0	0	0	0	0	0	0.0	0
+#chan	#chan	El chantre	M	other	person	minor	54	0	0	2	0	0	0	0.6666666666666666	0
+#dean	#dean	El Deán	M	other	person	minor	55	0	0	2	0	0	0	0.6666666666666666	0
+#abue	#abue	El abuelo	M	other	person	minor	56	0	0	7	0	0	0	2.3333333333333335	0
+#rapa	#rapa	El Rapaz	M	other	person	minor	57	0	0	5	0	0	0	1.6666666666666667	0
+#pren	#pren	La Preñada	F	other	person	minor	58	0	0	11	0	6	0	3.6666666666666665	6
+#mari	#mari	El marido	M	other	person	minor	59	0	0	6	0	0	0	2.0	0
+#sueg	#sueg	La suegra	F	other	person	minor	60	0	0	9	0	6	0	3.0	6
+#nino	#nino	El niño Jesús	M	other	non-human	secondary	61	0	0	0	9	0	0	3.0	0
+#pich	#pich	La Pichona	F	other	person	minor	62	0	0	0	39	0	0	13.0	0
+#gazu	#gazu	Juana la Gazula	F	other	person	secondary	63	0	0	0	0	7	0	0.0	7
+#viso	#viso	Andrea la Visoja	F	other	person	secondary	64	0	0	0	0	8	0	0.0	8
+#barq	#barq	El barquero	M	other	person	minor	65	0	0	0	0	1	0	0.0	1
+#pere	#pere	El peregrino	M	other	person	minor	66	0	0	0	0	5	0	0.0	5
+#espo	#espo	El Espolique	M	other	person	minor	67	0	0	0	0	3	0	0.0	3
+#cieg	#cieg	Una vieja ciega	F	other	person	minor	68	0	0	0	0	3	0	0.0	3
+#eco_	#eco_	Un eco	O	other	thing	minor	69	0	1	0	0	0	0	0.3333333333333333	0

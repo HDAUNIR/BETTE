@@ -1,0 +1,16 @@
+	Source	Target	Weight	Type
+0	#fedr	#pedr	3	Undirected
+1	#fedr	#hipo	3	Undirected
+2	#fedr	#eust	3	Undirected
+3	#fedr	#marc	3	Undirected
+4	#fedr	#rosa	3	Undirected
+5	#pedr	#hipo	3	Undirected
+6	#pedr	#eust	3	Undirected
+7	#pedr	#marc	3	Undirected
+8	#pedr	#rosa	3	Undirected
+9	#hipo	#eust	3	Undirected
+10	#hipo	#marc	3	Undirected
+11	#hipo	#rosa	3	Undirected
+12	#eust	#marc	3	Undirected
+13	#eust	#rosa	3	Undirected
+14	#marc	#rosa	3	Undirected

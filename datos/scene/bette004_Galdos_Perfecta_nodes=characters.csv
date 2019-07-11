@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	scene_18	scene_19	scene_20	scene_21	scene_22	scene_23	scene_24	scene_25	scene_26	scene_27	scene_28	scene_29	scene_30	scene_31	scene_32	scene_33	scene_34	scene_35	scene_36	scene_37	scene_38	first scene	middle scene	last scene
+#perf	#perf	Doña Perfecta	F	protagonist	person	primary	1	0	0	11	29	0	0	0	4	27	0	0	23	4	0	13	8	7	4	6	8	0	0	0	1	33	0	0	0	0	13	11	11	4	31	1	0	22	8	0	7.527777777777778	8
+#rosa	#rosa	Rosarito	F	antagonist	person	primary	2	0	3	6	16	0	7	34	1	8	0	0	0	0	0	0	0	0	0	0	0	0	0	20	1	0	0	0	0	0	0	0	0	0	0	0	1	21	4	0	3.2777777777777777	4
+#reme	#reme	María Remedios	F	other	person	secondary	3	12	3	0	0	11	7	0	0	0	0	0	0	0	2	14	7	3	0	0	0	0	0	0	0	0	12	4	0	0	1	6	11	2	11	0	0	0	8	12	2.611111111111111	8
+#libr	#libr	Librada	F	other	person	secondary	4	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	2	0	1	6	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.3055555555555556	0
+#pepe	#pepe	Pepe Rey	M	antagonist	person	primary	5	0	0	15	37	0	0	33	5	37	7	6	19	0	24	0	0	9	4	6	7	6	1	20	1	33	0	0	0	4	14	0	0	0	0	0	0	0	3	0	8.0	3
+#inoc	#inoc	Don Inocencio	M	other	person	secondary	6	0	0	7	18	13	0	0	2	11	0	0	0	0	0	0	9	7	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.0	0
+#cris	#cris	Cristóbal Ramos (Caballuco)	M	other	person	secondary	7	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0	0	0	0	0	0.8333333333333334	0
+#jaci	#jaci	Jacintito	M	other	person	secondary	8	0	0	0	0	0	0	0	3	6	0	5	7	2	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	7	0	3	0	0	0	0	0	0	1.0555555555555556	0
+#caye	#caye	Don Cayetano	M	other	person	minor	9	0	0	6	8	0	0	0	0	0	8	2	9	2	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.1666666666666667	0
+#juan	#juan	Don Juan Tafetán	M	other	person	secondary	10	0	0	0	0	0	0	0	0	6	0	0	1	4	26	0	0	0	0	0	0	0	0	0	0	0	0	5	11	3	0	0	0	0	0	0	0	0	0	0	1.5555555555555556	0
+#varg	#varg	Vargas	M	other	person	minor	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	3	12	3	2	0	0	0	0	0	0	0	0	0	0.8888888888888888	0
+#pinz	#pinz	Pinzón	M	other	person	minor	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	12	3	2	0	0	0	0	0	0	0	0	0	0.5833333333333334	0
+#licu	#licu	El tío Licurgo	M	other	person	secondary	13	12	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	12	0.4722222222222222	0
+#paso	#paso	Pasolargo	M	other	person	minor	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0.3611111111111111	0
+#este	#este	Esteban Romero	M	other	person	minor	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0.2777777777777778	0
+#cabo	#cabo	Cabo Cartero.	M	other	person	minor	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0.027777777777777776	0

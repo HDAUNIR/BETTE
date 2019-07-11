@@ -1,26 +1,26 @@
-	idno	title	title_viaf	title_bne	author_name	author_viaf	author_bne	date	year_print_source	year_electronic_source	year_first_published	year_first_performance	approved	compared	decade
-bette001	001	Juan José	185472416 	XX1634955 	Dicenta	68949187  	XX2416036	2016	1982	1999	1895	1895	T	T	1890
-bette002	002	Mancha que limpia		bimo0000803319	Echegaray	79077383	XX910695	2015	1895	1999	1895	1895	T	T	1890
-bette003	003	Arrastrarse		bimo0000803288	Echegaray	79077383	XX910695	2015	1901	1999	1901	1905	T	T	1900
-bette004	004	Perfecta	180632041	XX3111724	Galdos	71395987	XX1014802	2015		2001	1896	1896	T	T	1890
-bette005	005	Casandra		bimo0001295349	Galdos	71395987	XX1014802	2015	1910	2001	1910		T	T	1910
-bette006	006	Electra	210052098	XX2127860	Galdós	71395987	XX1014802	2015	1905	2001	1901	1901	T	T	1900
-bette007	007	Rosita	195836250	XX3107511	Lorca	34456883	XX841898	2016	1938	2013	1938	1935	T	F	1930
-bette008	008	Yerma	3988147270463635700008	XX1987269	Lorca	34456883	XX841898	2016	1938	2013	1938	1934	T	F	1930
-bette012	012	Fedra	210973096	bimo0000328509	Unamuno	88844103	XX1139151	2016	1987	2016	1924	1918	T	F	1920
-bette013	013	Divinas Palabras	177399388	XX2958776	Valle	197999653	XX1055436	2016	1920	2014	1920	1933	T	F	1920
-bette014	014	Luces de bohemia	68936773	XX2215982	Valle	197999653	XX1055436	2016	1924	2012	1924	1963	T	F	1920
-bette018	018	Teresa		bimo0000824649	Clarin	17218138	XX922976	2016	1895	2000	1895	1895	T	F	1890
-bette027	027	Asclepigenia		XX2892959	Valera	46770556	XX918093	2016		2002	1878	1928	T	F	1870
-bette028	028	La venganza de Atahualpa			Valera	46770556	XX918093	2016	1908	1999	1878		T	F	1870
-bette030	030	Pergaminos		XX2677398	Munoz	24776670	XX983355	2016	1918	2013	1918	1918	T	T	1910
-bette031	031	Refugio			Munoz	24776670	XX983355	2016	1933	2013	1933	1933	T	F	1930
-bette032	032	Conferencia			Munoz	24776670	XX983355	2016	1916	2013	1916	1916	T	F	1910
-bette040	040	Zapatera	180243104	XX3383597	Lorca	34456883	XX841898	2016	1938	2013	1938		T	F	1930
-bette041	041	Bodas de sangre	180647047	XX3383743	Lorca	34456883	XX841898	2016	1938	2014	1938		T	F	1930
-bette042	042	Bernarda	175923703	XX1987200	Lorca	34456883	XX841898	2016	1945	2015	1945	1945	T	T	1940
-bette043	043	Águila de blasón	183167056	bimo0001542431	Valle	197999653	XX1055436	2016		2013	1907	1907	T	F	1900
-bette044	044	Romance de lobos	182910923	XX2215996	Valle	68936773	XX1055436	2016	1908	2013	1908	1970	T	F	1900
-bette045	045	Cara de Plata	185991665	XX2215951	Valle	68936773	XX1055436	2016	1922	2013	1922	1967	T	F	1920
-bette053	053	Ortiz		XX2677457	Munoz	24776670	XX983355	2016		2013	1927	1927	T	F	1920
-bette056	056	Esfinge	210973152	XX2804277	Unamuno	88844103	XX1139151	2017	1987	2017	1898		T	F	1890
+	idno	title	title_viaf	title_bne	author_name	author_viaf	author_bne	date	year_print_source	year_electronic_source	year_first_published	year_first_performance	approved	text_version	structure_version	electronic_source	genre	subgenre	pers_metadata_cert	decade
+bette001	001	JuanJose	185472416 	XX1634955 	Dicenta	68949187  	XX2416036	2016	1982	1999	1895	1895	T	1.0	2.0	Biblioteca Virtual Miguel de Cervantes	play	drama	medium	1890
+bette002	002	ManchaLimpia		bimo0000803319	Echegaray	79077383	XX910695	2015	1895	1999	1895	1895	T	1.0	2.0	Biblioteca Virtual Miguel de Cervantes	play	drama	medium	1890
+bette003	003	Arrastrarse		bimo0000803288	Echegaray	79077383	XX910695	2015	1901	1999	1901	1905	T	1.0	2.0	Biblioteca Virtual Miguel de Cervantes	play	farsa-cómica	medium	1900
+bette004	004	Perfecta	180632041	XX3111724	Galdos	71395987	XX1014802	2015		2001	1896	1896	T	1.0	2.0	Biblioteca Virtual Miguel de Cervantes	play	drama	medium	1890
+bette005	005	Casandra		bimo0001295349	Galdos	71395987	XX1014802	2015	1910	2001	1910		T	1.0	2.0	Biblioteca Virtual Miguel de Cervantes	play	drama	medium	1910
+bette006	006	Electra	210052098	XX2127860	Galdós	71395987	XX1014802	2015	1905	2001	1901		T	1.1	2.0	Biblioteca Virtual Miguel de Cervantes	play	drama	high	1900
+bette007	007	Rosita	195836250	XX3107511	Lorca	34456883	XX841898	2016	1938	2013	1938	1935	T	0.2	2.0	epublibre	play	tragedia	medium	1930
+bette008	008	Yerma	3988147270463635700008	XX1987269	Lorca	34456883	XX841898	2016	1938	2013	1938	1934	T	0.2	2.0	epublibre	play	tragedia	medium	1930
+bette012	012	Fedra	210973096	bimo0000328509	Unamuno	88844103	XX1139151	2016	1987	2016	1924		T	0.2	2.0		play	tragedia	medium	1920
+bette013	013	DivinasPalabras	177399388	XX2958776	Valle	197999653	XX1055436	2016	1920	2014	1920	1933	T	0.2	2.0	epublibre	play	tragicomedia	medium	1920
+bette014	014	LucesBohemia	68936773	XX2215982	Valle	197999653	XX1055436	2016	1924	2012	1924		T	0.2	2.0	epublibre	play	esperpento	high	1920
+bette018	018	Teresa		bimo0000824649	Clarin	17218138	XX922976	2016	1895	2000	1895	1895	T	0.2	2.0	Biblioteca Virtual Miguel de Cervantes	play	ensayo-dramático	medium	1890
+bette027	027	Asclepigenia		XX2892959	Valera	46770556	XX918093	2016		2002	1878	1928	T	0.2	2.0	Biblioteca Virtual Miguel de Cervantes	play	diálogo	medium	1870
+bette028	028	VenganzaAtahualpa			Valera	46770556	XX918093	2016	1908	1999	1878		T	0.2	2.0	Biblioteca Virtual Miguel de Cervantes	play	leyenda	medium	1870
+bette030	030	Pergaminos		XX2677398	Munoz	24776670	XX983355	2016	1918	2013	1918	1918	T	1.0	2.0	epublibre	play	juguete-comico	medium	1910
+bette031	031	Refugio			Munoz	24776670	XX983355	2016	1933	2013	1933	1933	T	0.2	2.0	epublibre	play	comedia	medium	1930
+bette032	032	Conferencia			Munoz	24776670	XX983355	2016	1916	2013	1916	1916	T	0.2	2.0	epublibre	play	comedia	medium	1910
+bette040	040	Zapatera	180243104	XX3383597	Lorca	34456883	XX841898	2016	1938	2013	1938		T	0.2	2.0	epublibre	play	farsa	medium	1930
+bette041	041	BodasSangre	180647047	XX3383743	Lorca	34456883	XX841898	2016	1938	2014	1938		T	0.2	2.0	epublibre	play	tragedia	medium	1930
+bette042	042	Bernarda	175923703	XX1987200	Lorca	34456883	XX841898	2016	1945	2015	1945		T	1.1	2.0	epublibre	play	drama	medium	1940
+bette043	043	AguilaBlason	183167056	bimo0001542431	Valle	197999653	XX1055436	2016		2013	1907	1907	T	0.2	2.0	epublibre	play	comedia-bárbara	medium	1900
+bette044	044	RomanceLobos	182910923	XX2215996	Valle	68936773	XX1055436	2016	1908	2013	1908	1970	T	0.2	2.0	epublibre	play	comedia-bárbara	medium	1900
+bette045	045	CaraPlata	185991665	XX2215951	Valle	68936773	XX1055436	2016	1922	2013	1922	1967	T	0.2	2.0	epublibre	play	comedia-bárbara	medium	1920
+bette053	053	Ortiz		XX2677457	Munoz	24776670	XX983355	2016		2013	1927	1927	T	0.2	2.0	epublibre	play	caricatura	medium	1920
+bette056	056	Esfinge	210973152	XX2804277	Unamuno	88844103	XX1139151	2017	1987	2017	1898		T	0.1	2.0		play	drama	high	1890

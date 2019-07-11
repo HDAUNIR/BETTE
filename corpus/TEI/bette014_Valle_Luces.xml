@@ -1,31 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="short">Luces de bohemia</title>
+				<title type="short">LucesBohemia</title>
 				<title type="full">Luces de bohemia. Esperpento</title>
 				<title type="idno">
 					<idno type="viaf">68936773</idno>
 					<idno type="bne">XX2215982</idno>
+					<idno type="wikidata">Q3312512</idno>
 				</title>
 				<author>
 					<name type="full">Ramón María del Valle Inclán</name>
 					<name type="short">Valle</name>
 					<idno type="viaf">197999653</idno>
 					<idno type="bne">XX1055436</idno>
+					<idno type="wikidata">Q311001</idno>
 				</author>
 				<principal xml:id="emc">Elena Martínez Carro</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>014</idno>
+				<idno>
+					<idno type="number">014</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -35,9 +43,9 @@
 				</bibl>
 				<bibl type="electronic-source">
 					<date>2012</date>
-					<publisher>epub</publisher>
-					<pubPlace>ePubLibre</pubPlace>
-					<ref target="https://www.epublibre.org/libro/detalle/7599" />
+					<publisher>epublibre</publisher>
+					<pubPlace></pubPlace>
+					<ref target="https://www.epublibre.org/libro/detalle/7599"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1924</date>
@@ -45,12 +53,18 @@
 					<pubPlace>Madrid</pubPlace>
 				</bibl>
 				<bibl type="first-performance">
-					<date when="1963">21 de marzo de 1963</date>
+					<date>21 de marzo de 1963</date>
 					<pubPlace>Palais de Chaillot de París</pubPlace> 
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="esperpento"></purpose>
+			</textDesc>
 			<abstract>
 				<p>Escena primera: Max Estrella se encuentra en su casa acompañado de la soledad de su ceguera, su mujer Madame Collet y su hija Claudinita. Ha perdido toda esperanza por obtener un trabajo o salario que -como escritor- les ayude a sobrevivir. Ante la desesperación, Don Latino –amigo del poeta- ha intentado empeñar algunos libros en la librería de Zaratustra sin éxito. Max decide salir con él para recuperarlos. Comienza así la peregrinación de la pareja de amigos por las calles de Madrid.</p>
 				<p>Escena segunda: Max llega a la librería de Zaratustra con intención de recuperar sus libros. Entonces también llega Don Gay, poeta bohemio, que ha estado en Inglaterra y cuenta sus experiencias. La conversación discurre sobre la situación política y social española.</p>
@@ -68,334 +82,1037 @@
 				<p>Escena decimocuarta: En el cementerio del Este de Madrid dialogan los sepultureros sobre la suerte del poeta Max Estrella mientras aparecen Rubén Darío y el Marqués de Bradomín filosofando y recordando al genio.</p>
 				<p>Escena última: Don Latino, en la taberna de la Pica Lagartos, fanfarronea porque le ha tocado la lotería y muestra el décimo que Max tenía en el momento de su muerte. Mientras que en el periódico aparece publicada la noticia del fallecimiento de dos mujeres por el tufo de un brasero. Todo apunta a un suicidio por desesperación.</p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="high">
+					<person n="1" role="protagonist" sex="M" xml:id="max">
+						<persName>Max Estrella</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>15813</desc></event>
+							<event type="sps"><desc>278</desc></event>
+							<event type="rss"><desc>96</desc></event>
+							<event type="scenes"><desc>11</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="lover" sex="F" xml:id="coll">
+						<persName>Madame Collet</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1650</desc></event>
+							<event type="sps"><desc>40</desc></event>
+							<event type="rss"><desc>22</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="other" sex="F" xml:id="clau">
+						<persName>Claudinita</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>835</desc></event>
+							<event type="sps"><desc>26</desc></event>
+							<event type="rss"><desc>15</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="antagonist" sex="M" xml:id="lati">
+						<persName>Don Latino de Hispalis</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>11825</desc></event>
+							<event type="sps"><desc>181</desc></event>
+							<event type="rss"><desc>79</desc></event>
+							<event type="scenes"><desc>12</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="other" sex="M" xml:id="zara">
+						<persName>Zaratustra</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1131</desc></event>
+							<event type="sps"><desc>17</desc></event>
+							<event type="rss"><desc>8</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="gay">
+						<persName>Don Gay</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1959</desc></event>
+							<event type="sps"><desc>17</desc></event>
+							<event type="rss"><desc>8</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="pelo">
+						<persName>Un pelón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>16</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="F" xml:id="chica">
+						<persName>La chica de la portera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="F" xml:id="pica">
+						<persName>Pica lagartos</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1398</desc></event>
+							<event type="sps"><desc>21</desc></event>
+							<event type="rss"><desc>8</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="F" xml:id="chic">
+						<persName>Un chico de taberna</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>752</desc></event>
+							<event type="sps"><desc>19</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="F" xml:id="pisa">
+						<persName>Enriqueta la pisa bien</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3616</desc></event>
+							<event type="sps"><desc>59</desc></event>
+							<event type="rss"><desc>15</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="M" xml:id="rey">
+						<persName>El rey de Portugal</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>670</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="13" role="other" sex="M" xml:id="borr">
+						<persName>Un borracho</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>366</desc></event>
+							<event type="sps"><desc>13</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="M" xml:id="dori">
+						<persName>Dorio de Gadex</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3052</desc></event>
+							<event type="sps"><desc>58</desc></event>
+							<event type="rss"><desc>12</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="M" xml:id="rafa">
+						<persName>Rafael de los Vélez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="16" role="other" sex="M" xml:id="luci">
+						<persName>Lucio Vero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="17" role="other" sex="M" xml:id="ming">
+						<persName>Mínguez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="18" role="other" sex="M" xml:id="galv">
+						<persName>Gálvez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="19" role="other" sex="M" xml:id="clar">
+						<persName>Clarinito</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>358</desc></event>
+							<event type="sps"><desc>8</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="20" role="other" sex="M" xml:id="pere">
+						<persName>Pérez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>238</desc></event>
+							<event type="sps"><desc>8</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="21" role="other" sex="M" xml:id="grup">
+						<persName>Grupo de los modernistas</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>332</desc></event>
+							<event type="sps"><desc>13</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="22" role="other" sex="M" xml:id="capi">
+						<persName>El capitán Pitito</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>280</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="23" role="other" sex="M" xml:id="sere">
+						<persName>Un sereno</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>418</desc></event>
+							<event type="sps"><desc>14</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="24" role="other" sex="M" xml:id="voz">
+						<persName>La voz de un vecino</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>93</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="25" role="other" sex="M" xml:id="guar">
+						<persName>Un guardia del orden</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>578</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="26" role="other" sex="M" xml:id="otro">
+						<persName>Otro guardia del orden</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>283</desc></event>
+							<event type="sps"><desc>8</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="27" role="other" sex="M" xml:id="sera">
+						<persName>Serafín el bonito</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>866</desc></event>
+							<event type="sps"><desc>22</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="28" role="other" sex="M" xml:id="cela">
+						<persName>Un celador</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="29" role="other" sex="M" xml:id="pres">
+						<persName>Un preso</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2016</desc></event>
+							<event type="sps"><desc>25</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="30" role="other" sex="M" xml:id="cons">
+						<persName>El conserje de la redacción</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>199</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="31" role="other" sex="M" xml:id="fili">
+						<persName>Don Filiberto</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>4376</desc></event>
+							<event type="sps"><desc>33</desc></event>
+							<event type="rss"><desc>15</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="32" role="other" sex="M" xml:id="mini">
+						<persName>El ministro de la gobernación</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2534</desc></event>
+							<event type="sps"><desc>30</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="33" role="other" sex="M" xml:id="dieg">
+						<persName>Dieguito</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1780</desc></event>
+							<event type="sps"><desc>18</desc></event>
+							<event type="rss"><desc>9</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="34" role="other" sex="M" xml:id="ujie">
+						<persName>ujier</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>243</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="35" role="other" sex="F" xml:id="viej">
+						<persName>Una vieja pintada</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>495</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="36" role="other" sex="F" xml:id="luna">
+						<persName>La lunares</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1906</desc></event>
+							<event type="sps"><desc>35</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="37" role="other" sex="M" xml:id="jove">
+						<persName>Un joven desconocido</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>222</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="38" role="other" sex="F" xml:id="madr">
+						<persName>La madre del niño muerto</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>356</desc></event>
+							<event type="sps"><desc>9</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="39" role="other" sex="M" xml:id="empe">
+						<persName>El empeñista</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>321</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="40" role="other" sex="F" xml:id="port">
+						<persName>La portera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1511</desc></event>
+							<event type="sps"><desc>16</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="41" role="other" sex="M" xml:id="alba">
+						<persName>Un albañil</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>164</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="42" role="other" sex="F" xml:id="veja">
+						<persName>Una vieja</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>25</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="43" role="other" sex="F" xml:id="trap">
+						<persName>La trapera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>46</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="44" role="other" sex="M" xml:id="reti">
+						<persName>El retirado</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>79</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="45" role="other" sex="F" xml:id="otra">
+						<persName>Otra portera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="46" role="other" sex="F" xml:id="veci">
+						<persName>Una vecina</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>489</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="47" role="other" sex="M" xml:id="basi">
+						<persName>Basilio Soulinake</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2124</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="48" role="other" sex="M" xml:id="coch">
+						<persName>Un cochero de la funeraria</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>235</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="49" role="other" sex="M" xml:id="sepu">
+						<persName>Un sepulturero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>825</desc></event>
+							<event type="sps"><desc>14</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="50" role="other" sex="M" xml:id="osep">
+						<persName>Otro sepulturero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>588</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="51" role="other" sex="M" xml:id="rube">
+						<persName>Rubén Darío</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2516</desc></event>
+							<event type="sps"><desc>43</desc></event>
+							<event type="rss"><desc>18</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="52" role="other" sex="M" xml:id="marq">
+						<persName>El marqués de Bradomín</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1958</desc></event>
+							<event type="sps"><desc>21</desc></event>
+							<event type="rss"><desc>9</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="53" role="other" sex="M" xml:id="poll">
+						<persName>El pollo del pay-pay</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>605</desc></event>
+							<event type="sps"><desc>13</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="54" role="other" sex="F" xml:id="peri">
+						<persName>La periodista</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>120</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="55" role="other" sex="M" xml:id="veno">
+						<persName>Un vecino</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>35</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="56" role="other" sex="M" xml:id="guin">
+						<persName>Un guindilla</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>117</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="57" role="other" sex="M" xml:id="tabe">
+						<persName>Un tabernero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>287</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="58" role="other" sex="M" xml:id="llav">
+						<persName>El llavero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>85</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="59" role="other" sex="M" xml:id="can">
+						<persName>can</persName>
+						<trait type="nature"><desc>animal</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>20</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="60" role="other" sex="M" xml:id="gato">
+						<persName>gato</persName>
+						<trait type="nature"><desc>animal</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>14</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="61" role="other" sex="M" xml:id="loro">
+						<persName>Un loro</persName>
+						<trait type="nature"><desc>animal</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>13</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="92" role="other" sex="F" xml:id="chia">
+						<persName>La chica</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>155</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					
+					<personGrp n="0" role="other" sex="O" xml:id="turb">
+						<persName>Turbas</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</personGrp>
+				</listPerson>
+			</particDesc>
 		</profileDesc>
 		<revisionDesc status="approved">
-			<change when="2016-06-06" who="#jct" status="draft">Versión inicital TEI.</change>
-			<change when="2016-08-28" who="#emc" status="draft">Estructura XML-TEI del texto revisada.</change>
-			<change when="2016-11-07" who="#jct" status="proposed">Pequeños detalles corregidos.</change>
-			<change when="2017-05-15" who="#jct" status="approved">Resumen añadido.</change>
+			<change status="draft" when="2016-06-06" who="#jct">Versión inicital TEI.</change>
+			<change status="draft" when="2016-08-28" who="#emc">Estructura XML-TEI del texto revisada.</change>
+			<change status="proposed" when="2016-11-07" who="#jct">Pequeños detalles corregidos.</change>
+			<change status="approved" when="2017-05-15" who="#jct">Resumen añadido.</change>
+			<change when="2017-08-18" who="#jct">Metadatos de personajes añadidos.</change>
+			<change when="2017-11-10" who="#jct">Revisión de metadatos a partir del texto</change>
+
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<front>
-		<div>
-			<head>Luces de bohemia: Esperpento</head>
-		</div>
-		<div>
-			<castList>
-				<head>Dramatis personae</head>
+			<div>
+				<head>Luces de bohemia: Esperpento</head>
+			</div>
+			<div>
+				<castList>
+					<head>Dramatis personae</head>
 					<castItem>
-						<role xml:id="max">Max Estrella</role>
+						<role corresp="#max">Max Estrella</role>
 						<roleDesc> </roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="coll">Madame Collet</role>
+						<role corresp="#coll">Madame Collet</role>
 						<roleDesc>Su mujer</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="clau">Claudinita</role>
+						<role corresp="#clau">Claudinita</role>
 						<roleDesc>Su hija</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="lati">Don Latino de Hispalis</role>
+						<role corresp="#lati">Don Latino de Hispalis</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="zara">Zaratustra</role>
+						<role corresp="#zara">Zaratustra</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="gay">Don Gay</role>
+						<role corresp="#gay">Don Gay</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pelo">Un pelón</role>
+						<role corresp="#pelo">Un pelón</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="chica">La chica de la portera</role>
+						<role corresp="#chica">La chica de la portera</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pica">Pica lagartos</role>
-						<roleDesc></roleDesc>
-						<actor></actor>
-					</castItem>
-					 <castItem>
-						<role xml:id="chic">Un chico de taberna</role>
+						<role corresp="#pica">Pica lagartos</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pisa">Enriqueta la pisa bien</role>
+						<role corresp="#chic">Un chico de taberna</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="rey">El rey de Portugal</role>
+						<role corresp="#pisa">Enriqueta la pisa bien</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="borr">Un borracho</role>
+						<role corresp="#rey">El rey de Portugal</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="dori">Dorio de Gadex</role>
+						<role corresp="#borr">Un borracho</role>
+						<roleDesc></roleDesc>
+						<actor></actor>
+					</castItem>
+					<castItem>
+						<role corresp="#dori">Dorio de Gadex</role>
 						<roleDesc>Jovenes modernistas</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="rafa">Rafael de los Vélez</role>
+						<role corresp="#rafa">Rafael de los Vélez</role>
 						<roleDesc>Jovenes modernistas</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="luci">Lucio Vero</role>
+						<role corresp="#luci">Lucio Vero</role>
 						<roleDesc>Jovenes modernistas</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="ming">Mínguez</role>
+						<role corresp="#ming">Mínguez</role>
 						<roleDesc>Jovenes modernistas</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="galv">Gálvez</role>
+						<role corresp="#galv">Gálvez</role>
 						<roleDesc>Jovenes modernistas</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="clar">Clarinito</role>
+						<role corresp="#clar">Clarinito</role>
 						<roleDesc>Jovenes modernistas</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pere">Pérez</role>
+						<role corresp="#pere">Pérez</role>
 						<roleDesc>Jovenes modernistas</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="grup">Grupo de los modernistas</role>
+						<role corresp="#grup">Grupo de los modernistas</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="capi">El capitán Pitito</role>
+						<role corresp="#capi">El capitán Pitito</role>
 						<roleDesc>Capitán de los équites municipales</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="sere">Un sereno</role>
+						<role corresp="#sere">Un sereno</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="voz">La voz de un vecino</role>
+						<role corresp="#voz">La voz de un vecino</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="guar">Un guardia del orden</role>
+						<role corresp="#guar">Un guardia del orden</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="otro">Otro guardia del orden</role>
+						<role corresp="#otro">Otro guardia del orden</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="sera">Serafín el bonito</role>
+						<role corresp="#sera">Serafín el bonito</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cela">Un celador</role>
+						<role corresp="#cela">Un celador</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pres">Un preso</role>
+						<role corresp="#pres">Un preso</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cons">El conserje de la redacción</role>
+						<role corresp="#cons">El conserje de la redacción</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="fili">Don Filiberto</role>
+						<role corresp="#fili">Don Filiberto</role>
 						<roleDesc>Redactor jefe</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="mini">El ministro de la gobernación</role>
+						<role corresp="#mini">El ministro de la gobernación</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="dieg">Dieguito</role>
+						<role corresp="#dieg">Dieguito</role>
 						<roleDesc>Secretario de su excelencia</roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="ujie">ujier</role>
+						<role corresp="#ujie">ujier</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="viej">Una vieja pintada</role>
+						<role corresp="#viej">Una vieja pintada</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="luna">La lunares</role>
+						<role corresp="#luna">La lunares</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="jove">Un joven desconocido</role>
+						<role corresp="#jove">Un joven desconocido</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem> 
 					<castItem>
-						<role xml:id="madr">La madre del niño muerto</role>
+						<role corresp="#madr">La madre del niño muerto</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="empe">El empeñista</role>
+						<role corresp="#empe">El empeñista</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="port">La portera</role>
+						<role corresp="#port">La portera</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="alba">Un albañil</role>
+						<role corresp="#alba">Un albañil</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="veja">Una vieja</role>
+						<role corresp="#veja">Una vieja</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="trap">La trapera</role>
+						<role corresp="#trap">La trapera</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="reti">El retirado</role>
+						<role corresp="#reti">El retirado</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="otra">Otra portera</role>
+						<role corresp="#otra">Otra portera</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="veci">Una vecina</role>
+						<role corresp="#veci">Una vecina</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="basi">Basilio Soulinake</role>
+						<role corresp="#basi">Basilio Soulinake</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="coch">Un cochero de la funeraria</role>
+						<role corresp="#coch">Un cochero de la funeraria</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="sepu">Un sepulturero</role>
+						<role corresp="#sepu">Un sepulturero</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="osep">Otro sepulturero</role>
+						<role corresp="#osep">Otro sepulturero</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="rube">Rubén Darío</role>
+						<role corresp="#rube">Rubén Darío</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="marq">El marqués de Bradomín</role>
+						<role corresp="#marq">El marqués de Bradomín</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="poll">El pollo del pay-pay</role>
+						<role corresp="#poll">El pollo del pay-pay</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="peri">La periodista</role>
+						<role corresp="#peri">La periodista</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="veno">Un vecino</role>
+						<role corresp="#veno">Un vecino</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="guin">Un guindilla</role>
+						<role corresp="#guin">Un guindilla</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="tabe">Un tabernero</role>
+						<role corresp="#tabe">Un tabernero</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="llav">El llavero</role>
+						<role corresp="#llav">El llavero</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="can">can</role>
+						<role corresp="#can">can</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="gato">gato</role>
+						<role corresp="#gato">gato</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="loro">Un loro</role>
+						<role corresp="#loro">Un loro</role>
 						<roleDesc></roleDesc>
 						<actor></actor>
 					</castItem>
 					<stage>Turbas, guardias, perros, gatos, un loro.</stage>
 					<stage>La acción en un Madrid absurdo, brillante y hambriento.</stage>
-			</castList>
-		</div>
+				</castList>
+			</div>
 		</front>
 		<body>
-			<div type="scene" n="1">
+			<div n="1" type="act">
+			<div n="1" type="scene">
 				<head>Escena primera</head>
 				<stage>Hora crepuscular. Un guardillón con ventano angosto, lleno de sol. Retratos, grabados, autógrafos repartidos por las paredes, sujetos con chinches de dibujante. Conversación lánguida de un hombre ciego y una mujer pelirrubia, triste y fatigada. El hombre ciego es un hiperbólico andaluz, poeta de odas y madrigales, <rs key="#max">Máximo Estrella</rs>. A la pelirrubia, por ser francesa, le dicen en la vecindad <rs key="#coll">Madame Collet</rs>.</stage>
 				<sp who="#max">
@@ -512,8 +1229,8 @@
 					<p>A tu padre le distrae.</p>
 				</sp>
 				<sp who="#clau">
-				<speaker>La voz de Claudinita</speaker>
-				<p>¡Ya se siente el olor del aguardiente!</p>
+					<speaker>La voz de Claudinita</speaker>
+					<p>¡Ya se siente el olor del aguardiente!</p>
 				</sp>
 				<stage><rs key="#max">Máximo Estrella</rs> se incorpora con un gesto animoso, esparcida sobre el pecho la hermosa barba con mechones de canas. Su cabeza rizada y ciega, de un gran carácter clásico-arcaico, recuerda los Hermes.</stage>
 				<sp who="#max">
@@ -727,7 +1444,7 @@
 					<p>¿Sabes cómo acaba todo esto? ¡En la taberna de <rs key="#pica">Pica lagartos</rs>!</p>
 				</sp>
 			</div>
-			<div type="scene" n="2">
+			<div n="2" type="scene">
 				<head>Escena segunda</head>
 				<stage>La cueva de <rs key="#zara">Zaratrustra</rs> en el Pretil de los Consejos. Rimeros de libros hacen escombro y cubren las paredes. Empapelan los cuatro vidrios de una puerta cuatro cromos espeluznantes de un novelón por entregas. En la cueva hacen tertulia el gato, el loro, el can y el librero. Zaratustra, abichado y giboso —la cara de tocino rancio y la bufanda de verde serpiente—, promueve, con su caracterización de fantoche, una aguda y dolorosa disonancia muy emotiva y muy moderna. Encogido en el roto pelote de una silla enana, con los pies entrapados y cepones en la tarima del brasero, guarda la tienda. Un ratón saca el hocico intrigante por un agujero.</stage>
 				<sp who="#zara">
@@ -743,8 +1460,8 @@
 					<p>¡Guau!</p>
 				</sp>
 				<sp who="#loro">
-				<speaker>El loro</speaker>
-				<p>¡Viva España!</p>
+					<speaker>El loro</speaker>
+					<p>¡Viva España!</p>
 				</sp>
 				<stage>Están en la puerta <rs key="#max">Max Estrella</rs>Max Estrella y<rs key="#lati">Don Latino de Hispalis</rs>. El poeta saca el brazo por entre los pliegues de su capa, y lo alza majestuoso, en un ritmo con su clásica cabeza ciega.</stage>
 				<sp who="#max">
@@ -807,8 +1524,8 @@
 				</sp>
 				<stage>Ha entrado en la cueva un hombre alto, flaco, tostado del sol. Viste un traje de antiguo voluntario cubano, calza alpargates abiertos de caminante, y se cubre con una gorra inglesa. Es el extraño <rs key="#gay">Don Peregrino Gay</rs>, que ha escrito la crónica de su vida andariega en un rancio y animado castellano, trastocándose el nombre en <rs key="#gay">Don Peregrino Gay</rs>: Sin pasar de la puerta, saluda jovial y circunspecto.</stage>
 				<sp who="#gay">
-				<speaker>Don Gay</speaker>
-				<p>¡Salutem pluriman!</p>
+					<speaker>Don Gay</speaker>
+					<p>¡Salutem pluriman!</p>
 				</sp>
 				<sp who="#zara">
 					<speaker>Zaratustra</speaker>
@@ -868,8 +1585,8 @@
 					<p>¡Vi-va-Es-pa-ña!</p>
 				</sp>
 				<sp who="#can">
-				<speaker>El Can</speaker>
-				<p>¡Guau! ¡Guau!</p>
+					<speaker>El Can</speaker>
+					<p>¡Guau! ¡Guau!</p>
 				</sp>
 				<sp who="#zara">
 					<speaker>Zaratustra</speaker>
@@ -973,7 +1690,7 @@
 					<p>¿Qué sería de este corral nublado? ¿Qué seríamos los españoles? Acaso más tristes y menos coléricos… Quizá un poco más tontos… Aunque no lo creo.</p>
 				</sp>
 				<stage>Asoma la chica de una portera: Trenza en perico, caídas calcetas, cara de hambre.</stage>
-				<sp who="#chica">
+				<sp who="#chia">
 					<speaker>La chica</speaker>
 					<p>¿Ha salido esta semana entrega d’el hijo de la difunta?</p>
 				</sp>
@@ -981,7 +1698,7 @@
 					<speaker>Zaratustra</speaker>
 					<p>Se está repartiendo.</p>
 				</sp>
-				<sp who="#chica">
+				<sp who="#chia">
 					<speaker>La chica</speaker>
 					<p>¿Sabe usted si al fin se casa Alfredo?</p>
 				</sp>
@@ -989,7 +1706,7 @@
 					<speaker>Don Gay</speaker>
 					<p>¿Tú qué deseas, pimpollo?</p>
 				</sp>
-				<sp who="#chica">
+				<sp who="#chia">
 					<speaker>La chica</speaker>
 					<p>A mí, plin. Es Doña Loreta la del coronel quien lo pregunta.</p>
 				</sp>
@@ -1007,7 +1724,7 @@
 				</sp>
 				<stage>Escapa la chica salvando los charcos con sus patas de caña. El peregrino ilusionado en un rincón conferencia con <rs key="#zara">Zaratustra</rs>. <rs key="#max">Máximo Estrella</rs> y <rs key="#lati">Don Latino</rs> se orientan a la taberna de <rs key="#pica">Pica lagartos</rs>, que tiene su clásico laurel en la calle de la Montera.</stage>
 			</div>
-			<div type="scene" n="3">
+			<div n="3" type="scene">
 				<head>Escena tercera</head>
 				<stage>La taberna de<rs key="#pica">Pica lagartos</rs>. Luz de acetileno. Mostrador de cinc. Zaguán oscuro con mesas y banquillos. Jugadores de mus. Borrosos diálogos. <rs key="#max">Máximo estrella</rs> y <rs key="#lati">Don Latino de Hispalis</rs> sombras en las sombras de un rincón obscuro como el dark más inglés, se regalan con sendos quinces de morapio.</stage>
 				<sp who="#chic">
@@ -1430,7 +2147,7 @@
 					<p>¡Mueran los maricas de la Acción Ciudadana! ¡Abajo los ladrones!</p>
 				</sp>
 			</div>
-			<div type="scene" n="4">
+			<div n="4" type="scene">
 				<head>Escena cuarta</head>
 				<stage>Noche. <rs key="#max">Máximo Estrella</rs> y<rs key="#lati">Don Latino de Hispalis</rs>  tambalean asidos del brazo por una calle enarenada y solitaria. Faroles rotos, cerradas todas, ventanas y puertas. En la llama de los faroles un igual temblor verde y macilento. La luna sobre el alero de las casas, partiendo la calle por medio. De tarde en tarde, el asfalto sonoro. Un trote épico. Soldados romanos. Sombras de guardias. Se extingue el eco de la patrulla. La Buñolería Modernista entreabre su puerta, y una banda de luz parte la acera. <rs key="#max">Max</rs> y <rs key="#lati">Don latino</rs>, borrachos lunáticos, filósofos peripatéticos, bajo la línea luminosa de los faroles, caminan y tambalean.</stage>
 				<sp who="#max">
@@ -1976,8 +2693,8 @@
 					<p>A éste habrá que darle para el pelo. Lo cual que sería lástima, porque debe ser hombre de mérito.</p>
 				</sp>
 			</div>
-			<div type="scene" n="5">
-			<head>Escena quinta</head>
+			<div n="5" type="scene">
+				<head>Escena quinta</head>
 				<stage>Zaguán en el Ministerio de la Gobernación. Estantería con legajos. Bancos al filo de la pared. Mesa con carpetas de badana mugrienta. Aire de cueva y olor frío de tabaco rancio. Guardias soñolientos. Policías de la Secreta. Hongos, garrotes, cuellos de celuloide, grandes sortijas, lunares rizosos y flamencos: Hay un viejo chabacano —bisoñé y manguitos de percalina—, que escribe, y un pollo chulapón de peinado reluciente, con brisas de perfumería, que se pasea y dicta humeando un veguero. <rs key="#sera">Don Serafín</rs>, le dicen sus obligados, y la voz de la calle, <rs key="#sera">Serafín, el bonito</rs>. Leve tumulto. Dando voces, la cabeza desnuda, humorista y lunático, irrumpe <rs key="#max">Max Estrella</rs>. <rs key="#lati">Don Latino</rs> le guía por la manga, implorante y suspirante. Detrás asoman los cascos de los guardias y en el corredor se agrupan, bajo la luz de una candileja, pipas, chalinas y melenas del modernismo.</stage>
 				<sp who="#max">
 					<speaker>Max</speaker>
@@ -2197,8 +2914,8 @@
 					<p>¡Creerán esos niños modernistas que aquí se reparten caramelos!</p>
 				</sp>
 			</div>
-			<div type="scene" n="6">
-			<head>Escena sexta</head>
+			<div n="6" type="scene">
+				<head>Escena sexta</head>
 				<stage>El calabozo. Sótano mal alumbrado por una candileja. En la sombra se mueve el bulto de un hombre. Blusa, tapabocas y alpargatas. Pasea hablando solo. Repentinamente se abre la puerta. <rs key="#max">Max Estrella</rs>, empujado y trompicando, rueda al fondo del calabozo. Se cierra de golpe la puerta.</stage>
 				<sp who="#max">
 					<speaker>Max</speaker>
@@ -2417,8 +3134,8 @@
 				</sp>
 				<stage>Se abrazan. El carcelero y el esposado salen. Vuelve a cerrarse la puerta.<rs key="#max">Max Estrella</rs> tantea buscando la pared, y se sienta con las piernas cruzadas, en una actitud religiosa, de meditación asiática. Exprime un gran dolor taciturno el bulto del poeta ciego. Llega de fuera tumulto de voces y galopar de caballos.</stage>
 			</div>
-			<div type="scene" n="7">
-			<head>Escena séptima</head>
+			<div n="7" type="scene">
+				<head>Escena séptima</head>
 				<stage>La redacción de El Popular. Sala baja con piso de baldosas. En el centro, una mesa larga y negra, rodeada de sillas vacías, que marcan los puestos, ante roídas carpetas, y rimeros de cuartillas que destacan su blancura en el círculo luminoso y verdoso de una lámpara con enagüillas. Al extremo, fuma y escribe un hombre calvo, el eterno redactor del perfil triste, el gabán con flecos, los dedos de gancho y las uñas entintadas. El hombre lógico y mítico enciende el cigarro apagado. Se abre la mampara, y el grillo de un timbre rasga el silencio. Asoma <rs key="#cons">el conserje</rs>, vejete renegado, bigotudo, tripón, parejo de aquellos bizarros coroneles que en las procesiones se caen del caballo. Un enorme parecido que extravaga.</stage>
 				<sp who="#cons">
 					<speaker>El conserje</speaker>
@@ -2598,8 +3315,8 @@
 					<p>¿Lo pone usted en las tarjetas?</p>
 				</sp>
 				<sp who="#dori">
-				<speaker>Dorio de Gadex</speaker>
-				<p>Y tengo un anuncio luminoso en casa.</p>
+					<speaker>Dorio de Gadex</speaker>
+					<p>Y tengo un anuncio luminoso en casa.</p>
 				</sp>
 				<sp who="#lati">
 					<speaker>Don Latino</speaker>
@@ -2749,7 +3466,7 @@
 					<p>Ya está transmitida la orden de poner en libertad a nuestro amigo Estrella. Aconséjenle ustedes que no beba. Tiene talento. Puede hacer mucho más de lo que hace. Y ahora váyanse y déjenme trabajar. Tengo que hacerme solo, todo el periódico.</p>
 				</sp>
 			</div>
-			<div type="scene" n="8">
+			<div n="8" type="scene">
 				<head>Escena octava</head>
 				<stage>Secretaría particular de su excelencia. Olor de brevas habanas, malos cuadros, lujo aparente y provinciano. La estancia tiene un recuerdo partido por medio, de oficina y sala de círculo con timba. De repente el grillo del teléfono se orina en el gran regazo burocrático. Y <rs key="#dieg">Dieguito García</rs> —Don Diego del Corral, en la Revista de Tribunales y Estrados— pega tres brincos y se planta la trompetilla en la oreja.</stage>
 				<sp who="#dieg">
@@ -3142,7 +3859,7 @@
 				</sp>
 				<stage>Su excelencia se hunde en una poltrona, ante la chimenea que aventa sobre la alfombra una claridad trémula. Enciende un cigarro con sortija, y pide La Gaceta. Cabálgase los lentes, le pasa la vista, se hace un gorro, y se duerme.</stage>
 			</div>
-			<div type="scene" n="9">
+			<div n="9" type="scene">
 				<head>Escena novena</head>
 				<stage>Un café que prolongan empañados espejos. Mesas de mármol. Divanes rojos. El mostrador en el fondo, y detrás un vejete rubiales, destacado el busto sobre la diversa botillería. El café tiene piano y violín. Las sombras y la música flotan en el vaho de humo, y en el lívido temblor de los arcos voltaicos. Los espejos multiplicadores están llenos de un interés folletinesco. En su fondo, con una geometría absurda, extravaga el café. El compás canalla de la música, las luces en el fondo de los espejos, el vaho de humo penetrado del temblor de los arcos voltaicos cifran su diversidad en una sola expresión. Entran extraños, y son de repente transfigurados en aquel triple ritmo, <rs key="#max">Mala Estrella</rs> y <rs key="#lati">Don Latino</rs>.</stage>
 				<sp who="#max">
@@ -3451,7 +4168,7 @@
 					<p>Y en el rincón de un quicio oscuro,</p>
 					<p>nos repartimos un pan duro</p>
 					<p>con el Marqués de Bradomín!!!</p>
-					</sp>
+				</sp>
 				<sp who="#jove">
 					<speaker>El joven</speaker>
 					<p>Es el final, maestro.</p>
@@ -3474,7 +4191,7 @@
 				</sp>
 				<stage>Levanta su copa, y gustando el aroma del ajenjo, suspira y evoca el cielo lejano de París. Piano y violín atacan un aire de opereta, y la parroquia del café lleva el compás con las cucharillas en los vasos. Después de beber, los tres desterrados confunden sus voces hablando en francés. Recuerdan y proyectan las luces de la fiesta divina y mortal. ¡París! ¡Cabaretes! ¡Ilusión! Y en el ritmo de las frases, desfila, con su pata coja, Papá Verlaine.</stage>
 			</div>
-			<div type="scene" n="10">
+			<div n="10" type="scene">
 				<head>Escena décima</head>
 				<stage>Paseo con jardines. El cielo raso y remoto. La luna lunera. Patrullas de caballería. Silencioso y luminoso, rueda un auto. En la sombra clandestina de los ramajes, merodean mozuelas pingonas y viejas pintadas como caretas. Repartidos por las sillas del paseo, yacen algunos bultos durmientes. <rs key="#max">Max Estrella</rs> y <rs key="#lati">Don Latino</rs> caminan bajo las sombras del paseo. El perfume primaveral de las lilas embalsama la humedad de la noche.</stage>
 				<sp who="#viej">
@@ -3792,16 +4509,16 @@
 				</sp>
 				<stage>De la oscuridad surge la brasa de un cigarro y la tos asmática de<rs key="#lati">Don Latino</rs>. Remotamente, sobre el asfalto sonoro, se acompasa el trote de una patrulla de Caballería. Los focos de un auto. El farol de un sereno. El quicio de una verja. Una sombra clandestina. El rostro de albayalde de otra vieja peripatética. Diferentes sombras.</stage>
 			</div>
-			<div type="scene" n="11">
+			<div n="11" type="scene">
 				<head>Escena undécima</head>
 				<p>Una calle del Madrid austriaco. Las tapias de un convento. Un casón de nobles. Las luces de una taberna. Un grupo consternado de vecinas, en la acera. Una mujer, despechugada y ronca, tiene en los brazos a su niño muerto, la sien traspasada por el agujero de una bala. <rs key="#max">Max EStrella</rs> y <rs key="#lati">Don Latino</rs> hacen un alto.</p>
 				<sp who="#max">
-				<speaker>Max</speaker>
-				<p>También aquí se pisan cristales rotos.</p>
+					<speaker>Max</speaker>
+					<p>También aquí se pisan cristales rotos.</p>
 				</sp>
 				<sp who="#lati">
-				<speaker>Don Latino</speaker>
-				<p>¡La zurra ha sido buena!</p>
+					<speaker>Don Latino</speaker>
+					<p>¡La zurra ha sido buena!</p>
 				</sp>
 				<sp who="#max">
 					<speaker>Max</speaker>
@@ -3982,7 +4699,7 @@
 					<p>¡<rs key="#max">Max</rs>, no te pongas estupendo!</p>
 				</sp>
 			</div>
-			<div type="scene" n="12">
+			<div n="12" type="scene">
 				<head>Escena duodécima</head>
 				<stage>Rinconada en costanilla y una iglesia barroca por fondo. Sobre las campanas negras, la luna clara. <rs key="#lati">Don Latino</rs> y <rs key="#max">Max Estrella</rs> filosofan sentados en el quicio de una puerta. A lo largo de su coloquio, se torna lívido el cielo. En el alero de la iglesia pían algunos pájaros. Remotos albores de amanecida. Ya se han ido los serenos, pero aún están las puertas cerradas. Despiertan las porteras.</stage>
 				<sp who="#max">
@@ -4352,7 +5069,7 @@
 					<p>¡Santísimo Señor! ¡Esto no lo dimana la bebida! ¡La muerte talmente representa! ¡Señá Flora! ¡Señá Flora! ¡Que no puedo demorarme! ¡Ya se me voló un cuarto de día! ¡Que se queda esto a la vindicta pública, señá Flora! ¡Propia la muerte!</p>
 				</sp>
 			</div>
-			<div type="scene" n="13">
+			<div n="13" type="scene">
 				<head>Escena decimatercia</head>
 				<stage>Velorio en un sotabanco. <rs key="#coll">Madame Collet</rs> y <rs key="#clau">Claudinita</rs>, desgreñadas y macilentas, lloran al muerto, ya tendido en la angostura de la caja, amortajado con una sábana, entre cuatro velas. Astillando una tabla, el brillo de un clavo aguza su punta sobre la sien inerme. La caja, embetunada de luto por fuera, y por dentro de tablas de pino sin labrar ni pintar, tiene una sórdida esterilla que amarillea. Está posada sobre las baldosas, de esquina a esquina, y las dos mujeres, que lloran en los ángulos, tienen en las manos cruzadas el reflejo de las velas. <rs key="#dori">Dorio de Gadex</rs>, <rs key="#clari">Clarinito</rs> y<rs key="#pere">Pérez</rs>, arrimados a la pared, son tres fúnebres fantoches en hilera. Repentinamente, entrometiéndose en el duelo, cloquea un rajado repique, la campanilla de la escalera.</stage>
 				<sp who="#dori">
@@ -4665,7 +5382,7 @@
 					<p>¡Mi padre! ¡Mi padre! ¡Mi padre querido!</p>
 				</sp>
 			</div>
-			<div type="scene" n="14">			
+			<div n="14" type="scene">			
 				<head>Escena decimacuarta</head>
 				<stage>Un patio en el cementerio del Este. La tarde fría. El viento adusto. La luz de la tarde, sobre los muros de lápidas, tiene una aridez agresiva. Dos sepultureros apisonan la tierra de una fosa. Un momento suspenden la tarea. Sacan lumbre del yesquero, y las colillas de tras la oreja. Fuman sentados al pie del hoyo.</stage>
 				<sp who="#sepu">
@@ -4797,7 +5514,7 @@
 				<sp who="#marq">
 					<speaker>El Marqués</speaker>
 					<p>¡Qué fantasía! <rs key="#max">Max</rs> nació treinta años después de mi viaje a Méjico. ¿Sabe usted la edad que yo tengo? Me falta muy poco para llevar un siglo a cuestas. Pronto acabaré, querido poeta.</p>
-					</sp>
+				</sp>
 				<sp who="#rube">	
 					<speaker>Rubén</speaker>
 					<p>¡Usted es eterno, <rs key="#marq">Marqués</rs>!</p>
@@ -4917,7 +5634,7 @@
 					<p>¡Ninguna! Pero pudiera haberla.</p>
 				</sp>	
 			</div>
-			<div type="scene" n="15">
+			<div n="15" type="scene">
 				<head>Escena última</head>
 				<stage>La taberna de <rs key="#pica">Pica lagartos</rs>. Lobreguez con un temblor de acetileno. <rs key="#lati">Don Latino de Hispalis</rs>, ante el mostrador, insiste y tartajea convidando al <rs key="#poll">Pollo del pay-pay</rs>. Entre traspiés y traspiés, da la pelma.</stage>
 				<sp who="#lati">
@@ -5255,10 +5972,11 @@
 					<p>¡Cráneo previlegiado!</p>
 				</sp>
 			</div>
+			</div>
 		</body>
 		<back>
 			<div>
-					<p></p>
+				<p></p>
 			</div>
 		</back>
 	</text>

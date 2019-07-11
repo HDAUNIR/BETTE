@@ -1,31 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="estilos.css"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="short">Romance de lobos</title>
+				<title type="short">RomanceLobos</title>
 				<title type="full">Romance de lobos. Comedia bárbara</title>
 				<title type="idno">
 					<idno type="viaf">182910923</idno>
 					<idno type="bne">XX2215996</idno>
+					<idno type="wikidata">Q6111385</idno>
 				</title>
 				<author>
 					<name type="full">Ramón María del Valle Inclán</name>
 					<name type="short">Valle</name>
 					<idno type="viaf">68936773</idno>
 					<idno type="bne">XX1055436</idno>
+					<idno type="wikidata">Q311001</idno>
 				</author>
 				<principal xml:id="mas">María Ángel Somalo</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>044</idno>
+				<idno>
+					<idno type="number">044</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -35,9 +43,9 @@
 				</bibl>
 				<bibl type="electronic-source">
 					<date>2013</date>
-					<publisher>ePubLibre</publisher>
+					<publisher>epublibre</publisher>
 					<pubPlace></pubPlace>
-					<ref target="https://www.epublibre.org/libro/detalle/3362" />
+					<ref target="https://www.epublibre.org/libro/detalle/3362"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1908</date>
@@ -52,18 +60,562 @@
 		</fileDesc>
 
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="comedia-bárbara"></purpose>
+			</textDesc>
 			<abstract>
-				<p>La obra, dividida en tres jornadas, nos presenta la vuelta de don Juan Manuel Montenegro a su casa y la lucha de los hijos por la herencia ante la muerte de su madre.
-La primera de estas jornadas nos presenta al caballero que, borracho, sufre la aparición de la Santa Compaña, un entierro y un grupo de brujas, vuelve a su casa presintiendo la muerte de su esposa. Tras sufrir un complicado viaje por mar se encuentra con una hueste de mendigos  que lo acoge. En escenas diferentes  conocemos que realmente doña María ha muerto y la avaricia de los hijos, que ya están pensando en saquear la casa.</p>
+				<p>La obra, dividida en tres jornadas, nos presenta la vuelta de don Juan Manuel Montenegro a su casa y la lucha de los hijos (Pedrito, Rosendo, Mauro, Gonzalito, Farruquiño) por la herencia ante la muerte de su madre.</p>
+				<p>La primera de estas jornadas nos presenta al caballero que, borracho, sufre la aparición de la Santa Compaña, un entierro y un grupo de brujas, vuelve a su casa presintiendo la muerte de su esposa. Tras sufrir un complicado viaje por mar se encuentra con una hueste de mendigos  que lo acoge. En escenas diferentes  conocemos que realmente doña María ha muerto y la avaricia de los hijos, que ya están pensando en saquear la casa.</p>
 				<p>En la segunda podemos ver las distintas tretas que utilizan los herederos para cobrarse la herencia por adelantado y la llegada del caballero, acompañado de los mendigos, que lo defienden del ataque de uno de sus hijos, con el que se encuentran en el camino. Mientras, el resto de los herederos, en la casa, se entera de la llegada de su padre.</p>
 				<p>El caballero, al llegar a la casa, se da cuenta de que llega tarde para ver viva a su esposa. Invita a los mendigos a pasar, mientras le notifican que sus hijos han huido al saber que venía, aunque Farruquito se presenta y ayuda a su padre a levantar la sepultura de doña María, a la éste quiere ver por última vez, hecho que produce un hondo arrepentimiento en don Juan Manuel.  Los demás descendientes se encuentran con un grupo de chalanes, con los que disputan.</p>
 				<p>La jornada tercera nos presenta a los criados de la casa hablando de su señor, del que dicen que se está dejando morir. Ante las molestias que le ocasiona el servicio, el caballero sale a la playa, donde encuentra a otros mendigos que le recriminan su antiguo proceder con ellos. Cuando vuelve a casa, don Juan Manuel proclama que sus verdaderos hijos son los mendigos acogidos en ella, lo que provoca la burla de sus herederos, que los atacan. Al salir en su defensa, el padre recibe un golpe  de su hijo  Mauro, que termina con él.</p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+					<person n="1" role="protagonist" sex="M" xml:id="caba">
+						<persName>EL CABALLERO, DON JUAN MANUEL DE MONTENEGRO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>21868</desc></event>
+							<event type="sps"><desc>193</desc></event>
+							<event type="rss"><desc>194</desc></event>
+							<event type="scenes"><desc>13</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="antagonist" sex="M" xml:id="pedr">
+						<persName>DON PEDRITO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3221</desc></event>
+							<event type="sps"><desc>53</desc></event>
+							<event type="rss"><desc>34</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="antagonist" sex="M" xml:id="rose">
+						<persName>DON ROSENDO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>816</desc></event>
+							<event type="sps"><desc>24</desc></event>
+							<event type="rss"><desc>5</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="antagonist" sex="M" xml:id="maur">
+						<persName>DON MAURO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1453</desc></event>
+							<event type="sps"><desc>29</desc></event>
+							<event type="rss"><desc>18</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="antagonist" sex="M" xml:id="gonz">
+						<persName>DON GONZALITO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>896</desc></event>
+							<event type="sps"><desc>17</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="farr">
+						<persName>DON FARRUQUIÑO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3213</desc></event>
+							<event type="sps"><desc>60</desc></event>
+							<event type="rss"><desc>33</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="gala">
+						<persName>DON GALÁN</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1043</desc></event>
+							<event type="sps"><desc>24</desc></event>
+							<event type="rss"><desc>5</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="F" xml:id="roja">
+						<persName>LA ROJA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3357</desc></event>
+							<event type="sps"><desc>51</desc></event>
+							<event type="rss"><desc>19</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="M" xml:id="zaga">
+						<persName>EL ZAGAL DE LAS VACAS</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>212</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="F" xml:id="andr">
+						<persName>ANDREÍÑA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2777</desc></event>
+							<event type="sps"><desc>54</desc></event>
+							<event type="rss"><desc>25</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="F" xml:id="rebo">
+						<persName>LA REBOLA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>467</desc></event>
+							<event type="sps"><desc>13</desc></event>
+							<event type="rss"><desc>6</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="F" xml:id="reco">
+						<persName>LA RECOGIDA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>410</desc></event>
+							<event type="sps"><desc>12</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="13" role="other" sex="M" xml:id="cape">
+						<persName>DON MANUELITO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3903</desc></event>
+							<event type="sps"><desc>53</desc></event>
+							<event type="rss"><desc>31</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="M" xml:id="patr">
+						<persName>ABELARDO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>667</desc></event>
+							<event type="sps"><desc>14</desc></event>
+							<event type="rss"><desc>17</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="M" xml:id="maru">
+						<persName>Marinero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1331</desc></event>
+							<event type="sps"><desc>23</desc></event>
+							<event type="rss"><desc>9</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="16" role="other" sex="M" xml:id="mard">
+						<persName>Marinero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>18</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+
+					<person n="17" role="other" sex="M" xml:id="mart">
+						<persName>Marinero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>38</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+
+					<person n="18" role="other" sex="M" xml:id="rapa">
+						<persName>EL RAPAZ</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>50</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="19" role="other" sex="F" xml:id="monc">
+						<persName>DOÑA MONCHA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1205</desc></event>
+							<event type="sps"><desc>27</desc></event>
+							<event type="rss"><desc>20</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="20" role="other" sex="F" xml:id="beni">
+						<persName>BENITA LA COSTURERA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3090</desc></event>
+							<event type="sps"><desc>23</desc></event>
+							<event type="rss"><desc>9</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="21" role="other" sex="M" xml:id="pobr">
+						<persName>EL POBRE DE SAN LÁZARO,</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3137</desc></event>
+							<event type="sps"><desc>24</desc></event>
+							<event type="rss"><desc>19</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="22" role="other" sex="F" xml:id="domi">
+						<persName>DOMINGA DE GÓMEZ</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1303</desc></event>
+							<event type="sps"><desc>21</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="23" role="other" sex="M" xml:id="male">
+						<persName>EL MANCO LEONÉS</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>586</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="24" role="other" sex="M" xml:id="mago">
+						<persName>EL MANCO DE GONDAR</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>189</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="25" role="other" sex="M" xml:id="tull">
+						<persName>EL TULLIDO DE CELTIGOS</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>22</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="26" role="other" sex="F" xml:id="paul">
+						<persName>PAULA LA REINA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>201</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="27" role="other" sex="F" xml:id="anso">
+						<persName>ANDREÍÑA LA SORDA,</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>441</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="28" role="other" sex="M" xml:id="morc">
+						<persName>EL MORCEGO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>851</desc></event>
+							<event type="sps"><desc>19</desc></event>
+							<event type="rss"><desc>5</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="29" role="other" sex="F" xml:id="coim">
+						<persName>coima</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1437</desc></event>
+							<event type="sps"><desc>26</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="30" role="other" sex="F" xml:id="adeg">
+						<persName>ADEGA la inocente</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>127</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="31" role="other" sex="F" xml:id="arte">
+						<persName>ARTEMISA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>691</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>5</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="32" role="other" sex="M" xml:id="flor">
+						<persName>Floriano</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>58</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>5</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="33" role="other" sex="M" xml:id="cieg">
+						<persName>EL CIEGO DE GONDAR</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1209</desc></event>
+							<event type="sps"><desc>16</desc></event>
+							<event type="rss"><desc>8</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="34" role="other" sex="M" xml:id="fuso">
+						<persName>FUSO NEGRO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>4592</desc></event>
+							<event type="sps"><desc>37</desc></event>
+							<event type="rss"><desc>12</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="35" role="other" sex="M" xml:id="mato">
+						<persName>MANUEL TOVÍO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="36" role="other" sex="M" xml:id="mafo">
+						<persName>MANUEL FONSECA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="37" role="other" sex="M" xml:id="peab">
+						<persName>PEDRO ABUÍN</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="38" role="other" sex="M" xml:id="seba">
+						<persName>SEBASTIÁN DE XOGAS</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>37</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="39" role="other" sex="M" xml:id="rami">
+						<persName>RAMIRO DE BEALO</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>685</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>6</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="40" role="other" sex="M" xml:id="oliv">
+						<persName>Oliveros</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>436</desc></event>
+							<event type="sps"><desc>14</desc></event>
+							<event type="rss"><desc>14</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="41" role="other" sex="F" xml:id="sabe">
+						<persName>DOÑA SABELITA</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>546</desc></event>
+							<event type="sps"><desc>23</desc></event>
+							<event type="rss"><desc>15</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="42" role="other" sex="F" xml:id="viud">
+						<persName>Una Viuda</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1646</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="43" role="other" sex="O" xml:id="unav">
+						<persName>Una Voz</persName>
+						<trait type="nature"><desc>non-human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>281</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="44" role="other" sex="O" xml:id="otra">
+						<persName>Otra Voz</persName>
+						<trait type="nature"><desc>non-human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>598</desc></event>
+							<event type="sps"><desc>12</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>					
+					<personGrp n="45" role="other" sex="O" xml:id="much">
+						<persName>Muchas voces</persName>
+						<trait type="nature"><desc>non-human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>834</desc></event>
+							<event type="sps"><desc>9</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</personGrp>				
+					<personGrp role="other" sex="F" xml:id="bruj">
+						<persName>Las brujas</persName>
+						<trait type="nature"><desc>human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>110</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="46" role="lover" sex="F" xml:id="mari">
+						<persName>Doña María</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>62</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>				
+					<person n="47" role="other" sex="O" xml:id="voz_">
+						<persName>La Voz De Todos</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>79</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>		
+				</listPerson>
+			</particDesc>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2016-06-06" who="#jct" status="draft">Versión inicital TEI.</change>
-			<change when="2016-08-01" who="#mas" status="proposed">Codificación TEI de la obra.</change>
-			<change when="2016-11-14" who="#jct" status="approved">Algunas modificaciones mínimas.</change>
+			<change status="draft" when="2016-06-06" who="#jct">Versión inicital TEI.</change>
+			<change status="proposed" when="2016-08-01" who="#mas">Codificación TEI de la obra.</change>
+			<change status="approved" when="2016-11-14" who="#jct">Algunas modificaciones mínimas.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#jct">Revisión de metadatos a partir del resumen</change>
+
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -72,133 +624,133 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 				<castList>
 					<head>DRAMATIS PERSONAE</head>
 					<castItem>
-						<role xml:id="caba">EL CABALLERO, DON JUAN MANUEL DE MONTENEGRO</role>
+						<role corresp="#caba">EL CABALLERO, DON JUAN MANUEL DE MONTENEGRO</role>
 					</castItem>
 					<castItem>
 						<role>Sus hijos:</role>
 					</castItem>
 					<castItem>
-						<role xml:id="pedr">DON PEDRITO,</role>
+						<role corresp="#pedr">DON PEDRITO,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="rose">DON ROSENDO,</role>
+						<role corresp="#rose">DON ROSENDO,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="maur">DON MAURO,</role>
+						<role corresp="#maur">DON MAURO,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="gonz">DON GONZALITO,</role>
+						<role corresp="#gonz">DON GONZALITO,</role>
 						<roleDesc>y</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="farr">DON FARRUQUIÑO.</role>
+						<role corresp="#farr">DON FARRUQUIÑO.</role>
 					</castItem>
 					<castItem>
 						<role>Sus criados:</role>
 					</castItem>
 					<castItem>
-						<role xml:id="gala">DON GALÁN,</role>
+						<role corresp="#gala">DON GALÁN,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="roja">LA ROJA,</role>
+						<role corresp="#roja">LA ROJA,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="zaga">EL ZAGAL DE LAS VACAS,</role>
+						<role corresp="#zaga">EL ZAGAL DE LAS VACAS,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="andr">ANDREÍÑA,</role>
+						<role corresp="#andr">ANDREÍÑA,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="rebo">LA REBOLA</role>
+						<role corresp="#rebo">LA REBOLA</role>
 						<roleDesc>y</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="reco">LA RECOGIDA.</role>
+						<role corresp="#reco">LA RECOGIDA.</role>
 					</castItem>
 					<castItem>
-						<role xml:id="cape">DON MANUELITO,</role>
+						<role corresp="#cape">DON MANUELITO,</role>
 						<roleDesc>su capellán</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="patr">ABELARDO</role>
+						<role corresp="#patr">ABELARDO</role>
 						<roleDesc>(patrón de la barca),</roleDesc>
 					</castItem>
 					<castItem>
 						<role>LOS MARINEROS</role>
 					</castItem>
 					<castItem>
-						<role xml:id="maru"></role>
+						<role corresp="#maru"></role>
 					</castItem>
 					<castItem>
-						<role xml:id="mard"></role>
+						<role corresp="#mard"></role>
 					</castItem>
 					<castItem>
-						<role xml:id="mart"></role>
+						<role corresp="#mart"></role>
 						<roleDesc>y</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="rapa">EL RAPAZ</role>
+						<role corresp="#rapa">EL RAPAZ</role>
 					</castItem>
 					<castItem>
 						<role>Familiares de la casa:</role>
 					</castItem>
 					<castItem>
-						<role xml:id="monc">DOÑA MONCHA</role>
+						<role corresp="#monc">DOÑA MONCHA</role>
 						<roleDesc>y</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="beni">BENITA LA COSTURERA.</role>
+						<role corresp="#beni">BENITA LA COSTURERA.</role>
 					</castItem>
 					<castItem>
 						<role>La Hueste de Mendigos,</role>
 						<roleDesc>donde van:</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="pobr">EL POBRE DE SAN LÁZARO,</role>
+						<role corresp="#pobr">EL POBRE DE SAN LÁZARO,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="domi">DOMINGA DE GÓMEZ,</role>
+						<role corresp="#domi">DOMINGA DE GÓMEZ,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="male">EL MANCO LEONÉS,</role>
+						<role corresp="#male">EL MANCO LEONÉS,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="mago">EL MANCO DE GONDAR,</role>
+						<role corresp="#mago">EL MANCO DE GONDAR,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="tull">EL TULLIDO DE CELTIGOS,</role>
+						<role corresp="#tull">EL TULLIDO DE CELTIGOS,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="paul">PAULA LA REINA</role>
+						<role corresp="#paul">PAULA LA REINA</role>
 						<roleDesc>(que da el pecho a un niño),</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="anso">ANDREÍÑA LA SORDA,</role>
+						<role corresp="#anso">ANDREÍÑA LA SORDA,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="morc">EL MORCEGO</role>
+						<role corresp="#morc">EL MORCEGO</role>
 						<roleDesc>con su </roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="coi">coima</role>
+						<role corresp="#coi">coima</role>
 						<roleDesc>y</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="adeg">ADEGA la inocente.</role>
+						<role corresp="#adeg">ADEGA la inocente.</role>
 					</castItem>
 					<castItem>
-						<role xml:id="arte">ARTEMISA</role>
+						<role corresp="#arte">ARTEMISA</role>
 						<roleDesc>la del Casal, bastarda del Caballero, con un hijo pequeño, a quien llaman</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="flor">Floriano</role>
+						<role corresp="#flor">Floriano</role>
 					</castItem>
 					<castItem>
-						<role xml:id="cieg">EL CIEGO DE GONDAR</role>
+						<role corresp="#cieg">EL CIEGO DE GONDAR</role>
 						<roleDesc>con su lazarillo</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="fuso">FUSO NEGRO,</role>
+						<role corresp="#fuso">FUSO NEGRO,</role>
 						<roleDesc>loco.</roleDesc>
 					</castItem>
 					<castItem>
@@ -207,59 +759,59 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<roleDesc>son:</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="mato">MANUEL TOVÍO,</role>
+						<role corresp="#mato">MANUEL TOVÍO,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="mafo">MANUEL FONSECA,</role>
+						<role corresp="#mafo">MANUEL FONSECA,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="peab">PEDRO ABUÍN,</role>
+						<role corresp="#peab">PEDRO ABUÍN,</role>
 					</castItem>
 					<castItem>
-						<role xml:id="seba">SEBASTIÁN DE XOGAS</role>
+						<role corresp="#seba">SEBASTIÁN DE XOGAS</role>
 						<roleDesc>y</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="rami">RAMIRO DE BEALO</role>
+						<role corresp="#rami">RAMIRO DE BEALO</role>
 						<roleDesc>(con sus dos hijos). </roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="oliv"></role>
+						<role corresp="#oliv"></role>
 					</castItem>
 					<castItem>
-						<role xml:id="sabe">DOÑA SABELITA,</role>
+						<role corresp="#sabe">DOÑA SABELITA,</role>
 						<roleDesc>que fue barragana del Caballero</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="viud">Una Viuda</role>
+						<role corresp="#viud">Una Viuda</role>
 						<roleDesc>con sus cuatro huérfanos.</roleDesc>
 					</castItem>
 					<castItem>
 						<role>La Santa Compaña de las Ánimas en pena</role>
 					</castItem>
 					<castItem>
-						<role xml:id="unav"></role>
+						<role corresp="#unav"></role>
 					</castItem>
 					<castItem>
-						<role xml:id="otra"></role>
+						<role corresp="#otra"></role>
 					</castItem>
 					<castItem>
-						<role xml:id="much"></role>
+						<role corresp="#much"></role>
 					</castItem>
 					<castItem>
-						<role xml:id="mari"></role>
+						<role corresp="#mari"></role>
 					</castItem>
 					<castItem>
-						<role xml:id="voz_"></role>
+						<role corresp="#voz_"></role>
 					</castItem>
 				</castList>
 			</div>
 		</front>
 
 		<body>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>JORNADA PRIMERA</head> 
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage>Un camino. A lo lejos, el verde y oloroso cementerio de una aldea. Es de noche, y la luna naciente brilla entre los cipreses. <rs key="#caba">Don Juan Manuel Montenegro</rs>, que vuelve borracho de la feria, cruza por el camino, jinete en un potro que se muestra inquieto y no acostumbrado a la silla. <rs key="#caba">El hidalgo</rs>, que se tambalea de borrén a borrén, le gobierna sin cordura, y tan pronto le castiga con la espuela como le recoge las riendas. Cuando el caballo se encabrita, luce una gran destreza y reniega como un condenado.</stage>
 					<sp who="#caba">
@@ -341,7 +893,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage>El corro de <rs key="#bruj">las brujas</rs> deja caer en el fondo de la corriente, la piedra que todas en un remolino llevaban por el aire, y huyen convertidas en murciélagos. El entierro se vuelve hacia la aldea y desaparece en una niebla. <rs key="#caba">EL CABALLERO</rs>, como si despertase de un sueño, se halla tendido en medio de la vereda. La luna ha trasmontado los cipreses del cementerio y los nimba de oro. El caballo pace la yerba lozana y olorosa que crece en el rocío de la tapia. <rs key="#caba">EL CABALLERO</rs> vuelve a montar y emprende el camino de su casa.</stage>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA SEGUNDA</head>
 					<stage><rs key="#caba">DON JUAN MANUEL MONTENEGRO</rs>, llama con grandes voces ante el portón de su casa. Ladran los perros atados en el huerto, bajo la parra. Una ventana se abre en lo alto de la torre, sobre la cabeza del <rs key="#caba">hidalgo</rs>, y asoma la figura grotesca de una <rs key="#roja">vieja</rs> en camisa, con un candil en la mano.</stage>
 					<sp who="#caba">
@@ -570,7 +1122,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<p>Dale a ese <rs key="#maru">hombre</rs> algo con que se conforte, para poder salir inmediatamente. ¡Ay, muerte negra!</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA TERCERA</head>
 					<stage>Noche de tormenta en una playa. Algunas mujerucas apenadas, inmóviles sobre las rocas y cubiertas con negros manteos, esperan el retorno de las barcas pescadoras. El mar ululante y negro, al estrellarse en las restingas moja aquellos pies descalzos y mendigos. Las gaviotas revolotean en la playa, y su incesante graznar y el lloro de algún niño, que la madre cobija bajo el manto, son voces de susto que agrandan la voz extraordinaria del viento y del mar. Entre las tinieblas brilla la luz de un farol. <rs key="#caba">DON JUAN MANUEL</rs> y <rs key="#maru">EL MARINERO</rs> bajan hacia la playa.</stage>
 					<sp who="#maru">
@@ -750,7 +1302,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage>A la voz de  <rs key="#patr">EL PATRÓN</rs> los <rs key="#maru #mard #mart">cuatro hombres</rs> que tripulan la barca, uno tras otro, van saltando a bordo con un rosmar de protesta. <rs key="#patr">EL PATRÓN</rs> manda aparejar la vela y se inclina sobre la borda de popa para armar la caña del timón. Después se santigua. La barca se columpia en la cresta espumosa de una ola. Comienza la travesía.</stage>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA CUARTA</head>
 					<stage>Sala desmantelada en una casa hidalga, a la entrada de Flavia-Longa. Llegan hasta allí, desde otra estancia, las voces de los <rs key="#gala #roja #zaga #andr #rebo #reco">criados</rs>, que rinden el planto a la <rs key="#mari">señora</rs>, que acaba de morir. Los <rs key="#pedr #rose #maur #gonz #farr">hijos</rs> han hecho campaña en la sala, y rifan al son que se reparten lo que afanaron al saquear la casa. Allí están <rs key="#pedr">DON PEDRITO</rs>, <rs key="#rose">DON ROSENDO</rs>, <rs key="#gonz">DON GONZALITO</rs>, <rs key="#maur">DON MAURO</rs> y <rs key="#farr">DON FARRUQUIÑO</rs>. Los cinco <rs key="#pedr #rose #maur #gonz #farr">hermanos</rs> se parecen: Altos, cenceños, apuestos, con los ojos duros y el corvar de la nariz soberbio. <rs key="#farr">DON FARRUQUIÑO</rs> se distingue de los otros en que lleva tonsura y alzacuello.</stage>
 					<sp who="#rose">
@@ -889,7 +1441,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage><rs key="#cape">EL CAPELLÁN</rs> sale, y el doble de la campana que resuena en la sala desmantelada, detiene por un momento aquel expolio a que se entregan desde el comienzo de la noche los cinco <rs key="#pedr #rose #maur #gonz #farr">bigardos</rs>.</stage>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA QUINTA</head>
 					<stage>La alcoba donde murió <rs key="#mari">DOÑA MARÍA</rs>. Es el amanecer, uno de esos amaneceres adustos e invernales en que aúlla el viento como un lobo y se arremolina la llovizna. En la alcoba, la luz del día naciente batalla con la luz de los cirios que arden a la cabecera de la <rs key="#mari">muerta</rs>, y pasa por las paredes de la estancia como la sombra de un pájaro. La lluvia azota los cristales de la ventana y se ahíla en un lloro terco y frío, de una tristeza monótona, que parece exprimir toda la tristeza del invierno y de la vida. La ventana se abre sobre el mar, un vasto mar verdoso y temeroso. Es aquella una de esas angostas ventanas de montante, labradas como confesionarios en lo hondo de un muro, y flanqueadas por poyos de piedra donde duerme el gato y suele la abuela hilar su copo. Dos mujeres velan el cadáver: La una, alta y seca, con los cabellos en mechones blancos y los ojos en llamas negras, es sobrina de la muerta y se llama <rs key="#monc">DOÑA MONCHA</rs>. La otra, menuda, compungida y melosa, con gracia especial para cortar mortajas, es blanca, con una blancura rancia de viejo marfil, que destaca con cierta expresión devota sobre un hábito nazareno: Se llama <rs key="#beni">BENITA LA COSTURERA</rs>.</stage>
 					<sp who="#beni">
@@ -1038,7 +1590,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage><rs key="#beni">BENITA LA COSTURERA</rs> obedece con un gesto compungido, y después, graves y silenciosas, las dos <rs key="#monc #beni">mujeres</rs> amortajan el cuerpo de <rs key="#mari">DOÑA MARÍA</rs>.</stage>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA SEXTA</head>
 					<stage>Una playa de pinares: En aquella vastedad desierta, el viento y el mar juntan sus voces en un son oscuro y terrible. La barca, con el velamen roto, ha dado de través en los arrecifes de la orilla, y un <rs key="#maru">marinero</rs> salta a reconocer la tierra. <rs key="#patr">EL PATRÓN</rs> habla desde a bordo.</stage>
 					<sp who="#patr">
@@ -1323,9 +1875,9 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					<stage>La voz del <rs key="#caba">viejo linajudo</rs>, desmintiendo sus palabras, se rompe en un sollozo. La <rs key="#pobr #domi #male #mago #tull #paul #anso #morc #coim #adeg">hueste de mendigos</rs> comienza a rezar un padrenuestro que guía <rs key="#pobr">EL POBRE DE SAN LÁZARO</rs>.</stage>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>JORNADA SEGUNDA</head>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage>Una sala con tribuna sobre la capilla, en la casona de Flavia-Longa. Están cerradas todas las ventanas, el sol mañanero ilumina los resquicios, y las rayolas del polvo tiemblan en impalpables escalas: El olor de la cera y del incienso ha quedado flotando en la estancia. La capilla yace desierta y oscura después del funeral de <rs key="#mari">Doña María</rs>. Dos de sus hijos han entrado recatándose, en la sala.</stage>
 					<sp who="#farr">
@@ -1590,7 +2142,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage>Sale de la estancia andando hacia atrás. Despavorido bajó a la cuadra, donde tiene su caballo, le puso la silla y se lanzó al camino, aquel camino aldeano de verdes orillas, que cruza por delante de la casona hidalga. Uno de esos caminos humildes, que guían a todas partes.</stage>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA SEGUNDA</head>
 					<stage>Un poco más adelante, siguiendo por aquel camino humilde de verdes orillas, un paraje de álamos y de agua. El <rs key="#pedr">primogénito</rs> encuentra a su <rs key="#caba">padre</rs>, que viene a pie entre la <rs key="#pobr #domi #male #mago #tull #paul #anso #morc #coim #adeg">hueste de mendigos</rs>, y refrena el caballo haciéndose a un lado para dejar paso a todos. <rs key="#caba">Don Juan Manuel</rs> no le reconoce hasta cruzar por su lado. Entonces le mira con altivez, pero sin cólera, desengañado, desdeñoso, triste.</stage>
 					<sp who="#caba">
@@ -1753,7 +2305,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<p>¡Era la madre de los pobres! ¡Nunca hubo puerta de más caridad! ¡Dios nuestro Señor la llamó para sí y la tiene en el Cielo al lado de la Virgen Santísima! ¡Era la madre de los pobres!</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA TERCERA</head>
 					<stage>La cocina, en la casona de Flavia-Longa. <rs key="#rose">DON ROSENDO</rs>, <rs key="#maur">DON MAURO</rs> y <rs key="#gonz">DON GONZALITO</rs>, se desayunan con migas y buen vino, al amor de la lumbre. <rs key="#andr">Andreíña</rs>, la criada vieja y encubridora, trae la nueva de que está llegando <rs key="#caba">Don Juan Manuel</rs>.</stage>
 					<sp who="#andr">
@@ -2327,7 +2879,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage><rs key="#beni">BENITA LA COSTURERA</rs> se limpia los ojos enfermos con un trapo de hilo que trasciende a estoraque, y sale de la cocina. La <rs key="#pobr #domi #male #mago #tull #paul #anso #morc #coim #adeg">hueste mendicante</rs> tiene un murmullo de gracias, en unas bocas triste, y en otras bocas jocundo. Como un rezo en la boca llagada del <rs key="#pobr">leproso</rs>.</stage>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA CUARTA</head>
 					<stage>La capilla. <rs key="#farr">DON FARRUQUIÑO</rs> aparece en el presbiterio, sentado en un escaño con espaldar de viejo y noble belludo, orlado por grandes clavos de bronce. Enfrente se abre el arco de la tribuna, donde se sume la figura negra y bruja de <rs key="#andr">Andreíña</rs>.</stage>
 					<sp who="#andr">
@@ -2655,7 +3207,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<p>¡Abierta queda mi sepultura!… ¡Maldito quien intente poner la losa antes de haber bajado yo a la cueva! ¡<rs key="#mari">María Soledad</rs>, espérame!</p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA QUINTA</head>
 					<stage>La alcoba donde murió <rs key="#mari">Doña María</rs>. En el fondo, bajo los cortinajes de damasco carmesí, que tienen algo de litúrgico, abandonada y fría aparece la cama antigua, de nogal tallado y lustroso. <rs key="#caba">Don Juan Manuel</rs> está en el umbral de la puerta. Su <rs key="#farr">hijo</rs> y el <rs key="#cape">capellán</rs> le sostienen. El rostro pálido y la barba de plata se sumen en el pecho.</stage>
 					<sp who="#caba">
@@ -2689,7 +3241,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage><rs key="#cape">EL CAPELLÁN</rs> traza una cruz con su diestra sobre la cabeza del <rs key="#caba">viejo linajudo</rs>, y el murmullo de los rostros aldeanos y mendigos, resplandeciente de fe, se eleva en una grave onda.</stage>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA SEXTA</head>
 					<stage>Sobre la encrucijada de dos caminos aldeanos, un campo de yerba humilde salpicada de manzanilla, donde hay un retablo de ánimas entre cuatro cipreses. Es paraje en que hacen huelgo los caminantes, y rezan las viejas, anochecido. <rs key="#rose">DON ROSENDO</rs>, <rs key="#maur">DON MAURO</rs> y <rs key="#gonz">DON GONZALITO</rs>, descansan al pie de los cipreses, con los caballos del diestro. Más lejos un mozo aldeano deja pacer la yunta de sus vacas, y a lo largo de los caminos, que se pierden entre verdes y sonoros maizales, trotan cabalgadas de chalanes que van de feria, y cruzan graves y procesionales, viejos vestidos de estameña, con sus grandes bueyes de cobre luciente, hermosos como ídolos, con verdes ramos de roble en las testas.</stage>
 					<sp who="#maur">
@@ -2937,9 +3489,9 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 				</div>
 			</div>
-			<div type="act" n="3">
+			<div n="3" type="act">
 				<head>JORNADA TERCERA</head>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage>Un rincón en la iglesia de Flavia-Longa. Llega como mosconeo, la voz desentonada y gangosa del abad, un exclaustrado sordo, que guía las Cruces en la Capilla de Jesús Nazareno. Una mujeruca del pueblo, que lleva el manteo a modo de capuz, suspira al terminar sus rezos y besa la tierra con la lengua. Es muy vieja, toda arrugada, con ese color oscuro y clásico que tienen las nueces de los nogales centenarios. Atraviesa la nave, y el lento arrastrar de sus madreñas cuenta sus años. Aquella mujeruca sirve desde niña en la casa de <rs key="#caba">Don Juan Manuel Montenegro</rs>: Es Micaela <rs key="#roja">LA ROJA</rs>, que conoció a los difuntos señores cuando entró de rapaza de las vacas, por el yantar y el vestido. Ahora camina apoyada en un palo. Renqueando entra en una capilla con puerta de hierro, toda tristeza y herrumbre, y se acerca a una mujer que reza. Es <rs key="#sabe">SABELITA</rs>, que fue otro tiempo barragana de <rs key="#caba">EL CABALLERO</rs>. Con las cabezas juntas hablan quedo en aquella sombra húmeda que parece destilar oraciones, y dos velas se consumen en el altar, dos velas rizadas y pintadas como dos madamas.</stage>
 					<sp who="#roja">
@@ -3122,7 +3674,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<p>¡Dios te lo premiará, mi <rs key="#mari">sabe</rs>!</p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA SEGUNDA</head>
 					<stage>Una antesala en la casona. <rs key="#andr">Andreíña</rs> hila y otros criados desgranan maíz, a la redonda de una cesta colmada de mazorcas. Hablan en voz baja, atentos a los pasos que vienen y van en la alcoba donde murió la <rs key="#mari">señora</rs> ama. La puerta está cerrada, y de tiempo en tiempo alguno de los criados se acerca sin ruido y escucha. Los otros callan contemplándole, y cuando se les junta, otra vez comienza el cálido susurro de la conversación. Y el rumor de los pasos que vienen y van, parece marcar todos los gestos y todas las actitudes de aquellos criados que desgranan mazorcas en la antesala oscura.</stage>
 					<sp who="#andr">
@@ -3398,7 +3950,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<sp who="#arte">
 						<speaker>Artemisa</speaker>
-						<p>¡<rs key="#caba">Señor</rs>!… ¡Señor!… ¿Ya no me conoce? ¡Soy <rs key="#arte">Artemisa</rs>!… ¡<rs key="#caba">Señor</rs>, franquee la puerta! ¡Por el alma de aquella <rs key="#mari">santa</rs>! ¡<rs key="#caba">Señor</rs>, que soy <rs key="#arte">Artemisa></rs>!</p>
+						<p>¡<rs key="#caba">Señor</rs>!… ¡Señor!… ¿Ya no me conoce? ¡Soy <rs key="#arte">Artemisa</rs>!… ¡<rs key="#caba">Señor</rs>, franquee la puerta! ¡Por el alma de aquella <rs key="#mari">santa</rs>! ¡<rs key="#caba">Señor</rs>, que soy <rs key="#arte">Artemisa&gt;</rs>!</p>
 					</sp>
 					<stage>Las pisadas que vienen y van dejan de oírse y la puerta se abre con estrépito. En el umbral, sobre el fondo oscuro de la alcoba, aparece la figura de <rs key="#caba">Don Juan Manuel Montenegro</rs>. Tiene un fulgor de cólera en las pupilas, en las manos de marfil añoso la escopeta, y su barba se derrama sobre el pecho, trémula y blanca.</stage>
 					<sp who="#caba">
@@ -3464,7 +4016,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<p>¡De hoy son nuestros amos!</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA TERCERA</head>
 					<stage><rs key="#caba">Don Juan Manuel Montenegro</rs> cruza una y otra calle, calles angostas asombradas por altas tapias, sobre las cuales ya se derrama una higuera, ya descuella un ciprés. ¡Viejas calles de una vieja villa feudal, con iglesias, con caserones, con huertos conventuales! De los negruzcos aleros gotea la lluvia, y en las angostas ventanas que se abren debajo asoma el contorno de un gato, alguna rara vez.</stage>
 					<sp who="#caba">
@@ -3684,7 +4236,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 					</sp>
 					<stage><rs key="#caba">EL CABALLERO</rs> se aleja lentamente. Los tres mendigos le miran desvanecerse entre los roquedos de la playa. La Luna parece agigantar la figura del viejo hidalgo y poner un nimbo en su cabeza blanca y desnuda.</stage>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA CUARTA</head>
 					<stage>Una costa brava ante un mar verdoso y temeroso. Lomas de arena, con pinares desmedrados en lo alto, y en la bajada un charcal salobre, donde blanquean los huesos de una vaca. Larga bandada de cuervos revolotea sobre aquella carroña, bajo un cielo gris de amanecer. En el fondo de una caverna socavada por el mar, el <rs key="#caba">viejo linajudo</rs> espera la muerte como un viejo león. Ante sus ojos nublados ve aparecer la sombra de <rs key="#fuso">FUSO NEGRO</rs>.</stage>
 					<sp who="#fuso">
@@ -3928,7 +4480,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<p>¡Dios haga que no caiga muerto en medio del camino! ¡Vamos!</p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA QUINTA</head>
 					<stage>La <rs key="#pobr #domi #male #mago #tull #paul #anso #morc #coim #adeg">hueste de mendigos</rs> descansa al sol ante el portal de la casona y se tiende por la orilla del camino aldeano. Sobre la veleta del hórreo, el gallo clarinea, en el sol, dorado y soberbio.</stage>
 					<sp who="#domi">
@@ -4175,7 +4727,7 @@ La primera de estas jornadas nos presenta al caballero que, borracho, sufre la a
 						<p>¡Es nuestro padre!</p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA FINAL</head>
 					<stage>La cocina de la casona. En el hogar arde una gran fogata y las lenguas de la llama ponen reflejos de sangre en los rostros. Los cuatro <rs key="#rose #maur #gonz #farr">segundones</rs> aparecen sobre el fondo oscuro de una puerta, cuando la cocina es invadida por la <rs key="#pobr #domi #male #mago #tull #paul #anso #morc #coim #adeg">hueste</rs> clamorosa que sigue a <rs key="#caba">EL CABALLERO</rs>.</stage>
 					<sp who="#caba">

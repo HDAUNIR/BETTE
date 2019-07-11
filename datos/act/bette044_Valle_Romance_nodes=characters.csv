@@ -1,0 +1,47 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#caba	#caba	EL CABALLERO, DON JUAN MANUEL DE MONTENEGRO	M	protagonist	person	primary	1	71	65	57	71	65.0	57
+#pedr	#pedr	DON PEDRITO	M	antagonist	person	secondary	2	6	47	0	6	47.0	0
+#rose	#rose	DON ROSENDO	M	antagonist	person	secondary	3	6	14	4	6	14.0	4
+#maur	#maur	DON MAURO	M	antagonist	person	primary	4	3	21	5	3	21.0	5
+#gonz	#gonz	DON GONZALITO	M	antagonist	person	secondary	5	2	13	2	2	13.0	2
+#farr	#farr	DON FARRUQUIÑO	M	other	person	secondary	6	8	48	4	8	48.0	4
+#gala	#gala	DON GALÁN	M	other	person	minor	7	4	0	20	4	0.0	20
+#roja	#roja	LA ROJA	F	other	person	minor	8	19	0	32	19	0.0	32
+#zaga	#zaga	EL ZAGAL DE LAS VACAS	M	other	person	minor	9	0	0	6	0	0.0	6
+#andr	#andr	ANDREÍÑA	F	other	person	minor	10	0	38	16	0	38.0	16
+#rebo	#rebo	LA REBOLA	F	other	person	minor	11	0	7	6	0	7.0	6
+#reco	#reco	LA RECOGIDA	F	other	person	minor	12	0	0	12	0	0.0	12
+#cape	#cape	DON MANUELITO	M	other	person	minor	13	8	37	8	8	37.0	8
+#patr	#patr	ABELARDO	M	other	person	minor	14	14	0	0	14	0.0	0
+#maru	#maru	Marinero	M	other	person	minor	15	23	0	0	23	0.0	0
+#mard	#mard	Marinero	M	other	person	minor	16	1	0	0	1	0.0	0
+#mart	#mart	Marinero	M	other	person	minor	17	1	0	0	1	0.0	0
+#rapa	#rapa	EL RAPAZ	M	other	person	minor	18	0	0	1	0	0.0	1
+#monc	#monc	DOÑA MONCHA	F	other	person	minor	19	16	0	11	16	0.0	11
+#beni	#beni	BENITA LA COSTURERA	F	other	person	minor	20	19	4	0	19	4.0	0
+#pobr	#pobr	EL POBRE DE SAN LÁZARO,	M	other	person	minor	21	5	12	7	5	12.0	7
+#domi	#domi	DOMINGA DE GÓMEZ	F	other	person	minor	22	2	12	7	2	12.0	7
+#male	#male	EL MANCO LEONÉS	M	other	person	minor	23	1	5	4	1	5.0	4
+#mago	#mago	EL MANCO DE GONDAR	M	other	person	minor	24	1	2	1	1	2.0	1
+#tull	#tull	EL TULLIDO DE CELTIGOS	M	other	person	minor	25	1	0	0	1	0.0	0
+#paul	#paul	PAULA LA REINA	F	other	person	minor	26	0	5	0	0	5.0	0
+#anso	#anso	ANDREÍÑA LA SORDA,	F	other	person	minor	27	5	0	0	5	0.0	0
+#morc	#morc	EL MORCEGO	M	other	person	minor	28	5	6	8	5	6.0	8
+#coi	#coi	coima	F	other	person	minor	29	0	0	0	0	0.0	0
+#adeg	#adeg	ADEGA la inocente	F	other	person	minor	30	0	0	1	0	0.0	1
+#arte	#arte	ARTEMISA	F	other	person	minor	31	0	0	11	0	0.0	11
+#flor	#flor	Floriano	M	other	person	minor	32	0	0	1	0	0.0	1
+#cieg	#cieg	EL CIEGO DE GONDAR	M	other	person	minor	33	0	16	0	0	16.0	0
+#fuso	#fuso	FUSO NEGRO	M	other	person	minor	34	0	0	37	0	0.0	37
+#mato	#mato	MANUEL TOVÍO	M	other	person	minor	35	0	0	0	0	0.0	0
+#mafo	#mafo	MANUEL FONSECA	M	other	person	minor	36	0	0	0	0	0.0	0
+#peab	#peab	PEDRO ABUÍN	M	other	person	minor	37	0	0	0	0	0.0	0
+#seba	#seba	SEBASTIÁN DE XOGAS	M	other	person	minor	38	0	1	0	0	1.0	0
+#rami	#rami	RAMIRO DE BEALO	M	other	person	minor	39	0	7	0	0	7.0	0
+#oliv	#oliv	Oliveros	M	other	person	minor	40	0	14	0	0	14.0	0
+#sabe	#sabe	DOÑA SABELITA	F	other	person	minor	41	0	0	23	0	0.0	23
+#viud	#viud	Una Viuda	F	other	person	minor	42	0	0	7	0	0.0	7
+#unav	#unav	Una Voz	O	other	non-human	minor	43	7	0	0	7	0.0	0
+#otra	#otra	Otra Voz	O	other	non-human	minor	44	12	0	0	12	0.0	0
+#mari	#mari	Doña María	F	lover	person	primary	46	0	0	0	0	0.0	0
+#voz_	#voz_	La Voz De Todos	O	other	person	minor	47	0	0	2	0	0.0	2

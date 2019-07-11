@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,22 +10,30 @@
 				<title type="idno">
 					<idno type="viaf">210973152</idno>
 					<idno type="bne">XX2804277</idno>
+					<idno type="wikidata">Q63200581</idno>
 				</title>
 				<author>
 					<name type="full">Miguel de Unamuno</name>
 					<name type="short">Unamuno</name>
 					<idno type="viaf">88844103</idno>
 					<idno type="bne">XX1139151</idno>
+					<idno type="wikidata">Q185085</idno>
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2017</date>
-				<idno>056</idno>
+				<idno>
+					<idno type="number">056</idno>
+					<idno type="text">0.1</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -37,7 +45,7 @@
 					<date>2017</date>
 					<publisher></publisher>
 					<pubPlace></pubPlace>
-					<ref target="#" />
+					<ref target="#"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1898</date>
@@ -51,47 +59,190 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="drama"></purpose>
+			</textDesc>
 			<abstract>
 				<p>Acto 1: ocurre en la casa de Ángel. Él es el presidente de una junta revolucionaria. Al comienzo comenta con ciertos amigos y su mujer el discurso de la noche pasada, muy alabado. El grupo se despide y queda Eufenia, mujer de Ángel, y Eusebio solos, quien habla de sus problemas y celos contra Ángel. Ángel y Eufenia hablan de diferentes temas, entre ellos del hecho de que no hayan tenido hijos y de que ella espere de él gloria política como resarcimiento. Ángel está atormentado por su relación con Dios, la necesidad de libertad y el destino. Al final del acto Joaquín le informa que están conspirando para quitarle la presidencia, a lo que él responde enviando una carte de renuncia.</p>
 				<p>Acto 2: Ángel tiene una fuerte discusión con Eufenia sobre su relación, la falta de hijos, la renuncia, su relación, con Eusebio, etcétera. Diferentes personajes como Eufebio o varios amigos de Ángel van a visitarle, discutiendo todos con él. Eusebio y Eufenia también discuten entre ellos. Eufenia abandona a Ángel y le deja una carta. Este se encuentra al final del acto completamente solo, pensando en el suicidio y la falta de Dios.</p>
 				<p>Acto 3: Ángel va a visitar a su amigo Felipe, quien cuenta la historia del jardín del Edén a sus hijos. Ángel y Felipe recuerdan situaciones de cuando ambos eran niños. Aparecen los amigos de Ángel, entre ellos Joaquín, para avisarle de que la multitud quiere matarle. Tras discutir cómo podría responder, Ángel decide enfrentarse a la multitud, a la que termina insultando, por lo que le disparan. Sus amigos le recogen en casa para intentar sanarle. Aparece Eusebio y Eufemia, quien se reconcilia con su marido u quien le tiene en los abrazos poco antes de que este muera.</p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="high">
+					<person n="1" role="protagonist" sex="M" xml:id="ange">
+						<persName>Ángel</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>43914</desc></event>
+							<event type="sps"><desc>324</desc></event>
+							<event type="rss"><desc>131</desc></event>
+							<event type="scenes"><desc>26</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="lover" sex="F" xml:id="eufe">
+						<persName>Eufemia</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>10120</desc></event>
+							<event type="sps"><desc>141</desc></event>
+							<event type="rss"><desc>68</desc></event>
+							<event type="scenes"><desc>16</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="other" sex="M" xml:id="joaq">
+						<persName>Joaquín</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5560</desc></event>
+							<event type="sps"><desc>88</desc></event>
+							<event type="rss"><desc>20</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="antagonist" sex="M" xml:id="euse">
+						<persName>Eusebio</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3445</desc></event>
+							<event type="sps"><desc>47</desc></event>
+							<event type="rss"><desc>28</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="F" xml:id="ramo">
+						<persName>La Tía Ramona</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2044</desc></event>
+							<event type="sps"><desc>27</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="pepe">
+						<persName>José</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>953</desc></event>
+							<event type="sps"><desc>16</desc></event>
+							<event type="rss"><desc>14</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="M" xml:id="teod">
+						<persName>Teodoro</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2440</desc></event>
+							<event type="sps"><desc>29</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="M" xml:id="nico">
+						<persName>Nicolás</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1887</desc></event>
+							<event type="sps"><desc>34</desc></event>
+							<event type="rss"><desc>12</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="F" xml:id="mart">
+						<persName>Martina</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>823</desc></event>
+							<event type="sps"><desc>23</desc></event>
+							<event type="rss"><desc>14</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="M" xml:id="hima">
+						<persName>El Hijo mayor de Felipe</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>261</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="M" xml:id="hime">
+						<persName>El Hijo menor de Felipe</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>313</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="other" sex="M" xml:id="feli">
+						<persName>Felipe</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5156</desc></event>
+							<event type="sps"><desc>74</desc></event>
+							<event type="rss"><desc>29</desc></event>
+							<event type="scenes"><desc>8</desc></event>
+						</listEvent>
+					</person>
+				</listPerson>
+			</particDesc>
 		</profileDesc>
 		<revisionDesc>
 			<change when="2017-09-17" who="#jct">Versión inicial de TEI.</change>
-			<change when="2017-09-20" who="#jct" status="approved">Revisado el texto.</change>
+			<change status="approved" when="2017-09-20" who="#jct">Revisado el texto.</change>
+			<change when="2017-11-10" who="#jct">Revisión de metadatos a partir del texto.</change>
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
-		<front>
-			<div>
+		<front><div>
 				<head>La esfinge</head>
 				<p>Drama en tres actos</p>
 			</div>
 			<div>
 				<quote>
-					<p></p>
+					<ab></ab>
 					<p>(Proverbio indio).</p>
 				</quote>
 				<quote>
-					<p></p>
-					<p></p>
+					<ab></ab>
+					<ab></ab>
 				</quote>
 				<quote>
 					<p>To die, to sleep...; to sleep... perchance to dream!</p>
-					<p><hi rend="italic">(Hamlet)</hi>.</p>
+					<ab><hi rend="italic">(Hamlet)</hi>.</ab>
 				</quote>
 				<quote>
-					
-				<sp who="#joaq"><speaker>Joaquín</speaker>
-					<p>Hay que proponerse en la vida algún fin...</p></sp>
-				<sp who="#joaq"><speaker>Ángel</speaker>
-					<p>¿Para qué, si el universo no lo tiene?</p>
-				</sp>
-				<sp who="#joaq"> <speaker>Joaquín</speaker>
-					<p>¡Para dárselo!</p>
-				</sp>
-				<stage>(<hi rend="italic">La Esfinge</hi>. Acto II, escena IX)</stage>.
+
+					<sp who="#joaq"><speaker>Joaquín</speaker>
+						<p>Hay que proponerse en la vida algún fin...</p></sp>
+					<sp who="#joaq"><speaker>Ángel</speaker>
+						<p>¿Para qué, si el universo no lo tiene?</p>
+					</sp>
+					<sp who="#joaq"> <speaker>Joaquín</speaker>
+						<p>¡Para dárselo!</p>
+					</sp>
+					<ab><stage>(<hi rend="italic">La Esfinge</hi>. Acto II, escena IX)</stage>.</ab>
 				</quote>
 			</div>	
 			<div>
@@ -99,27 +250,27 @@
 			<div>
 				<head>DRAMATIS PERSONAE</head>
 				<castList>
-					<castItem><role xml:id="ange">Ángel</role><roleDesc>, <hi rend="italic">jefe revolucionario</hi></roleDesc></castItem>
-					<castItem><role xml:id="eufe">Eufemia</role><roleDesc>, su mujer</roleDesc></castItem>
-					<castItem><role xml:id="joaq">Joaquín</role></castItem>
-					<castItem><role xml:id="feli">Felipe</role></castItem>
-					<castItem><role xml:id="euse">Eusebio</role></castItem>
-					<castItem><role xml:id="ramo">La Tía Ramona</role></castItem>
-					<castItem><role xml:id="pepe">José</role></castItem>
-					<castItem><role xml:id="teod">Teodoro</role></castItem>
-					<castItem><role xml:id="nico">Nicolás</role></castItem>
-					<castItem><role xml:id="mart">Martina</role><roleDesc>, <hi rend="italic">criada</hi></roleDesc></castItem>
-					<castItem><role xml:id="hima">El Hijo mayor <hi rend="italic">de Felipe</hi></role></castItem>
-					<castItem><role xml:id="hime">El Hijo menor <hi rend="italic">de Felipe</hi></role></castItem>
+					<castItem><role corresp="#ange">Ángel</role><roleDesc>, <hi rend="italic">jefe revolucionario</hi></roleDesc></castItem>
+					<castItem><role corresp="#eufe">Eufemia</role><roleDesc>, su mujer</roleDesc></castItem>
+					<castItem><role corresp="#joaq">Joaquín</role></castItem>
+					<castItem><role corresp="#feli">Felipe</role></castItem>
+					<castItem><role corresp="#euse">Eusebio</role></castItem>
+					<castItem><role corresp="#ramo">La Tía Ramona</role></castItem>
+					<castItem><role corresp="#pepe">José</role></castItem>
+					<castItem><role corresp="#teod">Teodoro</role></castItem>
+					<castItem><role corresp="#nico">Nicolás</role></castItem>
+					<castItem><role corresp="#mart">Martina</role><roleDesc>, <hi rend="italic">criada</hi></roleDesc></castItem>
+					<castItem><role corresp="#hima">El Hijo mayor <hi rend="italic">de Felipe</hi></role></castItem>
+					<castItem><role corresp="#hime">El Hijo menor <hi rend="italic">de Felipe</hi></role></castItem>
 				</castList>
 				<p>La acción, en España, en la época actual.</p>
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>ACTO PRIMERO</head>
 				<stage>Ocurre la acción en él representada en el aposento de una casa de familia regularmente acomodada, donde se hallan reunidas varias personas que han festejado con un refresco cierto fausto acontecimiento. En una mesa se ve el servicio de café y los restos del refresco. Hay a un lado un armario de luna entera.</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage><rs key="#eufe">Eufemia</rs>, <rs key="#ange">Ángel</rs>, <rs key="#joaq">Joaquín</rs>, <rs key="#euse">Eusebio</rs>, <rs key="#teod">Teodoro</rs>, <rs key="#pepe">Pepe</rs> y <rs key="#nico">Nicolás</rs></stage>
 					<sp who="#joaq">
@@ -296,7 +447,7 @@
 						<p><stage>(Aparte, al irse.)</stage> Se queda este lagarto... ¡Intimidades!</p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage><rs key="#euse">Eusebio</rs> y <rs key="#eufe">Eufemia</rs>.</stage>
 					<sp who="#euse">
@@ -372,11 +523,11 @@
 						<p>Me basto sola, <rs key="#euse">Eusebio</rs>. O con él todo, o sin él nada. Y no vuelvas a hablarme así.</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage>Dichos y <rs key="#ange">Ángel</rs>.</stage>
-					
-					
+
+
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
 						<p><stage>(Entrando.)</stage> Qué, ¿os quedan todavía antiguas cuentas que ajustar?</p>
@@ -385,7 +536,7 @@
 						<speaker>Eusebio</speaker>
 						<p>¡Oh, no! Pero ya comprenderás que las viejas amistades</p>
 					</sp>
-					
+
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
 						<p>Tú siempre tan sinuoso, Eusebio. Me has oído mil veces que la absoluta sinceridad acabaría con todas las rencillas y reconcomios. Si nos viésemos todos desnudas  las almas, fundiríase en amor una inmensa compasión mutua...</p>
@@ -448,7 +599,7 @@
 					</sp>
 					<stage>(Se va <rs key="#euse">Eusebio</rs>.)</stage>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage><rs key="#eufe">Eufemia</rs> y <rs key="#ange">Ángel</rs>.</stage>
 					<sp who="#ange">
@@ -504,7 +655,7 @@
 						<p>Es eso como el mar, que cuanto más de él se bebe, da más sed. No la apaga, y sí las aguas mansas y silenciosas del regato oculto entre las cañas. Es preciso que las aguas del mar soberbio suban al cielo, y que allí en nube se purifiquen para humillarse en lluvia que la tierra se traga...</p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>
 					<stage>Dichos, <rs key="#mart">Martina</rs> y <rs key="#feli">Felipe</rs>.</stage>
 					<sp who="#mart">
@@ -545,7 +696,7 @@
 					</sp>
 					<stage>(Se va.)</stage>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#feli">Felipe</rs>; al final, <rs key="#eufe">Eufemia</rs>.</stage>
 					<sp who="#ange">
@@ -725,7 +876,7 @@
 						<p>¡Adiós, <rs key="#ange">Ángel</rs>! <stage>(Se va.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>ESCENA VII</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#eufe">Eufemia</rs>. La Tía <rs key="#ramo">Ramona</rs>, luego.</stage>
 					<sp who="#eufe">
@@ -834,7 +985,7 @@
 						<p>¡Puerco espín! <stage>(Se va.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>ESCENA VIII</head>
 					<stage><rs key="#eufe">Eufemia</rs> y <rs key="#ange">Ángel</rs>.</stage>
 					<sp who="#eufe">
@@ -1050,7 +1201,7 @@
 						<p>¡<rs key="#eufe">Eufemia</rs> no es una pieza de ajedrez! <stage>(Se va.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>ESCENA IX</head>
 					<stage><rs key="ange">Ángel</rs>, Solo. </stage>
 					<sp who="#ange">
@@ -1059,7 +1210,7 @@
 					</sp>
 					<stage>(Al sentir llamar a la puerta se levanta sobresaltado, va a ella y abre a <rs key="#mart">Martina</rs>, la criada, que entregándole una carta, se dispone a marchar.)</stage>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>ESCENA X</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#mart">Martina</rs>.</stage>
 					<sp who="#ange">
@@ -1148,7 +1299,7 @@
 					</sp>
 					<stage>(Se va <rs key="#mart">Martina</rs>.)</stage>
 				</div>
-				<div type="scene" n="11">
+				<div n="11" type="scene">
 					<head>ESCENA XI</head>
 					<stage><rs key="ange">Ángel</rs>, solo.</stage>
 					<sp who="#ange">
@@ -1156,7 +1307,7 @@
 						<p><stage>(Repasando la carta.)</stage> No debo acudir a la cita. Renunciaré de una vez para siempre a esa vida que se me convierte en muerte. Daré un adiós definitivo al mundo, quemando mis naves. ¡La renuncia! <stage>(Se sienta en la mesilla-escritorio, disponiéndose a escribir.)</stage> Una renuncia irrevocable; un acto, un verdadero acto, como dicen ellos; algo que me incapacite para volver a la vida pública, donde se tolera todo menos la confesión de culpas... <stage>(Se pone a escribir. Vuelve a ponerse a escribir cuando llaman a la puerta.)</stage> ¡Adelante! <stage>(Entra <rs key="#joaq">Joaquín</rs>, <hi rend="italic">y</hi> <rs key="#ange">Ángel</rs>, sin dejar de escribir, le saluda diciéndole:)</stage> ¡Otra vez tú por aquí! ¡Espera un poco!</p>
 					</sp>
 				</div>
-				<div type="scene" n="12">
+				<div n="12" type="scene">
 					<head>ESCENA XII</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#joaq">Joaquín</rs>.</stage>
 					<sp who="#joaq">
@@ -1337,7 +1488,7 @@
 					</sp>
 					<stage><stage>(Se va <rs key="#joaq">Joaquín</rs>.,)</stage></stage>
 				</div>
-				<div type="scene" n="13">
+				<div n="13" type="scene">
 					<head>ESCENA XIII</head>
 					<stage><rs key="#ange">Ángel</rs>, solo; después, <rs key="#mart">Martina</rs>.</stage>
 					<sp who="#ange">
@@ -1352,7 +1503,7 @@
 						<speaker>Ángel</speaker>
 						<p>No, casi nada la tiene. Toma la carta y llévala. <stage>(Vacila un rato.)</stage> Preguntas por Moreno y se la das a él mismo... ¿Has oído? No, no, ¡dásela a quien salga! ¡Anda, tómala y vete en seguida; pronto, pronto!</p>
 					</sp>
-					<stage>(Se va Martina.,)</stage>
+					<ab><stage>(Se va Martina.,)</stage></ab>
 					<sp who="#mart">
 						<speaker>Martina</speaker>
 						<p><stage>(Volviéndose.)</stage> ¿Manda usted...?</p>
@@ -1362,13 +1513,13 @@
 						<p>¡No, no, vete! ¡No quiero, no, no quiero! <stage>(Sale <rs key="#mart">Martina</rs>.,)</stage> ¡Se acabó! ¡No puedo ya arrepentirme! <stage>(Empieza a pasear, cabizbajo.)</stage> Ahora, a templarme en el recogimiento; a entonar mi corazón, y después, cuando le hiera el Espíritu, que sopla donde quiere, me arrancará limpia y pura mi nota, la mía propia, para que vaya a perderse en la infinita sinfonía, en el cántico universal al amor del Padre. <stage>(En los paseos por la estancia pasa frente al espejo, y ahora, al aproximarse a él cabizbajo, vislumbra de pronto su propia imagen como una sombra extraña y se detiene ante ella sobrecogido. Levanta la vista al espejo y se contempla un momento. Acércase en seguida a él, y cuando está como en entrevista con su propia imagen, se llama en voz queda:)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>! <stage>(Momento de recogimiento, tras el cual se pasa la mano por la frente, como ahuyentando una pesadilla, carraspea, se mira y palpa disimuladamente, avergonzado, y dice:)</stage> ... ¿Sombra?... ¡No!... ¡No!... ¡Vivo!... ¡Vivo!... <stage>(De pronto, sintiendo una violenta palpitación, lanza un gemido y se lleva la mano al pecho, diciendo:)</stage> ¡Pobrecillo! ¡Cómo trabajas! Sin descanso. Tú velas, mientras éste <stage>(Pasándose la mano por la frente.)</stage> duerme, y si hay peligro, con tus latidos le despiertas. No me cabes en el pecho, ¡pobrecillo! Quieres latir en todo y con todo; palpitar con el universo entero; recibir y devolver su savia eterna, la que viene de los infinitos mundos y a ellos vuelve. ¡Y con tanto anhelar derramarte me ahogas..., sí... me ahogas! <stage>(Va a la mesa, vierte agua en el vaso, la coge y apura de un trago casi todo su contenido; lo que resta se lo echa en la palma de la mano para rociarse la frente con ello.)</stage> ¡Quién pudiera sorberse así al Espíritu universal! ¡Dios mío! ¡Anégame, ahógame! ¡Que sienta mi vida derretirse en tu seno!</p>
 					</sp>
 					<stage>(Cae el telón.)</stage>
-					<stage>Fin del acto primero</stage>
+					<ab>Fin del acto primero</ab>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>ACTO SEGUNDO</head>
 				<stage>En otra estancia de la casa de <rs key="#ange">Ángel</rs>. Un retrato de mujer.</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage><rs key="#eufe">Eufemia</rs>, bordando; la <rs key="#ramo">Tía Ramona</rs>, <rs key="#ange">Ángel</rs>, luego.</stage>
 					<sp who="#ramo">
@@ -1444,7 +1595,7 @@
 						<p>Me voy porque el corazón me sofoca... ¡Que Dios ayude a tu marido, <rs key="#eufe">Eufemia</rs>! <stage>(Se va.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage><rs key="#eufe">Eufemia</rs> y <rs key="#ange">Ángel</rs>.</stage>
 					<sp who="#eufe">
@@ -1621,7 +1772,7 @@
 						<p>El loco, ¿no es eso? Mira: ahí le tienes. <stage>(Señalando a <rs key="#euse">Eusebio</rs>.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage>Dichos y <rs key="#euse">Eusebio</rs>.</stage>
 					<sp who="#euse">
@@ -1681,7 +1832,7 @@
 						<p><stage>(Llamándole.)</stage> ¡<rs key="#ange">Ángel</rs>! ¡<rs key="#ange">Ángel</rs>!</p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage>Al encontrarse solos se miran <rs key="#euse">Eusebio</rs> y <rs key="#eufe">Eufemia</rs> un rato en silencio.</stage>
 					<sp who="#euse">
@@ -1817,7 +1968,7 @@
 						<p>Adiós, pues. <stage>(Desde la puerta, abriendo los brazos:)</stage> ¡Vendrás a ellos! <stage>(Se va.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>
 					<stage><rs key="#eufe">Eufemia</rs>, sola.</stage>
 					<sp who="#eufe">
@@ -1825,7 +1976,7 @@
 						<p>¿Equivoqué mi senda? Realiza ensueños y sueña las realidades. Si pudiese hacerle otro... Soy para él un instrumento, y nada más... ¡No..., no...; me quiere, sí, me quiere! ¡Qué alma tiene! Hay algo en él que fascina; es un misterio vivo. He de intentar el último esfuerzo para salvarle; ¡es mi obra! ¡Pobrecillo! Ahí viene...</p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#eufe">Eufemia</rs>.</stage>
 					<sp who="#ange">
@@ -1933,7 +2084,7 @@
 						<p>No, no lo es. <stage>(Se va.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>ESCENA VII</head>
 					<stage><rs key="#ange">Ángel</rs>, solo, mirando al retrato, y luego, <rs key="#mart">Martina</rs>.</stage>
 					<sp who="#ange">
@@ -1985,7 +2136,7 @@
 						<p>¡Ah! ¡La señorita!</p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>ESCENA VIII</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#eufe">Eufemia</rs>.</stage>
 					<sp who="#eufe">
@@ -2059,7 +2210,7 @@
 					</sp>
 					<stage>(La sigue <rs key="#ange">Ángel</rs>, pero en la puerta tropieza con <rs key="#nico">Nicolás</rs>, <rs key="#joaq">Joaquín</rs> y <rs key="#teod">Teodoro</rs>.)</stage>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>ESCENA IX</head>
 					<stage><rs key="#ange">Ángel</rs>, <rs key="#joaq">Joaquín</rs>, <rs key="#nico">Nicolás</rs> y <rs key="#teod">Teodoro</rs>.</stage>
 					<sp who="#joaq">
@@ -2501,7 +2652,7 @@
 					</sp>
 					<stage>(Se van.)</stage>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>ESCENA X</head>
 					<stage>Angel, solo.</stage>
 					<sp who="#ange">
@@ -2555,7 +2706,7 @@
 					</sp>
 					<stage>(Cuando va a arrodillarse, entra <rs key="#mart">Martina</rs>.)</stage>
 				</div>
-				<div type="scene" n="11">
+				<div n="11" type="scene">
 					<head>ESCENA XI</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#pepe">Pepe</rs>.</stage>
 					<sp who="#mart">
@@ -2572,7 +2723,7 @@
 					</sp>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
-						<p>¡Que entre, sí..., que entre! <stage>(Apenas sale <rs key="#marti">Martina</rs> deja <rs key="#ange">Ángel</rs> la pistola sobre la mesa y se arrodilla, apoyando la cabeza en la mesa misma. Al entrar <rs key="#pepe">Pepe</rs> y ver aquello queda suspenso.)</stage></p>
+						<p>¡Que entre, sí..., que entre! <stage>(Apenas sale <rs key="#mart">Martina</rs> deja <rs key="#ange">Ángel</rs> la pistola sobre la mesa y se arrodilla, apoyando la cabeza en la mesa misma. Al entrar <rs key="#pepe">Pepe</rs> y ver aquello queda suspenso.)</stage></p>
 					</sp>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
@@ -2662,17 +2813,17 @@
 					<stage>Fin del acto segundo</stage>
 				</div>
 			</div>
-			<div type="act" n="3">
+			<div n="3" type="act">
 				<head>ACTO TERCERO</head>
 				<stage>Estancia de casa modesta. A un lado, un balcón o ventana que da a la calle, y en otro, un sofá. En la pared, un cristo.</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA PRIMERA</head>
 					<stage><rs key="#feli">Felipe</rs> y sus dos hijos, de seis y nueve años.</stage>
 					<sp who="#feli">
 						<speaker>Felipe</speaker>
 						<p>Y Dios les puso en aquel jardín hermosísimo para que lo cuidasen y trabajasen y se pasaran la vida bendiciendo al Señor. Sólo les prohibió que tocasen a un árbol: el árbol de la ciencia del bien y del mal...</p>
 					</sp>
-					<sp who="#nima">
+					<sp who="#hima">
 						<speaker>Niño Mayor</speaker>
 						<p>¿Qué árbol es ése, papá?</p>
 					</sp>
@@ -2680,7 +2831,7 @@
 						<speaker>Felipe</speaker>
 						<p>Un árbol muy grande, muy grande y muy hermoso; que da mucha sombra, con unas frutas hermosas también, pero que tienen veneno...</p>
 					</sp>
-					<sp who="#nima">
+					<sp who="#hima">
 						<speaker>Niño Mayor</speaker>
 						<p>Entonces se morirá el que las coma...</p>
 					</sp>
@@ -2688,7 +2839,7 @@
 						<speaker>Felipe</speaker>
 						<p>Sí, se muere. Por eso les prohibió comer de ellas; pero el demonio, que es muy astuto, se disfrazó de serpiente y fue a Eva y la engañó...</p>
 					</sp>
-					<sp who="#nime">
+					<sp who="#hime">
 						<speaker>Niño Menor</speaker>
 						<p>¿Las serpientes hablan, papá?</p>
 					</sp>
@@ -2696,7 +2847,7 @@
 						<speaker>Felipe</speaker>
 						<p>Sí; hablan todas las cosas cuando Dios quiere. Le engañó a Eva diciéndole que si comían de aquello serían dioses, y sabrían de todo...</p>
 					</sp>
-					<sp who="#nima">
+					<sp who="#hima">
 						<speaker>Niño Mayor</speaker>
 						<p>¿Cómo es ser dios, papá?</p>
 					</sp>
@@ -2704,7 +2855,7 @@
 						<speaker>Felipe</speaker>
 						<p>Pues eso: saberlo todo, todo, todo, y poderlo todo...</p>
 					</sp>
-					<sp who="#nime">
+					<sp who="#hime">
 						<speaker>Niño Menor</speaker>
 						<p>Y mandar más que todos, ¿no es verdad, papá?</p>
 					</sp>
@@ -2713,7 +2864,7 @@
 						<p>Sí, hijo mío.</p>
 					</sp>
 					<stage>(Entra <rs key="#ange">Ángel</rs> sin ser visto y se queda a la puerta, medio oculto.)</stage>
-					<sp who="#nime">
+					<sp who="#hime">
 						<speaker>Niño Menor</speaker>
 						<p>Pues yo quiero ser dios, papá, para mandar más que todos...</p>
 					</sp>
@@ -2721,7 +2872,7 @@
 						<speaker>Felipe</speaker>
 						<p>No, hijo mío; no debes querer eso, y si no, ya ves lo que les pasó a Adán y Eva porque quisieron ser dioses...</p>
 					</sp>
-					<sp who="#nima">
+					<sp who="#hima">
 						<speaker>Niño Mayor</speaker>
 						<p>¡Cuenta lo que les pasó!</p>
 					</sp>
@@ -2729,7 +2880,7 @@
 						<speaker>Felipe</speaker>
 						<p>Que la serpiente engañó a Eva y Eva a Adán, y comieron de la fruta del árbol de la ciencia para hacerse dioses, y Dios luego, enfadado con ellos porque eran desobedientes, llamó a Adán y éste se escondió porque tenía vergüenza de presentarse desnudo...</p>
 					</sp>
-					<sp who="#nime">
+					<sp who="#hime">
 						<speaker>Niño Menor</speaker>
 						<p>Estaba desnudo... ¡Qué risa!</p>
 					</sp>
@@ -2737,11 +2888,11 @@
 						<speaker>Felipe</speaker>
 						<p>Sí; pero no se había fijado en ello hasta que comió de la fruta prohibida. Y Dios les echó del jardín por desobedientes, y salieron llorando. Y les puso en la puerta un Ángel con una espada de fuego...</p>
 					</sp>
-					<sp who="#nime">
+					<sp who="#hime">
 						<speaker>Niño Menor</speaker>
 						<p>Y la espada quemaría, ¿no es verdad, papá?</p>
 					</sp>
-					<sp who="#nima">
+					<sp who="#hima">
 						<speaker>Niño Mayor</speaker>
 						<p>¡Qué tonto! Pues no oyes que era de fuego...</p>
 					</sp>
@@ -2749,7 +2900,7 @@
 						<speaker>Felipe</speaker>
 						<p>No llames nunca tonto a tu hermano, que es un pecado muy grande; ya te lo tengo dicho. Les echó Dios y les hizo trabajar para vivir...</p>
 					</sp>
-					<sp who="#nima">
+					<sp who="#hima">
 						<speaker>Niño Mayor</speaker>
 						<p><stage>(Que ha advertido a <rs key="#ange">Ángel</rs>.)</stage> Papá, papá, don <rs key="#ange">Ángel</rs> está ahí...</p>
 					</sp>
@@ -2758,14 +2909,14 @@
 						<p><stage>(Volviéndose.)</stage> ¡Ah!</p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage>Dichos y <rs key="#ange">Ángel</rs>.</stage>
 					<sp who="#ange">
 						<speaker>Ángel</speaker>
 						<p><stage>(Avanzando.)</stage> No, sigue..., sigue tu relato, que con ser viejísimo es para mí siempre nuevo. Sigue, que yo me pondré entre los niños para escuchártelo...</p>
 					</sp>
-					<sp who="#nima">
+					<sp who="#hima">
 						<speaker>Niño Mayor</speaker>
 						<p>Sí, cuenta, papá, y lo de Caín y Abel...</p>
 					</sp>
@@ -2786,7 +2937,7 @@
 						<speaker>Ángel</speaker>
 						<p>He aquí el enigma vivo... ¿qué será de él? ¡Ésta es la edad de la libertad, <rs key="#feli">Felipe</rs>! Pronto se le abrirán los caminos de la vida; tendrá que elegir uno, uno solo, renunciando a todos los demás, y una vez elegido no podrá ya desandarlo. ¡El tiempo no se dobla ni revierte! ¡Terrible misterio, cuya cara tantas veces me desvela! Un beso, niño. ¿Qué me dices de Adán y Eva?</p>
 					</sp>
-					<sp who="#nime">
+					<sp who="#hime">
 						<speaker>Niño Menor</speaker>
 						<p>Que les puso un Ángel en la puerta, con una espada de fuego..., que quemaba...</p>
 					</sp>
@@ -2796,7 +2947,7 @@
 					</sp>
 					<stage>(Le besa, y se van los niños.)</stage>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage><rs key="#ange">Ángel</rs> y <rs key="#feli">Felipe</rs>.</stage>
 					<sp who="#ange">
@@ -2962,7 +3113,7 @@
 					</sp>
 					<stage><stage>(Sale a abrir y aparece <rs key="#joaq">Joaquín</rs>.)</stage></stage>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage>Dichos y <rs key="#joaq">Joaquín</rs>.</stage>
 					<sp who="#ange">
@@ -3101,9 +3252,9 @@
 						<speaker>Joaquín</speaker>
 						<p>Sutilezas las que usted le inculca...</p>
 					</sp>
-					<stage>(En este momento llaman precipitadamente. Sale <rs key="#feli">Felipe</rs> a abrir y entra <rs key="#nico">Nicolás</rs>.)</stage>
+					<ab><stage>(En este momento llaman precipitadamente. Sale Felipe <hi rend="italic">a abrir y entra</hi> Nicolás.)</stage></ab>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>
 					<stage>Dichos y <rs key="#nico">Nicolás</rs>.</stage>
 					<sp who="#nico">
@@ -3252,7 +3403,7 @@
 						<speaker>Felipe</speaker>
 						<p>¡Le han muerto, Dios mío!</p>
 					</sp>
-					<sp who="#nime">
+					<sp who="#hime">
 						<speaker>Niño Menor</speaker>
 						<p><stage>(Al mayor.)</stage> ¡Le han matado!</p>
 					</sp>
@@ -3321,7 +3472,7 @@
 						<p>¡No!</p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
 					<stage>Dichos, <rs key="#eufe">Eufemia</rs>, <rs key="#euse">Eusebio</rs> y la Tía <rs key="#ramo">Ramona</rs>.</stage>
 					<sp who="#eufe">
@@ -3556,7 +3707,7 @@
 		</body>
 		<back>
 			<div>
-				<stage>[Fin de «La esfinge»]</stage>
+				<ab>[Fin de «La esfinge»]</ab>
 			</div>
 		</back>
 	</text>
