@@ -1,31 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="short">La venganza de Atahualpa</title>
+				<title type="short">VenganzaAtahualpa</title>
 				<title type="full">La venganza de Atahualpa. Leyenda dramática</title>
 				<title type="idno">
 					<idno type="viaf"></idno>
 					<idno type="bne"></idno>
+					<idno type="wikidata">Q63197197</idno>
 				</title>
 				<author>
 					<name type="full">Juan Valera</name>
 					<name type="short">Valera</name>
 					<idno type="viaf">46770556</idno>
 					<idno type="bne">XX918093</idno>
+					<idno type="wikidata">Q463630</idno>
 				</author>
 				<principal xml:id="tsm">Teresa Santa María</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>028</idno>
+				<idno>
+					<idno type="number">028</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -37,7 +45,7 @@
 					<date>1999</date>
 					<publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
 					<pubPlace>Alicante</pubPlace>
-					<ref target="http://www.cervantesvirtual.com/portales/juan_valera/obra-visor-din/la-venganza-de-atahualpa-1878--0/html/" />
+					<ref target="http://www.cervantesvirtual.com/portales/juan_valera/obra-visor-din/la-venganza-de-atahualpa-1878--0/html/"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1878</date>
@@ -45,22 +53,166 @@
 					<pubPlace>Madrid</pubPlace>
 				</bibl>
 				<bibl type="first-performance">
-					<date/>
-					<pubPlace/> 
+					<date></date>
+					<pubPlace></pubPlace> 
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="leyenda"></purpose>
+			</textDesc>
 			<abstract>
 				<p>En la Jornada I Laura no quiere al pretendiente, Francisco de Cuéllar, amigo de su hermano4 Bartolomé de Rivera-  y prefiere retirarse a un convento. Ambos jóvenes eran estudiantes en Salamanca, estuvieron al servicio de Pizarro y han regresado recientemente enriquecidos de América.  Rivera intenta sonsacar al padre Antonio y a su tía Brianda si hay un razón para que Laura no quiera casarse.  Rivera le da dos horas a doña Brianda para que le diga de quién se trata. La tía revela solo al confesor de su sobrina que hace varios años un hombre - del que desconoce el nombre – entró en la casa y la sedujo.</p>
 				<p>En la Jornada II se nos presenta a doña Irene, en cuya casa se aloja ahora Laura y quien confiesa al padre Antonio que fue su hijo don Fernando, un antiguo comunero proscrito, el seductor y amante de Laura hace tres años. Los antiguos amantes se reencuentran y reafirman su amor, con la bendición de doña Irene.</p>
 				<p>En la Jornada III Cuéllar quiere tender una emboscada y vengarse de don Fernando. Doña Brianda confiesa a Cuéllar que Rivera no solo es su sobrino sino que fue su amante y pide que la vengue. También Cuéllar informa a Rivera que pretende matar a don Fernando y casarse con su viuda tras raptarla. Don Fernando le interrumpe en medio de su intento de rapto. El padre Antonio interrumpe el duelo y les comunica que Cuéllar ha matado a Rivera y doña Brianda se ha suicidado. Siguen los duelistas y cae muerto Cuéllar, de ahí el nombre que da título a la pieza. </p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+
+					<person n="1" role="other" sex="F" xml:id="juan">
+						<persName>Juanilla</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2747</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>19</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="protagonist" sex="F" xml:id="laur">
+						<persName>Laura</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>9743</desc></event>
+							<event type="sps"><desc>45</desc></event>
+							<event type="rss"><desc>95</desc></event>
+							<event type="scenes"><desc>11</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="lover" sex="M" xml:id="cuel">
+						<persName>Francisco de Cuéllar</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>11276</desc></event>
+							<event type="sps"><desc>47</desc></event>
+							<event type="rss"><desc>61</desc></event>
+							<event type="scenes"><desc>8</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="antagonist" sex="M" xml:id="rive">
+						<persName>Bartolomé Rivera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>16757</desc></event>
+							<event type="sps"><desc>67</desc></event>
+							<event type="rss"><desc>25</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person> 
+					<person n="5" role="other" sex="M" xml:id="padr">
+						<persName>El Padre Antonio</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>9586</desc></event>
+							<event type="sps"><desc>66</desc></event>
+							<event type="rss"><desc>49</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="cipr">
+						<persName>Cipriano</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>576</desc></event>
+							<event type="sps"><desc>9</desc></event>
+							<event type="rss"><desc>14</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="F" xml:id="bria">
+						<persName>Doña Brianda</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>8829</desc></event>
+							<event type="sps"><desc>38</desc></event>
+							<event type="rss"><desc>28</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="F" xml:id="iren">
+						<persName>Doña Irene</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>11572</desc></event>
+							<event type="sps"><desc>52</desc></event>
+							<event type="rss"><desc>21</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="M" xml:id="escu">
+						<persName>Escudero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>73</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="antagonist" sex="M" xml:id="fern">
+						<persName>Don Fernando</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6512</desc></event>
+							<event type="sps"><desc>29</desc></event>
+							<event type="rss"><desc>49</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="M" xml:id="pere">
+						<persName>Pérez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>333</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>6</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="M" xml:id="garc">
+						<persName>Garcés</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>608</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>6</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>				</listPerson></particDesc>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2015-08-03" who="#tsm" status="draft">Versión XML-TEI</change>
-			<change when="2016-06-06" who="#jct" status="draft">Versión inicital TEI.</change>
-			<change when="2016-12-07" who="#tsm" status="approved">Versión inicital TEI.</change>
+			<change status="draft" when="2015-08-03" who="#tsm">Versión XML-TEI</change>
+			<change status="draft" when="2016-06-06" who="#jct">Versión inicital TEI.</change>
+			<change status="approved" when="2016-12-07" who="#tsm">Versión inicital TEI.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#emc">Revisión de metadatos a partir del resumen</change>
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -104,64 +256,64 @@
 				<castList>
 					<head>Personajes</head>
 					<castItem>
-						<role xml:id="juan">Juanilla</role>
+						<role corresp="#juan">Juanilla</role>
 						<roleDesc>Criada de Laura </roleDesc>  
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="laur">Laura</role>
+						<role corresp="#laur">Laura</role>
 						<roleDesc> </roleDesc>  
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cuel">Francisco de Cuéllar</role>
+						<role corresp="#cuel">Francisco de Cuéllar</role>
 						<roleDesc>Amigo de Rivera y pretendiente de Laura</roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="rive">Bartolomé Rivera</role> 
+						<role corresp="#rive">Bartolomé Rivera</role> 
 						<roleDesc> Hermano de Laura</roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="padr">El Padre Antonio</role>
+						<role corresp="#padr">El Padre Antonio</role>
 						<roleDesc>Conferor de Laura</roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cipr">Cipriano</role>
+						<role corresp="#cipr">Cipriano</role>
 						<roleDesc>Criado indio de Rivera</roleDesc>  
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="bria">Doña Brianda</role>
+						<role corresp="#bria">Doña Brianda</role>
 						<roleDesc>Tía de los dos hermanos y amante, además, de su sobrino Rivera</roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="iren">Doña Irene</role>
+						<role corresp="#iren">Doña Irene</role>
 						<roleDesc>Madre de don Fernando</roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="escu">Escudero</role>
+						<role corresp="#escu">Escudero</role>
 						<roleDesc> </roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="fern">Don Fernando</role>
+						<role corresp="#fern">Don Fernando</role>
 						<roleDesc>Comunero poscrito, seductor misterioso de Laura </roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pere">Pérez</role>
+						<role corresp="#pere">Pérez</role>
 						<roleDesc>Escudero de don Fernando</roleDesc>
-						<actor/>	
+						<actor></actor>	
 					</castItem>
 					<castItem>
-						<role xml:id="garc">Garcés</role>
+						<role corresp="#garc">Garcés</role>
 						<roleDesc>Criado de Cuéllar</roleDesc>
-						<actor/>
+						<actor></actor>
 					</castItem>
 				</castList>
 			</div>
@@ -171,10 +323,10 @@
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>Jornada I</head>
 				<stage>Sala en casa de doña <rs key="#bria">Brianda</rs>.</stage>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena I</head>
 					<stage> <rs key="#laur">Laura</rs>, <rs key="#juan">Juanilla</rs>.</stage>
 					<sp who="#juan">
@@ -233,7 +385,7 @@
 						<p> ¡Madre Santísima de los Dolores! ¡Jesús mío de mi alma! ¡Tened piedad de mí!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage>Entra <rs key="#juan">Juanilla</rs> acompañando a Francisco <rs key="#cuel">Cuéllar</rs>. <rs key="#juan">Juanilla</rs> se va, y deja al hidalgo con su señora.</stage>
 					<sp who="#cuel">
@@ -306,7 +458,7 @@
 						<p> Aquí viene vuestro hermano.</p>
 					</sp>
 				</div>
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage>Dichos, <rs key="#rive">Rivera</rs>.</stage>
 					<sp who="#rive">
@@ -340,7 +492,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage><rs key="#laur">Laura</rs>, <rs key="#rive">Rivera</rs>.</stage>
 					<sp who="#rive">
@@ -370,7 +522,7 @@
 					</sp>
 					<stage>(Vanse <rs key="#laur">Laura</rs> y <rs key="#juan">Juanilla</rs>.)</stage>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena V</head>
 					<stage><rs key="#rive">Rivera</rs>, solo.</stage>
 					<sp who="#rive">
@@ -378,7 +530,7 @@
 						<p> Me devoraba la impaciencia de quedar solo para recibir y hablar al <rs key="#padr">Padre</rs> Antonio, que debe llegar al punto. <stage> (Pasea agitado por la estancia.) </stage><rs key="#cipr">Cipriano</rs> está a la mira; le abrirá y le hará entrar. El <rs key="#padr">Padre</rs> Antonio, si quiere, puede revelármelo todo. Si no quiere, le obligaré a ello. Ni el <rs key="#padr">Padre</rs> ni nadie se ha de burlar de mí. Un compañero del marqués Pizarro debe inspirar respeto, debe infundir terror. Me sobra derecho: tengo motivo justo... Ya llega el fraile... Siento sus pasos en el corredor. Calma. Serenémonos.</p>
 					</sp>
 				</div>
-				<div  type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage><rs key="#rive">Rivera</rs>, el <rs key="#padr">Padre</rs> Antonio.</stage>
 					<sp who="#padr">
@@ -554,7 +706,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage>El <rs key="#padr">Padre</rs> Antonio, <rs key="#cipr">Cipriano</rs>.</stage>
 					<sp who="#padr">
@@ -625,7 +777,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena VIII</head>
 					<stage><rs key="#rive">Rivera</rs>, doña <rs key="#bria">Brianda</rs>.</stage>
 					<stage>Aparece Doña <rs key="#bria">Brianda</rs> huyendo de <rs key="#rive">Rivera</rs> y como buscando medio de irse a la calle. <rs key="#rive">Rivera</rs> le ataja el paso, cierra la puerta que da a lo exterior de la casa y guarda la llave. Cierra igualmente los vidrios del balcón.</stage>
@@ -712,7 +864,7 @@
 					<sp who="#rive">
 						<speaker>Rivera</speaker>
 						<p>
-						<stage> (Aparte.) </stage> ¡Qué vergüenza! ¿Qué voy a hacer, Dios mío? <stage> (A <rs key="#rive">Bartolomé</rs>.) </stage> Nada. Aguarda ahí mis órdenes. <stage> (Cierra la puerta otra vez, aunque no con llave. Luego, en voz baja, para que no le oiga el <rs key="#cipr">indio</rs>.) (A Doña Brianda.) </stage> No seas terca. ¡Evita un escándalo! Mira que estoy decidido a todo. Sálvame y sálvate. Ese <rs key="#cipr">indio</rs> es más que un esclavo: es un mero instrumento mío. No me obligues a que le mande que haga contigo el oficio de verdugo. Ten piedad de ti y de mí. Confiesa.</p>
+							<stage> (Aparte.) </stage> ¡Qué vergüenza! ¿Qué voy a hacer, Dios mío? <stage> (A <rs key="#rive">Bartolomé</rs>.) </stage> Nada. Aguarda ahí mis órdenes. <stage> (Cierra la puerta otra vez, aunque no con llave. Luego, en voz baja, para que no le oiga el <rs key="#cipr">indio</rs>.) (A Doña Brianda.) </stage> No seas terca. ¡Evita un escándalo! Mira que estoy decidido a todo. Sálvame y sálvate. Ese <rs key="#cipr">indio</rs> es más que un esclavo: es un mero instrumento mío. No me obligues a que le mande que haga contigo el oficio de verdugo. Ten piedad de ti y de mí. Confiesa.</p>
 					</sp>
 					<sp who="#bria">
 						<speaker>Doña Brianda</speaker>
@@ -748,7 +900,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena IX</head>
 					<stage>Doña <rs key="#bria">Brianda</rs>, El <rs key="#padr">Padre</rs> Antonio.</stage>
 					<sp who="#bria">
@@ -874,7 +1026,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="10">
+				<div n="10" type="scene">
 					<head>Escena X</head>
 					<stage>Doña <rs key="#bria">Brianda</rs>, sola.</stage>
 					<sp who="#bria">
@@ -884,10 +1036,10 @@
 					<stage>(Llora y se arroja en un sillón, ocultando el rostro con las manos).</stage>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>Jornada II</head>
 				<stage>Rico estrado en casa de Doña <rs key="#iren">Irene</rs>.</stage>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena I</head>
 					<stage>Doña <rs key="#iren">Irene</rs>, <rs key="#laur">Laura</rs>.</stage>
 					<stage>Doña <rs key="#iren">Irene</rs>, vestida de negro, con toca de lana blanca en la cabeza, aparece sentada en un sillón, junto a un bufete con recado de escribir. Doña <rs key="#iren">Irene</rs> es una dama de más de sesenta años, muy venerable. Su traje, aunque sencillo, ha de ser señoril y severo. En vez de joyas, penden de su cuello devotas medallas, relicarios y cruces. Un rosario de gruesas cuentas debe ir ceñido a su brazo. <rs key="#laur">Laura</rs>, destocada está de pie.</stage>
@@ -973,7 +1125,7 @@
 						<p> Me dijo que una imperiosa necesidad le obligaba a ausentarse; que se iba muy lejos, quizá para nunca volver.</p>
 					</sp>
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage>Dichos, el <rs key="#padr">Padre</rs> Antonio.</stage>
 					<sp who="#padr">
@@ -1003,7 +1155,7 @@
 						</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage>Doña <rs key="#iren">Irene</rs>, <rs key="#rive">Rivera</rs>.</stage>
 					<sp who="#rive">
@@ -1130,7 +1282,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage> Doña <rs key="#iren">Irene</rs>, el <rs key="#padr">Padre</rs> Antonio.</stage>
 					<sp who="#iren">
@@ -1271,7 +1423,7 @@
 							<stage> (Aplicando el oído hacia un lado del foro, donde habrá una puerta.) </stage> Siento ruido de pasos. Bien me lo decía mi corazón. Él es. Ya llega. ¡Jesús mío, dadme fuerzas para no morir de alegría!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena V</head>
 					<stage>Don <rs key="#fern">Fernando</rs>, dichos.</stage>
 					<stage>Aparece Don <rs key="#fern">Fernando</rs> por la puerta lateral; viene embozado y al entrar se desemboza. Doña <rs key="#iren">Irene</rs> corre hacia él y le abraza.</stage>
@@ -1316,7 +1468,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage>Doña <rs key="#iren">Irene</rs>, Don <rs key="#fern">Fernando</rs>.</stage>
 					<sp who="#iren">
@@ -1349,7 +1501,7 @@
 					</sp>
 					<stage>(Vase Doña <rs key="#iren">Irene</rs> con precipitación por una puerta lateral.)</stage>
 				</div>
-				<div  type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage><rs key="#laur">Laura</rs>, Don <rs key="#fern">Fernando</rs>.</stage>
 					<sp who="#laur">
@@ -1422,10 +1574,10 @@
 					</sp>
 				</div>
 			</div>
-			<div type="act" n="3">
+			<div n="3" type="act">
 				<head>Jornada III</head>
 				<stage>Cuarto de una posada. Es de noche.</stage>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena I</head>
 					<stage><rs key="#cuel">Cuéllar</rs>, <rs key="#garc">Garcés</rs>.</stage>
 					<sp who="#cuel">
@@ -1472,7 +1624,7 @@
 						<p> No importa. Dile que entre.</p>
 					</sp>
 				</div>
-				<div  type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage>
 						<rs key="#cuel">Cuéllar</rs>, Doña <rs key="#bria">Brianda</rs>, tapada.</stage>
@@ -1561,7 +1713,7 @@
 					</sp>
 					<stage>(Vase Doña <rs key="#bria">Brianda</rs> por una puerta lateral. Un instante después entra <rs key="#rive">Rivera</rs> por la puerta del fondo.)</stage>
 				</div>
-				<div  type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage>
 						<rs key="#rive">Rivera</rs>, <rs key="#cuel">Cuéllar</rs>.</stage>
@@ -1647,7 +1799,7 @@
 					</sp>
 					<stage>(Vanse.)</stage>
 				</div>
-				<div  type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage>Sala en la quinta de Don <rs key="#fern">Fernando</rs>. Armas y trofeos de caza. Algunos retratos. Los muebles entre rústicos y señoriles. Dos puertas laterales y una al fondo.</stage>
 					<stage>
@@ -1695,7 +1847,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena V</head>
 					<stage>Don <rs key="#fern">Fernando</rs>, <rs key="#laur">Laura</rs>.</stage>
 					<sp who="#laur">
@@ -1735,7 +1887,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage><rs key="#laur">Laura</rs>, sola.</stage>
 					<stage>Asomada a un balcón, mira partir a Don <rs key="#fern">Fernando</rs> y a su elegante comitiva. Suenan otra vez las trompas de caza.</stage>
@@ -1748,7 +1900,7 @@
 					<stage>(Nuevo momento de silencio.)</stage>
 					<p>Mi temor es inmotivado, pueril. <rs key="#cuel">Cuéllar</rs> me decía que no había de sufrir a otro rival sino a Dios; que había de conquistar mi corazón o perecer en la demanda; que había de matar a quien me enamorase; pero éstos eran, sin duda, encarecimientos de pretendiente y bizarrías vanas de soldado jactancioso. Yo le contestaba con sinceridad algo que hoy debe parecerle disimulo, engaño y mentira. Yo le contestaba que yo no amaba a nadie sino a Dios y que deseaba retirarme a un convento. Grande ha de ser su rabia contra mí al saber que estoy casada, a los pocos días de haberle asegurado mi desamor a todo hombre. Pero yo no le engañé. Tú, Dios mío, Tú, que penetras en el fondo de los corazones, sabes que no le engañé. Yo me engañaba a mí misma. Yo aborrecía el recuerdo de mi pecado, y por eso creía que no amaba a aquél por quien pequé. Volvió a presentarse ante mis ojos: vi de nuevo a <rs key="#fern">Fernando</rs>, y el amor, escondido en lo más íntimo de mi ser, donde ni yo misma le columbraba, brotó con ímpetu, surgió de repente más poderoso que nunca. <rs key="#cuel">Cuéllar</rs> tendrá que resignarse. Dicen que es tremendo; pero respetará a mi marido. No es igual tratar con indios punto menos que inermes, con hombres sencillos y de casta tan inferior a la nuestra, que competir con quien en todo se le aventaja. Sin embargo, yo he mentido sin querer. Yo he prometido a <rs key="#cuel">Cuéllar</rs> ser de él si no era de Dios. Sí, casi se lo he prometido sin saber lo que decía. <stage> (Larga pausa.) </stage> ¡Ay! ¡Qué horror! ¡Qué espantosa idea se ofrece a mi espíritu! ¿Y si <rs key="#cuel">Cuéllar</rs> fuese tan audaz como aseguran? ¿Y si acudiese a exigirme el cumplimiento de la promesa? Tengo miedo. Estoy temblando como una azogada. ¡Socorro! ¡Valedme, Virgen Santa! ¡Qué soledad! Me parece que oigo un extraño rumor. ¿Por qué me has dejado, <rs key="#fern">Fernando</rs> mío? No voy a dormir esta noche. Llamaré a Juana para que se quede conmigo. ¡Juana! ¡Juana! No me responde. ¡Juana! No viene. Tengamos valor. Amo a <rs key="#fern">Fernando</rs>. En este amor, él me lo ha dicho, se encierra un poderoso conjuro. Evocaré a <rs key="#fern">Fernando</rs> a fin de que me dé aliento. ¡Fernando!</p>
 				</div>
-				<div  type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage><rs key="#cuel">Cuéllar</rs>, <rs key="#laur">Laura</rs>.</stage>
 					<sp who="#cuel">
@@ -1785,7 +1937,7 @@
 							<stage> (Riendo.) </stage> ¡Socórrela, <rs key="#fern">Fernando</rs>!</p>
 					</sp>
 				</div>
-				<div  type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena VIII</head>
 					<stage> Dichos y Don <rs key="#fern">Fernando</rs>, acompañado de sus criados y pajes, en número de veinte a lo más, con trajes y armas de cazadores y con antorchas. Todos entran con ímpetu y rodean el grupo principal, dejando ancho espacio vacío en el centro. <rs key="#juan">Juanilla</rs> entra enseguida con otras dos mujeres de la servidumbre.</stage>
 					<sp who="#fern">
@@ -1822,7 +1974,7 @@
 						</p>
 					</sp>
 				</div>
-				<div  type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena IX</head>
 					<stage>Dichos. EL <rs key="#padr">Padre</rs> Antonio.</stage>
 					<stage>(EL <rs key="#padr">Padre</rs> sale apresurado y se coloca en medio de los dos combatientes, separándolos.)</stage>

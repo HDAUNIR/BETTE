@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,24 +10,32 @@
 				<title type="idno">
 					<idno type="viaf">210052098</idno>
 					<idno type="bne">XX2127860</idno>
+					<idno type="wikidata">Q924513</idno>
 				</title>
 				<author>
 					<name type="full">Benito Pérez Galdós</name>
 					<name type="short">Galdós</name>
 					<idno type="viaf">71395987</idno>
 					<idno type="bne">XX1014802</idno>
+					<idno type="wikidata">Q189869</idno>
 				</author>
 				<principal xml:id="tsm">Teresa Santa María</principal>
 				<principal xml:id="jct">José Calvo Tello</principal>
 				<principal xml:id="emc">Elena Martínez Carro</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>compared</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2015</date>
-				<idno>006</idno>
+				<idno>
+					<idno type="number">006</idno>
+					<idno type="text">1.1</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -39,8 +47,8 @@
 					<date>2001</date>
 					<publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
 					<pubPlace>Alicante</pubPlace>
-					<ref target="http://www.cervantesvirtual.com/nd/ark:/59851/bmc571b3" />
-					<ref target="http://www.cervantesvirtual.com/obra/electra-drama-en-cinco-actos--0/" />
+					<ref target="http://www.cervantesvirtual.com/nd/ark:/59851/bmc571b3"></ref>
+					<ref target="http://www.cervantesvirtual.com/obra/electra-drama-en-cinco-actos--0/"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1901</date>
@@ -48,21 +56,203 @@
 					<pubPlace>Madrid</pubPlace>
 				</bibl>
 				<bibl type="first-performance">
-					<date when="1901">30 de enero de 1901</date>
+					<date>30 de enero de 1901</date>
 					<pubPlace>Teatro Español de Madrid</pubPlace> 
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">Español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="drama"></purpose>
+			</textDesc>
 			<abstract>
-				<p>Adaptación de la tragedia "Electra" de Eurípides a la sociedad española de principios del siglo XX. En el Acto I se nos revela que Pantoja tiene cierta “autoridad” sobre Electra, la familiaridad entre Electra y Máximo, sobrino de don Urbano, el amor que siente Cuesta por Electra y la intención de Pantoja de ingresar a Electra en un convento. En el Acto II se nos presenta a Máximo como joven inventor, viudo con hijos. Electra confiesa que hablaba con su madre muerta de pequeña y se nos revela a Patros como confidente y cómplice de Electra. Pantoja censura el comportamiento de Electra, quien se ha llevado a casa a uno de los hijos de Máximo. En el Acto III contemplamos la buena relación entre Máximo y Electra. Este promete interceder ante sus tíos para evitar que la lleven al convento, como quiere Pantoja, y ayudarle a elegir un novio. El Marqués manifiesta su apoyo a Máximo y Electra. Pantoja aparece para llevarse a Electra, Máximo se opone, discute con él y decide tomar a Electra como esposa. En el Acto IV presenciamos la felicidad de Electra y Máximo. Pantoja propone a Evarista ingresar a Electra en el convento antes de que se case y miente a Electra pues le dice que Máximo y ella son hermanos. Locura de Electra y rabia de Máximo. Electra llama a su madre mientras Máximo es tranquilizado por el Marqués. En el Acto V Evarista comunica a sor Dorotea que Cuesta ha muerto y ha dejado como heredera a Electra, si esta deja el convento. Llegan allí Máximo y el Marqués. Mientras Máximo quiere usar la violencia para llevarse a Electra, el Marqués le revela que sor Dorotea está de su parte. Pantoja inquieta a Electra. Comparece la sombra de Eleuteria quien revela la verdad a su hija. Huida – o resurrección – de Electra.  </p>
+				<p>Adaptación de la tragedia "Electra" de Eurípides a la sociedad española de principios del siglo XX.</p>
+				<p>En el Acto I se nos revela que Pantoja tiene cierta “autoridad” sobre Electra, la familiaridad entre Electra y Máximo, sobrino de don Urbano, el amor que siente Cuesta por Electra y la intención de Pantoja de ingresar a Electra en un convento.</p>
+				<p>En el Acto II se nos presenta a Máximo como joven inventor, viudo con hijos. Electra confiesa que hablaba con su madre muerta de pequeña y se nos revela a Patros como confidente y cómplice de Electra. Pantoja censura el comportamiento de Electra, quien se ha llevado a casa a uno de los hijos de Máximo.</p>
+				<p>En el Acto III contemplamos la buena relación entre Máximo y Electra. Este promete interceder ante sus tíos para evitar que la lleven al convento, como quiere Pantoja, y ayudarle a elegir un novio. El Marqués manifiesta su apoyo a Máximo y Electra. Pantoja aparece para llevarse a Electra, Máximo se opone, discute con él y decide tomar a Electra como esposa.</p>
+				<p>En el Acto IV presenciamos la felicidad de Electra y Máximo. Pantoja propone a Evarista ingresar a Electra en el convento antes de que se case y miente a Electra pues le dice que Máximo y ella son hermanos. Locura de Electra y rabia de Máximo. Electra llama a su madre mientras Máximo es tranquilizado por el Marqués.</p>
+				<p>En el Acto V Evarista comunica a sor Dorotea que Cuesta ha muerto y ha dejado como heredera a Electra, si esta deja el convento. Llegan allí Máximo y el Marqués. Mientras Máximo quiere usar la violencia para llevarse a Electra, el Marqués le revela que sor Dorotea está de su parte. Pantoja inquieta a Electra. Comparece la sombra de Eleuteria quien revela la verdad a su hija. Huida – o resurrección – de Electra.  </p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="high">
+					<person n="1" role="protagonist" sex="F" xml:id="elec">
+						<persName>Electra</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>38069</desc></event>
+							<event type="sps"><desc>383</desc></event>
+							<event type="rss"><desc>176</desc></event>
+							<event type="scenes"><desc>36</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="other" sex="F" xml:id="evar">
+						<persName>Evarista</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>14688</desc></event>
+							<event type="sps"><desc>185</desc></event>
+							<event type="rss"><desc>63</desc></event>
+							<event type="scenes"><desc>26</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="lover" sex="M" xml:id="maxi">
+						<persName>Máximo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>25321</desc></event>
+							<event type="sps"><desc>270</desc></event>
+							<event type="rss"><desc>123</desc></event>
+							<event type="scenes"><desc>24</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="antagonist" sex="M" xml:id="pant">
+						<persName>Don Salvador Pantoja</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>25123</desc></event>
+							<event type="sps"><desc>208</desc></event>
+							<event type="rss"><desc>86</desc></event>
+							<event type="scenes"><desc>24</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="other" sex="M" xml:id="marq">
+						<persName>El Marqués de Ronda</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>17618</desc></event>
+							<event type="sps"><desc>198</desc></event>
+							<event type="rss"><desc>105</desc></event>
+							<event type="scenes"><desc>29</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="cues">
+						<persName>Don Leonardo Cuesta</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>9275</desc></event>
+							<event type="sps"><desc>104</desc></event>
+							<event type="rss"><desc>60</desc></event>
+							<event type="scenes"><desc>15</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="urba">
+						<persName>Don Urbano García Yuste</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6851</desc></event>
+							<event type="sps"><desc>107</desc></event>
+							<event type="rss"><desc>55</desc></event>
+							<event type="scenes"><desc>24</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="M" xml:id="mari">
+						<persName>Mariano</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>360</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>12</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="M" xml:id="gil_">
+						<persName>Gil</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>533</desc></event>
+							<event type="sps"><desc>9</desc></event>
+							<event type="rss"><desc>9</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="F" xml:id="balb">
+						<persName>Balbina</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1605</desc></event>
+							<event type="sps"><desc>17</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="F" xml:id="patr">
+						<persName>Patros</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2100</desc></event>
+							<event type="sps"><desc>35</desc></event>
+							<event type="rss"><desc>29</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="M" xml:id="jose">
+						<persName>José</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1538</desc></event>
+							<event type="sps"><desc>24</desc></event>
+							<event type="rss"><desc>20</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="13" role="other" sex="F" xml:id="doro">
+						<persName>Sor Dorotea</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2750</desc></event>
+							<event type="sps"><desc>29</desc></event>
+							<event type="rss"><desc>10</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="M" xml:id="oper">
+						<persName>Un operario</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>348</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>3</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="F" xml:id="eleu">
+						<persName>La sombra de Eleuteria</persName>
+						<trait type="nature"><desc>non-human</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>744</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+				</listPerson>
+			</particDesc>
 		</profileDesc>
-		<revisionDesc>
-			<change when="2015-06-23" who="#jct" status="draft">Versión inicital TEI.</change>
-			<change when="2015-07-07" who="#jct" status="draft">Pequeños cambios en algunos datos del teiHeader.</change>
-			<change when="2015-11-05" who="#tsm" status="compared">Modernización gramatical según criterios y subsanación de erratas.</change>
-			<change when="2016-04-19" who="#jct" status="approved">Texto validado.</change>
+		<revisionDesc status="approved">
+			<change status="draft" when="2015-06-23" who="#jct">Versión inicital TEI.</change>
+			<change status="draft" when="2015-07-07" who="#jct">Pequeños cambios en algunos datos del teiHeader.</change>
+			<change status="compared" when="2015-11-05" who="#tsm">Modernización gramatical según criterios y subsanación de erratas.</change>
+			<change status="approved" when="2016-04-19" who="#jct">Texto validado.</change>
+			<change when="2017-07-21" who="#jct">Añadidos metadatos de personajes.</change>
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -72,75 +262,75 @@
 					<head>Personajes</head>
 					<head>Actores</head>
 					<castItem>
-						<role xml:id="elec">Electra</role>
+						<role corresp="#elec">Electra</role>
 						<roleDesc>(18 años.) </roleDesc>
 						<actor>Doña Matilde Moreno.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="evar">Evarista</role>
+						<role corresp="#evar">Evarista</role>
 						<roleDesc>(50 años), esposa de don Urbano. </roleDesc>  
 						<actor>Doña Emilia Llorente.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="maxi">Máximo</role>
+						<role corresp="#maxi">Máximo</role>
 						<roleDesc>(35 años.) </roleDesc>
 						<actor>Don Francisco Fuentes.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="pant">Don Salvador Pantoja</role> 
+						<role corresp="#pant">Don Salvador Pantoja</role> 
 						<roleDesc>(50 años.) </roleDesc>
 						<actor>Don Ricardo Valero.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="marq">El Marqués de Ronda</role>
+						<role corresp="#marq">El Marqués de Ronda</role>
 						<roleDesc>(58 años.) </roleDesc>
 						<actor>Don Fernando Altarriba.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cues">Don Leonardo Cuesta,</role>
+						<role corresp="#cues">Don Leonardo Cuesta,</role>
 						<roleDesc>agente de Bolsa (50 años.). </roleDesc>  
 						<actor>Don Ramón Vallarino.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="urba">Don Urbano García Yuste</role>
+						<role corresp="#urba">Don Urbano García Yuste</role>
 						<roleDesc>(55 años.) </roleDesc>
 						<actor>Don José Sala-Julién.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="mari">Mariano,</role>
+						<role corresp="#mari">Mariano,</role>
 						<roleDesc>auxiliar de laboratorio. </roleDesc>
 						<actor>Don José Culvera.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="gil_">Gil,</role>
+						<role corresp="#gil_">Gil,</role>
 						<roleDesc>calculista. </roleDesc>
 						<actor>Don Julio del Cerro.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="balb">Balbina,</role>
+						<role corresp="#balb">Balbina,</role>
 						<roleDesc>criada vieja. </roleDesc>
 						<actor>Doña María Anaya.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="patr">Patros,</role>
+						<role corresp="#patr">Patros,</role>
 						<roleDesc>criada joven. </roleDesc>
 						<actor>Doña Antonia Arévalo.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="jose">José,</role>
+						<role corresp="#jose">José,</role>
 						<roleDesc>criado viejo. </roleDesc>
 						<actor>Don Fernando Calvo.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="doro">Sor Dorotea. </role>
+						<role corresp="#doro">Sor Dorotea. </role>
 						<actor>Doña Consuelo Badillo.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="oper">Un operario. </role>
+						<role corresp="#oper">Un operario. </role>
 						<actor>Don Sixto Coduras.</actor>
 					</castItem>
 					<castItem>
-						<role xml:id="eleu">La sombra de Eleuteria.</role>
+						<role corresp="#eleu">La sombra de Eleuteria.</role>
 						<actor>Doña Florentina A. del Valle.</actor>
 					</castItem>
 				</castList>
@@ -150,10 +340,10 @@
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>Acto Primero</head>
 				<stage>Sala lujosa en el Palacio de los señores de <rs key="#urba">García Yuste</rs>. A la derecha, paso al jardín. Al fondo comunicación con otras salas del edificio. A la derecha primer término, puerta de la habitación de <rs key="#elec">Electra</rs>. (Izquierda y derecha se entiende del espectador.)</stage>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena Primera</head>
 					<stage>El <rs key="#marq">Marqués</rs>; <rs key="#jose">José</rs> por el foro.</stage>
 					<sp who="#jose">
@@ -277,7 +467,7 @@
 						<p>Retírate…</p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage>El <rs key="#marq">Marqués</rs>, don <rs key="#urba">Urbano</rs>.</stage>
 					<sp who="#marq">
@@ -373,7 +563,7 @@
 						<p><stage>(Levantándose.)</stage> La curiosidad me abrasa ya. Vamos a verla.</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage>El <rs key="#marq">Marqués</rs>, Don <rs key="#urba">Urbano</rs>; <rs key="#cues">Cuesta</rs>, por el fondo</stage>
 					<sp who="#cues">
@@ -445,7 +635,7 @@
 						<p>Al momento. <stage>(Sale con el <rs key="#marq">Marqués</rs> hacia el jardín.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage><rs key="#cues">Cuesta</rs>, <rs key="#patr">Patros</rs>.</stage>
 					<sp who="#cues">
@@ -505,7 +695,7 @@
 						<p>Sí, sí… Pierda cuidado. <stage>(Recoge el servicio y se retira.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena V</head>
 					<stage><rs key="#cues">Cuesta</rs>; <rs key="#pant">Pantoja</rs>, enteramente vestido de negro. Entra en escena meditabundo, abstraído.</stage>
 					<sp who="#cues">
@@ -613,7 +803,7 @@
 						<p><stage>(Meditabundo.)</stage> ¡Oh!… Capital, dentro de mis medios, yo se lo daría, con tal que…</p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage><rs key="#pant">Pantoja</rs>, <rs key="#cues">Cuesta</rs>; <rs key="#evar">Evarista</rs>, Don <rs key="#urba">Urbano</rs>, el <rs key="#marq">Marqués</rs>, que vienen del jardín.</stage>
 					<sp who="#evar">
@@ -757,7 +947,7 @@
 						<p>Voy. <stage>(Viendo venir a <rs key="#elec">Electra</rs>.)</stage> Ya está aquí.</p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage>Los mismos; <rs key="#elec">Electra</rs>, tras ella <rs key="#maxi">Máximo</rs>.</stage>
 					<sp who="#elec">
@@ -1101,7 +1291,7 @@
 						<p>Y tú lo perderás, sabio tonto, viejo… <stage>(Le sigue con la mirada hasta que sale. Salen <rs key="#maxi">Máximo</rs> y el <rs key="#marq">Marqués</rs> por el jardín. <rs key="#jose">José</rs> entra por el foro.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena VIII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#evar">Evarista</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#pant">Pantoja</rs>, <rs key="#cues">Cuesta</rs>, <rs key="#jose">José</rs>.</stage>
 					<sp who="#jose">
@@ -1141,7 +1331,7 @@
 						<p><stage>(Acudiendo a <rs key="#elec">Electra</rs>.)</stage> Cultive usted, <rs key="#elec">Electra</rs>, con discernimiento ese arte sublime. Consagre usted todo su talento al gran Bach… para que se vaya asimilando el estilo religioso. <stage>(Vanse todos menos <rs key="#elec">Electra</rs>.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena IX</head>
 					<stage><rs key="#elec">Electra</rs>; al poco rato <rs key="#cues">Cuesta</rs>.</stage>
 					<sp who="#elec">
@@ -1329,7 +1519,7 @@
 						<p>El de amigo no más. Adiós. <stage>(Arrancándose a partir. Sale por el foro. <rs key="#elec">Electra</rs> le sigue con la mirada hasta que desaparece.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>Escena X</head>
 					<stage><rs key="#elec">Electra</rs>, el <rs key="#marq">Marqués</rs>.</stage>
 					<sp who="#elec">
@@ -1501,7 +1691,7 @@
 						<p>Dios le guarde. <stage>(Vase el <rs key="#marq">Marqués</rs> hacia el jardín.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="11">
+				<div n="11" type="scene">
 					<head>Escena XI</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#pant">Pantoja</rs>.</stage>
 					<sp who="#pant">
@@ -1641,7 +1831,7 @@
 						<p>Deje usted que aligere mi corazón. Pesan horriblemente sobre él las conciencias ajenas.</p>
 					</sp>
 				</div>
-				<div type="scene" n="12">
+				<div n="12" type="scene">
 					<head>Escena XII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#pant">Pantoja</rs>; <rs key="#evar">Evarista</rs> por el foro.</stage>
 					<sp who="#evar">
@@ -1653,7 +1843,7 @@
 						<p>¡Ah! no me acordaba… Voy al momento. <stage>(Aparte a <rs key="#evar">Evarista</rs>.)</stage> Hemos hablado. Vigile usted. Temamos las malas influencias.<stage>(Antes de salir <rs key="#pant">Pantoja</rs> por el foro, entran el <rs key="#marq">Marqués</rs> y <rs key="#maxi">Máximo</rs> por la derecha.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="13">
+				<div n="13" type="scene">
 					<head>Escena XIII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#evar">Evarista</rs>, el <rs key="#marq">Marqués</rs>, <rs key="#maxi">Máximo</rs>.</stage>
 					<sp who="#marq">
@@ -1785,7 +1975,7 @@
 						<p><stage>(Advirtiendo que <rs key="#evar">Evarista</rs> la vigila.)</stage> Chitón… Nos miran.</p>
 					</sp>
 				</div>
-				<div type="scene" n="14">
+				<div n="14" type="scene">
 					<head>Escena XIV</head>
 					<stage>Los mismos; Don <rs key="#urba">Urbano</rs>, <rs key="#pant">Pantoja</rs> por el fondo.</stage>
 					<sp who="#urba">
@@ -1814,10 +2004,10 @@
 					</sp>
 				</div>
 			</div>
-			<div  type="act" n="2">
-				 <head>Acto Segundo</head>
+			<div n="2" type="act">
+				<head>Acto Segundo</head>
 				<stage>La misma decoración.</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena Primera</head>
 					<stage><rs key="#evar">Evarista</rs>, don <rs key="#urba">Urbano</rs>, sentados junto a la mesa despachando asuntos; BALBINA, que sirve a la señora una taza de caldo.</stage>
 					<sp who="#urba">
@@ -1857,7 +2047,7 @@
 						<p>Descuide la señora. <stage>(Vase <rs key="#balb">Balbina</rs>.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage>Los mismos; <rs key="#maxi">Máximo</rs> por el foro, presuroso, con planos y papeles.</stage>
 					<sp who="#maxi">
@@ -1993,7 +2183,7 @@
 						<p>¡Ah! sí… ¿Pero es hoy?…</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage><rs key="#evar">Evarista</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#maxi">Máximo</rs>, el <rs key="#marq">Marqués</rs>.</stage>
 					<sp who="#marq">
@@ -2129,7 +2319,7 @@
 						<p>Hasta luego, pues. Yo tengo que venir a casa de Otumba. Pasaré por aquí. <stage>(Óyese la voz de <rs key="#elec">Electra</rs> por la izquierda con alegre charla y risa. Detiénese el <rs key="#marq">Marqués</rs> al oírla.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage>Los mismos; <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#elec">
@@ -2281,7 +2471,7 @@
 						<p><stage>(A <rs key="#elec">Electra</rs>.)</stage> A las cinco, niña; y que aprendamos la puntualidad. <stage>(Se va por el fondo con don <rs key="#urba">Urbano</rs>.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena V</head>
 					<stage><rs key="#evar">Evarista</rs>, <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#evar">
@@ -2433,12 +2623,12 @@
 						<p>Y pocas bromas, <rs key="#elec">Electra</rs>… ¡Cuidado!… <stage>(Vase por el foro; lleva la muñeca cogida de un brazo, colgando.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#patr">Patros</rs>.</stage>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						 <p><stage>(Mirando a la muñeca.)</stage> ¡Pobre Lulú, cómo cuelga! <stage>(Imitando la postura de la muñeca y tentándose el hombro dolorido.)</stage> ¡Y cómo duele, ay! <stage>(Siéntase meditabunda.)</stage> ¡Y aquél esperándome…! ¡Qué triste fue la separación! Lloraba echándome los brazos… yo le prometí volver.</p>
+						<p><stage>(Mirando a la muñeca.)</stage> ¡Pobre Lulú, cómo cuelga! <stage>(Imitando la postura de la muñeca y tentándose el hombro dolorido.)</stage> ¡Y cómo duele, ay! <stage>(Siéntase meditabunda.)</stage> ¡Y aquél esperándome…! ¡Qué triste fue la separación! Lloraba echándome los brazos… yo le prometí volver.</p>
 					</sp>
 					<sp who="#patr">
 						<speaker>Patros</speaker>
@@ -2458,7 +2648,7 @@
 					</sp>
 					<sp who="#patr">
 						<speaker>Patros</speaker>
-						 <p>No hay ocasión como esta, señorita. Ahora o nunca.</p>
+						<p>No hay ocasión como esta, señorita. Ahora o nunca.</p>
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
@@ -2489,7 +2679,7 @@
 						<p>Por aquí. ¡Ánimo, valor y miedo! <stage>(Salen corriendo por la izquierda.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage>Don <rs key="#urba">Urbano</rs>, <rs key="#jose">José</rs>, que entran por el foro a punto que salen las muchachas.</stage>
 					<sp who="#urba">
@@ -2537,7 +2727,7 @@
 						<p>Bien: continúa vigilando. <stage>(Entra <rs key="#cues">Cuesta</rs> por el foro.)</stage></p> 
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena VIII</head>
 					<stage>Don <rs key="#urba">Urbano</rs>; <rs key="#cues">Cuesta</rs> con papeles y cartas.</stage>
 					<sp who="#urba">
@@ -2653,7 +2843,7 @@
 						<p><stage>(Sin mirarle.)</stage> Hasta luego. <stage>(Vase Don <rs key="#urba">Urbano</rs> por el foro.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena IX</head>
 					<stage><rs key="#cues">Cuesta</rs>; <rs key="#elec">Electra</rs>, <rs key="#patr">Patros</rs>, que asoman por la puerta de la izquierda, como reconociendo el terreno.</stage>
 					<sp who="#elec">
@@ -2674,7 +2864,7 @@
 					</sp>
 					<sp who="#elec">
 						<speaker>Electra</speaker>
-						 <p>¿Estorbamos, don <rs key="#cues">Leonardo</rs>?…</p>
+						<p>¿Estorbamos, don <rs key="#cues">Leonardo</rs>?…</p>
 					</sp>
 					<sp who="#cues">
 						<speaker>Cuesta</speaker>
@@ -2741,7 +2931,7 @@
 						<p>Ahora mismo. <stage>(Vase.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>Escena X</head>
 					<stage><rs key="#cues">Cuesta</rs>, <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#cues">
@@ -2833,7 +3023,7 @@
 						<p>Sí, mañana. Adiós. <stage>(Corre hacia la derecha. Movida de una repentina idea, da media vuelta.)</stage> Antes tengo que… <stage>(Aparte.)</stage> No puedo vencer la tentación. Quiero darle otro besito. <stage>(Vase corriendo por la izquierda. <rs key="#cues">Cuesta</rs> la sigue con la vista. Suspira.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="11">
+				<div n="11" type="scene">
 					<head>Escena XI</head>
 					<stage><rs key="#cues">Cuesta</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#evar">Evarista</rs>; después <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#cues">
@@ -2945,7 +3135,7 @@
 						<p>Anda, anda. <stage>(Gozosa de verse libre, corre <rs key="#elec">Electra</rs> a su habitación.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="12">
+				<div n="12" type="scene">
 					<head>Escena XII</head>
 					<stage><rs key="#cues">Cuesta</rs>, Don <rs key="#urba">Urbano</rs>, <rs key="#evar">Evarista</rs>, <rs key="#pant">Pantoja</rs>.</stage>
 					<sp who="#evar">
@@ -3081,7 +3271,7 @@
 						<p><stage>(Mirando al foro.)</stage> Ya está aquí el <rs key="#marq">Marqués</rs>.</p>
 					</sp>
 				</div>
-				<div type="scene" n="13">
+				<div n="13" type="scene">
 					<head>Escena XIII</head>
 					<stage>Los mismos; el <rs key="#marq">Marqués</rs>.</stage>
 					<sp who="#marq">
@@ -3109,7 +3299,7 @@
 						<p>Es la hora. <stage>(<rs key="#pant">Pantoja</rs>, impaciente, espera a <rs key="#elec">Electra</rs> en la puerta del cuarto de esta. <rs key="#cues">Cuesta</rs> habla con don <rs key="#urba">Urbano</rs>.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="14">
+				<div n="14" type="scene">
 					<head>Escena XIV</head>
 					<stage>Los mismos; <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#pant">
@@ -3141,14 +3331,14 @@
 						<p><stage>(Displicente por los elogios que tributan a <rs key="#elec">Electra</rs>.)</stage> ¿Nos vamos? <stage>(Prepáranse a salir.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="15">
+				<div n="15" type="scene">
 					<head>Escena XV</head>
 					<stage>Los mismos; BALBINA, que interrumpe bruscamente la escena, entrando por la izquierda presurosa y sofocada.</stage>
 					<sp who="#balb">
 						<speaker>Balbina</speaker>
 						<p>¡Señora, señora!<stage>(Alarma general.)</stage></p>
 					</sp>
-					<sp who="#balb #elec" >
+					<sp who="#balb #elec">
 						<speaker>Todos</speaker>
 						<p><stage>(Menos <rs key="#elec">Electra</rs>.)</stage> ¿Qué?</p>
 					</sp>
@@ -3261,7 +3451,7 @@
 						<p>Nadie le toque… Es mío. <stage>(Forcejeando se desprende de <rs key="#evar">Evarista</rs> y <rs key="#pant">Pantoja</rs>, que quieren sujetarla, y con veloz carrera se va por la izquierda.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="16">
+				<div n="16" type="scene">
 					<head>Escena XVI</head>
 					<stage>Los mismos; <rs key="#jose">José</rs>.</stage>
 					<sp who="#pant">
@@ -3293,7 +3483,7 @@
 						<p>Voto por que se le deje disfrutar de un juguete tan lindo.</p>
 					</sp>
 				</div>
-				<div type="scene" n="17">
+				<div n="17" type="scene">
 					<head>Escena XVII</head>
 					<stage>Los mismos; <rs key="#elec">Electra</rs>, por la izquierda con el niño en brazos. El niño es de dos años, poco más o menos.</stage>
 					<sp who="#elec">
@@ -3398,7 +3588,7 @@
 					</sp>
 				</div>
 			</div>
-			<div  type="act" n="3">
+			<div n="3" type="act">
 				<head>Acto III</head>
 				<stage>
 					<p>Laboratorio de <rs key="#maxi">Máximo</rs>. Al fondo, ocupando gran parte del muro, rompimiento con un mamparo de madera en la parte inferior, de cristales en la superior, el cual separa la escena de un local grande en que hay aparatos para producir energía eléctrica. La puerta practicable en el zócalo de este mamparo comunica con la calle.</p>
@@ -3408,7 +3598,7 @@
 					<p>A la izquierda de la escena, la mesa de laboratorio con los objetos que en el diálogo se indican. Formando ángulo con ella, la balanza de precisión en un soporte de fábrica.</p>
 					<p>En el centro, una mesa pequeña para comer. Cuatro sillas.</p>
 				</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena I</head>
 					<stage><rs key="#maxi">Máximo</rs>, trabajando en un cálculo, con gran atención en su tarea; <rs key="#elec">Electra</rs> en pie ordenando los múltiples objetos que hay sobre la mesa: libros, cápsulas, tubos de ensayo, etc. Viste con sencillez casera y lleva delantal blanco.</stage>
 					<sp who="#maxi">
@@ -3684,7 +3874,7 @@
 						<p><rs key="#gil_">Gil</rs>… pronto… Que os llama el maestro. <stage>(Dándoles prisa.)</stage> Vamos…</p>
 					</sp>
 				</div>				
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#maxi">Máximo</rs>; <rs key="#mari">Mariano</rs>, <rs key="#gil_">Gil</rs>: el primero vestido de <rs key="#oper">operario</rs>, con blusa; el segundo con traje usual, manguitos y la pluma en la oreja.</stage>
 					<sp who="#gil_">
@@ -3832,7 +4022,7 @@
 						<p>Que conste… Ea, voy y vuelvo volando. <stage>(Con suma ligereza, cantando, se va por la puerta de la derecha, hacia el interior de la casa. A punto que ella sale entra el Operario por el fondo.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage><rs key="#maxi">Máximo</rs>, el Operario.</stage>
 					<sp who="#maxi">
@@ -3868,7 +4058,7 @@
 						<p>Bien, señor. <stage>(Se va por el fondo.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage><rs key="#maxi">Máximo</rs>, <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#elec">
@@ -3916,11 +4106,11 @@
 						<p>Al instante. <stage>(Corre al interior de la casa.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>
                     Escena V</head>
 					<stage>
-                    <rs key="#maxi">Máximo</rs>, <rs key="#gil_">Gil</rs>.</stage>
+						<rs key="#maxi">Máximo</rs>, <rs key="#gil_">Gil</rs>.</stage>
 					<sp who="#maxi">
 						<speaker>Máximo</speaker>
 						<p>¡Singular caso! Cada palabra, cada gesto, cada acción de esta preciosa mujercita, en la libertad de que goza, son otros tantos resplandores que arroja su alma inquieta, noblemente ambiciosa, ávida de mostrarse en los afectos grandes y en las virtudes superiores. <stage>(Con ardor.)</stage> ¡Bendita sea ella que trae la alegría, la luz, a este escondrijo de la ciencia, triste, oscuro, y con sus gracias hace de esta aridez un paraíso! ¡Bendita ella que ha venido a sacar de su abstracción a este pobre Fausto, envejecido a los treinta y cinco años, y a decirle: «no se vive solo de verdades…». <stage>(Le interrumpe <rs key="#gil_">Gil</rs> que ha entrado poco antes; se acerca sin ser visto.)</stage></p>
@@ -3966,7 +4156,7 @@
 						<p>Pues di que los primeros poetas del mundo, Homero y Virgilio, Dante, Lope, Calderón, no escribieron jamás una <hi rend="italics">estrofa</hi> tan inspirada y poética como lo es esa para mí, esos pobres números… Verdad que la armonía, el encanto poético no están en ellos: están en… Vete… Puedes irte a comer… Déjame, déjanos. <stage>(Le empuja para que se vaya.)</stage> No me conozco: yo también confundo… Lucido estoy con esta inquietud, con esta pérdida de mi serenidad… Es ella la que… <stage>(Desde el punto conveniente de la escena mira al interior.)</stage> Allí está la imaginación, allí el ideal, allí la divina muñeca, entre pucheros… <stage>(Vuelve al proscenio.)</stage> ¡Oh! <rs key="#elec">Electra</rs>, tú, juguetona y risueña, ¡cuán llena de vida y de esperanzas y la ciencia qué yerta, qué solitaria, qué vacía!</p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage><rs key="#maxi">Máximo</rs>, <rs key="#elec">Electra</rs>.</stage>
 					<sp who="#elec">
@@ -4194,7 +4384,7 @@
 						<p><stage>(Contemplándola.)</stage> Como alzar los ojos, yo… ya miro, ya…</p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#maxi">Máximo</rs>; <rs key="#mari">Mariano</rs>, por la izquierda.</stage>
 					<sp who="#mari">
@@ -4230,7 +4420,7 @@
 						<p>Bien. <stage>(Vase por el fondo.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena VIII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#maxi">Máximo</rs>; después el Operario.</stage>
 					<sp who="#elec">
@@ -4298,7 +4488,7 @@
 						<p>Bueno, bueno. Pues tú lo mandas… Voy por el café. <stage>(Vase gozosa, con paso ligero.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena IX</head>
 					<stage><rs key="#maxi">Máximo</rs>, el <rs key="#marq">Marqués</rs>, <rs key="#elec">Electra</rs>; al fin de la escena <rs key="#mari">Mariano</rs>.</stage>
 					<sp who="#maxi">
@@ -4542,7 +4732,7 @@
 						<p><stage>(Con emoción muy viva, brindando.)</stage> ¡Por el grande y cariñoso amigo! <stage>(Aparece <rs key="#pant">Pantoja</rs> por la derecha, viniendo del jardín. Permanece en la puerta contemplando con frío estupor la escena.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>Escena X</head>
 					<stage><rs key="#maxi">Máximo</rs>, <rs key="#elec">Electra</rs>, el <rs key="#marq">Marqués</rs>, <rs key="#pant">Pantoja</rs>.</stage>
 					<sp who="#marq">
@@ -4750,7 +4940,7 @@
 						<p>No he pretendido que me reveles tus intenciones. ¿Para qué, si las conozco? <stage>(Da algunos pasos hacia el centro de la escena clavando la mirada en <rs key="#maxi">Máximo</rs>.)</stage> No me fío de la expresión de tus ojos. Penetro en el doble fondo de tu mente: allí veo lo que piensas… No te interrogué por saber tu intención, que ya sabía, sino por oírte las bonitas promesas con que la encubres. En ti no mora la verdad; en ti no mora el bien, no, no… no… <stage>(Vase despacio repitiendo las últimas palabras.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="11">
+				<div n="11" type="scene">
 					<head>Escena XI</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#maxi">Máximo</rs>, el <rs key="#marq">Marqués</rs>, <rs key="#mari">Mariano</rs>.</stage>
 					<sp who="#elec">
@@ -4823,13 +5013,13 @@
 					</sp>
 				</div>
 			</div>
-			<div  type="act" n="4">
+			<div n="4" type="act">
 				<head>Acto IV</head>
 				<stage>
 					<p>Jardín del palacio de García Yuste. A la derecha la entrada al palacio, con escalera de pocos peldaños. A la izquierda, haciendo juego con la entrada, un cuerpo de arquitectura grutesca, decorado con bajorrelieves: al pie de esta construcción un banco de piedra, en ángulo, de traza elegante. Jarrones o plantas exóticas en tibores decoran esta terraza con piso de mosaico, entre el edificio y el suelo enarenado del jardín.</p>
 					<p>En segundo término y en el fondo, el jardín, con grandes árboles y macizos de flores. Del centro parten tres paseos en curvas. El de la izquierda conduce a la calle. Sillas de hierro. Es de día.</p>
 				</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena I</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#patr">Patros</rs>, con una cesta de flores que acaban de coger.</stage>
 					<sp who="#elec">
@@ -4913,10 +5103,10 @@
 						<p>¡Ah, no…! Ya sé… <stage>(Entra corriendo en la casa.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#maxi">Máximo</rs>; después el <rs key="#marq">Marqués</rs>.</stage>
-					
+
 					<sp who="#maxi">
 						<speaker>Máximo</speaker>
 						<p><stage>(A distancia, abriendo un poco los brazos.)</stage> ¡Niña!</p>
@@ -5030,7 +5220,7 @@
 						<p><stage>(Viéndole salir.)</stage> Corre… Ven pronto.</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage><rs key="#elec">Electra</rs>, el <rs key="#marq">Marqués</rs>.</stage>
 					<sp who="#marq">
@@ -5118,7 +5308,7 @@
 						<p><stage>(Muy afectuoso.)</stage> ¡Pobre niña mía! Dios será contigo.</p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage>Los mismos; don <rs key="#urba">Urbano</rs>, que viene de la casa, con sombrero.</stage>
 					<sp who="#urba">
@@ -5166,7 +5356,7 @@
 						<p>Sí que iré.</p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena V</head>
 					<stage>Los mismos; <rs key="#elec">Electra</rs>, <rs key="#evar">Evarista</rs>, <rs key="#pant">Pantoja</rs>.</stage>
 					<sp who="#elec">
@@ -5198,7 +5388,7 @@
 						<p>Hasta luego. <stage>(Vase <rs key="#elec">Electra</rs>, el <rs key="#marq">Marqués</rs> y don <rs key="#urba">Urbano</rs> por el fondo izquierda.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage><rs key="#evar">Evarista</rs>, <rs key="#pant">Pantoja</rs>, que en actitud de gran cansancio y desaliento se arroja en el banco de la izquierda, primer término.</stage>
 					<sp who="#evar">
@@ -5422,7 +5612,7 @@
 						<p>Seré con usted. <stage>(Aparte.)</stage> No quiero que me vean. <stage>(Se oculta tras el macizo de la derecha, junto a la escalinata.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage><rs key="#pant">Pantoja</rs>, oculto; <rs key="#elec">Electra</rs>, don <rs key="#urba">Urbano</rs>, el <rs key="#marq">Marqués</rs>, que vuelven de misa; <rs key="#patr">Patros</rs>, que sale de la casa.</stage>
 					<sp who="#elec">
@@ -5458,7 +5648,7 @@
 						<p><stage>(Admirando las flores que ha cogido.)</stage> ¡Qué lindas, qué graciosas estas clemátides! <stage>(Sale <rs key="#pant">Pantoja</rs>: se asusta al verle.)</stage> ¡Ay!</p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena VIII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#pant">Pantoja</rs>.</stage>
 					<sp who="#pant">
@@ -5766,7 +5956,7 @@
 						<p><stage>(Con grito del alma.)</stage> ¡Madre, madre mía…! La verdad, dime la verdad… <stage>(Fuera de sí recorre la escena.)</stage> ¿Dónde estás, madre?… Quiero la muerte o la verdad… Madre, ven a mí… ¡Madre, madre…! <stage>(Sale disparada por el fondo y se pierde en la espesura lejana. Suena próximo el canto de los niños jugando al corro.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena IX</head>
 					<stage><rs key="#pant">Pantoja</rs>; don <rs key="#urba">Urbano</rs>, el <rs key="#marq">Marqués</rs> por la casa, presurosos. Tras ellos <rs key="#balb">Balbina</rs> y <rs key="#patr">Patros</rs>.</stage>
 					<sp who="#urba">
@@ -5862,10 +6052,10 @@
 						<p><stage>(Indeciso y como asustado.)</stage> Por primera vez en mi vida no acierto a tomar una resolución. Iré allá. <stage>(Al fondo del jardín.)</stage> No… ¿Esperaré? Tampoco. <stage>(Resolviéndose.)</stage> Voy. <stage>(A los pocos pasos le detiene <rs key="#maxi">Máximo</rs>, que muy agitado y colérico viene del jardín.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>Escena X</head>
 					<stage>
-                    <rs key="#pant">Pantoja</rs>, <rs key="#maxi">Máximo</rs>.</stage>
+						<rs key="#pant">Pantoja</rs>, <rs key="#maxi">Máximo</rs>.</stage>
 					<sp who="#maxi">
 						<speaker>Máximo</speaker>
 						<p><stage>(Con ardiente palabra en toda la escena.)</stage> Alto… Me dice el <rs key="#marq">Marqués</rs> que de aquí, después da una larga conversación con usted, salió <rs key="#elec">Electra</rs> en ese terrible desvarío.</p>
@@ -5979,7 +6169,7 @@
 						<p><stage>(Después de mirarle fijamente.)</stage> Vamos. <stage>(Al dar los primeros pasos sale <rs key="#evar">Evarista</rs> de la casa.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="11">
+				<div n="11" type="scene">
 					<head>Escena XI</head>
 					<stage>Los mismos, <rs key="#evar">Evarista</rs>; tras ella la Superiora y dos Hermanas de La Penitencia; después <rs key="#patr">Patros</rs>.</stage>
 					<sp who="#evar">
@@ -6007,7 +6197,7 @@
 						<p>El señor y el señor <rs key="#marq">Marqués</rs> han logrado reducirla y a casa la traen… <stage>(Aparece <rs key="#elec">Electra</rs>, conducida por don <rs key="#urba">Urbano</rs> y el <rs key="#marq">Marqués</rs>; junto a ellos <rs key="#maxi">Máximo</rs>. Al ver a los que están en escena, hace alguna resistencia. Suave y cariñosamente la obligan a aproximarse. Trae el pelo y seno adornado con florecillas.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="12">
+				<div n="12" type="scene">
 					<head>Escena XII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#maxi">Máximo</rs>, <rs key="#evar">Evarista</rs>, <rs key="#pant">Pantoja</rs>, Don <rs key="#urba">Urbano</rs>, el <rs key="#marq">Marqués</rs>, <rs key="#patr">Patros</rs>, la Superiora y Hermanas.</stage>
 					<sp who="#evar">
@@ -6100,10 +6290,10 @@
 					</sp>
 				</div>
 			</div>
-			<div  type="act" n="5">
+			<div n="5" type="act">
 				<head>Acto V</head>
 				<stage>Telón corto. Sala locutorio en San <rs key="#jose">José</rs> de la Penitencia. Puertas laterales; al fondo un ventanal, de donde se ve el patio.</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Escena I</head>
 					<stage><rs key="#evar">Evarista</rs>, Sor <rs key="#doro">Dorotea</rs>.</stage>
 					<sp who="#evar">
@@ -6187,7 +6377,7 @@
 						<p><stage>(Viendo llegar a don <rs key="#urba">Urbano</rs>.)</stage> El señor don <rs key="#urba">Urbano</rs>.</p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Escena II</head>
 					<stage>Las mismas; don <rs key="#urba">Urbano</rs>.</stage>
 					<sp who="#evar">
@@ -6239,7 +6429,7 @@
 						<p>Nada: tan tranquilo el hombre, repitiendo la fórmula que le pinta de un solo trazo: «Confío en Dios».</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>Escena III</head>
 					<stage>Los mismos; <rs key="#maxi">Máximo</rs>, el <rs key="#marq">Marqués</rs>, por la izquierda.</stage>
 					<sp who="#marq">
@@ -6343,7 +6533,7 @@
 						<p>Con permiso de los señores, me retiro. <stage>(Se va por la izquierda. <rs key="#pant">Pantoja</rs> permanece un instante en la puerta.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>Escena IV</head>
 					<stage><rs key="#evar">Evarista</rs>, <rs key="#maxi">Máximo</rs>, don <rs key="#urba">Urbano</rs>, el <rs key="#marq">Marqués</rs>, <rs key="#pant">Pantoja</rs>.</stage>
 					<sp who="#pant">
@@ -6467,7 +6657,7 @@
 						<p>Y nosotros a la iglesia. <stage>(Salen don <rs key="#urba">Urbano</rs>, <rs key="#evar">Evarista</rs> y <rs key="#pant">Pantoja</rs>.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>Escena V</head>
 					<stage>El <rs key="#marq">Marqués</rs>; <rs key="#maxi">Máximo</rs>, que recorre la escena muy agitado con inquietud impaciente y recelosa.</stage>
 					<sp who="#marq">
@@ -6567,7 +6757,7 @@
 						<p>Confío en Dios.</p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>Escena VI</head>
 					<stage>
 						<p>Mutación.</p>
@@ -6639,7 +6829,7 @@
 						<p>Es mi madre… ¡Silencio…! <stage>(Oyendo. Entra <rs key="#pant">Pantoja</rs> por la derecha.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>Escena VII</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#pant">Pantoja</rs>, <rs key="#doro">Dorotea</rs>.</stage>
 					<sp who="#pant">
@@ -6703,7 +6893,7 @@
 						<p>Hacia la enfermería. ¡Oh, no tengo tranquilidad! Quiero ver por mí mismo… <rs key="#elec">Electra</rs>, vuelve a la iglesia… Hermana llévela, usted… Espérenme allí… <stage>(Dándoles prisa.)</stage> Pronto… <stage>(Las conduce a la puerta de la iglesia… Se va presuroso, muy inquieto, por el foro derecha. <rs key="#doro">Dorotea</rs> le ve alejarse, coge de la mano a <rs key="#elec">Electra</rs> y vivamente vuelve con ella al centro de la escena. <rs key="#elec">Electra</rs>, como sin voluntad, se deja llevar.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>Escena VIII</head>
 					<stage><rs key="#elec">Electra</rs>, sor <rs key="#doro">Dorotea</rs>.</stage>
 					<sp who="#doro">
@@ -6747,10 +6937,10 @@
 						<p>¡Jesús mío, Virgen santa!… ¿Será cierto que…? Por aquí… por aquí vendrá… <stage>(Cree ver a <rs key="#maxi">Máximo</rs> en la oscuridad.)</stage> ¡Ah!… él es… ¡<rs key="#maxi">Máximo</rs>! <stage>(Hablando como en sueños, se aparta como lo haría de un ser real.)</stage> Apártate de mí… déjame… No puedo quererte como hermano, no puedo… En el fuego está el crisol, donde quiero fundir un corazón nuevo… ¿No ves que no puedo mirarte…? ¿A qué me miras tú…? No me llevarás al mundo… Aquí busco la verdad. Mi madre me llama. <stage>(Con acento desesperado.)</stage> ¡Madre, madre! <stage>(Vuélvese de cara al fondo. Al sonar las últimas palabras de <rs key="#elec">Electra</rs>, aparece la Sombra de Eleuteria, hermosa figura vestida de monja. <rs key="#elec">Electra</rs>, de espaldas al público y con los brazos en cruz, la contempla.)</stage> ¡Oh! <stage>(Larga pausa.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>Escena IX</head>
 					<stage><rs key="#elec">Electra</rs>, la <rs key="#eleu">sombra de Eleuteria</rs>, que vagamente se destaca en la oscuridad del fondo. <rs key="#elec">Electra</rs> avanza hacia ella. Quedan las figuras una frente a otra, a la menor distancia posible.</stage>
-					<sp who="#somb">
+					<sp who="#eleu">
 						<speaker>La sombra</speaker>
 						<p>Tu madre soy y a calmar vengo las ansias de tu corazón amante. Mi voz devolverá la paz a tu conciencia. Ningún vínculo de naturaleza te une al hombre que te eligió por esposa. Lo que oíste fue una ficción dictada por el cariño para traerte a nuestra compañía y al sosiego de esta santa casa.</p>
 					</sp>
@@ -6758,13 +6948,13 @@
 						<speaker>Electra</speaker>
 						<p>¡Oh, madre, qué consuelo me das!</p>
 					</sp>
-					<sp who="#somb">
+					<sp who="#eleu">
 						<speaker>La sombra</speaker>
 						<p>Te doy la verdad y con ella fortaleza y esperanza. Acepta, hija mía, como prueba del temple de tu alma, esta reclusión transitoria y no maldigas a quien te ha traído a ella… Si el amor conyugal y los goces de la familia solicitan tu alma, déjate llevar de esa dulce atracción y no pretendas aquí una santidad, que no alcanzarías. Dios está en todas partes… Yo no supe encontrarle fuera de aquí… Búscale en el mundo por senderos mejores que los míos, y…</p>
 						<stage>(La sombra calla y desaparece en el momento en que suena la voz de <rs key="#maxi">Máximo</rs>.)</stage>
 					</sp>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>Escena X</head>
 					<stage><rs key="#elec">Electra</rs>, <rs key="#maxi">Máximo</rs>, el <rs key="#marq">Marqués</rs>, sor <rs key="#doro">Dorotea</rs>.</stage>
 					<sp who="#maxi">

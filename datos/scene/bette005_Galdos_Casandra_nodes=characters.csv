@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	scene_18	scene_19	scene_20	scene_21	scene_22	scene_23	scene_24	scene_25	scene_26	scene_27	scene_28	scene_29	scene_30	first scene	middle scene	last scene
+#casa	#casa	Casandra	F	protagonist	person	primary	1	0	0	0	0	0	0	0	0	0	0	8	4	41	2	0	0	22	0	0	0	0	0	0	0	0	22	0	0	35	1	0	4.785714285714286	1
+#juan	#juan	Dña. Juana	F	antagonist	person	primary	2	13	17	17	3	0	0	0	0	0	0	0	0	40	3	0	0	0	0	0	0	0	0	0	0	0	0	0	8	35	0	13	4.392857142857143	0
+#rosa	#rosa	Rosaura	F	other	person	minor	3	0	0	0	0	0	7	14	0	8	2	0	0	0	0	0	0	12	0	0	0	10	10	3	21	9	22	0	0	0	0	0	4.214285714285714	0
+#mari	#mari	María Juana	F	other	person	minor	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0.32142857142857145	0
+#beat	#beat	Beatriz	F	other	person	minor	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0.2857142857142857	0
+#pepa	#pepa	Pepa	F	other	person	minor	6	6	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0.14285714285714285	0
+#mart	#mart	Martina	F	other	person	minor	7	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	5	0	1	9	0.32142857142857145	1
+#seve	#seve	Severiana	F	other	person	minor	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0.10714285714285714	0
+#inst	#inst	La Institutriz	F	other	person	minor	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.07142857142857142	0
+#alfo	#alfo	Alfonso de la Cerda	M	other	person	secondary	10	0	0	0	0	0	6	7	0	0	0	0	0	0	0	31	4	12	21	6	0	0	0	0	0	8	4	0	0	0	0	0	3.5357142857142856	0
+#isma	#isma	Ismael	M	other	person	minor	11	0	0	0	2	8	6	9	15	1	2	8	3	0	0	0	0	0	0	0	34	7	10	5	22	6	3	0	0	0	0	0	5.035714285714286	0
+#zeno	#zeno	Zenón de Guillarte	M	other	person	minor	12	0	0	0	0	0	0	11	6	2	2	8	2	0	0	0	0	0	0	0	35	8	0	0	0	0	3	0	0	0	0	0	2.75	0
+#roge	#roge	Rogelio	M	other	person	secondary	13	0	0	0	0	0	0	1	14	0	3	7	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.0	0
+#insu	#insu	Insúa	F	other	person	minor	14	1	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	2	0	0	0	0	0	0	0	0	0	0	0	1	1.4642857142857142	0
+#cebr	#cebr	Cebrián	M	other	person	minor	15	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	4	0	2	0	0.5	2
+#clem	#clem	Clementina	F	other	person	secondary	0	0	0	7	1	0	0	0	0	7	1	0	0	0	0	31	7	20	21	5	0	0	0	0	14	7	2	0	0	0	0	0	4.392857142857143	0

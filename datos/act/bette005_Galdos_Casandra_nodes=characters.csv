@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#casa	#casa	Casandra	F	protagonist	person	primary	1	55	22	58	55	22.0	58
+#juan	#juan	Dña. Juana	F	antagonist	person	primary	2	93	0	43	93	0.0	43
+#rosa	#rosa	Rosaura	F	other	person	minor	3	31	12	75	31	12.0	75
+#mari	#mari	María Juana	F	other	person	minor	4	0	9	0	0	9.0	0
+#beat	#beat	Beatriz	F	other	person	minor	5	0	8	0	0	8.0	0
+#pepa	#pepa	Pepa	F	other	person	minor	6	10	0	0	10	0.0	0
+#mart	#mart	Martina	F	other	person	minor	7	9	0	10	9	0.0	10
+#seve	#seve	Severiana	F	other	person	minor	8	0	0	3	0	0.0	3
+#inst	#inst	La Institutriz	F	other	person	minor	9	0	2	0	0	2.0	0
+#alfo	#alfo	Alfonso de la Cerda	M	other	person	secondary	10	13	74	12	13	74.0	12
+#isma	#isma	Ismael	M	other	person	minor	11	54	0	87	54	0.0	87
+#zeno	#zeno	Zenón de Guillarte	M	other	person	minor	12	31	0	46	31	0.0	46
+#roge	#roge	Rogelio	M	other	person	secondary	13	28	0	0	28	0.0	0
+#insu	#insu	Insúa	F	other	person	minor	14	20	22	0	20	22.0	0
+#cebr	#cebr	Cebrián	M	other	person	minor	15	6	0	10	6	0.0	10
+#clem	#clem	Clementina	F	other	person	secondary	0	16	84	23	16	84.0	23

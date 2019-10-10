@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#afri	#afri	África	F	lover	person	primary	1	104	54	50	104	54.0	50
+#maru	#maru	Maruja	F	other	person	secondary	2	19	56	5	19	56.0	5
+#cons	#cons	Consuelo	F	other	person	secondary	3	31	25	11	31	25.0	11
+#niev	#niev	Nieves	F	other	person	minor	4	19	52	0	19	52.0	0
+#beni	#beni	Benita	F	other	person	minor	5	20	14	13	20	14.0	13
+#conde	#conde	Condesa	F	other	person	minor	6	31	0	30	31	0.0	30
+#hora	#hora	Horacio	M	protagonist	person	primary	7	81	99	48	81	99.0	48
+#luis	#luis	Luis	M	other	person	secondary	8	22	36	37	22	36.0	37
+#ramo	#ramo	Ramón	M	other	person	secondary	9	31	68	33	31	68.0	33
+#paco	#paco	Paco	M	other	person	minor	10	71	21	20	71	21.0	20
+#timo	#timo	Timoteo	M	other	person	minor	11	71	17	23	71	17.0	23
+#wist	#wist	Wistremundo	M	other	person	minor	12	0	36	0	0	36.0	0
+#vict	#vict	Victoriano	M	other	person	minor	13	11	0	28	11	0.0	28
+#eulo	#eulo	Eulogio	M	other	person	minor	14	7	37	0	7	37.0	0
+#jorg	#jorg	Jorge	M	other	person	minor	15	7	0	0	7	0.0	0
+#cami	#cami	Don Camilo	M	other	person	minor	16	0	0	0	0	0.0	0

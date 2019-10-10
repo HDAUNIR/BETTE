@@ -1,0 +1,13 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#ange	#ange	Ángel	M	protagonist	person	primary	1	123	124	77	123	124.0	77
+#eufe	#eufe	Eufemia	F	lover	person	primary	2	57	68	16	57	68.0	16
+#joaq	#joaq	Joaquín	M	other	person	secondary	3	28	24	33	28	24.0	33
+#euse	#euse	Eusebio	M	antagonist	person	secondary	5	21	23	3	21	23.0	3
+#ramo	#ramo	La Tía Ramona	F	other	person	minor	6	11	15	1	11	15.0	1
+#pepe	#pepe	José	M	other	person	minor	7	6	10	0	6	10.0	0
+#teod	#teod	Teodoro	M	other	person	minor	8	7	22	0	7	22.0	0
+#nico	#nico	Nicolás	M	other	person	minor	9	4	15	15	4	15.0	15
+#mart	#mart	Martina	F	other	person	minor	10	14	9	0	14	9.0	0
+#hima	#hima	El Hijo mayor de Felipe	M	other	person	minor	11	0	0	7	0	0.0	7
+#hime	#hime	El Hijo menor de Felipe	M	other	person	minor	12	0	0	7	0	0.0	7
+#feli	#feli	Felipe	M	other	person	secondary	4	22	0	52	22	0.0	52

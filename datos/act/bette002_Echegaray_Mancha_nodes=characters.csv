@@ -1,0 +1,9 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	act_4	first act	middle act	last act
+#mati	#mati	Matilde	F	protagonist	person	primary	1	56	70	104	76	56	87.0	76
+#enri	#enri	Enriqueta	F	antagonist	person	primary	2	39	43	42	98	39	42.5	98
+#conc	#conc	Doña Concepción	F	other	person	secondary	3	86	35	51	20	86	43.0	20
+#dolo	#dolo	Dolores	F	other	person	minor	4	0	0	0	23	0	0.0	23
+#fern	#fern	Fernando	M	lover	person	primary	5	15	37	68	53	15	52.5	53
+#just	#just	Don Justo	M	other	person	secondary	6	78	71	74	57	78	72.5	57
+#lore	#lore	Don Lorenzo	M	other	person	secondary	7	30	30	17	1	30	23.5	1
+#juli	#juli	Julio	M	antagonist	person	primary	8	1	32	0	0	1	16.0	0

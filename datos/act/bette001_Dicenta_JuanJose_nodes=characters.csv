@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#rosa	#rosa	Rosa	F	other	person	primary	1	53	81	49	53	81.0	49
+#tonu	#tonu	Toñuela	F	other	person	minor	2	21	25	0	21	25.0	0
+#isid	#isid	Isidra	F	other	person	secondary	3	59	37	17	59	37.0	17
+#muj1	#muj1	Mujer 1ª	F	other	person	minor	4	2	0	0	2	0.0	0
+#muj2	#muj2	Mujer 2ª	F	other	person	minor	5	0	0	0	0	0.0	0
+#juan	#juan	Juan José	M	protagonist	person	primary	6	53	56	81	53	56.0	81
+#paco	#paco	Paco	M	lover	person	primary	7	48	0	6	48	0.0	6
+#andr	#andr	Andrés	M	other	person	secondary	8	68	25	3	68	25.0	3
+#cano	#cano	El Cano	M	other	person	secondary	9	0	0	65	0	0.0	65
+#igna	#igna	Ignacio	M	other	person	minor	10	20	7	0	20	7.0	0
+#peri	#peri	Perico 	M	other	person	minor	11	20	0	0	20	0.0	0
+#tabe	#tabe	El tabernero	M	other	person	minor	12	30	0	0	30	0.0	0
+#cabo	#cabo	Un cabo de presidio	M	other	person	minor	13	0	0	0	0	0.0	0
+#beb1	#beb1	Bebedor 1º	M	other	person	minor	14	6	0	0	6	0.0	0
+#beb2	#beb2	Bebedor 2º	M	other	person	minor	15	5	0	0	5	0.0	0
+#mozo	#mozo	Un mozo de taberna	M	other	person	minor	16	0	0	0	0	0.0	0

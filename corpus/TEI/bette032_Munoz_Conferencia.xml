@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,24 +10,32 @@
 				<title type="idno">
 					<idno type="viaf"></idno>
 					<idno type="bne"></idno>
+					<idno type="wikidata">Q63200027</idno>
 				</title>
 				<author>
 					<name type="full">Pedro Muñoz Seca</name>
 					<name type="short">Munoz</name>
 					<idno type="viaf">24776670</idno>
 					<idno type="bne">XX983355</idno>
+					<idno type="wikidata">Q3322907</idno>
 				</author>
 				<principal xml:id="mgs">María García Sánchez</principal>
 				<principal xml:id="mas">María Ángel Somalo</principal>
 				<principal xml:id="rvf">Rocío Vilches Fernández</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>032</idno>
+				<idno>
+					<idno type="number">032</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="print-source">
@@ -39,7 +47,7 @@
 					<date>2013</date>
 					<publisher>epublibre</publisher>
 					<pubPlace>epublibre</pubPlace>
-					<ref target="https://www.epublibre.org/libro/detalle/7725" />
+					<ref target="https://www.epublibre.org/libro/detalle/7725"></ref>
 				</bibl>
 				<bibl type="first-published">
 					<date>1916</date>
@@ -53,8 +61,14 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="comedia"></purpose>
+			</textDesc>
 			<abstract>
-				<p>CUADRO PRIMERO: Algeciras y Canseco, vienen de noche por la calle del brazo y Algeciras, elegantemente vestido con un frac que le ha dejado su amigo Galindo (hombre culto), muy encogido, procura que un tal Membrives no lo vean ya que lo suscribió ocho meses atrás al diccionario enciclopédico Espasa y le abonó cien pesetas de entrada y todavía no sabe ni cómo está encuadernado. </p>
+				<p>CUADRO PRIMERO: Algeciras y Canseco, vienen de noche por la calle del brazo y Algeciras, elegantemente vestido con un frac que le ha dejado su amigo Galindo (hombre culto), muy encogido, procura que un tal Membrives no lo vean ya que lo suscribió ocho meses atrás al diccionario enciclopédico Espasa y le abonó cien pesetas de entrada y todavía no sabe ni cómo está encuadernado. </p>
 				<p>Algeciras y Canseco se dirigen a una conferencia que va a dar Algeciras sobre “La mosca, como vehículo de todas las enfermedades” idea de Galindo y por la que le pagan 500 pesetas.</p>
 				<p>Canseco no se lo explica cómo es que Algeciras va a dar una conferencia no siendo hombre culto. Así que pide a Algeciras una explicación. Este le explica, que en el Círculo Higienista Andorrano se realizan juegos ilegales y con el objeto de despistar a la jefatura se organiza cada lunes y cada martes una conferencia científica, como tapadera y que por medio de ese procedimiento se consiguen dos cosas: proteger a la ciencia y justificar la entrada en el Círculo de tantísima gente que va a jugar. Algeciras le cuenta  a Canseco todos los pormenores del entramado, sobre el vestuario, sobre los asistentes, sobre el funcionamiento de la tapadera.  </p>
 				<p>Pero sucede que al llegar los amigos al Círculo, Martínez (criado del Círculo), avisa a Algeciras que Don Jorge Sota y Rey, el presidente del Círculo,  quien cree que Algeciras es un publicista del Paraguay, una especie de Benavente, Unamuno y Galdós,  el Comisario del distrito y 200 personas más, le están esperando en la sala de conferencias, ya que sucede que el día anterior  el último conferenciante no dio la conferencia y como perdió las quinientas pesetas en el juego, denunció el hecho a la policía.</p>
@@ -65,1080 +79,1230 @@
 				<p>Vuelve Membrives, arruinado del juego y busca distraerse con la conferencia. Así se da cuenta que el conferencista es el mismo que le vendió la enciclopedia que no le ha llegado. El presidente del Círculo Jorge Sota y Rey avisa a los asistentes que el Comisario se ha marchado y empieza el juego. Todos se precipitan y abandonan la sala menos Membrives quien pide cuentas a Algeciras de su enciclopedia. Algeciras lo niega todo haciéndose pasar por el paraguayo. Justo cuando Membrives se dispone a encarar a Algeciras oye unos timbres y sale corriendo. Algeciras, no se explica como todo ha salido tan bien.</p>
 				<p>Aparecen el Comisario Ramírez y Parrondo guardia de orden público y detienen a Algeciras, por otra parte aparece Gómez guardia de orden público con Canseco atado pues todos los demás han salido huyendo. Canseco confiesa que se ha gastado en el juego el dinero de Algeciras. Van preso los dos.  </p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+
+					<person n="1" role="protagonist" sex="M" xml:id="alge">
+						<persName>Algeciras</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>12860</desc></event>
+							<event type="sps"><desc>94</desc></event>
+							<event type="rss"><desc>21</desc></event>
+							<event type="scenes"><desc>12</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="other" sex="M" xml:id="cans">
+						<persName>Canseco</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3869</desc></event>
+							<event type="sps"><desc>60</desc></event>
+							<event type="rss"><desc>17</desc></event>
+							<event type="scenes"><desc>8</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="other" sex="M" xml:id="jorg">
+						<persName>Jorge</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2631</desc></event>
+							<event type="sps"><desc>27</desc></event>
+							<event type="rss"><desc>12</desc></event>
+							<event type="scenes"><desc>9</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="antagonist" sex="M" xml:id="memb">
+						<persName>Membrives</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1482</desc></event>
+							<event type="sps"><desc>20</desc></event>
+							<event type="rss"><desc>7</desc></event>
+							<event type="scenes"><desc>7</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="other" sex="M" xml:id="mart">
+						<persName>Martínez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1152</desc></event>
+							<event type="sps"><desc>12</desc></event>
+							<event type="rss"><desc>8</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="gasc">
+						<persName>Gascón</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>232</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="rami">
+						<persName>Ramírez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>621</desc></event>
+							<event type="sps"><desc>12</desc></event>
+							<event type="rss"><desc>4</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="M" xml:id="parr">
+						<persName>Parrondo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>170</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>2</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="M" xml:id="gome">
+						<persName>Gómez</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>306</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<personGrp role="other" sex="0" xml:id="voza">
+						<persName>Voces</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>248</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</personGrp>
+				</listPerson></particDesc>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2016-04-21" who="mas">Codificación TEI del Cuadro Segundo</change>
-			<change when="2016-05-17" who="rvf" status="proposed">Codificación TEI del Cuadro Primero y TeiHeader</change>
-			<change when="2017-05-29" who="mgs" status="approved">Añadido abstract y validado.</change>
+			<change when="2016-04-21" who="#mas">Codificación TEI del Cuadro Segundo</change>
+			<change status="proposed" when="2016-05-17" who="#rvf">Codificación TEI del Cuadro Primero y TeiHeader</change>
+			<change status="approved" when="2017-05-29" who="#mgs">Añadido abstract y validado.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#tsm">Revisión de metadatos a partir del resumen</change>
+			<change when="2017-11-13" who="#jct">División de escenas artificiales realizada, señalada como cert low.</change>
+
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<front>
 			<div>
-			<castList>
-				<head>PERSONAJES</head>
-				<castItem>
-					<role xml:id="alge">Algeciras</role>
-				</castItem>
-				<castItem>
-					<role xml:id="cans">Canseco</role>
-				</castItem>
-				<castItem>
-					<role xml:id="jorg">Jorge</role>
-				</castItem>
-				<castItem>
-					<role xml:id="memb">Membrives</role>
-				</castItem>
-				<castItem>
-					<role xml:id="mart">Martínez</role>
-				</castItem>
-				<castItem>
-					<role xml:id="gasc">Gascón</role>
-				</castItem>
-				<castItem>
-					<role xml:id="rami">Ramírez</role>
-				</castItem>
-				<castItem>
-					<role xml:id="parr">Parrondo</role>
-				</castItem>
-				<castItem>
-					<role xml:id="gome">Gómez</role>
-				</castItem>
-			</castList>
+				<castList>
+					<head>PERSONAJES</head>
+					<castItem>
+						<role corresp="#alge">Algeciras</role>
+					</castItem>
+					<castItem>
+						<role corresp="#cans">Canseco</role>
+					</castItem>
+					<castItem>
+						<role corresp="#jorg">Jorge</role>
+					</castItem>
+					<castItem>
+						<role corresp="#memb">Membrives</role>
+					</castItem>
+					<castItem>
+						<role corresp="#mart">Martínez</role>
+					</castItem>
+					<castItem>
+						<role corresp="#gasc">Gascón</role>
+					</castItem>
+					<castItem>
+						<role corresp="#rami">Ramírez</role>
+					</castItem>
+					<castItem>
+						<role corresp="#parr">Parrondo</role>
+					</castItem>
+					<castItem>
+						<role corresp="#gome">Gómez</role>
+					</castItem>
+				</castList>
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>ACTO ÚNICO</head>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>CUADRO PRIMERO</head>
-					<stage>Telón de calle. Es de noche. La acción en Madrid. Época actual.</stage>
-					<stage>(Entran en escena, por la izquierda, <rs key="#alge">Algeciras</rs> y <rs key="#cans">Canseco</rs>, dos puntos como de cuarenta abriles. <rs key="#alge">Algeciras</rs> viste de frac y copa: el frac le está muy estrecho. Trae al brazo algo que parece un abrigo. Venancio es un tipo bastante achulado. De esos de hongo y palasán. Vienen del brazo, y <rs key="#alge">Algeciras</rs>, muy encogido, procura que alguien no le vea.)</stage>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p><stage>(Mirando hacia atrás.)</stage>Yérguete, que ya ha doblao la esquina.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p><stage>(Respirando a pleno pulmón.)</stage>¡Chico, qué Susto!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿Quién era?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Un tal <rs key="#memb">Membrives</rs>; aquél que te conté, que le suscribí hace ocho meses al diccionario enciclopédico Espasa: me abonó la entrada, o sean cien pesetas, y si ha querido consultar algún vocablo, habrá tenido que ir a ver a don Francisco Rodríguez Marín.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>La verdad es que haces cosas, querido <rs key="#alge">Algeciras</rs>, como para retirarte el saludo.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Bueno, ¿qué hora es?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Espera: al pasar por Carretas miré en una relojería y eran las nueve menos cinco; ¿que habremos tardao?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Un cuarto de hora. Es temprano. La conferencia es a las nueve y media, y aunque no sea puntual, no importa: los conferenciantes siempre se hacen esperar. Además, que para la gente que ha de oírme...</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Bueno, ¿pero me quieres explicar cómo te has metido tú a dar una conferencia? Porque me lo has dicho en tu casa y, vamos, me he quedao de granito.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Pues chico, esta conferencia tiene su historia, como las naciones. Verás. Este Círculo Higienista Andorrano, a donde voy a perorar, es una chirlata indecente donde se juega a lo prohibido, y donde se dejan hasta los párpados un centenar de imbéciles. El presidente, don <rs key="#jorg">Jorge</rs> Sota y Rey, que es un punto más fresco que San Rafael, y que me perdone el santo, con el objeto de despistar a la jefatura, organiza cada lunes y cada martes una conferencia científica, a la que no asisten arriba de cuatro oyentes, pero él consigue por este procedimiento dos cosas: proteger a la ciencia y justificar la entrada en el Círculo de tantísima gente; porque hay que ver cómo se pone el local, querido <rs key="#cans">Canseco</rs>; el salón de la conferencia vacío, pero el de juego, es una aglomeración que se comba el pavimento.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>No está mal la pantalla. Escucha: ¿y cuánto dan a los oradores?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Quinientas pesetas.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Menos mal, puesto que el vicio ayuda en este caso a cuatro sabios menesterosos.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Ni que te lo creas.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿Eh?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿No ves que el dinero te lo entregan antes de dar la conferencia? y, claro, como nadie te escucha, pues por no aburrirte, te vas al juego, y allí se quedan las quinientas del ala.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿Te las han dado a ti ya?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Anda! Ayer mañana. Ya no me quedan más que trescientas.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Pues no seas loco y déjamelas, porque tú picas.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Yo? Estás tú fresco.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Emeterio, que tú picas, que te conozco de sobra. Trae esos tres papiros.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Tienes razón; ahí van. <stage>(Le da los tres billetes.)</stage> Me haces un favor, porque yo, es verdad; veo un rey y me hago de la escolta.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿De manera que tú estás seguro de que nadie acudirá al salón a oírte?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Hombre, si no estuviera seguro, no hubiera aceptado el compromiso. Ya sabes que temo más al ridículo que a una daga florentina. Mira, la última conferencia la dio el doctor Becerro de Quiroga, que iba a tratar de la cura de los forúnculos, por medio de la bicicleta. Bueno, pues a la hora de empezar, no había en la sala más oyentes que un ujier y un servidor, y yo asistí porque estaba intrigado por saber qué tendrían que ver los pedales con los diviesos del cogote.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Escucha, ¿y te lo demostró?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>No me lo demostró, porque a los dos minutos se encaró conmigo y me dijo: «Caballero, ¿le interesa a usted mucho esto?» Hombre, regular. «Pues vamos a hacer una vaquita si le parece » Vamos. Total, que me pasé toda la noche haciendo vacas con Becerro.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Entonces me explico que des la conferencia, porque, ¿de qué ibas a hablar tú?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Figúrate; como no hablara de un tío mío.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿Y qué tema has anunciado?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>El tema se le ha ocurrido a Galindo, que, como sabes, es culto. Me dijo: «Anuncia que vas a hablar de la mosca, como vehículo de todas las enfermedades.» <stage>(Ríe <rs key="#cans">Canseco</rs>.)</stage> Tiene gracia, ¿eh?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿Pero tú sabes algo de las moscas?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Quitármelas. Y sé además lo que me ha enseñado Galindo; que la mosca es., aguarda... <stage>(Saca un papel y lee.)</stage> un insecto díptero aterícero, de la tribu de los múscidos.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Oye, ¿pero te acordarás de todo eso?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Anda, te lo digo de carretilla. <stage>(Recitando de corrido como los chicos.)</stage> La mosca es un insecto díptero, aterícero, de la tribu de los múscidos.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Como el padre nuestro.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Lo más gracioso es que yo, para dármelas de naturalista exigente, vine ayer al Círculo y dije: Para la conferencia necesito que me pinten sobre un encerado un puñado de moscas diferentes; y me han pintado tres.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿No serán pocas?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Éso creo yo, pero se conoce que el presidente habrá dicho: Buen puñado son tres moscas. <stage>(Ríen.)</stage></p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Lo que noto es que vienes de una elegancia que más que a un camelo de conferencia parece que vas a casa de la de Iturbe.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Apariencias. El frac es de Galindo, que milagro será que no me estalle por algún lao porque fíjate.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Oye, no te excedas en las reverencias.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>La chistera es de un palafrenero de pompas fúnebres, solo que le he quitao la escarapela. <stage>(Le enseña el sombrero.</stage></p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p><stage>(Leyendo el forro.)</stage> Pues tienes razón. Aquí dice R. I. P.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>De Ramón Izquierdo Pardiñas. <stage>(Se cubre.)</stage></p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿Y ese elegante pardesú?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Un abrigo de mi patrona; <stage>(Lo enseña.)</stage> pero como no es más que para llevarlo al brazo, da el camelo. Chico, hay que presentarse bien, porque como tengo en perspectiva dos conferencias más, ya que no hable, que vean al menos que visto.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Pero, ¿dices que dos conferencias más?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Sí, hombre. Esta mina me la ha proporcionao Ramón el grupier, que ha hecho creer al presidente del Círculo, que soy un publicista del Paraguay, y que vengo a ser una especie de Benavente, Unamuno y Galdós en bloque. Anda, el presidente, que es un animal, me mira como a un genio.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¿Es posible?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>No lo dudes. Y yo, que estoy en todo, traigo aquí apuntados más de treinta pensamientos profundos, para largárselos cuando hable con él y dejarlo con la boca abierta.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¡Qué bárbaro! Treinta pensamientos. Eso es un macizo. ¿Y son tuyos?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Algunos. <stage>(Saca un papel.)</stage> Que se habla de cultura y de erudición, pues exclamo: ¡Quien les iba a decir a los egipcios que andando el tiempo íbamos a volver a los pápiros!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Muy bonito.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Qne se habla de ciencias exactas, pues digo: <stage>(Lee.)</stage> No hay nada tan importante como los números; gracias a los números sabemos dónde vivimos.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Claro; como que si no, figúrate qué confusión.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Oye este. Que se habla de política, y digo: <stage>(Lee.)</stage> Una suegra con nietos debe ser dos veces respetada, porque es dos veces madre.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Chico, no veo la relación que tenga una cosa con la otra.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Es que la suegra es una madre política.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¡Ah! Por ese lado no te discuto.</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p><stage>(Criado del Círculo, por la derecha.)</stage> ¡Aquí está! Buenas noches, señor <rs key="#alge">Algeciras</rs>.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Hola, <rs key="#mart">Martínez</rs>.</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>A su casa de usted iba como un torpedo.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Pues qué pasa?</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Que hace un cuarto de hora le están esperando más de doscientas personas.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Kebambú! ¿A mí? ¿Pero qué dices? ¿Doscientas personas?</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Está el salón de actos que es un hervidero. Hemos tenido que añadir ciento noventa sillas, no le digo a usted más.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Tú oyes esto, Venancio?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Ya, va.</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Ande usted deprisa, que están golpeando con los bastones.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Ah! ¿Pero tienen bastones? ¿Cómo no los han dejado en el guardarropa?</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Yo que sé. Don <rs key="#jorg">Jorge</rs>, el presidente, está que echa chispas, y me dijo: «Ve a casa de ese señor y tráetelo vivo o muerto.»</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Bueno, bueno; di que ahora subo.</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Quiá; yo no me presento sin usted.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p><stage>(¡Caracoles!)</stage> Pero escucha. ¿Cómo hay tanta gente en el salón, si en las cinco conferencias dadas no había cuatro gatos?</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Porque el último conferenciante, como no dio la conferencia y además perdió las quinientas plumas en el juego, denunció el hecho a la policía, y esta noche el primero que ha entrao para oír el discurso de usted, ha sido el Comisario del distrito. Excuso decirle.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Entonces esta noche no hay juego?</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Han puesto el treinta y cuarenta en el gimnasio, pero como allí no caben más de cuarenta personas, don <rs key="#jorg">Jorge</rs>, pa despistar, ha obligao a los demás puntos a que asistan a la conferencia, diciéndoles que tiene usted una palabra que es una caja de música.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Bueno, Con tu permiso. <stage>(Llevándose aparte a <rs key="#cans">Canseco</rs>.)</stage> ¿Qué hago, <rs key="#cans">Canseco</rs>?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Chico, yo no sé qué decirte, pero aquí no tienes más que dos dilemas: o dar la conferencia o devolver el dinero.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Es que me he gastado ya doscientas pesetas.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Pues entonces tienes que hablar, porque de lo contrario, te veo en la cárcel. Estando allí el Comisario y comprometido el crédito del Círculo...</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Vamos, señor <rs key="#alge">Algeciras</rs>.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Voy, voy; aguarde un minuto. ¿Qué hago, <rs key="#cans">Canseco</rs>?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Dar la conferencia.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Pero qué digo yo de las moscas?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Que son muy pesadas y que hay que sacudírselas.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Eso ya lo he pensado yo, pero es muy poco para una conferencia. Venancio, que tú tienes ideas: sálvame. Sálvame y dispón de cien pesetas.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Déjame que coordine. Mira: ya verás.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Venancio, por tu madre.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Ya está. Tienes que hablar muy poco. Un ligero exordio u epilogo de que estás honradísimo de levantar tu voz ante el ilustrado público; que pides mil perdones si eres lato, etcétera, etc., y a los cinco minutos entro yo.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Cómo que entras tú?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Nada, que armo la primer bronca y se acabó el discurso. ¿Qué te parece?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>De primera. <stage>(Ya más animado.)</stage> Muy bien. Escucha; que no me dejes hablar mucho tiempo.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Hombre, una cosa regular.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Mira, cuando yo saque el pañuelo y lo agite como para desarrugarlo es que ya no sé qué decir, ¿comprendes?, y tú te echas encima.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Pierde cuidado.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Por Dios, <rs key="#cans">Canseco</rs>...</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Que te vayas tranquilo, hombre.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>En ti confío. Vamos, <rs key="#mart">Martínez</rs>.</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p>Vamos. <stage>(Se van por la derecha.)</stage></p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p><stage>(Iniciando el mutis lentamente y enarbolando el garrote.)</stage> Es un amigo y son cien pesetas y ¡bueno! Hasta en las Cortes se habla mañana de la conferencia de <rs key="#alge">Algeciras</rs>. <stage>(Telón.)</stage></p>
-					</sp>
-					<stage>MUTACIÓN</stage>
+
+					<div cert="low" resp="#jct" type="scene">
+						<stage>Telón de calle. Es de noche. La acción en Madrid. Época actual.</stage>
+						<stage>(Entran en escena, por la izquierda, <rs key="#alge">Algeciras</rs> y <rs key="#cans">Canseco</rs>, dos puntos como de cuarenta abriles. <rs key="#alge">Algeciras</rs> viste de frac y copa: el frac le está muy estrecho. Trae al brazo algo que parece un abrigo. Venancio es un tipo bastante achulado. De esos de hongo y palasán. Vienen del brazo, y <rs key="#alge">Algeciras</rs>, muy encogido, procura que alguien no le vea.)</stage>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p><stage>(Mirando hacia atrás.)</stage>Yérguete, que ya ha doblao la esquina.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p><stage>(Respirando a pleno pulmón.)</stage>¡Chico, qué Susto!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿Quién era?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Un tal <rs key="#memb">Membrives</rs>; aquél que te conté, que le suscribí hace ocho meses al diccionario enciclopédico Espasa: me abonó la entrada, o sean cien pesetas, y si ha querido consultar algún vocablo, habrá tenido que ir a ver a don Francisco Rodríguez Marín.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>La verdad es que haces cosas, querido <rs key="#alge">Algeciras</rs>, como para retirarte el saludo.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Bueno, ¿qué hora es?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Espera: al pasar por Carretas miré en una relojería y eran las nueve menos cinco; ¿que habremos tardao?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Un cuarto de hora. Es temprano. La conferencia es a las nueve y media, y aunque no sea puntual, no importa: los conferenciantes siempre se hacen esperar. Además, que para la gente que ha de oírme...</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Bueno, ¿pero me quieres explicar cómo te has metido tú a dar una conferencia? Porque me lo has dicho en tu casa y, vamos, me he quedao de granito.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Pues chico, esta conferencia tiene su historia, como las naciones. Verás. Este Círculo Higienista Andorrano, a donde voy a perorar, es una chirlata indecente donde se juega a lo prohibido, y donde se dejan hasta los párpados un centenar de imbéciles. El presidente, don <rs key="#jorg">Jorge</rs> Sota y Rey, que es un punto más fresco que San Rafael, y que me perdone el santo, con el objeto de despistar a la jefatura, organiza cada lunes y cada martes una conferencia científica, a la que no asisten arriba de cuatro oyentes, pero él consigue por este procedimiento dos cosas: proteger a la ciencia y justificar la entrada en el Círculo de tantísima gente; porque hay que ver cómo se pone el local, querido <rs key="#cans">Canseco</rs>; el salón de la conferencia vacío, pero el de juego, es una aglomeración que se comba el pavimento.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>No está mal la pantalla. Escucha: ¿y cuánto dan a los oradores?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Quinientas pesetas.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Menos mal, puesto que el vicio ayuda en este caso a cuatro sabios menesterosos.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Ni que te lo creas.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿Eh?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿No ves que el dinero te lo entregan antes de dar la conferencia? y, claro, como nadie te escucha, pues por no aburrirte, te vas al juego, y allí se quedan las quinientas del ala.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿Te las han dado a ti ya?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Anda! Ayer mañana. Ya no me quedan más que trescientas.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Pues no seas loco y déjamelas, porque tú picas.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Yo? Estás tú fresco.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Emeterio, que tú picas, que te conozco de sobra. Trae esos tres papiros.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Tienes razón; ahí van. <stage>(Le da los tres billetes.)</stage> Me haces un favor, porque yo, es verdad; veo un rey y me hago de la escolta.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿De manera que tú estás seguro de que nadie acudirá al salón a oírte?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Hombre, si no estuviera seguro, no hubiera aceptado el compromiso. Ya sabes que temo más al ridículo que a una daga florentina. Mira, la última conferencia la dio el doctor Becerro de Quiroga, que iba a tratar de la cura de los forúnculos, por medio de la bicicleta. Bueno, pues a la hora de empezar, no había en la sala más oyentes que un ujier y un servidor, y yo asistí porque estaba intrigado por saber qué tendrían que ver los pedales con los diviesos del cogote.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Escucha, ¿y te lo demostró?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>No me lo demostró, porque a los dos minutos se encaró conmigo y me dijo: «Caballero, ¿le interesa a usted mucho esto?» Hombre, regular. «Pues vamos a hacer una vaquita si le parece » Vamos. Total, que me pasé toda la noche haciendo vacas con Becerro.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Entonces me explico que des la conferencia, porque, ¿de qué ibas a hablar tú?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Figúrate; como no hablara de un tío mío.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿Y qué tema has anunciado?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>El tema se le ha ocurrido a Galindo, que, como sabes, es culto. Me dijo: «Anuncia que vas a hablar de la mosca, como vehículo de todas las enfermedades.» <stage>(Ríe <rs key="#cans">Canseco</rs>.)</stage> Tiene gracia, ¿eh?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿Pero tú sabes algo de las moscas?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Quitármelas. Y sé además lo que me ha enseñado Galindo; que la mosca es., aguarda... <stage>(Saca un papel y lee.)</stage> un insecto díptero aterícero, de la tribu de los múscidos.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Oye, ¿pero te acordarás de todo eso?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Anda, te lo digo de carretilla. <stage>(Recitando de corrido como los chicos.)</stage> La mosca es un insecto díptero, aterícero, de la tribu de los múscidos.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Como el padre nuestro.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Lo más gracioso es que yo, para dármelas de naturalista exigente, vine ayer al Círculo y dije: Para la conferencia necesito que me pinten sobre un encerado un puñado de moscas diferentes; y me han pintado tres.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿No serán pocas?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Éso creo yo, pero se conoce que el presidente habrá dicho: Buen puñado son tres moscas. <stage>(Ríen.)</stage></p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Lo que noto es que vienes de una elegancia que más que a un camelo de conferencia parece que vas a casa de la de Iturbe.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Apariencias. El frac es de Galindo, que milagro será que no me estalle por algún lao porque fíjate.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Oye, no te excedas en las reverencias.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>La chistera es de un palafrenero de pompas fúnebres, solo que le he quitao la escarapela. <stage>(Le enseña el sombrero.</stage></p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p><stage>(Leyendo el forro.)</stage> Pues tienes razón. Aquí dice R. I. P.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>De Ramón Izquierdo Pardiñas. <stage>(Se cubre.)</stage></p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿Y ese elegante pardesú?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Un abrigo de mi patrona; <stage>(Lo enseña.)</stage> pero como no es más que para llevarlo al brazo, da el camelo. Chico, hay que presentarse bien, porque como tengo en perspectiva dos conferencias más, ya que no hable, que vean al menos que visto.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Pero, ¿dices que dos conferencias más?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Sí, hombre. Esta mina me la ha proporcionao Ramón el grupier, que ha hecho creer al presidente del Círculo, que soy un publicista del Paraguay, y que vengo a ser una especie de Benavente, Unamuno y Galdós en bloque. Anda, el presidente, que es un animal, me mira como a un genio.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¿Es posible?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>No lo dudes. Y yo, que estoy en todo, traigo aquí apuntados más de treinta pensamientos profundos, para largárselos cuando hable con él y dejarlo con la boca abierta.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¡Qué bárbaro! Treinta pensamientos. Eso es un macizo. ¿Y son tuyos?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Algunos. <stage>(Saca un papel.)</stage> Que se habla de cultura y de erudición, pues exclamo: ¡Quien les iba a decir a los egipcios que andando el tiempo íbamos a volver a los pápiros!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Muy bonito.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Qne se habla de ciencias exactas, pues digo: <stage>(Lee.)</stage> No hay nada tan importante como los números; gracias a los números sabemos dónde vivimos.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Claro; como que si no, figúrate qué confusión.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Oye este. Que se habla de política, y digo: <stage>(Lee.)</stage> Una suegra con nietos debe ser dos veces respetada, porque es dos veces madre.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Chico, no veo la relación que tenga una cosa con la otra.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Es que la suegra es una madre política.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¡Ah! Por ese lado no te discuto.</p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p><stage>(Criado del Círculo, por la derecha.)</stage> ¡Aquí está! Buenas noches, señor <rs key="#alge">Algeciras</rs>.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Hola, <rs key="#mart">Martínez</rs>.</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>A su casa de usted iba como un torpedo.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Pues qué pasa?</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Que hace un cuarto de hora le están esperando más de doscientas personas.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Kebambú! ¿A mí? ¿Pero qué dices? ¿Doscientas personas?</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Está el salón de actos que es un hervidero. Hemos tenido que añadir ciento noventa sillas, no le digo a usted más.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Tú oyes esto, Venancio?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Ya, va.</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Ande usted deprisa, que están golpeando con los bastones.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Ah! ¿Pero tienen bastones? ¿Cómo no los han dejado en el guardarropa?</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Yo que sé. Don <rs key="#jorg">Jorge</rs>, el presidente, está que echa chispas, y me dijo: «Ve a casa de ese señor y tráetelo vivo o muerto.»</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Bueno, bueno; di que ahora subo.</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Quiá; yo no me presento sin usted.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p><stage>(¡Caracoles!)</stage> Pero escucha. ¿Cómo hay tanta gente en el salón, si en las cinco conferencias dadas no había cuatro gatos?</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Porque el último conferenciante, como no dio la conferencia y además perdió las quinientas plumas en el juego, denunció el hecho a la policía, y esta noche el primero que ha entrao para oír el discurso de usted, ha sido el Comisario del distrito. Excuso decirle.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Entonces esta noche no hay juego?</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Han puesto el treinta y cuarenta en el gimnasio, pero como allí no caben más de cuarenta personas, don <rs key="#jorg">Jorge</rs>, pa despistar, ha obligao a los demás puntos a que asistan a la conferencia, diciéndoles que tiene usted una palabra que es una caja de música.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Bueno, Con tu permiso. <stage>(Llevándose aparte a <rs key="#cans">Canseco</rs>.)</stage> ¿Qué hago, <rs key="#cans">Canseco</rs>?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Chico, yo no sé qué decirte, pero aquí no tienes más que dos dilemas: o dar la conferencia o devolver el dinero.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Es que me he gastado ya doscientas pesetas.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Pues entonces tienes que hablar, porque de lo contrario, te veo en la cárcel. Estando allí el Comisario y comprometido el crédito del Círculo...</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Vamos, señor <rs key="#alge">Algeciras</rs>.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Voy, voy; aguarde un minuto. ¿Qué hago, <rs key="#cans">Canseco</rs>?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Dar la conferencia.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Pero qué digo yo de las moscas?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Que son muy pesadas y que hay que sacudírselas.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Eso ya lo he pensado yo, pero es muy poco para una conferencia. Venancio, que tú tienes ideas: sálvame. Sálvame y dispón de cien pesetas.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Déjame que coordine. Mira: ya verás.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Venancio, por tu madre.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Ya está. Tienes que hablar muy poco. Un ligero exordio u epilogo de que estás honradísimo de levantar tu voz ante el ilustrado público; que pides mil perdones si eres lato, etcétera, etc., y a los cinco minutos entro yo.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Cómo que entras tú?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Nada, que armo la primer bronca y se acabó el discurso. ¿Qué te parece?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>De primera. <stage>(Ya más animado.)</stage> Muy bien. Escucha; que no me dejes hablar mucho tiempo.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Hombre, una cosa regular.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Mira, cuando yo saque el pañuelo y lo agite como para desarrugarlo es que ya no sé qué decir, ¿comprendes?, y tú te echas encima.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Pierde cuidado.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Por Dios, <rs key="#cans">Canseco</rs>...</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Que te vayas tranquilo, hombre.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>En ti confío. Vamos, <rs key="#mart">Martínez</rs>.</p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p>Vamos. <stage>(Se van por la derecha.)</stage></p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p><stage>(Iniciando el mutis lentamente y enarbolando el garrote.)</stage> Es un amigo y son cien pesetas y ¡bueno! Hasta en las Cortes se habla mañana de la conferencia de <rs key="#alge">Algeciras</rs>. <stage>(Telón.)</stage></p>
+						</sp>
+						<stage>MUTACIÓN</stage>
+					</div>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>CUADRO SEGUNDO</head>
-					<stage>Un trozo del salón de actos del Círculo Higienista Andorrano. En el lateral derecha una puerta y otra en el foro. En el lateral izquierda hay dos filas de sillas y se supone que tras estas dos filas hay muchas filas más que se pierden a lo largo del salón. En el centro de la escena hay una elegante mesa y sobre ella una campanilla, un vaso de agua, un plato con azucarillos y un puntero. Cerca de la mesa y ligeramente escorzado hay un encerado de lienzo y pintadas en él con yeso tres grandes moscas. Es de noche. En la sala hay una espléndida iluminación.
+					<div cert="low" resp="#jct" type="scene">
+						<stage>Un trozo del salón de actos del Círculo Higienista Andorrano. En el lateral derecha una puerta y otra en el foro. En el lateral izquierda hay dos filas de sillas y se supone que tras estas dos filas hay muchas filas más que se pierden a lo largo del salón. En el centro de la escena hay una elegante mesa y sobre ella una campanilla, un vaso de agua, un plato con azucarillos y un puntero. Cerca de la mesa y ligeramente escorzado hay un encerado de lienzo y pintadas en él con yeso tres grandes moscas. Es de noche. En la sala hay una espléndida iluminación.
 					(Al levantarse el telón, las dos filas de sillas que se ven están ocupadas y se supone que el salón está que rebosa. En un sillón aparte colocado en el foro está sentado <rs key="#rami">Ramírez</rs>, comisario de policía, y a su lado en otro sillón DON <rs key="#jorg">Jorge</rs> Sota y Rey, presidente del Círculo. Este don <rs key="#jorg">Jorge</rs> es un tío de facciones duras, un tanto achulapado. Gasta tufos y viste de levita. El público que ocupa el salón bastonea y bate palmas guasonas.)</stage>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(Levantándose, tocando la campanilla e imponiendo silencio.)</stage>  Señoras y señores: Les ruego una miaja de calma porque ya está al llegar el señor <rs key="#alge">Algeciras</rs>, esa mentalidad mundial que ha llegado del Paraguay, donde materialmente se lo han comido. <stage>(Rumores.)</stage> Ustedes disimulen el léxico, pero es que yo de orador no tengo ni el tipo, así es que les vuelvo a rogar que no se impacienten. <stage>(Le aplauden.)</stage> Gracias por el palmoteo. <stage>(Se separa de la mesa.)</stage> (Bueno, si ese tío no viene le hago pavesas, porque el comisario está escamao.)</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p> <stage> (Un señor con aspecto de infeliz se levanta de una silla de la segunda fila y se acerca a <rs key="#jorg">Jorge</rs>.)</stage> Buenas, señor Sota.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¿Qué hay, <rs key="#memb">Membrives</rs>?</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>¿Pero es que no se juega hoy?</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>Baje usted la voz. En el gimnasio hay treinta y cuarenta.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Pues allá voy.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¿No oye usted la conferencia?</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Cuando me pelen subiré.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¡Hombre!...</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>No tardará mucho, porque estoy atravesando una rachita... En ocho meses he perdido siete mil pesetas, se me ha muerto una tía en Burgos, he tenido fuego en mi casa y un sinvergüenza me sacó veinte duros diciéndome que me suscribía al Espasa y todavía no sé cómo está encuadernao.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>Válgame Dios, hombre.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>En fin, qué le vamos a hacer. Hasta ahora.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>No corra usted la voz de que hay juego, porque si se enteran se me vacía el salón.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Pierda Usted Cuidado. <stage>(Mutis por la derecha.)</stage></p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(Consultando su reloj.)</stage> (¡Las diez y media!)</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p> <stage>(A <rs key="#jorg">Jorge</rs>.)</stage> Vuelvo a repetirle que si se comprueba lo denunciado, es decir, que esto de las conferencias es una filfa, me llevo a la Junta directiva del Círculo a la cárcel.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>Señor comisario, yo le juro a usted que estas conferencias son más verdad que las de San Vicente y ya se convencerá usted cuando escuche al disertante de esta noche que es enteramente una pianola.</p>
-					</sp>
-					<sp who="#mart">
-						<speaker>Martínez</speaker>
-						<p> <stage>(Por la derecha.)</stage> ¡Ahí está ya el señor <rs key="#alge">Algeciras!</rs></p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¡Bendito sea Dios! <stage>(Al público.)</stage> Señores: acaba de llegar el ilustre paraguayo. <stage>(Ovación. Por la puerta del foro entra <rs key="#alge">Algeciras</rs>. <rs key="#mart">Martínez</rs> pretende quitarle el gabán.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>No, no se moleste. El gabán no se separa de mi lado, porque en las ocho últimas conferencias que di en el Paraguay me cambiaron cinco pardesuses. Tome el sombrero. <stage>(<rs key="#mart">Martínez</rs> toma el sombrero y hace mutis volviendo a poco sin él. <rs key="#alge">Algeciras</rs> adelanta, saluda y el público le tributa una ovación.)</stage></p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¡Pero, hombre!...</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Señor don <rs key="#jorg">Jorge</rs>, mil perdones...</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p><stage>(Llevándole aparte.)</stage> Le ha dicho a usted <rs key="#mart">Martínez</rs>...</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Sí, me ha dicho que ha venido uno de la policía...</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>Aquel. <stage>(Indicándole a <rs key="#rami">Ramírez</rs>.)</stage> Y como quiero que se convenza de que esto de las conferencias no son una chirigota, le suplico que se esmere. Usted es un sabio y sabrá quedar a la altura debida.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Ya varemos, ya veremos, porque... caramba, a lo mejor.</p>
-					</sp>
-					<sp who="#voza">
-						<speaker>Voz</speaker>
-						<p>¡Que empiece!</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>Ande usted, que es tardísimo.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Sí... Voy... Voy... <stage> (Coloca el gabán sobre la silla, saluda, le ovacionan, vuelve a saludar y se le raja el frac por la espalda.) (¡Caracoles: lo único que me faltaba! Me ha estallado el frac. Cualquiera se vuelve de espaldas.) (Se toca con disimulo.) </stage></p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(Acercándose a él le dice en voz baja.)</stage> Se le ha descosido el frac por la espalda, ¿lo ha sentido usted?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Lo he sentido con toda mi alma. <stage>(<rs key="#jorg">Jorge</rs> se sienta y <rs key="#alge">Algeciras</rs> saca el pañuelo, se traga un trozo de azucarillo y bebe agua, todo muy nerviosamente.) (Sea lo que Dios quiera.) (Toca la campanilla, tose y se hace un profundo silencio.) (Bueno, me matan.)</stage> Señoras y señores y niños si los hubiere... Galán... galán... <stage>(Tose.)</stage> Galantemente invitado por el aquí presente presidente de este... de este bien situado círculo; eso es; para hablarles a ustedes de una cosa que ustedes desconocen y que yo no sé, digo que yo sé, no sé cómo agradecerles a ustedes el que hayan tenido la amabilidad de venir esta noche, porque si ustedes no vienen esta noche me hubiera molestado mucho, palabra de honor... Pero palabra de honor que me hubiera molestado; eso es. Y ya que han tenido la amabilidad de venir, deseo que tengan la amabilidad de ser... amables; es decir, benévolos con mi modesta disertación. <stage>(Saluda.)</stage> Sentado este punto... <stage> (Entra <rs key="#cans">Canseco</rs> por la derecha arrastrando una silla y taconeando fuertemente.)</stage> Sentado este punto... <stage>(<rs key="#cans">Canseco</rs> pone la silla, primero en una parte y luego en otra sin decidirse por ningún sitio.)</stage> Sentado este punto...</p>
-					</sp>
-					<sp who="#voza">
-						<speaker>Voz</speaker>
-						<p>¡A ver ese punto que se siente!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p> <stage>(Con aspereza.) </stage>¿Es a mí o al disertante?</p>
-					</sp>
-					<sp who="#voza">
-						<speaker>Voz</speaker>
-						<p>¡Fuera! ¡Que se siente! <stage>(<rs key="#cans">Canseco</rs> se sienta ante la fila primera.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Bueno, pues sentado ese punto, voy a tener la alta honra de entrar en materia.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>(Pues habla bien.)</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Señoras, señores y niños si los hubiese. La mosca como vehículo de todas las enfermedades. <stage>(Saluda.)</stage> (¡Dios mío de mi alma!) Todos ustedes conocen la mosca. ¡Sí!, estoy seguro. La mosca es conocidísima. Lo que no saben ustedes es que la mosca puede ser vehículo de todas las enfermedades. Así es en efecto, señores. Y no soy yo solo el que lo dice; lo dicen muchos sabios eminentes, entre ellos Simón Corrocher, eso es; Simón Corrocher, que hablando conmigo de la mosca en... Bruselas, me juró dicho Simón que era un vehículo. <stage>(Risas pitorronas.)</stage></p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p> <stage>(Levantándose e increpando al público.)</stage> No sé por qué se ha de tomar a chacota la conferencia del señor.</p>
-					</sp>
-					<sp who="#unav">
-						<speaker>Una voz</speaker>
-						<p>¡Que se calle! ¡Fuera!</p>
-					</sp>
-					<sp who="#otra">
-						<speaker>Otra</speaker>
-						<p>¡Que se siente!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p><stage>(Sentándose.)</stage> ¡Pues, hombre! ¡Tendría gracia! <stage>(Sisean y vuelve el silencio.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p><stage>(Después de toser.)</stage> Sentado otra vez este punto, voy a decir algo de la mosca en general. ¡Ah, señores! La mosca es un insepto díptero... díptero, como les he dicho. <stage>(Sudando el quilo.)</stage> Díptero y otras cosas más que no recuerdo, pero es igual, porque como todos ustedes conocen la mosca... pues a lo que iba, eso es; voy a ceñirme a la mosca corriente, dejando para la próxima conferencia el estudio de la mosca de caballo, el mosquito, el moscón y el papamoscas.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Muy bien; pero que muy bien.</p>
-					</sp>
-					<sp who="#voza">
-						<speaker>Voz</speaker>
-						<p>Que se calle ese moscardón.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¡Silencio!</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>(Este paraguayo es un camelo como suponía.)</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p> <stage>(¡Dios mío, ilumíname!)</stage> La mosca, señores, además de ser repugnante es molesta; muy molesta. Ya lo han asegurado desde el eminentísimo doctor Calvo, que dice que no las puede soportar, hasta el apóstol San Pedro que santa gloria yazga, a quien se adjudica por los cantores esta inspirada copla:
-						<lg><l>San Pedro como era calvo</l>
-						<l>le picaban los... moscones,</l>
-						<l>y su madre le decía...</l>
-						<l>voy a cerrar los balcones.</l></lg>
-						<stage>(Aplaude solamente <rs key="#cans">Canseco</rs>.)</stage> De manera que yo les aconsejo a ustedes que la persigan y la maten, ya esté en un tabique, ya se pose sobre la calva de cualquier sujeto.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p> <stage>(Atizando a uno un mamporro.)</stage> Con permiso. Le he evitado a usted una tisis galopante. <stage>(Simula tirar la mosca que ha matado.)</stage></p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(A <rs key="#cans">Canseco</rs>.)</stage> Suplico al oyente que no interrumpa. <stage>(Por la puerta de la derecha entra <rs key="#gasc">Gascón</rs>, un alabardero vestido de paisano; gasta una mosca más que regular. Trae una silla.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Y sin embargo, señores... ¡Ah! Existen personas partidarias de la mosca. <stage>(<rs key="#gasc">Gascón</rs> se queda mirando al orador.)</stage> A esos hombres, partidarios de la mosca, que la encuentran hasta bonita, los califico yo de bestias.</p>
-					</sp>
-					<sp who="#gasc">
-						<speaker>Gascón</speaker>
-						<p>¿Se me alude?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Cómo?</p>
-					</sp>
-					<sp who="#gasc">
-						<speaker>Gascón</speaker>
-						<p>Porque le advierto que si yo me dejo la mosca es porque soy alabardero. <stage>(Rumores.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Caballero, yo no me refería a esos cuatro pelos que adornan su barbilla, yo hablo de la mosca insecto díptero... díptero, y bueno, lo que sea.</p>
-					</sp>
-					<sp who="#gasc">
-						<speaker>Gascón</speaker>
-						<p>Usted perdone.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Le perdono y creo muy justo que usted se haya amoscado.</p>
-					</sp>
-					<sp who="#gasc">
-						<speaker>Gascón</speaker>
-						<p>¡Hombre!...</p>
-					</sp>
-					<sp who="#unav">
-						<speaker>Una voz</speaker>
-						<p>Que se siente ese de la mosca.</p>
-					</sp>
-					<sp who="#otra">
-						<speaker>Otra</speaker>
-						<p>¡Eso!</p>
-					</sp>
-					<sp who="#gasc">
-						<speaker>Gascón</speaker>
-						<p>Ya va, señor, que estamos entre amigos. <stage>(Se sienta junto a <rs key="#cans">Canseco</rs>.)</stage></p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p><stage>(Este paraguayo es un timo.)</stage> ¡Silencio!</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>(Dios mío, que no sé cómo seguir.)</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p><stage>(<rs key="#alge">Algeciras</rs>.)</stage> Continúe.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p><stage>(Cada vez más azarado.)</stage> Ahora, señores, voy a explicar sobre el encerado y a la carrera lo del vehículo. <stage>(Toma el puntero.)</stage> (Si me vuelvo se me va a ver el frac descosido.) <stage>(Recula hasta quedar delante del encerado ) </stage> Aquí, como ven ustedes, hay pintadas tres moscas comunes. Son blancas, pero son comunes. (No se me ocurre nada.) Pues bien., eso es... Esta... <stage>(De espaldas al encerado señala con el puntero y atraviesa la tela. Risas en el público.)</stage> <stage>(¡Mi madre, me he cargado el hule!)</stage> Esta... <stage>(Saca el pañuelo y lo sacude.)</stage> La de... que díptero... vehículo... <stage>(Agita el pañuelo nuevamente.) </stage> Eso es... La... bueno, la que...</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p><stage>(A <rs key="#gasc">Gascón</rs>, que se ríe de <rs key="#alge">Algeciras</rs>.)</stage> Caballero, tiene usted menos educación que una canasta.</p>
-					</sp>
-					<sp who="#gasc">
-						<speaker>Gascón</speaker>
-						<p>¿Yo? ¿Por qué?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p><stage>(Levantándose, enarbolando el bastón.)</stage> A mí no me replique usted, porque le doy un puñetazo en la mosca que se la espachurro. <stage>(Rumores.)</stage></p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p> <stage>(Acercándose.)</stage> ¿Pero qué pasa?</p>
-					</sp>
-					<sp who="#gasc">
-						<speaker>Gascón</speaker>
-						<p>Este tío que está loco.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p> <stage>(Disponiéndose a pegarle.)</stage> ¿Loco yo? <stage>(Se arma el gran revuelo. <rs key="#rami">Ramírez</rs> y <rs key="#mart">Martínez</rs> sujetan a <rs key="#cans">Canseco</rs>. Se oyen voces de ¡fueral, ¡fuera! ¡A la calle!)</stage></p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>Fuera del salón. ¡Vamos!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¡Pero oiga usted!...</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>¡Silencio!</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Dejarle!... Yo lo suplico.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¡Fuera! <stage>(Casi en volandas se llevan a <rs key="#cans">Canseco</rs> por la puerta de la derecha entre <rs key="#rami">Ramírez</rs> y <rs key="#mart">Martínez</rs>.)</stage></p>
-					</sp>
-					<sp who="#unav">
-						<speaker>Una voz</speaker>
-						<p>¡Sentarse!</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>No ha ocurrido nada, señores. ¡Calma! Continúe el orador.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Pero, ¿por qué se han llevado a ese caballero?</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>A usted no le importa; prosiga.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Sí, señores; pero es el caso que se me ha ido... es decir, que, vamos, soy un hombre muy nervioso y este escándalo inesperado... pues... he perdido la ilación y no se me ocurre nada, pero vamos, lo que materialmente se dice nada. A mí cualquier cosa me... aturde, me desconcierta. A mí me distrae... una mosca.</p>
-					</sp>
-					<sp who="#unav">
-						<speaker>Una voz</speaker>
-						<p>¡Que se tranquilice!</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Ruego a este ilustrado público que me conceda unos minutos de descanso.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(Tocando la campanilla.)</stage> Señores, descanso de tres minutos. <stage>(<rs key="#alge">Algeciras</rs> saca unos papeles y los lee afanosamente. Por la derecha entra en escena <rs key="#memb">Membrives</rs> y le dice a <rs key="#jorg">Jorge</rs>.)</stage></p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Pelado. He perdido quinientas pesetas en diez minutos. Me han venido menos cartas que si estuviera en el desierto.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p>¡Caramba!</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>A ver si me distrae el conferenciante. ¿Cuál es?</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(Por <rs key="#alge">Algeciras</rs>.)</stage> Ese.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>¡Rebote! ¿Qué veo? Este es el que me suscribió al Espasa.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p> <stage>(Aporreando los papeles.)(Aquí está, hombre… Díptero aterícero, de la tribu de los múscidos.)</stage></p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p> <stage>(A <rs key="#alge">Algeciras</rs>.)</stage> Caballero, muy buenas noches…</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>(¡Atiza! ¡El del enciclopédico!)</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Usted dirá cuándo van a llevarme el Espasa.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Cómo?</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>¡Ah! ¿Pero es que va usted a hacerse el nuevo?</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(A <rs key="#memb">Membrives</rs>.)</stage> Con su permiso, amigo <rs key="#memb">Membrives</rs>, que es muy tarde. <stage>(Toca la campanilla.)</stage> Se reanuda la sesión. <stage>(A <rs key="#alge">Algeciras</rs>.)</stage> Ande usted.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p> <stage>(Sentándose.)</stage> Cuando acabe usted de hablar, hablaremos. <stage>(Entra <rs key="#mart">Martínez</rs> y habla con <rs key="#jorg">Jorge</rs>.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>(Bueno, yo digo lo de los múscidos y luego le doy una patada a la mesa y me lio a punterazos con el auditorio. <stage>(Mirando a la altura.)</stage> (¡Dios mío, ilumíname, despéjame el cerebro!) Señores: la mosca es un insecto díptero atericero de la tribu de los múscidos.</p>
-					</sp>
-					<sp who="#jorg">
-						<speaker>Jorge</speaker>
-						<p> <stage>(Muy contento.)</stage> ¡Señores! El Comisario se ha marchado, pueden ustedes pasar a las salas de juego. <stage>(Todos se levantan precipitadamente e inician el mutis con gran Algazara.)</stage> ¡Calma! Que hay tiempo, señores. <stage>(Mutis. Quedan solamente es escena <rs key="#alge">Algeciras</rs> y <rs key="#memb">Membrives</rs>.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>(¡Gracias, Dios mío; no me has despejado a mí, pero has despejado el salón!) <stage>(Enjugándose el sudor.)</stage> Bueno, si me sangran echo tintura de iodo. (¡Señores qué ratito!)</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Bueno, ¿y qué hay del Espasa?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Caballero, usted me confunde lastimosa, mente. Yo he llegado hace tres días del Paraguay, y, vamos, no tengo el honor de conocerle.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Puede ser, pero se parece usted como una gota de agua a otra gota a un señor que me estafó cien pesetas hace unos meses.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>No lo dudo y tampoco es la primera vez que esto me ocurre. Ya esto me ha ocurrido en el Paraguay. Se conoce que mi cara es vulgar como un carrete.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Pues hijo, hablando es usted otra gota. <stage>(Ríe <rs key="#alge">Algeciras</rs>.)</stage> Y Otra gota riendo. <stage>(<rs key="#alge">Algeciras</rs> se pone muy serio.)</stage> Y quizás otra gota andando y otra accionando.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Por lo visto, ese señor y yo somos el Mediterráneo, pero le repito que se confunde; soy un orador paraguayo.</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>Papagayo.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Caballero!</p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>¡Vamos, hombre!</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Se lo juro a usted, señor <rs key="#memb">Membrives</rs>. <stage>(Comprende que ha metido la pata y se da un tapabocas.)</stage></p>
-					</sp>
-					<sp who="#memb">
-						<speaker>Membrives</speaker>
-						<p>No se pegue usted, porque el que va a atizarle es un servidor. <stage> (Suenan unos timbres dentro.)</stage> ¡Mi madre! <stage>(Se va corriendo por la izquierda.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Caray! ¿Qué le habrá dado? <stage>(Atraviesan la escena unos cuantos, poniéndose los abrigos precipitadamente y desaparecen sin decir palabra. Entre ellos estarán <rs key="#jorg">Jorge</rs> y <rs key="#gasc">Gascón</rs>.)</stage> ¡Es raro! En fin, he escapado demasiado bien. Porque hubo un momento, que, vamos, creí honradamente que dormía esta noche en la cárcel. <stage>(Toma el abrigo.)</stage></p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p> <stage> (Con <rs key="#parr">Parrondo</rs>, guardia de orden público, por la derecha.)</stage> Prenda usted a ese sinvergüenza, que es el que nos ha tomado el pelo con lo de las moscas.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Eh? ¿Cómo? ¡Señor Comisario!</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>Préndale usted. <stage>(<rs key="#parr">Parrondo</rs> obedece.)</stage></p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Señores, que yo soy del Paraguay!</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>¿Y los demás puntos?</p>
-					</sp>
-					<sp who="#parr">
-						<speaker>Parrondo</speaker>
-						<p>Se han escapao casi todos.</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>Bueno, este pagará por los demás.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Señor Comisario, que yo no he jugado ni cuando era pequeño.</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>Bien, bien; póngale el sobretodo y átele las muñecas.</p>
-					</sp>
-					<sp who="#parr">
-						<speaker>Parrondo</speaker>
-						<p>Ya lo ha oído.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>No, el sobretodo no, que me sofoca.</p>
-					</sp>
-					<sp who="#parr">
-						<speaker>Parrondo</speaker>
-						<p>No hay más remedio. Introduzca los brazos.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Mire usted, galante guardia, que con este gabán voy a alterar el orden.</p>
-					</sp>
-					<sp who="#parr">
-						<speaker>Parrondo</speaker>
-						<p>¡Hale! <stage>(Se lo pone.)</stage> ¡Caray, qué renglán!</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Le choca a usted, ¿no? Pues es el último grito del Paraguay.</p>
-					</sp>
-					<sp who="#parr">
-						<speaker>Parrondo</speaker>
-						<p>Pues es un grito horroroso. <stage>(Le ata.)</stage></p>
-					</sp>
-					<sp who="#gome">
-						<speaker>Gómez</speaker>
-						<p> <stage>(Guardia de orden público, entra en escena por otra puerta, conduciendo a <rs key="#cans">Canseco</rs> con las manos atadas.)</stage> Señor Comisario, no he podido atrapar más que a este punto; los demás han tomado soleta.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Venancio!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¡Emeterio! ¿Pero qué es eso que llevas puesto?</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>El gabán de la pupilera.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Pues chico, pareces doña Juana la Loca.</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>¿Le sorprendió usted jugando?</p>
-					</sp>
-					<sp who="#gome">
-						<speaker>Gómez</speaker>
-						<p>Estaba apuntando doscientas pesetas a un caballo.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Doscientas pesetas? ¡<rs key="#cans">Canseco</rs>!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Es verdad, a un caballo, y estaba yo que no respiraba, esperando anhelante al brioso corcel.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Y qué vino?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Vino el señor y me detuvo. Yo le dije: hágame la merced de aguardar que estoy esperando un caballo. Y va y me dice el amigo: no se apure usted, que iremos en tranvía. Pero no te asustes que apuntaba de boquilla.</p>
-					</sp>
-					<sp who="#gome">
-						<speaker>Gómez</speaker>
-						<p>¿De boquilla? ¿Pues qué eran aquellos dos billetes de a cien?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Unos anuncios para marcar.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Conque anuncios! Guardia, desáteme usted, que voy a borrar a este punto de un puñetazo.</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Emeterio, que te juro que eran dos anuncios de la manzanilla Cartazo.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¿Y mis trescientas pesetas, ladrón?</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>¡Anda! Hacía media hora que las había perdido.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>¡Te mato, canalla!</p>
-					</sp>
-					<sp who="#cans">
-						<speaker>Canseco</speaker>
-						<p>Ya te explicaré, Emeterio. En cuanto salgamos de la comisaría tendremos una conferencia.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Eso sí que no. Todo menos una conferencia.</p>
-					</sp>
-					<sp who="#rami">
-						<speaker>Ramírez</speaker>
-						<p>¡Andando!</p>
-					</sp>
-					<sp who="#parr">
-						<speaker>Parrondo</speaker>
-						<p>Arza.</p>
-					</sp>
-					<sp who="#alge">
-						<speaker>Algeciras</speaker>
-						<p>Guardia, un momento. <stage>(Al público.)</stage>
-						<lg><l>Ya que todo lo sufrí</l> 
-						<l>resignado y con paciencia,</l>
-						<l>tan solo espero de ti</l>
-						<l>que aplaudas la conferencia.</l></lg> </p>
-					</sp>
-					<stage>(Telón)</stage>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(Levantándose, tocando la campanilla e imponiendo silencio.)</stage>  Señoras y señores: Les ruego una miaja de calma porque ya está al llegar el señor <rs key="#alge">Algeciras</rs>, esa mentalidad mundial que ha llegado del Paraguay, donde materialmente se lo han comido. <stage>(Rumores.)</stage> Ustedes disimulen el léxico, pero es que yo de orador no tengo ni el tipo, así es que les vuelvo a rogar que no se impacienten. <stage>(Le aplauden.)</stage> Gracias por el palmoteo. <stage>(Se separa de la mesa.)</stage> (Bueno, si ese tío no viene le hago pavesas, porque el comisario está escamao.)</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p> <stage> (Un señor con aspecto de infeliz se levanta de una silla de la segunda fila y se acerca a <rs key="#jorg">Jorge</rs>.)</stage> Buenas, señor Sota.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¿Qué hay, <rs key="#memb">Membrives</rs>?</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>¿Pero es que no se juega hoy?</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>Baje usted la voz. En el gimnasio hay treinta y cuarenta.</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Pues allá voy.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¿No oye usted la conferencia?</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Cuando me pelen subiré.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¡Hombre!...</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>No tardará mucho, porque estoy atravesando una rachita... En ocho meses he perdido siete mil pesetas, se me ha muerto una tía en Burgos, he tenido fuego en mi casa y un sinvergüenza me sacó veinte duros diciéndome que me suscribía al Espasa y todavía no sé cómo está encuadernao.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>Válgame Dios, hombre.</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>En fin, qué le vamos a hacer. Hasta ahora.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>No corra usted la voz de que hay juego, porque si se enteran se me vacía el salón.</p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Pierda Usted Cuidado. <stage>(Mutis por la derecha.)</stage></p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(Consultando su reloj.)</stage> (¡Las diez y media!)</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p> <stage>(A <rs key="#jorg">Jorge</rs>.)</stage> Vuelvo a repetirle que si se comprueba lo denunciado, es decir, que esto de las conferencias es una filfa, me llevo a la Junta directiva del Círculo a la cárcel.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>Señor comisario, yo le juro a usted que estas conferencias son más verdad que las de San Vicente y ya se convencerá usted cuando escuche al disertante de esta noche que es enteramente una pianola.</p>
+						</sp>
+						<sp who="#mart">
+							<speaker>Martínez</speaker>
+							<p> <stage>(Por la derecha.)</stage> ¡Ahí está ya el señor <rs key="#alge">Algeciras!</rs></p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¡Bendito sea Dios! <stage>(Al público.)</stage> Señores: acaba de llegar el ilustre paraguayo. <stage>(Ovación. Por la puerta del foro entra <rs key="#alge">Algeciras</rs>. <rs key="#mart">Martínez</rs> pretende quitarle el gabán.)</stage></p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>No, no se moleste. El gabán no se separa de mi lado, porque en las ocho últimas conferencias que di en el Paraguay me cambiaron cinco pardesuses. Tome el sombrero. <stage>(<rs key="#mart">Martínez</rs> toma el sombrero y hace mutis volviendo a poco sin él. <rs key="#alge">Algeciras</rs> adelanta, saluda y el público le tributa una ovación.)</stage></p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¡Pero, hombre!...</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Señor don <rs key="#jorg">Jorge</rs>, mil perdones...</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p><stage>(Llevándole aparte.)</stage> Le ha dicho a usted <rs key="#mart">Martínez</rs>...</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Sí, me ha dicho que ha venido uno de la policía...</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>Aquel. <stage>(Indicándole a <rs key="#rami">Ramírez</rs>.)</stage> Y como quiero que se convenza de que esto de las conferencias no son una chirigota, le suplico que se esmere. Usted es un sabio y sabrá quedar a la altura debida.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Ya varemos, ya veremos, porque... caramba, a lo mejor.</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Voz</speaker>
+							<p>¡Que empiece!</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>Ande usted, que es tardísimo.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Sí... Voy... Voy... <stage> (Coloca el gabán sobre la silla, saluda, le ovacionan, vuelve a saludar y se le raja el frac por la espalda.) (¡Caracoles: lo único que me faltaba! Me ha estallado el frac. Cualquiera se vuelve de espaldas.) (Se toca con disimulo.) </stage></p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(Acercándose a él le dice en voz baja.)</stage> Se le ha descosido el frac por la espalda, ¿lo ha sentido usted?</p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Lo he sentido con toda mi alma. <stage>(<rs key="#jorg">Jorge</rs> se sienta y <rs key="#alge">Algeciras</rs> saca el pañuelo, se traga un trozo de azucarillo y bebe agua, todo muy nerviosamente.) (Sea lo que Dios quiera.) (Toca la campanilla, tose y se hace un profundo silencio.) (Bueno, me matan.)</stage> Señoras y señores y niños si los hubiere... Galán... galán... <stage>(Tose.)</stage> Galantemente invitado por el aquí presente presidente de este... de este bien situado círculo; eso es; para hablarles a ustedes de una cosa que ustedes desconocen y que yo no sé, digo que yo sé, no sé cómo agradecerles a ustedes el que hayan tenido la amabilidad de venir esta noche, porque si ustedes no vienen esta noche me hubiera molestado mucho, palabra de honor... Pero palabra de honor que me hubiera molestado; eso es. Y ya que han tenido la amabilidad de venir, deseo que tengan la amabilidad de ser... amables; es decir, benévolos con mi modesta disertación. <stage>(Saluda.)</stage> Sentado este punto... <stage> (Entra <rs key="#cans">Canseco</rs> por la derecha arrastrando una silla y taconeando fuertemente.)</stage> Sentado este punto... <stage>(<rs key="#cans">Canseco</rs> pone la silla, primero en una parte y luego en otra sin decidirse por ningún sitio.)</stage> Sentado este punto...</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Voz</speaker>
+							<p>¡A ver ese punto que se siente!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p> <stage>(Con aspereza.) </stage>¿Es a mí o al disertante?</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Voz</speaker>
+							<p>¡Fuera! ¡Que se siente! <stage>(<rs key="#cans">Canseco</rs> se sienta ante la fila primera.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Bueno, pues sentado ese punto, voy a tener la alta honra de entrar en materia.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>(Pues habla bien.)</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Señoras, señores y niños si los hubiese. La mosca como vehículo de todas las enfermedades. <stage>(Saluda.)</stage> (¡Dios mío de mi alma!) Todos ustedes conocen la mosca. ¡Sí!, estoy seguro. La mosca es conocidísima. Lo que no saben ustedes es que la mosca puede ser vehículo de todas las enfermedades. Así es en efecto, señores. Y no soy yo solo el que lo dice; lo dicen muchos sabios eminentes, entre ellos Simón Corrocher, eso es; Simón Corrocher, que hablando conmigo de la mosca en... Bruselas, me juró dicho Simón que era un vehículo. <stage>(Risas pitorronas.)</stage></p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p> <stage>(Levantándose e increpando al público.)</stage> No sé por qué se ha de tomar a chacota la conferencia del señor.</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Una voz</speaker>
+							<p>¡Que se calle! ¡Fuera!</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Otra</speaker>
+							<p>¡Que se siente!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p><stage>(Sentándose.)</stage> ¡Pues, hombre! ¡Tendría gracia! <stage>(Sisean y vuelve el silencio.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p><stage>(Después de toser.)</stage> Sentado otra vez este punto, voy a decir algo de la mosca en general. ¡Ah, señores! La mosca es un insepto díptero... díptero, como les he dicho. <stage>(Sudando el quilo.)</stage> Díptero y otras cosas más que no recuerdo, pero es igual, porque como todos ustedes conocen la mosca... pues a lo que iba, eso es; voy a ceñirme a la mosca corriente, dejando para la próxima conferencia el estudio de la mosca de caballo, el mosquito, el moscón y el papamoscas.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Muy bien; pero que muy bien.</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Voz</speaker>
+							<p>Que se calle ese moscardón.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¡Silencio!</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>(Este paraguayo es un camelo como suponía.)</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p> <stage>(¡Dios mío, ilumíname!)</stage> La mosca, señores, además de ser repugnante es molesta; muy molesta. Ya lo han asegurado desde el eminentísimo doctor Calvo, que dice que no las puede soportar, hasta el apóstol San Pedro que santa gloria yazga, a quien se adjudica por los cantores esta inspirada copla:
+								<lg><l>San Pedro como era calvo</l>
+									<l>le picaban los... moscones,</l>
+									<l>y su madre le decía...</l>
+									<l>voy a cerrar los balcones.</l></lg>
+								<stage>(Aplaude solamente <rs key="#cans">Canseco</rs>.)</stage> De manera que yo les aconsejo a ustedes que la persigan y la maten, ya esté en un tabique, ya se pose sobre la calva de cualquier sujeto.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p> <stage>(Atizando a uno un mamporro.)</stage> Con permiso. Le he evitado a usted una tisis galopante. <stage>(Simula tirar la mosca que ha matado.)</stage></p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(A <rs key="#cans">Canseco</rs>.)</stage> Suplico al oyente que no interrumpa. <stage>(Por la puerta de la derecha entra <rs key="#gasc">Gascón</rs>, un alabardero vestido de paisano; gasta una mosca más que regular. Trae una silla.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Y sin embargo, señores... ¡Ah! Existen personas partidarias de la mosca. <stage>(<rs key="#gasc">Gascón</rs> se queda mirando al orador.)</stage> A esos hombres, partidarios de la mosca, que la encuentran hasta bonita, los califico yo de bestias.</p>
+						</sp>
+						<sp who="#gasc">
+							<speaker>Gascón</speaker>
+							<p>¿Se me alude?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Cómo?</p>
+						</sp>
+						<sp who="#gasc">
+							<speaker>Gascón</speaker>
+							<p>Porque le advierto que si yo me dejo la mosca es porque soy alabardero. <stage>(Rumores.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Caballero, yo no me refería a esos cuatro pelos que adornan su barbilla, yo hablo de la mosca insecto díptero... díptero, y bueno, lo que sea.</p>
+						</sp>
+						<sp who="#gasc">
+							<speaker>Gascón</speaker>
+							<p>Usted perdone.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Le perdono y creo muy justo que usted se haya amoscado.</p>
+						</sp>
+						<sp who="#gasc">
+							<speaker>Gascón</speaker>
+							<p>¡Hombre!...</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Una voz</speaker>
+							<p>Que se siente ese de la mosca.</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Otra</speaker>
+							<p>¡Eso!</p>
+						</sp>
+						<sp who="#gasc">
+							<speaker>Gascón</speaker>
+							<p>Ya va, señor, que estamos entre amigos. <stage>(Se sienta junto a <rs key="#cans">Canseco</rs>.)</stage></p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p><stage>(Este paraguayo es un timo.)</stage> ¡Silencio!</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>(Dios mío, que no sé cómo seguir.)</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p><stage>(<rs key="#alge">Algeciras</rs>.)</stage> Continúe.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p><stage>(Cada vez más azarado.)</stage> Ahora, señores, voy a explicar sobre el encerado y a la carrera lo del vehículo. <stage>(Toma el puntero.)</stage> (Si me vuelvo se me va a ver el frac descosido.) <stage>(Recula hasta quedar delante del encerado ) </stage> Aquí, como ven ustedes, hay pintadas tres moscas comunes. Son blancas, pero son comunes. (No se me ocurre nada.) Pues bien., eso es... Esta... <stage>(De espaldas al encerado señala con el puntero y atraviesa la tela. Risas en el público.)</stage> <stage>(¡Mi madre, me he cargado el hule!)</stage> Esta... <stage>(Saca el pañuelo y lo sacude.)</stage> La de... que díptero... vehículo... <stage>(Agita el pañuelo nuevamente.) </stage> Eso es... La... bueno, la que...</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p><stage>(A <rs key="#gasc">Gascón</rs>, que se ríe de <rs key="#alge">Algeciras</rs>.)</stage> Caballero, tiene usted menos educación que una canasta.</p>
+						</sp>
+						<sp who="#gasc">
+							<speaker>Gascón</speaker>
+							<p>¿Yo? ¿Por qué?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p><stage>(Levantándose, enarbolando el bastón.)</stage> A mí no me replique usted, porque le doy un puñetazo en la mosca que se la espachurro. <stage>(Rumores.)</stage></p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p> <stage>(Acercándose.)</stage> ¿Pero qué pasa?</p>
+						</sp>
+						<sp who="#gasc">
+							<speaker>Gascón</speaker>
+							<p>Este tío que está loco.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p> <stage>(Disponiéndose a pegarle.)</stage> ¿Loco yo? <stage>(Se arma el gran revuelo. <rs key="#rami">Ramírez</rs> y <rs key="#mart">Martínez</rs> sujetan a <rs key="#cans">Canseco</rs>. Se oyen voces de ¡fueral, ¡fuera! ¡A la calle!)</stage></p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>Fuera del salón. ¡Vamos!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¡Pero oiga usted!...</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>¡Silencio!</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Dejarle!... Yo lo suplico.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¡Fuera! <stage>(Casi en volandas se llevan a <rs key="#cans">Canseco</rs> por la puerta de la derecha entre <rs key="#rami">Ramírez</rs> y <rs key="#mart">Martínez</rs>.)</stage></p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Una voz</speaker>
+							<p>¡Sentarse!</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>No ha ocurrido nada, señores. ¡Calma! Continúe el orador.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Pero, ¿por qué se han llevado a ese caballero?</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>A usted no le importa; prosiga.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Sí, señores; pero es el caso que se me ha ido... es decir, que, vamos, soy un hombre muy nervioso y este escándalo inesperado... pues... he perdido la ilación y no se me ocurre nada, pero vamos, lo que materialmente se dice nada. A mí cualquier cosa me... aturde, me desconcierta. A mí me distrae... una mosca.</p>
+						</sp>
+						<sp who="#voza">
+							<speaker>Una voz</speaker>
+							<p>¡Que se tranquilice!</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Ruego a este ilustrado público que me conceda unos minutos de descanso.</p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(Tocando la campanilla.)</stage> Señores, descanso de tres minutos. <stage>(<rs key="#alge">Algeciras</rs> saca unos papeles y los lee afanosamente. Por la derecha entra en escena <rs key="#memb">Membrives</rs> y le dice a <rs key="#jorg">Jorge</rs>.)</stage></p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Pelado. He perdido quinientas pesetas en diez minutos. Me han venido menos cartas que si estuviera en el desierto.</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p>¡Caramba!</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>A ver si me distrae el conferenciante. ¿Cuál es?</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(Por <rs key="#alge">Algeciras</rs>.)</stage> Ese.</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>¡Rebote! ¿Qué veo? Este es el que me suscribió al Espasa.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p> <stage>(Aporreando los papeles.)(Aquí está, hombre… Díptero aterícero, de la tribu de los múscidos.)</stage></p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p> <stage>(A <rs key="#alge">Algeciras</rs>.)</stage> Caballero, muy buenas noches…</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>(¡Atiza! ¡El del enciclopédico!)</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Usted dirá cuándo van a llevarme el Espasa.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Cómo?</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>¡Ah! ¿Pero es que va usted a hacerse el nuevo?</p>
+						</sp>
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(A <rs key="#memb">Membrives</rs>.)</stage> Con su permiso, amigo <rs key="#memb">Membrives</rs>, que es muy tarde. <stage>(Toca la campanilla.)</stage> Se reanuda la sesión. <stage>(A <rs key="#alge">Algeciras</rs>.)</stage> Ande usted.</p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p> <stage>(Sentándose.)</stage> Cuando acabe usted de hablar, hablaremos. <stage>(Entra <rs key="#mart">Martínez</rs> y habla con <rs key="#jorg">Jorge</rs>.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>(Bueno, yo digo lo de los múscidos y luego le doy una patada a la mesa y me lio a punterazos con el auditorio. <stage>(Mirando a la altura.)</stage> (¡Dios mío, ilumíname, despéjame el cerebro!) Señores: la mosca es un insecto díptero atericero de la tribu de los múscidos.</p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#jorg">
+							<speaker>Jorge</speaker>
+							<p> <stage>(Muy contento.)</stage> ¡Señores! El Comisario se ha marchado, pueden ustedes pasar a las salas de juego. <stage>(Todos se levantan precipitadamente e inician el mutis con gran Algazara.)</stage> ¡Calma! Que hay tiempo, señores. <stage>(Mutis. Quedan solamente es escena <rs key="#alge">Algeciras</rs> y <rs key="#memb">Membrives</rs>.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>(¡Gracias, Dios mío; no me has despejado a mí, pero has despejado el salón!) <stage>(Enjugándose el sudor.)</stage> Bueno, si me sangran echo tintura de iodo. (¡Señores qué ratito!)</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Bueno, ¿y qué hay del Espasa?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Caballero, usted me confunde lastimosa, mente. Yo he llegado hace tres días del Paraguay, y, vamos, no tengo el honor de conocerle.</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Puede ser, pero se parece usted como una gota de agua a otra gota a un señor que me estafó cien pesetas hace unos meses.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>No lo dudo y tampoco es la primera vez que esto me ocurre. Ya esto me ha ocurrido en el Paraguay. Se conoce que mi cara es vulgar como un carrete.</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Pues hijo, hablando es usted otra gota. <stage>(Ríe <rs key="#alge">Algeciras</rs>.)</stage> Y Otra gota riendo. <stage>(<rs key="#alge">Algeciras</rs> se pone muy serio.)</stage> Y quizás otra gota andando y otra accionando.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Por lo visto, ese señor y yo somos el Mediterráneo, pero le repito que se confunde; soy un orador paraguayo.</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>Papagayo.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Caballero!</p>
+						</sp>
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>¡Vamos, hombre!</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Se lo juro a usted, señor <rs key="#memb">Membrives</rs>. <stage>(Comprende que ha metido la pata y se da un tapabocas.)</stage></p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#memb">
+							<speaker>Membrives</speaker>
+							<p>No se pegue usted, porque el que va a atizarle es un servidor. <stage> (Suenan unos timbres dentro.)</stage> ¡Mi madre! <stage>(Se va corriendo por la izquierda.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Caray! ¿Qué le habrá dado? <stage>(Atraviesan la escena unos cuantos, poniéndose los abrigos precipitadamente y desaparecen sin decir palabra. Entre ellos estarán <rs key="#jorg">Jorge</rs> y <rs key="#gasc">Gascón</rs>.)</stage> ¡Es raro! En fin, he escapado demasiado bien. Porque hubo un momento, que, vamos, creí honradamente que dormía esta noche en la cárcel. <stage>(Toma el abrigo.)</stage></p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p> <stage> (Con <rs key="#parr">Parrondo</rs>, guardia de orden público, por la derecha.)</stage> Prenda usted a ese sinvergüenza, que es el que nos ha tomado el pelo con lo de las moscas.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Eh? ¿Cómo? ¡Señor Comisario!</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>Préndale usted. <stage>(<rs key="#parr">Parrondo</rs> obedece.)</stage></p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Señores, que yo soy del Paraguay!</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>¿Y los demás puntos?</p>
+						</sp>
+						<sp who="#parr">
+							<speaker>Parrondo</speaker>
+							<p>Se han escapao casi todos.</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>Bueno, este pagará por los demás.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Señor Comisario, que yo no he jugado ni cuando era pequeño.</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>Bien, bien; póngale el sobretodo y átele las muñecas.</p>
+						</sp>
+						<sp who="#parr">
+							<speaker>Parrondo</speaker>
+							<p>Ya lo ha oído.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>No, el sobretodo no, que me sofoca.</p>
+						</sp>
+						<sp who="#parr">
+							<speaker>Parrondo</speaker>
+							<p>No hay más remedio. Introduzca los brazos.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Mire usted, galante guardia, que con este gabán voy a alterar el orden.</p>
+						</sp>
+						<sp who="#parr">
+							<speaker>Parrondo</speaker>
+							<p>¡Hale! <stage>(Se lo pone.)</stage> ¡Caray, qué renglán!</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Le choca a usted, ¿no? Pues es el último grito del Paraguay.</p>
+						</sp>
+						<sp who="#parr">
+							<speaker>Parrondo</speaker>
+							<p>Pues es un grito horroroso. <stage>(Le ata.)</stage></p>
+						</sp>
+					</div>
+					<div cert="low" resp="#jct" type="scene">
+						<sp who="#gome">
+							<speaker>Gómez</speaker>
+							<p> <stage>(Guardia de orden público, entra en escena por otra puerta, conduciendo a <rs key="#cans">Canseco</rs> con las manos atadas.)</stage> Señor Comisario, no he podido atrapar más que a este punto; los demás han tomado soleta.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Venancio!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¡Emeterio! ¿Pero qué es eso que llevas puesto?</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>El gabán de la pupilera.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Pues chico, pareces doña Juana la Loca.</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>¿Le sorprendió usted jugando?</p>
+						</sp>
+						<sp who="#gome">
+							<speaker>Gómez</speaker>
+							<p>Estaba apuntando doscientas pesetas a un caballo.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Doscientas pesetas? ¡<rs key="#cans">Canseco</rs>!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Es verdad, a un caballo, y estaba yo que no respiraba, esperando anhelante al brioso corcel.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Y qué vino?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Vino el señor y me detuvo. Yo le dije: hágame la merced de aguardar que estoy esperando un caballo. Y va y me dice el amigo: no se apure usted, que iremos en tranvía. Pero no te asustes que apuntaba de boquilla.</p>
+						</sp>
+						<sp who="#gome">
+							<speaker>Gómez</speaker>
+							<p>¿De boquilla? ¿Pues qué eran aquellos dos billetes de a cien?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Unos anuncios para marcar.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Conque anuncios! Guardia, desáteme usted, que voy a borrar a este punto de un puñetazo.</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Emeterio, que te juro que eran dos anuncios de la manzanilla Cartazo.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¿Y mis trescientas pesetas, ladrón?</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>¡Anda! Hacía media hora que las había perdido.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>¡Te mato, canalla!</p>
+						</sp>
+						<sp who="#cans">
+							<speaker>Canseco</speaker>
+							<p>Ya te explicaré, Emeterio. En cuanto salgamos de la comisaría tendremos una conferencia.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Eso sí que no. Todo menos una conferencia.</p>
+						</sp>
+						<sp who="#rami">
+							<speaker>Ramírez</speaker>
+							<p>¡Andando!</p>
+						</sp>
+						<sp who="#parr">
+							<speaker>Parrondo</speaker>
+							<p>Arza.</p>
+						</sp>
+						<sp who="#alge">
+							<speaker>Algeciras</speaker>
+							<p>Guardia, un momento. <stage>(Al público.)</stage>
+								<lg><l>Ya que todo lo sufrí</l> 
+									<l>resignado y con paciencia,</l>
+									<l>tan solo espero de ti</l>
+									<l>que aplaudas la conferencia.</l></lg> </p>
+						</sp>
+						<stage>(Telón)</stage>
+					</div>
 				</div>
 			</div>
 		</body>
 		<back>
-		<p>FIN DE LA OBRA</p>
+			<p>FIN DE LA OBRA</p>
 		</back>
 	</text>
 </TEI>

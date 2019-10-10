@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,22 +10,30 @@
 				<title type="idno">
 					<idno type="viaf">3988147270463635700008</idno>
 					<idno type="bne">XX1987269</idno>
+					<idno type="wikidata">Q944112</idno>
 				</title>
 				<author>
 					<name type="full">Federico García Lorca</name>
 					<name type="short">Lorca</name>
 					<idno type="viaf">34456883</idno>
 					<idno type="bne">XX841898</idno>
+					<idno type="wikidata">Q41408</idno>
 				</author>
 				<principal xml:id="msp">María Simón</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>008</idno>
+				<idno>
+					<idno type="number">008</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="first-published">
@@ -51,17 +59,206 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="tragedia"></purpose>
+			</textDesc>
 			<abstract>
 				<p>Yerma es una tragedia que se desarrolla en un ambiente rural.</p>
 				<p>En el primer acto, Yerma, protagonista de la obra, refleja constantemente sus ganas de tener un hijo. Dicha preocupación le lleva a pedir consejo a Vieja, pensando que la expriencia de esta, le ayudará a resolver su problema.</p>
 				<p>En el acto segundo, se ve que, después de un tiempo, la situacion de Yerma, no ha variado mucho. A esto, se le unen los rumores de la gente del pueblo, al ver a la protagonista, hablando con un hombre, Víctor, que no es su marido.</p>
 				<p>Para finalizar, el tercer acto comienza con la visita de Yerma a Dolores una conjuradora que le asegura tener un remedio que le ayudará a tener hijos. Ademas, de vuelta de una romería, Yerma se encuentra con su marido, el cual ha escuchado una conversación de esta en la que oye el lamento de su mujer por no tener un hijo. Esta situación lleva a los protagonistas a una discusión, en la que Yerma mata a Juan, su marido.</p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+
+					<personGrp n="1" role="other" sex="F" xml:id="cant">
+						<persName>Canto de voces</persName>
+						<trait type="nature"><desc>non-human</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="2" role="lover" sex="M" xml:id="juan">
+						<persName>Juan</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>6631</desc></event>
+							<event type="sps"><desc>88</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="protagonist" sex="F" xml:id="yerm">
+						<persName>Yerma</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>20266</desc></event>
+							<event type="sps"><desc>244</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="other" sex="F" xml:id="mari">
+						<persName>María</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2846</desc></event>
+							<event type="sps"><desc>52</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="other" sex="M" xml:id="vict">
+						<persName>Víctor</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1514</desc></event>
+							<event type="sps"><desc>45</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="F" xml:id="viej">
+						<persName>Vieja</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5714</desc></event>
+							<event type="sps"><desc>47</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="F" xml:id="much">
+						<persName>Muchacha</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>2125</desc></event>
+							<event type="sps"><desc>29</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="F" xml:id="lava">
+						<persName>Lavandera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3986</desc></event>
+							<event type="sps"><desc>95</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="F" xml:id="cuna">
+						<persName>Cuñada</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>119</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="F" xml:id="dolo">
+						<persName>Dolores</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1329</desc></event>
+							<event type="sps"><desc>22</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="other" sex="F" xml:id="muje">
+						<persName>Mujer</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>133</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="12" role="other" sex="F" xml:id="coro">
+						<persName>Coro de mujeres</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>72</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</personGrp>
+					<person n="13" role="other" sex="F" xml:id="hemb">
+						<persName>Hembra</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>21</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="M" xml:id="homb">
+						<persName>Hombre</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>249</desc></event>
+							<event type="sps"><desc>10</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="M" xml:id="nin">
+						<persName>Niño</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>91</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="16" role="other" sex="M" xml:id="mach">
+						<persName>Macho</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>107</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>				</listPerson></particDesc>
 		</profileDesc>
 		<revisionDesc>
-			<change when="2016-08-01" who="msp">Versión inicital TEI.</change>
-			<change when="2015-07-07" who="msp" status="draft">Pequeños cambios en algunos datos del teiHeader.</change>
-			<change when="2017-05-09" who="jct" status="approved">Errores corregidos.</change>
+			<change when="2016-08-01" who="#msp">Versión inicital TEI.</change>
+			<change status="draft" when="2015-07-07" who="#msp">Pequeños cambios en algunos datos del teiHeader.</change>
+			<change status="approved" when="2017-05-09" who="#jct">Errores corregidos.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#coj">Revisión de metadatos a partir del resumen</change>
+
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -70,82 +267,82 @@
 				<castList>
 					<head>Personajes</head>
 					<castItem>
-						<role xml:id="cant">Canto de voces</role>
+						<role corresp="#cant">Canto de voces</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="juan">Juan</role>
+						<role corresp="#juan">Juan</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="yerm">Yerma</role>
+						<role corresp="#yerm">Yerma</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="mari">María</role>
+						<role corresp="#mari">María</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="víct">Víctor</role>
+						<role corresp="#vict">Víctor</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="viej">Vieja</role>
+						<role corresp="#viej">Vieja</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="much">Muchacha</role>
+						<role corresp="#much">Muchacha</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="lava">Lavandera</role>
+						<role corresp="#lava">Lavandera</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="cuna">Cuñada</role>
+						<role corresp="#cuna">Cuñada</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="dolo">Dolores</role>
+						<role corresp="#dolo">Dolores</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="muje">Mujer</role>
+						<role corresp="#muje">Mujer</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="coro">Coro de mujeres</role>
+						<role corresp="#coro">Coro de mujeres</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="hemb">Hembra</role>
+						<role corresp="#hemb">Hembra</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="homb">Hombre</role>
+						<role corresp="#homb">Hombre</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="nin">Niño</role>
+						<role corresp="#nin">Niño</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="mach">Macho</role>
+						<role corresp="#mach">Macho</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
@@ -153,9 +350,9 @@
 			</div>
 		</front>
 		<body>					
-			<div type="act" n="1">
+			<div n="1" type="act">
 				<head>ACTO PRIMERO</head>	
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Cuadro Primero</head>
 					<stage>(Al levantarse el telón está<rs key="yerm">Yerma</rs> dormida con un tabanque de costura a los pies. La escena tiene una extraña luz de sueño. Un pastor sale de puntillas mirando fijamente a <rs key="yerm">Yerma.</rs> Lleva de la mano a un niño vestido de blanco. Suena el reloj. Cuando sale el pastor, la luz se cambia por una alegre luz de mañana de primavera. <rs key="yerm">Yerma</rs> se despierta.)</stage>
 					<sp who="#cant">
@@ -587,7 +784,7 @@
 						<speaker>Yerma</speaker>
 						<p>Vuelve pronto.<stage> (<rs key="yerm">Yerma</rs> queda en la misma actitud que al principio. Coge las tijeras y empieza a cortar. Sale <rs key="víct">Víctor</rs>.)</stage> Adiós, <rs key="víct">Víctor</rs>.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p><stage>(Es profundo y lleva firme gravedad.)</stage> ¿Y <rs key="juan">Juan</rs>?</p>
 					</sp>
@@ -595,7 +792,7 @@
 						<speaker>Yerma</speaker>
 						<p>En el campo.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>¿Qué coses?</p>
 					</sp>
@@ -603,7 +800,7 @@
 						<speaker>Yerma</speaker>
 						<p>Corto unos pañales.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p><stage>(Sonriente.)</stage> ¡Vamos!</p>
 					</sp>
@@ -611,7 +808,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Ríe.)</stage> Los voy a rodear de encajes.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Si es niña le pondrás tu nombre.</p>
 					</sp>
@@ -619,7 +816,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Temblando.)</stage> ¿Cómo?…</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Me alegro por ti.</p>
 					</sp>
@@ -627,7 +824,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Casi ahogada.)</stage> No…, no son para mí. Son para el hijo de María.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Bueno, pues a ver si con el ejemplo te animas. En esta casa hace falta un niño.</p>
 					</sp>
@@ -635,7 +832,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Con angustia.)</stage> ¡Hace falta!</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Pues adelante. Dile a tu marido que piense menos en el trabajo. Quiere juntar dinero y lo juntará, pero ¿a quién lo va a dejar cuando se muera? Yo me voy con las ovejas. Dile a <rs key="juan">Juan</rs> que recoja las dos que me compró, y en cuanto a lo otro, ¡que ahonde! <stage>(Se va sonriente.)</stage></p>
 					</sp>
@@ -654,7 +851,7 @@
 					</sp>
 					<p>Telón</p>
 				</div>				
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Cuadro Segundo</head>
 					<stage>(Campo. Sale <rs key="yerm">Yerma</rs>, Trae una cesta. Sale la <rs key="viej">Vieja 1ª</rs>.)</stage>
 					<sp who="#yerm">
@@ -973,7 +1170,7 @@
 						<speaker>Muchacha 2ª</speaker>
 						<p>Allá tú… Mira, me voy a dar la comida a mi marido. <stage>(Ríe.)</stage> Es lo que hay que ver. Qué lástima no poder decir mi novio, ¿verdad? <stage>(Ríe.)</stage> ¡Ya se va la loca! <stage>(Se va riendo alegremente.)</stage> ¡Adiós!</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<stage>(Cantando.)</stage>
 						<lg>
@@ -1011,7 +1208,7 @@
 						</lg>
 						<stage>(Va a salir y se tropieza con <rs key="víct">Víctor</rs> que entra.)</stage>
 					</sp>
-					<sp who="#víct">	
+					<sp who="#vict">	
 						<speaker>Víctor</speaker>
 						<p><stage>(Alegre.)</stage> ¿Dónde va lo hermoso?</p>
 					</sp>
@@ -1019,7 +1216,7 @@
 						<speaker>Yerma</speaker>
 						<p>¿Cantabas tú?</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Yo.</p>
 					</sp>
@@ -1027,7 +1224,7 @@
 						<speaker>Yerma</speaker>
 						<p>¡Qué bien! Nunca te había sentido.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>¿No?</p>
 					</sp>
@@ -1035,7 +1232,7 @@
 						<speaker>Yerma</speaker>
 						<p>Y qué voz tan pujante. Parece un chorro de agua que te llena toda la boca.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Soy alegre.</p>
 					</sp>
@@ -1043,7 +1240,7 @@
 						<speaker>Yerma</speaker>
 						<p>Es verdad.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Como tú triste.</p>
 					</sp>
@@ -1051,7 +1248,7 @@
 						<speaker>Yerma</speaker>
 						<p>No soy triste, es que tengo motivos para estarlo.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Y tu marido más triste que tú.</p>
 					</sp>
@@ -1059,7 +1256,7 @@
 						<speaker>Yerma</speaker>
 						<p>Él, sí. Tiene un carácter seco.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Siempre fue igual. <stage>(Pausa. <rs key="yerm">Yerma</rs> está sentada.)</stage> ¿Viniste a traer la comida?</p>
 					</sp>
@@ -1067,7 +1264,7 @@
 						<speaker>Yerma</speaker>
 						<p>Sí. <stage>(Lo mira. Pausa.)</stage> ¿Qué tienes aquí? <stage>(Señala la cara.)</stage></p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>¿Dónde?</p>
 					</sp>
@@ -1075,7 +1272,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Se levanta y se acerca a <rs key="víct">Víctor</rs>.)</stage> Aquí…, en la mejilla; como una quemadura.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>No es nada.</p>
 					</sp>
@@ -1083,7 +1280,7 @@
 						<speaker>Yerma</speaker>
 						<p>Me ha parecido. <stage>(Pausa.)</stage></p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Debe ser el sol…</p>
 					</sp>
@@ -1095,7 +1292,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Temblando.)</stage> ¿Oyes?</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>¿Qué?</p>
 					</sp>
@@ -1103,7 +1300,7 @@
 						<speaker>Yerma</speaker>
 						<p>¿No sientes llorar?</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p><stage>(Escuchando.)</stage> No.</p>
 					</sp>
@@ -1111,7 +1308,7 @@
 						<speaker>Yerma</speaker>
 						<p>Me había parecido que lloraba un niño.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>¿Sí?</p>
 					</sp>
@@ -1119,7 +1316,7 @@
 						<speaker>Yerma</speaker>
 						<p>Muy cerca. Y lloraba como ahogado.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Por aquí hay siempre muchos niños que vienen a robar fruta.</p>
 					</sp>
@@ -1127,7 +1324,7 @@
 						<speaker>Yerma</speaker>
 						<p>No. Es la voz de un niño pequeño. <stage>(Pausa.)</stage></p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>No oigo nada.</p>
 					</sp>
@@ -1143,7 +1340,7 @@
 						<speaker>Yerma</speaker>
 						<p>Hablaba.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Salud. <stage>(Sale.)</stage></p>
 					</sp>
@@ -1206,9 +1403,9 @@
 					<p>Telón</p>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>ACTO SEGUNDO</head>
-				<div  type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Cuadro Primero</head>
 					<stage>(Canto a telón corrido. Torrente donde lavan las mujeres del pueblo. Las lavanderas están situadas en varios pianos.)</stage>
 					<stage>CANTAN:</stage>
@@ -1669,7 +1866,7 @@
 					</sp>
 					<p>Telón</p>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Cuadro Segundo</head>
 					<stage>(Casa de <rs key="yerm">Yerma</rs>. Atardece. <rs key="juan">Juan</rs> está sentado. Las dos cuñadas de pie.)</stage>
 					<sp who="#juan">	
@@ -2028,7 +2225,7 @@
 						<speaker>Yerma</speaker>
 						<p>¡Que me esperen aunque sea tarde! <stage>(Entra <rs key="víct">Víctor</rs>.)</stage></p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>¿Está <rs key="juan">Juan</rs>?</p>
 					</sp>
@@ -2044,7 +2241,7 @@
 						<speaker>Yerma</speaker>
 						<p>Cuando quieras. <stage>(Sale la <rs key="much">Muchacha</rs>.)</stage> Siéntate.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Estoy bien así.</p>
 					</sp>
@@ -2052,7 +2249,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Llamando.)¡</stage><rs key="juan">Juan</rs>!</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Vengo a despedirme. <stage>(Se estremece ligeramente, pero vuelve a su serenidad.)</stage></p>
 					</sp>
@@ -2060,7 +2257,7 @@
 						<speaker>Yerma</speaker>
 						<p>¿Te vas con tus hermanos?</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Así lo quiere mi padre.</p>
 					</sp>
@@ -2068,7 +2265,7 @@
 						<speaker>Yerma</speaker>
 						<p>Ya debe estar viejo.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Sí. Muy viejo. <stage>(Pausa.)</stage></p>
 					</sp>
@@ -2076,7 +2273,7 @@
 						<speaker>Yerma</speaker>
 						<p>Haces bien de cambiar de campos.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Todos los campos son iguales.</p>
 					</sp>
@@ -2084,7 +2281,7 @@
 						<speaker>Yerma</speaker>
 						<p>No. Yo me iría muy lejos.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Es todo lo mismo. Las mismas ovejas tienen la misma lana.</p>
 					</sp>
@@ -2092,7 +2289,7 @@
 						<speaker>Yerma</speaker>
 						<p>Para los hombres, sí; pero las mujeres somos otra cosa. Nunca oí decir a un hombre comiendo: qué buenas son estas manzanas. Vais a lo vuestro sin reparar en las delicadezas. De mí sé decir que he aborrecido el agua de estos pozos.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Puede ser. <stage>(La escena está en una suave penumbra.)</stage></p>
 					</sp>
@@ -2100,7 +2297,7 @@
 						<speaker>Yerma</speaker>
 						<p><rs key="víct">Víctor</rs>.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Dime.</p>
 					</sp>
@@ -2108,7 +2305,7 @@
 						<speaker>Yerma</speaker>
 						<p>¿Por qué te vas? Aquí las gentes lo quieren.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Yo me porté bien. <stage>(Pausa.)</stage></p>
 					</sp>
@@ -2116,7 +2313,7 @@
 						<speaker>Yerma</speaker>
 						<p>Te portaste bien. Siendo zagalón me llevaste una vez en brazos, ¿no recuerdas? Nunca se sabe lo que va a pasar.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Todo cambia.</p>
 					</sp>
@@ -2124,7 +2321,7 @@
 						<speaker>Yerma</speaker>
 						<p>Algunas cosas no cambian. Hay cosas encerradas detrás de los muros que no pueden cambiar porque nadie las oye.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Así es.</p>
 						<stage>(Aparece la hermana segunda y se dirige lentamente hacia la puerta, donde queda fija, iluminada por la última luz de la tarde.)</stage>
@@ -2133,7 +2330,7 @@
 						<speaker>Yerma</speaker>
 						<p>Pero que si salieran de pronto y gritaran, llenarían el mundo.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>No se adelantaría nada. La acequia por su sitio, el rebaño en el redil, la luna en el cielo y el hombre con su arado.</p>
 					</sp>
@@ -2141,7 +2338,7 @@
 						<speaker>Yerma</speaker>
 						<p>¡Qué pena más grande no poder sentir las enseñanzas de los viejos! ¡Se oye el sonido largo y melancólico de las caracolas de los pastores!</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Los rebaños.</p>
 					</sp>
@@ -2149,7 +2346,7 @@
 						<speaker>Juan</speaker>
 						<p><stage>(Sale.)</stage> ¿Vas ya de camino?</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Y quiero pasar el puerto antes del amanecer.</p>
 					</sp>
@@ -2157,7 +2354,7 @@
 						<speaker>Juan</speaker>
 						<p>¿Llevas alguna queja de mí?</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>No. Fuiste buen pagador.</p>
 					</sp>
@@ -2169,7 +2366,7 @@
 						<speaker>Yerma</speaker>
 						<p>¿Sí?</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p><stage>(A <rs key="yerm">Yerma</rs>.)</stage> Tuyos son.</p>
 					</sp>
@@ -2181,7 +2378,7 @@
 						<speaker>Juan</speaker>
 						<p><stage>(Satisfecho.)</stage> Así es.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Tu marido ha de ver su hacienda colmada.</p>
 					</sp>
@@ -2202,7 +2399,7 @@
 						<speaker>Juan</speaker>
 						<p>Iremos juntos hasta el arroyo.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Deseo la mayor felicidad para esta casa. <stage>(Le da la mano a <rs key="yerm">Yerma</rs>.)</stage></p>
 					</sp>
@@ -2211,7 +2408,7 @@
 						<p>¡Dios lo oiga! ¡Salud!</p>
 						<stage>(<rs key="víct">Víctor</rs> le da salida y, a un movimiento imperceptible de <rs key="yerm">Yerma</rs>, se vuelve.)</stage>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>¿Decías algo?</p>
 					</sp>
@@ -2219,7 +2416,7 @@
 						<speaker>Yerma</speaker>
 						<p><stage>(Dramática.)</stage> Salud, dije.</p>
 					</sp>
-					<sp who="#víct">
+					<sp who="#vict">
 						<speaker>Víctor</speaker>
 						<p>Gracias.</p>
 						<stage>(Salen. <rs key="yerm">Yerma</rs> queda angustiada mirándose la mano que ha dado a <rs key="víct">Víctor</rs>. <rs key="yerm">Yerma</rs> se dirige rápidamente hacia la izquierda y toma un mantón.)</stage>
@@ -2250,9 +2447,9 @@
 					<p>Telón</p>
 				</div>
 			</div>
-			<div type="act" n="3">
+			<div n="3" type="act">
 				<head>ACTO TERCERO</head>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>Cuadro Primero</head>
 					<stage>(Casa de la <rs key="dolo">Doleres</rs> la conjuradora. Está amaneciendo. Entra <rs key="yerm">Yerma</rs> con <rs key="dolo">Dolores</rs> y dos viejas.)</stage>
 					<sp who="#dolo">
@@ -2565,7 +2762,7 @@
 					</sp>
 					<p>Telón rápido</p>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>Cuadro Segundo</head>
 					<stage>(Alrededores de una ermita, en plena montaña. En primer término, unas ruedas de carro y unas mantas formando una tienda rústica donde está <rs key="yerm">Yerma</rs>. Entran las mujeres con ofrendas a la ermita. Vienen descalzas. En escena está la vieja alegre del primer acto.) (Canto a telón corrido.)</stage>
 					<lg>

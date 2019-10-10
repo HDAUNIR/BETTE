@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	scene_18	scene_19	scene_20	scene_21	scene_22	scene_23	scene_24	scene_25	scene_26	scene_27	scene_28	scene_29	scene_30	scene_31	scene_32	scene_33	scene_34	scene_35	scene_36	first scene	middle scene	last scene
+#rosa	#rosa	Rosa	F	other	person	primary	1	0	0	0	0	0	0	0	1	9	22	17	0	0	2	2	3	5	9	7	12	5	20	4	16	0	0	0	0	0	8	4	3	16	1	8	0	0	5.117647058823529	0
+#tonu	#tonu	Toñuela	F	other	person	minor	2	0	0	0	0	0	0	0	1	12	1	0	0	1	4	2	2	4	8	4	0	0	1	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.3529411764705883	0
+#isid	#isid	Isidra	F	other	person	secondary	3	0	0	0	0	8	7	8	3	9	17	4	3	0	0	0	5	0	9	4	12	7	0	0	0	0	0	0	0	0	8	1	0	0	0	0	0	0	3.088235294117647	0
+#muj1	#muj1	Mujer 1ª	F	other	person	minor	4	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.058823529411764705	0
+#muj2	#muj2	Mujer 2ª	F	other	person	minor	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#juan	#juan	Juan José	M	protagonist	person	primary	6	0	0	3	23	5	0	0	0	0	0	0	1	2	7	12	0	0	0	0	0	11	21	7	17	0	30	11	1	5	0	0	2	17	0	8	3	0	5.382352941176471	3
+#paco	#paco	Paco	M	lover	person	primary	7	0	0	0	0	0	1	15	0	0	2	17	0	0	1	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	1.588235294117647	0
+#andr	#andr	Andrés	M	other	person	secondary	8	3	23	2	23	5	0	0	0	0	0	0	3	3	3	3	0	0	1	15	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	3	3	2.6470588235294117	3
+#cano	#cano	El Cano	M	other	person	secondary	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	31	13	0	5	0	0	0	0	0	0	0	0	1.8529411764705883	0
+#igna	#igna	Ignacio	M	other	person	minor	10	7	10	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0.5882352941176471	0
+#peri	#peri	Perico 	M	other	person	minor	11	8	11	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0.35294117647058826	0
+#tabe	#tabe	El tabernero	M	other	person	minor	12	1	5	1	0	1	6	6	4	0	0	0	1	2	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0.8529411764705882	0
+#cabo	#cabo	Un cabo de presidio	M	other	person	minor	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#beb1	#beb1	Bebedor 1º	M	other	person	minor	14	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0.0	0
+#beb2	#beb2	Bebedor 2º	M	other	person	minor	15	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0.0	0
+#mozo	#mozo	Un mozo de taberna	M	other	person	minor	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0

@@ -1,0 +1,47 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	scene_8	scene_9	scene_10	scene_11	scene_12	scene_13	scene_14	scene_15	scene_16	scene_17	scene_18	first scene	middle scene	last scene
+#caba	#caba	EL CABALLERO, DON JUAN MANUEL DE MONTENEGRO	M	protagonist	person	primary	1	2	26	19	0	0	24	0	13	20	28	4	0	0	1	20	26	6	4	2	11.6875	4
+#pedr	#pedr	DON PEDRITO	M	antagonist	person	secondary	2	0	0	0	6	0	0	32	15	0	0	0	0	0	0	0	0	0	0	0	3.3125	0
+#rose	#rose	DON ROSENDO	M	antagonist	person	secondary	3	0	0	0	6	0	0	0	0	4	0	0	10	0	0	0	0	1	3	0	1.3125	3
+#maur	#maur	DON MAURO	M	antagonist	person	primary	4	0	0	0	3	0	0	0	0	5	0	0	16	0	0	0	0	2	3	0	1.625	3
+#gonz	#gonz	DON GONZALITO	M	antagonist	person	secondary	5	0	0	0	2	0	0	0	0	4	0	0	9	0	0	0	0	1	1	0	1.0	1
+#farr	#farr	DON FARRUQUIÑO	M	other	person	secondary	6	0	0	0	8	0	0	31	0	0	17	0	0	0	0	0	0	1	3	0	3.5625	3
+#gala	#gala	DON GALÁN	M	other	person	minor	7	0	4	0	0	0	0	0	0	0	0	0	0	0	13	0	0	7	0	0	1.5	0
+#roja	#roja	LA ROJA	F	other	person	minor	8	0	19	0	0	0	0	0	0	0	0	0	0	23	0	2	0	7	0	0	3.1875	0
+#zaga	#zaga	EL ZAGAL DE LAS VACAS	M	other	person	minor	9	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0.375	0
+#andr	#andr	ANDREÍÑA	F	other	person	minor	10	0	0	0	0	0	0	0	0	31	7	0	0	0	16	0	0	0	0	0	3.375	0
+#rebo	#rebo	LA REBOLA	F	other	person	minor	11	0	0	0	0	0	0	0	0	7	0	0	0	0	6	0	0	0	0	0	0.8125	0
+#reco	#reco	LA RECOGIDA	F	other	person	minor	12	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	4	0	0	0.75	0
+#cape	#cape	DON MANUELITO	M	other	person	minor	13	0	0	0	8	0	0	0	0	8	27	2	0	0	8	0	0	0	0	0	3.3125	0
+#patr	#patr	ABELARDO	M	other	person	minor	14	0	0	7	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0.875	0
+#maru	#maru	Marinero	M	other	person	minor	15	0	5	15	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	1.4375	0
+#mard	#mard	Marinero	M	other	person	minor	16	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0625	0
+#mart	#mart	Marinero	M	other	person	minor	17	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0625	0
+#rapa	#rapa	EL RAPAZ	M	other	person	minor	18	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0.0625	0
+#monc	#monc	DOÑA MONCHA	F	other	person	minor	19	0	0	0	0	16	0	0	0	0	0	0	0	0	11	0	0	0	0	0	1.6875	0
+#beni	#beni	BENITA LA COSTURERA	F	other	person	minor	20	0	0	0	0	19	0	0	0	4	0	0	0	0	0	0	0	0	0	0	1.4375	0
+#pobr	#pobr	EL POBRE DE SAN LÁZARO,	M	other	person	minor	21	0	0	0	0	0	5	0	6	6	0	0	0	0	0	0	0	6	1	0	1.4375	1
+#domi	#domi	DOMINGA DE GÓMEZ	F	other	person	minor	22	0	0	0	0	0	2	0	2	10	0	0	0	0	0	0	0	7	0	0	1.3125	0
+#male	#male	EL MANCO LEONÉS	M	other	person	minor	23	0	0	0	0	0	1	0	1	4	0	0	0	0	0	0	0	4	0	0	0.625	0
+#mago	#mago	EL MANCO DE GONDAR	M	other	person	minor	24	0	0	0	0	0	1	0	0	2	0	0	0	0	0	0	0	1	0	0	0.25	0
+#tull	#tull	EL TULLIDO DE CELTIGOS	M	other	person	minor	25	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0625	0
+#paul	#paul	PAULA LA REINA	F	other	person	minor	26	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0.3125	0
+#anso	#anso	ANDREÍÑA LA SORDA,	F	other	person	minor	27	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0.3125	0
+#morc	#morc	EL MORCEGO	M	other	person	minor	28	0	0	0	0	0	5	0	0	6	0	0	0	0	0	6	0	2	0	0	1.1875	0
+#coi	#coi	coima	F	other	person	minor	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#adeg	#adeg	ADEGA la inocente	F	other	person	minor	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0.0625	0
+#arte	#arte	ARTEMISA	F	other	person	minor	31	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0.6875	0
+#flor	#flor	Floriano	M	other	person	minor	32	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0.0625	0
+#cieg	#cieg	EL CIEGO DE GONDAR	M	other	person	minor	33	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	1.0	0
+#fuso	#fuso	FUSO NEGRO	M	other	person	minor	34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	26	0	0	0	2.3125	0
+#mato	#mato	MANUEL TOVÍO	M	other	person	minor	35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#mafo	#mafo	MANUEL FONSECA	M	other	person	minor	36	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#peab	#peab	PEDRO ABUÍN	M	other	person	minor	37	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#seba	#seba	SEBASTIÁN DE XOGAS	M	other	person	minor	38	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0.0625	0
+#rami	#rami	RAMIRO DE BEALO	M	other	person	minor	39	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0.4375	0
+#oliv	#oliv	Oliveros	M	other	person	minor	40	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0.875	0
+#sabe	#sabe	DOÑA SABELITA	F	other	person	minor	41	0	0	0	0	0	0	0	0	0	0	0	0	21	0	2	0	0	0	0	1.4375	0
+#viud	#viud	Una Viuda	F	other	person	minor	42	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0.4375	0
+#unav	#unav	Una Voz	O	other	non-human	minor	43	3	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	3	0.25	0
+#otra	#otra	Otra Voz	O	other	non-human	minor	44	9	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	9	0.1875	0
+#mari	#mari	Doña María	F	lover	person	primary	46	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0	0
+#voz_	#voz_	La Voz De Todos	O	other	person	minor	47	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0.0625	1

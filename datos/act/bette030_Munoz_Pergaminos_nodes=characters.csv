@@ -1,0 +1,27 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#elvi	#elvi	Elvira	F	protagonist	person	primary	1	59	40	24	59	40.0	24
+#miss	#miss	Miss Plain	M	other	person	secondary	2	46	34	51	46	34.0	51
+#urra	#urra	Urraca	F	other	person	secondary	3	66	23	15	66	23.0	15
+#bere	#bere	Berenguela	F	other	person	secondary	4	26	14	12	26	14.0	12
+#chic	#chic	Chicharita	F	other	person	minor	5	21	0	0	21	0.0	0
+#bern	#bern	Bernarda	F	other	person	minor	6	0	0	34	0	0.0	34
+#rela	#rela	Rafaela	F	other	person	minor	7	14	0	0	14	0.0	0
+#conc	#conc	Concha	F	other	person	minor	8	0	0	12	0	0.0	12
+#mano	#mano	Manolita	F	other	person	minor	9	10	0	0	10	0.0	0
+#rina	#rina	Rafaelina	F	other	person	minor	10	9	0	0	9	0.0	0
+#emil	#emil	Emilita	F	other	person	minor	11	0	0	1	0	0.0	1
+#rita	#rita	Rafaelita	F	other	person	minor	12	8	0	0	8	0.0	0
+#meli	#meli	Melitón	M	other	person	secondary	13	75	82	94	75	82.0	94
+#gonz	#gonz	Gonzalo	M	lover	person	primary	14	37	51	42	37	51.0	42
+#nuno	#nuno	Nuño	M	other	person	secondary	15	101	70	31	101	70.0	31
+#lain	#lain	Laín	M	other	person	secondary	16	48	36	25	48	36.0	25
+#jaim	#jaim	Jaime	M	other	person	minor	17	0	27	48	0	27.0	48
+#antu	#antu	Antúnez	M	other	person	minor	18	0	34	0	0	34.0	0
+#rlon	#rlon	Rafaelón	M	other	person	minor	19	43	0	0	43	0.0	0
+#cosm	#cosm	Don Cosme	M	other	person	minor	20	0	0	39	0	0.0	39
+#domi	#domi	Domingo	M	other	person	minor	21	0	15	8	0	15.0	8
+#illo	#illo	Faelillo	M	other	person	minor	22	12	0	0	12	0.0	0
+#rafa	#rafa	Rafael	M	other	person	minor	23	30	0	0	30	0.0	0
+#lito	#lito	Faelito	M	other	person	minor	24	17	0	0	17	0.0	0
+#reve	#reve	Revenga	M	other	person	minor	25	0	0	7	0	0.0	7
+#pepi	#pepi	Pepito	M	other	person	minor	26	0	0	7	0	0.0	7

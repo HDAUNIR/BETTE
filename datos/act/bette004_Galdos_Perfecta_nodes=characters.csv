@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	act_4	first act	middle act	last act
+#perf	#perf	Doña Perfecta	F	protagonist	person	primary	1	71	107	70	31	71	88.5	31
+#rosa	#rosa	Rosarito	F	antagonist	person	primary	2	75	21	0	26	75	10.5	26
+#reme	#reme	María Remedios	F	other	person	secondary	3	33	26	47	8	33	36.5	8
+#libr	#libr	Librada	F	other	person	secondary	4	0	11	0	0	0	5.5	0
+#pepe	#pepe	Pepe Rey	M	antagonist	person	primary	5	127	143	18	3	127	80.5	3
+#inoc	#inoc	Don Inocencio	M	other	person	secondary	6	51	21	0	0	51	10.5	0
+#cris	#cris	Cristóbal Ramos (Caballuco)	M	other	person	secondary	7	11	0	19	0	11	9.5	0
+#jaci	#jaci	Jacintito	M	other	person	secondary	8	9	19	10	0	9	14.5	0
+#caye	#caye	Don Cayetano	M	other	person	minor	9	14	28	0	0	14	14.0	0
+#juan	#juan	Don Juan Tafetán	M	other	person	secondary	10	6	31	19	0	6	25.0	0
+#varg	#varg	Vargas	M	other	person	minor	11	0	0	32	0	0	16.0	0
+#pinz	#pinz	Pinzón	M	other	person	minor	12	0	0	21	0	0	10.5	0
+#licu	#licu	El tío Licurgo	M	other	person	secondary	13	20	0	9	0	20	4.5	0
+#paso	#paso	Pasolargo	M	other	person	minor	14	0	0	13	0	0	6.5	0
+#este	#este	Esteban Romero	M	other	person	minor	15	0	0	10	0	0	5.0	0
+#cabo	#cabo	Cabo Cartero.	M	other	person	minor	16	0	0	1	0	0	0.5	0

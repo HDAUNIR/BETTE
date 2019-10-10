@@ -1,0 +1,42 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#caba	#caba	El Caballero, don Juan Manuel Montenegro	M	antagonist	person	primary	1	49	1	58	49	1.0	58
+#cara	#cara	Cara de Plata	M	protagonist	person	primary	2	60	109	33	60	109.0	33
+#pedr	#pedr	Don Pedrito	M	other	person	minor	3	0	4	0	0	4.0	0
+#rose	#rose	Don Rosendo	M	other	person	minor	4	0	1	0	0	1.0	0
+#maur	#maur	Don Mauro	M	other	person	minor	5	0	12	0	0	12.0	0
+#gonz	#gonz	Don Gonzalito	M	other	person	minor	6	0	0	0	0	0.0	0
+#farr	#farr	Don Farruquiño	M	other	person	minor	7	0	9	0	0	9.0	0
+#sabe	#sabe	Sabelita	F	lover	person	primary	8	68	28	22	68	28.0	22
+#abad	#abad	El Abad de Lantañón	M	antagonist	person	secondary	9	34	61	47	34	61.0	47
+#jero	#jero	Doña Jeromita	F	other	person	minor	10	85	35	0	85	35.0	0
+#sac1	#sac1	El Sacristán	M	other	person	minor	11	16	14	55	16	14.0	55
+#sac2	#sac2	La Sacristana	F	other	person	minor	12	0	0	39	0	0.0	39
+#biga	#biga	Bigardona	F	other	person	minor	13	0	0	15	0	0.0	15
+#celo	#celo	Celonio	M	other	person	minor	14	0	0	0	0	0.0	0
+#gabi	#gabi	Gabino	M	other	person	minor	15	0	0	0	0	0.0	0
+#ming	#ming	Mingote	M	other	person	minor	16	0	0	0	0	0.0	0
+#fuso	#fuso	Fuso Negro	M	other	person	minor	17	1	15	38	1	15.0	38
+#gala	#gala	Don Galán	M	other	person	minor	18	0	0	10	0	0.0	10
+#peab	#peab	Pedro Abuín	M	other	person	minor	19	20	2	0	20	2.0	0
+#rami	#rami	Ramiro de Bealo	M	other	person	minor	20	8	0	0	8	0.0	0
+#mato	#mato	Manuel Tovío	M	other	person	minor	21	3	0	0	3	0.0	0
+#mafo	#mafo	Manuel Fonseca	F	other	person	minor	22	3	0	0	3	0.0	0
+#seba	#seba	Sebastián de Xogas	M	other	person	minor	23	11	5	0	11	5.0	0
+#viej	#viej	El viejo de Cures	M	other	person	minor	24	16	6	0	16	6.0	0
+#past	#past	Pastor	M	other	person	minor	25	6	0	0	6	0.0	0
+#pich	#pich	Pichona la Bisbisera	F	other	person	minor	26	3	67	22	3	67.0	22
+#ludo	#ludo	Ludovina la ventorrillera	F	other	person	minor	27	0	28	0	0	28.0	0
+#coim	#coim	La Coima de otro mesón	F	other	person	minor	28	0	4	0	0	4.0	0
+#mara	#mara	Un maragato	M	other	person	minor	29	0	7	0	0	7.0	0
+#peni	#peni	Un Penitente	M	other	person	minor	30	0	6	0	0	6.0	0
+#cieg	#cieg	El Ciego de Gondar	M	other	person	minor	31	0	2	0	0	2.0	0
+#indi	#indi	Un Indiano	M	other	person	minor	32	0	3	0	0	3.0	0
+#diac	#diac	El Diácono de Lesón	M	other	person	minor	33	0	6	0	0	6.0	0
+#viea	#viea	Una vieja cotillona	F	other	person	minor	34	0	10	0	0	10.0	0
+#pre1	#pre1	Un pregón	M	other	person	minor	0	0	2	0	0	2.0	0
+#pre2	#pre2	Otro pregón	M	other	person	minor	0	0	2	0	0	2.0	0
+#pre3	#pre3	Otro pregón	M	other	person	minor	0	0	1	0	0	1.0	0
+#mari	#mari	María	F	other	person	minor	0	0	0	0	0	0.0	0
+#chal	#chal	Un chalán	M	other	person	minor	0	0	1	0	0	1.0	0
+#conf	#conf	Confusión de voces	O	other	person	minor	0	0	0	1	0	0.0	1
+#vozl	#vozl	Voz lejana	O	other	person	minor	0	0	0	1	0	0.0	1

@@ -1,0 +1,4 @@
+	Source	Target	Weight	Type
+2	act_2	act_3	13	Undirected
+0	act_1	act_2	12	Undirected
+1	act_1	act_3	12	Undirected

@@ -1,0 +1,31 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	first act	middle act	last act
+#luce	#luce	Lucero	M	antagonist	person	primary	1	46	44	29	46	44.0	29
+#poca	#poca	Poca pena	F	other	person	secondary	2	14	0	0	14	0.0	0
+#rein	#rein	Juana La Reina	F	other	person	secondary	3	18	0	0	18	0.0	0
+#idio	#idio	El hijo idiota	M	other	person	primary	4	7	6	0	7	6.0	0
+#pedr	#pedr	Pedro Gailo	M	protagonist	person	primary	5	30	68	34	30	68.0	34
+#marg	#marg	Mari-Gaila	F	lover	person	primary	6	41	128	71	41	128.0	71
+#simo	#simo	Simoniña	F	other	person	secondary	7	0	43	40	0	43.0	40
+#tatu	#tatu	Rosa La Tatula	F	other	person	secondary	8	47	15	54	47	15.0	54
+#migu	#migu	Miguelín El padronés	M	other	person	secondary	9	20	31	4	20	31.0	4
+#chal	#chal	Un chalán	M	other	person	minor	10	1	0	0	1	0.0	0
+#mar	#mar	Marica del Reino	F	other	person	secondary	6	0	0	0	0	0.0	0
+#peda	#peda	Un alcalde pedáneo	M	other	person	secondary	13	25	0	0	25	0.0	0
+#rapa	#rapa	Una rapaza	F	other	person	minor	14	0	1	0	0	1.0	0
+#cieg	#cieg	El ciego de Gondar.	M	other	person	minor	15	0	29	0	0	29.0	0
+#vend	#vend	El vendedor de agua de limón.	M	other	person	minor	16	0	9	0	0	9.0	0
+#pere	#pere	Un peregrino	M	other	person	minor	17	0	6	0	0	6.0	0
+#vent	#vent	La ventera	F	other	person	minor	20	0	1	0	0	1.0	0
+#sere	#sere	Serenín de Bretal	M	other	person	minor	21	0	8	4	0	8.0	4
+#viej	#viej	Una vieja en un ventano	F	other	person	minor	22	1	7	1	1	7.0	1
+#muje	#muje	Una mujer en preñez	F	other	person	minor	23	0	4	0	0	4.0	0
+#veci	#veci	Otra vecina	F	other	person	minor	24	0	17	0	0	17.0	0
+#sold	#sold	Un soldado con el canuto de la licencia	F	other	person	minor	25	0	7	0	0	7.0	0
+#ludo	#ludo	Ludovina la tabernera	F	other	person	minor	26	0	16	0	0	16.0	0
+#beni	#beni	Benita la costurera	F	other	person	minor	29	0	0	14	0	0.0	14
+#quin	#quin	Quintín pintado	M	other	person	minor	30	0	0	12	0	0.0	12
+#milo	#milo	Milón de La Arnoya	M	other	person	minor	31	0	0	10	0	0.0	10
+#coim	#coim	Coimbra	M	other	animal	minor	32	0	0	0	0	0.0	0
+#colo	#colo	Colorín, pájaro adivino	M	other	animal	minor	33	0	0	0	0	0.0	0
+#tras	#tras	El trasgo cabrío	M	other	non-human	secondary	34	0	18	0	0	18.0	0
+#sapo	#sapo	Un sapo anónimo que canta en la noche	M	other	animal	minor	35	1	0	0	1	0.0	0

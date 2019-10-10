@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	first act	middle act	last act
+#zapa	#zapa	Zapatera	F	protagonist	person	primary	1	79	119	79	79.0	119
+#vecr	#vecr	Vecina Roja	F	other	person	minor	2	14	18	14	14.0	18
+#vecm	#vecm	Vecina Morada	F	other	person	minor	3	1	2	1	1.0	2
+#vecv	#vecv	Vecina Verde	F	other	person	minor	4	2	0	2	2.0	0
+#veca	#veca	Vecina Amarilla	F	other	person	minor	5	1	10	1	1.0	10
+#vecn	#vecn	Vecina Negra	F	other	person	minor	6	2	3	2	2.0	3
+#beap	#beap	Beata Primera	F	other	person	minor	7	2	0	2	2.0	0
+#beas	#beas	Beata Segunda	F	other	person	minor	8	2	0	2	2.0	0
+#sacr	#sacr	Sacristana	F	other	person	minor	9	1	0	1	1.0	0
+#elau	#elau	El Autor	M	other	person	minor	10	0	0	0	0.0	0
+#zapo	#zapo	Zapatero	M	lover	person	primary	11	51	77	51	51.0	77
+#elni	#elni	El Niño	M	other	person	minor	12	25	41	25	25.0	41
+#alca	#alca	Alcalde	M	other	person	minor	13	20	28	20	20.0	28
+#donm	#donm	Don Mirlo	M	other	person	minor	14	0	0	0	0.0	0
+#mozf	#mozf	Mozo de la Faja	M	other	person	secondary	15	0	0	0	0.0	0
+#mozs	#mozs	Mozo del Sombrero	M	other	person	secondary	16	0	0	0	0.0	0

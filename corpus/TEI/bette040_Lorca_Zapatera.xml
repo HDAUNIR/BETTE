@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,22 +10,30 @@
 				<title type="idno">
 					<idno type="viaf">180243104</idno>
 					<idno type="bne">XX3383597</idno>
+					<idno type="wikidata">Q2600796</idno>
 				</title>
 				<author>
 					<name type="full">Federico García Lorca</name>
 					<name type="short">Lorca</name>
 					<idno type="viaf">34456883</idno>
 					<idno type="bne">XX841898</idno>
+					<idno type="wikidata">Q41408</idno>
 				</author>
 				<principal xml:id="coj">Concepción Jiménez</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>040</idno>
+				<idno>
+					<idno type="number">040</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="first-published">
@@ -35,7 +43,7 @@
 				</bibl>
 				<bibl type="electronic-source">
 					<date>2013</date>
-					<publisher>ePub</publisher>
+					<publisher>epublibre</publisher>
 					<pubPlace>Unknown</pubPlace>
 				</bibl>
 				<bibl type="print-source">
@@ -50,15 +58,228 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="farsa"></purpose>
+			</textDesc>
 			<abstract>
 				<p>Acto 1: la obra comienza con la protagonista, una joven zapatera de 18 años que, a partir de la conversación casual con un niño que acude a la zapatería, descubre que la critican en el pueblo porque no tiene hijos. Ella discute con su marido (de 53 años) y lo critica enérgicamente. El marido comienza a pensar si acertó casándose con ella o no. Mientras, a ella las cortejan dos hombres del pueblo, pero no hace caso a esos cortejos. El marido se va de casa.</p>
-				<p>Acto 2: tras la marcha del marizo, la zapatera monta una taberna para ganarse la vida. La siguen cortejando algunos hombres del pueblo pero ella continúa sin hacer caso a esos cortejos. Llega un trovador que canta una canción con la que ella se siente identificada por su situación, y entristece. En una conversación con ese trovador se muestra lo enamorado que está él de su mujer y la zapatera de su marido. El trovador se quita el disfraz que llevaba y se descubre que en realidad no era un trovador sino el marido de la zapatera. </p>
+				<p>Acto 2: tras la marcha del marido, la zapatera monta una taberna para ganarse la vida. La siguen cortejando algunos hombres del pueblo pero ella continúa sin hacer caso a esos cortejos. Llega un trovador que canta una canción con la que ella se siente identificada por su situación, y entristece. En una conversación con ese trovador se muestra lo enamorado que está él de su mujer y la zapatera de su marido. El trovador se quita el disfraz que llevaba y se descubre que en realidad no era un trovador sino el marido de la zapatera. </p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+
+					<person n="1" role="protagonist" sex="F" xml:id="zapa">
+						<persName>Zapatera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>22787</desc></event>
+							<event type="sps"><desc>198</desc></event>
+							<event type="rss"><desc>70</desc></event>
+							<event type="scenes"><desc>21</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="other" sex="F" xml:id="vecr">
+						<persName>Vecina Roja</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1570</desc></event>
+							<event type="sps"><desc>32</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>5</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="other" sex="F" xml:id="vecm">
+						<persName>Vecina Morada</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>81</desc></event>
+							<event type="sps"><desc>4</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="other" sex="F" xml:id="vecv">
+						<persName>Vecina Verde</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>58</desc></event>
+							<event type="sps"><desc>3</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="5" role="other" sex="F" xml:id="veca">
+						<persName>Vecina Amarilla</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>306</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="F" xml:id="vecn">
+						<persName>Vecina Negra</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>254</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="F" xml:id="beap">
+						<persName>Beata Primera</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>43</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="F" xml:id="beas">
+						<persName>Beata Segunda</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>67</desc></event>
+							<event type="sps"><desc>2</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="9" role="other" sex="F" xml:id="sacr">
+						<persName>Sacristana</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>29</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>
+					<person n="10" role="other" sex="M" xml:id="elau">
+						<persName>El Autor</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<person n="11" role="lover" sex="M" xml:id="zapo">
+						<persName>Zapatero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>13852</desc></event>
+							<event type="sps"><desc>128</desc></event>
+							<event type="rss"><desc>36</desc></event>
+							<event type="scenes"><desc>14</desc></event>
+						</listEvent>
+					</person>
+					<person n="12" role="other" sex="M" xml:id="elni">
+						<persName>El Niño</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>5185</desc></event>
+							<event type="sps"><desc>66</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>8</desc></event>
+						</listEvent>
+					</person>
+					<person n="13" role="other" sex="M" xml:id="alca">
+						<persName>Alcalde</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>4587</desc></event>
+							<event type="sps"><desc>48</desc></event>
+							<event type="rss"><desc>11</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person>
+					<person n="14" role="other" sex="M" xml:id="donm">
+						<persName>Don Mirlo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>483</desc></event>
+							<event type="sps"><desc>5</desc></event>
+							<event type="rss"><desc>12</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="15" role="other" sex="M" xml:id="mozf">
+						<persName>Mozo de la Faja</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>1385</desc></event>
+							<event type="sps"><desc>21</desc></event>
+							<event type="rss"><desc>6</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="16" role="other" sex="M" xml:id="mozs">
+						<persName>Mozo del Sombrero</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>1</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</person>
+					<personGrp n="17" role="other" sex="F" xml:id="hija">
+						<persName>Hijas de la Vecina Roja</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>0</desc></event>
+							<event type="sps"><desc>0</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>0</desc></event>
+						</listEvent>
+					</personGrp>
+					<personGrp n="18" role="other" sex="O" xml:id="vbcp">
+						<persName>Vecinas, Beatas, Curas y Pueblo</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>902</desc></event>
+							<event type="sps"><desc>6</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>4</desc></event>
+						</listEvent>
+					</personGrp>
+				</listPerson>
+			</particDesc>
 		</profileDesc>
 		<revisionDesc status="approved">
-			<change when="2016-07-27" who="#con" status="draft">Primera versión de TEI</change>
-			<change when="2017-05-09" who="#jct" status="draft">Corrección de errores, marcación de personajes mediante elemento rs y modificación de párrafos por stages.</change>
-			<change when="2017-05-15" who="#jct" status="approved">Añadido resumen.</change>
+			<change status="draft" when="2016-07-27" who="#con">Primera versión de TEI</change>
+			<change status="draft" when="2017-05-09" who="#jct">Corrección de errores, marcación de personajes mediante elemento rs y modificación de párrafos por stages.</change>
+			<change status="approved" when="2017-05-15" who="#jct">Añadido resumen.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#coj">Revisión de metadatos a partir del resumen</change>
+
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -68,92 +289,92 @@
 					<head>Personajes</head>
 					<head>Actores</head>
 					<castItem>
-						<role xml:id="zapa">Zapatera</role>
+						<role corresp="#zapa">Zapatera</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="vecr">Vecina Roja</role>
+						<role corresp="#vecr">Vecina Roja</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="vecm">Vecina Morada</role>
+						<role corresp="#vecm">Vecina Morada</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="vecv">Vecina Verde</role>
+						<role corresp="#vecv">Vecina Verde</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
 					<castItem>
-						<role xml:id="veca">Vecina Amarilla</role>
+						<role corresp="#veca">Vecina Amarilla</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>	
 					<castItem>
-						<role xml:id="vecn">Vecina Negra</role>
+						<role corresp="#vecn">Vecina Negra</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="beap">Beata Primera</role>
+						<role corresp="#beap">Beata Primera</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>				
 					<castItem>
-						<role xml:id="beas">Beata Segunda</role>
+						<role corresp="#beas">Beata Segunda</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>	
 					<castItem>
-						<role xml:id="sacr">Sacristana</role>
+						<role corresp="#sacr">Sacristana</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="elau">El Autor</role>
+						<role corresp="#elau">El Autor</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="zapo">Zapatero</role>
+						<role corresp="#zapo">Zapatero</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="elni">El Niño</role>
+						<role corresp="#elni">El Niño</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="alca">Alcalde</role>
+						<role corresp="#alca">Alcalde</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="donm">Don Mirlo</role>
+						<role corresp="#donm">Don Mirlo</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="mozf">Mozo de la Faja</role>
+						<role corresp="#mozf">Mozo de la Faja</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>		
 					<castItem>
-						<role xml:id="mozs">Mozo del Sombrero</role>
+						<role corresp="#mozs">Mozo del Sombrero</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>				
 					<castItem>
-						<role xml:id="hija">Hijas de la Vecina Roja</role>
+						<role corresp="#hija">Hijas de la Vecina Roja</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>			
 					<castItem>
-						<role xml:id="vbcp">Vecinas, Beatas, Curas y Pueblo</role>
+						<role corresp="#vbcp">Vecinas, Beatas, Curas y Pueblo</role>
 						<roleDesc></roleDesc>
 						<actor> </actor>
 					</castItem>
@@ -164,11 +385,11 @@
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">	
+			<div n="1" type="act">	
 				<head>ACTO PRIMERO</head>
 				<stage>Casa del <rs key="#zapo">Zapatero</rs>. Banquillo y herramientas. Habitación completamente blanca. Gran ventana y puerta. El foro es una calle también blanca con algunas puertecitas y ventanas en gris. A derecha a izquierda, puertas. Toda la escena tendrá un aire de optimismo y alegría exaltada en los más pequeños detalles. Una suave luz naranja de media tarde invade la escena.</stage>
 				<stage>Al levantarse el telón la <rs key="#zapa">Zapatera</rs> viene de la calle toda furiosa y se detiene en la puerta. Viste un traje verde rabioso y lleva el pelo tirante, adornado con dos grandes rosas. Tiene un aire agreste y dulce al mismo tiempo.</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA I</head>
 					<stage>La <rs key="#zapa">Zapatera</rs> y luego un Niño.</stage>
 					<sp who="#zapa">
@@ -176,7 +397,7 @@
 						<p>Cállate, larga de lengua, penacho de catalineta, que si yo lo he hecho… si yo lo he hecho, ha sido por mi propio gusto… Si no te metes dentro de tu casa lo hubiera arrastrado, viborilla empolvada; y esto lo digo para que me oigan todas las que están detrás de las ventanas. Que más vale estar casada con un viejo, que con un tuerto, como tú estás. Y no quiero más conversación, ni contigo ni con nadie, ni con nadie, ni con nadie. <stage>(Entra dando un fuerte portazo.)</stage> Ya sabía yo que con esta clase de gente no se podía hablar ni un segundo… pero la culpa la tengo yo, yo y yo… que debí estarme en mi casa con… casi no quiero creerlo, con mi marido. Quién me hubiera dicho a mí, rubia con los ojos negros, que hay que ver el mérito que esto tiene, con este talle y estos colores tan hermosísimos, que me iba a ver casada con… me tiraría del pelo. <stage>(Llora. Llaman a la puerta.)</stage> ¿Quién es? <stage>(No responden y llaman otra vez.)</stage> ¿Quién es? <stage>(Enfurecida.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage>La <rs key="#zapa">Zapatera</rs> y el Niño.</stage>
 					<sp who="#elni">
@@ -252,7 +473,7 @@
 						<p><stage>(Reaccionando.)</stage> No, no, guárdalo, hijo mío… ¡Si contigo no es nada!</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage>Aparece por la izquierda el <rs key="#zapo">Zapatero</rs>. Viste traje de terciopelo con botones de plata, pantalón corto y corbata roja. Se dirige al banquillo.</stage>
 					<sp who="#zapa">
@@ -372,7 +593,7 @@
 						<p>Yo me he rebajado. ¡Tonta, tonta, tonta! Maldito sea mi compadre Manuel, malditos sean los vecinos, tonta, tonta, tonta. <stage>(Sale golpeándose la cabeza.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage><rs key="#zapo">Zapatero</rs>, <rs key="#vecr">Vecina Roja</rs> y Niño.</stage>
 					<sp who="#zapo">
@@ -459,7 +680,7 @@
 						<speaker>Zapatera</speaker>
 						<p>¡Mucho cuidado con lo que estás diciendo!</p>
 					</sp>
-					<sp who="#nina">
+					<sp who="#vbcp">
 						<speaker>Niñas</speaker>
 						<p>¡Ay, vámonos, vámonos, por Dios!</p>
 					</sp>
@@ -468,7 +689,7 @@
 						<p>Bien despachado vas de mujer, ¡que te aproveche! <stage>(Se van rápidamente. El <rs key="#zapo">Zapatero</rs> cierra la ventana y la puerta.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>
 					<stage><rs key="#zapo">Zapatero</rs> y <rs key="#zapa">Zapatera</rs>.</stage>
 					<sp who="#zapo">
@@ -540,7 +761,7 @@
 						<p>Mañana <stage>(Sonriendo.)</stage> quizá la tengas que buscar tú también. <stage>(Se va al banquillo.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
 					<stage>Por la puerta central aparece el <rs key="#alca">Alcalde</rs>. Viste de azul oscuro, gran capa y larga vara de mando rematada con cabos de plata. Habla despacio y con gran sorna.</stage>
 					<sp who="#alca">
@@ -660,7 +881,7 @@
 						<p><stage>(Riéndose.)</stage> Recapacita lo que has dicho que vas a hacer; que tú eres capaz de hacerlo, y no seas tonto. Es una lástima que un hombre como tú no tenga el carácter que debías tener. <stage>(Por la puerta de la izquierda aparece la <rs key="#zapa">Zapatera</rs> echándose polvos con una polvera rosa y limpiándose las cejas.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>ESCENA VII</head>
 					<stage>Dichos y <rs key="#zapa">Zapatera</rs>.</stage>
 					<sp who="#zapa">
@@ -708,7 +929,7 @@
 						<p>¡Psch! <stage>(Saliendo majestuosamente.)</stage> ¡Hasta mañana! Y a ver si se despeja esa cabeza. ¡A descansar, niña! ¡Qué lástima de talle! <stage>(Vase mirando a la <rs key="#zapa">Zapatera</rs>.)</stage> ¡Porque, vamos! ¡Y hay que ver qué ondas en el pelo! <stage>(Sale.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>ESCENA VIII</head>
 					<stage><rs key="#zapo">Zapatero</rs> y <rs key="#zapa">Zapatera</rs>.</stage>
 					<sp who="#zapa">
@@ -741,7 +962,7 @@
 						<p><stage>(Enfurecida.)</stage> ¡Pues vete! <stage>(Fuera se oye una flauta acompañada de guitarra que toca una polquita antigua con el ritmo cómicamente acusado. La <rs key="#zapa">Zapatera</rs> empieza a llevar el compás con la cabeza y el <rs key="#zapo">Zapatero</rs> huye por la izquierda.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>ESCENA IX</head>
 					<stage><rs key="#zapa">Zapatera</rs>.</stage>
 					<sp who="#zapa">
@@ -749,7 +970,7 @@
 						<p><stage>(Cantando.)</stage> Larán… larán… A mí, es que la flauta me ha gustado siempre mucho… Yo siempre he tenido delirio por ella… Casi se me saltan las lágrimas… ¡Qué primor! Larán, larán… Oye… Me gustaría que él la oyera… <stage>(Se levanta y se pone a bailar como si lo hiciera con novios imaginarios.)</stage> ¡Ay, Emiliano! Qué cintillos tan preciosos llevas… No, no… me da vergüencilla… Pero, José María, ¿no ves que nos están viendo? Coge un pañuelo, que no quiero que me manches el vestido. A ti te quiero, a ti… ¡Ah, sí!… mañana que traigas la jaca blanca, la que a mí me gusta. <stage>(Ríe. Cesa la música.)</stage> ¡Qué mala sombra! Esto es dejar a una con la miel en los labios… Qué…</p>
 					</sp>
 				</div>
-				<div type="scene" n="10">
+				<div n="10" type="scene">
 					<head>ESCENA X</head>
 					<stage>Aparece en la ventana don <rs key="#donm">Mirlo</rs>. Viste de negro, frac y pantalón corto. Le tiembla la voz y mueve la cabeza como un muñeco de alambre.</stage>
 					<sp who="#donm">
@@ -777,10 +998,10 @@
 						<p><stage>(Volviéndose airada y pegando a don <rs key="#donm">Mirlo</rs>, que tiembla.)</stage> ¡Aaaa! <stage>(Con cara de asco:)</stage> ¡Y aunque no vuelvas, indecente! <rs key="#donm">Mirlo</rs> de alambre, garabato de candil… Corre, corre… ¿Se habrá visto? ¡Mira que estornudar! ¡Vaya mucho con Dios! ¡Qué asco!</p>
 					</sp>
 				</div>
-				<div type="scene" n="11">
+				<div n="11" type="scene">
 					<head>ESCENA XI</head>
-					<stage>En la ventana se para el <rs key="#mozf">Mozo</rs> de la Faja. Tiene el sombrero plano echado a la cara y da pruebas de gran pesadumbre.</stage>
-					<sp who="#mozo">
+					<stage>En la ventana se para el <rs key="#mozf">Mozo de la Faja</rs>. Tiene el sombrero plano echado a la cara y da pruebas de gran pesadumbre.</stage>
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>¿Se toma el fresco, zapaterita?</p>
 					</sp>
@@ -788,7 +1009,7 @@
 						<speaker>Zapatera</speaker>
 						<p>Exactamente igual que usted.</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>Y siempre sola… ¡Qué lástima!</p>
 					</sp>
@@ -796,7 +1017,7 @@
 						<speaker>Zapatera</speaker>
 						<p><stage>(Agria.)</stage> ¿Y por qué, lástima?</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>Una mujer como usted, con ese pelo y esa pechera tan hermosísima…</p>
 					</sp>
@@ -804,7 +1025,7 @@
 						<speaker>Zapatera</speaker>
 						<p><stage>(Más agria.)</stage> Pero, ¿por qué lástima?</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>Porque usted es digna de estar pintada en las tarjetas postales y no aquí… este portalillo.</p>
 					</sp>
@@ -812,7 +1033,7 @@
 						<speaker>Zapatera</speaker>
 						<p>¿Sí?… A mí las tarjetas postales me gustan mucho, sobre todo las de novios que se van de viaje…</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>¡Ay, zapaterita, qué calentura tengo! <stage>(Siguen hablando.)</stage></p>
 					</sp>
@@ -820,7 +1041,7 @@
 						<speaker>Zapatero</speaker>
 						<p><stage>(Entrando y retrocediendo.)</stage> ¡Con todo el mundo y a estas horas! ¡Qué dirán los que vengan al rosario de la iglesia! ¡Qué dirán en el casino! ¡Me estarán poniendo!… En cada casa, un traje con ropa interior y todo. <stage>(<rs key="#zapa">Zapatera</rs> ríe.)</stage> ¡Ay, Dios mío! ¡Tengo razón para marcharme! Quisiera oír a la mujer del sacristán; pues ¿y los curas? ¿Qué dirán los curas? Eso será lo que habrá que oír. <stage>(Entra desesperado.)</stage></p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>¿Cómo quiere que se lo exprese…? Yo la quiero, te quiero como…</p>
 					</sp>
@@ -828,7 +1049,7 @@
 						<speaker>Zapatera</speaker>
 						<p>Verdaderamente eso de «la quiero», «te quiero», suena de un modo que parece que me están haciendo cosquillas con una pluma detrás de las orejas. Te quiero, la quiero…</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>¿Cuántas semillas tiene el girasol?</p>
 					</sp>
@@ -836,7 +1057,7 @@
 						<speaker>Zapatera</speaker>
 						<p>¡Yo qué sé!</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>Tantos suspiros doy cada minuto por usted; por ti…</p>
 						<p>(Muy cerca.)</p>
@@ -845,7 +1066,7 @@
 						<speaker>Zapatera</speaker>
 						<p><stage>(Brusca.)</stage> Estáte quieto. Yo puedo oírte hablar porque me gusta y es bonito, pero nada más, ¿lo oyes? ¡Estaría bueno!</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>Pero eso no puede ser. ¿Es que tienes otro compromiso?</p>
 					</sp>
@@ -853,7 +1074,7 @@
 						<speaker>Zapatera</speaker>
 						<p>Mira, vete.</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo</speaker>
 						<p>No me muevo de este sitio sin el sí. ¡Ay, mi zapaterita, dame tu palabra! <stage>(Va a abrazarla.)</stage></p>
 					</sp>
@@ -862,7 +1083,7 @@
 						<p><stage>(Cerrando violentamente la ventana.)</stage> ¡Pero qué impertinente, qué loco!… ¡Si te he hecho daño te aguantas!… Como si yo no estuviera aquí más que paraaa, paraaaa… ¿Es que en este pueblo no puede una hablar con nadie? Por lo que veo, en este pueblo no hay más que dos extremos: o monja o trapo de fregar… ¡Era lo que me quedaba que ver! <stage>(Haciendo como que huele y echando a correr.)</stage> ¡Ay, mi comida que está en la lumbre! ¡Mujer ruin!</p>
 					</sp>
 				</div>
-				<div type="scene" n="12">
+				<div n="12" type="scene">
 					<head>ESCENA XII</head>
 					<stage>La luz se va marchando. El <rs key="#zapo">Zapatero</rs> sale con una gran capa y un bulto de ropa en la mano.</stage>
 					<sp who="#zapo">
@@ -894,7 +1115,7 @@
 						<p>Sí, descansando… ¡Pues no estaban mirando por el ojo de la llave! ¡Brujas, sayonas! ¡Cuidado con el retintín con que me lo han dicho! Claro… si en todo el pueblo no se hablará de otra cosa: ¡que si yo, que si ella, que si los mozos! ¡Ay! ¡Mal rayo parta a mi hermana que en paz descanse! ¡Pero primero solo que señalado por el dedo de los demás! <stage>(Sale rápidamente y deja la puerta abierta. Por la izquierda aparece la <rs key="#zapa">Zapatera</rs>.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="13">
+				<div n="13" type="scene">
 					<head>ESCENA XIII</head>
 					<stage>La <rs key="#zapa">Zapatera</rs>.</stage>
 					<sp who="#zapa">
@@ -902,7 +1123,7 @@
 						<p>Ya está la comida… ¿me estás oyendo? <stage>(Avanza hacia la puerta de la derecha:)</stage> ¿Me estás oyendo? Pero, ¿habrá tenido el valor de marcharse al cafetín, dejando la puerta abierta… y sin haber terminado los borceguíes? Pues cuando vuelva, ¡me oirá! ¡Me tiene que oír! ¡Qué hombres son los hombres, qué abusivos y qué… qué… vaya!… <stage>(En un repeluzno.)</stage> ¡Ay, qué fresquito hace! <stage>(Se pone a encender el candil y de la calle llega el ruido de las esquilas de los rebaños que vuelven al pueblo. La <rs key="#zapa">Zapatera</rs> se asoma a la ventana.)</stage> ¡Qué primor de rebaños! Lo que es a mí, me chalan las ovejitas. Mira, mira… aquella blanca tan chiquita que casi no puede andar. ¡Ay!… Pero aquella grandota y antipática se empeña en pisarla y nada… <stage>(A voces.)</stage> Pastor, ¡asombrado! ¿No estás viendo que te pisotean la oveja recién nacida? <stage>(Pausa.)</stage> Pues claro que me importa… ¿No ha de importarme? ¡Brutísimo!… Y mucho… <stage>(Se quita de la ventana.)</stage> Pero, Señor, ¿adónde habrá ido este hombre desnortado? Pues si tarda siquiera dos minutos más, como yo sola, que me basto y me sobro… ¡Con la comida tan buena que he preparado…! Mi cocido, con sus patatas de la sierra, dos pimientos verdes, pan blanco, un poquito magro de tocino, y arrope con calabaza y cáscara de limón para encima, ¡porque lo que es cuidarlo, lo que es cuidarlo, te estoy cuidando a mano! <stage>(Durante todo este monólogo da muestras de gran actividad, moviéndose de un lado para otro, arreglando las sillas, despabilando el velón y quitándose motas del vestido.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="14">
+				<div n="14" type="scene">
 					<head>ESCENA XIV</head>
 					<stage>Niña, <rs key="#zapa">Zapatera</rs>, <rs key="#alca">Alcalde</rs>, <rs key="#sacr">Sacristana</rs>, Vecinos y <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs>.</stage>
 					<sp who="#elni">
@@ -1094,17 +1315,17 @@
 					</sp>
 				</div>
 			</div>
-			<div type="act" n="2">
+			<div n="2" type="act">
 				<head>ACTO SEGUNDO</head>
 				<stage>La misma decoración. A la izquierda, el banquillo arrumbado. A la derecha, un mostrador con botellas y un lebrillo con agua donde la <rs key="#zapa">Zapatera</rs> friega las copas. La <rs key="#zapa">Zapatera</rs> está detrás del mostrador. Viste un traje rojo encendido, con amplias faldas y los brazos al aire. En la escena, dos mesas. En una de ellas está sentado don <rs key="#donm">Mirlo</rs>, que toma un refresco y en la otra el <rs key="#mozs">Mozo</rs> del Sombrero en la cara.</stage>
-				<div type="scene" n="1">
+				<div n="1" type="scene">
 					<head>ESCENA I</head>
-					<stage>La <rs key="#zapa">Zapatera</rs> friega con gran ardor vasos y copas que va colocando en el mostrador. Aparece en la puerta el <rs key="#mozf">Mozo</rs> de la Faja y el Sombrero plano del primer acto. Está triste. Lleva los brazos caídos y mira de manera tierna a la <rs key="#zapa">Zapatera</rs>. Al actor que exagere lo más mínimo en este tipo, debe el Director de escena darle un bastonazo en la cabeza. Nadie debe exagerar. La farsa exige siempre naturalidad. El Autor ya se ha encargado de dibujar el tipo y el sastre de vestirlo. Sencillez. El <rs key="#mozf">Mozo</rs> se detiene en la puerta. Don <rs key="#donm">Mirlo</rs> y el otro <rs key="#mozf">Mozo</rs> vuelven la cabeza y lo miran. Ésta es casi una escena de cine. Las miradas y expresión del conjunto dan su expresión. La <rs key="#zapa">Zapatera</rs> deja de fregar y mira al <rs key="#mozf">Mozo</rs> fijamente. Silencio.</stage>
+					<stage>La <rs key="#zapa">Zapatera</rs> friega con gran ardor vasos y copas que va colocando en el mostrador. Aparece en la puerta el <rs key="#mozf">Mozo de la Faja</rs> y el Sombrero plano del primer acto. Está triste. Lleva los brazos caídos y mira de manera tierna a la <rs key="#zapa">Zapatera</rs>. Al actor que exagere lo más mínimo en este tipo, debe el Director de escena darle un bastonazo en la cabeza. Nadie debe exagerar. La farsa exige siempre naturalidad. El Autor ya se ha encargado de dibujar el tipo y el sastre de vestirlo. Sencillez. El <rs key="#mozf">Mozo</rs> se detiene en la puerta. Don <rs key="#donm">Mirlo</rs> y el otro <rs key="#mozf">Mozo</rs> vuelven la cabeza y lo miran. Ésta es casi una escena de cine. Las miradas y expresión del conjunto dan su expresión. La <rs key="#zapa">Zapatera</rs> deja de fregar y mira al <rs key="#mozf">Mozo</rs> fijamente. Silencio.</stage>
 					<sp who="#zapa">
 						<speaker>Zapatera</speaker>
 						<p>Pase usted.</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo De La Faja</speaker>
 						<p>Si usted lo quiere…</p>
 					</sp>
@@ -1112,7 +1333,7 @@
 						<speaker>Zapatera</speaker>
 						<p><stage>(Asombrada.)</stage> ¿Yo? Me trae absolutamente sin cuidado, pero como te veo en la puerta…</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo De La Faja</speaker>
 						<p>Lo que usted quiera. <stage>(Se apoya en el mostrador.) (Entre dientes.)</stage> Éste es otro al que voy a tener que…</p>
 					</sp>
@@ -1120,7 +1341,7 @@
 						<speaker>Zapatera</speaker>
 						<p>¿Qué va a tomar?</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo De La Faja</speaker>
 						<p>Seguiré sus indicaciones.</p>
 					</sp>
@@ -1128,7 +1349,7 @@
 						<speaker>Zapatera</speaker>
 						<p>Pues la puerta.</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo De La Faja</speaker>
 						<p>¡Ay, Dios mío, cómo cambian los tiempos!</p>
 					</sp>
@@ -1136,7 +1357,7 @@
 						<speaker>Zapatera</speaker>
 						<p>No crea que me voy a echar a llorar. Vamos. Va usted a tomar copa, café, refresco, ¿diga?</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo De La Faja</speaker>
 						<p>Refresco.</p>
 					</sp>
@@ -1144,7 +1365,7 @@
 						<speaker>Zapatera</speaker>
 						<p>No me mire tanto que se me va a derramar el jarabe.</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo De La Faja</speaker>
 						<p>Es que yo me estoy muriendo. ¡Ay! <stage>(Por la ventana pasan dos Majas con inmensos abanicos. Miran, se santiguan escandalizadas, se tapan los ojos con los pericones y a pasos menuditos cruzan.)</stage></p>
 					</sp>
@@ -1152,11 +1373,11 @@
 						<speaker>Zapatera</speaker>
 						<p>El refresco.</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo De La Faja</speaker>
 						<p><stage>(Mirándola.)</stage> ¡Ay!</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo Del Sombrero</speaker>
 						<p><stage>(Mirando al suelo.)</stage> ¡Ay!</p>
 					</sp>
@@ -1172,7 +1393,7 @@
 						<speaker>Mirlo</speaker>
 						<p>Muy bien, muy bien dicho.</p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo Del Sombrero</speaker>
 						<p>Has puesto taberna y podemos estar aquí dentro todo el tiempo que queramos.</p>
 					</sp>
@@ -1180,7 +1401,7 @@
 						<speaker>Zapatera</speaker>
 						<p><stage>(Fiera.)</stage> ¿Cómo? ¿Cómo? <stage>(El <rs key="#mozf">Mozo</rs> de la Faja inicia el mutis y don <rs key="#donm">Mirlo</rs> se levanta sonriente y haciendo como que está en el secreto y que volverá.)</stage></p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo Del Sombrero</speaker>
 						<p>Lo que he dicho.</p>
 					</sp>
@@ -1188,7 +1409,7 @@
 						<speaker>Zapatera</speaker>
 						<p>Pues si dices tú, más digo yo y puedes enterarte, y todos los del pueblo, que hace cuatro meses que se fue mi marido y no cederé a nadie jamás, porque una mujer casada debe estarse en su sitio como Dios manda. Y que no me asusto de nadie, ¿lo oyes?, que yo tengo la sangre de mi abuelo, que esté en gloria, que fue desbravador de caballos y lo que se dice un hombre. Decente fui y decente lo seré. Me comprometí con mi marido. Pues hasta la muerte. <stage>(Don <rs key="#donm">Mirlo</rs> sale por la puerta rápidamente y haciendo señas que indican una relación entre él y la <rs key="#zapa">Zapatera</rs>.)</stage></p>
 					</sp>
-					<sp who="#mozo">
+					<sp who="#mozf">
 						<speaker>Mozo Del Sombrero</speaker>
 						<p><stage>(Levantándose.)</stage> Tengo tanto coraje que agarraría un toro de los cuernos, le haría hincar la cerviz en las arenas y después me comería sus sesos crudos con estos dientes míos, en la seguridad de no hartarme de morder. <stage>(Sale rápidamente y don <rs key="#donm">Mirlo</rs> huye hacia la izquierda.)</stage></p>
 					</sp>
@@ -1197,7 +1418,7 @@
 						<p><stage>(Con las manos en la cabeza.)</stage> Jesús, Jesús, Jesús y Jesús. <stage>(Se sienta.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="2">
+				<div n="2" type="scene">
 					<head>ESCENA II</head>
 					<stage><rs key="#zapa">Zapatera</rs> y Niño.</stage>
 					<stage>Por la puerta entra el Niño, se dirige a la <rs key="#zapa">Zapatera</rs> y le tapa los ojos.</stage>
@@ -1395,8 +1616,8 @@
 						<speaker>Zapatera</speaker>
 						<p>¡Quisiera yo ver eso!</p>
 					</sp>
-					<sp who="#voza">
-						<speaker>VOZ</speaker>
+					<sp who="#vbcp">
+						<speaker>Voz</speaker>
 						<p><stage>(Fuera.)</stage> ¡Niñoooo!</p>
 					</sp>
 					<sp who="#elni">
@@ -1407,7 +1628,7 @@
 						<speaker>Zapatera</speaker>
 						<p><stage>(Sonriendo.)</stage> ¡Lo que quieras!</p>
 					</sp>
-					<sp who="#voza">
+					<sp who="#vbcp">
 						<speaker>Voz</speaker>
 						<p><stage>(Fuera.)</stage> ¡Niñoooo!</p>
 					</sp>
@@ -1416,7 +1637,7 @@
 						<p><stage>(Ya en la calle.)</stage> ¿Quéeee?</p>
 					</sp>
 				</div>
-				<div type="scene" n="3">
+				<div n="3" type="scene">
 					<head>ESCENA III</head>
 					<stage><rs key="#zapa">Zapatera</rs> y <rs key="#alca">Alcalde</rs>.</stage>
 					<sp who="#alca">
@@ -1560,7 +1781,7 @@
 						<p>¡Míralos!</p>
 					</sp>
 				</div>
-				<div type="scene" n="4">
+				<div n="4" type="scene">
 					<head>ESCENA IV</head>
 					<stage>Por la puerta aparece el <rs key="#zapo">Zapatero</rs> disfrazado. Trae una trompeta y un cartelón enrollado a la espalda, lo rodea la gente. La <rs key="#zapa">Zapatera</rs> queda en actitud expectante y el Niño salta por la ventana y se coge a sus faldones.</stage>
 					<sp who="#zapo">
@@ -1933,7 +2154,7 @@
 						<speaker>Vecina Verde</speaker>
 						<p>¡Acudir, acudir! <stage>(Van saliendo.)</stage></p>
 					</sp>
-					<sp who="#voza">
+					<sp who="#vbcp">
 						<speaker>Voz</speaker>
 						<p><stage>(Fuera.)</stage> ¡Por esa mala mujer!</p>
 					</sp>
@@ -1942,7 +2163,7 @@
 						<p>Yo no puedo tolerar esto; ¡no lo puedo tolerar! <stage>(Con las manos en la cabeza corre la escena. Van saliendo rapidísimamente todos entre ayes y miradas de odio a la <rs key="#zapa">Zapatera</rs>. Ésta cierra rápidamente la ventana y la puerta.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="5">
+				<div n="5" type="scene">
 					<head>ESCENA V</head>
 					<stage><rs key="#zapa">Zapatera</rs> y <rs key="#zapo">Zapatero</rs>.</stage>
 					<sp who="#zapa">
@@ -2170,7 +2391,7 @@
 						<p><stage>(Aparte.)</stage> ¡Ay, qué zapaterilla de mi corazón! <stage>(Golpes en la puerta.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="6">
+				<div n="6" type="scene">
 					<head>ESCENA VI</head>
 					<stage><rs key="#zapa">Zapatera</rs>, <rs key="#zapo">Zapatero</rs> y Niño.</stage>
 					<sp who="#zapa">
@@ -2222,7 +2443,7 @@
 						<p><stage>(Rápida.)</stage> Vamos, quiero cerciorarme de la maldad de las gentes. <stage>(Mutis rápido.)</stage></p>
 					</sp>
 				</div>
-				<div type="scene" n="7">
+				<div n="7" type="scene">
 					<head>ESCENA VII</head>
 					<stage><rs key="#zapo">Zapatero</rs>.</stage>
 					<sp who="#zapo">
@@ -2230,7 +2451,7 @@
 						<p>Sí, sí, canallas… pero pronto ajustaré cuentas con todos y me las pagarán… ¡Ay, casilla mía, qué calor más agradable sale por tus puertas y ventanas!; ¡ay, qué terribles paradores, qué malas comidas, qué sábanas de lienzo moreno por esos caminos del mundo! ¡Y qué disparate no sospechar que mi mujer era de oro puro, del mejor oro de la tierra! ¡Casi me dan ganas de llorar!</p>
 					</sp>
 				</div>
-				<div type="scene" n="8">
+				<div n="8" type="scene">
 					<head>ESCENA VIII</head>
 					<stage><rs key="#zapo">Zapatero</rs> y <rs key="#vecr #vecm #vecm #veca #vecn">Vecinas</rs>.</stage>
 					<sp who="#vecr">
@@ -2338,7 +2559,7 @@
 						<p>¡Sayonas, judías! ¡Os pondré navajillas barberas en los zapatos! Me vais a soñar.</p>
 					</sp>
 				</div>
-				<div type="scene" n="9">
+				<div n="9" type="scene">
 					<head>ESCENA IX</head>
 					<stage><rs key="#zapo">Zapatero</rs>, <rs key="#zapa">Zapatera</rs> y Niño.</stage>
 					<sp who="#elni">
@@ -2481,7 +2702,7 @@
 						<speaker>Zapatero</speaker>
 						<p><stage>(Quitándose las gafas y el disfraz.)</stage> ¡Que ya no puedo más! ¡<rs key="#zapa">Zapatera</rs> de mi corazón! <stage>(La <rs key="#zapa">Zapatera</rs> está como loca, con los brazos separados del cuerpo. El <rs key="#zapo">Zapatero</rs> abraza a la <rs key="#zapa">Zapatera</rs> y ésta lo mira fijamente en medio de su crisis. Fuera se oye claramente un run-run de coplas.)</stage></p>
 					</sp>
-					<sp who="#voza">
+					<sp who="#vbcp">
 						<speaker>Voz</speaker>
 						<p>(Dentro.)</p>
 						<p>La señora <rs key="#zapa">Zapatera</rs></p>
@@ -2503,7 +2724,7 @@
 						<speaker>Zapatero</speaker>
 						<p><stage>(En el banquillo.)</stage> ¡Casa de mi felicidad! <stage>(Las coplas se oyen cerquísima, los Vecinos aparecen en la ventana.)</stage></p>
 					</sp>
-					<sp who="#voce">
+					<sp who="#vbcp">
 						<speaker>VOCES</speaker>
 						<p>(Dentro.)</p>
 						<p>Quién te compra <rs key="#zapa">Zapatera</rs></p>

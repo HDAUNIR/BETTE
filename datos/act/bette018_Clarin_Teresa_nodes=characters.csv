@@ -1,0 +1,9 @@
+	id	label	sex	role	nature	importance	position	act_1	first act	middle act	last act
+#tere	#tere	Teresa	F	protagonist	person	primary	1	113	113	113	113
+#rita	#rita	Rita	F	other	person	secondary	2	29	29	29	29
+#palm	#palm	Palmira 	F	other	person	secondary	3	16	16	16	16
+#roqu	#roqu	Roque	M	antagonist	person	primary	4	48	48	48	48
+#fern	#fern	Fernando	M	lover	person	primary	5	84	84	84	84
+#min1	#min1	Minero 1	M	other	person	minor	6	11	11	11	11
+#min2	#min2	Minero 2	M	other	person	minor	7	7	7	7	7
+#min3	#min3	Minero 3	M	other	person	minor	8	7	7	7	7

@@ -1,0 +1,22 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	scene_7	first scene	middle scene	last scene
+#madr	#madr	Madre	F	other	person	secondary	1	60	0	30	3	33	0	14	60	13.2	14
+#nova	#nova	Novia	F	lover	person	primary	2	0	0	25	37	30	15	7	0	21.4	7
+#sueg	#sueg	Suegra	F	other	person	secondary	3	0	29	0	0	0	0	4	0	5.8	4
+#muje	#muje	Mujer de Leonardo	F	other	person	secondary	4	0	35	0	10	12	0	4	0	11.4	4
+#cria	#cria	Criada	F	other	person	secondary	5	0	0	19	48	19	0	0	0	17.2	0
+#veci	#veci	Vecina	F	other	person	minor	6	26	0	0	0	0	0	6	26	0.0	6
+#leon	#leon	Leonardo	M	antagonist	person	primary	8	0	23	0	32	1	15	0	0	14.2	0
+#novo	#novo	Novio	M	protagonist	person	primary	9	34	0	17	5	47	16	0	34	17.0	0
+#padr	#padr	Padre de la novia	M	other	person	secondary	10	0	0	25	2	23	0	0	0	10.0	0
+#luna	#luna	Luna	F	other	person	minor	11	0	0	0	0	0	5	0	0	1.0	0
+#muer	#muer	Muerte (como Mendiga)	F	other	non-human	minor	12	0	0	0	0	0	0	6	0	0.0	6
+#muc1	#muc1	Muchacha 1	F	other	person	minor	7	0	0	0	7	10	0	9	0	3.4	9
+#muc2	#muc2	Muchacha 2	F	other	person	minor	7	0	0	0	6	4	0	7	0	2.0	7
+#muc3	#muc3	Muchacha 3	F	other	person	minor	7	0	0	0	4	0	0	0	0	0.8	0
+#conv	#conv	Convidado	M	other	person	minor	0	0	0	0	3	0	0	0	0	0.6	0
+#len1	#len1	Leñador 1	M	other	person	minor	13	0	0	0	0	0	18	0	0	3.6	0
+#len2	#len2	Leñador 2	M	other	person	minor	13	0	0	0	0	0	16	0	0	3.2	0
+#len3	#len3	Leñador 3	M	other	person	minor	13	0	0	0	0	0	14	0	0	2.8	0
+#moz1	#moz1	Mozo 1	M	other	person	minor	14	0	0	0	6	3	5	0	0	2.8	0
+#moz2	#moz2	Mozo 2	M	other	person	minor	14	0	0	0	1	2	0	0	0	0.6	0
+#nina	#nina	Niña	F	other	person	minor	0	0	0	0	0	0	0	1	0	0.0	1

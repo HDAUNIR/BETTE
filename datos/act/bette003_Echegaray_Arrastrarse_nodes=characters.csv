@@ -1,0 +1,17 @@
+	id	label	sex	role	nature	importance	position	act_1	act_2	act_3	act_4	first act	middle act	last act
+#blan	#blan	Blanca	F	antagonist	person	primary	1	47	44	49	35	47	46.5	35
+#jose	#jose	Josefina	F	lover	person	primary	2	0	75	69	43	0	72.0	43
+#plac	#plac	Plácido	M	protagonist	person	primary	3	79	134	136	181	79	135.0	181
+#marq	#marq	de Retamosa del Valle	M	other	person	secondary	4	0	92	68	32	0	80.0	32
+#clau	#clau	Claudio	M	other	person	secondary	5	41	18	32	49	41	25.0	49
+#romu	#romu	Don Romualdo	M	other	person	secondary	6	0	57	0	0	0	28.5	0
+#anse	#anse	Don Anselmo	M	other	person	secondary	7	0	19	0	0	0	9.5	0
+#javi	#javi	Javier	M	antagonist	person	primary	8	51	6	14	5	51	10.0	5
+#basi	#basi	Basilio	M	other	person	secondary	9	0	0	0	50	0	0.0	50
+#toma	#toma	Tomás	M	other	person	secondary	10	0	12	18	48	0	15.0	48
+#pad1	#pad1	Padrino 1º 	M	other	person	minor	11	0	6	0	0	0	3.0	0
+#pad2	#pad2	Padrino 2º	M	other	person	minor	12	0	5	0	0	0	2.5	0
+#lesm	#lesm	Tío Lesmes	M	other	person	minor	13	16	0	0	15	16	0.0	15
+#deme	#deme	Demetrio	M	other	person	minor	14	0	0	11	0	0	5.5	0
+#cri1	#cri1	Criado 1º 	M	other	person	minor	15	0	0	0	0	0	0.0	0
+#cri2	#cri2	Criado 2º	M	other	person	minor	16	0	0	0	0	0	0.0	0

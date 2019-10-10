@@ -1,0 +1,15 @@
+	id	label	sex	role	nature	importance	position	scene_1	scene_2	scene_3	scene_4	scene_5	scene_6	first scene	middle scene	last scene
+#juan	#juan	Juan	M	lover	person	primary	2	17	8	0	28	16	19	17	13.0	19
+#yerm	#yerm	Yerma	F	protagonist	person	primary	3	56	64	0	63	29	32	56	39.0	32
+#mari	#mari	María	F	other	person	minor	4	30	0	0	15	0	7	30	3.75	7
+#víct	#víct	Víctor	M	other	person	secondary	5	7	17	0	21	0	0	7	9.5	0
+#viej	#viej	Vieja	F	other	person	secondary	6	0	23	0	0	9	15	0	8.0	15
+#much	#much	Muchacha	F	other	person	minor	7	0	17	0	7	0	5	0	6.0	5
+#lava	#lava	Lavandera	F	other	person	minor	8	0	0	95	0	0	0	0	23.75	0
+#cuna	#cuna	Cuñada	F	other	person	minor	9	0	0	0	3	1	0	0	1.0	0
+#dolo	#dolo	Dolores	F	other	person	secondary	10	0	0	0	0	22	0	0	5.5	0
+#muje	#muje	Mujer	F	other	person	minor	11	0	0	0	0	0	6	0	0.0	6
+#hemb	#hemb	Hembra	F	other	person	minor	13	0	0	0	0	0	4	0	0.0	4
+#homb	#homb	Hombre	M	other	person	minor	14	0	0	0	0	0	10	0	0.0	10
+#nin	#nin	Niño	M	other	person	minor	15	0	0	0	0	0	4	0	0.0	4
+#mach	#mach	Macho	M	other	person	minor	16	0	0	0	0	0	5	0	0.0	5

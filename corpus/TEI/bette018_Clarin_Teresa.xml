@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="../../esquema/tei_lite_Ghedi_estable.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/GHEDI/BETTE-esquema/master/tei_BETTE.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="../../estilos/estilos.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,23 +10,31 @@
 				<title type="idno">
 					<idno type="viaf"></idno>
 					<idno type="bne">bimo0000824649</idno>
+					<idno type="wikidata">Q63197172</idno>
 				</title>
 				<author>
 					<name type="full">Leopoldo Alas</name>
 					<name type="short">Clarin</name>
 					<idno type="viaf">17218138</idno>
 					<idno type="bne">XX922976</idno>
+					<idno type="wikidata">Q312747</idno>
 				</author>
 				<principal xml:id="mfm">Mireya Fernández Merino</principal>
 				<principal xml:id="irm">Ignacio Roldán Martínez</principal>
 			</titleStmt>
+			<editionStmt>
+				<edition>oportunistic</edition>
+			</editionStmt>
 			<publicationStmt>
 				<publisher>Ghedi (UNIR)</publisher>
 				<availability status="free">
 					<p>The text is freely available.</p>
 				</availability>
 				<date>2016</date>
-				<idno>018</idno>
+				<idno>
+					<idno type="number">018</idno>
+					<idno type="text">0.2</idno>
+					<idno type="structure">2.0</idno></idno>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="first-published">
@@ -43,7 +51,7 @@
 					<date>2000</date>
 					<publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
 					<pubPlace>Alicante</pubPlace>
-					<ref target="http://www.cervantesvirtual.com/obra/teresa-ensayo-dramatico-en-un-acto-y-en-prosa--0/"/>
+					<ref target="http://www.cervantesvirtual.com/obra/teresa-ensayo-dramatico-en-un-acto-y-en-prosa--0/"></ref>
 
 				</bibl>
 				<bibl type="first-performance">
@@ -54,15 +62,128 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<langUsage>
+				<language ident="es">español</language>
+			</langUsage>
+			<textDesc n="play">
+				<purpose type="ensayo-dramático"></purpose>
+			</textDesc>
 			<abstract>
 				<p>Único acto: Fernando, el señorito de la casa en que ha servido Teresa, visita el pueblo minero donde ella vive con su marido, Roque; con Rita, la hermana de este, jovencita frágil y enfermiza; y la pequeña hija de ambos, Palmira. Anima la visita estudiar las condiciones de los trabajadores y, sobre todo, reencontrase con la antigua criada de quien sigue enamorado. La vida de Teresa es dura, llena de penurias y pesadumbre. Roque es un minero, trabajador, rudo, autoritario y machista, que busca promover los ideales socialistas entre sus compañeros y antepone la ideología y solidaridad hacia ellos al afecto filial. En una de sus ausencias, en que ha ido a leer los manifiestos revolucionarios en la taberna, Fernando se acerca a la casa y contempla la precaria situación en que vive Teresa. La conversación entre ellos se llena de recuerdos. Ante la declaración de su amor y la propuesta de irse con él y llevar a su hija, la mujer defiende su matrimonio. El regreso del marido junto a los mineros alerta a la pareja. Teresa esconde a Fernando en un rincón debajo de la escalera. Roque viene borracho y herido tras un altercado con uno de los parroquianos. Increpa y culpa a su mujer de haber sido sirvienta y defender a sus antiguos amos, de atarle y haberle engañado. En medio del altercado, cae insconsciente y su mujer lo atiende y cuida. Teresa ruega a Fernando que se vaya, la olvide y logre hacer vida junto a otra mujer. </p>
 			</abstract>
+			<particDesc>
+				<listPerson cert="medium">
+
+					<person n="1" role="protagonist" sex="F" xml:id="tere">
+						<persName>Teresa</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>21764</desc></event>
+							<event type="sps"><desc>113</desc></event>
+							<event type="rss"><desc>78</desc></event>
+							<event type="scenes"><desc>9</desc></event>
+						</listEvent>
+					</person>
+					<person n="2" role="other" sex="F" xml:id="rita">
+						<persName>Rita</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>3443</desc></event>
+							<event type="sps"><desc>29</desc></event>
+							<event type="rss"><desc>46</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="3" role="other" sex="F" xml:id="palm">
+						<persName>Palmira </persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>secondary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>836</desc></event>
+							<event type="sps"><desc>17</desc></event>
+							<event type="rss"><desc>21</desc></event>
+							<event type="scenes"><desc>2</desc></event>
+						</listEvent>
+					</person>
+					<person n="4" role="antagonist" sex="M" xml:id="roqu">
+						<persName>Roque</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>10975</desc></event>
+							<event type="sps"><desc>48</desc></event>
+							<event type="rss"><desc>75</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person> 
+					<person n="5" role="lover" sex="M" xml:id="fern">
+						<persName>Fernando</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>primary</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>12561</desc></event>
+							<event type="sps"><desc>84</desc></event>
+							<event type="rss"><desc>47</desc></event>
+							<event type="scenes"><desc>6</desc></event>
+						</listEvent>
+					</person>
+					<person n="6" role="other" sex="M" xml:id="min1">
+						<persName>Minero 1</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>618</desc></event>
+							<event type="sps"><desc>11</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="7" role="other" sex="M" xml:id="min2">
+						<persName>Minero 2</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>821</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person n="8" role="other" sex="M" xml:id="min3">
+						<persName>Minero 3</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>429</desc></event>
+							<event type="sps"><desc>7</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>3</desc></event>
+						</listEvent>
+					</person>
+					<person role="other" sex="0" xml:id="otro">
+						<persName>Otros</persName>
+						<trait type="nature"><desc>person</desc></trait>
+						<trait type="importance"><desc>minor</desc></trait>
+						<listEvent>
+							<event type="characters"><desc>25</desc></event>
+							<event type="sps"><desc>1</desc></event>
+							<event type="rss"><desc>0</desc></event>
+							<event type="scenes"><desc>1</desc></event>
+						</listEvent>
+					</person>					
+				</listPerson>
+			</particDesc>
 		</profileDesc>
 		<revisionDesc status="approved">
 			<change when="2016-09-28" who="#jct">De Cervantes Virtual a HTML.</change>
 			<change when="2015-07-07" who="#jct">Pequeños cambios en algunos datos del teiHeader.</change>
-			<change when="2015-11-05" who="#tsm" status="proposed">Modernización gramatical según criterios y subsanación de erratas.</change>
-			<change when="2017-05-11" who="#jct" status="approved">Corregidos errores menores.</change>
+			<change status="proposed" when="2015-11-05" who="#tsm">Modernización gramatical según criterios y subsanación de erratas.</change>
+			<change status="approved" when="2017-05-11" who="#jct">Corregidos errores menores.</change>
+			<change when="2017-09-27" who="#jct">Cambios en metadatos</change>
+			<change when="2017-11-10" who="#emc">Revisión de metadatos a partir del resumen</change>
+			<change when="2019-05-16" who="#jct">Corregidos errores menores y añadido ID de wikidata</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -71,35 +192,35 @@
 				<castList>
 					<head>Personajes</head>
 					<castItem>
-						<role xml:id="tere">Teresa</role>
+						<role corresp="#tere">Teresa</role>
 						<roleDesc>Srta. Guerrero </roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="rita">Rita</role>
+						<role corresp="#rita">Rita</role>
 						<roleDesc>Srta. Valdivia </roleDesc>  
 					</castItem>
 					<castItem>
-						<role xml:id="palm">Palmira </role>
+						<role corresp="#palm">Palmira </role>
 						<roleDesc>Sr. Soriano </roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="roqu">Roque</role> 
+						<role corresp="#roqu">Roque</role> 
 						<roleDesc> SR. Perrín (Antonio) </roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="fern">Fernando</role>
+						<role corresp="#fern">Fernando</role>
 						<roleDesc> Sr. Díaz de Mendoza</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="min1">Minero 1</role>
+						<role corresp="#min1">Minero 1</role>
 						<roleDesc>Sr. Núñez </roleDesc>  
 					</castItem>
 					<castItem>
-						<role xml:id="min2">Minero 2</role>
+						<role corresp="#min2">Minero 2</role>
 						<roleDesc> Sr. Casielles</roleDesc>
 					</castItem>
 					<castItem>
-						<role xml:id="min3">Minero 3</role>
+						<role corresp="#min3">Minero 3</role>
 						<roleDesc> Sr. Torner</roleDesc>
 					</castItem>
 				</castList>
@@ -109,1662 +230,1662 @@
 			</div>
 		</front>
 		<body>
-			<div type="act" n="1">
-				<div type="scene" n="1">
+			<div n="1" type="act">
+				<div n="1" type="scene">
 					<head>Escena Primera</head>
-				<stage>Anochece. A ser posible, imítese alguno de los ruidos propios del campo, en verano, en los valles del Noroeste de España; por ejemplo, voces lejanas de aldeanos, rechino apagado de carretas. De no conseguir una imitación apropiada, es preferible prescindir de todo esto. Al levantarse el telón, se oirá a lo lejos un aire del país en un instrumento rústico (algo como gaita, dulzaina, caramillo o cosa análoga). <rs key="#rita">Rita</rs> (de unos dieciocho años), y <rs key="#palm">Palmira</rs> (de cinco a siete años). <rs key="#rita">Rita</rs> duerme de bruces sobre el montón de grava, viste traje de aldeana del país, mezclado con prendas de artesana de la ciudad, todo maltrecho, pobre. <rs key="#palm">Palmira</rs>, cerca de ella, sentada sobre el polvo de la carretera, desgreñada, descalza. Llora con cierto ritmo, cansada ya del llanto. Cuando suena la música lejana, deja de llorar. Cesa la música, y vuelve el llanto. Pasan por la carretera algunos grupos de tres o cuatro mineros, unos silenciosos, otros en conversación confusa, lenta, desanimada. Los más, llevan lámpara de minero. Tuercen por el primer término de la izquierda, donde hace curva la carretera, y desaparecen. Después <rs key="#fern">Fernando</rs>.</stage>
+					<stage>Anochece. A ser posible, imítese alguno de los ruidos propios del campo, en verano, en los valles del Noroeste de España; por ejemplo, voces lejanas de aldeanos, rechino apagado de carretas. De no conseguir una imitación apropiada, es preferible prescindir de todo esto. Al levantarse el telón, se oirá a lo lejos un aire del país en un instrumento rústico (algo como gaita, dulzaina, caramillo o cosa análoga). <rs key="#rita">Rita</rs> (de unos dieciocho años), y <rs key="#palm">Palmira</rs> (de cinco a siete años). <rs key="#rita">Rita</rs> duerme de bruces sobre el montón de grava, viste traje de aldeana del país, mezclado con prendas de artesana de la ciudad, todo maltrecho, pobre. <rs key="#palm">Palmira</rs>, cerca de ella, sentada sobre el polvo de la carretera, desgreñada, descalza. Llora con cierto ritmo, cansada ya del llanto. Cuando suena la música lejana, deja de llorar. Cesa la música, y vuelve el llanto. Pasan por la carretera algunos grupos de tres o cuatro mineros, unos silenciosos, otros en conversación confusa, lenta, desanimada. Los más, llevan lámpara de minero. Tuercen por el primer término de la izquierda, donde hace curva la carretera, y desaparecen. Después <rs key="#fern">Fernando</rs>.</stage>
 
-				<sp who="#palm">
-					<speaker>Palmira</speaker>
-					<p><stage>(Sentada en la carretera.)</stage>  ¡Madre! ¡madre! ¡Mira: <rs key="#rita">Rita</rs> no me da sopa!  <stage>(Se acerca, arrastrándose, a <rs key="#rita">Rita</rs>.) </stage> ¡<rs key="#rita">Rita</rs>! ¡Ritona! ¡Despierta, que me das miedo! ¡Sopa! ¡Ritona, dame pan!  (Le mete una mano entre los labios.)</p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Palmira</speaker>
+						<p><stage>(Sentada en la carretera.)</stage>  ¡Madre! ¡madre! ¡Mira: <rs key="#rita">Rita</rs> no me da sopa!  <stage>(Se acerca, arrastrándose, a <rs key="#rita">Rita</rs>.) </stage> ¡<rs key="#rita">Rita</rs>! ¡Ritona! ¡Despierta, que me das miedo! ¡Sopa! ¡Ritona, dame pan!  (Le mete una mano entre los labios.)</p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p><stage>(Llega por la carretera, primer término de la izquierda. Contempla un momento el grupo de niñas. Se acerca a ellas.)</stage>  Oye, nena, ¿por qué lloras?</p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p><stage>(Llega por la carretera, primer término de la izquierda. Contempla un momento el grupo de niñas. Se acerca a ellas.)</stage>  Oye, nena, ¿por qué lloras?</p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p><stage>(Al ver a <rs key="#fern">Fernando</rs> se levanta de un brinco, y retrocede hacia la casa.)</stage> ¡Madre, madre! ¡<rs key="#rita">Rita</rs>! ¡Tengo miedo: un hombre! </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p><stage>(Al ver a <rs key="#fern">Fernando</rs> se levanta de un brinco, y retrocede hacia la casa.)</stage> ¡Madre, madre! ¡<rs key="#rita">Rita</rs>! ¡Tengo miedo: un hombre! </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> No tengas miedo: ¡Calla, vida mía! Yo... te quiero a ti. ¿Por qué lloras? Ven acá; toma.</p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> No tengas miedo: ¡Calla, vida mía! Yo... te quiero a ti. ¿Por qué lloras? Ven acá; toma.</p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> ¡Madre! </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> ¡Madre! </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Aquí otra niña? ¿Una joven? ¿Qué tiene? ¿Quién es? ¿Está mala? </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Aquí otra niña? ¿Una joven? ¿Qué tiene? ¿Quién es? ¿Está mala? </p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> ¡Madre! ¡<rs key="#rita">Rita</rs>! ¡Mira este señor...!</p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> ¡Madre! ¡<rs key="#rita">Rita</rs>! ¡Mira este señor...!</p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>Oye: si me das un beso, te doy un perro... blanco, mira, un perro blanco.<stage>(Le enseña una peseta.)</stage></p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>Oye: si me das un beso, te doy un perro... blanco, mira, un perro blanco.<stage>(Le enseña una peseta.)</stage></p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> ¡Una peseta! ¿Para mí toda? ¿Para <rs key="#rita">Rita</rs> no? </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> ¡Una peseta! ¿Para mí toda? ¿Para <rs key="#rita">Rita</rs> no? </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> No; para ti. ¿<rs key="#rita">Rita</rs> es ésta?> </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> No; para ti. ¿<rs key="#rita">Rita</rs> es ésta?&gt; </p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p>Sí.<stage>(Dejándose besar.) </stage> </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p>Sí.<stage>(Dejándose besar.) </stage> </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Es tu hermana?  </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Es tu hermana?  </p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> No. </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> No. </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Cómo te llamas tú? </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Cómo te llamas tú? </p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> <rs key="#palm">Palmira</rs>. </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> <rs key="#palm">Palmira</rs>. </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> <stage>(Para sí.)</stage>  ¡Como mi hermana! Sí: es su hija. Tu madre, ¿es <rs key="#tere">Teresa</rs>?</p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> <stage>(Para sí.)</stage>  ¡Como mi hermana! Sí: es su hija. Tu madre, ¿es <rs key="#tere">Teresa</rs>?</p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> Sí; <rs key="#tere">Teresa</rs> de <rs key="#roqu">Roque</rs>. </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> Sí; <rs key="#tere">Teresa</rs> de <rs key="#roqu">Roque</rs>. </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Y <rs key="#rita">Rita</rs>?  <stage>(<rs key="#palm">Palmira</rs> se encoge de hombros.)</stage> ¿Qué es tuyo <rs key="#rita">Rita</rs>? </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Y <rs key="#rita">Rita</rs>?  <stage>(<rs key="#palm">Palmira</rs> se encoge de hombros.)</stage> ¿Qué es tuyo <rs key="#rita">Rita</rs>? </p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> Está en casa. </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> Está en casa. </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Criada? </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Criada? </p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> No: de mi padre. ¡Es mala! </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> No: de mi padre. ¡Es mala! </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Te pega? </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Te pega? </p>
+					</sp>
 
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> No: me deja sola; se queda así, dormida... ¡Quiero pan! </p>
-				</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> No: me deja sola; se queda así, dormida... ¡Quiero pan! </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Tienes hambre? ¡Alma mía! ¿Dónde está tu madre?</p>
-				</sp>
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> En la fuente, y a buscar a padre. ¡Madre, madre! </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Tienes hambre? ¡Alma mía! ¿Dónde está tu madre?</p>
+					</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> En la fuente, y a buscar a padre. ¡Madre, madre! </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>No te oye: la fuente está lejos. Llamaremos a <rs key="#rita">Rita</rs>. ¡A ver, <rs key="#rita">Rita</rs>... despierta! <stage> (Mueve suavemente a <rs key="#rita">Rita</rs>.) </stage></p></sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>No te oye: la fuente está lejos. Llamaremos a <rs key="#rita">Rita</rs>. ¡A ver, <rs key="#rita">Rita</rs>... despierta! <stage> (Mueve suavemente a <rs key="#rita">Rita</rs>.) </stage></p></sp>
 
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p>¡Eh! ¿quién? ¡Ay! ¡Palma, calla!  <stage> (Se pasa las manos por la cabeza, sujeta el pañuelo que le sirve de toca; se quita algunas briznas de heno que trae pegadas a la garganta; se incorpora, y, temblando, al andar, se deja caer sobre el banco de piedra debajo de la ventana. Arrima los brazos a la pared, apoya en ellos la cabeza; el peso hace deslizarse, pared abajo, todo el busto, y cae <rs key="#rita">Rita</rs> de bruces sobre el banco, como estaba antes sobre el montón de grava.) </stage></p></sp>
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p>¡Eh! ¿quién? ¡Ay! ¡Palma, calla!  <stage> (Se pasa las manos por la cabeza, sujeta el pañuelo que le sirve de toca; se quita algunas briznas de heno que trae pegadas a la garganta; se incorpora, y, temblando, al andar, se deja caer sobre el banco de piedra debajo de la ventana. Arrima los brazos a la pared, apoya en ellos la cabeza; el peso hace deslizarse, pared abajo, todo el busto, y cae <rs key="#rita">Rita</rs> de bruces sobre el banco, como estaba antes sobre el montón de grava.) </stage></p></sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Es una marmota.<stage> (Reparándola.)</stage> No; es un ángel, pero un ángel enfermizo. ¡Oh, qué cansancio el suyo! <stage>(Le toma el pulso y le toca la frente.)</stage>¡Infeliz criatura! Agobiada por el trabajo; mal alimentada, de fijo... ¿Quién será? ¿Estará enferma? <stage>(Le quita yerbas pegadas a la frente.)</stage> ¡Enferma, pero trabaja! <stage>(Repara que <rs key="#palm">Palmira</rs> corre por la carretera, hacia el foro, gritando.) </stage>  </p>
-				</sp>
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p> ¡Madre, madre! <stage>(Desaparece por el último término izquierda.) </stage> </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Es una marmota.<stage> (Reparándola.)</stage> No; es un ángel, pero un ángel enfermizo. ¡Oh, qué cansancio el suyo! <stage>(Le toma el pulso y le toca la frente.)</stage>¡Infeliz criatura! Agobiada por el trabajo; mal alimentada, de fijo... ¿Quién será? ¿Estará enferma? <stage>(Le quita yerbas pegadas a la frente.)</stage> ¡Enferma, pero trabaja! <stage>(Repara que <rs key="#palm">Palmira</rs> corre por la carretera, hacia el foro, gritando.) </stage>  </p>
+					</sp>
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p> ¡Madre, madre! <stage>(Desaparece por el último término izquierda.) </stage> </p>
+					</sp>
 
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Por allí viene gente: un grupo. Serán mineros. Sí: <rs key="#roqu">Roque</rs>... y <rs key="#tere">Teresa</rs>... y más serán. No quiero que me vean. Ahora no. La niña diría lo de la peseta; y ese <rs key="#roqu">Roque</rs> es altivo, creo. No querrá limosnas, de fijo. Además, le he visto mirarme con malos ojos. Tal vez sospecha. Pero yo he de verla, he de hablar con ella otra vez. Mañana, al ser de día, sale el tren, y he de marchar; no hay remedio. Sí: hablaré a <rs key="#tere">Teresa</rs> esta noche. Si puedo, aquí, a solas, cuando él salga, pues sé que sale: va a perorar a la taberna. Y si no, con un pretexto, entraré luego ahí, aunque esté <rs key="#roqu">Roque</rs>. Se acercan. Ahora, a mi escondite, ahí, en la Foz, entre los árboles, donde la contemplé esta tarde... ¡tan triste, tan pobre, tan dulce en su miseria...! Perdida la lozanía... y más hermosa. ¡Mi pobre ilusión del amor humilde, puro, respetuoso... no desvanecida, no, transformada; deshecha en humo, no: convertida en olorosa nube de ideal incienso, de impasible abnegación, de tristeza inexorable. ¡Oh, realidad, maestra de la vida y de la muerte! ¡Poética en tus desengaños, como este crepúsculo en la aldea! <stage>(Se oye a lo lejos rumor de voces en disputa áspera, sorda, lenta: otras veces la voz de <rs key="#palm">Palmira</rs> que llama a su madre; y por fin, la gaita o caramillo, muy lejos, perdiéndose en la distancia. <rs key="#fern">Fernando</rs> sale de la escena por el primer término izquierda: al sentir acercarse por la carretera un grupo de mineras.)  </stage>  </p>
-				</sp>
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Por allí viene gente: un grupo. Serán mineros. Sí: <rs key="#roqu">Roque</rs>... y <rs key="#tere">Teresa</rs>... y más serán. No quiero que me vean. Ahora no. La niña diría lo de la peseta; y ese <rs key="#roqu">Roque</rs> es altivo, creo. No querrá limosnas, de fijo. Además, le he visto mirarme con malos ojos. Tal vez sospecha. Pero yo he de verla, he de hablar con ella otra vez. Mañana, al ser de día, sale el tren, y he de marchar; no hay remedio. Sí: hablaré a <rs key="#tere">Teresa</rs> esta noche. Si puedo, aquí, a solas, cuando él salga, pues sé que sale: va a perorar a la taberna. Y si no, con un pretexto, entraré luego ahí, aunque esté <rs key="#roqu">Roque</rs>. Se acercan. Ahora, a mi escondite, ahí, en la Foz, entre los árboles, donde la contemplé esta tarde... ¡tan triste, tan pobre, tan dulce en su miseria...! Perdida la lozanía... y más hermosa. ¡Mi pobre ilusión del amor humilde, puro, respetuoso... no desvanecida, no, transformada; deshecha en humo, no: convertida en olorosa nube de ideal incienso, de impasible abnegación, de tristeza inexorable. ¡Oh, realidad, maestra de la vida y de la muerte! ¡Poética en tus desengaños, como este crepúsculo en la aldea! <stage>(Se oye a lo lejos rumor de voces en disputa áspera, sorda, lenta: otras veces la voz de <rs key="#palm">Palmira</rs> que llama a su madre; y por fin, la gaita o caramillo, muy lejos, perdiéndose en la distancia. <rs key="#fern">Fernando</rs> sale de la escena por el primer término izquierda: al sentir acercarse por la carretera un grupo de mineras.)  </stage>  </p>
+					</sp>
+				</div>
+
+				<div n="2" type="scene">
+					<head>Escena Segunda</head>
+					<stage><rs key="#rita">Rita</rs>; <rs key="#roqu">Roque</rs> y varios mineros.Llega al primer término de la izquierda un grupo de mineros, entre ellos <rs key="#roqu">Roque</rs>, el cual manifiesta al andar que tiene un pie herido: el zapato de este pie, roto por delante.</stage>
+
+					<sp who="#min2">
+						<speaker>Minero 2º</speaker>
+						<p> ¡Con Dios, <rs key="#roqu">Roque</rs>; y por la fresca, arriba; y otra vez al pozo! </p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker>
+						<p> ¡Mal rayo me parta si con estos mandrias se puede hacer una que sea sonada! </p>
+					</sp>
+
+					<sp who="#min2">
+						<speaker>Minero 2º</speaker>
+						<p> Para sonadas, las que hace allá dentro el gas cuando se le hinchan las narices. </p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker>
+						<p> <rs key="#roqu">Roque</rs>, contigo se cuenta. Si ahora te quedas aquí un rato por que no diga <rs key="#tere">Teresa</rs>, en casa de la Eulalia te esperamos. No faltes: lleva el papel, ese que tan bien lo relata. </p>
+					</sp>
+
+					<sp who="#min2">
+						<speaker>Minero 2º</speaker>
+						<p> No seas bobo, <rs key="#roqu">Roque</rs>, no vayas. Gastarás los cuartos, beberás, mañana la dormirás, te meterán en el ajo de la huelga, aunque seas inocente... y ¡adiós pan, Dios sabe hasta cuándo! </p>
+					</sp>
+
+					<sp who="#min3">
+						<speaker>Minero 3º</speaker>
+						<p> Estos de la aldea siempre servilones; burros de reata... reses que van al matadero. </p>
+					</sp>
+
+					<sp who="#min2">
+						<speaker>Minero 2º</speaker>
+						<p> Vaya, con Dios. Ya empieza el predicador... ¡Lilailas! El pobre siempre sudará mucho para comer poco... Los papeles... la taberna... los sermones. ¡Lilailas! Siempre fue lo mismo. Vaya; buenas noches. <rs key="#roqu">Roque</rs>, cena, si hay qué; y a la cama. <stage>(Sale por la izquierda a paso lento bostezando.) </stage> </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¡Gallinas! Vamos andando. Si espero a esa, habrá matraca. ¡A casa de Eulalia! Yo me debo a los míos. Cuando el hombre tiene una idea... se debe a la idea. </p>
+					</sp>
+
+					<sp who="#min3">
+						<speaker>Minero 3º</speaker>
+						<p> Pero ¿no has dicho a <rs key="#tere">Teresa</rs> que te quedabas en casa? </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> <stage>(Se encoge de hombros.) </stage>¡Déjate de mujeres! A casa de Eulalia. El obrero defiende sus ideas donde puede... Si no hay más cátedra, más congreso, más púlpito que la taberna... en la taberna. Jesucristo iba a las tabernas a predicar el socialismo a los publicanos. </p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker>
+						<p> ¡Eso! ¡Vivan los publicanos! El papa es ahora publicano también. </p>
+					</sp>
+
+					<sp who="#min3">
+						<speaker>Minero 3º</speaker>
+						<p> ¡Pamplinas! ¡La política...! ¡El clero...! ¡Pamplinas...! No reventar de hambre y de trabajar, esa es la fija. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> Vamos, que va a llegar <rs key="#tere">Teresa</rs>. <stage> (Bosteza <rs key="#rita">Rita</rs>, y estira los brazos despertando.)</stage> ¿Quién está ahí? ¡Ah! ¡es mi hermana! ¡Esperad! ¡<rs key="#rita">Rita</rs>! <stage>(Se acerca a ella.)</stage> ¿Has metido la yerba? </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Sí; toda la que habéis dejado segada.   <stage> (Soñolienta y otra vez quitándose de la garganta y del pecho briznas del heno pegado a la piel.) </stage> </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¿Qué tienes? ¿sueño? </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Sí. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>¿Calor?  <stage>(Le pasa la mano por la frente y las muñecas.)</stage>  </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Mucho. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p><stage>(En voz baja.)</stage> ¿Y hambre?</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Sed. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p><stage>(En voz baja.)</stage> ¿Qué hay de cena?</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p>  Hay patatas. <stage>(Gesto de repugnancia.)</stage> </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>¿No cenarás?</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Si me deja <rs key="#tere">Teresa</rs>, me acuesto ahora. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>¿Sin cenar? </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Se me abre la cabeza, se me hunde el cuerpo. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¿Estás muy cansada?</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p>  Claro. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¿Has trabajado mucho?</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> ¡Qué remedio! </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¡<rs key="#tere">Teresa</rs>!</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Más que yo y más que tú. ¡Pobre; si no revienta...! Pero esa puede. Tiene más alma.</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>Te arde el pellejo. <stage>(Vuelve a tocarle las muñecas.)</stage> </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Más adentro ardo. </p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker>
+						<p> <rs key="#roqu">Roque</rs>, ¿vienes, o qué? </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¡Ah! sí... ¡voy! ¡voy! «¡Rayo en la miseria! ¡Que arda el mundo! Lo mejor es eso, ¡que arda el mundo!» <rs key="#rita">Rita</rs>, cena. Cena... chocolate si queda. Ya sabes lo que ha dicho el médico; sin comer no hay vida.   <stage>(A los mineros.)</stage> Vamos. </p>
+					</sp>
+				</div> 
+
+				<div n="3" type="scene">
+					<head>Escena Tercera</head>
+					<stage>Dichos y <rs key="#tere">Teresa</rs>.El mismo traje aproximadamente que <rs key="#rita">Rita</rs>. Trae sobre la cabeza una herrada llena de agua que rebosa y le cae sobre los hombros, <rs key="#palm">Palmira</rs> viene cogida a la falda de su madre.</stage>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p><stage>(Se detiene frente a <rs key="#roqu">Roque</rs>.)</stage>  Pero ¿marchas? ¿No cenas? ¿No has dicho...? </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> Lo que digo es que me debo a los míos. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>¿Los tuyos? <stage>(Deja la herrada en tierra.) </stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> Los míos son mis compañeros; los explotados, los miserables... ¡En fin, a callar! Dale chocolate a <rs key="#rita">Rita</rs> y déjala que se acueste. </p>
+					</sp>
+
+					<sp who="#palm">
+						<speaker>Palmira</speaker>
+						<p>¡Padre, padre! <stage>(En tono de queja.) </stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>  ¿Qué hay, pulga?  <stage>(Coge en brazos a <rs key="#palm">Palmira</rs> que le enseña las manos vacías.) </stage> </p>
+					</sp>
+
+					<sp who="#palm">
+						<speaker>Palmira</speaker>
+						<p> Mira; madre me ha quitado la peseta que me había dado un señorito muy bueno. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¡Una peseta! <stage>(Deja a <rs key="#palm">Palmira</rs> en el suelo.)</stage> ¿Un señorito? A ver tú, <stage>(A <rs key="#tere">Teresa</rs>.)</stage>   ¿qué es esto? </p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker>
+						<p> Vaya, <rs key="#roqu">Roque</rs>, hasta luego. Nosotros vamos andando. </p>
+					</sp>
+
+					<sp who="#min3">
+						<speaker>Minero 3º</speaker>
+						<p> Si vas, vas. </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>  No, espera. Quiero que veáis esto. <rs key="#tere">Teresa</rs>, ya sabes mi genio. Aquí ha habido limosna. Esa peseta... ¿dónde está? ¿De quién es? ¿Qué señorito anduvo aquí? Tu señorito; tu antiguo amo, ¿no es eso? El sietemesino burgués que vino ayer a estudiar ahí dentro, en la mina, cómo sudábamos los pobres, cómo exponía la vida el obrero a cada momento. Ése fue. ¡Rayo en él y en ti! Ea, pronto; ¿dónde está esa peseta? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>La peseta, aquí está; quien se la dio a la niña, no lo sé. Yo no he visto aquí a ningún señorito; ni al mío, ni a ninguno.</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¡Rayo de Dios! Nadie te pide excusas. ¿Por qué? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>Por nada; pero como dices...</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>Tu señorito será un ángel, pero es un señorito, un miserable, como todos, que no creerá en la honra del pobre... venga esa limosna. El obrero no quiere limosna.  </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>Pero... si no es limosna.</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>¡Venga!</p>
+					</sp>
+
+					<sp who="#palm">
+						<speaker>Pamira</speaker>
+						<p>¡Es mía! ¡Es mía! <stage>(Llorando.)</stage>  </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p>¡Es del diablo! <stage>(Arroja la moneda lejos.) </stage>  ¡A callar todo el mundo! Ya lo veis amigos; yo predico, y hago lo que predico. La limosna envilece. La caridad, ¡pamplina! ¡humillación! ¡Derecho! ¡justicia! ¡venganza!</p>
+					</sp>
+
+					<sp who="#min1 #min2 #min3">
+						<speaker>Mineros</speaker>
+						<p>¡Eso, eso!</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¡Adelante! <stage>(Se dirige hacia la izquierda.) </stage> Cena y apaga la lumbre. ¡Ah! Y no olvides el chocolate de mi hermana. </p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker> 
+						<p>Teresa, buenas noches.</p>
+					</sp>
+
+					<sp who="#min2">
+						<speaker>Minero 2º</speaker> 
+						<p>Que te alivies, <rs key="#rita">Rita</rs>.</p>
+					</sp> 
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> No; pídele a Dios que sane, o que se muera; porque para el pobre, la enfermedad es el infierno. ¡Oh; por qué no habrá un gas malo, allá arriba, en las nubes, para que estallase, y saltara el cielo, el mundo, como revienta allá dentro la mina!... </p>
+					</sp>	
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Pero oye, <rs key="#roqu">Roque</rs>;<stage>(En voz baja.) </stage> mira que no hay...  </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> Que no hay justicia en la tierra; ya lo sé. A eso vamos; a buscarla. ¡Adelante, adelante! <stage> (Sale por la izquierda con los demás mineros.) </stage>  </p>
+					</sp>
+				</div>
+
+				<div n="4" type="scene">
+					<head>Escena Cuarta</head>
+					<stage><rs key="#tere">Teresa</rs>, <rs key="#rita">Rita</rs> y <rs key="#palm">Palmira</rs>.Mientras hablan <rs key="#tere">Teresa</rs> y <rs key="#rita">Rita</rs>, <rs key="#palm">Palmira</rs> entra sollozando en la casa; se sube sobre un banco de madera; busca en el cajón de la mesa; saca un pedazo de pan, y llorando y comiendo, se queda dormida en el suelo, junto a la mesa.</stage>
+
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>No hay justicia... ni hay caldo. ¡Pobre <rs key="#rita">Rita</rs>! <stage> (Mirándola y sonriendo con tristeza.) </stage> Tú bien lo sabes, no hay tal chocolate. <stage>(<rs key="#rita">Rita</rs> hace un gesto de resignación casi indiferente: extiende los brazos en cruz; hace un esfuerzo para andar, y acercándose a <rs key="#tere">Teresa</rs>, le echa un brazo alrededor del cuello.)</stage></p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p>Perdónale. Nos quiere mucho a todos. A mí... porque mi cariño le recuerda a nuestra madre. Antes de casarse contigo, y después de morir mi madre, yo era todo para él; y como me crié así... <stage>(Con desprecio de sí misma; algo airada.) </stage>enfermucha, ruin, casi inútil. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>¡Inútil! Si no fuera por ti, no podríamos con tanto. ¿Por qué cargas yerba? </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> ¿Y si llueve?  <stage> (Habla con dificultad, soñolienta, con voz débil.)  </stage>  </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>Yo la hubiera recogido.</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Sí, tú; todo tú. Ni tú ni él podéis con tanto. La mina, el ganado, el maíz, la colada, la ropa al río... <rs key="#palm">Palmira</rs>, yo... cargas y más cargas.  <stage>(Se levanta del montón de grava, donde habrá vuelto a sentarse. Procura seguir a <rs key="#tere">Teresa</rs> que habrá entrado en la casa, recogiendo antes la herrada.) </stage> Dejadme ayudar; ayudar, o morir. <stage>(<rs key="#tere">Teresa</rs> habrá dejado la herrada pendiente de un gancho, cerca del hogar. Sin ver a <rs key="#palm">Palmira</rs>, enciende un quinqué pobre, colgado cerca del hogar también, y vuelve a salir de la casa.) </stage>¡Dios mío; este sueño; este cansancio; esta cabeza! ¡Ah! La Gallarda no sé qué tiene; todo el día anduvo echándose por tierra. ¡Pobre vaca! Como yo; quiere y no puede... Pero ella es vieja; ya sirvió; ya trabajó... y yo... yo... <stage>(Muestra gran debilidad, y se deja caer otra vez en el banco de la ventana.)</stage> </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¿Tienes hambre?</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p>¡Hambre... puaf!  <stage> (Repugnancia.)   </stage>  </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>Bien; pero... necesidad... Iré a casa de la Chinta a pedir un poco de... </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> ¡No! Basta de favores que se echan en cara. ¡Si la oyeras esta tarde! Desde media legua se la oía... ¡qué vergüenza! Si <rs key="#roqu">Roque</rs> la oye un día, no sé qué va a pasar. Y el Chinto, el judío, el ladrón, también murmura; también echa en cara lo que se le debe.  <stage>(Pausa.) </stage> Es mucho, ¿verdad?  </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No sé; yo... yo, no mucho. Pero él, tu hermano... como...</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> <stage> (Avergonzada.)</stage> Sí; ya sé... Cuando esos malditos le sublevan... le emborrachan... ¡Esa Eulalia... con su taberna que Dios confunda! Él es el que paga, para que le oigan leer los papeles, y decir aquello de que él se debe a sus ideas... ¡Oh, pues yo a las mías no les debo nada bueno!  <stage>(Sombría.)</stage> ¡Porque... aquí... entre sueños... entre dormida y loca... tengo unas ideas!... Pero... puede más la fatiga que ellas. <stage>(Se levanta.)</stage> </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Vamos; entra; el sereno puede hacerte daño. Cena un poco, poco; y a la cama.</p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p>Patatas... no; no puedo. Comeré una corteza... no; tampoco; nada. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Si yo... encontrara esa peseta! <stage>(Mira vagamente en torno.) </stage></p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p>¿Quién es ese señorito? </p>
+					</sp>   
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¿Cuál? </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> El que estuvo aquí antes; el que besó a <rs key="#palm">Palmira</rs>. </p>
+					</sp>   
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¿La besó? </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Sí; y a mí... no sé qué me hizo. Me puso ahí sobre este banco, me parece; y me tornó el pulso. ¿Es médico? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No; creo que también escribe en los papeles; es sabio, ¡qué sé yo! Ahora estudia a los pobres. </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Pues ya tiene que leer. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> <stage>(Pensativa.) </stage>  Es muy bueno.  </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> ¿Fue tu amo? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Sí; es el señorito <rs key="#fern">Fernando</rs>; el hijo de mi señora. </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Nosotros nunca servimos. Debe de ser muy malo. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Todo es cruz. <stage>(<rs key="#rita">Rita</rs> se deja caer otra vez sobre el banco.) </stage> </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Pero es mejor servir al marido, al padre, al hermano. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Ya se sabe; eso... no es servir. </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Claro. Eso es...  </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Eso es... ser... </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> Claro; ser... lo que se debe ser.  </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Pero... ¿y <rs key="#palm">Palmira</rs>? </p>
+					</sp>
+
+					<sp who="#rita">
+						<speaker>Rita</speaker>
+						<p> <stage>(Que se va quedando dormida.) </stage>Allá dentro. <stage>(<rs key="#tere">Teresa</rs> entra en la casa. La niña ya está dormida. La coge en brazos después de quitarle el pan que le sobre y guardarlo en la mesa. Lleva a <rs key="#palm">Palmira</rs> por la primera puerta de la derecha, y muy pronto vuelve y sale de la casa.) </stage>  </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡<rs key="#rita">Rita</rs>! ¡<rs key="#rita">Rita</rs>! ¿qué es eso? <stage>(<rs key="#rita">Rita</rs> estará como desmayada o dormida con sopor.)</stage>Dormida... ¿o estará mala? ¡<rs key="#rita">Rita</rs>! ¡<rs key="#rita">Rita</rs>! ¿No cenas? Como un poste. Si la dejo aquí, la mata el fresco. ¡Y sin probar bocado desde medio día! ¡<rs key="#rita">Rita</rs>! ¡Bah! ¿qué remedio? Armas al hombro. <stage>(Procura cogerla en brazos.)</stage> Ay; pero ésta pesa más que mi ángel... No importa; al hombro.<stage>(Hace un esfuerzo, y cuando ya la tiene a cuestas, tocando los pies de <rs key="#rita">Rita</rs> en tierra, y <rs key="#tere">Teresa</rs> inclinándose bajo la carga y buscando, con un brazo extendido, un apoyo, se le pone delante <rs key="#fern">Fernando</rs>, que llega por el primer término izquierda. Hay luna, y de la casa sale un reflejo del quinqué.)</stage> ¿Quién anda ahí? ¡Ah! ¡El señorito! </p>
+					</sp>
+				</div>
+
+				<div n="5" type="scene">
+					<head>Escena Quinta</head>
+					<stage><rs key="#tere">Teresa</rs> y <rs key="#fern">Fernando</rs>; <rs key="#rita">Rita</rs>, que no habla más.</stage>
+
+
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Buenas noches, señorito! <stage>(Al tratar de incorporarse <rs key="#rita">Rita</rs>, se le cae la carga hacia un lado, <rs key="#fern">Fernando</rs> la sujeta y entre ambos la sostienen.) </stage> </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Está enferma? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>  Poca salud gasta. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Pero, ahora, ¿qué tiene? ¿Está en un accidente? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No. Eso... no será... Será sueño... cansancio... y mala comida... es decir, que, como está así, no tiene buen diente. Y el trabajo... No se sabe lo que es. Muchas noches... y a veces de día... es así... pero no tan de repente... no tanto. Si me ayudara... </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Pues ya lo creo; vamos adentro. ¡Infeliz! ¿Quién es? ¿Criada? <stage>(Entran en casa llevando a <rs key="#rita">Rita</rs> dormida.) </stage></p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No, señor. ¡Qué criada! No. Es hermana de <rs key="#roqu">Roque</rs>. No tiene padre ni madre. Es <rs key="#rita">Rita</rs>; nuestra <rs key="#rita">Rita</rs>. <stage>(Salen de la escena por la primera puerta de la derecha y vuelven a poco.) </stage> </p>
+					</sp>
+				</div>
+
+				<div n="6" type="scene">
+					<head>Escena Sexta</head>
+					<stage><rs key="#fern">Fernando</rs>, detrás; y a poco <rs key="#tere">Teresa</rs>.-</stage>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Parece que duerme profundamente.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>Como un madero. Siempre duerme así. Trabaja mucho y es de pocos alientos... ¡Es decir, alientos...! pero... vamos, que no responde la...  </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Calentura no creo que tenga; el pulso débil, pero regular...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¿También es médico el señorito?</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> No; pero cualquiera comprende...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Bah! ¡Lo que usted no sepa...! Tanto leer, tanto estudiar. Con las noches que yo le preparé la luz para velar y más velar había para aprender todas las sabidurías del mundo.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Te acuerdas de aquellos tiempos, <rs key="#tere">Teresa</rs>?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>  Y la señora, aunque no lo decía, ¡qué orgullosa estaba de tal hijo!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Te acuerdas mucho de nosotros; verdad? Tu hija se llama <rs key="#palm">Palmira</rs>, como mi pobre hermana.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Murió en mis brazos. ¡Pobre señorita <rs key="#palm">Palmira</rs>! Claro; mi hija como ella. A la señora no la vi morir. Ya estaba yo aquí en el valle. Me casé aquel año. Yo me casé en febrero y la señora murió en marzo. <stage>(Pausa. <rs key="#tere">Teresa</rs> nota que <rs key="#fern">Fernando</rs> la mira fijamente, y se impacienta, va y viene como desconcertada de la puerta de la calle al hogar.) </stage> </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Extrañas que te mire a la cara; que te observe...? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Yo... no. Es que... ¡Ay Dios! ¡Buena cosa mira! ¿Verdad señorito que parezco una sombra? Es el trabajo; los cuidados; la vida que ahora se hace, tan diferente de aquella, al lado de la señora. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> <stage>(Con resolución.)</stage> ¿Eres desgraciada, <rs key="#tere">Teresa</rs>? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>  Eso no; es decir... desgraciada... Todos los pobres son desgraciados. Dicen, que usted, don <rs key="#fern">Fernando</rs>, estudia ahora eso. Pues ya irá usted viendo que es así. Y eso que en los libros no se aprende lo que es el que tiene miseria, quiero decir, el que carece... No; ni en los libros, ni viéndolo. No basta verlo, señorito.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Eres tú también socialista como tu <rs key="#roqu">Roque</rs>? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>  ¿Quién le ha dicho que <rs key="#roqu">Roque</rs>...? </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> En la mina; sé quién es; que no es aldeano, aunque ahora se ayuda a vivir con esta poca tierra que lleváis en arriendo; sé que era armero allá en la ciudad... </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>  Allí le conocí yo. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Y tuvo que dejar el oficio por exaltado, por díscolo, por no tolerar la disciplina. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> <stage>(Impaciente.)</stage>  <rs key="#roqu">Roque</rs> trabaja como un león. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Y ruge. Dime la verdad, <rs key="#tere">Teresa</rs>; yo tengo derecho a que me digas la verdad. A eso he venido. Cuando te vi hoy por primera vez, después de tantos años, sentí no sé que... </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Se le puso una cara muy triste. Como si viera a una muerta. Ya lo esperaba yo: No me miro al espejo, pero sé que parezco otra. Siempre lo pensé: si el señorito vuelve a verme algún día, le pareceré un fantasma. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>¿Y tú no esperabas que nos volviéramos a ver? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Esperar... no sé. Ni sí, ni no. Hace mucho tiempo que no espero nada bueno... ni desespero. Todo puede venir.<stage> (Silencio.) </stage> </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Mira... <rs key="#tere">Teresa</rs>: por no hablarnos como debemos en este poco tiempo que podemos estar a solas, sin que nadie lo sepa, <stage>(<rs key="#tere">Teresa</rs> vuelve la cabeza hacia la puerta; después da en esta dirección un paso, retrocediendo sin volver la espalda a <rs key="#fern">Fernando</rs>.)</stage> me estás haciendo daño sin querer. Yo tengo que marchar sin falta mañana mismo, muy temprano; no sé cuándo podré volver... </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Volver! </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Sí; pero vuelva cuando vuelva, yo no quiero marchar así, sin saber cómo quedas; si eres muy desgraciada; si es verdad lo que oí en la mina... que tu <rs key="#roqu">Roque</rs>... ¡te maltrata!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>  ¡Ah, don <rs key="#fern">Fernando</rs>! ¿Quién ha dicho tal? </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> <stage>(Con mirada escrutadora.) </stage> En casa no sabías mentir. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Es que... es muy largo de explicar... <rs key="#roqu">Roque</rs>, mi <rs key="#roqu">Roque</rs>... vale más que esos que dicen... ¡yo no me quejo! ¡Nadie sabe nada! Ellos son los que mienten. <stage>(Exaltada.) </stage>  </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Tu <rs key="#roqu">Roque</rs>, sí; tu <rs key="#roqu">Roque</rs>; ya sabía yo; es tu marido; hay que quererle, sea como sea. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p>  ¡Claro! <stage>(Tono especial de convicción; con un timbre como extraño a la voz ordinaria de <rs key="#tere">Teresa</rs>.) </stage> </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¡Ay, ese claro! El claro de mi madre; sonó tu voz como la suya. ¡Claro! Siempre era claro el deber, el sacrificio. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Claro. Y para usted lo mismo. <stage>(Acercándose.)</stage> ¿A que no ha hecho el señorito en todos estos años, desde que es todo un hombre, y tiene obligaciones graves; a que no ha hecho nada de que tenga que avergonzarse? Pues yo lo mismo. <stage>(Voz enérgica, algo seca. <rs key="#fern">Fernando</rs>, que estará sentado hacia la derecha en primer término, se lleva una mano a los ojos. <rs key="#tere">Teresa</rs> le mira, en pie, frente a él. Olvidada de la puerta, se acerca más a <rs key="#fern">Fernando</rs>, nota que contiene su emoción, y se retira un paso, comprimiendo la suya.)</stage></p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Todo lo sé; todo lo sé. Pero... hay que atender a todos. <stage>(Transición.)</stage> Sólo te diré una cosa; tu <rs key="#roqu">Roque</rs> es tuyo; pero yo también... soy algo tuyo. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p><stage>(Voz temblorosa.)</stage> ¡Ya lo creo! ¡El señorito! El hijo de la señora; mi señorito. </p>
+					</sp>
+
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>Sí; pero mi señorito... no es un parentesco. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Yo me entiendo. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Pero no me entiendes a mí. A lo que iba: hace un año, solo en el mundo, en una fonda, tuve una enfermedad. Estuve en peligro de muerte. Era nervioso... una angustia infinita; horror de la soledad en que vivía; era como cuando... ¿te acuerdas? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Ah, don <rs key="#fern">Fernando</rs>, calle! ¡Por Dios, don <rs key="#fern">Fernando</rs>! </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿No me quieres oír? ¿No me das este consuelo? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Sí, sí, hable; pero... Aquello no era nada. Se ponía muy nervioso... ¡unas ansias! Y su madre tenía que cogerle la cabeza; y yo, y todos, le hablábamos, le animábamos... </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Sí, lo mismo; pero esta vez estaba solo. Llamaba a mi madre, y había muerto; llamaba a <rs key="#palm">Palmira</rs>, y había muerto; te llamaba a ti... ¡y estabas tan lejos! <stage>(<rs key="#tere">Teresa</rs> va acercarse a <rs key="#fern">Fernando</rs> con ademán de cogerle la cabeza, que él tendrá inclinada hacia adelante, pero se contiene; se aparta; se sienta lejos, y apoya su frente entre las manos.) </stage> Después tuve una especie de delirio.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¿Delirio? Eso, antes no. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Ahora sí. Y me dijeron después que llamaba a voces...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> A la señora... </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> No, a <rs key="#tere">Teresa</rs>; porque ya no tenía en el mundo más que a <rs key="#tere">Teresa</rs>. <stage>(Pausa.)</stage> De modo... que no sé si yo soy algo tuyo; pero ya ves como tú eres algo mío. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p><stage>(Conteniéndose.) </stage> La señora... era tan buena, tan cristiana, que criaba a los hijos y a los criados, como hijos de Adán todos, y todos hermanos en Cristo. Desde niños, nos tratábamos así. A mí me quería tanto... y sobre todo, después que murió la señorita...  </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Sí; pero hay que decirlo todo. Sí, todo, por lo que ya sabes; porque tengo que marcharme... ¡y así no quiero irme! <stage>(Se pone en pie exaltado.) </stage> <rs key="#tere">Teresa</rs>, mi madre quería que el señorito y la criada, se amasen como hermanos; pero si el señorito se hubiese enamorado de la criada, no le hubiese dejado decirle que la quería... casarse con ella. Si un día llegó a temer algo, no se sabe; lo cierto es que la criada salió de casa con un pretexto... y al año se casó; y a poco desapareció del pueblo... y vino a enterrarse en las minas. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Y Dios se lo pague a la señora, de gloria. ¿Qué hubiera sido de mí sin mi <rs key="#roqu">Roque</rs>? ¿Servir en otra casa? ¡Ay; yo no servía para eso! Otros amos, no.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Te buscaron a <rs key="#roqu">Roque</rs>? </p>
+					</sp> 
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Sí; me lo buscaron Dios y la señora.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¡Dios! ¿Pues merecías tú castigo? </p>
+					</sp> 
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p><stage>(En pie.)</stage>¡Señorito! También yo tengo que explicarle algo... <stage>(Pausa.)</stage> Para que nos entendamos. Yo a usted no quiero engañarle. Pero no sé decir lo que quiero. Hay cosas aquí dentro tan revueltas, que no les encuentro el nombre; entiéndame usted como pueda. Después que uno se casa... si se casa bien, como yo..</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Yo no sé nada de eso; porque yo no me he casado... </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Yo sí porque tenía miedo al hambre, a ser esclava, a humillarme, a estar sola en el mundo, a que me perdiera la miseria... usted no entiende de esto, señorito. Por muchas cosas... así... dulces... como de música, que tenga uno allá dentro... viviendo así... al aire libre, sin casa, sin amigos, sin pan seguro... se entrega uno a otra cosa más triste, más fría, más segura... más terca... Pero, después, en esa misma vida que es... como áspera, cuesta arriba, sin gracia, pena de cada día, de cada hora... sin consuelo de soñar, de sentir aquellas cosas de que hablaban los libros que me leía la señora... en esa misma miseria sin luz... va apareciendo una suavidad, una costumbre... un calor, un apego... y... yo, señorito, doy por usted la vida; pero no me hable mal de <rs key="#roqu">Roque</rs>.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Mal, no; pero hay que hablar de él y de mí, y de ti, y de todos. Cuando saliste de casa, porque mi madre sospechaba que yo te admiraba demasiado y temía que no pudiera contener mi... afición, como tanto tiempo la contuve... cuando consentí aquella crueldad... </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¿Crueldad de quién? ¿crueldad de una santa?</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> No; no es eso. Crueldad... del mundo, de las preocupaciones de clase, de los artificios sociales... tú no entiendes esto. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No; no lo entiendo. Sólo sé que <rs key="#roqu">Roque</rs> habla mucho de eso mismo cuando se exalta, cuando se desespera, cuando le falta la paciencia; y cuando le hacen beber esos miserables.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Cuando saliste de casa yo debí oponerme... o seguirte. No hice nada de eso. Entonces no comprendía lo que iba a perder, perdiéndote. La poesía del sacrificio inculcada en mi corazón y en mi cerebro por mi madre, por mis lecturas, por mis meditaciones, me hacía ver muy hermoso el dolor de perderte, de no seguirte, ¡egoísta! sin reparar que había algo más que hacer que ser bueno pasivamente, como un esclavo. Yo debí seguirte, hacerte mía... Pero venció el respeto, venció el sacrificio... lo que creí el deber. Y a poco me vi solo en el mundo; sin mi madre, sin ti. Y a ti, ¡cómo te encuentro!  <stage>(Pausa.) </stage> No hablo de tu hermosura, no: no quiero ofenderte, no quiero molestarte. No quiero, ni puedo explicarte cómo para mí esa palidez, esos ojos tristes, esos pómulos que denuncian el martirio de la miseria como clavos de una crucifixión, hundidos en el rostro... en vez de borrar la gracia que siempre vieron en ti mis ojos y mi alma, la aumentan, la hacen sublime hermosura. ¡Tú no sabes, tú no puedes saber, cómo y por qué yo estoy al cabo de la calle de todos los engaños de la vida, y no creo en clases, y veo en tus harapos atavíos de princesa espiritual; tú no sabes lo que vales; tú no sabes lo que eres; tú no puedes saber cómo ni por qué vínculos que tú respetas, que tú tienes por santos, porque te lo enseñaron mi madre y tu corazón de mártir, para mí son vínculos, barrera, abismos, sólo porque tú quieres! ¡No se hable de que te quise; no se hable de que te quiero, ni de que te necesito; no se hable de que te respeté como a una santa cuando estabas en mi casa, durmiendo cerca de mi lecho, y los dos éramos jóvenes, lozanos, llenos de salud y de ilusión, y de esperanza, y de deseo... y yo leía en tus miradas furtivas, en los relámpagos de gloria que sin querer vertías sobre mi alma, que tú también hubieras sido para mí si te dejaran, si se pudiera!... ¡Ay, sí; se podía! ¡Eso ignorábamos! ¡Se podía!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Basta!... ¡Basta, señorito! Yo también quiero hablar. Mientras callo, le estoy engañando... y no quiero engañarle. Aquí se trata de todo menos de lo que más importa: de <rs key="#roqu">Roque</rs>, de esta casa, de esa hija que duerme ahí cerca... oiga, oiga cómo respira: ¡qué tranquila! ¡qué confiada! Se durmió sin cenar, con un pedazo de pan en la boca... porque no siempre han de ser patatas... óigala; ¡qué tranquila, qué confiada en su madre! Así trabaja <rs key="#roqu">Roque</rs> en la mina, en el campo: confiado, seguro de mí, de su casa... Si un miserable mal pensamiento me pasara por aquí, <stage>(La frente.)</stage> mientras mi hija duerme o mi marido sufre en la mina, gastando la vida en ganarnos el pan... ¡con estas manos, me arrancaba esta cabeza!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>  ¡<rs key="#tere">Teresa</rs>, me estás ofendiendo mucho! Ya conozco que no me quieres nada, cuando tan mal me entiendes. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No sé si le ofendo; pero sé que no le quiero mal... Y, si a hacer daño vamos... ¿por qué me habla de lo que no se puede hablar... de lo que no se habló nunca?... Si todo aquello fue gloria, ¿por qué nos la enturbia ahora... desde lejos? Nunca me avergonzó el señorito metiéndose a averiguar lo que yo miraba, lo que yo sentía. Callamos siempre los dos. ¡Bien haya lo que callamos! No se arrepienta; no se arrepienta de haber obedecido a la señora; de haber respetado el único bien que yo tenía... Calle ahora, que importa más que nunca, y no se llame a engaño... créame a mí, que he padecido mucho... A veces... para ciertas penas, las mayores, nadie me acompaña a sufrir... Pero mientras soy buena, me parece que no estoy sola. A los malos se les muere el Ángel de la Guarda.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>  Sé buena; pero no como yo lo fui, dejándote marchar para caer en la miseria. No seas buena, olvidándote tanto de mí. Lo que yo digo es esto: que no puedo sufrir el tormento de que tú, a quien tanto quiero y necesito, y por esto te hablo de que te necesito y te quiero, padezcas hasta el martirio esta clase de dolores groseros, materiales: la miseria, los trabajos forzados; y la soledad de tu alma en el trato soez, áspero y brutal de estos... desgraciados. ¡Yo no puedo consentir eso! No; no puedo. Me remuerde la conciencia y me sangra el corazón. Mira como yo te veo; como yo te tengo que ver; para mí, tú eres mi mujer; mi mujer a quien yo por egoísmo brutal, por estupidez, abandoné un día... y que ahora encuentro cubierta de harapos, arrastrando el peso de una montaña de deberes que la oprimen, la humillan, la matan...! ¡La idea de que tienes hambre, de que te... maltrata un hombre, a ti, a mi <rs key="#tere">Teresa</rs>! ¡No; imposible! ¡Todo esto va a acabarse!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p><stage>(Fría y solemne.)</stage> ¿Cómo? </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>  No sé; pero se acaba. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No olvide, señorito, que siendo <rs key="#roqu">Roque</rs> quién es, y cómo es, usted no puede hacernos ningún bien, y puede hacernos mucho daño.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Pues ¿cómo es <rs key="#roqu">Roque</rs>?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Figúrese que hubiera condes y marqueses, de eso que usted decía antes... del... socialismo... o cosa así; en fin, marqueses del orgullo de los pobres. Pues mi <rs key="#roqu">Roque</rs> es marqués, y duque, y conde. ¿No me entiende? Que para <rs key="#roqu">Roque</rs> hay clases, y la de usted es maldita; piensa, y no se trata de que tenga razón, sino de que lo piensa, y aquí es el amo, que de los señores no puede venir nada que no manche, que no deshonre si no se lo arranca la justicia del pueblo. Quiere lo que tienen los ricos para repartirlo, o no sé qué, pero no quiere nada de limosna. ¡Ay de mí, si de usted entrara un bocado de pan en mi casa! En cambio, no más con verle a usted aquí a estas horas, solo conmigo, ya creería que el señorito se lo había robado todo; porque, en rigor, ¿qué más tiene él que la honra que yo le guardo?</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¡Ah, por Dios, <rs key="#tere">Teresa</rs>, lo que dices! ¡Tu honra... a mí! ¡Ay, cuántas cosas has olvidado!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Eso, no, nada. Verá cómo recuerdo. Todas las noches, antes de meterse en su cuarto a velar, cuando la señora y yo nos íbamos a la cama, el señorito se quedaba paseando por aquella galería larga y estrecha. Al extremo estaba mi alcoba. Pasaba yo, y decía: ¡Buenas noches, señorito!  <stage>(<rs key="#fern">Fernando</rs>, que tiene oculta la cara entre las manos, inclinada la cabeza, hace signos de asentimiento.)</stage>  y entraba, y apagaba la luz... y oía sus pisadas que iban y venían... y ni una sola noche me cerré por dentro. Aquello sí que creería yo que sería ofenderle... A lo que usted era para mí... no le daba yo nombre... no soñaba con que usted me quisiera; no lo llamaba así, a lo menos. Pero de que estaba bien guardada por aquel centinela, estaba bien segura. ¿Acordarme? ¿Cómo he de olvidar aquella vida, si, cuando <rs key="#roqu">Roque</rs> grita furioso diciendo que no hay cielo... yo sé que por lo menos lo hubo? <stage>(Esto último lo dirá como ensimismada.)</stage></p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¡Ay, <rs key="#tere">Teresa</rs>!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Silencio!  <stage>(Ha creído oír algún ruido fuera. Se acerca a la ventana del primer término, y escucha; en el silencio de la escena se oirá, hacia la carretera del primer término izquierda, un rumor lejano, desigual, de voces, como de disputa, algunos gritos más altos a veces; todo vago y sordo todavía.) </stage>  ¡Ah, bueno fuera! <stage>(Se acerca a la puerta, la entreabre y saca fuera la cabeza para oír mejor, y observa.) </stage>¡Sí, es él; su voz; viene con otros... y ya está cerca! Pero, ¿cómo vuelve tan pronto? Y ya están ahí... ¡Señorito, señorito!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Pero, ¿qué pasa, qué tienes?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Perdone, don <rs key="#fern">Fernando</rs>; pero... tiene que marcharse. No: y por ahí, de frente, no: daría con ellos...</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Con quién? ¿Qué es esto? ¡Marchar! ¿Por qué?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> <stage>(Más enérgica.)</stage>  Sí, marchar, y sin que le vean; no hay más remedio. ¡Por Dios se lo pido! ¡Por mí... por todos!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> No te entiendo.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> <stage>(Impaciente.)</stage> Pues es bien claro: que viene <rs key="#roqu">Roque</rs>; que... no vendrá bueno; que no viene solo. Y no ha de verle a usted conmigo; solos aquí, a estas horas. <stage>(Le lleva del brazo hasta la puerta, sin oírle, atenta sólo a los de fuera.) </stage> </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¿Esconderme... yo huir de ti como un criminal? ¡Nunca! Tu marido, ¿qué puede sospechar?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> <stage>(Impaciente.)</stage> Pues es bien claro: que viene <rs key="#roqu">Roque</rs>; que... no vendrá bueno; que no viene solo. Y no ha de verle a usted conmigo; solos aquí, a estas horas. <stage>(Le lleva del brazo hasta la puerta, sin oírle, atenta sólo a los de fuera.) </stage> Y pronto, pronto. <stage>(Fijándose ahora en lo que <rs key="#fern">Fernando</rs> ha dicho.)</stage> ¿Sospechar? Nada. Todo lo dará por seguro; y con él los otros; ¡y cómo vendrá! -Por ahí, por ahí; por detrás del carro, a la carretera, hacia la mina, arrimado al seto...</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¡Nunca!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> ¡Ahora mismo! ¡Por la memoria de la señora! No podría usted hacerme mayor daño que quedarse. Si no escapa, le juro que estoy perdida. ¡Por la señora! ¡Por lo que más quiera!  <stage> (Vuelve a mirar fuera y se vuelve atrás de repente.)</stage> ¡Oh, rabia! ¡Mísera de mí! ¿qué culpa tengo yo? </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Pero, ¿qué es?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Que es tarde; que ya están ahí; que la luna alumbra traidora, y le verán si sale.   <stage> (Mantiene la puerta cerrada y sujeta.)</stage> ¡Don <rs key="#fern">Fernando</rs>! </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> Pero... si... parece mentira...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Parece mentira... y hay que esconderse. Viniendo, como de fijo vendrá, ese infeliz; viéndole gente, compañeros; siendo usted un señor, el que yo llamo el señorito, el que me ha hecho a mí servil, como él piensa... y a estas horas, aquí solos, juntos, sin él saberlo... y como vendrá... ¡oh! de seguro, no le respeta.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p> ¡Cómo se entiende!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> Si no es por usted; si es por mí... por lo único mío que no es un andrajo, una miseria; por esta honra que tan bien guardaban usted y su madre, allí en el palacio de Soto... ¡Porque yo no quiero que mi <rs key="#roqu">Roque</rs> me crea mala... y haya aquí sangre... y deshonra!... ¡Por esa hija que duerme con hambre! <stage>(Se oyen más cerca los gritos; aparece en el primer término izquierda un grupo, en medio de él, <rs key="#roqu">Roque</rs>, vociferando.) </stage></p>
+					</sp>
+				</div>
+
+				<div n="7" type="scene">
+					<head>Escena Séptima</head>
+					<stage><rs key="#tere">Teresa</rs> y <rs key="#fern">Fernando</rs> en la casa; fuera <rs key="#roqu">Roque</rs> y grupo de <rs key="#min1 #min2">Mineros</rs>.</stage>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker>
+						<p> ¡Vaya! ¡Basta! No necesito de nadie. Sé andar solo.  <stage>(Da algunos pasos vacilantes. El pie herido, lo apoya apenas en el suelo; trae destrozado el pantalón por debajo y el zapato con manchas de barro y sangre y medio deshecho.) </stage>¡Ah, rayos! <stage>(Grita así al sentir el dolor del pie, que quiere apoyar en tierra. Se inclina para apoyarse en el montón de grava y no caer. Se le acercan los del grupo, que muestran solicitud y animación de gente que ha bebido demasiado.) </stage></p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker> 
+						<p> Vaya, vaya; a la cama. <rs key="#tere">Teresa</rs>, aquí tienes a éste; abre.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> <stage>(Que habrá estado como deliberando dónde podrá esconder a <rs key="#fern">Fernando</rs> y persuadiendo a éste.)</stage> No, ahí dentro, no; por mal que venga, no se acostará sin ver cómo duermen la niña y <rs key="#rita">Rita</rs>. Por ahí tampoco; es nuestro cuarto. No hay más remedio; detrás de esa escalera; en ese hueco. Arriba es el pajar; está cerrado... no está aquí la llave; ahí, ahí detrás. ¡Qué vergüenza, señorito, qué vergüenza! ¡Perdón, perdón!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker>
+						<p>Bueno, calla. ¡Pobrecilla mía! No padezcas tanto. No me importa; algo he de hacer por ti. Allí espero... ¿Allí no irá?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker>
+						<p> No; primero me mata. ¡Pero, por Dios, don <rs key="#fern">Fernando</rs>! Que vea usted lo que vea, oiga lo que oiga... no puede ser nada que me haga más injuria que el salir usted y que se encuentren.<stage> (El grupo de fuera habrá estado hablando confusamente.)</stage></p>
+					</sp>
+
+					<sp who="#min2">
+						<speaker>Minero 2º</speaker> 
+						<p> Bueno, adiós. Y santas noches. Mañana... ya se sabe, ni uno solo a la mina. Todos a la Foz, al monte. ¿Irás <rs key="#roqu">Roque</rs>... si te deja la herida?</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p>¡Rayos! Iré... y arda el mundo. Y si vienen los guardias, ¡a ellos! ¡Miserables! Son verdugos; son cómplices. </p>
+					</sp>
+
+					<sp who="#min1 #min2 #min3">
+						<speaker>Mineros</speaker> 
+						<p>  ¡Buenas noches! </p>
+					</sp>
+
+					<sp who="#otro">
+						<speaker>Otros</speaker> 
+						<p>  ¡Buenas noches, <rs key="#roqu">Roque</rs>! </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> No, esperad un momento; quiero que se vea... que se vea... ¡<rs key="#tere">Teresa</rs>! <stage>(Gritando.)</stage>que vean que el Chinto miente como un canalla; ¡<rs key="#tere">Teresa</rs>! abre de par en par, que pasen éstos; que vean que en mi casa no entra, sin mi permiso, a escondidas, ningún burgués infame... ¡<rs key="#tere">Teresa</rs>! ¿No sales? ¿Qué es esto?<stage>(Abre <rs key="#tere">Teresa</rs> la puerta. <rs key="#roqu">Roque</rs> se incorpora con dificultad.) </stage></p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker> 
+						<p> No seas loco.</p>
+					</sp>
+
+					<sp who="#min3">
+						<speaker>Minero 3º</speaker> 
+						<p> Estás algo... ves turbio.</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> No, veo claro... para defender mi honra... </p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker> 
+						<p> ¡Bah! ¿Quién piensa...? Aquí nadie dice... ni nos importa. El Chinto es una mala lengua.</p>
+					</sp>
+
+					<sp who="#min2">
+						<speaker>Minero 2º</speaker> 
+						<p> Te envidia, porque tienes amigos, partido...</p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Uno</speaker> 
+						<p> Y te odia porque le pinchas.</p>
+					</sp>
+
+					<sp who="#min3">
+						<speaker>Minero 3º</speaker> 
+						<p> Y haces bien; está vendido a los de arriba, a los que nos explotan.</p>
+					</sp>
+
+					<sp who="#min1 #min2 #min3">
+						<speaker>Todos</speaker> 
+						<p> ¡Buenas noches, buenas noches!</p>
+					</sp>
+
+					<sp who="#min1">
+						<speaker>Minero 1º</speaker> 
+						<p> Hasta mañana.</p>
+					</sp>
+
+					<sp who="#min3">
+						<speaker>Minero 3º</speaker> 
+						<p> En la Foz. <stage>(Desaparecen por varias partes, y a paso lento los <rs key="min1 min2">MINEROS</rs>.) </stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¿Estás sorda? ¿Qué hacías? ¿Por qué no vienes? Abre ahí de par en par; que vean todos que en mi casa no hay señores. </p>
+					</sp>
+				</div>
+
+				<div n="8" type="scene">
+					<head>Escena Octava</head>
+					<stage><rs key="#tere">Teresa</rs> y <rs key="#roqu">Roque</rs>; <rs key="#fern">Fernando</rs>, escondido.-</stage>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¿Qué es esto, <rs key="#roqu">Roque</rs>? ¿Por qué vuelves tan pronto? ¿Qué tienes? </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> Se han marchado. No quieren entrar; no quieren ver... </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Entra tú.</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡Silencio! ¡Déjame! ¡Maldita casa! ¡Maldita mujer!... ¡Cómo atáis; cómo atáis a la miseria... y al miedo... al miedo de perder el pan... y la honra; ¡oh, yo quería ser libre! ¡Para luchar, para vengarme!... Para no deber a ese miserable, a ese judío... que me insulta, porque me tiene atado... porque... ¡Tú tienes la culpa de todo! <stage>(Airado.) </stage> </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡<rs key="#roqu">Roque</rs>, por Dios, <rs key="#roqu">Roque</rs>! Entra... ¿No puedes andar? ¿Qué tienes?</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡Será la borrachera, mujer! ¿Por qué no lo dices? ¿Por qué no me lo echas en cara? Sí, el aguardiente; es eso; el veneno que nos vende el burgués para embrutecernos, y volvernos locos... y tener él razón y perdernos. <stage> (Tropieza, y se lastima en el pie herido.) </stage> ¡Ah, rayos!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¿Qué es eso? <stage>(Con ansiedad.)</stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡Eh! <stage> (Con desprecio.)</stage> Quita... nada. </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¿La herida... otra vez abierta? Entra, entra... <stage> (Quiere ayudarle a entrar.) </stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡No te acerques... o no respondo!...<stage> (Entra él solo en la casa con dificultad; se sienta en el banco junto a la mesa; apoya el pie en ésta, y la cabeza en la mano.)</stage> </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> <stage>(Entrando.)</stage>Pero yo, ¿qué te he hecho? ¿Qué pasa? ¿Por qué vuelves tan pronto? Déjame ver...<stage> (Señalando al pie herido.) </stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡No te acerques! Y abre esa puerta... que me ahogo; y quiero que todos vean mi casa donde no hay burgueses... donde no hay señoritos. <stage> (Se levanta.) </stage>¡Digo! Me parece... Habla tú... ¿Hay aquí algún miserable? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Por Dios, <rs key="#roqu">Roque</rs>, deliras!... ¿Qué es esto?</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡Por Dios! ¡Por Dios! La beata; la santurrona; servil, siempre servil. ¡Por ti todo! ¡Por ser quien eres! ¡Por venir de donde vienes! ¡Ah, no sabes lo que sé! El Chinto contaba la historia a grito pelado en la taberna. ¿No lo sabes? Tu señorito, el don <rs key="#fern">Fernando</rs>, ese que para ti era un Dios, un ángel, un santo... ¡qué sé yo! ¡El hijo de tu ama, la que te hizo a ti santa, servil... pues ese, ese... viene a las minas a tenernos lástima; a estudiarnos... y a darnos una limosna a ti y a mí... porque dice el Chinto que fuiste su criada, ¡y eso es verdad! Y que allá en el palacio de Soto, te querían mucho, mucho... demasiado... ¡Rayos! ¡Me engañaste miserablemente!... ¡Me buscaron a mí... para...! </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Estás loco, pobre <rs key="#roqu">Roque</rs>! ¿Tú crees en mí...?</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡Nada! ¡No! ¡Te mataba! ¡Te aplastaba!... Pero el Chinto lo decía, y yo me arrojé a matarlo... Y basta que lo pueda decir; que tenga algo a que cogerse... Tú siempre con tu señora; con tu palacio de Soto. ¡Yo no quiero mujer! No quiero casa; no quiero honra que guardar; pan que ganar para vosotras... quiero ser solo, y batirme con quien me explota, cuerpo a cuerpo, el burgués y yo. Conspirar; sublevar la mina; y las otras, las del hierro, para hacer puñales, y guillotinas, y balas, y cañones... ¡quiero sangre! La de tus señoritos santos, que explotan al pueblo... y después lo estudian y le tienen lástima, y le arrojan limosna! </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Cálmate un poco, <rs key="#roqu">Roque</rs>. Siéntate. Ese pie sangra. ¡Dios mío, sangre! Déjame ver... ¿pero, qué fue? ¿Cómo fue?</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡No te acerques!... Yo estaba leyendo... leyendo el papel a los compañeros; y el Chinto, en otra mesa, se reía, y cuando le insulté por miserable, por vendido a los que nos explotan, a los amos; cuando le dije que él era un esclavo asalariado del burgués y yo un obrero leal, que me debía a mis ideas, -«Cuéntame entre tus ideas» me gritó el Chinto.- ¿Por qué? «Porque a mí también me debes algo.» -Perdí la vista... así como ahora... que no veo; pero allá, por dentro, vi rojo, vi sangre... Me arrojé sobre el bandido, pero caí a tierra; sentí aquí un dolor, tropecé con no sé qué... me sujetaron: y la herida de la mina, del maldito peñasco, echaba sangre, dolía como un infierno... Quise levantarme y matar a aquel hombre, pero no me dejaron. Me sujetaban... y a él la lengua no; y decía... eso... que tú... que el señorito... <stage>(Exaltación súbita.)</stage>¡Ah! y todo es posible. Porque los señoritos roban la honra del pueblo como cosa de poco precio. Y tú, tú piensas como ellos; tú te burlas de mí, de mis ideas, me tienes atado, esclavizado... por ti soy servil... aquí... en la mina; por ti no tiene pan mi <rs key="#rita">Rita</rs>, la que me dejó mi madre, mi pobre <rs key="#rita">Rita</rs> enferma... que no me engaña, que nunca fue, como tú, una miserable criada, esclava... ¿Callas, callas? ¡es que eres culpable! ¡Hipócrita, defiéndete, que te mato! <stage>(Avanza amenazador con paso vacilante.) </stage></p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Estás ciego, loco... <rs key="#roqu">Roque</rs>! ¡Mira lo que haces, loco, ciego!  <stage>(Retrocediendo hacia la puerta. Ve a <rs key="#fern">Fernando</rs> que sale de su escondite para lanzarse sobre <rs key="#roqu">Roque</rs>, el cual le da la espalda, persiguiendo con paso difícil a <rs key="#tere">Teresa</rs>. Ésta, al ver la actitud de <rs key="#fern">Fernando</rs>, se precipita sobre el banco que hay junto al hogar y coge el cuchillo que está allí entre pellejos de patata. Blandiendo el arma contra su pecho, amenaza con herirse con ademán tan enérgico, claro y resuelto, expresión capital que se fía al talento de la actriz, que no deja lugar a duda a <rs key="#fern">Fernando</rs> respecto del intento. <rs key="#fern">Fernando</rs> vacila, pero al fin retrocede, se esconde, ante la actitud de <rs key="#tere">Teresa</rs>.) </stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡Ah! ¿qué es eso? ¿Me amenazas? ¿Tú a mí? Aquí anduvo el señorito. Nunca has hecho eso. Consejos del señorito, ¿verdad? Eso quiero yo: ¡guerra, sangre! No: pero yo no te mato... Espera... espera... me falta algo... la luz... ya... sé... la vara del guardia... allá dentro la tengo... Ya la conoces... se la arranqué a un guardia que azotaba a un minero el día de la huelga... ¿Dónde está, mala pécora? ¡Ay de ti si la has escondido! Si no parece, con esto te aplasto. <stage>(Sacudiendo en la mano la lámpara de minero que estaba sobre la mesa. Sale, arrastrando el pie, tropezando con todo, por la puerta del segundo término de la derecha. Se ha de notar en su gesto, voz y actitudes, que la excitación aumenta por momentos el desvarío de la embriaguez y la ira.)  </stage></p>
+					</sp>
+				</div>
+
+				<div n="9" type="scene">
+					<head>Escena Novena</head>
+					<stage><rs key="#tere">Teresa</rs> y <rs key="#fern">Fernando</rs>.<rs key="#tere">Teresa</rs> se deja caer sollozando sobre una silla de paja que hay cerca de la ventana. <rs key="#fern">Fernando</rs> sale de su escondite.</stage>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Oh!  <stage>(Levantándose asustada al verle.) </stage> </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p><stage> (Mostrando el efecto que le ha producido la lucha interior mantenida para contenerse, y no salir antes.) </stage>¡Basta! </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> No; no basta. A la calle; pronto. Huya usted. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p>  Ven tú.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Locura, perdición! A la calle; pronto... fuera. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p>  No; o vienes o me quedo... y le mato.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p><stage>(Coge otra vez el cuchillo.)</stage> O sale, o escapa, o muero yo: juro por Dios y por la santa señora difunta, que muero yo. Créame, señorito; no he mentido en mi vida... ¡Muero! ¿No me conoce en los ojos que es verdad que muero; que me clavo si él vuelve y usted se queda? ¡Luego, o clavo!... </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p>Un instante. Soy un hombre. Huir sería cobarde... ¡Sin defenderse! ¡Sin salvarte!... Va a venir... con la vara del guardia. ¡Ay, que ya la conoces! ¡Ah, maldito!... ¡Y me dices que ese hombre es bueno!...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> No digo bueno ni malo; es mi hombre; soy suya. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> La vara del guardia.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Mentira... sueña... está loco... No pega. </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> ¡Sí pega!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p><stage>(Mesándose los cabellos.) </stage>¡Pero qué le importa a nadie lo mío! ¡Mi casa es mía! ¡Nuestra vida, nuestra! ¡No me ofenda, señorito! ¡Esta limosna tampoco yo la quiero! ¡Pues salga usted o muero, y muero yo, y morimos todos! <stage>(Vuelve a amenazarse con el cuchillo.) </stage></p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p><stage>(Dentro.)</stage> ¡<rs key="#tere">Teresa</rs>! ¿Con quién hablas? <rs key="#tere">Teresa</rs>, ¿qué es esto?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p><stage>(Arrebatada por el pavor, coge a <rs key="#fern">Fernando</rs> por medio del cuerpo, le impele hacia la puerta, que cierra por dentro con cerrojo y se vuelve de frente a la habitación en que habla <rs key="#roqu">Roque</rs>. Al arrojar a <rs key="#fern">Fernando</rs>, en voz baja, enérgica, dice.) </stage> ¡Fuera digo; fuera!</p>
+					</sp>
+				</div>
+
+				<div n="10" type="scene">
+					<head>Escena Décima</head>
+					<stage><rs key="#tere">Teresa</rs> y <rs key="#roqu">Roque</rs> en la casa; <rs key="#fern">Fernando</rs> fuera.<rs key="#roqu">Roque</rs> aparece en el umbral, donde se detiene, apoyándose en el marco de la puerta. Cada vez anda con más dificultad. Dará muestras de gran fatiga, postración sombría, más furor, pero más ciego, incoherente y de difícil expresión.</stage>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¿Con quién hablabas?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p>Sola; con tus injurias.</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> No te entiendo... no veo... Tengo aquí plomo, <stage>(En la cabeza.)</stage>y aquí cien perros de presa. <stage>(En el pie herido.) </stage> </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p>Déjame ver...</p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡No te acerques! ¿Qué buscaba yo? ¡Ah!... ¡No sé! <stage>(Furioso.)</stage> ¡Sí sé! Buscaba... a ese; a ese con quien hablabas. ¡Era tu don <rs key="#fern">Fernando</rs>! Luego no mentía el Chinto. Él le vio en la sombra; en el sendero de la Foz, dijo... venía aquí... ¡Mala mujer! dónde le escondes? Que salga ese cobarde, ese burgués maldito, que no cree, ¡como ninguno cree!, en la honra de los pobres. ¡Claro! Por eso se atreven con nuestras hijas, con nuestras mujeres. «¡Como tienen hambre, no tendrán vergüenza!» ¡Oh! que salga el tuyo y verá si muere, si paga por todos.<stage> (<rs key="#tere">Teresa</rs> habrá estado sacando del armario un vendaje.) </stage> ¿Dónde estás? ¿No me oyes? </p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p>Sí; aquí... </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡Contesta, discúlpate, miserable! ¡Pero no te acerques! Fuera pamemas, no quiero tus cuidados; que venga mi hermana; que me cure ella; a ti te aborrezco.<stage> (<rs key="#tere">Teresa</rs> insiste en acercarse inclinada para ver la herida de <rs key="#roqu">Roque</rs>. <rs key="#fern">Fernando</rs> observa, por la ventana entreabierta, con ansiedad. Durante toda esta parte de la escena en que no habla, el actor suplirá con la sobria acción oportuna las palabras que serían inútiles, pues está solo en la calle. Al principio habrá intentado mantenerse en la puerta, para entrar en caso de apuro, pero notará que está cerrada por dentro; mostrará contrariedad, cólera, y se acercará a la ventana, desde la cual seguirá el diálogo de dentro con la expresión y gestos que el actor juzgue del caso.) </stage></p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Déjame curarte, <rs key="#roqu">Roque</rs>! ¡Sangras! <stage>(<rs key="#tere">Teresa</rs> se arrodilla con una pierna, y así, avanza hacia <rs key="#roqu">Roque</rs> como pretendiendo cogerle el pie herido. Procura <rs key="#roqu">Roque</rs> retirarlo, retrocediendo algo, y esquiva a <rs key="#tere">Teresa</rs> y llega a amenazarla con la lámpara de minero.)</stage> </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p> ¡No te acerques, causa de mi desgracia, de mi esclavitud, de mi deshonra... servil... criada villana, beata hipócrita!... ¡No te acerques, o te mato!... ¡Quita! <stage> (Rechaza a <rs key="#tere">Teresa</rs> con la mano que empuña la lámpara, y hiere con ella en la frente a su mujer. Brota sangre de la herida. Grito de dolor y espanto de <rs key="#tere">Teresa</rs>, que retrocede hacia la ventana, aturdida.) </stage></p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Ay de mí! </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> ¡Cobarde! ¡Miserable! <stage>(Desde fuera, metiendo los puños crispados entre las rejas de la ventana. <rs key="#tere">Teresa</rs>, que había llevado las manos a la frente, encogida, se yergue, se lanza a la ventana y la cierra de golpe; se coloca de espaldas a ella como antes hizo en la puerta. <rs key="#fern">Fernando</rs> mostrará la ansiedad de su situación, sin osar revelar su presencia; todas sus potencias, en adivinar lo que pasa dentro y no puede ver; pero sin distraer la atención del público, que debe concentrarse en la casa.)</stage> </p>
+					</sp>
+
+					<sp who="#roqu">
+						<speaker>Roque</speaker> 
+						<p><stage> (Cree que fue <rs key="#tere">Teresa</rs> quien habló; esto ha de hacerlo más verosímil el actor por el modo de su acción, y mostrando el progreso del mal en <rs key="#roqu">Roque</rs>, próximo al colapso.) </stage>¡Gracias al diablo que contestas! Mas, quiero eso, eso... ¡Así aplastaré en tu persona las malditas ideas de servidumbre que te enseñó la tunanta de tu ama... la que me endosó esta pécora!... ¡Oh! ¿qué es esto? ¡Me ahogo!... ¡<rs key="#tere">Teresa</rs>!... ¡Ven, <rs key="#tere">Teresa</rs>! ¡Yo estoy loco! ¡Aquí fuego... y plomo!... ¡Plomo! ¡Cómo pesan estos burgueses! ¡pesan sobre mi honra... aquí... encima del cráneo!... ¡<rs key="#tere">Teresa</rs>!... ¡Mi <rs key="#palm">Palmira</rs>!... ¡<rs key="#rita">Rita</rs>!... ¡Madre!... ¡<rs key="#tere">Teresa</rs>!...<stage> (Se desploma y cae al suelo, de espaldas, en cruz.) </stage></p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p>¡<rs key="#roqu">Roque</rs>!... ¡<rs key="#roqu">Roque</rs>! <stage> (Se lanza a él; le sujeta la cabeza, que apoya en sus rodillas.) </stage>¡Ya acabó todo!... ¡Ya pasó la tormenta! Pero, ¡cómo pasa!... ¡cómo acaba! Y hoy más feroz que nunca... Salió sin cenar, excitado; y allá, ese Chinto infame... ¡Ah! Pero no; no será nada. Será lo de siempre: el pasmo de siempre. ¡Triste veneno te dan esos malditos! ¡Pago yo, pagas tú, todos! ¡Santa madre de Dios!... ¡qué vida!... ¡qué vida! ¡Ah, miseria! ¡Mal haya! (Se desploma y cae al suelo, de espaldas, en cruz.) <stage>(Voz de lágrimas.) </stage> ¡Todo es la miseria! <stage>(Inclina la frente sobre el pecho de <rs key="#roqu">Roque</rs>, cuya cabeza ha dejado suavemente en tierra.)</stage> Pero ahora, ¿cómo le levanto de aquí?... ¿Cómo le llevo a la cama... yo sola? No puedo con él. ¡Despertar a <rs key="#rita">Rita</rs>... no! Dios hace que duerman siempre como piedras. No saben nada de estas cosas... <rs key="#rita">Rita</rs> sí. Algo sabe; pero calla: teme avergonzarme. Hoy no; hoy no ha oído nada. Hoy duerme ella como éste, como el hierro.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p><stage> (Ha notado el silencio del interior; crece su impaciencia: procura violentar la puerta; llama suavemente, y dice.)</stage> ¡<rs key="#tere">Teresa</rs>!... ¡<rs key="#tere">Teresa</rs>! ¡Por compasión!... ¿Qué sucede? ¡No puedo más! ¡Abre, o salta la puerta!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Ah! ¡Don <rs key="#fern">Fernando</rs>! Infeliz; lo que habrá padecido... Sí; le abro... Ahora no importa. ¡Que me ayude primero... y después que marche y que en la vida vuelva!<stage> (Abre a <rs key="#fern">Fernando</rs>.) </stage> </p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p>¿Qué es esto? ¡Mi <rs key="#tere">Teresa</rs>! ¿Ese hombre? <stage>(<rs key="#tere">Teresa</rs> extiende una mano hacia <rs key="#roqu">Roque</rs>.) </stage> ¡Ah! sí. Ya veo. Al fin, como un leño. Sus vicios hacen justicia a sus crímenes.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Silencio! ¡Es mi marido!... ¡Y es un hambriento!<stage> (Se acerca a <rs key="#roqu">Roque</rs> como amparándole.)  </stage> Ahora, está así, porque el hambre, el despecho, el afán, el miedo a la miseria... y los que venden veneno a los pobres en aguardiente y en papeles... le echaron ahí como un saco. Pero otras veces estuvo igual, sin dar pie ni mano... porque el gas de la mina le arrojó contra una peña. Y siempre viene a ser lo mismo. ¡Todo es hambre! La suya y la nuestra, que se le sube a la cabeza con el engaño de la traidora bebida...</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> Pero tú, tú... ¿por qué has de sufrir?... Yo no lo sufro. Esto se acabó para siempre. ¡No me exijas más! He padecido en estos momentos, más que en toda mi vida. Por ti... he sido un miserable... ¡Tuve que hacer... lo que haría un cobarde! ¡Oh, rabia!</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> No. Tampoco ha de insultarse a sí propio.<stage> (Sombría.)</stage> Nadie tiene la culpa de nada. Ahora, a lo que importa. Voy a sacar el jergón de este infeliz. Si le metiera en la cueva en que dormimos, se ahogaría. Hoy descansará aquí fuera. Me ayudará usted, señorito... Aguarde un momento. <stage> (<rs key="#tere">Teresa</rs> entra por la puerta segunda de la derecha. En tanto <rs key="#fern">Fernando</rs> se sienta lejos de <rs key="#roqu">Roque</rs> y oculta la cabeza entre las manos.)</stage> ¡Señorito, ánimo, ea! <stage>(Sale arrastrando un jergón.)</stage>	Ayude, y van dos; usted por la cabeza... yo por los pies para que no se lastime. <stage>(Colocan a <rs key="#roqu">Roque</rs> sobre el jergón en la misma postura que tenía en tierra.)</stage> No hay miedo, no; ahora no despierta. Mañana el pobre <rs key="#roqu">Roque</rs> no se acordará casi de nada. Algo le picará en la conciencia, pero eso se le quita poco a poco sudando en la mina. Si éstos son pecados, harto los purga allá dentro. <stage> (Se arrodilla para curar la herida a <rs key="#roqu">Roque</rs>.) </stage></p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> <stage>(Acercándose por detrás a <rs key="#tere">Teresa</rs>.)</stage> Pero tú le perdonas... pero tú olvidas... ¡Oh! ¡esta sangre! <stage>(Al ver que le resbala a <rs key="#tere">Teresa</rs> por la frente al inclinarse.) </stage></p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Es la suya...</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> ¡No! Es tuya...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Suya o mía... no importa; ¡es sangre nuestra!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> ¿Y no aborreces esta vida? ¿No desprecias y maldices al bárbaro y cruel que te maltrata? <stage>(<rs key="#tere">Teresa</rs> se pone en pie.) </stage></p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Despreciar! ¡Aborrecer! ¿Con qué derecho? Como su pan; duermo en su cama. Él me ampara contra todos. Me aguanta, le aguanto; esta es la vida. Lo que usted ve ahí... no es lo que yo veo. ¡Ay, señorito! Usted que es tan sabio, que ahora estudia a los pobres... nunca comprenderá lo que es el miserable. Yo lo sé, porque soy carne suya, y donde le duele, me duele. Como le ayudo a lavarse el cuerpo, que parece de diablo, cuando sale negro o encendido de la mina, con el pensamiento le lavo el alma, y se la veo limpia, con cara de domingo; enferma no más del hambre que taladra el cuerpo, y llega a los corazones. ¡Y basta! Y ahora váyase, que aunque duermen como piedras, por milagro podrían despertar <rs key="#rita">Rita</rs> o <rs key="#palm">Palmira</rs>, y oírle; y ya es tarde, muy tarde... ¡Oh, qué noche! <stage>(Se siente desfallecer, y cae sentada cerca de <rs key="#roqu">Roque</rs>.)</stage></p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p><stage>(Se acerca por detrás; se inclina, y le dice al oído.)</stage> De todos te acuerdas... menos de mí... y de ti...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Basta, don <rs key="#fern">Fernando</rs>! ¡Que adiós le digo!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> Y lo que yo he sufrido y sufro... ¿no es nada?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Dios se lo pague, pero hizo lo que debía.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> Pero fue terrible sacrificio. No importa. Todo está bien. Pero págamelo. ¡<rs key="#tere">Teresa</rs>, yo no puedo marchar así! <rs key="#tere">Teresa</rs>... sígueme; ven conmigo. Haz algo tú por mí, ven... que yo no puedo dejarte en esta vida de infierno.</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Ésta es vida de purgatorio; de infierno, sería esa otra.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> Llevaremos a tu hija... duerme; sin despertarla. Tal vez podríamos llevar la...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Sí, eso. Robárselo todo. Pero por mucho que le robáramos, no le robaríamos lo que es suyo aquí, en mi corazón.</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> <stage>(Retrocede un paso.)</stage>¡Bien! ¡Basta! ¡Adiós! <stage>(Va hacia la puerta.) </stage>Con eso lo dices todo. En fin, que a él le quieres, y a mí...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Ya lo creo que le quiero! Y a usted, don <rs key="#fern">Fernando</rs>, ¿no le quiero? <stage>(Acercándosele, pero llevándole suavemente hacia la puerta.)</stage> Lo que yo no quiero, es que mi señorito padezca solo... viva solo allá en el mundo; no quiero que cuando le dé el mal de sus angustias, de las ansias, no tenga un regazo en que apoyar la cabeza. ¡Y no lo tiene, no lo tiene! <stage>(Ya estará fuera <rs key="#fern">Fernando</rs>, y <rs key="#tere">Teresa</rs> en el umbral.)</stage> ¡Búsquelo, señorito! ¡Cásese, cásese por Dios; que tenga quién le quiera, quién le acaricie y le consuele en sus angustias!... No, no esté solo; ¡yo no quiero que mi señorito esté solo!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> <stage> (Enternecido.) </stage>¡<rs key="#tere">Teresa</rs>! Pero... ¿y tú?</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> Yo no estoy sola... Y adiós, adiós; no más, no más estar aquí. ¡No vuelva, no vuelva!</p>
+					</sp>
+
+					<sp who="#fern">
+						<speaker>Fernando</speaker> 
+						<p> Por ahora, no. Mi presencia, para ti es duelo, espanto, desgracia. Tu único bien, pobre mártir, es que yo marche. Adiós, adiós; mi dulce, mi pobre <rs key="#tere">Teresa</rs>; hija del alma de mi madre...</p>
+					</sp>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Eso! ¡Eso! La santa madre nos bendiga. <stage>(Según <rs key="#fern">Fernando</rs> se aleja lentamente, vuelve el rostro hacia la casa; <rs key="#tere">Teresa</rs>, sacando el busto fuera como si quisiera seguirle sin moverse, va dando más expresión de ternura a sus palabras de despedida.)</stage> Hasta... cuando Dios quiera... Buenas noches... <stage>(Ya no se ve a <rs key="#fern">Fernando</rs>.)</stage> Buenas noches, señorito.</p>
+					</sp>
+				</div>
+
+				<div n="11" type="scene">
+					<head>Escena Undécima</head>
+					<stage><rs key="#tere">Teresa</rs>; <rs key="#roqu">Roque</rs>, en tierra. Después que pierde el ruido de los pasos de <rs key="#fern">Fernando</rs>, se vuelve, a <rs key="#roqu">Roque</rs>, aletargado.</stage>
+
+					<sp who="#tere">
+						<speaker>Teresa</speaker> 
+						<p> ¡Y tú, mi pobre león! ¡Ah, otra vez la sangre! ¡Desatada la venda! <stage>(Corre a él; al inclinarse para atar la herida desatada siente la sangre que le resbala por la frente, y le nubla la vista.) </stage>¿Qué es esto? ¡No veo! <stage> (Lleva los dedos a la frente; ve en ellos la sangre.) </stage> ¡Ah; no es nada! <stage>(Rasga con prisa un pedazo de la venda de <rs key="#roqu">Roque</rs> que había desenvuelto, se lo ata como quiera, con fuerza, alrededor de la frente y sigue ligando el pie de <rs key="#roqu">Roque</rs>, siempre inmóvil, en cruz. Como contestando a su pensamiento.)</stage> ¡Yo aquí!... ¡Siempre aquí!... ¡Junto al hombre de mi cruz...! ¡Al pie de mi cruz... que sangra! <stage>(Telón.)</stage></p>
+					</sp>
+				</div>
 			</div>
-
-			<div  type="scene" n="2">
-				<head>Escena Segunda</head>
-				<stage><rs key="#rita">Rita</rs>; <rs key="#roqu">Roque</rs> y varios mineros.Llega al primer término de la izquierda un grupo de mineros, entre ellos <rs key="#roqu">Roque</rs>, el cual manifiesta al andar que tiene un pie herido: el zapato de este pie, roto por delante.</stage>
-
-				<sp who="#min2">
-					<speaker>Minero 2º</speaker>
-					<p> ¡Con Dios, <rs key="#roqu">Roque</rs>; y por la fresca, arriba; y otra vez al pozo! </p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker>
-					<p> ¡Mal rayo me parta si con estos mandrias se puede hacer una que sea sonada! </p>
-				</sp>
-
-				<sp who="#min2">
-					<speaker>Minero 2º</speaker>
-					<p> Para sonadas, las que hace allá dentro el gas cuando se le hinchan las narices. </p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker>
-					<p> <rs key="#roqu">Roque</rs>, contigo se cuenta. Si ahora te quedas aquí un rato por que no diga <rs key="#tere">Teresa</rs>, en casa de la Eulalia te esperamos. No faltes: lleva el papel, ese que tan bien lo relata. </p>
-				</sp>
-
-				<sp who="#min2">
-					<speaker>Minero 2º</speaker>
-					<p> No seas bobo, <rs key="#roqu">Roque</rs>, no vayas. Gastarás los cuartos, beberás, mañana la dormirás, te meterán en el ajo de la huelga, aunque seas inocente... y ¡adiós pan, Dios sabe hasta cuándo! </p>
-				</sp>
-
-				<sp who="#min3">
-					<speaker>Minero 3º</speaker>
-					<p> Estos de la aldea siempre servilones; burros de reata... reses que van al matadero. </p>
-				</sp>
-
-				<sp who="#min2">
-					<speaker>Minero 2º</speaker>
-					<p> Vaya, con Dios. Ya empieza el predicador... ¡Lilailas! El pobre siempre sudará mucho para comer poco... Los papeles... la taberna... los sermones. ¡Lilailas! Siempre fue lo mismo. Vaya; buenas noches. <rs key="#roqu">Roque</rs>, cena, si hay qué; y a la cama. <stage>(Sale por la izquierda a paso lento bostezando.) </stage> </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¡Gallinas! Vamos andando. Si espero a esa, habrá matraca. ¡A casa de Eulalia! Yo me debo a los míos. Cuando el hombre tiene una idea... se debe a la idea. </p>
-				</sp>
-
-				<sp who="#min3">
-					<speaker>Minero 3º</speaker>
-					<p> Pero ¿no has dicho a <rs key="#tere">Teresa</rs> que te quedabas en casa? </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> <stage>(Se encoge de hombros.) </stage>¡Déjate de mujeres! A casa de Eulalia. El obrero defiende sus ideas donde puede... Si no hay más cátedra, más congreso, más púlpito que la taberna... en la taberna. Jesucristo iba a las tabernas a predicar el socialismo a los publicanos. </p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker>
-					<p> ¡Eso! ¡Vivan los publicanos! El papa es ahora publicano también. </p>
-				</sp>
-
-				<sp who="#min3">
-					<speaker>Minero 3º</speaker>
-					<p> ¡Pamplinas! ¡La política...! ¡El clero...! ¡Pamplinas...! No reventar de hambre y de trabajar, esa es la fija. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> Vamos, que va a llegar <rs key="#tere">Teresa</rs>. <stage> (Bosteza <rs key="#rita">Rita</rs>, y estira los brazos despertando.)</stage> ¿Quién está ahí? ¡Ah! ¡es mi hermana! ¡Esperad! ¡<rs key="#rita">Rita</rs>! <stage>(Se acerca a ella.)</stage> ¿Has metido la yerba? </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Sí; toda la que habéis dejado segada.   <stage> (Soñolienta y otra vez quitándose de la garganta y del pecho briznas del heno pegado a la piel.) </stage> </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¿Qué tienes? ¿sueño? </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Sí. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>¿Calor?  <stage>(Le pasa la mano por la frente y las muñecas.)</stage>  </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Mucho. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p><stage>(En voz baja.)</stage> ¿Y hambre?</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Sed. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p><stage>(En voz baja.)</stage> ¿Qué hay de cena?</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p>  Hay patatas. <stage>(Gesto de repugnancia.)</stage> </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>¿No cenarás?</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Si me deja <rs key="#tere">Teresa</rs>, me acuesto ahora. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>¿Sin cenar? </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Se me abre la cabeza, se me hunde el cuerpo. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¿Estás muy cansada?</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p>  Claro. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¿Has trabajado mucho?</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> ¡Qué remedio! </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¡<rs key="#tere">Teresa</rs>!</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Más que yo y más que tú. ¡Pobre; si no revienta...! Pero esa puede. Tiene más alma.</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>Te arde el pellejo. <stage>(Vuelve a tocarle las muñecas.)</stage> </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Más adentro ardo. </p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker>
-					<p> <rs key="#roqu">Roque</rs>, ¿vienes, o qué? </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¡Ah! sí... ¡voy! ¡voy! «¡Rayo en la miseria! ¡Que arda el mundo! Lo mejor es eso, ¡que arda el mundo!» <rs key="#rita">Rita</rs>, cena. Cena... chocolate si queda. Ya sabes lo que ha dicho el médico; sin comer no hay vida.   <stage>(A los mineros.)</stage> Vamos. </p>
-				</sp>
-			</div> 
-
-			<div  type="scene" n="3">
-				<head>Escena Tercera</head>
-				<stage>Dichos y <rs key="#tere">Teresa</rs>.El mismo traje aproximadamente que <rs key="#rita">Rita</rs>. Trae sobre la cabeza una herrada llena de agua que rebosa y le cae sobre los hombros, <rs key="#palm">Palmira</rs> viene cogida a la falda de su madre.</stage>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p><stage>(Se detiene frente a <rs key="#roqu">Roque</rs>.)</stage>  Pero ¿marchas? ¿No cenas? ¿No has dicho...? </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> Lo que digo es que me debo a los míos. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>¿Los tuyos? <stage>(Deja la herrada en tierra.) </stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> Los míos son mis compañeros; los explotados, los miserables... ¡En fin, a callar! Dale chocolate a <rs key="#rita">Rita</rs> y déjala que se acueste. </p>
-				</sp>
-
-				<sp who="#palm">
-					<speaker>Palmira</speaker>
-					<p>¡Padre, padre! <stage>(En tono de queja.) </stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>  ¿Qué hay, pulga?  <stage>(Coge en brazos a <rs key="#palm">Palmira</rs> que le enseña las manos vacías.) </stage> </p>
-				</sp>
-
-				<sp who="#palm">
-					<speaker>Palmira</speaker>
-					<p> Mira; madre me ha quitado la peseta que me había dado un señorito muy bueno. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¡Una peseta! <stage>(Deja a <rs key="#palm">Palmira</rs> en el suelo.)</stage> ¿Un señorito? A ver tú, <stage>(A <rs key="#tere">Teresa</rs>.)</stage>   ¿qué es esto? </p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker>
-					<p> Vaya, <rs key="#roqu">Roque</rs>, hasta luego. Nosotros vamos andando. </p>
-				</sp>
-
-				<sp who="#min3">
-					<speaker>Minero 3º</speaker>
-					<p> Si vas, vas. </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>  No, espera. Quiero que veáis esto. <rs key="#tere">Teresa</rs>, ya sabes mi genio. Aquí ha habido limosna. Esa peseta... ¿dónde está? ¿De quién es? ¿Qué señorito anduvo aquí? Tu señorito; tu antiguo amo, ¿no es eso? El sietemesino burgués que vino ayer a estudiar ahí dentro, en la mina, cómo sudábamos los pobres, cómo exponía la vida el obrero a cada momento. Ése fue. ¡Rayo en él y en ti! Ea, pronto; ¿dónde está esa peseta? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>La peseta, aquí está; quien se la dio a la niña, no lo sé. Yo no he visto aquí a ningún señorito; ni al mío, ni a ninguno.</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¡Rayo de Dios! Nadie te pide excusas. ¿Por qué? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>Por nada; pero como dices...</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>Tu señorito será un ángel, pero es un señorito, un miserable, como todos, que no creerá en la honra del pobre... venga esa limosna. El obrero no quiere limosna.  </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>Pero... si no es limosna.</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>¡Venga!</p>
-				</sp>
-
-				<sp who="#palm">
-					<speaker>Pamira</speaker>
-					<p>¡Es mía! ¡Es mía! <stage>(Llorando.)</stage>  </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p>¡Es del diablo! <stage>(Arroja la moneda lejos.) </stage>  ¡A callar todo el mundo! Ya lo veis amigos; yo predico, y hago lo que predico. La limosna envilece. La caridad, ¡pamplina! ¡humillación! ¡Derecho! ¡justicia! ¡venganza!</p>
-				</sp>
-
-				<sp who="#mins">
-					<speaker>Mineros</speaker>
-					<p>¡Eso, eso!</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¡Adelante! <stage>(Se dirige hacia la izquierda.) </stage> Cena y apaga la lumbre. ¡Ah! Y no olvides el chocolate de mi hermana. </p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker> 
-					<p>Teresa, buenas noches.</p>
-				</sp>
-
-				<sp who="#min2">
-					<speaker>Minero 2º</speaker> 
-					<p>Que te alivies, <rs key="#rita">Rita</rs>.</p>
-				</sp> 
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> No; pídele a Dios que sane, o que se muera; porque para el pobre, la enfermedad es el infierno. ¡Oh; por qué no habrá un gas malo, allá arriba, en las nubes, para que estallase, y saltara el cielo, el mundo, como revienta allá dentro la mina!... </p>
-				</sp>	
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Pero oye, <rs key="#roqu">Roque</rs>;<stage>(En voz baja.) </stage> mira que no hay...  </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> Que no hay justicia en la tierra; ya lo sé. A eso vamos; a buscarla. ¡Adelante, adelante! <stage> (Sale por la izquierda con los demás mineros.) </stage>  </p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="4">
-				<head>Escena Cuarta</head>
-				<stage><rs key="#tere">Teresa</rs>, <rs key="#rita">Rita</rs> y <rs key="#palm">Palmira</rs>.Mientras hablan <rs key="#tere">Teresa</rs> y <rs key="#rita">Rita</rs>, <rs key="#palm">Palmira</rs> entra sollozando en la casa; se sube sobre un banco de madera; busca en el cajón de la mesa; saca un pedazo de pan, y llorando y comiendo, se queda dormida en el suelo, junto a la mesa.</stage>
-
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>No hay justicia... ni hay caldo. ¡Pobre <rs key="#rita">Rita</rs>! <stage> (Mirándola y sonriendo con tristeza.) </stage> Tú bien lo sabes, no hay tal chocolate. <stage>(<rs key="#rita">Rita</rs> hace un gesto de resignación casi indiferente: extiende los brazos en cruz; hace un esfuerzo para andar, y acercándose a <rs key="#tere">Teresa</rs>, le echa un brazo alrededor del cuello.)</stage></p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p>Perdónale. Nos quiere mucho a todos. A mí... porque mi cariño le recuerda a nuestra madre. Antes de casarse contigo, y después de morir mi madre, yo era todo para él; y como me crié así... <stage>(Con desprecio de sí misma; algo airada.) </stage>enfermucha, ruin, casi inútil. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>¡Inútil! Si no fuera por ti, no podríamos con tanto. ¿Por qué cargas yerba? </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> ¿Y si llueve?  <stage> (Habla con dificultad, soñolienta, con voz débil.)  </stage>  </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>Yo la hubiera recogido.</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Sí, tú; todo tú. Ni tú ni él podéis con tanto. La mina, el ganado, el maíz, la colada, la ropa al río... <rs key="#palm">Palmira</rs>, yo... cargas y más cargas.  <stage>(Se levanta del montón de grava, donde habrá vuelto a sentarse. Procura seguir a <rs key="#tere">Teresa</rs> que habrá entrado en la casa, recogiendo antes la herrada.) </stage> Dejadme ayudar; ayudar, o morir. <stage>(<rs key="#tere">Teresa</rs> habrá dejado la herrada pendiente de un gancho, cerca del hogar. Sin ver a <rs key="#palm">Palmira</rs>, enciende un quinqué pobre, colgado cerca del hogar también, y vuelve a salir de la casa.) </stage>¡Dios mío; este sueño; este cansancio; esta cabeza! ¡Ah! La Gallarda no sé qué tiene; todo el día anduvo echándose por tierra. ¡Pobre vaca! Como yo; quiere y no puede... Pero ella es vieja; ya sirvió; ya trabajó... y yo... yo... <stage>(Muestra gran debilidad, y se deja caer otra vez en el banco de la ventana.)</stage> </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¿Tienes hambre?</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p>¡Hambre... puaf!  <stage> (Repugnancia.)   </stage>  </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>Bien; pero... necesidad... Iré a casa de la Chinta a pedir un poco de... </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> ¡No! Basta de favores que se echan en cara. ¡Si la oyeras esta tarde! Desde media legua se la oía... ¡qué vergüenza! Si <rs key="#roqu">Roque</rs> la oye un día, no sé qué va a pasar. Y el Chinto, el judío, el ladrón, también murmura; también echa en cara lo que se le debe.  <stage>(Pausa.) </stage> Es mucho, ¿verdad?  </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No sé; yo... yo, no mucho. Pero él, tu hermano... como...</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> <stage> (Avergonzada.)</stage> Sí; ya sé... Cuando esos malditos le sublevan... le emborrachan... ¡Esa Eulalia... con su taberna que Dios confunda! Él es el que paga, para que le oigan leer los papeles, y decir aquello de que él se debe a sus ideas... ¡Oh, pues yo a las mías no les debo nada bueno!  <stage>(Sombría.)</stage> ¡Porque... aquí... entre sueños... entre dormida y loca... tengo unas ideas!... Pero... puede más la fatiga que ellas. <stage>(Se levanta.)</stage> </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Vamos; entra; el sereno puede hacerte daño. Cena un poco, poco; y a la cama.</p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p>Patatas... no; no puedo. Comeré una corteza... no; tampoco; nada. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Si yo... encontrara esa peseta! <stage>(Mira vagamente en torno.) </stage></p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p>¿Quién es ese señorito? </p>
-				</sp>   
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¿Cuál? </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> El que estuvo aquí antes; el que besó a <rs key="#palm">Palmira</rs>. </p>
-				</sp>   
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¿La besó? </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Sí; y a mí... no sé qué me hizo. Me puso ahí sobre este banco, me parece; y me tornó el pulso. ¿Es médico? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No; creo que también escribe en los papeles; es sabio, ¡qué sé yo! Ahora estudia a los pobres. </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Pues ya tiene que leer. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> <stage>(Pensativa.) </stage>  Es muy bueno.  </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> ¿Fue tu amo? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Sí; es el señorito <rs key="#fern">Fernando</rs>; el hijo de mi señora. </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Nosotros nunca servimos. Debe de ser muy malo. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Todo es cruz. <stage>(<rs key="#rita">Rita</rs> se deja caer otra vez sobre el banco.) </stage> </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Pero es mejor servir al marido, al padre, al hermano. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Ya se sabe; eso... no es servir. </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Claro. Eso es...  </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Eso es... ser... </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> Claro; ser... lo que se debe ser.  </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Pero... ¿y <rs key="#palm">Palmira</rs>? </p>
-				</sp>
-
-				<sp who="#rita">
-					<speaker>Rita</speaker>
-					<p> <stage>(Que se va quedando dormida.) </stage>Allá dentro. <stage>(<rs key="#tere">Teresa</rs> entra en la casa. La niña ya está dormida. La coge en brazos después de quitarle el pan que le sobre y guardarlo en la mesa. Lleva a <rs key="#palm">Palmira</rs> por la primera puerta de la derecha, y muy pronto vuelve y sale de la casa.) </stage>  </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡<rs key="#rita">Rita</rs>! ¡<rs key="#rita">Rita</rs>! ¿qué es eso? <stage>(<rs key="#rita">Rita</rs> estará como desmayada o dormida con sopor.)</stage>Dormida... ¿o estará mala? ¡<rs key="#rita">Rita</rs>! ¡<rs key="#rita">Rita</rs>! ¿No cenas? Como un poste. Si la dejo aquí, la mata el fresco. ¡Y sin probar bocado desde medio día! ¡<rs key="#rita">Rita</rs>! ¡Bah! ¿qué remedio? Armas al hombro. <stage>(Procura cogerla en brazos.)</stage> Ay; pero ésta pesa más que mi ángel... No importa; al hombro.<stage>(Hace un esfuerzo, y cuando ya la tiene a cuestas, tocando los pies de <rs key="#rita">Rita</rs> en tierra, y <rs key="#tere">Teresa</rs> inclinándose bajo la carga y buscando, con un brazo extendido, un apoyo, se le pone delante <rs key="#fern">Fernando</rs>, que llega por el primer término izquierda. Hay luna, y de la casa sale un reflejo del quinqué.)</stage> ¿Quién anda ahí? ¡Ah! ¡El señorito! </p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="5">
-				<head>Escena Quinta</head>
-				<stage><rs key="#tere">Teresa</rs> y <rs key="#fern">Fernando</rs>; <rs key="#rita">Rita</rs>, que no habla más.</stage>
-
-
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Buenas noches, señorito! <stage>(Al tratar de incorporarse <rs key="#rita">Rita</rs>, se le cae la carga hacia un lado, <rs key="#fern">Fernando</rs> la sujeta y entre ambos la sostienen.) </stage> </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Está enferma? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>  Poca salud gasta. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Pero, ahora, ¿qué tiene? ¿Está en un accidente? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No. Eso... no será... Será sueño... cansancio... y mala comida... es decir, que, como está así, no tiene buen diente. Y el trabajo... No se sabe lo que es. Muchas noches... y a veces de día... es así... pero no tan de repente... no tanto. Si me ayudara... </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Pues ya lo creo; vamos adentro. ¡Infeliz! ¿Quién es? ¿Criada? <stage>(Entran en casa llevando a <rs key="#rita">Rita</rs> dormida.) </stage></p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No, señor. ¡Qué criada! No. Es hermana de <rs key="#roqu">Roque</rs>. No tiene padre ni madre. Es <rs key="#rita">Rita</rs>; nuestra <rs key="#rita">Rita</rs>. <stage>(Salen de la escena por la primera puerta de la derecha y vuelven a poco.) </stage> </p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="6">
-				<head>Escena Sexta</head>
-				<stage><rs key="#fern">Fernando</rs>, detrás; y a poco <rs key="#tere">Teresa</rs>.-</stage>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Parece que duerme profundamente.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>Como un madero. Siempre duerme así. Trabaja mucho y es de pocos alientos... ¡Es decir, alientos...! pero... vamos, que no responde la...  </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Calentura no creo que tenga; el pulso débil, pero regular...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¿También es médico el señorito?</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> No; pero cualquiera comprende...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Bah! ¡Lo que usted no sepa...! Tanto leer, tanto estudiar. Con las noches que yo le preparé la luz para velar y más velar había para aprender todas las sabidurías del mundo.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Te acuerdas de aquellos tiempos, <rs key="#tere">Teresa</rs>?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>  Y la señora, aunque no lo decía, ¡qué orgullosa estaba de tal hijo!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Te acuerdas mucho de nosotros; verdad? Tu hija se llama <rs key="#palm">Palmira</rs>, como mi pobre hermana.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Murió en mis brazos. ¡Pobre señorita <rs key="#palm">Palmira</rs>! Claro; mi hija como ella. A la señora no la vi morir. Ya estaba yo aquí en el valle. Me casé aquel año. Yo me casé en febrero y la señora murió en marzo. <stage>(Pausa. <rs key="#tere">Teresa</rs> nota que <rs key="#fern">Fernando</rs> la mira fijamente, y se impacienta, va y viene como desconcertada de la puerta de la calle al hogar.) </stage> </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Extrañas que te mire a la cara; que te observe...? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Yo... no. Es que... ¡Ay Dios! ¡Buena cosa mira! ¿Verdad señorito que parezco una sombra? Es el trabajo; los cuidados; la vida que ahora se hace, tan diferente de aquella, al lado de la señora. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> <stage>(Con resolución.)</stage> ¿Eres desgraciada, <rs key="#tere">Teresa</rs>? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>  Eso no; es decir... desgraciada... Todos los pobres son desgraciados. Dicen, que usted, don <rs key="#fern">Fernando</rs>, estudia ahora eso. Pues ya irá usted viendo que es así. Y eso que en los libros no se aprende lo que es el que tiene miseria, quiero decir, el que carece... No; ni en los libros, ni viéndolo. No basta verlo, señorito.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Eres tú también socialista como tu <rs key="#roqu">Roque</rs>? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>  ¿Quién le ha dicho que <rs key="#roqu">Roque</rs>...? </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> En la mina; sé quién es; que no es aldeano, aunque ahora se ayuda a vivir con esta poca tierra que lleváis en arriendo; sé que era armero allá en la ciudad... </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>  Allí le conocí yo. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Y tuvo que dejar el oficio por exaltado, por díscolo, por no tolerar la disciplina. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> <stage>(Impaciente.)</stage>  <rs key="#roqu">Roque</rs> trabaja como un león. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Y ruge. Dime la verdad, <rs key="#tere">Teresa</rs>; yo tengo derecho a que me digas la verdad. A eso he venido. Cuando te vi hoy por primera vez, después de tantos años, sentí no sé que... </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Se le puso una cara muy triste. Como si viera a una muerta. Ya lo esperaba yo: No me miro al espejo, pero sé que parezco otra. Siempre lo pensé: si el señorito vuelve a verme algún día, le pareceré un fantasma. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>¿Y tú no esperabas que nos volviéramos a ver? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Esperar... no sé. Ni sí, ni no. Hace mucho tiempo que no espero nada bueno... ni desespero. Todo puede venir.<stage> (Silencio.) </stage> </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Mira... <rs key="#tere">Teresa</rs>: por no hablarnos como debemos en este poco tiempo que podemos estar a solas, sin que nadie lo sepa, <stage>(<rs key="#tere">Teresa</rs> vuelve la cabeza hacia la puerta; después da en esta dirección un paso, retrocediendo sin volver la espalda a <rs key="#fern">Fernando</rs>.)</stage> me estás haciendo daño sin querer. Yo tengo que marchar sin falta mañana mismo, muy temprano; no sé cuándo podré volver... </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Volver! </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Sí; pero vuelva cuando vuelva, yo no quiero marchar así, sin saber cómo quedas; si eres muy desgraciada; si es verdad lo que oí en la mina... que tu <rs key="#roqu">Roque</rs>... ¡te maltrata!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>  ¡Ah, don <rs key="#fern">Fernando</rs>! ¿Quién ha dicho tal? </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> <stage>(Con mirada escrutadora.) </stage> En casa no sabías mentir. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Es que... es muy largo de explicar... <rs key="#roqu">Roque</rs>, mi <rs key="#roqu">Roque</rs>... vale más que esos que dicen... ¡yo no me quejo! ¡Nadie sabe nada! Ellos son los que mienten. <stage>(Exaltada.) </stage>  </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Tu <rs key="#roqu">Roque</rs>, sí; tu <rs key="#roqu">Roque</rs>; ya sabía yo; es tu marido; hay que quererle, sea como sea. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p>  ¡Claro! <stage>(Tono especial de convicción; con un timbre como extraño a la voz ordinaria de <rs key="#tere">Teresa</rs>.) </stage> </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¡Ay, ese claro! El claro de mi madre; sonó tu voz como la suya. ¡Claro! Siempre era claro el deber, el sacrificio. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Claro. Y para usted lo mismo. <stage>(Acercándose.)</stage> ¿A que no ha hecho el señorito en todos estos años, desde que es todo un hombre, y tiene obligaciones graves; a que no ha hecho nada de que tenga que avergonzarse? Pues yo lo mismo. <stage>(Voz enérgica, algo seca. <rs key="#fern">Fernando</rs>, que estará sentado hacia la derecha en primer término, se lleva una mano a los ojos. <rs key="#tere">Teresa</rs> le mira, en pie, frente a él. Olvidada de la puerta, se acerca más a <rs key="#fern">Fernando</rs>, nota que contiene su emoción, y se retira un paso, comprimiendo la suya.)</stage></p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Todo lo sé; todo lo sé. Pero... hay que atender a todos. <stage>(Transición.)</stage> Sólo te diré una cosa; tu <rs key="#roqu">Roque</rs> es tuyo; pero yo también... soy algo tuyo. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p><stage>(Voz temblorosa.)</stage> ¡Ya lo creo! ¡El señorito! El hijo de la señora; mi señorito. </p>
-				</sp>
-
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>Sí; pero mi señorito... no es un parentesco. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Yo me entiendo. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Pero no me entiendes a mí. A lo que iba: hace un año, solo en el mundo, en una fonda, tuve una enfermedad. Estuve en peligro de muerte. Era nervioso... una angustia infinita; horror de la soledad en que vivía; era como cuando... ¿te acuerdas? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Ah, don <rs key="#fern">Fernando</rs>, calle! ¡Por Dios, don <rs key="#fern">Fernando</rs>! </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿No me quieres oír? ¿No me das este consuelo? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Sí, sí, hable; pero... Aquello no era nada. Se ponía muy nervioso... ¡unas ansias! Y su madre tenía que cogerle la cabeza; y yo, y todos, le hablábamos, le animábamos... </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Sí, lo mismo; pero esta vez estaba solo. Llamaba a mi madre, y había muerto; llamaba a <rs key="#palm">Palmira</rs>, y había muerto; te llamaba a ti... ¡y estabas tan lejos! <stage>(<rs key="#tere">Teresa</rs> va acercarse a <rs key="#fern">Fernando</rs> con ademán de cogerle la cabeza, que él tendrá inclinada hacia adelante, pero se contiene; se aparta; se sienta lejos, y apoya su frente entre las manos.) </stage> Después tuve una especie de delirio.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¿Delirio? Eso, antes no. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Ahora sí. Y me dijeron después que llamaba a voces...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> A la señora... </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> No, a <rs key="#tere">Teresa</rs>; porque ya no tenía en el mundo más que a <rs key="#tere">Teresa</rs>. <stage>(Pausa.)</stage> De modo... que no sé si yo soy algo tuyo; pero ya ves como tú eres algo mío. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p><stage>(Conteniéndose.) </stage> La señora... era tan buena, tan cristiana, que criaba a los hijos y a los criados, como hijos de Adán todos, y todos hermanos en Cristo. Desde niños, nos tratábamos así. A mí me quería tanto... y sobre todo, después que murió la señorita...  </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Sí; pero hay que decirlo todo. Sí, todo, por lo que ya sabes; porque tengo que marcharme... ¡y así no quiero irme! <stage>(Se pone en pie exaltado.) </stage> <rs key="#tere">Teresa</rs>, mi madre quería que el señorito y la criada, se amasen como hermanos; pero si el señorito se hubiese enamorado de la criada, no le hubiese dejado decirle que la quería... casarse con ella. Si un día llegó a temer algo, no se sabe; lo cierto es que la criada salió de casa con un pretexto... y al año se casó; y a poco desapareció del pueblo... y vino a enterrarse en las minas. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Y Dios se lo pague a la señora, de gloria. ¿Qué hubiera sido de mí sin mi <rs key="#roqu">Roque</rs>? ¿Servir en otra casa? ¡Ay; yo no servía para eso! Otros amos, no.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Te buscaron a <rs key="#roqu">Roque</rs>? </p>
-				</sp> 
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Sí; me lo buscaron Dios y la señora.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¡Dios! ¿Pues merecías tú castigo? </p>
-				</sp> 
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p><stage>(En pie.)</stage>¡Señorito! También yo tengo que explicarle algo... <stage>(Pausa.)</stage> Para que nos entendamos. Yo a usted no quiero engañarle. Pero no sé decir lo que quiero. Hay cosas aquí dentro tan revueltas, que no les encuentro el nombre; entiéndame usted como pueda. Después que uno se casa... si se casa bien, como yo..</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Yo no sé nada de eso; porque yo no me he casado... </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Yo sí porque tenía miedo al hambre, a ser esclava, a humillarme, a estar sola en el mundo, a que me perdiera la miseria... usted no entiende de esto, señorito. Por muchas cosas... así... dulces... como de música, que tenga uno allá dentro... viviendo así... al aire libre, sin casa, sin amigos, sin pan seguro... se entrega uno a otra cosa más triste, más fría, más segura... más terca... Pero, después, en esa misma vida que es... como áspera, cuesta arriba, sin gracia, pena de cada día, de cada hora... sin consuelo de soñar, de sentir aquellas cosas de que hablaban los libros que me leía la señora... en esa misma miseria sin luz... va apareciendo una suavidad, una costumbre... un calor, un apego... y... yo, señorito, doy por usted la vida; pero no me hable mal de <rs key="#roqu">Roque</rs>.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Mal, no; pero hay que hablar de él y de mí, y de ti, y de todos. Cuando saliste de casa, porque mi madre sospechaba que yo te admiraba demasiado y temía que no pudiera contener mi... afición, como tanto tiempo la contuve... cuando consentí aquella crueldad... </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¿Crueldad de quién? ¿crueldad de una santa?</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> No; no es eso. Crueldad... del mundo, de las preocupaciones de clase, de los artificios sociales... tú no entiendes esto. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No; no lo entiendo. Sólo sé que <rs key="#roqu">Roque</rs> habla mucho de eso mismo cuando se exalta, cuando se desespera, cuando le falta la paciencia; y cuando le hacen beber esos miserables.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Cuando saliste de casa yo debí oponerme... o seguirte. No hice nada de eso. Entonces no comprendía lo que iba a perder, perdiéndote. La poesía del sacrificio inculcada en mi corazón y en mi cerebro por mi madre, por mis lecturas, por mis meditaciones, me hacía ver muy hermoso el dolor de perderte, de no seguirte, ¡egoísta! sin reparar que había algo más que hacer que ser bueno pasivamente, como un esclavo. Yo debí seguirte, hacerte mía... Pero venció el respeto, venció el sacrificio... lo que creí el deber. Y a poco me vi solo en el mundo; sin mi madre, sin ti. Y a ti, ¡cómo te encuentro!  <stage>(Pausa.) </stage> No hablo de tu hermosura, no: no quiero ofenderte, no quiero molestarte. No quiero, ni puedo explicarte cómo para mí esa palidez, esos ojos tristes, esos pómulos que denuncian el martirio de la miseria como clavos de una crucifixión, hundidos en el rostro... en vez de borrar la gracia que siempre vieron en ti mis ojos y mi alma, la aumentan, la hacen sublime hermosura. ¡Tú no sabes, tú no puedes saber, cómo y por qué yo estoy al cabo de la calle de todos los engaños de la vida, y no creo en clases, y veo en tus harapos atavíos de princesa espiritual; tú no sabes lo que vales; tú no sabes lo que eres; tú no puedes saber cómo ni por qué vínculos que tú respetas, que tú tienes por santos, porque te lo enseñaron mi madre y tu corazón de mártir, para mí son vínculos, barrera, abismos, sólo porque tú quieres! ¡No se hable de que te quise; no se hable de que te quiero, ni de que te necesito; no se hable de que te respeté como a una santa cuando estabas en mi casa, durmiendo cerca de mi lecho, y los dos éramos jóvenes, lozanos, llenos de salud y de ilusión, y de esperanza, y de deseo... y yo leía en tus miradas furtivas, en los relámpagos de gloria que sin querer vertías sobre mi alma, que tú también hubieras sido para mí si te dejaran, si se pudiera!... ¡Ay, sí; se podía! ¡Eso ignorábamos! ¡Se podía!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Basta!... ¡Basta, señorito! Yo también quiero hablar. Mientras callo, le estoy engañando... y no quiero engañarle. Aquí se trata de todo menos de lo que más importa: de <rs key="#roqu">Roque</rs>, de esta casa, de esa hija que duerme ahí cerca... oiga, oiga cómo respira: ¡qué tranquila! ¡qué confiada! Se durmió sin cenar, con un pedazo de pan en la boca... porque no siempre han de ser patatas... óigala; ¡qué tranquila, qué confiada en su madre! Así trabaja <rs key="#roqu">Roque</rs> en la mina, en el campo: confiado, seguro de mí, de su casa... Si un miserable mal pensamiento me pasara por aquí, <stage>(La frente.)</stage> mientras mi hija duerme o mi marido sufre en la mina, gastando la vida en ganarnos el pan... ¡con estas manos, me arrancaba esta cabeza!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>  ¡<rs key="#tere">Teresa</rs>, me estás ofendiendo mucho! Ya conozco que no me quieres nada, cuando tan mal me entiendes. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No sé si le ofendo; pero sé que no le quiero mal... Y, si a hacer daño vamos... ¿por qué me habla de lo que no se puede hablar... de lo que no se habló nunca?... Si todo aquello fue gloria, ¿por qué nos la enturbia ahora... desde lejos? Nunca me avergonzó el señorito metiéndose a averiguar lo que yo miraba, lo que yo sentía. Callamos siempre los dos. ¡Bien haya lo que callamos! No se arrepienta; no se arrepienta de haber obedecido a la señora; de haber respetado el único bien que yo tenía... Calle ahora, que importa más que nunca, y no se llame a engaño... créame a mí, que he padecido mucho... A veces... para ciertas penas, las mayores, nadie me acompaña a sufrir... Pero mientras soy buena, me parece que no estoy sola. A los malos se les muere el Ángel de la Guarda.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>  Sé buena; pero no como yo lo fui, dejándote marchar para caer en la miseria. No seas buena, olvidándote tanto de mí. Lo que yo digo es esto: que no puedo sufrir el tormento de que tú, a quien tanto quiero y necesito, y por esto te hablo de que te necesito y te quiero, padezcas hasta el martirio esta clase de dolores groseros, materiales: la miseria, los trabajos forzados; y la soledad de tu alma en el trato soez, áspero y brutal de estos... desgraciados. ¡Yo no puedo consentir eso! No; no puedo. Me remuerde la conciencia y me sangra el corazón. Mira como yo te veo; como yo te tengo que ver; para mí, tú eres mi mujer; mi mujer a quien yo por egoísmo brutal, por estupidez, abandoné un día... y que ahora encuentro cubierta de harapos, arrastrando el peso de una montaña de deberes que la oprimen, la humillan, la matan...! ¡La idea de que tienes hambre, de que te... maltrata un hombre, a ti, a mi <rs key="#tere">Teresa</rs>! ¡No; imposible! ¡Todo esto va a acabarse!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p><stage>(Fría y solemne.)</stage> ¿Cómo? </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>  No sé; pero se acaba. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No olvide, señorito, que siendo <rs key="#roqu">Roque</rs> quién es, y cómo es, usted no puede hacernos ningún bien, y puede hacernos mucho daño.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Pues ¿cómo es <rs key="#roqu">Roque</rs>?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Figúrese que hubiera condes y marqueses, de eso que usted decía antes... del... socialismo... o cosa así; en fin, marqueses del orgullo de los pobres. Pues mi <rs key="#roqu">Roque</rs> es marqués, y duque, y conde. ¿No me entiende? Que para <rs key="#roqu">Roque</rs> hay clases, y la de usted es maldita; piensa, y no se trata de que tenga razón, sino de que lo piensa, y aquí es el amo, que de los señores no puede venir nada que no manche, que no deshonre si no se lo arranca la justicia del pueblo. Quiere lo que tienen los ricos para repartirlo, o no sé qué, pero no quiere nada de limosna. ¡Ay de mí, si de usted entrara un bocado de pan en mi casa! En cambio, no más con verle a usted aquí a estas horas, solo conmigo, ya creería que el señorito se lo había robado todo; porque, en rigor, ¿qué más tiene él que la honra que yo le guardo?</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¡Ah, por Dios, <rs key="#tere">Teresa</rs>, lo que dices! ¡Tu honra... a mí! ¡Ay, cuántas cosas has olvidado!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Eso, no, nada. Verá cómo recuerdo. Todas las noches, antes de meterse en su cuarto a velar, cuando la señora y yo nos íbamos a la cama, el señorito se quedaba paseando por aquella galería larga y estrecha. Al extremo estaba mi alcoba. Pasaba yo, y decía: ¡Buenas noches, señorito!  <stage>(<rs key="#fern">Fernando</rs>, que tiene oculta la cara entre las manos, inclinada la cabeza, hace signos de asentimiento.)</stage>  y entraba, y apagaba la luz... y oía sus pisadas que iban y venían... y ni una sola noche me cerré por dentro. Aquello sí que creería yo que sería ofenderle... A lo que usted era para mí... no le daba yo nombre... no soñaba con que usted me quisiera; no lo llamaba así, a lo menos. Pero de que estaba bien guardada por aquel centinela, estaba bien segura. ¿Acordarme? ¿Cómo he de olvidar aquella vida, si, cuando <rs key="#roqu">Roque</rs> grita furioso diciendo que no hay cielo... yo sé que por lo menos lo hubo? <stage>(Esto último lo dirá como ensimismada.)</stage></p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¡Ay, <rs key="#tere">Teresa</rs>!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Silencio!  <stage>(Ha creído oír algún ruido fuera. Se acerca a la ventana del primer término, y escucha; en el silencio de la escena se oirá, hacia la carretera del primer término izquierda, un rumor lejano, desigual, de voces, como de disputa, algunos gritos más altos a veces; todo vago y sordo todavía.) </stage>  ¡Ah, bueno fuera! <stage>(Se acerca a la puerta, la entreabre y saca fuera la cabeza para oír mejor, y observa.) </stage>¡Sí, es él; su voz; viene con otros... y ya está cerca! Pero, ¿cómo vuelve tan pronto? Y ya están ahí... ¡Señorito, señorito!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Pero, ¿qué pasa, qué tienes?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Perdone, don <rs key="#fern">Fernando</rs>; pero... tiene que marcharse. No: y por ahí, de frente, no: daría con ellos...</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Con quién? ¿Qué es esto? ¡Marchar! ¿Por qué?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> <stage>(Más enérgica.)</stage>  Sí, marchar, y sin que le vean; no hay más remedio. ¡Por Dios se lo pido! ¡Por mí... por todos!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> No te entiendo.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> <stage>(Impaciente.)</stage> Pues es bien claro: que viene <rs key="#roqu">Roque</rs>; que... no vendrá bueno; que no viene solo. Y no ha de verle a usted conmigo; solos aquí, a estas horas. <stage>(Le lleva del brazo hasta la puerta, sin oírle, atenta sólo a los de fuera.) </stage> </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¿Esconderme... yo huir de ti como un criminal? ¡Nunca! Tu marido, ¿qué puede sospechar?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> <stage>(Impaciente.)</stage> Pues es bien claro: que viene <rs key="#roqu">Roque</rs>; que... no vendrá bueno; que no viene solo. Y no ha de verle a usted conmigo; solos aquí, a estas horas. <stage>(Le lleva del brazo hasta la puerta, sin oírle, atenta sólo a los de fuera.) </stage> Y pronto, pronto. <stage>(Fijándose ahora en lo que <rs key="#fern">Fernando</rs> ha dicho.)</stage> ¿Sospechar? Nada. Todo lo dará por seguro; y con él los otros; ¡y cómo vendrá! -Por ahí, por ahí; por detrás del carro, a la carretera, hacia la mina, arrimado al seto...</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¡Nunca!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> ¡Ahora mismo! ¡Por la memoria de la señora! No podría usted hacerme mayor daño que quedarse. Si no escapa, le juro que estoy perdida. ¡Por la señora! ¡Por lo que más quiera!  <stage> (Vuelve a mirar fuera y se vuelve atrás de repente.)</stage> ¡Oh, rabia! ¡Mísera de mí! ¿qué culpa tengo yo? </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Pero, ¿qué es?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Que es tarde; que ya están ahí; que la luna alumbra traidora, y le verán si sale.   <stage> (Mantiene la puerta cerrada y sujeta.)</stage> ¡Don <rs key="#fern">Fernando</rs>! </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> Pero... si... parece mentira...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Parece mentira... y hay que esconderse. Viniendo, como de fijo vendrá, ese infeliz; viéndole gente, compañeros; siendo usted un señor, el que yo llamo el señorito, el que me ha hecho a mí servil, como él piensa... y a estas horas, aquí solos, juntos, sin él saberlo... y como vendrá... ¡oh! de seguro, no le respeta.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p> ¡Cómo se entiende!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> Si no es por usted; si es por mí... por lo único mío que no es un andrajo, una miseria; por esta honra que tan bien guardaban usted y su madre, allí en el palacio de Soto... ¡Porque yo no quiero que mi <rs key="#roqu">Roque</rs> me crea mala... y haya aquí sangre... y deshonra!... ¡Por esa hija que duerme con hambre! <stage>(Se oyen más cerca los gritos; aparece en el primer término izquierda un grupo, en medio de él, <rs key="#roqu">Roque</rs>, vociferando.) </stage></p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="7">
-				<head>Escena Séptima</head>
-				<stage><rs key="#tere">Teresa</rs> y <rs key="#fern">Fernando</rs> en la casa; fuera <rs key="#roqu">Roque</rs> y grupo de <rs key="#min1 #min2">Mineros</rs>.</stage>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker>
-					<p> ¡Vaya! ¡Basta! No necesito de nadie. Sé andar solo.  <stage>(Da algunos pasos vacilantes. El pie herido, lo apoya apenas en el suelo; trae destrozado el pantalón por debajo y el zapato con manchas de barro y sangre y medio deshecho.) </stage>¡Ah, rayos! <stage>(Grita así al sentir el dolor del pie, que quiere apoyar en tierra. Se inclina para apoyarse en el montón de grava y no caer. Se le acercan los del grupo, que muestran solicitud y animación de gente que ha bebido demasiado.) </stage></p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker> 
-					<p> Vaya, vaya; a la cama. <rs key="#tere">Teresa</rs>, aquí tienes a éste; abre.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> <stage>(Que habrá estado como deliberando dónde podrá esconder a <rs key="#fern">Fernando</rs> y persuadiendo a éste.)</stage> No, ahí dentro, no; por mal que venga, no se acostará sin ver cómo duermen la niña y <rs key="#rita">Rita</rs>. Por ahí tampoco; es nuestro cuarto. No hay más remedio; detrás de esa escalera; en ese hueco. Arriba es el pajar; está cerrado... no está aquí la llave; ahí, ahí detrás. ¡Qué vergüenza, señorito, qué vergüenza! ¡Perdón, perdón!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker>
-					<p>Bueno, calla. ¡Pobrecilla mía! No padezcas tanto. No me importa; algo he de hacer por ti. Allí espero... ¿Allí no irá?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker>
-					<p> No; primero me mata. ¡Pero, por Dios, don <rs key="#fern">Fernando</rs>! Que vea usted lo que vea, oiga lo que oiga... no puede ser nada que me haga más injuria que el salir usted y que se encuentren.<stage> (El grupo de fuera habrá estado hablando confusamente.)</stage></p>
-				</sp>
-
-				<sp who="#min2">
-					<speaker>Minero 2º</speaker> 
-					<p> Bueno, adiós. Y santas noches. Mañana... ya se sabe, ni uno solo a la mina. Todos a la Foz, al monte. ¿Irás <rs key="#roqu">Roque</rs>... si te deja la herida?</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p>¡Rayos! Iré... y arda el mundo. Y si vienen los guardias, ¡a ellos! ¡Miserables! Son verdugos; son cómplices. </p>
-				</sp>
-
-				<sp who="#mins">
-					<speaker>Mineros</speaker> 
-					<p>  ¡Buenas noches! </p>
-				</sp>
-
-				<sp who="#otro">
-					<speaker>Otros</speaker> 
-					<p>  ¡Buenas noches, <rs key="#roqu">Roque</rs>! </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> No, esperad un momento; quiero que se vea... que se vea... ¡<rs key="#tere">Teresa</rs>! <stage>(Gritando.)</stage>que vean que el Chinto miente como un canalla; ¡<rs key="#tere">Teresa</rs>! abre de par en par, que pasen éstos; que vean que en mi casa no entra, sin mi permiso, a escondidas, ningún burgués infame... ¡<rs key="#tere">Teresa</rs>! ¿No sales? ¿Qué es esto?<stage>(Abre <rs key="#tere">Teresa</rs> la puerta. <rs key="#roqu">Roque</rs> se incorpora con dificultad.) </stage></p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker> 
-					<p> No seas loco.</p>
-				</sp>
-
-				<sp who="#min3">
-					<speaker>Minero 3º</speaker> 
-					<p> Estás algo... ves turbio.</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> No, veo claro... para defender mi honra... </p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker> 
-					<p> ¡Bah! ¿Quién piensa...? Aquí nadie dice... ni nos importa. El Chinto es una mala lengua.</p>
-				</sp>
-
-				<sp who="#min2">
-					<speaker>Minero 2º</speaker> 
-					<p> Te envidia, porque tienes amigos, partido...</p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Uno</speaker> 
-					<p> Y te odia porque le pinchas.</p>
-				</sp>
-
-				<sp who="#min3">
-					<speaker>Minero 3º</speaker> 
-					<p> Y haces bien; está vendido a los de arriba, a los que nos explotan.</p>
-				</sp>
-
-				<sp who="#min1 #min2 #min3">
-					<speaker>Todos</speaker> 
-					<p> ¡Buenas noches, buenas noches!</p>
-				</sp>
-
-				<sp who="#min1">
-					<speaker>Minero 1º</speaker> 
-					<p> Hasta mañana.</p>
-				</sp>
-
-				<sp who="#min3">
-					<speaker>Minero 3º</speaker> 
-					<p> En la Foz. <stage>(Desaparecen por varias partes, y a paso lento los <rs key="min1 min2">MINEROS</rs>.) </stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¿Estás sorda? ¿Qué hacías? ¿Por qué no vienes? Abre ahí de par en par; que vean todos que en mi casa no hay señores. </p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="8">
-				<head>Escena Octava</head>
-				<stage><rs key="#tere">Teresa</rs> y <rs key="#roqu">Roque</rs>; <rs key="#fern">Fernando</rs>, escondido.-</stage>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¿Qué es esto, <rs key="#roqu">Roque</rs>? ¿Por qué vuelves tan pronto? ¿Qué tienes? </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> Se han marchado. No quieren entrar; no quieren ver... </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Entra tú.</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡Silencio! ¡Déjame! ¡Maldita casa! ¡Maldita mujer!... ¡Cómo atáis; cómo atáis a la miseria... y al miedo... al miedo de perder el pan... y la honra; ¡oh, yo quería ser libre! ¡Para luchar, para vengarme!... Para no deber a ese miserable, a ese judío... que me insulta, porque me tiene atado... porque... ¡Tú tienes la culpa de todo! <stage>(Airado.) </stage> </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡<rs key="#roqu">Roque</rs>, por Dios, <rs key="#roqu">Roque</rs>! Entra... ¿No puedes andar? ¿Qué tienes?</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡Será la borrachera, mujer! ¿Por qué no lo dices? ¿Por qué no me lo echas en cara? Sí, el aguardiente; es eso; el veneno que nos vende el burgués para embrutecernos, y volvernos locos... y tener él razón y perdernos. <stage> (Tropieza, y se lastima en el pie herido.) </stage> ¡Ah, rayos!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¿Qué es eso? <stage>(Con ansiedad.)</stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡Eh! <stage> (Con desprecio.)</stage> Quita... nada. </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¿La herida... otra vez abierta? Entra, entra... <stage> (Quiere ayudarle a entrar.) </stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡No te acerques... o no respondo!...<stage> (Entra él solo en la casa con dificultad; se sienta en el banco junto a la mesa; apoya el pie en ésta, y la cabeza en la mano.)</stage> </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> <stage>(Entrando.)</stage>Pero yo, ¿qué te he hecho? ¿Qué pasa? ¿Por qué vuelves tan pronto? Déjame ver...<stage> (Señalando al pie herido.) </stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡No te acerques! Y abre esa puerta... que me ahogo; y quiero que todos vean mi casa donde no hay burgueses... donde no hay señoritos. <stage> (Se levanta.) </stage>¡Digo! Me parece... Habla tú... ¿Hay aquí algún miserable? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Por Dios, <rs key="#roqu">Roque</rs>, deliras!... ¿Qué es esto?</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡Por Dios! ¡Por Dios! La beata; la santurrona; servil, siempre servil. ¡Por ti todo! ¡Por ser quien eres! ¡Por venir de donde vienes! ¡Ah, no sabes lo que sé! El Chinto contaba la historia a grito pelado en la taberna. ¿No lo sabes? Tu señorito, el don <rs key="#fern">Fernando</rs>, ese que para ti era un Dios, un ángel, un santo... ¡qué sé yo! ¡El hijo de tu ama, la que te hizo a ti santa, servil... pues ese, ese... viene a las minas a tenernos lástima; a estudiarnos... y a darnos una limosna a ti y a mí... porque dice el Chinto que fuiste su criada, ¡y eso es verdad! Y que allá en el palacio de Soto, te querían mucho, mucho... demasiado... ¡Rayos! ¡Me engañaste miserablemente!... ¡Me buscaron a mí... para...! </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Estás loco, pobre <rs key="#roqu">Roque</rs>! ¿Tú crees en mí...?</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡Nada! ¡No! ¡Te mataba! ¡Te aplastaba!... Pero el Chinto lo decía, y yo me arrojé a matarlo... Y basta que lo pueda decir; que tenga algo a que cogerse... Tú siempre con tu señora; con tu palacio de Soto. ¡Yo no quiero mujer! No quiero casa; no quiero honra que guardar; pan que ganar para vosotras... quiero ser solo, y batirme con quien me explota, cuerpo a cuerpo, el burgués y yo. Conspirar; sublevar la mina; y las otras, las del hierro, para hacer puñales, y guillotinas, y balas, y cañones... ¡quiero sangre! La de tus señoritos santos, que explotan al pueblo... y después lo estudian y le tienen lástima, y le arrojan limosna! </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Cálmate un poco, <rs key="#roqu">Roque</rs>. Siéntate. Ese pie sangra. ¡Dios mío, sangre! Déjame ver... ¿pero, qué fue? ¿Cómo fue?</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡No te acerques!... Yo estaba leyendo... leyendo el papel a los compañeros; y el Chinto, en otra mesa, se reía, y cuando le insulté por miserable, por vendido a los que nos explotan, a los amos; cuando le dije que él era un esclavo asalariado del burgués y yo un obrero leal, que me debía a mis ideas, -«Cuéntame entre tus ideas» me gritó el Chinto.- ¿Por qué? «Porque a mí también me debes algo.» -Perdí la vista... así como ahora... que no veo; pero allá, por dentro, vi rojo, vi sangre... Me arrojé sobre el bandido, pero caí a tierra; sentí aquí un dolor, tropecé con no sé qué... me sujetaron: y la herida de la mina, del maldito peñasco, echaba sangre, dolía como un infierno... Quise levantarme y matar a aquel hombre, pero no me dejaron. Me sujetaban... y a él la lengua no; y decía... eso... que tú... que el señorito... <stage>(Exaltación súbita.)</stage>¡Ah! y todo es posible. Porque los señoritos roban la honra del pueblo como cosa de poco precio. Y tú, tú piensas como ellos; tú te burlas de mí, de mis ideas, me tienes atado, esclavizado... por ti soy servil... aquí... en la mina; por ti no tiene pan mi <rs key="#rita">Rita</rs>, la que me dejó mi madre, mi pobre <rs key="#rita">Rita</rs> enferma... que no me engaña, que nunca fue, como tú, una miserable criada, esclava... ¿Callas, callas? ¡es que eres culpable! ¡Hipócrita, defiéndete, que te mato! <stage>(Avanza amenazador con paso vacilante.) </stage></p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Estás ciego, loco... <rs key="#roqu">Roque</rs>! ¡Mira lo que haces, loco, ciego!  <stage>(Retrocediendo hacia la puerta. Ve a <rs key="#fern">Fernando</rs> que sale de su escondite para lanzarse sobre <rs key="#roqu">Roque</rs>, el cual le da la espalda, persiguiendo con paso difícil a <rs key="#tere">Teresa</rs>. Ésta, al ver la actitud de <rs key="#fern">Fernando</rs>, se precipita sobre el banco que hay junto al hogar y coge el cuchillo que está allí entre pellejos de patata. Blandiendo el arma contra su pecho, amenaza con herirse con ademán tan enérgico, claro y resuelto, expresión capital que se fía al talento de la actriz, que no deja lugar a duda a <rs key="#fern">Fernando</rs> respecto del intento. <rs key="#fern">Fernando</rs> vacila, pero al fin retrocede, se esconde, ante la actitud de <rs key="#tere">Teresa</rs>.) </stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡Ah! ¿qué es eso? ¿Me amenazas? ¿Tú a mí? Aquí anduvo el señorito. Nunca has hecho eso. Consejos del señorito, ¿verdad? Eso quiero yo: ¡guerra, sangre! No: pero yo no te mato... Espera... espera... me falta algo... la luz... ya... sé... la vara del guardia... allá dentro la tengo... Ya la conoces... se la arranqué a un guardia que azotaba a un minero el día de la huelga... ¿Dónde está, mala pécora? ¡Ay de ti si la has escondido! Si no parece, con esto te aplasto. <stage>(Sacudiendo en la mano la lámpara de minero que estaba sobre la mesa. Sale, arrastrando el pie, tropezando con todo, por la puerta del segundo término de la derecha. Se ha de notar en su gesto, voz y actitudes, que la excitación aumenta por momentos el desvarío de la embriaguez y la ira.)  </stage></p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="9">
-				<head>Escena Novena</head>
-				<stage><rs key="#tere">Teresa</rs> y <rs key="#fern">Fernando</rs>.<rs key="#tere">Teresa</rs> se deja caer sollozando sobre una silla de paja que hay cerca de la ventana. <rs key="#fern">Fernando</rs> sale de su escondite.</stage>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Oh!  <stage>(Levantándose asustada al verle.) </stage> </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p><stage> (Mostrando el efecto que le ha producido la lucha interior mantenida para contenerse, y no salir antes.) </stage>¡Basta! </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> No; no basta. A la calle; pronto. Huya usted. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p>  Ven tú.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Locura, perdición! A la calle; pronto... fuera. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p>  No; o vienes o me quedo... y le mato.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p><stage>(Coge otra vez el cuchillo.)</stage> O sale, o escapa, o muero yo: juro por Dios y por la santa señora difunta, que muero yo. Créame, señorito; no he mentido en mi vida... ¡Muero! ¿No me conoce en los ojos que es verdad que muero; que me clavo si él vuelve y usted se queda? ¡Luego, o clavo!... </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p>Un instante. Soy un hombre. Huir sería cobarde... ¡Sin defenderse! ¡Sin salvarte!... Va a venir... con la vara del guardia. ¡Ay, que ya la conoces! ¡Ah, maldito!... ¡Y me dices que ese hombre es bueno!...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> No digo bueno ni malo; es mi hombre; soy suya. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> La vara del guardia.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Mentira... sueña... está loco... No pega. </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> ¡Sí pega!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p><stage>(Mesándose los cabellos.) </stage>¡Pero qué le importa a nadie lo mío! ¡Mi casa es mía! ¡Nuestra vida, nuestra! ¡No me ofenda, señorito! ¡Esta limosna tampoco yo la quiero! ¡Pues salga usted o muero, y muero yo, y morimos todos! <stage>(Vuelve a amenazarse con el cuchillo.) </stage></p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p><stage>(Dentro.)</stage> ¡<rs key="#tere">Teresa</rs>! ¿Con quién hablas? <rs key="#tere">Teresa</rs>, ¿qué es esto?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p><stage>(Arrebatada por el pavor, coge a <rs key="#fern">Fernando</rs> por medio del cuerpo, le impele hacia la puerta, que cierra por dentro con cerrojo y se vuelve de frente a la habitación en que habla <rs key="#roqu">Roque</rs>. Al arrojar a <rs key="#fern">Fernando</rs>, en voz baja, enérgica, dice.) </stage> ¡Fuera digo; fuera!</p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="10">
-				<head>Escena Décima</head>
-				<stage><rs key="#tere">Teresa</rs> y <rs key="#roqu">Roque</rs> en la casa; <rs key="#fern">Fernando</rs> fuera.<rs key="#roqu">Roque</rs> aparece en el umbral, donde se detiene, apoyándose en el marco de la puerta. Cada vez anda con más dificultad. Dará muestras de gran fatiga, postración sombría, más furor, pero más ciego, incoherente y de difícil expresión.</stage>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¿Con quién hablabas?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p>Sola; con tus injurias.</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> No te entiendo... no veo... Tengo aquí plomo, <stage>(En la cabeza.)</stage>y aquí cien perros de presa. <stage>(En el pie herido.) </stage> </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p>Déjame ver...</p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡No te acerques! ¿Qué buscaba yo? ¡Ah!... ¡No sé! <stage>(Furioso.)</stage> ¡Sí sé! Buscaba... a ese; a ese con quien hablabas. ¡Era tu don <rs key="#fern">Fernando</rs>! Luego no mentía el Chinto. Él le vio en la sombra; en el sendero de la Foz, dijo... venía aquí... ¡Mala mujer! dónde le escondes? Que salga ese cobarde, ese burgués maldito, que no cree, ¡como ninguno cree!, en la honra de los pobres. ¡Claro! Por eso se atreven con nuestras hijas, con nuestras mujeres. «¡Como tienen hambre, no tendrán vergüenza!» ¡Oh! que salga el tuyo y verá si muere, si paga por todos.<stage> (<rs key="#tere">Teresa</rs> habrá estado sacando del armario un vendaje.) </stage> ¿Dónde estás? ¿No me oyes? </p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p>Sí; aquí... </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡Contesta, discúlpate, miserable! ¡Pero no te acerques! Fuera pamemas, no quiero tus cuidados; que venga mi hermana; que me cure ella; a ti te aborrezco.<stage> (<rs key="#tere">Teresa</rs> insiste en acercarse inclinada para ver la herida de <rs key="#roqu">Roque</rs>. <rs key="#fern">Fernando</rs> observa, por la ventana entreabierta, con ansiedad. Durante toda esta parte de la escena en que no habla, el actor suplirá con la sobria acción oportuna las palabras que serían inútiles, pues está solo en la calle. Al principio habrá intentado mantenerse en la puerta, para entrar en caso de apuro, pero notará que está cerrada por dentro; mostrará contrariedad, cólera, y se acercará a la ventana, desde la cual seguirá el diálogo de dentro con la expresión y gestos que el actor juzgue del caso.) </stage></p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Déjame curarte, <rs key="#roqu">Roque</rs>! ¡Sangras! <stage>(<rs key="#tere">Teresa</rs> se arrodilla con una pierna, y así, avanza hacia <rs key="#roqu">Roque</rs> como pretendiendo cogerle el pie herido. Procura <rs key="#roqu">Roque</rs> retirarlo, retrocediendo algo, y esquiva a <rs key="#tere">Teresa</rs> y llega a amenazarla con la lámpara de minero.)</stage> </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p> ¡No te acerques, causa de mi desgracia, de mi esclavitud, de mi deshonra... servil... criada villana, beata hipócrita!... ¡No te acerques, o te mato!... ¡Quita! <stage> (Rechaza a <rs key="#tere">Teresa</rs> con la mano que empuña la lámpara, y hiere con ella en la frente a su mujer. Brota sangre de la herida. Grito de dolor y espanto de <rs key="#tere">Teresa</rs>, que retrocede hacia la ventana, aturdida.) </stage></p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Ay de mí! </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> ¡Cobarde! ¡Miserable! <stage>(Desde fuera, metiendo los puños crispados entre las rejas de la ventana. <rs key="#tere">Teresa</rs>, que había llevado las manos a la frente, encogida, se yergue, se lanza a la ventana y la cierra de golpe; se coloca de espaldas a ella como antes hizo en la puerta. <rs key="#fern">Fernando</rs> mostrará la ansiedad de su situación, sin osar revelar su presencia; todas sus potencias, en adivinar lo que pasa dentro y no puede ver; pero sin distraer la atención del público, que debe concentrarse en la casa.)</stage> </p>
-				</sp>
-
-				<sp who="#roqu">
-					<speaker>Roque</speaker> 
-					<p><stage> (Cree que fue <rs key="#tere">Teresa</rs> quien habló; esto ha de hacerlo más verosímil el actor por el modo de su acción, y mostrando el progreso del mal en <rs key="#roqu">Roque</rs>, próximo al colapso.) </stage>¡Gracias al diablo que contestas! Mas, quiero eso, eso... ¡Así aplastaré en tu persona las malditas ideas de servidumbre que te enseñó la tunanta de tu ama... la que me endosó esta pécora!... ¡Oh! ¿qué es esto? ¡Me ahogo!... ¡<rs key="#tere">Teresa</rs>!... ¡Ven, <rs key="#tere">Teresa</rs>! ¡Yo estoy loco! ¡Aquí fuego... y plomo!... ¡Plomo! ¡Cómo pesan estos burgueses! ¡pesan sobre mi honra... aquí... encima del cráneo!... ¡<rs key="#tere">Teresa</rs>!... ¡Mi <rs key="#palm">Palmira</rs>!... ¡<rs key="#rita">Rita</rs>!... ¡Madre!... ¡<rs key="#tere">Teresa</rs>!...<stage> (Se desploma y cae al suelo, de espaldas, en cruz.) </stage></p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p>¡<rs key="#roqu">Roque</rs>!... ¡<rs key="#roqu">Roque</rs>! <stage> (Se lanza a él; le sujeta la cabeza, que apoya en sus rodillas.) </stage>¡Ya acabó todo!... ¡Ya pasó la tormenta! Pero, ¡cómo pasa!... ¡cómo acaba! Y hoy más feroz que nunca... Salió sin cenar, excitado; y allá, ese Chinto infame... ¡Ah! Pero no; no será nada. Será lo de siempre: el pasmo de siempre. ¡Triste veneno te dan esos malditos! ¡Pago yo, pagas tú, todos! ¡Santa madre de Dios!... ¡qué vida!... ¡qué vida! ¡Ah, miseria! ¡Mal haya! (Se desploma y cae al suelo, de espaldas, en cruz.) <stage>(Voz de lágrimas.) </stage> ¡Todo es la miseria! <stage>(Inclina la frente sobre el pecho de <rs key="#roqu">Roque</rs>, cuya cabeza ha dejado suavemente en tierra.)</stage> Pero ahora, ¿cómo le levanto de aquí?... ¿Cómo le llevo a la cama... yo sola? No puedo con él. ¡Despertar a <rs key="#rita">Rita</rs>... no! Dios hace que duerman siempre como piedras. No saben nada de estas cosas... <rs key="#rita">Rita</rs> sí. Algo sabe; pero calla: teme avergonzarme. Hoy no; hoy no ha oído nada. Hoy duerme ella como éste, como el hierro.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p><stage> (Ha notado el silencio del interior; crece su impaciencia: procura violentar la puerta; llama suavemente, y dice.)</stage> ¡<rs key="#tere">Teresa</rs>!... ¡<rs key="#tere">Teresa</rs>! ¡Por compasión!... ¿Qué sucede? ¡No puedo más! ¡Abre, o salta la puerta!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Ah! ¡Don <rs key="#fern">Fernando</rs>! Infeliz; lo que habrá padecido... Sí; le abro... Ahora no importa. ¡Que me ayude primero... y después que marche y que en la vida vuelva!<stage> (Abre a <rs key="#fern">Fernando</rs>.) </stage> </p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p>¿Qué es esto? ¡Mi <rs key="#tere">Teresa</rs>! ¿Ese hombre? <stage>(<rs key="#tere">Teresa</rs> extiende una mano hacia <rs key="#roqu">Roque</rs>.) </stage> ¡Ah! sí. Ya veo. Al fin, como un leño. Sus vicios hacen justicia a sus crímenes.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Silencio! ¡Es mi marido!... ¡Y es un hambriento!<stage> (Se acerca a <rs key="#roqu">Roque</rs> como amparándole.)  </stage> Ahora, está así, porque el hambre, el despecho, el afán, el miedo a la miseria... y los que venden veneno a los pobres en aguardiente y en papeles... le echaron ahí como un saco. Pero otras veces estuvo igual, sin dar pie ni mano... porque el gas de la mina le arrojó contra una peña. Y siempre viene a ser lo mismo. ¡Todo es hambre! La suya y la nuestra, que se le sube a la cabeza con el engaño de la traidora bebida...</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> Pero tú, tú... ¿por qué has de sufrir?... Yo no lo sufro. Esto se acabó para siempre. ¡No me exijas más! He padecido en estos momentos, más que en toda mi vida. Por ti... he sido un miserable... ¡Tuve que hacer... lo que haría un cobarde! ¡Oh, rabia!</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> No. Tampoco ha de insultarse a sí propio.<stage> (Sombría.)</stage> Nadie tiene la culpa de nada. Ahora, a lo que importa. Voy a sacar el jergón de este infeliz. Si le metiera en la cueva en que dormimos, se ahogaría. Hoy descansará aquí fuera. Me ayudará usted, señorito... Aguarde un momento. <stage> (<rs key="#tere">Teresa</rs> entra por la puerta segunda de la derecha. En tanto <rs key="#fern">Fernando</rs> se sienta lejos de <rs key="#roqu">Roque</rs> y oculta la cabeza entre las manos.)</stage> ¡Señorito, ánimo, ea! <stage>(Sale arrastrando un jergón.)</stage>	Ayude, y van dos; usted por la cabeza... yo por los pies para que no se lastime. <stage>(Colocan a <rs key="#roqu">Roque</rs> sobre el jergón en la misma postura que tenía en tierra.)</stage> No hay miedo, no; ahora no despierta. Mañana el pobre <rs key="#roqu">Roque</rs> no se acordará casi de nada. Algo le picará en la conciencia, pero eso se le quita poco a poco sudando en la mina. Si éstos son pecados, harto los purga allá dentro. <stage> (Se arrodilla para curar la herida a <rs key="#roqu">Roque</rs>.) </stage></p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> <stage>(Acercándose por detrás a <rs key="#tere">Teresa</rs>.)</stage> Pero tú le perdonas... pero tú olvidas... ¡Oh! ¡esta sangre! <stage>(Al ver que le resbala a <rs key="#tere">Teresa</rs> por la frente al inclinarse.) </stage></p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Es la suya...</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> ¡No! Es tuya...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Suya o mía... no importa; ¡es sangre nuestra!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> ¿Y no aborreces esta vida? ¿No desprecias y maldices al bárbaro y cruel que te maltrata? <stage>(<rs key="#tere">Teresa</rs> se pone en pie.) </stage></p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Despreciar! ¡Aborrecer! ¿Con qué derecho? Como su pan; duermo en su cama. Él me ampara contra todos. Me aguanta, le aguanto; esta es la vida. Lo que usted ve ahí... no es lo que yo veo. ¡Ay, señorito! Usted que es tan sabio, que ahora estudia a los pobres... nunca comprenderá lo que es el miserable. Yo lo sé, porque soy carne suya, y donde le duele, me duele. Como le ayudo a lavarse el cuerpo, que parece de diablo, cuando sale negro o encendido de la mina, con el pensamiento le lavo el alma, y se la veo limpia, con cara de domingo; enferma no más del hambre que taladra el cuerpo, y llega a los corazones. ¡Y basta! Y ahora váyase, que aunque duermen como piedras, por milagro podrían despertar <rs key="#rita">Rita</rs> o <rs key="#palm">Palmira</rs>, y oírle; y ya es tarde, muy tarde... ¡Oh, qué noche! <stage>(Se siente desfallecer, y cae sentada cerca de <rs key="#roqu">Roque</rs>.)</stage></p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p><stage>(Se acerca por detrás; se inclina, y le dice al oído.)</stage> De todos te acuerdas... menos de mí... y de ti...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Basta, don <rs key="#fern">Fernando</rs>! ¡Que adiós le digo!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> Y lo que yo he sufrido y sufro... ¿no es nada?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Dios se lo pague, pero hizo lo que debía.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> Pero fue terrible sacrificio. No importa. Todo está bien. Pero págamelo. ¡<rs key="#tere">Teresa</rs>, yo no puedo marchar así! <rs key="#tere">Teresa</rs>... sígueme; ven conmigo. Haz algo tú por mí, ven... que yo no puedo dejarte en esta vida de infierno.</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Ésta es vida de purgatorio; de infierno, sería esa otra.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> Llevaremos a tu hija... duerme; sin despertarla. Tal vez podríamos llevar la...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Sí, eso. Robárselo todo. Pero por mucho que le robáramos, no le robaríamos lo que es suyo aquí, en mi corazón.</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> <stage>(Retrocede un paso.)</stage>¡Bien! ¡Basta! ¡Adiós! <stage>(Va hacia la puerta.) </stage>Con eso lo dices todo. En fin, que a él le quieres, y a mí...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Ya lo creo que le quiero! Y a usted, don <rs key="#fern">Fernando</rs>, ¿no le quiero? <stage>(Acercándosele, pero llevándole suavemente hacia la puerta.)</stage> Lo que yo no quiero, es que mi señorito padezca solo... viva solo allá en el mundo; no quiero que cuando le dé el mal de sus angustias, de las ansias, no tenga un regazo en que apoyar la cabeza. ¡Y no lo tiene, no lo tiene! <stage>(Ya estará fuera <rs key="#fern">Fernando</rs>, y <rs key="#tere">Teresa</rs> en el umbral.)</stage> ¡Búsquelo, señorito! ¡Cásese, cásese por Dios; que tenga quién le quiera, quién le acaricie y le consuele en sus angustias!... No, no esté solo; ¡yo no quiero que mi señorito esté solo!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> <stage> (Enternecido.) </stage>¡<rs key="#tere">Teresa</rs>! Pero... ¿y tú?</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> Yo no estoy sola... Y adiós, adiós; no más, no más estar aquí. ¡No vuelva, no vuelva!</p>
-				</sp>
-
-				<sp who="#fern">
-					<speaker>Fernando</speaker> 
-					<p> Por ahora, no. Mi presencia, para ti es duelo, espanto, desgracia. Tu único bien, pobre mártir, es que yo marche. Adiós, adiós; mi dulce, mi pobre <rs key="#tere">Teresa</rs>; hija del alma de mi madre...</p>
-				</sp>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Eso! ¡Eso! La santa madre nos bendiga. <stage>(Según <rs key="#fern">Fernando</rs> se aleja lentamente, vuelve el rostro hacia la casa; <rs key="#tere">Teresa</rs>, sacando el busto fuera como si quisiera seguirle sin moverse, va dando más expresión de ternura a sus palabras de despedida.)</stage> Hasta... cuando Dios quiera... Buenas noches... <stage>(Ya no se ve a <rs key="#fern">Fernando</rs>.)</stage> Buenas noches, señorito.</p>
-				</sp>
-			</div>
-
-			<div  type="scene" n="11">
-				<head>Escena Undécima</head>
-				<stage><rs key="#tere">Teresa</rs>; <rs key="#roqu">Roque</rs>, en tierra. Después que pierde el ruido de los pasos de <rs key="#fern">Fernando</rs>, se vuelve, a <rs key="#roqu">Roque</rs>, aletargado.</stage>
-
-				<sp who="#tere">
-					<speaker>Teresa</speaker> 
-					<p> ¡Y tú, mi pobre león! ¡Ah, otra vez la sangre! ¡Desatada la venda! <stage>(Corre a él; al inclinarse para atar la herida desatada siente la sangre que le resbala por la frente, y le nubla la vista.) </stage>¿Qué es esto? ¡No veo! <stage> (Lleva los dedos a la frente; ve en ellos la sangre.) </stage> ¡Ah; no es nada! <stage>(Rasga con prisa un pedazo de la venda de <rs key="#roqu">Roque</rs> que había desenvuelto, se lo ata como quiera, con fuerza, alrededor de la frente y sigue ligando el pie de <rs key="#roqu">Roque</rs>, siempre inmóvil, en cruz. Como contestando a su pensamiento.)</stage> ¡Yo aquí!... ¡Siempre aquí!... ¡Junto al hombre de mi cruz...! ¡Al pie de mi cruz... que sangra! <stage>(Telón.)</stage></p>
-				</sp>
-			</div>
-		</div>
 		</body>
 
 		<back> 
