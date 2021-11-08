@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/104444419.svg)](https://zenodo.org/badge/latestdoi/104444419)
 
 ## Introducción
-La *Biblioteca Electrónica Textual del Teatro en Español 1868-1939* (BETTE) es una colección de textos teatrales de la Edad de Plata española, codificada en XML-TEI por el grupo GHEDI de la Universidad Internacional de La Rioja (UNIR). En su primera fase (BETTE 1.0) hemos publicado veinticinco textos de nueve autores: García Lorca, Valle-Inclán, Muñoz Seca, Echegaray, Unamuno, Valera, Clarín, Galdós y Dicenta.
+La *Biblioteca Electrónica Textual del Teatro en Español 1868-1939* (BETTE) es una colección de textos teatrales de la Edad de Plata española, codificada en XML-TEI por el grupo GHEDI (Grupo de Humanidades y Edición Digital) de la Universidad Internacional de La Rioja (UNIR) hasta octubre de 2017 y que prosigue su tarea como HDATEATROUNIR, desde febrero de 2018. En esta primera fase (BETTE 1.0) hemos publicado veinticinco textos de nueve autores: García Lorca, Valle-Inclán, Muñoz Seca, Echegaray, Unamuno, Valera, Clarín, Galdós y Dicenta. 
 
 ## Estado del Arte y Motivación
 El teatro hispánico ha sido objeto de numerosos e importantes proyectos dentro de las Humanidades Digitales en nuestra lengua. Proyectos como (citamos algunos de los más importantes) *TESO* (Simón Palmer 1997), *Biblioteca Digital Arte Lope* (Oleza Simó 2013), o *Canon 60* (Oleza Simó 2014) ya han trabajado en XML-TEI codificando obras de teatro en español. Sin embargo hasta ahora se ha trabajado prácticamente en exclusiva el período áureo de este género literario, dejando de lado otras épocas. Además, los citados proyectos no ponen a disposición de la comunidad investigadora los datos XML-TEI originales, sino apenas una exportación en HTML.
